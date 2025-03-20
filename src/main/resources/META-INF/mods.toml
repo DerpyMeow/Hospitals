@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="hospitals"
+version="1.0.0"
+displayName="Hospitals (THM Expanded)"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+credits="This Mod Is An Updated And Expanded Version Of Leon90's \"The Hospital Mod\". Original Mod - https://www.curseforge.com/minecraft/mc-mods/the-hospital-mod"
+authors="Leon90, DerpyMeow"
+description="This Brings Complex Medical Blocks To Minecraft: Based Off Of Leon90's Mod."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.hospitals]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

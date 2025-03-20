@@ -1,0 +1,33 @@
+{
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "hospitals",
+    "modName": "Hospitals (THM Expanded)",
+    "version": "1.0.0",
+    "description": "This Brings Complex Medical Blocks To Minecraft: Based Off Of Leon90\u0027s Mod.",
+    "author": "Leon90, DerpyMeow",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "This Mod Is An Updated And Expanded Version Of Leon90\u0027s \"The Hospital Mod\". Original Mod - https://www.curseforge.com/minecraft/mc-mods/the-hospital-mod",
+    "modElementsPackage": "net.derpymeow.hospitals"
+  },
+  "mcreatorVersion": 202400452410
+}
