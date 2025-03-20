@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "hospitals:block/medical_cross"
+    },
+    "facing=east": {
+      "model": "hospitals:block/medical_cross",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/medical_cross",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/medical_cross",
+      "y": 270
     }
   }
 }

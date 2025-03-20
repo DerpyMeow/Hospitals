@@ -16,6 +16,7 @@ import net.derpymeow.hospitals.block.RABlockBlock;
 import net.derpymeow.hospitals.block.PHBlockBlock;
 import net.derpymeow.hospitals.block.MedicalCrossBlock;
 import net.derpymeow.hospitals.block.FABlockBlock;
+import net.derpymeow.hospitals.block.AnaestheticMachineBlock;
 import net.derpymeow.hospitals.HospitalsMod;
 
 public class HospitalsModBlocks {
@@ -26,6 +27,7 @@ public class HospitalsModBlocks {
 	public static final RegistryObject<Block> WA_BLOCK = REGISTRY.register("wa_block", () -> new WABlockBlock());
 	public static final RegistryObject<Block> FA_BLOCK = REGISTRY.register("fa_block", () -> new FABlockBlock());
 	public static final RegistryObject<Block> MEDICAL_CROSS = REGISTRY.register("medical_cross", () -> new MedicalCrossBlock());
+	public static final RegistryObject<Block> ANAESTHETIC_MACHINE = REGISTRY.register("anaesthetic_machine", () -> new AnaestheticMachineBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

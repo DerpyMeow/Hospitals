@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "screen_cover_texture": "screen_cover_texture",
+        "anaesthetic_screen_texture": "anaesthetic_screen_texture",
+        "anaesthetic_texture": "anaesthetic_texture",
+        "anaesthetic_screen_texture_2": "anaesthetic_screen_texture_2"
+      },
+      "name": "default"
+    }
+  }
+}

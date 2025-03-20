@@ -1,0 +1,12 @@
+{
+  "parent": "hospitals:custom/hmxt_anaesthetic_model",
+  "textures": {
+    "all": "hospitals:block/anaesthetic_texture",
+    "particle": "hospitals:block/anaesthetic_texture",
+    "screen_cover_texture": "hospitals:block/screen_cover_texture",
+    "anaesthetic_screen_texture": "hospitals:block/anaesthetic_screen_texture",
+    "anaesthetic_texture": "hospitals:block/anaesthetic_texture",
+    "anaesthetic_screen_texture_2": "hospitals:block/anaesthetic_screen_texture_2"
+  },
+  "render_type": "solid"
+}

@@ -22,6 +22,7 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> WA_BLOCK = block(HospitalsModBlocks.WA_BLOCK);
 	public static final RegistryObject<Item> FA_BLOCK = block(HospitalsModBlocks.FA_BLOCK);
 	public static final RegistryObject<Item> MEDICAL_CROSS = block(HospitalsModBlocks.MEDICAL_CROSS);
+	public static final RegistryObject<Item> ANAESTHETIC_MACHINE = block(HospitalsModBlocks.ANAESTHETIC_MACHINE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

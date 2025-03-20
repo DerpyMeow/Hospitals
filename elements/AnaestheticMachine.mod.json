@@ -2,14 +2,14 @@
   "_fv": 73,
   "_type": "block",
   "definition": {
-    "texture": "pharmacy_holding",
+    "texture": "anaesthetic_texture",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "renderType": 2,
+    "customModelName": "hmxt_anaesthetic_model:default",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -18,7 +18,7 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -34,7 +34,7 @@
       }
     ],
     "customProperties": [],
-    "name": "PH Block",
+    "name": "Anaesthetic Machine",
     "specialInformation": {
       "fixedValue": []
     },
@@ -44,7 +44,7 @@
     "isWaterloggable": false,
     "creativeTabs": [
       {
-        "value": "CUSTOM:Hospitals"
+        "value": "CUSTOM:OperatingRoomsTHM"
       }
     ],
     "destroyTool": "Not specified",
@@ -57,7 +57,7 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 15,
+    "lightOpacity": 0,
     "material": {
       "value": "NONE"
     },

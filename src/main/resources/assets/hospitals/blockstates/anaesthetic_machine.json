@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/anaesthetic_machine"
+    },
+    "facing=east": {
+      "model": "hospitals:block/anaesthetic_machine",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/anaesthetic_machine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/anaesthetic_machine",
+      "y": 270
+    }
+  }
+}

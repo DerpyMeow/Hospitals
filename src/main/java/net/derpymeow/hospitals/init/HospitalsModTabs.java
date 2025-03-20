@@ -25,4 +25,8 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModBlocks.FA_BLOCK.get().asItem());
 				tabData.accept(HospitalsModBlocks.MEDICAL_CROSS.get().asItem());
 			}).withSearchBar().build());
+	public static final RegistryObject<CreativeModeTab> OPERATING_ROOMS_THM = REGISTRY.register("operating_rooms_thm",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.operating_rooms_thm")).icon(() -> new ItemStack(HospitalsModBlocks.TH_BLOCK.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(HospitalsModBlocks.ANAESTHETIC_MACHINE.get().asItem());
+			}).withSearchBar().withTabsBefore(HOSPITALS.getId()).build());
 }

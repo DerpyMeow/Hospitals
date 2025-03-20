@@ -167,6 +167,23 @@
         "files": []
       },
       "path": "~/Creative Tabs"
+    },
+    {
+      "name": "AnaestheticMachine",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anaesthetic_machine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/AnaestheticMachineBlock.java",
+          "src/main/resources/assets/hospitals/models/item/anaesthetic_machine.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/anaesthetic_machine.json",
+          "src/main/resources/assets/hospitals/models/block/anaesthetic_machine.json",
+          "src/main/resources/assets/hospitals/blockstates/anaesthetic_machine.json"
+        ]
+      },
+      "path": "~/Theatres"
     }
   ],
   "variable_elements": [],
@@ -179,6 +196,7 @@
       "item_group.hospitals.ward_thm": "Ward - THM",
       "block.hospitals.wa_block": "WA Block",
       "block.hospitals.ra_block": "RA Block",
+      "block.hospitals.anaesthetic_machine": "Anaesthetic Machine",
       "block.hospitals.fa_block": "FA Block",
       "block.hospitals.th_block": "TH Block",
       "item_group.hospitals.radiology_thm": "Radiology - THM",
