@@ -1,13 +1,9 @@
 {
-  "parent": "block/cube",
+  "parent": "hospitals:custom/hmxt_storage_tubs_yellow_model",
   "textures": {
-    "down": "hospitals:block/tub_2_texture",
-    "up": "hospitals:block/tub_2_texture",
-    "north": "hospitals:block/tub_2_texture",
-    "east": "hospitals:block/tub_2_texture",
-    "south": "hospitals:block/tub_2_texture",
-    "west": "hospitals:block/tub_2_texture",
-    "particle": "hospitals:block/tub_2_texture"
+    "all": "hospitals:block/tub_2_texture",
+    "particle": "hospitals:block/tub_2_texture",
+    "tub_2_texture": "hospitals:block/tub_2_texture"
   },
   "render_type": "solid"
 }
