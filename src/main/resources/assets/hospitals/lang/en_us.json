@@ -1,1 +1,14 @@
-{}
+{
+  "item_group.hospitals.pharmacy_thm": "Pharmacy - THM",
+  "item_group.hospitals.ward_thm": "Ward - THM",
+  "block.hospitals.wa_block": "WA Block",
+  "block.hospitals.ra_block": "RA Block",
+  "block.hospitals.fa_block": "FA Block",
+  "block.hospitals.th_block": "TH Block",
+  "item_group.hospitals.radiology_thm": "Radiology - THM",
+  "item_group.hospitals.hospitals": "Hospitals",
+  "block.hospitals.ph_block": "PH Block",
+  "item_group.hospitals.facilities_thm": "Facilities - THM",
+  "item_group.hospitals.operating_rooms_thm": "Operating Rooms - THM",
+  "block.hospitals.medical_cross": "Medical Cross"
+}

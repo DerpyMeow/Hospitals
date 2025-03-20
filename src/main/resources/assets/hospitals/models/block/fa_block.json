@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hospitals:block/facilities_holding",
+    "up": "hospitals:block/facilities_holding",
+    "north": "hospitals:block/facilities_holding",
+    "east": "hospitals:block/facilities_holding",
+    "south": "hospitals:block/facilities_holding",
+    "west": "hospitals:block/facilities_holding",
+    "particle": "hospitals:block/facilities_holding"
+  },
+  "render_type": "solid"
+}

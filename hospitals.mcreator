@@ -1,15 +1,226 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "OperatingRoomsTHM",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "operating_rooms_thm",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Creative Tabs"
+    },
+    {
+      "name": "THBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "th_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/THBlockBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/th_block.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/th_block.json",
+          "src/main/resources/assets/hospitals/models/item/th_block.json",
+          "src/main/resources/assets/hospitals/models/block/th_block.json"
+        ]
+      },
+      "path": "~/Creative Tabs"
+    },
+    {
+      "name": "PharmacyTHM",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pharmacy_thm",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Creative Tabs"
+    },
+    {
+      "name": "PHBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ph_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/PHBlockBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/ph_block.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/ph_block.json",
+          "src/main/resources/assets/hospitals/models/item/ph_block.json",
+          "src/main/resources/assets/hospitals/models/block/ph_block.json"
+        ]
+      },
+      "path": "~/Creative Tabs"
+    },
+    {
+      "name": "RABlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ra_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/ra_block.json",
+          "src/main/resources/assets/hospitals/models/item/ra_block.json",
+          "src/main/java/net/derpymeow/hospitals/block/RABlockBlock.java",
+          "src/main/resources/assets/hospitals/models/block/ra_block.json",
+          "src/main/resources/assets/hospitals/blockstates/ra_block.json"
+        ]
+      },
+      "path": "~/Creative Tabs"
+    },
+    {
+      "name": "RadiologyTHM",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiology_thm",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Creative Tabs"
+    },
+    {
+      "name": "WABlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wa_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/WABlockBlock.java",
+          "src/main/resources/assets/hospitals/models/block/wa_block.json",
+          "src/main/resources/assets/hospitals/blockstates/wa_block.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/wa_block.json",
+          "src/main/resources/assets/hospitals/models/item/wa_block.json"
+        ]
+      },
+      "path": "~/Creative Tabs"
+    },
+    {
+      "name": "WardTHM",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ward_thm",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Creative Tabs"
+    },
+    {
+      "name": "FABlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fa_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/block/fa_block.json",
+          "src/main/resources/assets/hospitals/blockstates/fa_block.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/fa_block.json",
+          "src/main/resources/assets/hospitals/models/item/fa_block.json",
+          "src/main/java/net/derpymeow/hospitals/block/FABlockBlock.java"
+        ]
+      },
+      "path": "~/Creative Tabs"
+    },
+    {
+      "name": "FacilitiesTHM",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "facilities_thm",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Creative Tabs"
+    },
+    {
+      "name": "MedicalCross",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medical_cross",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/block/medical_cross.json",
+          "src/main/java/net/derpymeow/hospitals/block/MedicalCrossBlock.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/medical_cross.json",
+          "src/main/resources/assets/hospitals/models/item/medical_cross.json",
+          "src/main/resources/assets/hospitals/blockstates/medical_cross.json"
+        ]
+      },
+      "path": "~/Creative Tabs"
+    },
+    {
+      "name": "Hospitals",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hospitals",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Creative Tabs"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item_group.hospitals.pharmacy_thm": "Pharmacy - THM",
+      "item_group.hospitals.ward_thm": "Ward - THM",
+      "block.hospitals.wa_block": "WA Block",
+      "block.hospitals.ra_block": "RA Block",
+      "block.hospitals.fa_block": "FA Block",
+      "block.hospitals.th_block": "TH Block",
+      "item_group.hospitals.radiology_thm": "Radiology - THM",
+      "item_group.hospitals.hospitals": "Hospitals",
+      "block.hospitals.ph_block": "PH Block",
+      "item_group.hospitals.facilities_thm": "Facilities - THM",
+      "item_group.hospitals.operating_rooms_thm": "Operating Rooms - THM",
+      "block.hospitals.medical_cross": "Medical Cross"
+    }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Creative Tabs",
+        "children": []
+      },
+      {
+        "name": "Theatres",
+        "children": []
+      },
+      {
+        "name": "Pharmacy",
+        "children": []
+      },
+      {
+        "name": "Radiology",
+        "children": []
+      },
+      {
+        "name": "Ward",
+        "children": []
+      },
+      {
+        "name": "Facilities",
+        "children": []
+      },
+      {
+        "name": "Hospitals",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "hospitals",

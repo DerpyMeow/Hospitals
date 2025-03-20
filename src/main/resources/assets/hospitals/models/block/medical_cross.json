@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hospitals:block/redcrosstx",
+    "up": "hospitals:block/redcrosstx",
+    "north": "hospitals:block/redcrosstx",
+    "east": "hospitals:block/redcrosstx",
+    "south": "hospitals:block/redcrosstx",
+    "west": "hospitals:block/redcrosstx",
+    "particle": "hospitals:block/redcrosstx"
+  },
+  "render_type": "solid"
+}

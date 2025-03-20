@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "hospitals:block/th_block"
+    }
+  }
+}
