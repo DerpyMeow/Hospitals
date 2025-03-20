@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/hw_013_ceiling_gas_model",
+  "textures": {
+    "all": "hospitals:block/hw_013_ceiling_medical_gas_main",
+    "particle": "hospitals:block/hw_013_ceiling_medical_gas_main",
+    "hw_013_ceiling_medical_gas_main": "hospitals:block/hw_013_ceiling_medical_gas_main"
+  },
+  "render_type": "solid"
+}

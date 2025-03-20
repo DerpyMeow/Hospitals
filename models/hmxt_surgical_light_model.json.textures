@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "upper_arm_1_texture": "upper_arm_1_texture",
+        "lamp_diffuser_texture": "lamp_diffuser_texture",
+        "ceiling_rose_texture": "ceiling_rose_texture",
+        "lamp_1_texture": "lamp_1_texture",
+        "lower_arm_1_texture": "lower_arm_1_texture"
+      },
+      "name": "default"
+    }
+  }
+}

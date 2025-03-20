@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/operating_room_control_panel"
+    },
+    "facing=east": {
+      "model": "hospitals:block/operating_room_control_panel",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/operating_room_control_panel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/operating_room_control_panel",
+      "y": 270
+    }
+  }
+}

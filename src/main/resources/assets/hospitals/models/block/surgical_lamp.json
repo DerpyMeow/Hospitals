@@ -1,0 +1,13 @@
+{
+  "parent": "hospitals:custom/hmxt_surgical_light_model",
+  "textures": {
+    "all": "hospitals:block/ceiling_rose_texture",
+    "particle": "hospitals:block/ceiling_rose_texture",
+    "upper_arm_1_texture": "hospitals:block/upper_arm_1_texture",
+    "lamp_diffuser_texture": "hospitals:block/lamp_diffuser_texture",
+    "ceiling_rose_texture": "hospitals:block/ceiling_rose_texture",
+    "lamp_1_texture": "hospitals:block/lamp_1_texture",
+    "lower_arm_1_texture": "hospitals:block/lower_arm_1_texture"
+  },
+  "render_type": "solid"
+}

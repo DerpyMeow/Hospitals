@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "stainless_steel_texture": "stainless_steel_texture",
+        "ht_instrument_tray": "ht_instrument_tray"
+      },
+      "name": "default"
+    }
+  }
+}

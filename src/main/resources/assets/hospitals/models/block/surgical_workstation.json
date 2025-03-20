@@ -1,0 +1,14 @@
+{
+  "parent": "hospitals:custom/hmxt_workstation_model",
+  "textures": {
+    "all": "hospitals:block/workstation_texture",
+    "particle": "hospitals:block/workstation_texture",
+    "machine3_texture": "hospitals:block/machine3_texture",
+    "anaesthetic_screen_texture": "hospitals:block/anaesthetic_screen_texture",
+    "machine2_texture": "hospitals:block/machine2_texture",
+    "machine1_texture": "hospitals:block/machine1_texture",
+    "computer_texture": "hospitals:block/computer_texture",
+    "workstation_texture": "hospitals:block/workstation_texture"
+  },
+  "render_type": "solid"
+}

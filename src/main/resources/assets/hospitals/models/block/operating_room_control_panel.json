@@ -1,0 +1,10 @@
+{
+  "parent": "hospitals:custom/control_panel_model",
+  "textures": {
+    "all": "hospitals:block/brushed_metal_texture",
+    "particle": "hospitals:block/brushed_metal_texture",
+    "control_panel_main": "hospitals:block/control_panel_main",
+    "control_panel_screen_ui": "hospitals:block/control_panel_screen_ui"
+  },
+  "render_type": "solid"
+}

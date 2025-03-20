@@ -184,6 +184,261 @@
         ]
       },
       "path": "~/Theatres"
+    },
+    {
+      "name": "SurgicalRefridgeratedCabinet",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "surgical_refridgerated_cabinet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/block/surgical_refridgerated_cabinet.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/surgical_refridgerated_cabinet.json",
+          "src/main/java/net/derpymeow/hospitals/block/SurgicalRefridgeratedCabinetBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/surgical_refridgerated_cabinet.json",
+          "src/main/resources/assets/hospitals/models/item/surgical_refridgerated_cabinet.json"
+        ]
+      },
+      "path": "~/Theatres"
+    },
+    {
+      "name": "SurgicalWorktopTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "surgical_worktop_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/surgical_worktop_table.json",
+          "src/main/java/net/derpymeow/hospitals/block/SurgicalWorktopTableBlock.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/surgical_worktop_table.json",
+          "src/main/resources/assets/hospitals/blockstates/surgical_worktop_table.json",
+          "src/main/resources/assets/hospitals/models/block/surgical_worktop_table.json"
+        ]
+      },
+      "path": "~/Theatres"
+    },
+    {
+      "name": "SurgicalInstrumentTrolley",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "surgical_instrument_trolley",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/blockstates/surgical_instrument_trolley.json",
+          "src/main/java/net/derpymeow/hospitals/block/SurgicalInstrumentTrolleyBlock.java",
+          "src/main/resources/assets/hospitals/models/item/surgical_instrument_trolley.json",
+          "src/main/resources/assets/hospitals/models/block/surgical_instrument_trolley.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/surgical_instrument_trolley.json"
+        ]
+      },
+      "path": "~/Theatres"
+    },
+    {
+      "name": "OperatingTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "operating_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/operating_table.json",
+          "src/main/java/net/derpymeow/hospitals/block/OperatingTableBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/operating_table.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/operating_table.json",
+          "src/main/resources/assets/hospitals/models/block/operating_table.json"
+        ]
+      },
+      "path": "~/Theatres"
+    },
+    {
+      "name": "ScrubSink",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scrub_sink",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/ScrubSinkBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/scrub_sink.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/scrub_sink.json",
+          "src/main/resources/assets/hospitals/models/block/scrub_sink.json",
+          "src/main/resources/assets/hospitals/models/item/scrub_sink.json"
+        ]
+      },
+      "path": "~/Theatres"
+    },
+    {
+      "name": "WallStorageTubsRed",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wall_storage_tubs_red",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/WallStorageTubsRedBlock.java",
+          "src/main/resources/assets/hospitals/models/item/wall_storage_tubs_red.json",
+          "src/main/resources/assets/hospitals/models/block/wall_storage_tubs_red.json",
+          "src/main/resources/assets/hospitals/blockstates/wall_storage_tubs_red.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/wall_storage_tubs_red.json"
+        ]
+      },
+      "path": "~/Theatres"
+    },
+    {
+      "name": "WallStorageTubsYellow",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wall_storage_tubs_yellow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/wall_storage_tubs_yellow.json",
+          "src/main/resources/assets/hospitals/models/block/wall_storage_tubs_yellow.json",
+          "src/main/java/net/derpymeow/hospitals/block/WallStorageTubsYellowBlock.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/wall_storage_tubs_yellow.json",
+          "src/main/resources/assets/hospitals/blockstates/wall_storage_tubs_yellow.json"
+        ]
+      },
+      "path": "~/Theatres"
+    },
+    {
+      "name": "SurgicalLamp",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "surgical_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/blockstates/surgical_lamp.json",
+          "src/main/resources/assets/hospitals/models/item/surgical_lamp.json",
+          "src/main/java/net/derpymeow/hospitals/block/SurgicalLampBlock.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/surgical_lamp.json",
+          "src/main/resources/assets/hospitals/models/block/surgical_lamp.json"
+        ]
+      },
+      "path": "~/Theatres"
+    },
+    {
+      "name": "SurgicalTrolley",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "surgical_trolley",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/blockstates/surgical_trolley.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/surgical_trolley.json",
+          "src/main/resources/assets/hospitals/models/item/surgical_trolley.json",
+          "src/main/java/net/derpymeow/hospitals/block/SurgicalTrolleyBlock.java",
+          "src/main/resources/assets/hospitals/models/block/surgical_trolley.json"
+        ]
+      },
+      "path": "~/Theatres"
+    },
+    {
+      "name": "SterileWorktop",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sterile_worktop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/sterile_worktop.json",
+          "src/main/java/net/derpymeow/hospitals/block/SterileWorktopBlock.java",
+          "src/main/resources/assets/hospitals/models/item/sterile_worktop.json",
+          "src/main/resources/assets/hospitals/models/block/sterile_worktop.json",
+          "src/main/resources/assets/hospitals/blockstates/sterile_worktop.json"
+        ]
+      },
+      "path": "~/Theatres"
+    },
+    {
+      "name": "SterileWorkCounterWithShelf",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sterile_work_counter_with_shelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/blockstates/sterile_work_counter_with_shelf.json",
+          "src/main/java/net/derpymeow/hospitals/block/SterileWorkCounterWithShelfBlock.java",
+          "src/main/resources/assets/hospitals/models/block/sterile_work_counter_with_shelf.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/sterile_work_counter_with_shelf.json",
+          "src/main/resources/assets/hospitals/models/item/sterile_work_counter_with_shelf.json"
+        ]
+      },
+      "path": "~/Theatres"
+    },
+    {
+      "name": "SurgicalWorkstation",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "surgical_workstation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/SurgicalWorkstationBlock.java",
+          "src/main/resources/assets/hospitals/models/item/surgical_workstation.json",
+          "src/main/resources/assets/hospitals/blockstates/surgical_workstation.json",
+          "src/main/resources/assets/hospitals/models/block/surgical_workstation.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/surgical_workstation.json"
+        ]
+      },
+      "path": "~/Theatres"
+    },
+    {
+      "name": "OperatingRoomControlPanel",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "operating_room_control_panel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/operating_room_control_panel.json",
+          "src/main/resources/assets/hospitals/models/block/operating_room_control_panel.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/operating_room_control_panel.json",
+          "src/main/java/net/derpymeow/hospitals/block/OperatingRoomControlPanelBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/operating_room_control_panel.json"
+        ]
+      },
+      "path": "~/Theatres"
+    },
+    {
+      "name": "SurgicalInstruments",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "surgical_instruments",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/blockstates/surgical_instruments.json",
+          "src/main/java/net/derpymeow/hospitals/block/SurgicalInstrumentsBlock.java",
+          "src/main/resources/assets/hospitals/models/block/surgical_instruments.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/surgical_instruments.json",
+          "src/main/resources/assets/hospitals/models/item/surgical_instruments.json"
+        ]
+      },
+      "path": "~/Theatres"
+    },
+    {
+      "name": "MedicalGasCeilingMounted",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medical_gas_ceiling_mounted",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/blockstates/medical_gas_ceiling_mounted.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/medical_gas_ceiling_mounted.json",
+          "src/main/resources/assets/hospitals/models/item/medical_gas_ceiling_mounted.json",
+          "src/main/java/net/derpymeow/hospitals/block/MedicalGasCeilingMountedBlock.java",
+          "src/main/resources/assets/hospitals/models/block/medical_gas_ceiling_mounted.json"
+        ]
+      },
+      "path": "~/Theatres"
     }
   ],
   "variable_elements": [],
@@ -193,18 +448,33 @@
   "language_map": {
     "en_us": {
       "item_group.hospitals.pharmacy_thm": "Pharmacy - THM",
-      "item_group.hospitals.ward_thm": "Ward - THM",
+      "block.hospitals.surgical_instrument_trolley": "Surgical Instrument Trolley",
+      "block.hospitals.medical_gas_ceiling_mounted": "Medical Gas (Ceiling Mounted)",
       "block.hospitals.wa_block": "WA Block",
-      "block.hospitals.ra_block": "RA Block",
-      "block.hospitals.anaesthetic_machine": "Anaesthetic Machine",
-      "block.hospitals.fa_block": "FA Block",
       "block.hospitals.th_block": "TH Block",
       "item_group.hospitals.radiology_thm": "Radiology - THM",
       "item_group.hospitals.hospitals": "Hospitals",
+      "block.hospitals.operating_table": "Operating Table",
       "block.hospitals.ph_block": "PH Block",
       "item_group.hospitals.facilities_thm": "Facilities - THM",
       "item_group.hospitals.operating_rooms_thm": "Operating Rooms - THM",
-      "block.hospitals.medical_cross": "Medical Cross"
+      "block.hospitals.medical_cross": "Medical Cross",
+      "block.hospitals.sterile_worktop": "Sterile Worktop",
+      "block.hospitals.surgical_refridgerated_cabinet": "Surgical Refridgerated Cabinet",
+      "block.hospitals.scrub_sink": "Scrub Sink",
+      "block.hospitals.surgical_lamp": "Surgical Lamp",
+      "block.hospitals.surgical_trolley": "Surgical Trolley",
+      "item_group.hospitals.ward_thm": "Ward - THM",
+      "block.hospitals.operating_room_control_panel": "Operating Room Control Panel",
+      "block.hospitals.sterile_work_counter_with_shelf": "Sterile Work Counter (With Shelf)",
+      "block.hospitals.ra_block": "RA Block",
+      "block.hospitals.anaesthetic_machine": "Anaesthetic Machine",
+      "block.hospitals.surgical_worktop_table": "Surgical Worktop/Table",
+      "block.hospitals.fa_block": "FA Block",
+      "block.hospitals.wall_storage_tubs_red": "Wall Storage Tubs (Red)",
+      "block.hospitals.surgical_workstation": "Surgical Workstation",
+      "block.hospitals.wall_storage_tubs_yellow": "Wall Storage Tubs (Yellow)",
+      "block.hospitals.surgical_instruments": "Surgical Instruments"
     }
   },
   "foldersRoot": {

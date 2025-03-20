@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/surgical_instruments"
+    },
+    "facing=east": {
+      "model": "hospitals:block/surgical_instruments",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/surgical_instruments",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/surgical_instruments",
+      "y": 270
+    }
+  }
+}

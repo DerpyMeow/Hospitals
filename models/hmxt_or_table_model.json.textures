@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "OR_Table_Texture": "or_table_texture"
+      },
+      "name": "default"
+    }
+  }
+}

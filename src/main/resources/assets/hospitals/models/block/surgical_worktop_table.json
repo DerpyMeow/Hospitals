@@ -1,0 +1,11 @@
+{
+  "parent": "hospitals:custom/hmxt_counter_model",
+  "textures": {
+    "all": "hospitals:block/brushed_metal_texture",
+    "particle": "hospitals:block/brushed_metal_texture",
+    "upper_frame_texture": "hospitals:block/upper_frame_texture",
+    "sink_frame_texture": "hospitals:block/sink_frame_texture",
+    "brushed_metal_texture": "hospitals:block/brushed_metal_texture"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/sterile_worktop"
+    },
+    "facing=east": {
+      "model": "hospitals:block/sterile_worktop",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/sterile_worktop",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/sterile_worktop",
+      "y": 270
+    }
+  }
+}

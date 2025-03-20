@@ -1,0 +1,10 @@
+{
+  "parent": "hospitals:custom/hmxt_cabinet_model",
+  "textures": {
+    "all": "hospitals:block/brushed_metal_texture",
+    "particle": "hospitals:block/brushed_metal_texture",
+    "brushed_metal_texture": "hospitals:block/brushed_metal_texture",
+    "support_texture": "hospitals:block/support_texture"
+  },
+  "render_type": "solid"
+}

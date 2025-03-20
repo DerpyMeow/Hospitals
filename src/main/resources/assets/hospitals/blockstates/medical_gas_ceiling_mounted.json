@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/medical_gas_ceiling_mounted"
+    },
+    "facing=east": {
+      "model": "hospitals:block/medical_gas_ceiling_mounted",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/medical_gas_ceiling_mounted",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/medical_gas_ceiling_mounted",
+      "y": 270
+    }
+  }
+}

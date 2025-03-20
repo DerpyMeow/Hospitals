@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/surgical_workstation"
+    },
+    "facing=east": {
+      "model": "hospitals:block/surgical_workstation",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/surgical_workstation",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/surgical_workstation",
+      "y": 270
+    }
+  }
+}

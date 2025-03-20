@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/surgical_refridgerated_cabinet"
+    },
+    "facing=east": {
+      "model": "hospitals:block/surgical_refridgerated_cabinet",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/surgical_refridgerated_cabinet",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/surgical_refridgerated_cabinet",
+      "y": 270
+    }
+  }
+}

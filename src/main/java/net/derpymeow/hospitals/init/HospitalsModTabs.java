@@ -28,5 +28,20 @@ public class HospitalsModTabs {
 	public static final RegistryObject<CreativeModeTab> OPERATING_ROOMS_THM = REGISTRY.register("operating_rooms_thm",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.operating_rooms_thm")).icon(() -> new ItemStack(HospitalsModBlocks.TH_BLOCK.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(HospitalsModBlocks.ANAESTHETIC_MACHINE.get().asItem());
+				tabData.accept(HospitalsModBlocks.SURGICAL_REFRIDGERATED_CABINET.get().asItem());
+				tabData.accept(HospitalsModBlocks.SURGICAL_WORKTOP_TABLE.get().asItem());
+				tabData.accept(HospitalsModBlocks.SURGICAL_INSTRUMENT_TROLLEY.get().asItem());
+				tabData.accept(HospitalsModBlocks.OPERATING_TABLE.get().asItem());
+				tabData.accept(HospitalsModBlocks.SCRUB_SINK.get().asItem());
+				tabData.accept(HospitalsModBlocks.WALL_STORAGE_TUBS_RED.get().asItem());
+				tabData.accept(HospitalsModBlocks.WALL_STORAGE_TUBS_YELLOW.get().asItem());
+				tabData.accept(HospitalsModBlocks.SURGICAL_LAMP.get().asItem());
+				tabData.accept(HospitalsModBlocks.SURGICAL_TROLLEY.get().asItem());
+				tabData.accept(HospitalsModBlocks.STERILE_WORKTOP.get().asItem());
+				tabData.accept(HospitalsModBlocks.STERILE_WORK_COUNTER_WITH_SHELF.get().asItem());
+				tabData.accept(HospitalsModBlocks.SURGICAL_WORKSTATION.get().asItem());
+				tabData.accept(HospitalsModBlocks.OPERATING_ROOM_CONTROL_PANEL.get().asItem());
+				tabData.accept(HospitalsModBlocks.SURGICAL_INSTRUMENTS.get().asItem());
+				tabData.accept(HospitalsModBlocks.MEDICAL_GAS_CEILING_MOUNTED.get().asItem());
 			}).withSearchBar().withTabsBefore(HOSPITALS.getId()).build());
 }

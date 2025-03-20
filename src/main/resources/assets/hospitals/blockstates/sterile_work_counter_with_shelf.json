@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/sterile_work_counter_with_shelf"
+    },
+    "facing=east": {
+      "model": "hospitals:block/sterile_work_counter_with_shelf",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/sterile_work_counter_with_shelf",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/sterile_work_counter_with_shelf",
+      "y": 270
+    }
+  }
+}

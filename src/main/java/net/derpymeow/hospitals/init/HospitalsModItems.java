@@ -23,6 +23,21 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> FA_BLOCK = block(HospitalsModBlocks.FA_BLOCK);
 	public static final RegistryObject<Item> MEDICAL_CROSS = block(HospitalsModBlocks.MEDICAL_CROSS);
 	public static final RegistryObject<Item> ANAESTHETIC_MACHINE = block(HospitalsModBlocks.ANAESTHETIC_MACHINE);
+	public static final RegistryObject<Item> SURGICAL_REFRIDGERATED_CABINET = block(HospitalsModBlocks.SURGICAL_REFRIDGERATED_CABINET);
+	public static final RegistryObject<Item> SURGICAL_WORKTOP_TABLE = block(HospitalsModBlocks.SURGICAL_WORKTOP_TABLE);
+	public static final RegistryObject<Item> SURGICAL_INSTRUMENT_TROLLEY = block(HospitalsModBlocks.SURGICAL_INSTRUMENT_TROLLEY);
+	public static final RegistryObject<Item> OPERATING_TABLE = block(HospitalsModBlocks.OPERATING_TABLE);
+	public static final RegistryObject<Item> SCRUB_SINK = block(HospitalsModBlocks.SCRUB_SINK);
+	public static final RegistryObject<Item> WALL_STORAGE_TUBS_RED = block(HospitalsModBlocks.WALL_STORAGE_TUBS_RED);
+	public static final RegistryObject<Item> WALL_STORAGE_TUBS_YELLOW = block(HospitalsModBlocks.WALL_STORAGE_TUBS_YELLOW);
+	public static final RegistryObject<Item> SURGICAL_LAMP = block(HospitalsModBlocks.SURGICAL_LAMP);
+	public static final RegistryObject<Item> SURGICAL_TROLLEY = block(HospitalsModBlocks.SURGICAL_TROLLEY);
+	public static final RegistryObject<Item> STERILE_WORKTOP = block(HospitalsModBlocks.STERILE_WORKTOP);
+	public static final RegistryObject<Item> STERILE_WORK_COUNTER_WITH_SHELF = block(HospitalsModBlocks.STERILE_WORK_COUNTER_WITH_SHELF);
+	public static final RegistryObject<Item> SURGICAL_WORKSTATION = block(HospitalsModBlocks.SURGICAL_WORKSTATION);
+	public static final RegistryObject<Item> OPERATING_ROOM_CONTROL_PANEL = block(HospitalsModBlocks.OPERATING_ROOM_CONTROL_PANEL);
+	public static final RegistryObject<Item> SURGICAL_INSTRUMENTS = block(HospitalsModBlocks.SURGICAL_INSTRUMENTS);
+	public static final RegistryObject<Item> MEDICAL_GAS_CEILING_MOUNTED = block(HospitalsModBlocks.MEDICAL_GAS_CEILING_MOUNTED);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/wall_storage_tubs_yellow"
+    },
+    "facing=east": {
+      "model": "hospitals:block/wall_storage_tubs_yellow",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/wall_storage_tubs_yellow",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/wall_storage_tubs_yellow",
+      "y": 270
+    }
+  }
+}

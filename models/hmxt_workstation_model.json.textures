@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "machine3_texture": "machine3_texture",
+        "anaesthetic_screen_texture": "anaesthetic_screen_texture",
+        "machine2_texture": "machine2_texture",
+        "machine1_texture": "machine1_texture",
+        "computer_texture": "computer_texture",
+        "workstation_texture": "workstation_texture"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "brushed_metal_texture": "brushed_metal_texture",
+        "support_texture": "support_texture",
+        "counter_shelving_support_texture": "counter_shelving_support_texture"
+      },
+      "name": "default"
+    }
+  }
+}

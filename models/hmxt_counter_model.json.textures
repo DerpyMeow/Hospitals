@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "upper_frame_texture": "upper_frame_texture",
+        "sink_frame_texture": "sink_frame_texture",
+        "brushed_metal_texture": "brushed_metal_texture"
+      },
+      "name": "default"
+    }
+  }
+}

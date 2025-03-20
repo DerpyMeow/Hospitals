@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "hw_013_ceiling_medical_gas_main": "hw_013_ceiling_medical_gas_main"
+      },
+      "name": "default"
+    }
+  }
+}

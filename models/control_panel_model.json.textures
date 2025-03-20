@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "control_panel_main": "control_panel_main",
+        "control_panel_screen_ui": "control_panel_screen_ui"
+      },
+      "name": "default"
+    }
+  }
+}

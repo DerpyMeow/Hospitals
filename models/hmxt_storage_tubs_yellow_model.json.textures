@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "tub_2_texture": "tub_2_texture"
+      },
+      "name": "default"
+    }
+  }
+}

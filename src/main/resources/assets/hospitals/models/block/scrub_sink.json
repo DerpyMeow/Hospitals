@@ -1,0 +1,10 @@
+{
+  "parent": "hospitals:custom/hmxt_scrub_sink_model",
+  "textures": {
+    "all": "hospitals:block/brushed_metal_texture",
+    "particle": "hospitals:block/brushed_metal_texture",
+    "sink_frame_texture": "hospitals:block/sink_frame_texture",
+    "brushed_metal_texture": "hospitals:block/brushed_metal_texture"
+  },
+  "render_type": "solid"
+}
