@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "hw_004_hospital_bed_texture": "hw_004_hospital_bed_texture"
+      },
+      "name": "default"
+    }
+  }
+}

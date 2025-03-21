@@ -12,7 +12,7 @@
     "customModelName": "hmxt_anaesthetic_model:default",
     "rotationMode": 1,
     "enablePitch": false,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",

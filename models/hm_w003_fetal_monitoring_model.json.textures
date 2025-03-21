@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "keyboard_texture": "keyboard_texture",
+        "fetal_monitoring_core": "fetal_monitoring_core",
+        "fetalscreen": "fetalscreen"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/hw_005_iv_model",
+  "textures": {
+    "all": "hospitals:block/hw_005_iv_texture",
+    "particle": "hospitals:block/hw_005_iv_texture",
+    "hw_005_iv_texture": "hospitals:block/hw_005_iv_texture"
+  },
+  "render_type": "solid"
+}

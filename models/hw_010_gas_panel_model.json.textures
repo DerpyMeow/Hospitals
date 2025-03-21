@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "hw_10_gas_panel_texture": "hw_10_gas_panel_texture"
+      },
+      "name": "default"
+    }
+  }
+}

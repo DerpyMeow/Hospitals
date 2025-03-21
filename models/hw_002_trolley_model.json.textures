@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "trolley_texture": "hw_002_trolley_texture"
+      },
+      "name": "default"
+    }
+  }
+}

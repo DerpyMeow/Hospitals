@@ -84,4 +84,20 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModBlocks.COMPUTER_SCREEN_2_CT_SCAN_VIEWER.get().asItem());
 				tabData.accept(HospitalsModBlocks.COMPUTER_SCREEN_2_XRAY_VIEWER.get().asItem());
 			}).withSearchBar().withTabsBefore(PHARMACY_THM.getId()).build());
+	public static final RegistryObject<CreativeModeTab> WARD_THM = REGISTRY.register("ward_thm",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.ward_thm")).icon(() -> new ItemStack(HospitalsModBlocks.WA_BLOCK.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(HospitalsModBlocks.BEDSIDE_HEAD_UNIT.get().asItem());
+				tabData.accept(HospitalsModBlocks.WARD_STORAGE_DRAWERS.get().asItem());
+				tabData.accept(HospitalsModBlocks.FETAL_MONITORING_WORKSTATION.get().asItem());
+				tabData.accept(HospitalsModBlocks.HOSPITAL_BED.get().asItem());
+				tabData.accept(HospitalsModBlocks.IV_STAND.get().asItem());
+				tabData.accept(HospitalsModBlocks.MEDICAL_WORKSTATION_CART.get().asItem());
+				tabData.accept(HospitalsModBlocks.LIFE_SUPPORT_SYRINGE_PUMPS.get().asItem());
+				tabData.accept(HospitalsModBlocks.HEART_RATE_MONITOR.get().asItem());
+				tabData.accept(HospitalsModBlocks.WARD_RESUS_TROLLEY.get().asItem());
+				tabData.accept(HospitalsModBlocks.MEDICAL_GAS_ALARM_PANEL.get().asItem());
+				tabData.accept(HospitalsModBlocks.HAND_SANITISER_DISPENSER.get().asItem());
+				tabData.accept(HospitalsModBlocks.RACK_SHELVING_EMPTY.get().asItem());
+				tabData.accept(HospitalsModBlocks.RACK_SHELVES_LINEN.get().asItem());
+			}).withSearchBar().withTabsBefore(RADIOLOGY_THM.getId()).build());
 }

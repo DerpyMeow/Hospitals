@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/heart_rate_monitor"
+    },
+    "facing=east": {
+      "model": "hospitals:block/heart_rate_monitor",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/heart_rate_monitor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/heart_rate_monitor",
+      "y": 270
+    }
+  }
+}

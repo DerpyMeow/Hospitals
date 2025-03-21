@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/ward_resus_trolley"
+    },
+    "facing=east": {
+      "model": "hospitals:block/ward_resus_trolley",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/ward_resus_trolley",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/ward_resus_trolley",
+      "y": 270
+    }
+  }
+}

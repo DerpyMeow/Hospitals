@@ -1,0 +1,10 @@
+{
+  "parent": "hospitals:custom/hw_012_storage_linen_model",
+  "textures": {
+    "all": "hospitals:block/hw_012_storage_linen",
+    "particle": "hospitals:block/hw_012_storage_linen",
+    "hw_012_storage_linen": "hospitals:block/hw_012_storage_linen",
+    "hw_012_storage_rack_main": "hospitals:block/hw_012_storage_rack_main"
+  },
+  "render_type": "solid"
+}

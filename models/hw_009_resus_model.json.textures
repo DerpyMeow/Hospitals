@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "hw_009_resus_label": "hw_009_resus_label",
+        "hw_009_resus_texture": "hw_009_resus_texture"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "hospitals:custom/hw_006_cart_model",
+  "textures": {
+    "all": "hospitals:block/screen_w808_texture",
+    "particle": "hospitals:block/screen_w808_texture",
+    "screen_w808_texture": "hospitals:block/screen_w808_texture",
+    "hm_w_006_texture": "hospitals:block/hm_w_006_texture",
+    "keyboard_w808_texture": "hospitals:block/keyboard_w808_texture"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "hw_008_heartrate_texture": "hw_008_heartrate_texture",
+        "hw_008_hr_screen": "hw_008_hr_screen"
+      },
+      "name": "default"
+    }
+  }
+}

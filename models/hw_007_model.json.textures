@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "hw_007_keyboard": "hw_007_keyboard",
+        "hw_007_syringe_pump_face": "hw_007_syringe_pump_face",
+        "hw_008_hr_screen": "hw_008_hr_screen",
+        "hw_007_monitor_main": "hw_007_monitor_main",
+        "hw_007_main2_texture": "hw_007_main2_texture",
+        "hw_007_main_texture": "hw_007_main_texture",
+        "hw_007_vent_screen": "hw_007_vent_screen"
+      },
+      "name": "default"
+    }
+  }
+}

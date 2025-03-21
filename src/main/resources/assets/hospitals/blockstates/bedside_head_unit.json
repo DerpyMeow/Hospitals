@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/bedside_head_unit"
+    },
+    "facing=east": {
+      "model": "hospitals:block/bedside_head_unit",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/bedside_head_unit",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/bedside_head_unit",
+      "y": 270
+    }
+  }
+}

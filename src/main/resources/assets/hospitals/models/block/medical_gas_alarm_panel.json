@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/hw_010_gas_panel_model",
+  "textures": {
+    "all": "hospitals:block/hw_10_gas_panel_texture",
+    "particle": "hospitals:block/hw_10_gas_panel_texture",
+    "hw_10_gas_panel_texture": "hospitals:block/hw_10_gas_panel_texture"
+  },
+  "render_type": "cutout_mipped"
+}

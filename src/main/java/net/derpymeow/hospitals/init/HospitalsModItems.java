@@ -72,6 +72,19 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> COMPUTER_X_RAY_VIEWER = block(HospitalsModBlocks.COMPUTER_X_RAY_VIEWER);
 	public static final RegistryObject<Item> COMPUTER_SCREEN_2_CT_SCAN_VIEWER = block(HospitalsModBlocks.COMPUTER_SCREEN_2_CT_SCAN_VIEWER);
 	public static final RegistryObject<Item> COMPUTER_SCREEN_2_XRAY_VIEWER = block(HospitalsModBlocks.COMPUTER_SCREEN_2_XRAY_VIEWER);
+	public static final RegistryObject<Item> BEDSIDE_HEAD_UNIT = block(HospitalsModBlocks.BEDSIDE_HEAD_UNIT);
+	public static final RegistryObject<Item> WARD_STORAGE_DRAWERS = block(HospitalsModBlocks.WARD_STORAGE_DRAWERS);
+	public static final RegistryObject<Item> FETAL_MONITORING_WORKSTATION = block(HospitalsModBlocks.FETAL_MONITORING_WORKSTATION);
+	public static final RegistryObject<Item> HOSPITAL_BED = block(HospitalsModBlocks.HOSPITAL_BED);
+	public static final RegistryObject<Item> IV_STAND = block(HospitalsModBlocks.IV_STAND);
+	public static final RegistryObject<Item> MEDICAL_WORKSTATION_CART = block(HospitalsModBlocks.MEDICAL_WORKSTATION_CART);
+	public static final RegistryObject<Item> LIFE_SUPPORT_SYRINGE_PUMPS = block(HospitalsModBlocks.LIFE_SUPPORT_SYRINGE_PUMPS);
+	public static final RegistryObject<Item> HEART_RATE_MONITOR = block(HospitalsModBlocks.HEART_RATE_MONITOR);
+	public static final RegistryObject<Item> WARD_RESUS_TROLLEY = block(HospitalsModBlocks.WARD_RESUS_TROLLEY);
+	public static final RegistryObject<Item> MEDICAL_GAS_ALARM_PANEL = block(HospitalsModBlocks.MEDICAL_GAS_ALARM_PANEL);
+	public static final RegistryObject<Item> HAND_SANITISER_DISPENSER = block(HospitalsModBlocks.HAND_SANITISER_DISPENSER);
+	public static final RegistryObject<Item> RACK_SHELVING_EMPTY = block(HospitalsModBlocks.RACK_SHELVING_EMPTY);
+	public static final RegistryObject<Item> RACK_SHELVES_LINEN = block(HospitalsModBlocks.RACK_SHELVES_LINEN);
 
 	// Start of user code block custom items
 	// End of user code block custom items

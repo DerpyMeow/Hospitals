@@ -1,0 +1,10 @@
+{
+  "parent": "hospitals:custom/hw_11_sanitiser_model",
+  "textures": {
+    "all": "hospitals:block/hw_11_sanitiser_label",
+    "particle": "hospitals:block/hw_11_sanitiser_label",
+    "hw_11_sanitiser_main": "hospitals:block/hw_11_sanitiser_main",
+    "hw_11_sanitiser_label": "hospitals:block/hw_11_sanitiser_label"
+  },
+  "render_type": "solid"
+}

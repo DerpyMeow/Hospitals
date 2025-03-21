@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "hw_012_storage_rack_main": "hw_012_storage_rack_main"
+      },
+      "name": "default"
+    }
+  }
+}

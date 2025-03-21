@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/life_support_syringe_pumps"
+    },
+    "facing=east": {
+      "model": "hospitals:block/life_support_syringe_pumps",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/life_support_syringe_pumps",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/life_support_syringe_pumps",
+      "y": 270
+    }
+  }
+}

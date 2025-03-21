@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/hw_012_storage_rack_empty_model",
+  "textures": {
+    "all": "hospitals:block/hw_012_storage_rack_main",
+    "particle": "hospitals:block/hw_012_storage_rack_main",
+    "hw_012_storage_rack_main": "hospitals:block/hw_012_storage_rack_main"
+  },
+  "render_type": "cutout_mipped"
+}

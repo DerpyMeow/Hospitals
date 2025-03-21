@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "hw_001_bedside_light_texture": "hw_001_bedside_light_texture",
+        "hw_001_bedside_board": "hw_001_bedside_board",
+        "hw_001_bedside_tv_arm_1_texture": "hw_001_bedside_tv_arm_1_texture",
+        "hw_001_bedside_tv_screen_texture": "hw_001_bedside_tv_screen_texture",
+        "hw_001_bedside_tv_frame_texture": "hw_001_bedside_tv_frame_texture",
+        "hw_001_bedside_main_texture": "hw_001_bedside_main_texture"
+      },
+      "name": "default"
+    }
+  }
+}

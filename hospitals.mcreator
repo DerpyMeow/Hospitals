@@ -1017,6 +1017,227 @@
         ]
       },
       "path": "~/Radiology"
+    },
+    {
+      "name": "BedsideHeadUnit",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedside_head_unit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/bedside_head_unit.json",
+          "src/main/resources/assets/hospitals/blockstates/bedside_head_unit.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/bedside_head_unit.json",
+          "src/main/java/net/derpymeow/hospitals/block/BedsideHeadUnitBlock.java",
+          "src/main/resources/assets/hospitals/models/block/bedside_head_unit.json"
+        ]
+      },
+      "path": "~/Ward"
+    },
+    {
+      "name": "WardStorageDrawers",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ward_storage_drawers",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/ward_storage_drawers.json",
+          "src/main/java/net/derpymeow/hospitals/block/WardStorageDrawersBlock.java",
+          "src/main/resources/assets/hospitals/models/block/ward_storage_drawers.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/ward_storage_drawers.json",
+          "src/main/resources/assets/hospitals/blockstates/ward_storage_drawers.json"
+        ]
+      },
+      "path": "~/Ward"
+    },
+    {
+      "name": "FetalMonitoringWorkstation",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fetal_monitoring_workstation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/fetal_monitoring_workstation.json",
+          "src/main/resources/assets/hospitals/blockstates/fetal_monitoring_workstation.json",
+          "src/main/java/net/derpymeow/hospitals/block/FetalMonitoringWorkstationBlock.java",
+          "src/main/resources/assets/hospitals/models/block/fetal_monitoring_workstation.json",
+          "src/main/resources/assets/hospitals/models/item/fetal_monitoring_workstation.json"
+        ]
+      },
+      "path": "~/Ward"
+    },
+    {
+      "name": "HospitalBed",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hospital_bed",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/hospital_bed.json",
+          "src/main/resources/assets/hospitals/blockstates/hospital_bed.json",
+          "src/main/resources/assets/hospitals/models/block/hospital_bed.json",
+          "src/main/java/net/derpymeow/hospitals/block/HospitalBedBlock.java",
+          "src/main/resources/assets/hospitals/models/item/hospital_bed.json"
+        ]
+      },
+      "path": "~/Ward"
+    },
+    {
+      "name": "IVStand",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iv_stand",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/iv_stand.json",
+          "src/main/resources/assets/hospitals/models/item/iv_stand.json",
+          "src/main/java/net/derpymeow/hospitals/block/IVStandBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/iv_stand.json",
+          "src/main/resources/assets/hospitals/models/block/iv_stand.json"
+        ]
+      },
+      "path": "~/Ward"
+    },
+    {
+      "name": "MedicalWorkstationCart",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medical_workstation_cart",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/blockstates/medical_workstation_cart.json",
+          "src/main/resources/assets/hospitals/models/item/medical_workstation_cart.json",
+          "src/main/resources/assets/hospitals/models/block/medical_workstation_cart.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/medical_workstation_cart.json",
+          "src/main/java/net/derpymeow/hospitals/block/MedicalWorkstationCartBlock.java"
+        ]
+      },
+      "path": "~/Ward"
+    },
+    {
+      "name": "LifeSupportSyringePumps",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "life_support_syringe_pumps",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/life_support_syringe_pumps.json",
+          "src/main/resources/assets/hospitals/models/block/life_support_syringe_pumps.json",
+          "src/main/java/net/derpymeow/hospitals/block/LifeSupportSyringePumpsBlock.java",
+          "src/main/resources/assets/hospitals/models/item/life_support_syringe_pumps.json",
+          "src/main/resources/assets/hospitals/blockstates/life_support_syringe_pumps.json"
+        ]
+      },
+      "path": "~/Ward"
+    },
+    {
+      "name": "HeartRateMonitor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_rate_monitor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/block/heart_rate_monitor.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/heart_rate_monitor.json",
+          "src/main/resources/assets/hospitals/models/item/heart_rate_monitor.json",
+          "src/main/resources/assets/hospitals/blockstates/heart_rate_monitor.json",
+          "src/main/java/net/derpymeow/hospitals/block/HeartRateMonitorBlock.java"
+        ]
+      },
+      "path": "~/Ward"
+    },
+    {
+      "name": "WardResusTrolley",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ward_resus_trolley",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/ward_resus_trolley.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/ward_resus_trolley.json",
+          "src/main/resources/assets/hospitals/models/block/ward_resus_trolley.json",
+          "src/main/resources/assets/hospitals/blockstates/ward_resus_trolley.json",
+          "src/main/java/net/derpymeow/hospitals/block/WardResusTrolleyBlock.java"
+        ]
+      },
+      "path": "~/Ward"
+    },
+    {
+      "name": "MedicalGasAlarmPanel",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medical_gas_alarm_panel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/medical_gas_alarm_panel.json",
+          "src/main/resources/assets/hospitals/blockstates/medical_gas_alarm_panel.json",
+          "src/main/java/net/derpymeow/hospitals/block/MedicalGasAlarmPanelBlock.java",
+          "src/main/resources/assets/hospitals/models/block/medical_gas_alarm_panel.json",
+          "src/main/resources/assets/hospitals/models/item/medical_gas_alarm_panel.json"
+        ]
+      },
+      "path": "~/Ward"
+    },
+    {
+      "name": "HandSanitiserDispenser",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hand_sanitiser_dispenser",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/block/hand_sanitiser_dispenser.json",
+          "src/main/java/net/derpymeow/hospitals/block/HandSanitiserDispenserBlock.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/hand_sanitiser_dispenser.json",
+          "src/main/resources/assets/hospitals/models/item/hand_sanitiser_dispenser.json",
+          "src/main/resources/assets/hospitals/blockstates/hand_sanitiser_dispenser.json"
+        ]
+      },
+      "path": "~/Ward"
+    },
+    {
+      "name": "RackShelvingEmpty",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rack_shelving_empty",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/rack_shelving_empty.json",
+          "src/main/resources/assets/hospitals/models/block/rack_shelving_empty.json",
+          "src/main/resources/assets/hospitals/models/item/rack_shelving_empty.json",
+          "src/main/java/net/derpymeow/hospitals/block/RackShelvingEmptyBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/rack_shelving_empty.json"
+        ]
+      },
+      "path": "~/Ward"
+    },
+    {
+      "name": "RackShelvesLinen",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rack_shelves_linen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/rack_shelves_linen.json",
+          "src/main/java/net/derpymeow/hospitals/block/RackShelvesLinenBlock.java",
+          "src/main/resources/assets/hospitals/models/item/rack_shelves_linen.json",
+          "src/main/resources/assets/hospitals/blockstates/rack_shelves_linen.json",
+          "src/main/resources/assets/hospitals/models/block/rack_shelves_linen.json"
+        ]
+      },
+      "path": "~/Ward"
     }
   ],
   "variable_elements": [],
@@ -1026,6 +1247,7 @@
   "language_map": {
     "en_us": {
       "block.hospitals.computer_screen_2_ct_scan_viewer": "Computer Screen 2 (CT Scan Viewer)",
+      "block.hospitals.medical_workstation_cart": "Medical Workstation Cart",
       "block.hospitals.xray_light_box_blank": "X-RAY Light Box (Blank)",
       "block.hospitals.surgical_instrument_trolley": "Surgical Instrument Trolley",
       "block.hospitals.medical_gas_ceiling_mounted": "Medical Gas (Ceiling Mounted)",
@@ -1041,6 +1263,7 @@
       "block.hospitals.surgical_lamp": "Surgical Lamp",
       "block.hospitals.x_ray_machine": "X-Ray Machine",
       "block.hospitals.store_shelf_empty": "Store Shelf (Empty)",
+      "block.hospitals.hospital_bed": "Hospital Bed",
       "block.hospitals.ra_block": "RA Block",
       "block.hospitals.computer_ct_scan_viewer": "Computer (CT Scan Viewer)",
       "block.hospitals.fa_block": "FA Block",
@@ -1052,18 +1275,22 @@
       "block.hospitals.surgical_instruments": "Surgical Instruments",
       "block.hospitals.xray_light_box_chest": "X-RAY Light Box (Chest)",
       "block.hospitals.worktop_with_shelf": "Worktop (With Shelf)",
+      "block.hospitals.ward_resus_trolley": "Ward Resus Trolley",
       "block.hospitals.xray_light_box_hands": "X-RAY Light Box (Hands)",
       "item_group.hospitals.pharmacy_thm": "Pharmacy - THM",
+      "block.hospitals.medical_gas_alarm_panel": "Medical Gas Alarm Panel",
       "block.hospitals.medication_drawers": "Medication Drawers",
       "block.hospitals.refridgerated_centrifuge": "Refridgerated Centrifuge",
       "block.hospitals.computer_screen_2_xray_viewer": "Computer Screen 2 (X-RAY Viewer)",
       "block.hospitals.wa_block": "WA Block",
       "block.hospitals.capsule_filling_machine": "Capsule Filling Machine",
+      "block.hospitals.hand_sanitiser_dispenser": "Hand Sanitiser Dispenser",
       "block.hospitals.th_block": "TH Block",
       "item_group.hospitals.radiology_thm": "Radiology - THM",
       "block.hospitals.laboratory_fridge": "Laboratory Fridge",
       "item_group.hospitals.hospitals": "Hospitals",
       "block.hospitals.analytical_balance": "Analytical Balance",
+      "block.hospitals.bedside_head_unit": "Bedside Head Unit",
       "block.hospitals.ph_block": "PH Block",
       "item_group.hospitals.facilities_thm": "Facilities - THM",
       "block.hospitals.decorative_divide": "Decorative Divide",
@@ -1072,21 +1299,28 @@
       "block.hospitals.prescription_basket_empty": "Prescription Basket (Empty)",
       "block.hospitals.xray_light_box_neck": "X-RAY Light Box (Neck)",
       "block.hospitals.computer_x_ray_viewer": "Computer (X-Ray Viewer)",
+      "block.hospitals.rack_shelving_empty": "Rack Shelving (Empty)",
       "block.hospitals.x_ray_light": "X-Ray Light",
+      "block.hospitals.life_support_syringe_pumps": "Life Support/Syringe Pumps",
       "block.hospitals.xray_light_box_feet": "X-RAY Light Box (Feet)",
+      "block.hospitals.ward_storage_drawers": "Ward Storage Drawers",
       "item_group.hospitals.ward_thm": "Ward - THM",
       "block.hospitals.operating_room_control_panel": "Operating Room Control Panel",
       "block.hospitals.bottle_filling_machine": "Bottle Filling Machine",
       "block.hospitals.sterile_work_counter_with_shelf": "Sterile Work Counter (With Shelf)",
       "block.hospitals.xray_bucky_stand": "X-RAY Bucky Stand",
+      "block.hospitals.heart_rate_monitor": "Heart Rate Monitor",
       "block.hospitals.anaesthetic_machine": "Anaesthetic Machine",
       "block.hospitals.surgical_worktop_table": "Surgical Worktop/Table",
       "block.hospitals.prescription_basket": "Prescription Basket",
       "block.hospitals.ultrasound": "Ultrasound",
+      "block.hospitals.rack_shelves_linen": "Rack Shelves (Linen)",
       "block.hospitals.store_shelf_stocked": "Store Shelf (Stocked)",
       "block.hospitals.compounding_isolator": "Compounding Isolator",
+      "block.hospitals.fetal_monitoring_workstation": "Fetal Monitoring Workstation",
       "block.hospitals.surgical_workstation": "Surgical Workstation",
-      "block.hospitals.wall_storage_tubs_yellow": "Wall Storage Tubs (Yellow)"
+      "block.hospitals.wall_storage_tubs_yellow": "Wall Storage Tubs (Yellow)",
+      "block.hospitals.iv_stand": "IV Stand"
     }
   },
   "foldersRoot": {

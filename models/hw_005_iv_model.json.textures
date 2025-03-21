@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "hw_005_iv_texture": "hw_005_iv_texture"
+      },
+      "name": "default"
+    }
+  }
+}

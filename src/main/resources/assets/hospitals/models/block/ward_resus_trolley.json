@@ -1,0 +1,10 @@
+{
+  "parent": "hospitals:custom/hw_009_resus_model",
+  "textures": {
+    "all": "hospitals:block/hw_009_resus_label",
+    "particle": "hospitals:block/hw_009_resus_label",
+    "hw_009_resus_label": "hospitals:block/hw_009_resus_label",
+    "hw_009_resus_texture": "hospitals:block/hw_009_resus_texture"
+  },
+  "render_type": "solid"
+}

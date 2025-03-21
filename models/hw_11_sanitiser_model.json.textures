@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "hw_11_sanitiser_main": "hw_11_sanitiser_main",
+        "hw_11_sanitiser_label": "hw_11_sanitiser_label"
+      },
+      "name": "default"
+    }
+  }
+}

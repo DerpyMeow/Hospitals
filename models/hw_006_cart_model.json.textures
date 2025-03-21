@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "screen_w808_texture": "screen_w808_texture",
+        "hm_w_006_texture": "hm_w_006_texture",
+        "keyboard_w808_texture": "keyboard_w808_texture"
+      },
+      "name": "default"
+    }
+  }
+}

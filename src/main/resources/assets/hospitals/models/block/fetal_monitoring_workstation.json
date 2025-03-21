@@ -1,0 +1,11 @@
+{
+  "parent": "hospitals:custom/hm_w003_fetal_monitoring_model",
+  "textures": {
+    "all": "hospitals:block/fetalscreen",
+    "particle": "hospitals:block/fetalscreen",
+    "keyboard_texture": "hospitals:block/keyboard_texture",
+    "fetal_monitoring_core": "hospitals:block/fetal_monitoring_core",
+    "fetalscreen": "hospitals:block/fetalscreen"
+  },
+  "render_type": "solid"
+}
