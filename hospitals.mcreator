@@ -1362,7 +1362,7 @@
     "version": "1.0.0",
     "description": "This Brings Complex Medical Blocks To Minecraft: Based Off Of Leon90\u0027s Mod.",
     "author": "Leon90, DerpyMeow",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://github.com/DerpyMeow/Hospitals",
     "license": "MIT License",
     "serverSideOnly": false,
     "modPicture": "logo",
