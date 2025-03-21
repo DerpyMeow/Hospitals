@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/pt_012_basket_model",
+  "textures": {
+    "all": "hospitals:block/pt_012_basket_texture",
+    "particle": "hospitals:block/pt_012_basket_texture",
+    "pt_012_basket_texture": "hospitals:block/pt_012_basket_texture"
+  },
+  "render_type": "solid"
+}

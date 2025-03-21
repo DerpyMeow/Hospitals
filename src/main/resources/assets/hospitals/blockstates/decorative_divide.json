@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/decorative_divide"
+    },
+    "facing=east": {
+      "model": "hospitals:block/decorative_divide",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/decorative_divide",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/decorative_divide",
+      "y": 270
+    }
+  }
+}

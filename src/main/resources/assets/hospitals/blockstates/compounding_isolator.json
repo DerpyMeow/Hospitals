@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/compounding_isolator"
+    },
+    "facing=east": {
+      "model": "hospitals:block/compounding_isolator",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/compounding_isolator",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/compounding_isolator",
+      "y": 270
+    }
+  }
+}

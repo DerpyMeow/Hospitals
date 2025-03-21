@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/medication_drawers"
+    },
+    "facing=east": {
+      "model": "hospitals:block/medication_drawers",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/medication_drawers",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/medication_drawers",
+      "y": 270
+    }
+  }
+}

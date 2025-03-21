@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "PM_001_Pharmacy_Sign_Texture": "pm_001_pharmacy_sign_texture"
+      },
+      "name": "default"
+    }
+  }
+}

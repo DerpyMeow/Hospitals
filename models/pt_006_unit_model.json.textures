@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pm_006_unit_texture": "pm_006_unit_texture"
+      },
+      "name": "default"
+    }
+  }
+}

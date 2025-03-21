@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/prescription_basket_empty"
+    },
+    "facing=east": {
+      "model": "hospitals:block/prescription_basket_empty",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/prescription_basket_empty",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/prescription_basket_empty",
+      "y": 270
+    }
+  }
+}

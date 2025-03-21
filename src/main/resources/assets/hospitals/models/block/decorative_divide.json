@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/pt_015_decorative_divide_model",
+  "textures": {
+    "all": "hospitals:block/wood_metal_texture",
+    "particle": "hospitals:block/wood_metal_texture",
+    "wood_metal_texture": "hospitals:block/wood_metal_texture"
+  },
+  "render_type": "solid"
+}

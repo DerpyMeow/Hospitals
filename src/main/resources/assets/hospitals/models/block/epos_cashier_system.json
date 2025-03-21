@@ -1,0 +1,12 @@
+{
+  "parent": "hospitals:custom/pt_011_pos_model",
+  "textures": {
+    "all": "hospitals:block/pt_011_pos_base_texture",
+    "particle": "hospitals:block/pt_011_pos_base_texture",
+    "pt_011_pos_base_texture": "hospitals:block/pt_011_pos_base_texture",
+    "pt_011_pos_reader_texture": "hospitals:block/pt_011_pos_reader_texture",
+    "pt_011_pos_screen_texture": "hospitals:block/pt_011_pos_screen_texture",
+    "pt_011_pos_screen_os_texture": "hospitals:block/pt_011_pos_screen_os_texture"
+  },
+  "render_type": "solid"
+}

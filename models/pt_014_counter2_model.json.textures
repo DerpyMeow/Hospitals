@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pt_014_counter1_texture": "pt_014_counter1_texture",
+        "pt_014_counter2_texture": "pt_014_counter2_texture"
+      },
+      "name": "default"
+    }
+  }
+}

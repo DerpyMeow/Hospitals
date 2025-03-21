@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/analytical_balance"
+    },
+    "facing=east": {
+      "model": "hospitals:block/analytical_balance",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/analytical_balance",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/analytical_balance",
+      "y": 270
+    }
+  }
+}

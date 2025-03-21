@@ -1,0 +1,11 @@
+{
+  "parent": "hospitals:custom/pt_007_fridge_model",
+  "textures": {
+    "all": "hospitals:block/glass_texture_blue",
+    "particle": "hospitals:block/glass_texture_blue",
+    "pm_007_handle_texture": "hospitals:block/pm_007_handle_texture",
+    "pm_007_texture": "hospitals:block/pm_007_texture",
+    "glass_texture_blue": "hospitals:block/glass_texture_blue"
+  },
+  "render_type": "solid"
+}

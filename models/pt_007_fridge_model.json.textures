@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pm_007_handle_texture": "pm_007_handle_texture",
+        "pm_007_texture": "pm_007_texture",
+        "glass_texture_blue": "glass_texture_blue"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/pt_003_isolator_model",
+  "textures": {
+    "all": "hospitals:block/pt_003_isolator_texture",
+    "particle": "hospitals:block/pt_003_isolator_texture",
+    "pt_003_isolator_texture": "hospitals:block/pt_003_isolator_texture"
+  },
+  "render_type": "solid"
+}

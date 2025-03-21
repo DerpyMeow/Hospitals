@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pt_002_store_shelf_texture": "pt_002_store_shelf_texture"
+      },
+      "name": "default"
+    }
+  }
+}

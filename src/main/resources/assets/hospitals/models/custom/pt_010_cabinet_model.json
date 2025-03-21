@@ -1,0 +1,4567 @@
+{
+  "credit": "Designed by Leonneary1990 with Cubik Studio - https://cubik.studio",
+  "elements": [
+    {
+      "name": "Voxels",
+      "from": [
+        0,
+        0,
+        2
+      ],
+      "to": [
+        16,
+        1.625,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.53125,
+            5.625,
+            15.53125,
+            6.03125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            0,
+            0.5,
+            3.5,
+            0.90625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            11.53125,
+            5.625,
+            7.53125,
+            6.03125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            3.5,
+            0.09375,
+            0,
+            0.5
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            4,
+            16,
+            8,
+            12.5
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            0,
+            12.5,
+            4,
+            16
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        14.375,
+        1.625,
+        2
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14.03125,
+            8.90625,
+            14.4375,
+            12.5
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            0,
+            1.71875,
+            3.5,
+            5.3125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            14.84375,
+            8.90625,
+            14.4375,
+            12.5
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            7.09375,
+            8.90625,
+            3.59375,
+            12.5
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.59375,
+            16,
+            16,
+            12.5
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.1875,
+            12.5,
+            15.59375,
+            16
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        0.1249,
+        0.125,
+        1.625
+      ],
+      "to": [
+        15.8749,
+        3.125,
+        2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.59375,
+            4.40625,
+            7.53125,
+            5.15625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            7.375,
+            0.0625,
+            7.46875,
+            0.8125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            7.53125,
+            5.15625,
+            3.59375,
+            5.90625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            7.625,
+            4.09375,
+            7.53125,
+            4.84375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            7.53125,
+            5.25,
+            11.46875,
+            5.15625
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            11.46875,
+            5.25,
+            15.40625,
+            5.34375
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        0.1249,
+        0.125,
+        1.5
+      ],
+      "to": [
+        15.8749,
+        0.25,
+        1.625
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.53125,
+            5.125,
+            11.46875,
+            5.15625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.84375,
+            8.59375,
+            15.875,
+            8.625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.40625,
+            5.125,
+            11.46875,
+            5.15625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.875,
+            8.625,
+            15.84375,
+            8.65625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            7.53125,
+            5.125,
+            11.46875,
+            5.09375
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            11.46875,
+            5.09375,
+            15.40625,
+            5.125
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        0.7499,
+        0.25,
+        1.5
+      ],
+      "to": [
+        15.8749,
+        3.125,
+        1.625
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.3125,
+            8.1875,
+            15.09375,
+            8.90625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            3.5625,
+            4.59375,
+            3.59375,
+            5.3125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            11.3125,
+            8.1875,
+            7.53125,
+            8.90625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            3.59375,
+            3.875,
+            3.5625,
+            4.59375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            7.53125,
+            4.96875,
+            11.3125,
+            4.9375
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            11.3125,
+            4.875,
+            15.09375,
+            4.90625
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        0.1249,
+        3.375,
+        1.625
+      ],
+      "to": [
+        15.8749,
+        6.25,
+        2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.59375,
+            3.6875,
+            7.53125,
+            4.40625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            7.375,
+            0.8125,
+            7.46875,
+            1.53125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            7.53125,
+            2.25,
+            3.59375,
+            2.96875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.1875,
+            8.1875,
+            15.09375,
+            8.90625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            11.46875,
+            5.53125,
+            15.40625,
+            5.4375
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            7.53125,
+            5.4375,
+            11.46875,
+            5.53125
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        0.7499,
+        3.375,
+        1.5
+      ],
+      "to": [
+        15.8749,
+        6.25,
+        1.625
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.53125,
+            7.46875,
+            11.3125,
+            8.1875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            3.5625,
+            3.15625,
+            3.59375,
+            3.875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.09375,
+            6.03125,
+            11.3125,
+            6.75
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            3.59375,
+            2.4375,
+            3.5625,
+            3.15625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            11.3125,
+            4.96875,
+            15.09375,
+            4.9375
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            3.59375,
+            0,
+            7.375,
+            0.03125
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        0.1249,
+        6.5,
+        1.625
+      ],
+      "to": [
+        15.8749,
+        9.5,
+        2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.59375,
+            6.65625,
+            7.53125,
+            7.40625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            7.53125,
+            1.09375,
+            7.625,
+            1.84375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            7.53125,
+            5.90625,
+            3.59375,
+            6.65625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            7.625,
+            3.34375,
+            7.53125,
+            4.09375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            7.53125,
+            5.34375,
+            11.46875,
+            5.25
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            11.46875,
+            5.34375,
+            15.40625,
+            5.4375
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        0.1249,
+        6.5,
+        1.5
+      ],
+      "to": [
+        15.8749,
+        6.625,
+        1.625
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.46875,
+            4.96875,
+            15.40625,
+            5
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.8125,
+            8.53125,
+            15.84375,
+            8.5625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            11.46875,
+            4.96875,
+            7.53125,
+            5
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.84375,
+            8.5625,
+            15.8125,
+            8.59375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            11.46875,
+            5.03125,
+            15.40625,
+            5
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            7.53125,
+            5,
+            11.46875,
+            5.03125
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        0.7499,
+        6.625,
+        1.5
+      ],
+      "to": [
+        15.8749,
+        9.5,
+        1.625
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.59375,
+            0.09375,
+            7.375,
+            0.8125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            7.46875,
+            0.09375,
+            7.5,
+            0.8125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            7.375,
+            0.8125,
+            3.59375,
+            1.53125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            7.5,
+            0.8125,
+            7.46875,
+            1.53125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            7.53125,
+            4.875,
+            11.3125,
+            4.84375
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            3.59375,
+            0.03125,
+            7.375,
+            0.0625
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        0.1249,
+        9.75,
+        1.625
+      ],
+      "to": [
+        15.8749,
+        12.625,
+        2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.59375,
+            2.96875,
+            7.53125,
+            3.6875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.1875,
+            8.1875,
+            15.28125,
+            8.90625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            7.53125,
+            1.53125,
+            3.59375,
+            2.25
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.375,
+            8.1875,
+            15.28125,
+            8.90625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            11.46875,
+            5.625,
+            15.40625,
+            5.53125
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            7.53125,
+            5.53125,
+            11.46875,
+            5.625
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        0.7499,
+        9.75,
+        1.5
+      ],
+      "to": [
+        15.8749,
+        12.625,
+        1.625
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.53125,
+            6.03125,
+            11.3125,
+            6.75
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            7.5,
+            0.09375,
+            7.53125,
+            0.8125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.09375,
+            6.75,
+            11.3125,
+            7.46875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.40625,
+            8.1875,
+            15.375,
+            8.90625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            7.53125,
+            4.90625,
+            11.3125,
+            4.875
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            11.3125,
+            4.90625,
+            15.09375,
+            4.9375
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        0.1249,
+        12.875,
+        1.625
+      ],
+      "to": [
+        15.8749,
+        15.875,
+        2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.59375,
+            7.40625,
+            7.53125,
+            8.15625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            7.53125,
+            2.59375,
+            7.625,
+            3.34375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            7.53125,
+            8.15625,
+            3.59375,
+            8.90625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            7.625,
+            1.84375,
+            7.53125,
+            2.59375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            7.53125,
+            5.4375,
+            11.46875,
+            5.34375
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            11.46875,
+            5.15625,
+            15.40625,
+            5.25
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        0.1249,
+        12.875,
+        1.5
+      ],
+      "to": [
+        15.8749,
+        13,
+        1.625
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.53125,
+            5.03125,
+            11.46875,
+            5.0625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.8125,
+            8.59375,
+            15.84375,
+            8.625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            11.46875,
+            5.0625,
+            7.53125,
+            5.09375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.84375,
+            8.625,
+            15.8125,
+            8.65625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            11.46875,
+            5.09375,
+            15.40625,
+            5.0625
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            11.46875,
+            5.03125,
+            15.40625,
+            5.0625
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        0.7499,
+        13,
+        1.5
+      ],
+      "to": [
+        15.8749,
+        15.875,
+        1.625
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11.3125,
+            7.46875,
+            15.09375,
+            8.1875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            7.5,
+            0.8125,
+            7.53125,
+            1.53125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            11.3125,
+            6.75,
+            7.53125,
+            7.46875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.4375,
+            8.1875,
+            15.40625,
+            8.90625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            3.59375,
+            0.09375,
+            7.375,
+            0.0625
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            7.53125,
+            4.90625,
+            11.3125,
+            4.9375
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        0,
+        1.625,
+        2
+      ],
+      "to": [
+        14.375,
+        16,
+        15.875
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            5.3125,
+            3.59375,
+            8.90625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            7.09375,
+            8.90625,
+            10.5625,
+            12.5
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            3.59375,
+            8.90625,
+            0,
+            12.5
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            14.03125,
+            8.90625,
+            10.5625,
+            12.5
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            8,
+            16,
+            11.59375,
+            12.53125
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            11.59375,
+            12.53125,
+            15.1875,
+            16
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        0,
+        14.375,
+        15.875
+      ],
+      "to": [
+        14.375,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            1.3125,
+            3.59375,
+            1.71875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.5625,
+            8.90625,
+            15.59375,
+            9.3125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            3.59375,
+            0.90625,
+            0,
+            1.3125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.625,
+            8.90625,
+            15.59375,
+            9.3125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            11.59375,
+            12.53125,
+            15.1875,
+            12.5
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            8,
+            12.5,
+            11.59375,
+            12.53125
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        9.3749,
+        1.5,
+        0.5
+      ],
+      "to": [
+        9.6249,
+        1.75,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.15625,
+            9.25,
+            15.21875,
+            9.3125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.65625,
+            9.40625,
+            15.90625,
+            9.46875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.15625,
+            9.25,
+            15.09375,
+            9.3125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.90625,
+            9.46875,
+            15.65625,
+            9.53125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.4375,
+            9.3125,
+            15.5,
+            9.0625
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.375,
+            9.0625,
+            15.4375,
+            9.3125
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        9.3749,
+        4.625,
+        0.5
+      ],
+      "to": [
+        9.6249,
+        4.875,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.15625,
+            9.1875,
+            15.21875,
+            9.25
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            14.96875,
+            9.125,
+            15.21875,
+            9.1875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            14.90625,
+            8.9375,
+            14.84375,
+            9
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.21875,
+            9.0625,
+            14.96875,
+            9.125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.5,
+            9.3125,
+            15.5625,
+            9.0625
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.25,
+            9.0625,
+            15.3125,
+            9.3125
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        9.3749,
+        7.875,
+        0.5
+      ],
+      "to": [
+        9.6249,
+        8.125,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.90625,
+            9.40625,
+            15.96875,
+            9.46875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            3.125,
+            0.03125,
+            3.375,
+            0.09375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.96875,
+            9.46875,
+            15.90625,
+            9.53125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.21875,
+            8.9375,
+            14.96875,
+            9
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            3.5,
+            2.125,
+            3.5625,
+            1.875
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            3.5,
+            0.65625,
+            3.5625,
+            0.90625
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        9.3749,
+        11,
+        0.5
+      ],
+      "to": [
+        9.6249,
+        11.25,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.25,
+            9,
+            15.3125,
+            9.0625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            14.96875,
+            9,
+            15.21875,
+            9.0625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.96875,
+            9.34375,
+            15.90625,
+            9.40625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.90625,
+            9.34375,
+            15.65625,
+            9.40625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            14.84375,
+            9.25,
+            14.90625,
+            9
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.3125,
+            9.0625,
+            15.375,
+            9.3125
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        9.3749,
+        14.25,
+        0.5
+      ],
+      "to": [
+        9.6249,
+        14.5,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.3125,
+            9,
+            15.375,
+            9.0625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            14.84375,
+            9.25,
+            15.09375,
+            9.3125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.3125,
+            8.9375,
+            15.25,
+            9
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.15625,
+            9.1875,
+            14.90625,
+            9.25
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            3.5,
+            0.5,
+            3.5625,
+            0.25
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            14.90625,
+            8.9375,
+            14.96875,
+            9.1875
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.2499,
+        1.5,
+        0.5
+      ],
+      "to": [
+        9.3749,
+        1.75,
+        0.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.09375,
+            7.9375,
+            15.875,
+            8
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.3125,
+            8.9375,
+            15.375,
+            9
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            1.5625,
+            0.03125,
+            0.78125,
+            0.09375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.4375,
+            9,
+            15.375,
+            9.0625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.09375,
+            7.875,
+            15.875,
+            7.8125
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.09375,
+            7.875,
+            15.875,
+            7.9375
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.2499,
+        4.625,
+        0.5
+      ],
+      "to": [
+        9.3749,
+        4.875,
+        0.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.34375,
+            0.03125,
+            3.125,
+            0.09375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.375,
+            8.9375,
+            15.4375,
+            9
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.875,
+            8.125,
+            15.09375,
+            8.1875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.5,
+            9,
+            15.4375,
+            9.0625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.09375,
+            8.125,
+            15.875,
+            8.0625
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.09375,
+            8,
+            15.875,
+            8.0625
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.2499,
+        7.875,
+        0.5
+      ],
+      "to": [
+        9.3749,
+        8.125,
+        0.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.09375,
+            7.5625,
+            15.875,
+            7.625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.4375,
+            8.9375,
+            15.5,
+            9
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.875,
+            7.625,
+            15.09375,
+            7.6875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.5625,
+            9,
+            15.5,
+            9.0625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.09375,
+            7.75,
+            15.875,
+            7.6875
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.09375,
+            7.75,
+            15.875,
+            7.8125
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.2499,
+        11,
+        0.5
+      ],
+      "to": [
+        9.3749,
+        11.25,
+        0.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0.03125,
+            0.78125,
+            0.09375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.5,
+            8.9375,
+            15.5625,
+            9
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.875,
+            7.40625,
+            15.09375,
+            7.46875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.6875,
+            8.9375,
+            15.625,
+            9
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            1.5625,
+            0.09375,
+            2.34375,
+            0.03125
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.09375,
+            7.5,
+            15.875,
+            7.5625
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.2499,
+        14.25,
+        0.5
+      ],
+      "to": [
+        9.3749,
+        14.5,
+        0.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.09375,
+            7.34375,
+            15.875,
+            7.40625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.6875,
+            8.9375,
+            15.75,
+            9
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.875,
+            7.28125,
+            15.09375,
+            7.34375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.8125,
+            8.9375,
+            15.75,
+            9
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.09375,
+            7.28125,
+            15.875,
+            7.21875
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.09375,
+            7.15625,
+            15.875,
+            7.21875
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.1249,
+        1,
+        1.375
+      ],
+      "to": [
+        6.4999,
+        1.125,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.78125,
+            0,
+            2.875,
+            0.03125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.65625,
+            8.5,
+            15.6875,
+            8.53125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            3.59375,
+            0.5,
+            3.5,
+            0.53125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.875,
+            8.5625,
+            15.84375,
+            8.59375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            3.5,
+            0.125,
+            3.59375,
+            0.09375
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            2.5,
+            0,
+            2.59375,
+            0.03125
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.3749,
+        1.125,
+        1.375
+      ],
+      "to": [
+        6.4999,
+        1.375,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.96875,
+            8.84375,
+            16,
+            8.90625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.96875,
+            9.34375,
+            16,
+            9.40625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.25,
+            9.1875,
+            15.21875,
+            9.25
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            16,
+            9.46875,
+            15.96875,
+            9.53125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.78125,
+            8.65625,
+            15.8125,
+            8.625
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.78125,
+            8.53125,
+            15.8125,
+            8.5625
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.2499,
+        1.5,
+        0.75
+      ],
+      "to": [
+        6.4999,
+        1.75,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.875,
+            8.9375,
+            15.9375,
+            9
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.8125,
+            9.25,
+            16,
+            9.3125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.875,
+            8.9375,
+            15.8125,
+            9
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            16,
+            9.1875,
+            15.8125,
+            9.25
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.75,
+            9.1875,
+            15.8125,
+            9
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.8125,
+            9,
+            15.875,
+            9.1875
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.1249,
+        4.125,
+        1.375
+      ],
+      "to": [
+        6.4999,
+        4.25,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.21875,
+            0,
+            3.3125,
+            0.03125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.90625,
+            8.53125,
+            15.9375,
+            8.5625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            3.46875,
+            0,
+            3.375,
+            0.03125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.8125,
+            8.5625,
+            15.78125,
+            8.59375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            3.46875,
+            0.03125,
+            3.5625,
+            0
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.75,
+            9.3125,
+            15.84375,
+            9.34375
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.3749,
+        4.25,
+        1.375
+      ],
+      "to": [
+        6.4999,
+        4.5,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.96875,
+            8.78125,
+            16,
+            8.84375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.96875,
+            8.71875,
+            16,
+            8.78125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.25,
+            9.25,
+            15.21875,
+            9.3125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            16,
+            9.40625,
+            15.96875,
+            9.46875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.9375,
+            8.5625,
+            15.96875,
+            8.53125
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.78125,
+            8.59375,
+            15.8125,
+            8.625
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.2499,
+        4.625,
+        0.75
+      ],
+      "to": [
+        6.4999,
+        4.875,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.375,
+            0,
+            7.4375,
+            0.0625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.78125,
+            8.65625,
+            15.96875,
+            8.71875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            16,
+            8.9375,
+            15.9375,
+            9
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.8125,
+            9.1875,
+            15.625,
+            9.25
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.625,
+            9.1875,
+            15.6875,
+            9
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.59375,
+            8.46875,
+            15.65625,
+            8.65625
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.1249,
+        7.375,
+        1.375
+      ],
+      "to": [
+        6.4999,
+        7.5,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.96875,
+            0,
+            3.0625,
+            0.03125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.9375,
+            8.625,
+            15.96875,
+            8.65625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            2.96875,
+            0,
+            2.875,
+            0.03125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            16,
+            8.625,
+            15.96875,
+            8.65625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            2.59375,
+            0.03125,
+            2.6875,
+            0
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            2.6875,
+            0,
+            2.78125,
+            0.03125
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.3749,
+        7.5,
+        1.375
+      ],
+      "to": [
+        6.4999,
+        7.75,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.5625,
+            0.53125,
+            3.59375,
+            0.59375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            3.5625,
+            0.1875,
+            3.59375,
+            0.25
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            3.59375,
+            0.59375,
+            3.5625,
+            0.65625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            3.59375,
+            0.125,
+            3.5625,
+            0.1875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.875,
+            8.59375,
+            15.90625,
+            8.5625
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.875,
+            8.59375,
+            15.90625,
+            8.625
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.2499,
+        7.875,
+        0.75
+      ],
+      "to": [
+        6.4999,
+        8.125,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.5,
+            1.75,
+            3.5625,
+            1.8125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.78125,
+            8.84375,
+            15.96875,
+            8.90625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            3.5625,
+            1.8125,
+            3.5,
+            1.875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.78125,
+            8.84375,
+            15.59375,
+            8.90625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.59375,
+            8.84375,
+            15.65625,
+            8.65625
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.71875,
+            8.65625,
+            15.78125,
+            8.84375
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.1249,
+        10.5,
+        1.375
+      ],
+      "to": [
+        6.4999,
+        10.625,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.65625,
+            9.3125,
+            15.75,
+            9.34375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.8125,
+            8.5,
+            15.84375,
+            8.53125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.25,
+            8.90625,
+            15.15625,
+            8.9375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.875,
+            8.5,
+            15.84375,
+            8.53125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.0625,
+            8.9375,
+            15.15625,
+            8.90625
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            14.96875,
+            8.90625,
+            15.0625,
+            8.9375
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.3749,
+        10.625,
+        1.375
+      ],
+      "to": [
+        6.4999,
+        10.875,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.21875,
+            9.0625,
+            15.25,
+            9.125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.21875,
+            9,
+            15.25,
+            9.0625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.25,
+            9.125,
+            15.21875,
+            9.1875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.25,
+            8.9375,
+            15.21875,
+            9
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.96875,
+            8.53125,
+            16,
+            8.5
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.875,
+            8.5,
+            15.90625,
+            8.53125
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.2499,
+        11,
+        0.75
+      ],
+      "to": [
+        6.4999,
+        11.25,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.5,
+            0.53125,
+            3.5625,
+            0.59375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.78125,
+            8.78125,
+            15.96875,
+            8.84375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            3.5625,
+            0.59375,
+            3.5,
+            0.65625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.96875,
+            8.71875,
+            15.78125,
+            8.78125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.9375,
+            9.1875,
+            16,
+            9
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.65625,
+            8.65625,
+            15.71875,
+            8.84375
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.1249,
+        13.75,
+        1.375
+      ],
+      "to": [
+        6.4999,
+        13.875,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.5,
+            1.71875,
+            3.59375,
+            1.75
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.6875,
+            8.4375,
+            15.71875,
+            8.46875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            3.21875,
+            0,
+            3.125,
+            0.03125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.71875,
+            8.34375,
+            15.6875,
+            8.375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            7.4375,
+            0.0625,
+            7.53125,
+            0.03125
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.90625,
+            9.3125,
+            16,
+            9.34375
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.3749,
+        13.875,
+        1.375
+      ],
+      "to": [
+        6.4999,
+        14.125,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.5625,
+            1.8125,
+            3.59375,
+            1.875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            3.5625,
+            1.75,
+            3.59375,
+            1.8125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            3.59375,
+            2.125,
+            3.5625,
+            2.1875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            3.59375,
+            0.03125,
+            3.5625,
+            0.09375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.6875,
+            8.3125,
+            15.71875,
+            8.28125
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.6875,
+            8.3125,
+            15.71875,
+            8.34375
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.2499,
+        14.25,
+        0.75
+      ],
+      "to": [
+        6.4999,
+        14.5,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.5,
+            0.125,
+            3.5625,
+            0.1875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.625,
+            9.25,
+            15.8125,
+            9.3125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            3.5625,
+            0.1875,
+            3.5,
+            0.25
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            3.5625,
+            0.03125,
+            3.375,
+            0.09375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.875,
+            9.1875,
+            15.9375,
+            9
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.6875,
+            9,
+            15.75,
+            9.1875
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.1249,
+        1.25,
+        1.375
+      ],
+      "to": [
+        6.3749,
+        1.375,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.4375,
+            0,
+            7.5,
+            0.03125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.84375,
+            8.53125,
+            15.875,
+            8.5625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            7.53125,
+            0.0625,
+            7.46875,
+            0.09375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.90625,
+            8.625,
+            15.875,
+            8.65625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.875,
+            8.9375,
+            15.9375,
+            8.90625
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.8125,
+            8.90625,
+            15.875,
+            8.9375
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.1249,
+        4.375,
+        1.375
+      ],
+      "to": [
+        6.3749,
+        4.5,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14.90625,
+            8.90625,
+            14.96875,
+            8.9375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.90625,
+            8.625,
+            15.9375,
+            8.65625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            14.90625,
+            8.90625,
+            14.84375,
+            8.9375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.90625,
+            8.53125,
+            15.875,
+            8.5625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            3.3125,
+            0.03125,
+            3.375,
+            0
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            3.0625,
+            0,
+            3.125,
+            0.03125
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.1249,
+        7.625,
+        1.375
+      ],
+      "to": [
+        6.3749,
+        7.75,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.5,
+            8.90625,
+            15.5625,
+            8.9375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.90625,
+            8.59375,
+            15.9375,
+            8.625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.4375,
+            8.90625,
+            15.375,
+            8.9375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.96875,
+            8.59375,
+            15.9375,
+            8.625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.9375,
+            8.9375,
+            16,
+            8.90625
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.3125,
+            8.90625,
+            15.375,
+            8.9375
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.1249,
+        10.75,
+        1.375
+      ],
+      "to": [
+        6.3749,
+        10.875,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.5,
+            0,
+            1.5625,
+            0.03125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.96875,
+            8.59375,
+            16,
+            8.625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            0.78125,
+            0,
+            0.71875,
+            0.03125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.9375,
+            8.5625,
+            15.90625,
+            8.59375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.75,
+            8.9375,
+            15.8125,
+            8.90625
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.6875,
+            8.90625,
+            15.75,
+            8.9375
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.1249,
+        14,
+        1.375
+      ],
+      "to": [
+        6.3749,
+        14.125,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.25,
+            8.90625,
+            15.3125,
+            8.9375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.9375,
+            8.5625,
+            15.96875,
+            8.59375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.90625,
+            9.3125,
+            15.84375,
+            9.34375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            16,
+            8.5625,
+            15.96875,
+            8.59375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.4375,
+            8.9375,
+            15.5,
+            8.90625
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.625,
+            8.90625,
+            15.6875,
+            8.9375
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.1249,
+        1.125,
+        1.375
+      ],
+      "to": [
+        6.2499,
+        1.25,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.71875,
+            8.5,
+            15.75,
+            8.53125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.75,
+            8.5,
+            15.78125,
+            8.53125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.71875,
+            8.5,
+            15.6875,
+            8.53125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.8125,
+            8.5,
+            15.78125,
+            8.53125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.6875,
+            8.28125,
+            15.71875,
+            8.25
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.96875,
+            8.53125,
+            16,
+            8.5625
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.1249,
+        4.25,
+        1.375
+      ],
+      "to": [
+        6.2499,
+        4.375,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.65625,
+            8.3125,
+            15.6875,
+            8.34375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.65625,
+            8.28125,
+            15.6875,
+            8.3125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.6875,
+            8.40625,
+            15.65625,
+            8.4375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.6875,
+            8.25,
+            15.65625,
+            8.28125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.65625,
+            8.46875,
+            15.6875,
+            8.4375
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.65625,
+            8.46875,
+            15.6875,
+            8.5
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.1249,
+        7.5,
+        1.375
+      ],
+      "to": [
+        6.2499,
+        7.625,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.78125,
+            8.46875,
+            15.8125,
+            8.5
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.8125,
+            8.46875,
+            15.84375,
+            8.5
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.78125,
+            8.46875,
+            15.75,
+            8.5
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.9375,
+            8.46875,
+            15.90625,
+            8.5
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.71875,
+            8.5,
+            15.75,
+            8.46875
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.65625,
+            8.21875,
+            15.6875,
+            8.25
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.1249,
+        10.625,
+        1.375
+      ],
+      "to": [
+        6.2499,
+        10.75,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7.5,
+            0,
+            7.53125,
+            0.03125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.96875,
+            8.6875,
+            16,
+            8.71875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            3.59375,
+            0,
+            3.5625,
+            0.03125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            16,
+            8.65625,
+            15.96875,
+            8.6875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.96875,
+            8.5,
+            16,
+            8.46875
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.9375,
+            8.46875,
+            15.96875,
+            8.5
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        6.1249,
+        13.875,
+        1.375
+      ],
+      "to": [
+        6.2499,
+        14,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.75,
+            8.59375,
+            15.78125,
+            8.625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.75,
+            8.5625,
+            15.78125,
+            8.59375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.78125,
+            8.625,
+            15.75,
+            8.65625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.78125,
+            8.53125,
+            15.75,
+            8.5625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.625,
+            8.21875,
+            15.65625,
+            8.1875
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.59375,
+            8.1875,
+            15.625,
+            8.21875
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        0,
+        1.625,
+        15.8751
+      ],
+      "to": [
+        1.625,
+        14.375,
+        16.0001
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.25,
+            9.3125,
+            15.65625,
+            12.5
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            3.53125,
+            2.125,
+            3.5625,
+            5.3125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.25,
+            9.3125,
+            14.84375,
+            12.5
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            3.53125,
+            2.125,
+            3.5,
+            5.3125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            0.78125,
+            0.03125,
+            1.1875,
+            0
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0.40625,
+            0.03125
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        0.1249,
+        0.75,
+        1.5
+      ],
+      "to": [
+        0.7499,
+        3.125,
+        1.625
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.65625,
+            11.3125,
+            15.8125,
+            11.90625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.96875,
+            9.53125,
+            16,
+            10.125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.96875,
+            11.3125,
+            15.8125,
+            11.90625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            16,
+            11.3125,
+            15.96875,
+            11.90625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            1.1875,
+            0.03125,
+            1.34375,
+            0
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            1.34375,
+            0,
+            1.5,
+            0.03125
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        0.1249,
+        3.875,
+        1.5
+      ],
+      "to": [
+        0.7499,
+        6.25,
+        1.625
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.8125,
+            9.53125,
+            15.96875,
+            10.125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.96875,
+            10.71875,
+            16,
+            11.3125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.96875,
+            10.71875,
+            15.8125,
+            11.3125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.46875,
+            8.3125,
+            15.4375,
+            8.90625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            0.40625,
+            0.03125,
+            0.5625,
+            0
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            1.875,
+            0,
+            2.03125,
+            0.03125
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        0.1249,
+        7.125,
+        1.5
+      ],
+      "to": [
+        0.7499,
+        9.5,
+        1.625
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.65625,
+            10.71875,
+            15.8125,
+            11.3125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.46875,
+            8.3125,
+            15.5,
+            8.90625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.8125,
+            11.90625,
+            15.65625,
+            12.5
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.53125,
+            8.3125,
+            15.5,
+            8.90625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            2.34375,
+            0.03125,
+            2.5,
+            0
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            0.5625,
+            0,
+            0.71875,
+            0.03125
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        0.1249,
+        10.25,
+        1.5
+      ],
+      "to": [
+        0.7499,
+        12.625,
+        1.625
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.65625,
+            10.125,
+            15.8125,
+            10.71875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.53125,
+            8.3125,
+            15.5625,
+            8.90625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.96875,
+            11.90625,
+            15.8125,
+            12.5
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.59375,
+            8.3125,
+            15.5625,
+            8.90625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            2.1875,
+            0.03125,
+            2.34375,
+            0
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            2.03125,
+            0,
+            2.1875,
+            0.03125
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        0.1249,
+        13.5,
+        1.5
+      ],
+      "to": [
+        0.7499,
+        15.875,
+        1.625
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.65625,
+            9.53125,
+            15.8125,
+            10.125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.96875,
+            11.90625,
+            16,
+            12.5
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.96875,
+            10.125,
+            15.8125,
+            10.71875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            16,
+            10.125,
+            15.96875,
+            10.71875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            1.71875,
+            0.03125,
+            1.875,
+            0
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            1.5625,
+            0,
+            1.71875,
+            0.03125
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        0.1249,
+        0.25,
+        1.5
+      ],
+      "to": [
+        0.2499,
+        0.75,
+        1.625
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.5625,
+            2,
+            3.59375,
+            2.125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            3.5625,
+            1.875,
+            3.59375,
+            2
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            3.59375,
+            2.1875,
+            3.5625,
+            2.3125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            3.59375,
+            0.78125,
+            3.5625,
+            0.90625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.9375,
+            8.53125,
+            15.96875,
+            8.5
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.90625,
+            8.5,
+            15.9375,
+            8.53125
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        0.1249,
+        3.375,
+        1.5
+      ],
+      "to": [
+        0.2499,
+        3.875,
+        1.625
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.5625,
+            0.375,
+            3.59375,
+            0.5
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            3.5625,
+            0.25,
+            3.59375,
+            0.375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            3.59375,
+            0.65625,
+            3.5625,
+            0.78125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.46875,
+            8.1875,
+            15.4375,
+            8.3125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.65625,
+            8.375,
+            15.6875,
+            8.34375
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.65625,
+            8.375,
+            15.6875,
+            8.40625
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        0.1249,
+        6.625,
+        1.5
+      ],
+      "to": [
+        0.2499,
+        7.125,
+        1.625
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.5,
+            8.1875,
+            15.53125,
+            8.3125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.53125,
+            8.1875,
+            15.5625,
+            8.3125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.5,
+            8.1875,
+            15.46875,
+            8.3125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.59375,
+            8.1875,
+            15.5625,
+            8.3125
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.6875,
+            8.5,
+            15.71875,
+            8.46875
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.65625,
+            8.1875,
+            15.6875,
+            8.21875
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        0.1249,
+        9.75,
+        1.5
+      ],
+      "to": [
+        0.2499,
+        10.25,
+        1.625
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.625,
+            8.34375,
+            15.65625,
+            8.46875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.59375,
+            8.21875,
+            15.625,
+            8.34375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.625,
+            8.34375,
+            15.59375,
+            8.46875
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            15.65625,
+            8.21875,
+            15.625,
+            8.34375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.875,
+            8.5,
+            15.90625,
+            8.46875
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.84375,
+            8.46875,
+            15.875,
+            8.5
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        0.1249,
+        13,
+        1.5
+      ],
+      "to": [
+        0.2499,
+        13.5,
+        1.625
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.6875,
+            8.53125,
+            15.71875,
+            8.65625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "east": {
+          "uv": [
+            15.71875,
+            8.53125,
+            15.75,
+            8.65625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "south": {
+          "uv": [
+            15.6875,
+            8.53125,
+            15.65625,
+            8.65625
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "west": {
+          "uv": [
+            3.59375,
+            2.3125,
+            3.5625,
+            2.4375
+          ],
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "up": {
+          "uv": [
+            15.6875,
+            8.40625,
+            15.71875,
+            8.375
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        },
+        "down": {
+          "uv": [
+            15.6875,
+            8.40625,
+            15.71875,
+            8.4375
+          ],
+          "rotation": 180,
+          "texture": "#pm_010_cabinet_texture"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        98,
+        55
+      ],
+      "translation": [
+        0,
+        4,
+        0.5
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        98,
+        55
+      ],
+      "translation": [
+        0,
+        4,
+        0.5
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        107,
+        25
+      ],
+      "translation": [
+        1.13,
+        3.2,
+        1.13
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        107,
+        25
+      ],
+      "translation": [
+        1.13,
+        3.2,
+        1.13
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        5.5652,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    }
+  }
+}

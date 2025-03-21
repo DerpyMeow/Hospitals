@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/pt_010_cabinet_model",
+  "textures": {
+    "all": "hospitals:block/pm_010_cabinet_texture",
+    "particle": "hospitals:block/pm_010_cabinet_texture",
+    "pm_010_cabinet_texture": "hospitals:block/pm_010_cabinet_texture"
+  },
+  "render_type": "solid"
+}

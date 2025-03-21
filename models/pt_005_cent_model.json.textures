@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pm_005_cent_texture": "pm_005_cent_texture"
+      },
+      "name": "default"
+    }
+  }
+}

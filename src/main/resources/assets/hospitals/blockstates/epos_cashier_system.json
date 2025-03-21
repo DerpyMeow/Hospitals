@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/epos_cashier_system"
+    },
+    "facing=east": {
+      "model": "hospitals:block/epos_cashier_system",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/epos_cashier_system",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/epos_cashier_system",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/pt_005_cent_model",
+  "textures": {
+    "all": "hospitals:block/pm_005_cent_texture",
+    "particle": "hospitals:block/pm_005_cent_texture",
+    "pm_005_cent_texture": "hospitals:block/pm_005_cent_texture"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/pharmacy_counterwith_logo"
+    },
+    "facing=east": {
+      "model": "hospitals:block/pharmacy_counterwith_logo",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/pharmacy_counterwith_logo",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/pharmacy_counterwith_logo",
+      "y": 270
+    }
+  }
+}

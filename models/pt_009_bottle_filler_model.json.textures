@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pm_009_screen_base_texture": "pm_009_screen_base_texture",
+        "pm_008_screen_texture": "pm_008_screen_texture",
+        "pm_009_texture": "pm_009_texture"
+      },
+      "name": "default"
+    }
+  }
+}

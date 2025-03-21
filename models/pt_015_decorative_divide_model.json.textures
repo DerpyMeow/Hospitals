@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "wood_metal_texture": "wood_metal_texture"
+      },
+      "name": "default"
+    }
+  }
+}

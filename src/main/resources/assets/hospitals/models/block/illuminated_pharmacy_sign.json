@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/pm_001_pharmacy_sign_model",
+  "textures": {
+    "all": "hospitals:block/pm_001_pharmacy_sign_texture",
+    "particle": "hospitals:block/pm_001_pharmacy_sign_texture",
+    "PM_001_Pharmacy_Sign_Texture": "hospitals:block/pm_001_pharmacy_sign_texture"
+  },
+  "render_type": "solid"
+}

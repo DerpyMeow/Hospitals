@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/pt_002_store_shelf_model",
+  "textures": {
+    "all": "hospitals:block/pt_002_store_shelf_texture",
+    "particle": "hospitals:block/pt_002_store_shelf_texture",
+    "pt_002_store_shelf_texture": "hospitals:block/pt_002_store_shelf_texture"
+  },
+  "render_type": "solid"
+}

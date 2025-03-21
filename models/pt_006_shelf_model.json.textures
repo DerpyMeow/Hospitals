@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pm_006_unit_texture": "pm_006_unit_texture",
+        "pm_006_shelf_texture": "pm_006_shelf_texture"
+      },
+      "name": "default"
+    }
+  }
+}

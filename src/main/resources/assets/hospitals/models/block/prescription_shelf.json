@@ -1,0 +1,10 @@
+{
+  "parent": "hospitals:custom/pt_013_presc_shelf_model",
+  "textures": {
+    "all": "hospitals:block/pt_013_presc_shelf_texture",
+    "particle": "hospitals:block/pt_013_presc_shelf_texture",
+    "pt_012_bag_texture": "hospitals:block/pt_012_bag_texture",
+    "pt_013_presc_shelf_texture": "hospitals:block/pt_013_presc_shelf_texture"
+  },
+  "render_type": "solid"
+}

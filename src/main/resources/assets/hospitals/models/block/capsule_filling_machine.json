@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/pt_008_capsule_filling_model",
+  "textures": {
+    "all": "hospitals:block/pm_008_texture",
+    "particle": "hospitals:block/pm_008_texture",
+    "pm_008_texture": "hospitals:block/pm_008_texture"
+  },
+  "render_type": "solid"
+}

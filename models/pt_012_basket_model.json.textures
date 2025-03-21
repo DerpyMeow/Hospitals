@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pt_012_basket_texture": "pt_012_basket_texture"
+      },
+      "name": "default"
+    }
+  }
+}

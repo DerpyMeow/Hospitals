@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pm_010_cabinet_texture": "pm_010_cabinet_texture"
+      },
+      "name": "default"
+    }
+  }
+}

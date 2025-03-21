@@ -1,0 +1,24 @@
+{
+  "parent": "hospitals:custom/pt_014_counter1_model",
+  "textures": {
+    "all": "hospitals:block/pt_014_counter1_texture",
+    "particle": "hospitals:block/pt_014_counter1_texture",
+    "pm_002_panadol": "hospitals:block/pm_002_panadol",
+    "pm_002_ibuprofen": "hospitals:block/pm_002_ibuprofen",
+    "pt_014_counter1_texture": "hospitals:block/pt_014_counter1_texture",
+    "pm_002_calpol2": "hospitals:block/pm_002_calpol2",
+    "pm_002_advil": "hospitals:block/pm_002_advil",
+    "pm_002_paracetamol": "hospitals:block/pm_002_paracetamol",
+    "pm_002_goodys": "hospitals:block/pm_002_goodys",
+    "pm_002_codeine": "hospitals:block/pm_002_codeine",
+    "pm_002_co-codamol": "hospitals:block/pm_002_co-codamol",
+    "pm_002_galpharm": "hospitals:block/pm_002_galpharm",
+    "pm_002_nurofenplus": "hospitals:block/pm_002_nurofenplus",
+    "missing": "hospitals:block/pm_002_calpol2",
+    "pm_002_aspirin": "hospitals:block/pm_002_aspirin",
+    "pm_002_calpol": "hospitals:block/pm_002_calpol",
+    "pm_002_nurofen": "hospitals:block/pm_002_nurofen",
+    "pm_002_anadin": "hospitals:block/pm_002_anadin"
+  },
+  "render_type": "solid"
+}

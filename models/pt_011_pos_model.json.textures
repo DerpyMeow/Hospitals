@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pt_011_pos_base_texture": "pt_011_pos_base_texture",
+        "pt_011_pos_reader_texture": "pt_011_pos_reader_texture",
+        "pt_011_pos_screen_texture": "pt_011_pos_screen_texture",
+        "pt_011_pos_screen_os_texture": "pt_011_pos_screen_os_texture"
+      },
+      "name": "default"
+    }
+  }
+}

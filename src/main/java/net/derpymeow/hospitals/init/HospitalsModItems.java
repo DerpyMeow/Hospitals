@@ -38,6 +38,26 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> OPERATING_ROOM_CONTROL_PANEL = block(HospitalsModBlocks.OPERATING_ROOM_CONTROL_PANEL);
 	public static final RegistryObject<Item> SURGICAL_INSTRUMENTS = block(HospitalsModBlocks.SURGICAL_INSTRUMENTS);
 	public static final RegistryObject<Item> MEDICAL_GAS_CEILING_MOUNTED = block(HospitalsModBlocks.MEDICAL_GAS_CEILING_MOUNTED);
+	public static final RegistryObject<Item> ILLUMINATED_PHARMACY_SIGN = block(HospitalsModBlocks.ILLUMINATED_PHARMACY_SIGN);
+	public static final RegistryObject<Item> STORE_SHELF_EMPTY = block(HospitalsModBlocks.STORE_SHELF_EMPTY);
+	public static final RegistryObject<Item> STORE_SHELF_STOCKED = block(HospitalsModBlocks.STORE_SHELF_STOCKED);
+	public static final RegistryObject<Item> COMPOUNDING_ISOLATOR = block(HospitalsModBlocks.COMPOUNDING_ISOLATOR);
+	public static final RegistryObject<Item> ANALYTICAL_BALANCE = block(HospitalsModBlocks.ANALYTICAL_BALANCE);
+	public static final RegistryObject<Item> REFRIDGERATED_CENTRIFUGE = block(HospitalsModBlocks.REFRIDGERATED_CENTRIFUGE);
+	public static final RegistryObject<Item> WORKTOP_WITH_SHELF = block(HospitalsModBlocks.WORKTOP_WITH_SHELF);
+	public static final RegistryObject<Item> WORKTOP = block(HospitalsModBlocks.WORKTOP);
+	public static final RegistryObject<Item> LABORATORY_FRIDGE = block(HospitalsModBlocks.LABORATORY_FRIDGE);
+	public static final RegistryObject<Item> CAPSULE_FILLING_MACHINE = block(HospitalsModBlocks.CAPSULE_FILLING_MACHINE);
+	public static final RegistryObject<Item> BOTTLE_FILLING_MACHINE = block(HospitalsModBlocks.BOTTLE_FILLING_MACHINE);
+	public static final RegistryObject<Item> MEDICATION_DRAWERS = block(HospitalsModBlocks.MEDICATION_DRAWERS);
+	public static final RegistryObject<Item> PRESCRIPTION_SHELF = block(HospitalsModBlocks.PRESCRIPTION_SHELF);
+	public static final RegistryObject<Item> EPOS_CASHIER_SYSTEM = block(HospitalsModBlocks.EPOS_CASHIER_SYSTEM);
+	public static final RegistryObject<Item> PRESCRIPTION_BASKET_EMPTY = block(HospitalsModBlocks.PRESCRIPTION_BASKET_EMPTY);
+	public static final RegistryObject<Item> PRESCRIPTION_BASKET = block(HospitalsModBlocks.PRESCRIPTION_BASKET);
+	public static final RegistryObject<Item> PHARMACY_COUNTER_STOCKED = block(HospitalsModBlocks.PHARMACY_COUNTER_STOCKED);
+	public static final RegistryObject<Item> PHARMACY_COUNTERWITH_LOGO = block(HospitalsModBlocks.PHARMACY_COUNTERWITH_LOGO);
+	public static final RegistryObject<Item> PHARMACY_COUNTER = block(HospitalsModBlocks.PHARMACY_COUNTER);
+	public static final RegistryObject<Item> DECORATIVE_DIVIDE = block(HospitalsModBlocks.DECORATIVE_DIVIDE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pt_003_isolator_texture": "pt_003_isolator_texture"
+      },
+      "name": "default"
+    }
+  }
+}

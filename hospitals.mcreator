@@ -439,6 +439,346 @@
         ]
       },
       "path": "~/Theatres"
+    },
+    {
+      "name": "IlluminatedPharmacySign",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "illuminated_pharmacy_sign",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/illuminated_pharmacy_sign.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/illuminated_pharmacy_sign.json",
+          "src/main/java/net/derpymeow/hospitals/block/IlluminatedPharmacySignBlock.java",
+          "src/main/resources/assets/hospitals/models/block/illuminated_pharmacy_sign.json",
+          "src/main/resources/assets/hospitals/blockstates/illuminated_pharmacy_sign.json"
+        ]
+      },
+      "path": "~/Pharmacy"
+    },
+    {
+      "name": "StoreShelfEmpty",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "store_shelf_empty",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/block/store_shelf_empty.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/store_shelf_empty.json",
+          "src/main/java/net/derpymeow/hospitals/block/StoreShelfEmptyBlock.java",
+          "src/main/resources/assets/hospitals/models/item/store_shelf_empty.json",
+          "src/main/resources/assets/hospitals/blockstates/store_shelf_empty.json"
+        ]
+      },
+      "path": "~/Pharmacy"
+    },
+    {
+      "name": "StoreShelfStocked",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "store_shelf_stocked",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/store_shelf_stocked.json",
+          "src/main/resources/assets/hospitals/blockstates/store_shelf_stocked.json",
+          "src/main/resources/assets/hospitals/models/block/store_shelf_stocked.json",
+          "src/main/resources/assets/hospitals/models/item/store_shelf_stocked.json",
+          "src/main/java/net/derpymeow/hospitals/block/StoreShelfStockedBlock.java"
+        ]
+      },
+      "path": "~/Pharmacy"
+    },
+    {
+      "name": "CompoundingIsolator",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compounding_isolator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/compounding_isolator.json",
+          "src/main/resources/assets/hospitals/blockstates/compounding_isolator.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/compounding_isolator.json",
+          "src/main/java/net/derpymeow/hospitals/block/CompoundingIsolatorBlock.java",
+          "src/main/resources/assets/hospitals/models/block/compounding_isolator.json"
+        ]
+      },
+      "path": "~/Pharmacy"
+    },
+    {
+      "name": "AnalyticalBalance",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "analytical_balance",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/AnalyticalBalanceBlock.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/analytical_balance.json",
+          "src/main/resources/assets/hospitals/models/item/analytical_balance.json",
+          "src/main/resources/assets/hospitals/blockstates/analytical_balance.json",
+          "src/main/resources/assets/hospitals/models/block/analytical_balance.json"
+        ]
+      },
+      "path": "~/Pharmacy"
+    },
+    {
+      "name": "RefridgeratedCentrifuge",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refridgerated_centrifuge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/RefridgeratedCentrifugeBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/refridgerated_centrifuge.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/refridgerated_centrifuge.json",
+          "src/main/resources/assets/hospitals/models/item/refridgerated_centrifuge.json",
+          "src/main/resources/assets/hospitals/models/block/refridgerated_centrifuge.json"
+        ]
+      },
+      "path": "~/Pharmacy"
+    },
+    {
+      "name": "WorktopWithShelf",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "worktop_with_shelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/worktop_with_shelf.json",
+          "src/main/resources/assets/hospitals/models/item/worktop_with_shelf.json",
+          "src/main/resources/assets/hospitals/blockstates/worktop_with_shelf.json",
+          "src/main/java/net/derpymeow/hospitals/block/WorktopWithShelfBlock.java",
+          "src/main/resources/assets/hospitals/models/block/worktop_with_shelf.json"
+        ]
+      },
+      "path": "~/Pharmacy"
+    },
+    {
+      "name": "Worktop",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "worktop",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/worktop.json",
+          "src/main/resources/assets/hospitals/models/block/worktop.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/worktop.json",
+          "src/main/resources/assets/hospitals/blockstates/worktop.json",
+          "src/main/java/net/derpymeow/hospitals/block/WorktopBlock.java"
+        ]
+      },
+      "path": "~/Pharmacy"
+    },
+    {
+      "name": "LaboratoryFridge",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laboratory_fridge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/LaboratoryFridgeBlock.java",
+          "src/main/resources/assets/hospitals/models/item/laboratory_fridge.json",
+          "src/main/resources/assets/hospitals/blockstates/laboratory_fridge.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/laboratory_fridge.json",
+          "src/main/resources/assets/hospitals/models/block/laboratory_fridge.json"
+        ]
+      },
+      "path": "~/Pharmacy"
+    },
+    {
+      "name": "CapsuleFillingMachine",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capsule_filling_machine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/CapsuleFillingMachineBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/capsule_filling_machine.json",
+          "src/main/resources/assets/hospitals/models/block/capsule_filling_machine.json",
+          "src/main/resources/assets/hospitals/models/item/capsule_filling_machine.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/capsule_filling_machine.json"
+        ]
+      },
+      "path": "~/Pharmacy"
+    },
+    {
+      "name": "BottleFillingMachine",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottle_filling_machine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/bottle_filling_machine.json",
+          "src/main/resources/assets/hospitals/blockstates/bottle_filling_machine.json",
+          "src/main/resources/assets/hospitals/models/block/bottle_filling_machine.json",
+          "src/main/java/net/derpymeow/hospitals/block/BottleFillingMachineBlock.java",
+          "src/main/resources/assets/hospitals/models/item/bottle_filling_machine.json"
+        ]
+      },
+      "path": "~/Pharmacy"
+    },
+    {
+      "name": "MedicationDrawers",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medication_drawers",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/MedicationDrawersBlock.java",
+          "src/main/resources/assets/hospitals/models/block/medication_drawers.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/medication_drawers.json",
+          "src/main/resources/assets/hospitals/models/item/medication_drawers.json",
+          "src/main/resources/assets/hospitals/blockstates/medication_drawers.json"
+        ]
+      },
+      "path": "~/Pharmacy"
+    },
+    {
+      "name": "PrescriptionShelf",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prescription_shelf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/PrescriptionShelfBlock.java",
+          "src/main/resources/assets/hospitals/models/item/prescription_shelf.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/prescription_shelf.json",
+          "src/main/resources/assets/hospitals/blockstates/prescription_shelf.json",
+          "src/main/resources/assets/hospitals/models/block/prescription_shelf.json"
+        ]
+      },
+      "path": "~/Pharmacy"
+    },
+    {
+      "name": "EPOSCashierSystem",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epos_cashier_system",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/epos_cashier_system.json",
+          "src/main/resources/assets/hospitals/blockstates/epos_cashier_system.json",
+          "src/main/java/net/derpymeow/hospitals/block/EPOSCashierSystemBlock.java",
+          "src/main/resources/assets/hospitals/models/item/epos_cashier_system.json",
+          "src/main/resources/assets/hospitals/models/block/epos_cashier_system.json"
+        ]
+      },
+      "path": "~/Pharmacy"
+    },
+    {
+      "name": "PrescriptionBasketEmpty",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prescription_basket_empty",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/PrescriptionBasketEmptyBlock.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/prescription_basket_empty.json",
+          "src/main/resources/assets/hospitals/blockstates/prescription_basket_empty.json",
+          "src/main/resources/assets/hospitals/models/block/prescription_basket_empty.json",
+          "src/main/resources/assets/hospitals/models/item/prescription_basket_empty.json"
+        ]
+      },
+      "path": "~/Pharmacy"
+    },
+    {
+      "name": "PrescriptionBasket",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prescription_basket",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/prescription_basket.json",
+          "src/main/java/net/derpymeow/hospitals/block/PrescriptionBasketBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/prescription_basket.json",
+          "src/main/resources/assets/hospitals/models/block/prescription_basket.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/prescription_basket.json"
+        ]
+      },
+      "path": "~/Pharmacy"
+    },
+    {
+      "name": "PharmacyCounterStocked",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pharmacy_counter_stocked",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/pharmacy_counter_stocked.json",
+          "src/main/resources/assets/hospitals/blockstates/pharmacy_counter_stocked.json",
+          "src/main/resources/assets/hospitals/models/block/pharmacy_counter_stocked.json",
+          "src/main/java/net/derpymeow/hospitals/block/PharmacyCounterStockedBlock.java",
+          "src/main/resources/assets/hospitals/models/item/pharmacy_counter_stocked.json"
+        ]
+      },
+      "path": "~/Pharmacy"
+    },
+    {
+      "name": "PharmacyCounterwithLogo",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pharmacy_counterwith_logo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/blockstates/pharmacy_counterwith_logo.json",
+          "src/main/resources/assets/hospitals/models/item/pharmacy_counterwith_logo.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/pharmacy_counterwith_logo.json",
+          "src/main/resources/assets/hospitals/models/block/pharmacy_counterwith_logo.json",
+          "src/main/java/net/derpymeow/hospitals/block/PharmacyCounterwithLogoBlock.java"
+        ]
+      },
+      "path": "~/Pharmacy"
+    },
+    {
+      "name": "PharmacyCounter",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pharmacy_counter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/pharmacy_counter.json",
+          "src/main/java/net/derpymeow/hospitals/block/PharmacyCounterBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/pharmacy_counter.json",
+          "src/main/resources/assets/hospitals/models/block/pharmacy_counter.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/pharmacy_counter.json"
+        ]
+      },
+      "path": "~/Pharmacy"
+    },
+    {
+      "name": "DecorativeDivide",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decorative_divide",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/DecorativeDivideBlock.java",
+          "src/main/resources/assets/hospitals/models/item/decorative_divide.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/decorative_divide.json",
+          "src/main/resources/assets/hospitals/blockstates/decorative_divide.json",
+          "src/main/resources/assets/hospitals/models/block/decorative_divide.json"
+        ]
+      },
+      "path": "~/Pharmacy"
     }
   ],
   "variable_elements": [],
@@ -447,34 +787,54 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item_group.hospitals.pharmacy_thm": "Pharmacy - THM",
       "block.hospitals.surgical_instrument_trolley": "Surgical Instrument Trolley",
       "block.hospitals.medical_gas_ceiling_mounted": "Medical Gas (Ceiling Mounted)",
-      "block.hospitals.wa_block": "WA Block",
-      "block.hospitals.th_block": "TH Block",
-      "item_group.hospitals.radiology_thm": "Radiology - THM",
-      "item_group.hospitals.hospitals": "Hospitals",
       "block.hospitals.operating_table": "Operating Table",
-      "block.hospitals.ph_block": "PH Block",
-      "item_group.hospitals.facilities_thm": "Facilities - THM",
-      "item_group.hospitals.operating_rooms_thm": "Operating Rooms - THM",
       "block.hospitals.medical_cross": "Medical Cross",
+      "block.hospitals.worktop": "Worktop",
       "block.hospitals.sterile_worktop": "Sterile Worktop",
       "block.hospitals.surgical_refridgerated_cabinet": "Surgical Refridgerated Cabinet",
       "block.hospitals.scrub_sink": "Scrub Sink",
+      "block.hospitals.pharmacy_counter_stocked": "Pharmacy Counter (Stocked)",
       "block.hospitals.surgical_lamp": "Surgical Lamp",
       "block.hospitals.surgical_trolley": "Surgical Trolley",
-      "item_group.hospitals.ward_thm": "Ward - THM",
-      "block.hospitals.operating_room_control_panel": "Operating Room Control Panel",
-      "block.hospitals.sterile_work_counter_with_shelf": "Sterile Work Counter (With Shelf)",
+      "block.hospitals.store_shelf_empty": "Store Shelf (Empty)",
       "block.hospitals.ra_block": "RA Block",
-      "block.hospitals.anaesthetic_machine": "Anaesthetic Machine",
-      "block.hospitals.surgical_worktop_table": "Surgical Worktop/Table",
       "block.hospitals.fa_block": "FA Block",
       "block.hospitals.wall_storage_tubs_red": "Wall Storage Tubs (Red)",
+      "block.hospitals.pharmacy_counter": "Pharmacy Counter",
+      "block.hospitals.illuminated_pharmacy_sign": "Illuminated Pharmacy Sign",
+      "block.hospitals.pharmacy_counterwith_logo": "Pharmacy Counter (with Logo)",
+      "block.hospitals.epos_cashier_system": "ePOS Cashier System",
+      "block.hospitals.surgical_instruments": "Surgical Instruments",
+      "block.hospitals.worktop_with_shelf": "Worktop (With Shelf)",
+      "item_group.hospitals.pharmacy_thm": "Pharmacy - THM",
+      "block.hospitals.medication_drawers": "Medication Drawers",
+      "block.hospitals.refridgerated_centrifuge": "Refridgerated Centrifuge",
+      "block.hospitals.wa_block": "WA Block",
+      "block.hospitals.capsule_filling_machine": "Capsule Filling Machine",
+      "block.hospitals.th_block": "TH Block",
+      "item_group.hospitals.radiology_thm": "Radiology - THM",
+      "block.hospitals.laboratory_fridge": "Laboratory Fridge",
+      "item_group.hospitals.hospitals": "Hospitals",
+      "block.hospitals.analytical_balance": "Analytical Balance",
+      "block.hospitals.ph_block": "PH Block",
+      "item_group.hospitals.facilities_thm": "Facilities - THM",
+      "block.hospitals.decorative_divide": "Decorative Divide",
+      "item_group.hospitals.operating_rooms_thm": "Operating Rooms - THM",
+      "block.hospitals.prescription_shelf": "Prescription Shelf",
+      "block.hospitals.prescription_basket_empty": "Prescription Basket (Empty)",
+      "item_group.hospitals.ward_thm": "Ward - THM",
+      "block.hospitals.operating_room_control_panel": "Operating Room Control Panel",
+      "block.hospitals.bottle_filling_machine": "Bottle Filling Machine",
+      "block.hospitals.sterile_work_counter_with_shelf": "Sterile Work Counter (With Shelf)",
+      "block.hospitals.anaesthetic_machine": "Anaesthetic Machine",
+      "block.hospitals.surgical_worktop_table": "Surgical Worktop/Table",
+      "block.hospitals.prescription_basket": "Prescription Basket",
+      "block.hospitals.store_shelf_stocked": "Store Shelf (Stocked)",
+      "block.hospitals.compounding_isolator": "Compounding Isolator",
       "block.hospitals.surgical_workstation": "Surgical Workstation",
-      "block.hospitals.wall_storage_tubs_yellow": "Wall Storage Tubs (Yellow)",
-      "block.hospitals.surgical_instruments": "Surgical Instruments"
+      "block.hospitals.wall_storage_tubs_yellow": "Wall Storage Tubs (Yellow)"
     }
   },
   "foldersRoot": {

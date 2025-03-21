@@ -1,0 +1,25 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pm_002_panadol": "pm_002_panadol",
+        "pm_002_ibuprofen": "pm_002_ibuprofen",
+        "pm_002_calpol3": "pm_002_calpol3",
+        "pm_002_calpol2": "pm_002_calpol2",
+        "pt_002_store_shelf_texture": "pt_002_store_shelf_texture",
+        "pm_002_advil": "pm_002_advil",
+        "pm_002_paracetamol": "pm_002_paracetamol",
+        "pm_002_goodys": "pm_002_goodys",
+        "pm_002_codeine": "pm_002_codeine",
+        "pm_002_co-codamol": "pm_002_co-codamol",
+        "pm_002_galpharm": "pm_002_galpharm",
+        "pm_002_nurofenplus": "pm_002_nurofenplus",
+        "pm_002_aspirin": "pm_002_aspirin",
+        "pm_002_calpol": "pm_002_calpol",
+        "pm_002_nurofen": "pm_002_nurofen",
+        "pm_002_anadin": "pm_002_anadin"
+      },
+      "name": "default"
+    }
+  }
+}

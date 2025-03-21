@@ -44,4 +44,27 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModBlocks.SURGICAL_INSTRUMENTS.get().asItem());
 				tabData.accept(HospitalsModBlocks.MEDICAL_GAS_CEILING_MOUNTED.get().asItem());
 			}).withSearchBar().withTabsBefore(HOSPITALS.getId()).build());
+	public static final RegistryObject<CreativeModeTab> PHARMACY_THM = REGISTRY.register("pharmacy_thm",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.pharmacy_thm")).icon(() -> new ItemStack(HospitalsModBlocks.PH_BLOCK.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(HospitalsModBlocks.ILLUMINATED_PHARMACY_SIGN.get().asItem());
+				tabData.accept(HospitalsModBlocks.STORE_SHELF_EMPTY.get().asItem());
+				tabData.accept(HospitalsModBlocks.STORE_SHELF_STOCKED.get().asItem());
+				tabData.accept(HospitalsModBlocks.COMPOUNDING_ISOLATOR.get().asItem());
+				tabData.accept(HospitalsModBlocks.ANALYTICAL_BALANCE.get().asItem());
+				tabData.accept(HospitalsModBlocks.REFRIDGERATED_CENTRIFUGE.get().asItem());
+				tabData.accept(HospitalsModBlocks.WORKTOP_WITH_SHELF.get().asItem());
+				tabData.accept(HospitalsModBlocks.WORKTOP.get().asItem());
+				tabData.accept(HospitalsModBlocks.LABORATORY_FRIDGE.get().asItem());
+				tabData.accept(HospitalsModBlocks.CAPSULE_FILLING_MACHINE.get().asItem());
+				tabData.accept(HospitalsModBlocks.BOTTLE_FILLING_MACHINE.get().asItem());
+				tabData.accept(HospitalsModBlocks.MEDICATION_DRAWERS.get().asItem());
+				tabData.accept(HospitalsModBlocks.PRESCRIPTION_SHELF.get().asItem());
+				tabData.accept(HospitalsModBlocks.EPOS_CASHIER_SYSTEM.get().asItem());
+				tabData.accept(HospitalsModBlocks.PRESCRIPTION_BASKET_EMPTY.get().asItem());
+				tabData.accept(HospitalsModBlocks.PRESCRIPTION_BASKET.get().asItem());
+				tabData.accept(HospitalsModBlocks.PHARMACY_COUNTER_STOCKED.get().asItem());
+				tabData.accept(HospitalsModBlocks.PHARMACY_COUNTERWITH_LOGO.get().asItem());
+				tabData.accept(HospitalsModBlocks.PHARMACY_COUNTER.get().asItem());
+				tabData.accept(HospitalsModBlocks.DECORATIVE_DIVIDE.get().asItem());
+			}).withSearchBar().withTabsBefore(OPERATING_ROOMS_THM.getId()).build());
 }

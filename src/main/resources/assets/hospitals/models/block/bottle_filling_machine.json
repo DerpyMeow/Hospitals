@@ -1,0 +1,11 @@
+{
+  "parent": "hospitals:custom/pt_009_bottle_filler_model",
+  "textures": {
+    "all": "hospitals:block/pm_009_texture",
+    "particle": "hospitals:block/pm_009_texture",
+    "pm_009_screen_base_texture": "hospitals:block/pm_009_screen_base_texture",
+    "pm_008_screen_texture": "hospitals:block/pm_008_screen_texture",
+    "pm_009_texture": "hospitals:block/pm_009_texture"
+  },
+  "render_type": "solid"
+}

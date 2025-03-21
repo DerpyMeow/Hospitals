@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/illuminated_pharmacy_sign"
+    },
+    "facing=east": {
+      "model": "hospitals:block/illuminated_pharmacy_sign",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/illuminated_pharmacy_sign",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/illuminated_pharmacy_sign",
+      "y": 270
+    }
+  }
+}

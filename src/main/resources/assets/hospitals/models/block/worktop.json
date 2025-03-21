@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/pt_006_unit_model",
+  "textures": {
+    "all": "hospitals:block/pm_006_unit_texture",
+    "particle": "hospitals:block/pm_006_unit_texture",
+    "pm_006_unit_texture": "hospitals:block/pm_006_unit_texture"
+  },
+  "render_type": "solid"
+}

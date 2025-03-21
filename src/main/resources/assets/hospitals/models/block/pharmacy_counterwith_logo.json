@@ -1,0 +1,10 @@
+{
+  "parent": "hospitals:custom/pt_014_counter2_model",
+  "textures": {
+    "all": "hospitals:block/pt_014_counter2_texture",
+    "particle": "hospitals:block/pt_014_counter2_texture",
+    "pt_014_counter1_texture": "hospitals:block/pt_014_counter1_texture",
+    "pt_014_counter2_texture": "hospitals:block/pt_014_counter2_texture"
+  },
+  "render_type": "solid"
+}
