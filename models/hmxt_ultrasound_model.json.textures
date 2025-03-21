@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "ultrasound_base_texture": "ultrasound_base_texture",
+        "ultrasound_interface": "ultrasound_interface",
+        "ultrasound_controls_texture": "ultrasound_controls_texture",
+        "ultrasound_screen_texture": "ultrasound_screen_texture",
+        "ultrasound_keyboard": "ultrasound_keyboard"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "hospitals:custom/hr_007_xray2_model",
+  "textures": {
+    "all": "hospitals:block/hr_007_xray_viewer_1",
+    "particle": "hospitals:block/hr_007_xray_viewer_1",
+    "hw_007_keyboard": "hospitals:block/hw_007_keyboard",
+    "hr_007_computer_main": "hospitals:block/hr_007_computer_main",
+    "hr_007_xray_viewer": "hospitals:block/hr_007_xray_viewer_1"
+  },
+  "render_type": "solid"
+}

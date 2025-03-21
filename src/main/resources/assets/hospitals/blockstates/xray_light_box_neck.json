@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/xray_light_box_neck"
+    },
+    "facing=east": {
+      "model": "hospitals:block/xray_light_box_neck",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/xray_light_box_neck",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/xray_light_box_neck",
+      "y": 270
+    }
+  }
+}

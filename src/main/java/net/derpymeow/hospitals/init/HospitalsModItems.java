@@ -58,6 +58,20 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> PHARMACY_COUNTERWITH_LOGO = block(HospitalsModBlocks.PHARMACY_COUNTERWITH_LOGO);
 	public static final RegistryObject<Item> PHARMACY_COUNTER = block(HospitalsModBlocks.PHARMACY_COUNTER);
 	public static final RegistryObject<Item> DECORATIVE_DIVIDE = block(HospitalsModBlocks.DECORATIVE_DIVIDE);
+	public static final RegistryObject<Item> ULTRASOUND = block(HospitalsModBlocks.ULTRASOUND);
+	public static final RegistryObject<Item> X_RAY_LIGHT = block(HospitalsModBlocks.X_RAY_LIGHT);
+	public static final RegistryObject<Item> XRAY_LIGHT_BOX_BLANK = block(HospitalsModBlocks.XRAY_LIGHT_BOX_BLANK);
+	public static final RegistryObject<Item> XRAY_LIGHT_BOX_CHEST = block(HospitalsModBlocks.XRAY_LIGHT_BOX_CHEST);
+	public static final RegistryObject<Item> XRAY_LIGHT_BOX_FEET = block(HospitalsModBlocks.XRAY_LIGHT_BOX_FEET);
+	public static final RegistryObject<Item> XRAY_LIGHT_BOX_HANDS = block(HospitalsModBlocks.XRAY_LIGHT_BOX_HANDS);
+	public static final RegistryObject<Item> XRAY_LIGHT_BOX_ARMS = block(HospitalsModBlocks.XRAY_LIGHT_BOX_ARMS);
+	public static final RegistryObject<Item> XRAY_LIGHT_BOX_NECK = block(HospitalsModBlocks.XRAY_LIGHT_BOX_NECK);
+	public static final RegistryObject<Item> X_RAY_MACHINE = block(HospitalsModBlocks.X_RAY_MACHINE);
+	public static final RegistryObject<Item> XRAY_BUCKY_STAND = block(HospitalsModBlocks.XRAY_BUCKY_STAND);
+	public static final RegistryObject<Item> COMPUTER_CT_SCAN_VIEWER = block(HospitalsModBlocks.COMPUTER_CT_SCAN_VIEWER);
+	public static final RegistryObject<Item> COMPUTER_X_RAY_VIEWER = block(HospitalsModBlocks.COMPUTER_X_RAY_VIEWER);
+	public static final RegistryObject<Item> COMPUTER_SCREEN_2_CT_SCAN_VIEWER = block(HospitalsModBlocks.COMPUTER_SCREEN_2_CT_SCAN_VIEWER);
+	public static final RegistryObject<Item> COMPUTER_SCREEN_2_XRAY_VIEWER = block(HospitalsModBlocks.COMPUTER_SCREEN_2_XRAY_VIEWER);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -67,4 +67,21 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModBlocks.PHARMACY_COUNTER.get().asItem());
 				tabData.accept(HospitalsModBlocks.DECORATIVE_DIVIDE.get().asItem());
 			}).withSearchBar().withTabsBefore(OPERATING_ROOMS_THM.getId()).build());
+	public static final RegistryObject<CreativeModeTab> RADIOLOGY_THM = REGISTRY.register("radiology_thm",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.radiology_thm")).icon(() -> new ItemStack(HospitalsModBlocks.RA_BLOCK.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(HospitalsModBlocks.ULTRASOUND.get().asItem());
+				tabData.accept(HospitalsModBlocks.X_RAY_LIGHT.get().asItem());
+				tabData.accept(HospitalsModBlocks.XRAY_LIGHT_BOX_BLANK.get().asItem());
+				tabData.accept(HospitalsModBlocks.XRAY_LIGHT_BOX_CHEST.get().asItem());
+				tabData.accept(HospitalsModBlocks.XRAY_LIGHT_BOX_FEET.get().asItem());
+				tabData.accept(HospitalsModBlocks.XRAY_LIGHT_BOX_HANDS.get().asItem());
+				tabData.accept(HospitalsModBlocks.XRAY_LIGHT_BOX_ARMS.get().asItem());
+				tabData.accept(HospitalsModBlocks.XRAY_LIGHT_BOX_NECK.get().asItem());
+				tabData.accept(HospitalsModBlocks.X_RAY_MACHINE.get().asItem());
+				tabData.accept(HospitalsModBlocks.XRAY_BUCKY_STAND.get().asItem());
+				tabData.accept(HospitalsModBlocks.COMPUTER_CT_SCAN_VIEWER.get().asItem());
+				tabData.accept(HospitalsModBlocks.COMPUTER_X_RAY_VIEWER.get().asItem());
+				tabData.accept(HospitalsModBlocks.COMPUTER_SCREEN_2_CT_SCAN_VIEWER.get().asItem());
+				tabData.accept(HospitalsModBlocks.COMPUTER_SCREEN_2_XRAY_VIEWER.get().asItem());
+			}).withSearchBar().withTabsBefore(PHARMACY_THM.getId()).build());
 }

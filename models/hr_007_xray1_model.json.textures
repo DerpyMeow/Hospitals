@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "hw_007_keyboard": "hw_007_keyboard",
+        "hr_007_computer_main": "hr_007_computer_main",
+        "hr_007_xray_viewer": "hr_007_ct_viewer_1"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "hospitals:custom/hmxt_ultrasound_model",
+  "textures": {
+    "all": "hospitals:block/ultrasound_keyboard",
+    "particle": "hospitals:block/ultrasound_keyboard",
+    "ultrasound_base_texture": "hospitals:block/ultrasound_base_texture",
+    "ultrasound_interface": "hospitals:block/ultrasound_interface",
+    "ultrasound_controls_texture": "hospitals:block/ultrasound_controls_texture",
+    "ultrasound_screen_texture": "hospitals:block/ultrasound_screen_texture",
+    "ultrasound_keyboard": "hospitals:block/ultrasound_keyboard"
+  },
+  "render_type": "solid"
+}

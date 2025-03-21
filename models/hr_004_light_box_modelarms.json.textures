@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "hr_004_light_blank": "hr_004_light_arm",
+        "hr_004_light_box_main": "hr_004_light_box_main"
+      },
+      "name": "default"
+    }
+  }
+}

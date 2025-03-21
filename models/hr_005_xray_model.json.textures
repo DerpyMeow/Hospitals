@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "hr_005_xray_main": "hr_005_xray_main"
+      },
+      "name": "default"
+    }
+  }
+}

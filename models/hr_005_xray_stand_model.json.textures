@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "hr_006_xray_stand_texture": "hr_006_xray_stand_texture"
+      },
+      "name": "default"
+    }
+  }
+}

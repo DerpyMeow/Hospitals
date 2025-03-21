@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/hr_005_xray_model",
+  "textures": {
+    "all": "hospitals:block/hr_005_xray_main",
+    "particle": "hospitals:block/hr_005_xray_main",
+    "hr_005_xray_main": "hospitals:block/hr_005_xray_main"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "hospitals:custom/x_ray_light_3",
+  "textures": {
+    "all": "hospitals:block/xray_controlled_light",
+    "particle": "hospitals:block/xray_controlled_light",
+    "xray_light_case_texture": "hospitals:block/xray_light_case_texture",
+    "x_ray_controlled_light": "hospitals:block/xray_controlled_light"
+  },
+  "render_type": "solid"
+}

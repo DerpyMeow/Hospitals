@@ -1,0 +1,485 @@
+{
+  "credit": "Designed by Leonneary1990 with Cubik Studio - https://cubik.studio",
+  "elements": [
+    {
+      "name": "Voxels",
+      "from": [
+        1,
+        4,
+        13.5
+      ],
+      "to": [
+        15,
+        12,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            12,
+            14,
+            16
+          ],
+          "texture": "#xray_light_case_texture"
+        },
+        "east": {
+          "uv": [
+            14,
+            12,
+            15.25,
+            16
+          ],
+          "texture": "#xray_light_case_texture"
+        },
+        "south": {
+          "uv": [
+            7,
+            12,
+            0,
+            16
+          ],
+          "texture": "#xray_light_case_texture"
+        },
+        "west": {
+          "uv": [
+            1.25,
+            6.75,
+            0,
+            10.75
+          ],
+          "texture": "#xray_light_case_texture"
+        },
+        "up": {
+          "uv": [
+            7,
+            12,
+            14,
+            10.75
+          ],
+          "rotation": 180,
+          "texture": "#xray_light_case_texture"
+        },
+        "down": {
+          "uv": [
+            0,
+            10.75,
+            7,
+            12
+          ],
+          "rotation": 180,
+          "texture": "#xray_light_case_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        1,
+        4,
+        13
+      ],
+      "to": [
+        15,
+        4.5,
+        13.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8.25,
+            10.25,
+            15.25,
+            10.5
+          ],
+          "texture": "#xray_light_case_texture"
+        },
+        "east": {
+          "uv": [
+            15.25,
+            12,
+            15.5,
+            12.25
+          ],
+          "texture": "#xray_light_case_texture"
+        },
+        "south": {
+          "uv": [
+            8.25,
+            10.25,
+            1.25,
+            10.5
+          ],
+          "texture": "#xray_light_case_texture"
+        },
+        "west": {
+          "uv": [
+            15.75,
+            12,
+            15.5,
+            12.25
+          ],
+          "texture": "#xray_light_case_texture"
+        },
+        "up": {
+          "uv": [
+            8.25,
+            10.75,
+            15.25,
+            10.5
+          ],
+          "rotation": 180,
+          "texture": "#xray_light_case_texture"
+        },
+        "down": {
+          "uv": [
+            1.25,
+            10.5,
+            8.25,
+            10.75
+          ],
+          "rotation": 180,
+          "texture": "#xray_light_case_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        14.5,
+        4.5,
+        13
+      ],
+      "to": [
+        15,
+        12,
+        13.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15.5,
+            12.25,
+            15.75,
+            16
+          ],
+          "texture": "#xray_light_case_texture"
+        },
+        "east": {
+          "uv": [
+            15.75,
+            12.25,
+            16,
+            16
+          ],
+          "texture": "#xray_light_case_texture"
+        },
+        "south": {
+          "uv": [
+            15.5,
+            12.25,
+            15.25,
+            16
+          ],
+          "texture": "#xray_light_case_texture"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            3,
+            0,
+            6.75
+          ],
+          "texture": "#xray_light_case_texture"
+        },
+        "up": {
+          "uv": [
+            14,
+            12,
+            14.25,
+            11.75
+          ],
+          "rotation": 180,
+          "texture": "#xray_light_case_texture"
+        },
+        "down": {
+          "uv": [
+            15.75,
+            12,
+            16,
+            12.25
+          ],
+          "rotation": 180,
+          "texture": "#xray_light_case_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        1,
+        11.5,
+        13
+      ],
+      "to": [
+        14.5,
+        12,
+        13.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            9.75,
+            14.75,
+            10
+          ],
+          "texture": "#xray_light_case_texture"
+        },
+        "east": {
+          "uv": [
+            14,
+            11.5,
+            14.25,
+            11.75
+          ],
+          "texture": "#xray_light_case_texture"
+        },
+        "south": {
+          "uv": [
+            8,
+            9.75,
+            1.25,
+            10
+          ],
+          "texture": "#xray_light_case_texture"
+        },
+        "west": {
+          "uv": [
+            14.25,
+            11.25,
+            14,
+            11.5
+          ],
+          "texture": "#xray_light_case_texture"
+        },
+        "up": {
+          "uv": [
+            8,
+            10.25,
+            14.75,
+            10
+          ],
+          "rotation": 180,
+          "texture": "#xray_light_case_texture"
+        },
+        "down": {
+          "uv": [
+            1.25,
+            10,
+            8,
+            10.25
+          ],
+          "rotation": 180,
+          "texture": "#xray_light_case_texture"
+        }
+      }
+    },
+    {
+      "name": "Voxels",
+      "from": [
+        1,
+        4.5,
+        13
+      ],
+      "to": [
+        1.5,
+        11.5,
+        13.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.5,
+            3.25,
+            0.75,
+            6.75
+          ],
+          "texture": "#xray_light_case_texture"
+        },
+        "east": {
+          "uv": [
+            0.75,
+            3.25,
+            1,
+            6.75
+          ],
+          "texture": "#xray_light_case_texture"
+        },
+        "south": {
+          "uv": [
+            0.5,
+            3.25,
+            0.25,
+            6.75
+          ],
+          "texture": "#xray_light_case_texture"
+        },
+        "west": {
+          "uv": [
+            1.25,
+            3.25,
+            1,
+            6.75
+          ],
+          "texture": "#xray_light_case_texture"
+        },
+        "up": {
+          "uv": [
+            14,
+            11,
+            14.25,
+            10.75
+          ],
+          "rotation": 180,
+          "texture": "#xray_light_case_texture"
+        },
+        "down": {
+          "uv": [
+            14,
+            11,
+            14.25,
+            11.25
+          ],
+          "rotation": 180,
+          "texture": "#xray_light_case_texture"
+        }
+      }
+    },
+    {
+      "name": "Box6",
+      "from": [
+        1.5,
+        4.5,
+        13
+      ],
+      "to": [
+        14.5,
+        11.5,
+        13.5
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            10.5
+          ],
+          "texture": "#x_ray_controlled_light"
+        },
+        "east": {
+          "uv": [
+            2.5,
+            4.5,
+            3,
+            11.5
+          ],
+          "texture": "#x_ray_controlled_light"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            10.5
+          ],
+          "texture": "#x_ray_controlled_light"
+        },
+        "west": {
+          "uv": [
+            13,
+            4.5,
+            13.5,
+            11.5
+          ],
+          "texture": "#x_ray_controlled_light"
+        },
+        "up": {
+          "uv": [
+            1.5,
+            2.5,
+            14,
+            3
+          ],
+          "rotation": 180,
+          "texture": "#x_ray_controlled_light"
+        },
+        "down": {
+          "uv": [
+            1.5,
+            13,
+            14,
+            13.5
+          ],
+          "rotation": 180,
+          "texture": "#x_ray_controlled_light"
+        }
+      }
+    }
+  ],
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        25
+      ],
+      "translation": [
+        1.13,
+        3.2,
+        1.13
+      ],
+      "scale": [
+        0.68,
+        0.68,
+        0.68
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        -90,
+        25
+      ],
+      "translation": [
+        1.13,
+        3.2,
+        1.13
+      ],
+      "scale": [
+        0.68,
+        0.68,
+        0.68
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        -45,
+        0
+      ],
+      "translation": [
+        -3.477,
+        -1.391,
+        0
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    }
+  }
+}

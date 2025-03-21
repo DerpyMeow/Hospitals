@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/xray_bucky_stand"
+    },
+    "facing=east": {
+      "model": "hospitals:block/xray_bucky_stand",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/xray_bucky_stand",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/xray_bucky_stand",
+      "y": 270
+    }
+  }
+}

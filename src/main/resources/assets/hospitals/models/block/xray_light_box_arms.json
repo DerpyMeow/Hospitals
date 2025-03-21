@@ -1,0 +1,10 @@
+{
+  "parent": "hospitals:custom/hr_004_light_box_modelarms",
+  "textures": {
+    "all": "hospitals:block/hr_004_light_blank",
+    "particle": "hospitals:block/hr_004_light_blank",
+    "hr_004_light_blank": "hospitals:block/hr_004_light_arm",
+    "hr_004_light_box_main": "hospitals:block/hr_004_light_box_main"
+  },
+  "render_type": "solid"
+}

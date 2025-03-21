@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "xray_light_case_texture": "xray_light_case_texture",
+        "x_ray_controlled_light": "xray_controlled_light"
+      },
+      "name": "default"
+    }
+  }
+}

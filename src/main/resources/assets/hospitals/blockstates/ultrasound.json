@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/ultrasound"
+    },
+    "facing=east": {
+      "model": "hospitals:block/ultrasound",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/ultrasound",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/ultrasound",
+      "y": 270
+    }
+  }
+}

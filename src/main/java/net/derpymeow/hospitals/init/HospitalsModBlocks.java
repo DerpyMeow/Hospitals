@@ -10,11 +10,21 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.derpymeow.hospitals.block.XRayMachineBlock;
+import net.derpymeow.hospitals.block.XRayLightBlock;
+import net.derpymeow.hospitals.block.XRAYLightBoxNeckBlock;
+import net.derpymeow.hospitals.block.XRAYLightBoxHandsBlock;
+import net.derpymeow.hospitals.block.XRAYLightBoxFeetBlock;
+import net.derpymeow.hospitals.block.XRAYLightBoxChestBlock;
+import net.derpymeow.hospitals.block.XRAYLightBoxBlankBlock;
+import net.derpymeow.hospitals.block.XRAYLightBoxArmsBlock;
+import net.derpymeow.hospitals.block.XRAYBuckyStandBlock;
 import net.derpymeow.hospitals.block.WorktopWithShelfBlock;
 import net.derpymeow.hospitals.block.WorktopBlock;
 import net.derpymeow.hospitals.block.WallStorageTubsYellowBlock;
 import net.derpymeow.hospitals.block.WallStorageTubsRedBlock;
 import net.derpymeow.hospitals.block.WABlockBlock;
+import net.derpymeow.hospitals.block.UltrasoundBlock;
 import net.derpymeow.hospitals.block.THBlockBlock;
 import net.derpymeow.hospitals.block.SurgicalWorktopTableBlock;
 import net.derpymeow.hospitals.block.SurgicalWorkstationBlock;
@@ -47,6 +57,10 @@ import net.derpymeow.hospitals.block.IlluminatedPharmacySignBlock;
 import net.derpymeow.hospitals.block.FABlockBlock;
 import net.derpymeow.hospitals.block.EPOSCashierSystemBlock;
 import net.derpymeow.hospitals.block.DecorativeDivideBlock;
+import net.derpymeow.hospitals.block.ComputerXRayViewerBlock;
+import net.derpymeow.hospitals.block.ComputerScreen2XRAYViewerBlock;
+import net.derpymeow.hospitals.block.ComputerScreen2CTScanViewerBlock;
+import net.derpymeow.hospitals.block.ComputerCTScanViewerBlock;
 import net.derpymeow.hospitals.block.CompoundingIsolatorBlock;
 import net.derpymeow.hospitals.block.CapsuleFillingMachineBlock;
 import net.derpymeow.hospitals.block.BottleFillingMachineBlock;
@@ -98,6 +112,20 @@ public class HospitalsModBlocks {
 	public static final RegistryObject<Block> PHARMACY_COUNTERWITH_LOGO = REGISTRY.register("pharmacy_counterwith_logo", () -> new PharmacyCounterwithLogoBlock());
 	public static final RegistryObject<Block> PHARMACY_COUNTER = REGISTRY.register("pharmacy_counter", () -> new PharmacyCounterBlock());
 	public static final RegistryObject<Block> DECORATIVE_DIVIDE = REGISTRY.register("decorative_divide", () -> new DecorativeDivideBlock());
+	public static final RegistryObject<Block> ULTRASOUND = REGISTRY.register("ultrasound", () -> new UltrasoundBlock());
+	public static final RegistryObject<Block> X_RAY_LIGHT = REGISTRY.register("x_ray_light", () -> new XRayLightBlock());
+	public static final RegistryObject<Block> XRAY_LIGHT_BOX_BLANK = REGISTRY.register("xray_light_box_blank", () -> new XRAYLightBoxBlankBlock());
+	public static final RegistryObject<Block> XRAY_LIGHT_BOX_CHEST = REGISTRY.register("xray_light_box_chest", () -> new XRAYLightBoxChestBlock());
+	public static final RegistryObject<Block> XRAY_LIGHT_BOX_FEET = REGISTRY.register("xray_light_box_feet", () -> new XRAYLightBoxFeetBlock());
+	public static final RegistryObject<Block> XRAY_LIGHT_BOX_HANDS = REGISTRY.register("xray_light_box_hands", () -> new XRAYLightBoxHandsBlock());
+	public static final RegistryObject<Block> XRAY_LIGHT_BOX_ARMS = REGISTRY.register("xray_light_box_arms", () -> new XRAYLightBoxArmsBlock());
+	public static final RegistryObject<Block> XRAY_LIGHT_BOX_NECK = REGISTRY.register("xray_light_box_neck", () -> new XRAYLightBoxNeckBlock());
+	public static final RegistryObject<Block> X_RAY_MACHINE = REGISTRY.register("x_ray_machine", () -> new XRayMachineBlock());
+	public static final RegistryObject<Block> XRAY_BUCKY_STAND = REGISTRY.register("xray_bucky_stand", () -> new XRAYBuckyStandBlock());
+	public static final RegistryObject<Block> COMPUTER_CT_SCAN_VIEWER = REGISTRY.register("computer_ct_scan_viewer", () -> new ComputerCTScanViewerBlock());
+	public static final RegistryObject<Block> COMPUTER_X_RAY_VIEWER = REGISTRY.register("computer_x_ray_viewer", () -> new ComputerXRayViewerBlock());
+	public static final RegistryObject<Block> COMPUTER_SCREEN_2_CT_SCAN_VIEWER = REGISTRY.register("computer_screen_2_ct_scan_viewer", () -> new ComputerScreen2CTScanViewerBlock());
+	public static final RegistryObject<Block> COMPUTER_SCREEN_2_XRAY_VIEWER = REGISTRY.register("computer_screen_2_xray_viewer", () -> new ComputerScreen2XRAYViewerBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

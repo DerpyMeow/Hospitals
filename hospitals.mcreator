@@ -779,6 +779,244 @@
         ]
       },
       "path": "~/Pharmacy"
+    },
+    {
+      "name": "Ultrasound",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultrasound",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/UltrasoundBlock.java",
+          "src/main/resources/assets/hospitals/models/block/ultrasound.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/ultrasound.json",
+          "src/main/resources/assets/hospitals/models/item/ultrasound.json",
+          "src/main/resources/assets/hospitals/blockstates/ultrasound.json"
+        ]
+      },
+      "path": "~/Radiology"
+    },
+    {
+      "name": "XRayLight",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "x_ray_light",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/blockstates/x_ray_light.json",
+          "src/main/resources/assets/hospitals/models/block/x_ray_light.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/x_ray_light.json",
+          "src/main/java/net/derpymeow/hospitals/block/XRayLightBlock.java",
+          "src/main/resources/assets/hospitals/models/item/x_ray_light.json"
+        ]
+      },
+      "path": "~/Radiology"
+    },
+    {
+      "name": "XRAYLightBoxBlank",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xray_light_box_blank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/blockstates/xray_light_box_blank.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/xray_light_box_blank.json",
+          "src/main/java/net/derpymeow/hospitals/block/XRAYLightBoxBlankBlock.java",
+          "src/main/resources/assets/hospitals/models/block/xray_light_box_blank.json",
+          "src/main/resources/assets/hospitals/models/item/xray_light_box_blank.json"
+        ]
+      },
+      "path": "~/Radiology"
+    },
+    {
+      "name": "XRAYLightBoxChest",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xray_light_box_chest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/XRAYLightBoxChestBlock.java",
+          "src/main/resources/assets/hospitals/models/block/xray_light_box_chest.json",
+          "src/main/resources/assets/hospitals/blockstates/xray_light_box_chest.json",
+          "src/main/resources/assets/hospitals/models/item/xray_light_box_chest.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/xray_light_box_chest.json"
+        ]
+      },
+      "path": "~/Radiology"
+    },
+    {
+      "name": "XRAYLightBoxFeet",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xray_light_box_feet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/XRAYLightBoxFeetBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/xray_light_box_feet.json",
+          "src/main/resources/assets/hospitals/models/item/xray_light_box_feet.json",
+          "src/main/resources/assets/hospitals/models/block/xray_light_box_feet.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/xray_light_box_feet.json"
+        ]
+      },
+      "path": "~/Radiology"
+    },
+    {
+      "name": "XRAYLightBoxHands",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xray_light_box_hands",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/XRAYLightBoxHandsBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/xray_light_box_hands.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/xray_light_box_hands.json",
+          "src/main/resources/assets/hospitals/models/block/xray_light_box_hands.json",
+          "src/main/resources/assets/hospitals/models/item/xray_light_box_hands.json"
+        ]
+      },
+      "path": "~/Radiology"
+    },
+    {
+      "name": "XRAYLightBoxArms",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xray_light_box_arms",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/xray_light_box_arms.json",
+          "src/main/resources/assets/hospitals/models/block/xray_light_box_arms.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/xray_light_box_arms.json",
+          "src/main/java/net/derpymeow/hospitals/block/XRAYLightBoxArmsBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/xray_light_box_arms.json"
+        ]
+      },
+      "path": "~/Radiology"
+    },
+    {
+      "name": "XRAYLightBoxNeck",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xray_light_box_neck",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/xray_light_box_neck.json",
+          "src/main/resources/assets/hospitals/models/block/xray_light_box_neck.json",
+          "src/main/resources/assets/hospitals/blockstates/xray_light_box_neck.json",
+          "src/main/java/net/derpymeow/hospitals/block/XRAYLightBoxNeckBlock.java",
+          "src/main/resources/assets/hospitals/models/item/xray_light_box_neck.json"
+        ]
+      },
+      "path": "~/Radiology"
+    },
+    {
+      "name": "XRayMachine",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "x_ray_machine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/XRayMachineBlock.java",
+          "src/main/resources/assets/hospitals/models/item/x_ray_machine.json",
+          "src/main/resources/assets/hospitals/models/block/x_ray_machine.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/x_ray_machine.json",
+          "src/main/resources/assets/hospitals/blockstates/x_ray_machine.json"
+        ]
+      },
+      "path": "~/Radiology"
+    },
+    {
+      "name": "XRAYBuckyStand",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xray_bucky_stand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/XRAYBuckyStandBlock.java",
+          "src/main/resources/assets/hospitals/models/block/xray_bucky_stand.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/xray_bucky_stand.json",
+          "src/main/resources/assets/hospitals/models/item/xray_bucky_stand.json",
+          "src/main/resources/assets/hospitals/blockstates/xray_bucky_stand.json"
+        ]
+      },
+      "path": "~/Radiology"
+    },
+    {
+      "name": "ComputerCTScanViewer",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "computer_ct_scan_viewer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/block/computer_ct_scan_viewer.json",
+          "src/main/resources/assets/hospitals/models/item/computer_ct_scan_viewer.json",
+          "src/main/resources/assets/hospitals/blockstates/computer_ct_scan_viewer.json",
+          "src/main/java/net/derpymeow/hospitals/block/ComputerCTScanViewerBlock.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/computer_ct_scan_viewer.json"
+        ]
+      },
+      "path": "~/Radiology"
+    },
+    {
+      "name": "ComputerXRayViewer",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "computer_x_ray_viewer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/computer_x_ray_viewer.json",
+          "src/main/resources/assets/hospitals/models/block/computer_x_ray_viewer.json",
+          "src/main/java/net/derpymeow/hospitals/block/ComputerXRayViewerBlock.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/computer_x_ray_viewer.json",
+          "src/main/resources/assets/hospitals/blockstates/computer_x_ray_viewer.json"
+        ]
+      },
+      "path": "~/Radiology"
+    },
+    {
+      "name": "ComputerScreen2CTScanViewer",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "computer_screen_2_ct_scan_viewer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/computer_screen_2_ct_scan_viewer.json",
+          "src/main/java/net/derpymeow/hospitals/block/ComputerScreen2CTScanViewerBlock.java",
+          "src/main/resources/assets/hospitals/models/item/computer_screen_2_ct_scan_viewer.json",
+          "src/main/resources/assets/hospitals/blockstates/computer_screen_2_ct_scan_viewer.json",
+          "src/main/resources/assets/hospitals/models/block/computer_screen_2_ct_scan_viewer.json"
+        ]
+      },
+      "path": "~/Radiology"
+    },
+    {
+      "name": "ComputerScreen2XRAYViewer",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "computer_screen_2_xray_viewer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/blockstates/computer_screen_2_xray_viewer.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/computer_screen_2_xray_viewer.json",
+          "src/main/java/net/derpymeow/hospitals/block/ComputerScreen2XRAYViewerBlock.java",
+          "src/main/resources/assets/hospitals/models/block/computer_screen_2_xray_viewer.json",
+          "src/main/resources/assets/hospitals/models/item/computer_screen_2_xray_viewer.json"
+        ]
+      },
+      "path": "~/Radiology"
     }
   ],
   "variable_elements": [],
@@ -787,8 +1025,11 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "block.hospitals.computer_screen_2_ct_scan_viewer": "Computer Screen 2 (CT Scan Viewer)",
+      "block.hospitals.xray_light_box_blank": "X-RAY Light Box (Blank)",
       "block.hospitals.surgical_instrument_trolley": "Surgical Instrument Trolley",
       "block.hospitals.medical_gas_ceiling_mounted": "Medical Gas (Ceiling Mounted)",
+      "block.hospitals.xray_light_box_arms": "X-RAY Light Box (Arms)",
       "block.hospitals.operating_table": "Operating Table",
       "block.hospitals.medical_cross": "Medical Cross",
       "block.hospitals.worktop": "Worktop",
@@ -798,8 +1039,10 @@
       "block.hospitals.pharmacy_counter_stocked": "Pharmacy Counter (Stocked)",
       "block.hospitals.surgical_trolley": "Surgical Trolley",
       "block.hospitals.surgical_lamp": "Surgical Lamp",
+      "block.hospitals.x_ray_machine": "X-Ray Machine",
       "block.hospitals.store_shelf_empty": "Store Shelf (Empty)",
       "block.hospitals.ra_block": "RA Block",
+      "block.hospitals.computer_ct_scan_viewer": "Computer (CT Scan Viewer)",
       "block.hospitals.fa_block": "FA Block",
       "block.hospitals.wall_storage_tubs_red": "Wall Storage Tubs (Red)",
       "block.hospitals.pharmacy_counter": "Pharmacy Counter",
@@ -807,10 +1050,13 @@
       "block.hospitals.pharmacy_counterwith_logo": "Pharmacy Counter (with Logo)",
       "block.hospitals.epos_cashier_system": "ePOS Cashier System",
       "block.hospitals.surgical_instruments": "Surgical Instruments",
+      "block.hospitals.xray_light_box_chest": "X-RAY Light Box (Chest)",
       "block.hospitals.worktop_with_shelf": "Worktop (With Shelf)",
+      "block.hospitals.xray_light_box_hands": "X-RAY Light Box (Hands)",
       "item_group.hospitals.pharmacy_thm": "Pharmacy - THM",
       "block.hospitals.medication_drawers": "Medication Drawers",
       "block.hospitals.refridgerated_centrifuge": "Refridgerated Centrifuge",
+      "block.hospitals.computer_screen_2_xray_viewer": "Computer Screen 2 (X-RAY Viewer)",
       "block.hospitals.wa_block": "WA Block",
       "block.hospitals.capsule_filling_machine": "Capsule Filling Machine",
       "block.hospitals.th_block": "TH Block",
@@ -824,13 +1070,19 @@
       "item_group.hospitals.operating_rooms_thm": "Operating Rooms - THM",
       "block.hospitals.prescription_shelf": "Prescription Shelf",
       "block.hospitals.prescription_basket_empty": "Prescription Basket (Empty)",
+      "block.hospitals.xray_light_box_neck": "X-RAY Light Box (Neck)",
+      "block.hospitals.computer_x_ray_viewer": "Computer (X-Ray Viewer)",
+      "block.hospitals.x_ray_light": "X-Ray Light",
+      "block.hospitals.xray_light_box_feet": "X-RAY Light Box (Feet)",
       "item_group.hospitals.ward_thm": "Ward - THM",
       "block.hospitals.operating_room_control_panel": "Operating Room Control Panel",
       "block.hospitals.bottle_filling_machine": "Bottle Filling Machine",
       "block.hospitals.sterile_work_counter_with_shelf": "Sterile Work Counter (With Shelf)",
+      "block.hospitals.xray_bucky_stand": "X-RAY Bucky Stand",
       "block.hospitals.anaesthetic_machine": "Anaesthetic Machine",
       "block.hospitals.surgical_worktop_table": "Surgical Worktop/Table",
       "block.hospitals.prescription_basket": "Prescription Basket",
+      "block.hospitals.ultrasound": "Ultrasound",
       "block.hospitals.store_shelf_stocked": "Store Shelf (Stocked)",
       "block.hospitals.compounding_isolator": "Compounding Isolator",
       "block.hospitals.surgical_workstation": "Surgical Workstation",

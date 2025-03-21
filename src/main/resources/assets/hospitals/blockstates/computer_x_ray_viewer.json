@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/computer_x_ray_viewer"
+    },
+    "facing=east": {
+      "model": "hospitals:block/computer_x_ray_viewer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/computer_x_ray_viewer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/computer_x_ray_viewer",
+      "y": 270
+    }
+  }
+}

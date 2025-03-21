@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "hr_007_computer_main": "hr_007_computer_main",
+        "hr_007_xray_viewer": "hr_007_xray_viewer_2"
+      },
+      "name": "default"
+    }
+  }
+}
