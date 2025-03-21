@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hospitals:block/t1_vinyl_aqua_floor",
+    "up": "hospitals:block/t1_vinyl_aqua_floor",
+    "north": "hospitals:block/t1_vinyl_aqua_floor",
+    "east": "hospitals:block/t1_vinyl_aqua_floor",
+    "south": "hospitals:block/t1_vinyl_aqua_floor",
+    "west": "hospitals:block/t1_vinyl_aqua_floor",
+    "particle": "hospitals:block/t1_vinyl_aqua_floor"
+  },
+  "render_type": "solid"
+}

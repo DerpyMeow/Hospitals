@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/waste_bin_clinical_waste"
+    },
+    "facing=east": {
+      "model": "hospitals:block/waste_bin_clinical_waste",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/waste_bin_clinical_waste",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/waste_bin_clinical_waste",
+      "y": 270
+    }
+  }
+}

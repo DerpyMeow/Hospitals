@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "box_texture": "box_texture",
+        "cage_texture": "cage_texture"
+      },
+      "name": "default"
+    }
+  }
+}

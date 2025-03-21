@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "phone_screen": "phone_screen",
+        "phone_main": "phone_main"
+      },
+      "name": "default"
+    }
+  }
+}

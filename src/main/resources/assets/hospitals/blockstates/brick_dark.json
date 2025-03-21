@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/brick_dark"
+    },
+    "facing=east": {
+      "model": "hospitals:block/brick_dark",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/brick_dark",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/brick_dark",
+      "y": 270
+    }
+  }
+}

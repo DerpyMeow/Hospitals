@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "hospitals:blocks/cladding_stone_effect",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "hospitals:cladding_stone_effect"
+        }
+      ]
+    }
+  ]
+}

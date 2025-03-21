@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/wetfloor",
+  "textures": {
+    "all": "hospitals:block/wet_floor",
+    "particle": "hospitals:block/wet_floor",
+    "wetfloor": "hospitals:block/wet_floor"
+  },
+  "render_type": "solid"
+}

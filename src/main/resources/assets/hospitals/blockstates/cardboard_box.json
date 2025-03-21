@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/cardboard_box"
+    },
+    "facing=east": {
+      "model": "hospitals:block/cardboard_box",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/cardboard_box",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/cardboard_box",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "hospitals:block/cardboard_box",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "hospitals:block/cardboard_box",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/smooth_concrete"
+    },
+    "facing=east": {
+      "model": "hospitals:block/smooth_concrete",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/smooth_concrete",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/smooth_concrete",
+      "y": 270
+    }
+  }
+}

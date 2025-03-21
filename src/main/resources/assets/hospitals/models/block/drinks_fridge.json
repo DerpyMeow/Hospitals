@@ -1,0 +1,10 @@
+{
+  "parent": "hospitals:custom/cooler3",
+  "textures": {
+    "all": "hospitals:block/backdrop_texture",
+    "particle": "hospitals:block/backdrop_texture",
+    "fridge_texture": "hospitals:block/fridge_texture",
+    "backdrop_texture": "hospitals:block/backdrop_texture"
+  },
+  "render_type": "solid"
+}

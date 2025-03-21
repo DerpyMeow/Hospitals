@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "desk_frame_texture": "desk_frame_texture",
+        "wood_texture": "wood_texture"
+      },
+      "name": "default"
+    }
+  }
+}

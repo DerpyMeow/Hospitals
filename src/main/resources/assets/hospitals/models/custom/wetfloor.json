@@ -1,0 +1,209 @@
+{
+  "credit": "Designed by Leonneary1990 with Cubik Studio - https://cubik.studio",
+  "elements": [
+    {
+      "name": "Box1",
+      "from": [
+        4,
+        0,
+        1.5
+      ],
+      "to": [
+        11.5,
+        16,
+        2
+      ],
+      "rotation": {
+        "angle": 22.5,
+        "axis": "x",
+        "origin": [
+          4,
+          0,
+          1.5
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            0,
+            12.5,
+            16
+          ],
+          "texture": "#wetfloor"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ],
+          "texture": "#wetfloor"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2.5,
+            3
+          ],
+          "texture": "#wetfloor"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ],
+          "texture": "#wetfloor"
+        },
+        "up": {
+          "uv": [
+            4,
+            2,
+            11.5,
+            2.5
+          ],
+          "texture": "#wetfloor"
+        },
+        "down": {
+          "uv": [
+            4,
+            13.5,
+            11.5,
+            14
+          ],
+          "texture": "#wetfloor"
+        }
+      }
+    },
+    {
+      "name": "Box1",
+      "from": [
+        4,
+        0,
+        13.5
+      ],
+      "to": [
+        11.5,
+        16,
+        14
+      ],
+      "rotation": {
+        "angle": -22.5,
+        "axis": "x",
+        "origin": [
+          4,
+          0,
+          13.5
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            2.5
+          ],
+          "texture": "#wetfloor"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ],
+          "texture": "#wetfloor"
+        },
+        "south": {
+          "uv": [
+            3,
+            0,
+            12.5,
+            16
+          ],
+          "texture": "#wetfloor"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ],
+          "texture": "#wetfloor"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ],
+          "texture": "#wetfloor"
+        },
+        "down": {
+          "uv": [
+            4,
+            13.5,
+            11.5,
+            14
+          ],
+          "texture": "#wetfloor"
+        }
+      }
+    }
+  ],
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        25
+      ],
+      "translation": [
+        1.13,
+        3.2,
+        1.13
+      ],
+      "scale": [
+        0.68,
+        0.68,
+        0.68
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        -25
+      ],
+      "translation": [
+        1.13,
+        3.2,
+        1.13
+      ],
+      "scale": [
+        0.68,
+        0.68,
+        0.68
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    }
+  }
+}

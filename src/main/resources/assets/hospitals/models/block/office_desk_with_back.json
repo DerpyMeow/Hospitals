@@ -1,0 +1,12 @@
+{
+  "parent": "hospitals:custom/v2_desk_3",
+  "textures": {
+    "all": "hospitals:block/wood_texture",
+    "particle": "hospitals:block/wood_texture",
+    "fabric_texture": "hospitals:block/fabric_texture",
+    "desk_frame_texture": "hospitals:block/desk_frame_texture",
+    "wood_texture": "hospitals:block/wood_texture",
+    "back_frame_texture": "hospitals:block/back_frame_texture"
+  },
+  "render_type": "solid"
+}

@@ -7,5 +7,5 @@
     "pm_007_texture": "hospitals:block/pm_007_texture",
     "glass_texture_blue": "hospitals:block/glass_texture_blue"
   },
-  "render_type": "solid"
+  "render_type": "translucent"
 }

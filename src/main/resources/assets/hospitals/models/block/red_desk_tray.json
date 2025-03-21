@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/red_tray_3",
+  "textures": {
+    "all": "hospitals:block/tray_red_texture",
+    "particle": "hospitals:block/tray_red_texture",
+    "tray_blue_texture": "hospitals:block/tray_red_texture"
+  },
+  "render_type": "solid"
+}

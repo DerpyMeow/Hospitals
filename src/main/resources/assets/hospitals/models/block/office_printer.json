@@ -1,0 +1,10 @@
+{
+  "parent": "hospitals:custom/printer3",
+  "textures": {
+    "all": "hospitals:block/print_screen",
+    "particle": "hospitals:block/print_screen",
+    "print_unit": "hospitals:block/print_unit",
+    "screen": "hospitals:block/print_screen"
+  },
+  "render_type": "solid"
+}

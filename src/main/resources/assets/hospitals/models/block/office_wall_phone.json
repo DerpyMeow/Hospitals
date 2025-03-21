@@ -1,0 +1,10 @@
+{
+  "parent": "hospitals:custom/wallphoneupdated",
+  "textures": {
+    "all": "hospitals:block/phone_screen",
+    "particle": "hospitals:block/phone_screen",
+    "phone_screen": "hospitals:block/phone_screen",
+    "phone_main": "hospitals:block/phone_main"
+  },
+  "render_type": "solid"
+}

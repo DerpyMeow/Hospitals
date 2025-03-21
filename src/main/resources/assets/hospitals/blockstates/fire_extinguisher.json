@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/fire_extinguisher"
+    },
+    "facing=east": {
+      "model": "hospitals:block/fire_extinguisher",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/fire_extinguisher",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/fire_extinguisher",
+      "y": 270
+    }
+  }
+}

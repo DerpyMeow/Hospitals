@@ -1,0 +1,10 @@
+{
+  "parent": "hospitals:custom/roll_cage_model",
+  "textures": {
+    "all": "hospitals:block/box_texture",
+    "particle": "hospitals:block/box_texture",
+    "box_texture": "hospitals:block/box_texture",
+    "cage_texture": "hospitals:block/cage_texture"
+  },
+  "render_type": "solid"
+}

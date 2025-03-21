@@ -16,15 +16,6 @@ import net.derpymeow.hospitals.HospitalsMod;
 
 public class HospitalsModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, HospitalsMod.MODID);
-	public static final RegistryObject<CreativeModeTab> HOSPITALS = REGISTRY.register("hospitals",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.hospitals")).icon(() -> new ItemStack(HospitalsModBlocks.MEDICAL_CROSS.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(HospitalsModBlocks.TH_BLOCK.get().asItem());
-				tabData.accept(HospitalsModBlocks.PH_BLOCK.get().asItem());
-				tabData.accept(HospitalsModBlocks.RA_BLOCK.get().asItem());
-				tabData.accept(HospitalsModBlocks.WA_BLOCK.get().asItem());
-				tabData.accept(HospitalsModBlocks.FA_BLOCK.get().asItem());
-				tabData.accept(HospitalsModBlocks.MEDICAL_CROSS.get().asItem());
-			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> OPERATING_ROOMS_THM = REGISTRY.register("operating_rooms_thm",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.operating_rooms_thm")).icon(() -> new ItemStack(HospitalsModBlocks.TH_BLOCK.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(HospitalsModBlocks.ANAESTHETIC_MACHINE.get().asItem());
@@ -43,7 +34,7 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModBlocks.OPERATING_ROOM_CONTROL_PANEL.get().asItem());
 				tabData.accept(HospitalsModBlocks.SURGICAL_INSTRUMENTS.get().asItem());
 				tabData.accept(HospitalsModBlocks.MEDICAL_GAS_CEILING_MOUNTED.get().asItem());
-			}).withSearchBar().withTabsBefore(HOSPITALS.getId()).build());
+			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> PHARMACY_THM = REGISTRY.register("pharmacy_thm",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.pharmacy_thm")).icon(() -> new ItemStack(HospitalsModBlocks.PH_BLOCK.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(HospitalsModBlocks.ILLUMINATED_PHARMACY_SIGN.get().asItem());
@@ -100,4 +91,74 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModBlocks.RACK_SHELVING_EMPTY.get().asItem());
 				tabData.accept(HospitalsModBlocks.RACK_SHELVES_LINEN.get().asItem());
 			}).withSearchBar().withTabsBefore(RADIOLOGY_THM.getId()).build());
+	public static final RegistryObject<CreativeModeTab> FACILITIES_THM = REGISTRY.register("facilities_thm",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.facilities_thm")).icon(() -> new ItemStack(HospitalsModBlocks.FA_BLOCK.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(HospitalsModBlocks.FIRE_EXIT_SIGN_CEILING_MOUNTED.get().asItem());
+				tabData.accept(HospitalsModBlocks.FIRE_EXIT_SIGN_WALL_MOUNTED.get().asItem());
+				tabData.accept(HospitalsModBlocks.FIRE_EXTINGUISHER.get().asItem());
+				tabData.accept(HospitalsModBlocks.PATIENT_INFORMAITON_POINT.get().asItem());
+				tabData.accept(HospitalsModBlocks.ROLL_CAGE_STORAGE.get().asItem());
+				tabData.accept(HospitalsModBlocks.SUSPENDED_CEILING.get().asItem());
+				tabData.accept(HospitalsModBlocks.VINYL_FLOOR_BLUE_TYPE_1.get().asItem());
+				tabData.accept(HospitalsModBlocks.VINYL_FLOOR_GREY_TYPE_1.get().asItem());
+				tabData.accept(HospitalsModBlocks.VINYL_FLOOR_WHITE_TYPE_1.get().asItem());
+				tabData.accept(HospitalsModBlocks.VINYL_FLOOR_LIGHT_BLUE_TYPE_1.get().asItem());
+				tabData.accept(HospitalsModBlocks.VINYL_FLOOR_GREEN_TYPE_1.get().asItem());
+				tabData.accept(HospitalsModBlocks.VINYL_FLOOR_AQUA_TYPE_1.get().asItem());
+				tabData.accept(HospitalsModBlocks.VINYL_FLOOR_RED_TYPE_1.get().asItem());
+				tabData.accept(HospitalsModBlocks.VINYL_WALL_BLUE_TYPE_1.get().asItem());
+				tabData.accept(HospitalsModBlocks.VINYL_WALL_GREY_TYPE_1.get().asItem());
+				tabData.accept(HospitalsModBlocks.VINYL_WALL_WHITE_TYPE_1.get().asItem());
+				tabData.accept(HospitalsModBlocks.VINYL_WALL_LIGHT_BLUE_TYPE_1.get().asItem());
+				tabData.accept(HospitalsModBlocks.VINYL_WALL_GREEN_TYPE_1.get().asItem());
+				tabData.accept(HospitalsModBlocks.VINYL_WALL_AQUA_TYPE_1.get().asItem());
+				tabData.accept(HospitalsModBlocks.VINYL_WALL_RED_TYPE_1.get().asItem());
+				tabData.accept(HospitalsModBlocks.VINYL_FLOOR_BLUE_TYPE_2.get().asItem());
+				tabData.accept(HospitalsModBlocks.VINYL_FLOOR_BEIGE_TYPE_2.get().asItem());
+				tabData.accept(HospitalsModBlocks.VINYL_FLOOR_GREY_TYPE_2.get().asItem());
+				tabData.accept(HospitalsModBlocks.VINYL_FLOOR_AQUA_TYPE_2.get().asItem());
+				tabData.accept(HospitalsModBlocks.VINYL_FLOOR_SALMON_TYPE_2.get().asItem());
+				tabData.accept(HospitalsModBlocks.VINYL_WALL_BLUE_TYPE_2.get().asItem());
+				tabData.accept(HospitalsModBlocks.VINYL_WALL_BEIGE_TYPE_2.get().asItem());
+				tabData.accept(HospitalsModBlocks.VINYL_WALL_GREY_TYPE_2.get().asItem());
+				tabData.accept(HospitalsModBlocks.VINYL_WALL_AQUA_TYPE_2.get().asItem());
+				tabData.accept(HospitalsModBlocks.VINYL_WALL_SALMON_TYPE_2.get().asItem());
+				tabData.accept(HospitalsModBlocks.BRICK_BEIGE.get().asItem());
+				tabData.accept(HospitalsModBlocks.BRICK_GREY.get().asItem());
+				tabData.accept(HospitalsModBlocks.BRICK_DARK.get().asItem());
+				tabData.accept(HospitalsModBlocks.BRICK_RED.get().asItem());
+				tabData.accept(HospitalsModBlocks.SMOOTH_CONCRETE.get().asItem());
+				tabData.accept(HospitalsModBlocks.PLASTERED_WALL_BEIGE.get().asItem());
+				tabData.accept(HospitalsModBlocks.PLASTERED_WALL_BLUE.get().asItem());
+				tabData.accept(HospitalsModBlocks.PLASTERED_WALL_GREEN.get().asItem());
+				tabData.accept(HospitalsModBlocks.PLASTERED_WALL_GREY.get().asItem());
+				tabData.accept(HospitalsModBlocks.PLASTERED_WALL_LIME.get().asItem());
+				tabData.accept(HospitalsModBlocks.PLASTERED_WALL_SKY_BLUE.get().asItem());
+				tabData.accept(HospitalsModBlocks.PLASTERED_WALL_WHITE.get().asItem());
+				tabData.accept(HospitalsModBlocks.VENTILATION.get().asItem());
+				tabData.accept(HospitalsModBlocks.CARDBOARD_BOX.get().asItem());
+				tabData.accept(HospitalsModBlocks.VINYL_FLOOR_GREY.get().asItem());
+				tabData.accept(HospitalsModBlocks.BLUE_DESK_TRAY.get().asItem());
+				tabData.accept(HospitalsModBlocks.RED_DESK_TRAY.get().asItem());
+				tabData.accept(HospitalsModBlocks.DRINKS_FRIDGE.get().asItem());
+				tabData.accept(HospitalsModBlocks.CLEANING_TROLLEY.get().asItem());
+				tabData.accept(HospitalsModBlocks.WET_FLOOR_SIGN.get().asItem());
+				tabData.accept(HospitalsModBlocks.OFFICE_WALL_PHONE.get().asItem());
+				tabData.accept(HospitalsModBlocks.OFFICE_DESK_PHONE.get().asItem());
+				tabData.accept(HospitalsModBlocks.OFFICE_PRINTER.get().asItem());
+				tabData.accept(HospitalsModBlocks.OFFICE_DESK.get().asItem());
+				tabData.accept(HospitalsModBlocks.OFFICE_DESK_WITH_BACK.get().asItem());
+				tabData.accept(HospitalsModBlocks.CLADDING_STONE_EFFECT.get().asItem());
+				tabData.accept(HospitalsModBlocks.WASTE_BIN_DOMESTIC_WASTE.get().asItem());
+				tabData.accept(HospitalsModBlocks.WASTE_BIN_CLINICAL_WASTE.get().asItem());
+			}).withSearchBar().withTabsBefore(WARD_THM.getId()).build());
+	public static final RegistryObject<CreativeModeTab> HOSPITALS = REGISTRY.register("hospitals",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.hospitals")).icon(() -> new ItemStack(HospitalsModBlocks.MEDICAL_CROSS.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(HospitalsModBlocks.TH_BLOCK.get().asItem());
+				tabData.accept(HospitalsModBlocks.PH_BLOCK.get().asItem());
+				tabData.accept(HospitalsModBlocks.RA_BLOCK.get().asItem());
+				tabData.accept(HospitalsModBlocks.WA_BLOCK.get().asItem());
+				tabData.accept(HospitalsModBlocks.FA_BLOCK.get().asItem());
+				tabData.accept(HospitalsModBlocks.MEDICAL_CROSS.get().asItem());
+			}).withSearchBar().withTabsBefore(FACILITIES_THM.getId()).build());
 }

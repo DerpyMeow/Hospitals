@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "wetfloor": "wet_floor"
+      },
+      "name": "default"
+    }
+  }
+}

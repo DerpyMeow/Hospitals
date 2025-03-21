@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "print_unit": "print_unit",
+        "screen": "print_screen"
+      },
+      "name": "default"
+    }
+  }
+}

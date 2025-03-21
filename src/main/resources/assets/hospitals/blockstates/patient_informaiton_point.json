@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/patient_informaiton_point"
+    },
+    "facing=east": {
+      "model": "hospitals:block/patient_informaiton_point",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/patient_informaiton_point",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/patient_informaiton_point",
+      "y": 270
+    }
+  }
+}

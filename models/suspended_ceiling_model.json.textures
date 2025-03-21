@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "suspended_ceiling_texture": "w_suspended_ceiling_texture"
+      },
+      "name": "default"
+    }
+  }
+}

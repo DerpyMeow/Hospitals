@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "hospitals:blocks/fire_exit_sign_wall_mounted",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "hospitals:fire_exit_sign_wall_mounted"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/office_desk_with_back"
+    },
+    "facing=east": {
+      "model": "hospitals:block/office_desk_with_back",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/office_desk_with_back",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/office_desk_with_back",
+      "y": 270
+    }
+  }
+}

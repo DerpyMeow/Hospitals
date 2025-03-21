@@ -1,0 +1,11 @@
+{
+  "parent": "hospitals:custom/pip_model",
+  "textures": {
+    "all": "hospitals:block/pit_ui_texture",
+    "particle": "hospitals:block/pit_ui_texture",
+    "pip_stand_texture": "hospitals:block/pip_stand_texture",
+    "pit_ui_texture": "hospitals:block/pit_ui_texture",
+    "pip_screen_texture": "hospitals:block/pip_screen_texture"
+  },
+  "render_type": "solid"
+}

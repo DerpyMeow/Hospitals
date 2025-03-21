@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/plastered_wall_white"
+    },
+    "facing=east": {
+      "model": "hospitals:block/plastered_wall_white",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/plastered_wall_white",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/plastered_wall_white",
+      "y": 270
+    }
+  }
+}

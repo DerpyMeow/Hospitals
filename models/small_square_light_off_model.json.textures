@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "small_square_light_base": "small_square_light_base",
+        "light_off_texture": "light_off_texture"
+      },
+      "name": "default"
+    },
+    "on": {
+      "map": {
+        "small_square_light_base": "small_square_light_base",
+        "light_off_texture": "light_on_texture"
+      },
+      "name": "on"
+    }
+  }
+}

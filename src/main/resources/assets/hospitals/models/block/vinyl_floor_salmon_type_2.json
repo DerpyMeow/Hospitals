@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hospitals:block/t2_vinyl_salmon_floor",
+    "up": "hospitals:block/t2_vinyl_salmon_floor",
+    "north": "hospitals:block/t2_vinyl_salmon_floor",
+    "east": "hospitals:block/t2_vinyl_salmon_floor",
+    "south": "hospitals:block/t2_vinyl_salmon_floor",
+    "west": "hospitals:block/t2_vinyl_salmon_floor",
+    "particle": "hospitals:block/t2_vinyl_salmon_floor"
+  },
+  "render_type": "solid"
+}

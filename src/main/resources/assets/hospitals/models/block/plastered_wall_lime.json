@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hospitals:block/plastered_wall_lime_texture",
+    "up": "hospitals:block/plastered_wall_lime_texture",
+    "north": "hospitals:block/plastered_wall_lime_texture",
+    "east": "hospitals:block/plastered_wall_lime_texture",
+    "south": "hospitals:block/plastered_wall_lime_texture",
+    "west": "hospitals:block/plastered_wall_lime_texture",
+    "particle": "hospitals:block/plastered_wall_lime_texture"
+  },
+  "render_type": "solid"
+}

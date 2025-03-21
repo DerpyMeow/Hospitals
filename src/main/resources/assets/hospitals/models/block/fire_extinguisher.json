@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/fire_extinguisher_model",
+  "textures": {
+    "all": "hospitals:block/fire_extinguisher_texture",
+    "particle": "hospitals:block/fire_extinguisher_texture",
+    "fire_extinguisher_texture": "hospitals:block/fire_extinguisher_texture"
+  },
+  "render_type": "solid"
+}

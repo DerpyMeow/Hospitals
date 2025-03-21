@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/suspended_ceiling_model",
+  "textures": {
+    "all": "hospitals:block/w_suspended_ceiling_texture",
+    "particle": "hospitals:block/w_suspended_ceiling_texture",
+    "suspended_ceiling_texture": "hospitals:block/w_suspended_ceiling_texture"
+  },
+  "render_type": "solid"
+}

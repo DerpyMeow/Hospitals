@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hospitals:block/vinyl-grey",
+    "up": "hospitals:block/vinyl-grey",
+    "north": "hospitals:block/vinyl-grey",
+    "east": "hospitals:block/vinyl-grey",
+    "south": "hospitals:block/vinyl-grey",
+    "west": "hospitals:block/vinyl-grey",
+    "particle": "hospitals:block/vinyl-grey"
+  },
+  "render_type": "solid"
+}

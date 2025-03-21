@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "tray_blue_texture": "tray_red_texture"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hospitals:block/plastered_wall_green_texture",
+    "up": "hospitals:block/plastered_wall_green_texture",
+    "north": "hospitals:block/plastered_wall_green_texture",
+    "east": "hospitals:block/plastered_wall_green_texture",
+    "south": "hospitals:block/plastered_wall_green_texture",
+    "west": "hospitals:block/plastered_wall_green_texture",
+    "particle": "hospitals:block/plastered_wall_green_texture"
+  },
+  "render_type": "solid"
+}

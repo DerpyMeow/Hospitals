@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/hf_clinical_waste_model",
+  "textures": {
+    "all": "hospitals:block/hf_058_clinical_main",
+    "particle": "hospitals:block/hf_058_clinical_main",
+    "hf_058_clinical_main": "hospitals:block/hf_058_clinical_main"
+  },
+  "render_type": "solid"
+}

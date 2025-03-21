@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "fire_extinguisher_texture": "fire_extinguisher_texture"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/trolley",
+  "textures": {
+    "all": "hospitals:block/trolley",
+    "particle": "hospitals:block/trolley",
+    "trolley": "hospitals:block/trolley"
+  },
+  "render_type": "solid"
+}

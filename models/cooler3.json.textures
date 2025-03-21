@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "fridge_texture": "fridge_texture",
+        "backdrop_texture": "backdrop_texture"
+      },
+      "name": "default"
+    }
+  }
+}

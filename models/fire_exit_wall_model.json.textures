@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "fire_exit_sign": "fire_exit_sign",
+        "fire_exit_wall_base_texture": "fire_exit_wall_base_texture"
+      },
+      "name": "default"
+    }
+  }
+}

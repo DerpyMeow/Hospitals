@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hospitals:block/box2_texture",
+    "up": "hospitals:block/box2_texture",
+    "north": "hospitals:block/box2_texture",
+    "east": "hospitals:block/box_texture",
+    "south": "hospitals:block/box2_texture",
+    "west": "hospitals:block/box_texture",
+    "particle": "hospitals:block/box2_texture"
+  },
+  "render_type": "solid"
+}

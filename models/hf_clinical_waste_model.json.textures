@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "hf_058_clinical_main": "hf_058_clinical_main"
+      },
+      "name": "default"
+    }
+  }
+}

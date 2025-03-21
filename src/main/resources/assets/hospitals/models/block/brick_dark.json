@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hospitals:block/dark_brick_texture",
+    "up": "hospitals:block/dark_brick_texture",
+    "north": "hospitals:block/dark_brick_texture",
+    "east": "hospitals:block/dark_brick_texture",
+    "south": "hospitals:block/dark_brick_texture",
+    "west": "hospitals:block/dark_brick_texture",
+    "particle": "hospitals:block/dark_brick_texture"
+  },
+  "render_type": "solid"
+}

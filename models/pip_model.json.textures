@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "pip_stand_texture": "pip_stand_texture",
+        "pit_ui_texture": "pit_ui_texture",
+        "pip_screen_texture": "pip_screen_texture"
+      },
+      "name": "default"
+    }
+  }
+}

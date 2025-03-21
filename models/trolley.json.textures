@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "trolley": "trolley"
+      },
+      "name": "default"
+    }
+  }
+}

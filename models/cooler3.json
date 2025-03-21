@@ -1,0 +1,313 @@
+{
+	"credit": "Designed by Leonneary1990 with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"backdrop_texture": "the_hospital_mod:Copied PNG Files/backdrop_texture",
+		"fridge_texture": "the_hospital_mod:Copied PNG Files/fridge_texture"
+	},
+	"elements": [
+		{
+			"name": "backdrop",
+			"from": [1, 4.25, 2],
+			"to": [15, 31.25, 2.25],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [0, 0, 7.5, 16], "texture": "#backdrop_texture"},
+				"east": {"uv": [0, 0, 7.5, 16], "texture": "#backdrop_texture"},
+				"south": {"uv": [0, 0, 7.5, 16], "texture": "#backdrop_texture"},
+				"west": {"uv": [0, 0, 7.5, 16], "texture": "#backdrop_texture"},
+				"up": {"uv": [0, 0, 7.5, 16], "rotation": 180, "texture": "#backdrop_texture"},
+				"down": {"uv": [0, 0, 7.5, 16], "rotation": 180, "texture": "#backdrop_texture"}
+			}
+		},
+		{
+			"name": "Voxels",
+			"from": [0, 0, 10],
+			"to": [16, 32, 16],
+			"faces": {
+				"north": {"uv": [2, 12, 4, 16], "texture": "#fridge_texture"},
+				"east": {"uv": [7.21875, 12, 7.96875, 16], "texture": "#fridge_texture"},
+				"south": {"uv": [2, 12, 0, 16], "texture": "#fridge_texture"},
+				"west": {"uv": [0.75, 4.53125, 0, 8.53125], "texture": "#fridge_texture"},
+				"up": {"uv": [2.84375, 10.0625, 4.84375, 9.3125], "rotation": 180, "texture": "#fridge_texture"},
+				"down": {"uv": [2.84375, 8.5625, 4.84375, 9.3125], "rotation": 180, "texture": "#fridge_texture"}
+			}
+		},
+		{
+			"name": "Voxels",
+			"from": [0, 0, 2.25],
+			"to": [16, 4.25, 10],
+			"faces": {
+				"north": {"uv": [4.84375, 10.9375, 6.84375, 11.46875], "texture": "#fridge_texture"},
+				"east": {"uv": [4, 12.09375, 4.96875, 12.625], "texture": "#fridge_texture"},
+				"south": {"uv": [6.84375, 11.46875, 4.84375, 12], "texture": "#fridge_texture"},
+				"west": {"uv": [6.09375, 12.09375, 5.125, 12.625], "texture": "#fridge_texture"},
+				"up": {"uv": [2.84375, 11.03125, 4.84375, 10.0625], "rotation": 180, "texture": "#fridge_texture"},
+				"down": {"uv": [2.84375, 11.03125, 4.84375, 12], "rotation": 180, "texture": "#fridge_texture"}
+			}
+		},
+		{
+			"name": "Voxels",
+			"from": [0, 0, 2],
+			"to": [16, 1, 2.25],
+			"faces": {
+				"north": {"uv": [4.84375, 10.1875, 6.84375, 10.3125], "texture": "#fridge_texture"},
+				"east": {"uv": [5.09375, 12.375, 5.125, 12.5], "texture": "#fridge_texture"},
+				"south": {"uv": [6.84375, 10.0625, 4.84375, 10.1875], "texture": "#fridge_texture"},
+				"west": {"uv": [5.125, 12.5, 5.09375, 12.625], "texture": "#fridge_texture"},
+				"up": {"uv": [2.84375, 8.5625, 4.84375, 8.53125], "rotation": 180, "texture": "#fridge_texture"},
+				"down": {"uv": [5.09375, 9.84375, 7.09375, 9.875], "rotation": 180, "texture": "#fridge_texture"}
+			}
+		},
+		{
+			"name": "Voxels",
+			"from": [15.25, 1, 2],
+			"to": [16, 32, 2.25],
+			"faces": {
+				"north": {"uv": [0.875, 0.78125, 0.96875, 4.65625], "texture": "#fridge_texture"},
+				"east": {"uv": [7.96875, 12.125, 8, 16], "texture": "#fridge_texture"},
+				"south": {"uv": [0.96875, 4.65625, 0.875, 8.53125], "texture": "#fridge_texture"},
+				"west": {"uv": [1, 4.65625, 0.96875, 8.53125], "texture": "#fridge_texture"},
+				"up": {"uv": [4.34375, 12.03125, 4.4375, 12], "rotation": 180, "texture": "#fridge_texture"},
+				"down": {"uv": [4.25, 12, 4.34375, 12.03125], "rotation": 180, "texture": "#fridge_texture"}
+			}
+		},
+		{
+			"name": "Voxels",
+			"from": [0, 3.5, 1],
+			"to": [16, 4.25, 2],
+			"faces": {
+				"north": {"uv": [4.84375, 9.875, 6.84375, 9.96875], "texture": "#fridge_texture"},
+				"east": {"uv": [4, 12, 4.125, 12.09375], "texture": "#fridge_texture"},
+				"south": {"uv": [6.84375, 9.96875, 4.84375, 10.0625], "texture": "#fridge_texture"},
+				"west": {"uv": [4.25, 12, 4.125, 12.09375], "texture": "#fridge_texture"},
+				"up": {"uv": [4.84375, 10.4375, 6.84375, 10.3125], "rotation": 180, "texture": "#fridge_texture"},
+				"down": {"uv": [4.84375, 10.4375, 6.84375, 10.5625], "rotation": 180, "texture": "#fridge_texture"}
+			}
+		},
+		{
+			"name": "Voxels",
+			"from": [15, 4.25, 2.25],
+			"to": [16, 32, 10],
+			"faces": {
+				"north": {"uv": [0.625, 1.0625, 0.75, 4.53125], "texture": "#fridge_texture"},
+				"east": {"uv": [0, 8.53125, 0.96875, 12], "texture": "#fridge_texture"},
+				"south": {"uv": [0.625, 1.0625, 0.5, 4.53125], "texture": "#fridge_texture"},
+				"west": {"uv": [7.21875, 12.53125, 6.25, 16], "texture": "#fridge_texture"},
+				"up": {"uv": [1.09375, 9.5625, 1.21875, 8.59375], "rotation": 180, "texture": "#fridge_texture"},
+				"down": {"uv": [0.96875, 8.59375, 1.09375, 9.5625], "rotation": 180, "texture": "#fridge_texture"}
+			}
+		},
+		{
+			"name": "Voxels",
+			"from": [15, 4.25, 1],
+			"to": [16, 32, 2],
+			"faces": {
+				"north": {"uv": [0.125, 1.0625, 0.25, 4.53125], "texture": "#fridge_texture"},
+				"east": {"uv": [0.375, 1.0625, 0.5, 4.53125], "texture": "#fridge_texture"},
+				"south": {"uv": [0.125, 1.0625, 0, 4.53125], "texture": "#fridge_texture"},
+				"west": {"uv": [0.375, 1.0625, 0.25, 4.53125], "texture": "#fridge_texture"},
+				"up": {"uv": [4.96875, 12.625, 5.09375, 12.5], "rotation": 180, "texture": "#fridge_texture"},
+				"down": {"uv": [4.96875, 12.375, 5.09375, 12.5], "rotation": 180, "texture": "#fridge_texture"}
+			}
+		},
+		{
+			"name": "Voxels",
+			"from": [0, 1.25, 2],
+			"to": [15.25, 1.5, 2.25],
+			"faces": {
+				"north": {"uv": [5.09375, 9.46875, 7, 9.5], "texture": "#fridge_texture"},
+				"east": {"uv": [4.71875, 12, 4.75, 12.03125], "texture": "#fridge_texture"},
+				"south": {"uv": [7, 9.5, 5.09375, 9.53125], "texture": "#fridge_texture"},
+				"west": {"uv": [4.875, 12, 4.84375, 12.03125], "texture": "#fridge_texture"},
+				"up": {"uv": [5.09375, 9.5625, 7, 9.53125], "rotation": 180, "texture": "#fridge_texture"},
+				"down": {"uv": [5.09375, 9.5625, 7, 9.59375], "rotation": 180, "texture": "#fridge_texture"}
+			}
+		},
+		{
+			"name": "Voxels",
+			"from": [0, 1.75, 2],
+			"to": [15.25, 2, 2.25],
+			"faces": {
+				"north": {"uv": [5.09375, 9.75, 7, 9.78125], "texture": "#fridge_texture"},
+				"east": {"uv": [4.9375, 12.0625, 4.96875, 12.09375], "texture": "#fridge_texture"},
+				"south": {"uv": [7, 9.78125, 5.09375, 9.8125], "texture": "#fridge_texture"},
+				"west": {"uv": [4.96875, 12.03125, 4.9375, 12.0625], "texture": "#fridge_texture"},
+				"up": {"uv": [5.09375, 9.84375, 7, 9.8125], "rotation": 180, "texture": "#fridge_texture"},
+				"down": {"uv": [5.09375, 9.65625, 7, 9.6875], "rotation": 180, "texture": "#fridge_texture"}
+			}
+		},
+		{
+			"name": "Voxels",
+			"from": [0, 2.25, 2],
+			"to": [15.25, 2.5, 2.25],
+			"faces": {
+				"north": {"uv": [5.09375, 9.59375, 7, 9.625], "texture": "#fridge_texture"},
+				"east": {"uv": [5.09375, 12.0625, 5.125, 12.09375], "texture": "#fridge_texture"},
+				"south": {"uv": [7, 9.71875, 5.09375, 9.75], "texture": "#fridge_texture"},
+				"west": {"uv": [5.125, 12.09375, 5.09375, 12.125], "texture": "#fridge_texture"},
+				"up": {"uv": [5.09375, 9.71875, 7, 9.6875], "rotation": 180, "texture": "#fridge_texture"},
+				"down": {"uv": [5.09375, 9.625, 7, 9.65625], "rotation": 180, "texture": "#fridge_texture"}
+			}
+		},
+		{
+			"name": "Voxels",
+			"from": [0, 2.75, 2],
+			"to": [15.25, 4.25, 2.25],
+			"faces": {
+				"north": {"uv": [4.84375, 10.75, 6.75, 10.9375], "texture": "#fridge_texture"},
+				"east": {"uv": [6.09375, 12.4375, 6.125, 12.625], "texture": "#fridge_texture"},
+				"south": {"uv": [6.75, 10.5625, 4.84375, 10.75], "texture": "#fridge_texture"},
+				"west": {"uv": [5.125, 12.1875, 5.09375, 12.375], "texture": "#fridge_texture"},
+				"up": {"uv": [5.09375, 9.46875, 7, 9.4375], "rotation": 180, "texture": "#fridge_texture"},
+				"down": {"uv": [5.09375, 9.40625, 7, 9.4375], "rotation": 180, "texture": "#fridge_texture"}
+			}
+		},
+		{
+			"name": "Voxels",
+			"from": [15, 4.25, 2],
+			"to": [15.25, 32, 2.25],
+			"faces": {
+				"north": {"uv": [1.03125, 5.0625, 1.0625, 8.53125], "texture": "#fridge_texture"},
+				"east": {"uv": [0.96875, 1.1875, 1, 4.65625], "texture": "#fridge_texture"},
+				"south": {"uv": [1.03125, 1.59375, 1, 5.0625], "texture": "#fridge_texture"},
+				"west": {"uv": [1.03125, 5.0625, 1, 8.53125], "texture": "#fridge_texture"},
+				"up": {"uv": [5.09375, 12.15625, 5.125, 12.125], "rotation": 180, "texture": "#fridge_texture"},
+				"down": {"uv": [5.09375, 12.15625, 5.125, 12.1875], "rotation": 180, "texture": "#fridge_texture"}
+			}
+		},
+		{
+			"name": "Voxels",
+			"from": [0, 31.25, 1],
+			"to": [15, 32, 10],
+			"faces": {
+				"north": {"uv": [0.96875, 9.65625, 2.84375, 9.75], "texture": "#fridge_texture"},
+				"east": {"uv": [1.21875, 9.46875, 2.34375, 9.5625], "texture": "#fridge_texture"},
+				"south": {"uv": [2.84375, 9.5625, 0.96875, 9.65625], "texture": "#fridge_texture"},
+				"west": {"uv": [2.34375, 9.375, 1.21875, 9.46875], "texture": "#fridge_texture"},
+				"up": {"uv": [0.96875, 12, 2.84375, 10.875], "rotation": 180, "texture": "#fridge_texture"},
+				"down": {"uv": [0.96875, 9.75, 2.84375, 10.875], "rotation": 180, "texture": "#fridge_texture"}
+			}
+		},
+		{
+			"name": "Voxels",
+			"from": [0, 4.25, 1],
+			"to": [1, 31.25, 10],
+			"faces": {
+				"north": {"uv": [0.75, 5.15625, 0.875, 8.53125], "texture": "#fridge_texture"},
+				"east": {"uv": [5.125, 12.625, 6.25, 16], "texture": "#fridge_texture"},
+				"south": {"uv": [0.875, 1.78125, 0.75, 5.15625], "texture": "#fridge_texture"},
+				"west": {"uv": [5.125, 12.625, 4, 16], "texture": "#fridge_texture"},
+				"up": {"uv": [4.84375, 9.875, 4.96875, 8.75], "rotation": 180, "texture": "#fridge_texture"},
+				"down": {"uv": [4.96875, 8.75, 5.09375, 9.875], "rotation": 180, "texture": "#fridge_texture"}
+			}
+		},
+		{
+			"name": "Voxels",
+			"from": [0, 1, 2],
+			"to": [0.75, 1.25, 2.25],
+			"faces": {
+				"north": {"uv": [5.40625, 12.03125, 5.5, 12.0625], "texture": "#fridge_texture"},
+				"east": {"uv": [5.25, 12, 5.28125, 12.03125], "texture": "#fridge_texture"},
+				"south": {"uv": [5.59375, 12.03125, 5.5, 12.0625], "texture": "#fridge_texture"},
+				"west": {"uv": [5.125, 12.03125, 5.09375, 12.0625], "texture": "#fridge_texture"},
+				"up": {"uv": [5.5, 12.03125, 5.59375, 12], "rotation": 180, "texture": "#fridge_texture"},
+				"down": {"uv": [5.59375, 12.0625, 5.6875, 12.09375], "rotation": 180, "texture": "#fridge_texture"}
+			}
+		},
+		{
+			"name": "Voxels",
+			"from": [0, 1.5, 2],
+			"to": [0.75, 1.75, 2.25],
+			"faces": {
+				"north": {"uv": [5.59375, 12.03125, 5.6875, 12.0625], "texture": "#fridge_texture"},
+				"east": {"uv": [5.15625, 12, 5.1875, 12.03125], "texture": "#fridge_texture"},
+				"south": {"uv": [4.625, 12, 4.53125, 12.03125], "texture": "#fridge_texture"},
+				"west": {"uv": [5.3125, 12, 5.28125, 12.03125], "texture": "#fridge_texture"},
+				"up": {"uv": [4.625, 12.03125, 4.71875, 12], "rotation": 180, "texture": "#fridge_texture"},
+				"down": {"uv": [4.75, 12, 4.84375, 12.03125], "rotation": 180, "texture": "#fridge_texture"}
+			}
+		},
+		{
+			"name": "Voxels",
+			"from": [0, 2, 2],
+			"to": [0.75, 2.25, 2.25],
+			"faces": {
+				"north": {"uv": [4.875, 12, 4.96875, 12.03125], "texture": "#fridge_texture"},
+				"east": {"uv": [5.1875, 12, 5.21875, 12.03125], "texture": "#fridge_texture"},
+				"south": {"uv": [4.53125, 12, 4.4375, 12.03125], "texture": "#fridge_texture"},
+				"west": {"uv": [5.25, 12, 5.21875, 12.03125], "texture": "#fridge_texture"},
+				"up": {"uv": [5.5, 12.09375, 5.59375, 12.0625], "rotation": 180, "texture": "#fridge_texture"},
+				"down": {"uv": [5.3125, 12.03125, 5.40625, 12.0625], "rotation": 180, "texture": "#fridge_texture"}
+			}
+		},
+		{
+			"name": "Voxels",
+			"from": [0, 2.5, 2],
+			"to": [0.75, 2.75, 2.25],
+			"faces": {
+				"north": {"uv": [5.3125, 12.0625, 5.40625, 12.09375], "texture": "#fridge_texture"},
+				"east": {"uv": [5.09375, 12, 5.125, 12.03125], "texture": "#fridge_texture"},
+				"south": {"uv": [5.5, 12, 5.40625, 12.03125], "texture": "#fridge_texture"},
+				"west": {"uv": [5.15625, 12, 5.125, 12.03125], "texture": "#fridge_texture"},
+				"up": {"uv": [5.3125, 12.03125, 5.40625, 12], "rotation": 180, "texture": "#fridge_texture"},
+				"down": {"uv": [5.40625, 12.0625, 5.5, 12.09375], "rotation": 180, "texture": "#fridge_texture"}
+			}
+		},
+		{
+			"name": "Voxels",
+			"from": [0.25, 15.75, -0.5],
+			"to": [0.75, 16.25, 1],
+			"faces": {
+				"north": {"uv": [5.1875, 12.03125, 5.25, 12.09375], "texture": "#fridge_texture"},
+				"east": {"uv": [4.4375, 12.03125, 4.625, 12.09375], "texture": "#fridge_texture"},
+				"south": {"uv": [4.9375, 12.03125, 4.875, 12.09375], "texture": "#fridge_texture"},
+				"west": {"uv": [4.4375, 12.03125, 4.25, 12.09375], "texture": "#fridge_texture"},
+				"up": {"uv": [4.96875, 12.375, 5.03125, 12.1875], "rotation": 180, "texture": "#fridge_texture"},
+				"down": {"uv": [5.03125, 12.1875, 5.09375, 12.375], "rotation": 180, "texture": "#fridge_texture"}
+			}
+		},
+		{
+			"name": "Voxels",
+			"from": [0.25, 16.25, -0.5],
+			"to": [0.75, 22, 0],
+			"faces": {
+				"north": {"uv": [1.28125, 8.65625, 1.34375, 9.375], "texture": "#fridge_texture"},
+				"east": {"uv": [1.40625, 8.65625, 1.46875, 9.375], "texture": "#fridge_texture"},
+				"south": {"uv": [1.40625, 8.65625, 1.34375, 9.375], "texture": "#fridge_texture"},
+				"west": {"uv": [1.28125, 8.65625, 1.21875, 9.375], "texture": "#fridge_texture"},
+				"up": {"uv": [5.25, 12.09375, 5.3125, 12.03125], "rotation": 180, "texture": "#fridge_texture"},
+				"down": {"uv": [4.96875, 12, 5.03125, 12.0625], "rotation": 180, "texture": "#fridge_texture"}
+			}
+		},
+		{
+			"name": "Voxels",
+			"from": [0.25, 21.5, 0],
+			"to": [0.75, 22, 1],
+			"faces": {
+				"north": {"uv": [5.125, 12.03125, 5.1875, 12.09375], "texture": "#fridge_texture"},
+				"east": {"uv": [4.625, 12.03125, 4.75, 12.09375], "texture": "#fridge_texture"},
+				"south": {"uv": [5.09375, 12, 5.03125, 12.0625], "texture": "#fridge_texture"},
+				"west": {"uv": [4.875, 12.03125, 4.75, 12.09375], "texture": "#fridge_texture"},
+				"up": {"uv": [4.96875, 12.1875, 5.03125, 12.0625], "rotation": 180, "texture": "#fridge_texture"},
+				"down": {"uv": [5.03125, 12.0625, 5.09375, 12.1875], "rotation": 180, "texture": "#fridge_texture"}
+			}
+		}
+	],
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [0, -90, 25],
+			"translation": [1.13, 3.2, 1.13],
+			"scale": [0.1, 0.1, 0.1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, 25],
+			"translation": [1.13, 3.2, 1.13],
+			"scale": [0.1, 0.1, 0.1]
+		},
+		"gui": {
+			"rotation": [30, -45, 0],
+			"translation": [0, -2.782, 0],
+			"scale": [0.4, 0.4, 0.4]
+		}
+	}
+}

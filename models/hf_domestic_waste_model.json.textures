@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "hf_058_domestic_main": "hf_058_domestic_main"
+      },
+      "name": "default"
+    }
+  }
+}

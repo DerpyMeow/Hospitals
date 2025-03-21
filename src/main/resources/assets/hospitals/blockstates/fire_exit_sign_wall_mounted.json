@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/fire_exit_sign_wall_mounted"
+    },
+    "facing=east": {
+      "model": "hospitals:block/fire_exit_sign_wall_mounted",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/fire_exit_sign_wall_mounted",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/fire_exit_sign_wall_mounted",
+      "y": 270
+    }
+  }
+}
