@@ -7,11 +7,14 @@ package net.derpymeow.hospitals.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.derpymeow.hospitals.item.ScrubsItem;
+import net.derpymeow.hospitals.item.PillItem;
 import net.derpymeow.hospitals.HospitalsMod;
 
 public class HospitalsModItems {
@@ -143,6 +146,13 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> OFFICE_DESK_WITH_BACK = block(HospitalsModBlocks.OFFICE_DESK_WITH_BACK);
 	public static final RegistryObject<Item> WASTE_BIN_DOMESTIC_WASTE = block(HospitalsModBlocks.WASTE_BIN_DOMESTIC_WASTE);
 	public static final RegistryObject<Item> WASTE_BIN_CLINICAL_WASTE = block(HospitalsModBlocks.WASTE_BIN_CLINICAL_WASTE);
+	public static final RegistryObject<Item> PILL = REGISTRY.register("pill", () -> new PillItem());
+	public static final RegistryObject<Item> SCRUBS_HELMET = REGISTRY.register("scrubs_helmet", () -> new ScrubsItem.Helmet());
+	public static final RegistryObject<Item> SCRUBS_CHESTPLATE = REGISTRY.register("scrubs_chestplate", () -> new ScrubsItem.Chestplate());
+	public static final RegistryObject<Item> SCRUBS_LEGGINGS = REGISTRY.register("scrubs_leggings", () -> new ScrubsItem.Leggings());
+	public static final RegistryObject<Item> SCRUBS_BOOTS = REGISTRY.register("scrubs_boots", () -> new ScrubsItem.Boots());
+	public static final RegistryObject<Item> NURSE_SPAWN_EGG = REGISTRY.register("nurse_spawn_egg", () -> new ForgeSpawnEggItem(HospitalsModEntities.NURSE, -1, -39220, new Item.Properties()));
+	public static final RegistryObject<Item> DOCTOR_SPAWN_EGG = REGISTRY.register("doctor_spawn_egg", () -> new ForgeSpawnEggItem(HospitalsModEntities.DOCTOR, -1, -52429, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

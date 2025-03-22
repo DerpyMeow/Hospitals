@@ -2224,6 +2224,67 @@
         ]
       },
       "path": "~/Facilities"
+    },
+    {
+      "name": "Pill",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/PillItem.java",
+          "src/main/resources/assets/hospitals/models/item/pill.json"
+        ]
+      },
+      "path": "~/Hospitals"
+    },
+    {
+      "name": "Scrubs",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scrubs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/scrubs_leggings.json",
+          "src/main/java/net/derpymeow/hospitals/item/ScrubsItem.java",
+          "src/main/resources/assets/hospitals/models/item/scrubs_chestplate.json",
+          "src/main/resources/assets/hospitals/models/item/scrubs_helmet.json",
+          "src/main/resources/assets/hospitals/models/item/scrubs_boots.json"
+        ]
+      },
+      "path": "~/Hospitals"
+    },
+    {
+      "name": "Nurse",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nurse",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/entity/NurseEntity.java",
+          "src/main/resources/assets/hospitals/models/item/nurse_spawn_egg.json",
+          "src/main/java/net/derpymeow/hospitals/client/renderer/NurseRenderer.java"
+        ]
+      },
+      "path": "~/Hospitals"
+    },
+    {
+      "name": "Doctor",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doctor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/entity/DoctorEntity.java",
+          "src/main/java/net/derpymeow/hospitals/client/renderer/DoctorRenderer.java",
+          "src/main/resources/assets/hospitals/models/item/doctor_spawn_egg.json"
+        ]
+      },
+      "path": "~/Hospitals"
     }
   ],
   "variable_elements": [],
@@ -2367,7 +2428,11 @@
       "RABlock",
       "WABlock",
       "FABlock",
-      "MedicalCross"
+      "MedicalCross",
+      "Pill",
+      "Scrubs",
+      "Nurse",
+      "Doctor"
     ]
   },
   "language_map": {
@@ -2379,6 +2444,7 @@
       "block.hospitals.xray_light_box_arms": "X-RAY Light Box (Arms)",
       "block.hospitals.waste_bin_clinical_waste": "Waste Bin (Clinical Waste)",
       "block.hospitals.drinks_fridge": "Drinks Fridge",
+      "item.hospitals.pill": "Pill",
       "block.hospitals.vinyl_floor_green_type_1": "Vinyl Floor - Green (Type 1)",
       "block.hospitals.fire_exit_sign_wall_mounted": "Fire Exit Sign (Wall Mounted)",
       "block.hospitals.fire_extinguisher": "Fire Extinguisher",
@@ -2394,6 +2460,7 @@
       "block.hospitals.vinyl_wall_blue_type_2": "Vinyl Wall - Blue (Type 2)",
       "block.hospitals.illuminated_pharmacy_sign": "Illuminated Pharmacy Sign",
       "block.hospitals.pharmacy_counterwith_logo": "Pharmacy Counter (with Logo)",
+      "entity.hospitals.nurse": "Nurse",
       "block.hospitals.vinyl_floor_beige_type_2": "Vinyl Floor - Beige (Type 2)",
       "block.hospitals.vinyl_floor_grey": "Vinyl Floor - Grey",
       "block.hospitals.ward_resus_trolley": "Ward Resus Trolley",
@@ -2441,6 +2508,7 @@
       "block.hospitals.medical_gas_ceiling_mounted": "Medical Gas (Ceiling Mounted)",
       "block.hospitals.cleaning_trolley": "Cleaning Trolley",
       "block.hospitals.fire_exit_sign_ceiling_mounted": "Fire Exit Sign (Ceiling Mounted)",
+      "item.hospitals.scrubs_leggings": "Scrubs (Pants)",
       "block.hospitals.brick_beige": "Brick (Beige)",
       "block.hospitals.operating_table": "Operating Table",
       "block.hospitals.vinyl_floor_grey_type_1": "Vinyl Floor - Grey (Type 1)",
@@ -2455,14 +2523,17 @@
       "block.hospitals.sterile_worktop": "Sterile Worktop",
       "block.hospitals.surgical_refridgerated_cabinet": "Surgical Refridgerated Cabinet",
       "block.hospitals.scrub_sink": "Scrub Sink",
+      "item.hospitals.scrubs_helmet": "Scrub Cap",
       "block.hospitals.x_ray_machine": "X-Ray Machine",
       "block.hospitals.store_shelf_empty": "Store Shelf (Empty)",
       "block.hospitals.ra_block": "RA Block",
       "block.hospitals.fa_block": "FA Block",
       "block.hospitals.brick_dark": "Brick (Dark)",
       "block.hospitals.wall_storage_tubs_red": "Wall Storage Tubs (Red)",
+      "item.hospitals.doctor_spawn_egg": "Doctor Spawn Egg",
       "block.hospitals.red_desk_tray": "Red Desk Tray",
       "block.hospitals.roll_cage_storage": "Roll Cage (Storage)",
+      "entity.hospitals.doctor": "Doctor",
       "block.hospitals.epos_cashier_system": "ePOS Cashier System",
       "block.hospitals.surgical_instruments": "Surgical Instruments",
       "block.hospitals.xray_light_box_chest": "X-RAY Light Box (Chest)",
@@ -2495,11 +2566,14 @@
       "block.hospitals.suspended_ceiling": "Suspended Ceiling",
       "block.hospitals.vinyl_floor_white_type_1": "Vinyl Floor - White (Type 1)",
       "block.hospitals.ward_storage_drawers": "Ward Storage Drawers",
+      "item.hospitals.scrubs_boots": "Shoe Covers",
+      "item.hospitals.nurse_spawn_egg": "Nurse Spawn Egg",
       "block.hospitals.operating_room_control_panel": "Operating Room Control Panel",
       "block.hospitals.bottle_filling_machine": "Bottle Filling Machine",
       "block.hospitals.vinyl_floor_blue_type_2": "Vinyl Floor - Blue (Type 2)",
       "block.hospitals.office_desk_phone": "Office Desk Phone",
       "block.hospitals.ultrasound": "Ultrasound",
+      "item.hospitals.scrubs_chestplate": "Scrubs (Top)",
       "block.hospitals.patient_informaiton_point": "Patient Informaiton Point",
       "block.hospitals.surgical_workstation": "Surgical Workstation",
       "block.hospitals.iv_stand": "IV Stand",

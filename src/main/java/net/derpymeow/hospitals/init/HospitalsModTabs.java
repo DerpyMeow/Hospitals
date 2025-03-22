@@ -160,5 +160,12 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModBlocks.WA_BLOCK.get().asItem());
 				tabData.accept(HospitalsModBlocks.FA_BLOCK.get().asItem());
 				tabData.accept(HospitalsModBlocks.MEDICAL_CROSS.get().asItem());
+				tabData.accept(HospitalsModItems.PILL.get());
+				tabData.accept(HospitalsModItems.SCRUBS_HELMET.get());
+				tabData.accept(HospitalsModItems.SCRUBS_CHESTPLATE.get());
+				tabData.accept(HospitalsModItems.SCRUBS_LEGGINGS.get());
+				tabData.accept(HospitalsModItems.SCRUBS_BOOTS.get());
+				tabData.accept(HospitalsModItems.NURSE_SPAWN_EGG.get());
+				tabData.accept(HospitalsModItems.DOCTOR_SPAWN_EGG.get());
 			}).withSearchBar().withTabsBefore(FACILITIES_THM.getId()).build());
 }

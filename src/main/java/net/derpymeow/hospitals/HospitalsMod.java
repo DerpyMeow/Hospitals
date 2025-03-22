@@ -19,6 +19,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.derpymeow.hospitals.init.HospitalsModTabs;
 import net.derpymeow.hospitals.init.HospitalsModItems;
+import net.derpymeow.hospitals.init.HospitalsModEntities;
 import net.derpymeow.hospitals.init.HospitalsModBlocks;
 
 import java.util.function.Supplier;
@@ -44,6 +45,7 @@ public class HospitalsMod {
 		HospitalsModBlocks.REGISTRY.register(bus);
 
 		HospitalsModItems.REGISTRY.register(bus);
+		HospitalsModEntities.REGISTRY.register(bus);
 
 		HospitalsModTabs.REGISTRY.register(bus);
 
