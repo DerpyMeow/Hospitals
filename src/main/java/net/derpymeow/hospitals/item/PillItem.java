@@ -7,6 +7,6 @@ import net.minecraft.world.food.FoodProperties;
 
 public class PillItem extends Item {
 	public PillItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(4).saturationMod(1f).alwaysEat().build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(4).saturationModifier(1f).alwaysEdible().build()));
 	}
 }

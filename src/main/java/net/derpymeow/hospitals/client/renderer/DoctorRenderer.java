@@ -22,18 +22,18 @@ public class DoctorRenderer extends HumanoidMobRenderer<DoctorEntity, HumanoidMo
 		super(context, new HumanoidModel<DoctorEntity>(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
 		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
 		this.addLayer(new RenderLayer<DoctorEntity, HumanoidModel<DoctorEntity>>(this) {
-			final ResourceLocation LAYER_TEXTURE = new ResourceLocation("hospitals:textures/entities/f98694967673c4ae.png");
+			final ResourceLocation LAYER_TEXTURE = ResourceLocation.parse("hospitals:textures/entities/f98694967673c4ae.png");
 
 			@Override
 			public void render(PoseStack poseStack, MultiBufferSource bufferSource, int light, DoctorEntity entity, float limbSwing, float limbSwingAmount, float partialTicks, float ageInTicks, float netHeadYaw, float headPitch) {
 				VertexConsumer vertexConsumer = bufferSource.getBuffer(RenderType.entityCutoutNoCull(LAYER_TEXTURE));
-				this.getParentModel().renderToBuffer(poseStack, vertexConsumer, light, LivingEntityRenderer.getOverlayCoords(entity, 0), 1, 1, 1, 1);
+				this.getParentModel().renderToBuffer(poseStack, vertexConsumer, light, LivingEntityRenderer.getOverlayCoords(entity, 0));
 			}
 		});
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(DoctorEntity entity) {
-		return new ResourceLocation("hospitals:textures/entities/skin64x32_1.png");
+		return ResourceLocation.parse("hospitals:textures/entities/skin64x32_1.png");
 	}
 }

@@ -4,8 +4,8 @@
  */
 package net.derpymeow.hospitals.init;
 
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredHolder;
 
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
@@ -16,7 +16,7 @@ import net.derpymeow.hospitals.HospitalsMod;
 
 public class HospitalsModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, HospitalsMod.MODID);
-	public static final RegistryObject<CreativeModeTab> OPERATING_ROOMS_THM = REGISTRY.register("operating_rooms_thm",
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> OPERATING_ROOMS_THM = REGISTRY.register("operating_rooms_thm",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.operating_rooms_thm")).icon(() -> new ItemStack(HospitalsModBlocks.TH_BLOCK.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(HospitalsModBlocks.ANAESTHETIC_MACHINE.get().asItem());
 				tabData.accept(HospitalsModBlocks.SURGICAL_REFRIDGERATED_CABINET.get().asItem());
@@ -35,7 +35,7 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModBlocks.SURGICAL_INSTRUMENTS.get().asItem());
 				tabData.accept(HospitalsModBlocks.MEDICAL_GAS_CEILING_MOUNTED.get().asItem());
 			}).withSearchBar().build());
-	public static final RegistryObject<CreativeModeTab> PHARMACY_THM = REGISTRY.register("pharmacy_thm",
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> PHARMACY_THM = REGISTRY.register("pharmacy_thm",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.pharmacy_thm")).icon(() -> new ItemStack(HospitalsModBlocks.PH_BLOCK.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(HospitalsModBlocks.ILLUMINATED_PHARMACY_SIGN.get().asItem());
 				tabData.accept(HospitalsModBlocks.STORE_SHELF_EMPTY.get().asItem());
@@ -58,7 +58,7 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModBlocks.PHARMACY_COUNTER.get().asItem());
 				tabData.accept(HospitalsModBlocks.DECORATIVE_DIVIDE.get().asItem());
 			}).withSearchBar().withTabsBefore(OPERATING_ROOMS_THM.getId()).build());
-	public static final RegistryObject<CreativeModeTab> RADIOLOGY_THM = REGISTRY.register("radiology_thm",
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> RADIOLOGY_THM = REGISTRY.register("radiology_thm",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.radiology_thm")).icon(() -> new ItemStack(HospitalsModBlocks.RA_BLOCK.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(HospitalsModBlocks.ULTRASOUND.get().asItem());
 				tabData.accept(HospitalsModBlocks.X_RAY_LIGHT.get().asItem());
@@ -75,7 +75,7 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModBlocks.COMPUTER_SCREEN_2_CT_SCAN_VIEWER.get().asItem());
 				tabData.accept(HospitalsModBlocks.COMPUTER_SCREEN_2_XRAY_VIEWER.get().asItem());
 			}).withSearchBar().withTabsBefore(PHARMACY_THM.getId()).build());
-	public static final RegistryObject<CreativeModeTab> WARD_THM = REGISTRY.register("ward_thm",
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> WARD_THM = REGISTRY.register("ward_thm",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.ward_thm")).icon(() -> new ItemStack(HospitalsModBlocks.WA_BLOCK.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(HospitalsModBlocks.BEDSIDE_HEAD_UNIT.get().asItem());
 				tabData.accept(HospitalsModBlocks.WARD_STORAGE_DRAWERS.get().asItem());
@@ -91,7 +91,7 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModBlocks.RACK_SHELVING_EMPTY.get().asItem());
 				tabData.accept(HospitalsModBlocks.RACK_SHELVES_LINEN.get().asItem());
 			}).withSearchBar().withTabsBefore(RADIOLOGY_THM.getId()).build());
-	public static final RegistryObject<CreativeModeTab> FACILITIES_THM = REGISTRY.register("facilities_thm",
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> FACILITIES_THM = REGISTRY.register("facilities_thm",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.facilities_thm")).icon(() -> new ItemStack(HospitalsModBlocks.FA_BLOCK.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(HospitalsModBlocks.FIRE_EXIT_SIGN_CEILING_MOUNTED.get().asItem());
 				tabData.accept(HospitalsModBlocks.FIRE_EXIT_SIGN_WALL_MOUNTED.get().asItem());
@@ -152,7 +152,7 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModBlocks.WASTE_BIN_DOMESTIC_WASTE.get().asItem());
 				tabData.accept(HospitalsModBlocks.WASTE_BIN_CLINICAL_WASTE.get().asItem());
 			}).withSearchBar().withTabsBefore(WARD_THM.getId()).build());
-	public static final RegistryObject<CreativeModeTab> HOSPITALS = REGISTRY.register("hospitals",
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> HOSPITALS = REGISTRY.register("hospitals",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.hospitals")).icon(() -> new ItemStack(HospitalsModBlocks.MEDICAL_CROSS.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(HospitalsModBlocks.TH_BLOCK.get().asItem());
 				tabData.accept(HospitalsModBlocks.PH_BLOCK.get().asItem());
