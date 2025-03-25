@@ -2774,7 +2774,12 @@
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:mod:pills": [
+      "CUSTOM:Pill2",
+      "CUSTOM:Pill3"
+    ]
+  },
   "tab_element_order": {
     "CUSTOM:OperatingRoomsTHM": [
       "AnaestheticMachine",
