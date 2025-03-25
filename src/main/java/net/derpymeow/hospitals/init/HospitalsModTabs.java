@@ -212,5 +212,25 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModItems.PILL_BOTTLE_19.get());
 				tabData.accept(HospitalsModItems.PILL_20.get());
 				tabData.accept(HospitalsModItems.PILLBOTTLE_20.get());
+				tabData.accept(HospitalsModItems.PILL_21.get());
+				tabData.accept(HospitalsModItems.PILLBOTTLE_21.get());
+				tabData.accept(HospitalsModItems.PILL_22.get());
+				tabData.accept(HospitalsModItems.PILL_BOTTLE_22.get());
+				tabData.accept(HospitalsModItems.PILL_23.get());
+				tabData.accept(HospitalsModItems.PILL_BOTTLE_23.get());
+				tabData.accept(HospitalsModItems.PILL_24.get());
+				tabData.accept(HospitalsModItems.PILL_BOTTLE_24.get());
+				tabData.accept(HospitalsModItems.PILL_25.get());
+				tabData.accept(HospitalsModItems.PILL_BOTTLE_25.get());
+				tabData.accept(HospitalsModItems.PILL_26.get());
+				tabData.accept(HospitalsModItems.PILL_BOTTLE_26.get());
+				tabData.accept(HospitalsModItems.PILL_27.get());
+				tabData.accept(HospitalsModItems.PILL_BOTTLE_27.get());
+				tabData.accept(HospitalsModItems.PILL_28.get());
+				tabData.accept(HospitalsModItems.PILL_BOTTLE_28.get());
+				tabData.accept(HospitalsModItems.PILL_29.get());
+				tabData.accept(HospitalsModItems.PILL_BOTTLE_29.get());
+				tabData.accept(HospitalsModItems.PILL_30.get());
+				tabData.accept(HospitalsModItems.PILL_BOTTLE_30.get());
 			}).withSearchBar().withTabsBefore(HOSPITALS.getId()).build());
 }
