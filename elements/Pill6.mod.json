@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "pill",
+    "texture": "pill6",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Generic Pill / Placebo",
+    "name": "Pseudoephedrine",
     "rarity": "COMMON",
     "creativeTabs": [
       {

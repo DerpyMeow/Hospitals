@@ -160,7 +160,6 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModBlocks.WA_BLOCK.get().asItem());
 				tabData.accept(HospitalsModBlocks.FA_BLOCK.get().asItem());
 				tabData.accept(HospitalsModBlocks.MEDICAL_CROSS.get().asItem());
-				tabData.accept(HospitalsModItems.PILL.get());
 				tabData.accept(HospitalsModItems.SCRUBS_HELMET.get());
 				tabData.accept(HospitalsModItems.SCRUBS_CHESTPLATE.get());
 				tabData.accept(HospitalsModItems.SCRUBS_LEGGINGS.get());
@@ -168,4 +167,18 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModItems.NURSE_SPAWN_EGG.get());
 				tabData.accept(HospitalsModItems.DOCTOR_SPAWN_EGG.get());
 			}).withSearchBar().withTabsBefore(FACILITIES_THM.getId()).build());
+	public static final RegistryObject<CreativeModeTab> HOSPITALSPILLS = REGISTRY.register("hospitalspills",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.hospitalspills")).icon(() -> new ItemStack(HospitalsModItems.PILL.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(HospitalsModItems.PILL.get());
+				tabData.accept(HospitalsModItems.PILL_1.get());
+				tabData.accept(HospitalsModItems.PILL_2.get());
+				tabData.accept(HospitalsModItems.PILL_3.get());
+				tabData.accept(HospitalsModItems.PILL_4.get());
+				tabData.accept(HospitalsModItems.PILL_5.get());
+				tabData.accept(HospitalsModItems.PILL_6.get());
+				tabData.accept(HospitalsModItems.PILL_7.get());
+				tabData.accept(HospitalsModItems.PILL_8.get());
+				tabData.accept(HospitalsModItems.PILL_9.get());
+				tabData.accept(HospitalsModItems.PILL_10.get());
+			}).withSearchBar().withTabsBefore(HOSPITALS.getId()).build());
 }

@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "pill",
+    "texture": "pill4",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Generic Pill / Placebo",
+    "name": "Loratadine",
     "rarity": "COMMON",
     "creativeTabs": [
       {

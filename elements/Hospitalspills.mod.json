@@ -1,0 +1,11 @@
+{
+  "_fv": 73,
+  "_type": "tab",
+  "definition": {
+    "name": "Hospitals - Pills",
+    "icon": {
+      "value": "CUSTOM:Pill"
+    },
+    "showSearch": true
+  }
+}
