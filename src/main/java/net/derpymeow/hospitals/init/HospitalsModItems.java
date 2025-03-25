@@ -14,7 +14,19 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.derpymeow.hospitals.item.ScrubsItem;
+import net.derpymeow.hospitals.item.PillbottleemptyItem;
+import net.derpymeow.hospitals.item.Pillbottle9Item;
+import net.derpymeow.hospitals.item.Pillbottle7Item;
+import net.derpymeow.hospitals.item.Pillbottle6Item;
+import net.derpymeow.hospitals.item.Pillbottle4Item;
+import net.derpymeow.hospitals.item.Pillbottle3Item;
+import net.derpymeow.hospitals.item.Pillbottle2Item;
+import net.derpymeow.hospitals.item.Pillbottle1Item;
+import net.derpymeow.hospitals.item.Pillbottle0Item;
 import net.derpymeow.hospitals.item.PillItem;
+import net.derpymeow.hospitals.item.PillBottle8Item;
+import net.derpymeow.hospitals.item.PillBottle5Item;
+import net.derpymeow.hospitals.item.PillBottle10Item;
 import net.derpymeow.hospitals.item.Pill9Item;
 import net.derpymeow.hospitals.item.Pill8Item;
 import net.derpymeow.hospitals.item.Pill7Item;
@@ -173,6 +185,18 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> PILL_8 = REGISTRY.register("pill_8", () -> new Pill8Item());
 	public static final RegistryObject<Item> PILL_9 = REGISTRY.register("pill_9", () -> new Pill9Item());
 	public static final RegistryObject<Item> PILL_10 = REGISTRY.register("pill_10", () -> new Pill10Item());
+	public static final RegistryObject<Item> PILLBOTTLEEMPTY = REGISTRY.register("pillbottleempty", () -> new PillbottleemptyItem());
+	public static final RegistryObject<Item> PILLBOTTLE_0 = REGISTRY.register("pillbottle_0", () -> new Pillbottle0Item());
+	public static final RegistryObject<Item> PILLBOTTLE_1 = REGISTRY.register("pillbottle_1", () -> new Pillbottle1Item());
+	public static final RegistryObject<Item> PILLBOTTLE_2 = REGISTRY.register("pillbottle_2", () -> new Pillbottle2Item());
+	public static final RegistryObject<Item> PILLBOTTLE_3 = REGISTRY.register("pillbottle_3", () -> new Pillbottle3Item());
+	public static final RegistryObject<Item> PILLBOTTLE_4 = REGISTRY.register("pillbottle_4", () -> new Pillbottle4Item());
+	public static final RegistryObject<Item> PILL_BOTTLE_5 = REGISTRY.register("pill_bottle_5", () -> new PillBottle5Item());
+	public static final RegistryObject<Item> PILLBOTTLE_6 = REGISTRY.register("pillbottle_6", () -> new Pillbottle6Item());
+	public static final RegistryObject<Item> PILLBOTTLE_7 = REGISTRY.register("pillbottle_7", () -> new Pillbottle7Item());
+	public static final RegistryObject<Item> PILL_BOTTLE_8 = REGISTRY.register("pill_bottle_8", () -> new PillBottle8Item());
+	public static final RegistryObject<Item> PILLBOTTLE_9 = REGISTRY.register("pillbottle_9", () -> new Pillbottle9Item());
+	public static final RegistryObject<Item> PILL_BOTTLE_10 = REGISTRY.register("pill_bottle_10", () -> new PillBottle10Item());
 
 	// Start of user code block custom items
 	// End of user code block custom items
