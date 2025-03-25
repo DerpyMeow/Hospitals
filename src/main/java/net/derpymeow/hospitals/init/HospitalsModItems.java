@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.derpymeow.hospitals.item.TempItem;
 import net.derpymeow.hospitals.item.ScrubsItem;
 import net.derpymeow.hospitals.item.PillbottleemptyItem;
 import net.derpymeow.hospitals.item.Pillbottle9Item;
@@ -197,6 +198,7 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> PILL_BOTTLE_8 = REGISTRY.register("pill_bottle_8", () -> new PillBottle8Item());
 	public static final RegistryObject<Item> PILLBOTTLE_9 = REGISTRY.register("pillbottle_9", () -> new Pillbottle9Item());
 	public static final RegistryObject<Item> PILL_BOTTLE_10 = REGISTRY.register("pill_bottle_10", () -> new PillBottle10Item());
+	public static final RegistryObject<Item> TEMP = REGISTRY.register("temp", () -> new TempItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

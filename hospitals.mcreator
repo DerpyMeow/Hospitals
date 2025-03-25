@@ -2770,6 +2770,19 @@
         ]
       },
       "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+    },
+    {
+      "name": "Temp",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "temp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/temp.json",
+          "src/main/java/net/derpymeow/hospitals/item/TempItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -3037,6 +3050,7 @@
       "block.hospitals.fa_block": "FA Block",
       "block.hospitals.wall_storage_tubs_red": "Wall Storage Tubs (Red)",
       "block.hospitals.red_desk_tray": "Red Desk Tray",
+      "item.hospitals.temp": "Temp",
       "item.hospitals.pillbottle_0.description_0": "",
       "block.hospitals.surgical_instruments": "Surgical Instruments",
       "block.hospitals.xray_light_box_chest": "X-RAY Light Box (Chest)",
