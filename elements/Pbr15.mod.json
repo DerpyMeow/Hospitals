@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Pill15"
+      },
+      {
+        "value": "CUSTOM:Pill15"
+      },
+      {
+        "value": "CUSTOM:Pill15"
+      },
+      {
+        "value": "CUSTOM:Pill15"
+      },
+      {
+        "value": "CUSTOM:Pillbottleempty"
+      },
+      {
+        "value": "CUSTOM:Pill15"
+      },
+      {
+        "value": "CUSTOM:Pill15"
+      },
+      {
+        "value": "CUSTOM:Pill15"
+      },
+      {
+        "value": "CUSTOM:Pill15"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PillBottle15"
+    },
+    "name": "pbr_15",
+    "namespace": "mod"
+  }
+}

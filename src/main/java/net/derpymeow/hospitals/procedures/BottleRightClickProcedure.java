@@ -133,5 +133,115 @@ public class BottleRightClickProcedure {
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
 		}
+		if (itemstack.getItem() == HospitalsModItems.PILLBOTTLE_11.get()) {
+			if (entity instanceof Player _player) {
+				ItemStack _setstack = new ItemStack(HospitalsModItems.PILL_11.get()).copy();
+				_setstack.setCount(8);
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
+			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = itemstack;
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
+		}
+		if (itemstack.getItem() == HospitalsModItems.PILLBOTTLE_12.get()) {
+			if (entity instanceof Player _player) {
+				ItemStack _setstack = new ItemStack(HospitalsModItems.PILL_12.get()).copy();
+				_setstack.setCount(8);
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
+			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = itemstack;
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
+		}
+		if (itemstack.getItem() == HospitalsModItems.PILL_BOTTLE_13.get()) {
+			if (entity instanceof Player _player) {
+				ItemStack _setstack = new ItemStack(HospitalsModItems.PILL_13.get()).copy();
+				_setstack.setCount(8);
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
+			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = itemstack;
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
+		}
+		if (itemstack.getItem() == HospitalsModItems.PILL_BOTTLE_14.get()) {
+			if (entity instanceof Player _player) {
+				ItemStack _setstack = new ItemStack(HospitalsModItems.PILL_14.get()).copy();
+				_setstack.setCount(8);
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
+			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = itemstack;
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
+		}
+		if (itemstack.getItem() == HospitalsModItems.PILL_BOTTLE_15.get()) {
+			if (entity instanceof Player _player) {
+				ItemStack _setstack = new ItemStack(HospitalsModItems.PILL_15.get()).copy();
+				_setstack.setCount(8);
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
+			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = itemstack;
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
+		}
+		if (itemstack.getItem() == HospitalsModItems.PILL_BOTTLE_16.get()) {
+			if (entity instanceof Player _player) {
+				ItemStack _setstack = new ItemStack(HospitalsModItems.PILL_16.get()).copy();
+				_setstack.setCount(8);
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
+			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = itemstack;
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
+		}
+		if (itemstack.getItem() == HospitalsModItems.PILL_BOTTLE_17.get()) {
+			if (entity instanceof Player _player) {
+				ItemStack _setstack = new ItemStack(HospitalsModItems.PILL_17.get()).copy();
+				_setstack.setCount(8);
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
+			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = itemstack;
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
+		}
+		if (itemstack.getItem() == HospitalsModItems.PILL_BOTTLE_18.get()) {
+			if (entity instanceof Player _player) {
+				ItemStack _setstack = new ItemStack(HospitalsModItems.PILL_18.get()).copy();
+				_setstack.setCount(8);
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
+			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = itemstack;
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
+		}
+		if (itemstack.getItem() == HospitalsModItems.PILL_BOTTLE_19.get()) {
+			if (entity instanceof Player _player) {
+				ItemStack _setstack = new ItemStack(HospitalsModItems.PILL_19.get()).copy();
+				_setstack.setCount(8);
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
+			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = itemstack;
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
+		}
+		if (itemstack.getItem() == HospitalsModItems.PILLBOTTLE_20.get()) {
+			if (entity instanceof Player _player) {
+				ItemStack _setstack = new ItemStack(HospitalsModItems.PILL_20.get()).copy();
+				_setstack.setCount(8);
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
+			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = itemstack;
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
+		}
 	}
 }
