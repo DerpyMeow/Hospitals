@@ -2237,7 +2237,7 @@
           "src/main/resources/assets/hospitals/models/item/pill.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pills"
+      "path": "~/Hospitals"
     },
     {
       "name": "Scrubs",
@@ -2287,6 +2287,123 @@
       "path": "~/Hospitals"
     },
     {
+      "name": "BottleRightClick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottle_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BottleRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+    },
+    {
+      "name": "PillBottle5",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill_bottle_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/pill_bottle_5.json",
+          "src/main/java/net/derpymeow/hospitals/item/PillBottle5Item.java"
+        ]
+      },
+      "path": "~/Hospitals/Pills/Pill Bottles"
+    },
+    {
+      "name": "Pill10",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/pill_10.json",
+          "src/main/java/net/derpymeow/hospitals/item/Pill10Item.java"
+        ]
+      },
+      "path": "~/Hospitals/Pills/Pills"
+    },
+    {
+      "name": "PillBottle8",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill_bottle_8",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/PillBottle8Item.java",
+          "src/main/resources/assets/hospitals/models/item/pill_bottle_8.json"
+        ]
+      },
+      "path": "~/Hospitals/Pills/Pill Bottles"
+    },
+    {
+      "name": "PillBottle10",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill_bottle_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/pill_bottle_10.json",
+          "src/main/java/net/derpymeow/hospitals/item/PillBottle10Item.java"
+        ]
+      },
+      "path": "~/Hospitals/Pills/Pill Bottles"
+    },
+    {
+      "name": "Temp",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "temp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/temp.json",
+          "src/main/java/net/derpymeow/hospitals/item/TempItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Hospitalspills",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hospitalspills",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Creative Tabs"
+    },
+    {
+      "name": "Pill9",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill_9",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/Pill9Item.java",
+          "src/main/resources/assets/hospitals/models/item/pill_9.json"
+        ]
+      },
+      "path": "~/Hospitals/Pills/Pills"
+    },
+    {
       "name": "Pill1",
       "type": "item",
       "compiles": true,
@@ -2301,15 +2418,18 @@
       "path": "~/Hospitals/Pills/Pills"
     },
     {
-      "name": "Hospitalspills",
-      "type": "tab",
+      "name": "Pillbottle9",
+      "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "hospitalspills",
+      "registry_name": "pillbottle_9",
       "metadata": {
-        "files": []
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/pillbottle_9.json",
+          "src/main/java/net/derpymeow/hospitals/item/Pillbottle9Item.java"
+        ]
       },
-      "path": "~/Creative Tabs"
+      "path": "~/Hospitals/Pills/Pill Bottles"
     },
     {
       "name": "Pill2",
@@ -2340,6 +2460,20 @@
       "path": "~/Hospitals/Pills/Pills"
     },
     {
+      "name": "Pillbottle7",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pillbottle_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/pillbottle_7.json",
+          "src/main/java/net/derpymeow/hospitals/item/Pillbottle7Item.java"
+        ]
+      },
+      "path": "~/Hospitals/Pills/Pill Bottles"
+    },
+    {
       "name": "Pill4",
       "type": "item",
       "compiles": true,
@@ -2352,6 +2486,20 @@
         ]
       },
       "path": "~/Hospitals/Pills/Pills"
+    },
+    {
+      "name": "Pillbottleempty",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pillbottleempty",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/PillbottleemptyItem.java",
+          "src/main/resources/assets/hospitals/models/item/pillbottleempty.json"
+        ]
+      },
+      "path": "~/Hospitals/Pills/Pill Bottles"
     },
     {
       "name": "Pill5",
@@ -2410,62 +2558,6 @@
       "path": "~/Hospitals/Pills/Pills"
     },
     {
-      "name": "Pill9",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pill_9",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/item/Pill9Item.java",
-          "src/main/resources/assets/hospitals/models/item/pill_9.json"
-        ]
-      },
-      "path": "~/Hospitals/Pills/Pills"
-    },
-    {
-      "name": "Pill10",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pill_10",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/hospitals/models/item/pill_10.json",
-          "src/main/java/net/derpymeow/hospitals/item/Pill10Item.java"
-        ]
-      },
-      "path": "~/Hospitals/Pills/Pills"
-    },
-    {
-      "name": "Pillbottleempty",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pillbottleempty",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/item/PillbottleemptyItem.java",
-          "src/main/resources/assets/hospitals/models/item/pillbottleempty.json"
-        ]
-      },
-      "path": "~/Hospitals/Pills/Pill Bottles"
-    },
-    {
-      "name": "Pillbottle0",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pillbottle_0",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/hospitals/models/item/pillbottle_0.json",
-          "src/main/java/net/derpymeow/hospitals/item/Pillbottle0Item.java"
-        ]
-      },
-      "path": "~/Hospitals/Pills/Pill Bottles"
-    },
-    {
       "name": "Pillbottle1",
       "type": "item",
       "compiles": true,
@@ -2489,6 +2581,47 @@
         "files": [
           "src/main/java/net/derpymeow/hospitals/item/Pillbottle2Item.java",
           "src/main/resources/assets/hospitals/models/item/pillbottle_2.json"
+        ]
+      },
+      "path": "~/Hospitals/Pills/Pill Bottles"
+    },
+    {
+      "name": "Pbr10",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pbr_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/pbr_10.json"
+        ]
+      },
+      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+    },
+    {
+      "name": "Pillbottle0",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pillbottle_0",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/pillbottle_0.json",
+          "src/main/java/net/derpymeow/hospitals/item/Pillbottle0Item.java"
+        ]
+      },
+      "path": "~/Hospitals/Pills/Pill Bottles"
+    },
+    {
+      "name": "Pillbottle6",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pillbottle_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/Pillbottle6Item.java",
+          "src/main/resources/assets/hospitals/models/item/pillbottle_6.json"
         ]
       },
       "path": "~/Hospitals/Pills/Pill Bottles"
@@ -2522,160 +2655,14 @@
       "path": "~/Hospitals/Pills/Pill Bottles"
     },
     {
-      "name": "PillBottle5",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pill_bottle_5",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/hospitals/models/item/pill_bottle_5.json",
-          "src/main/java/net/derpymeow/hospitals/item/PillBottle5Item.java"
-        ]
-      },
-      "path": "~/Hospitals/Pills/Pill Bottles"
-    },
-    {
-      "name": "Pillbottle6",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pillbottle_6",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/item/Pillbottle6Item.java",
-          "src/main/resources/assets/hospitals/models/item/pillbottle_6.json"
-        ]
-      },
-      "path": "~/Hospitals/Pills/Pill Bottles"
-    },
-    {
-      "name": "Pillbottle7",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pillbottle_7",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/hospitals/models/item/pillbottle_7.json",
-          "src/main/java/net/derpymeow/hospitals/item/Pillbottle7Item.java"
-        ]
-      },
-      "path": "~/Hospitals/Pills/Pill Bottles"
-    },
-    {
-      "name": "PillBottle8",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pill_bottle_8",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/item/PillBottle8Item.java",
-          "src/main/resources/assets/hospitals/models/item/pill_bottle_8.json"
-        ]
-      },
-      "path": "~/Hospitals/Pills/Pill Bottles"
-    },
-    {
-      "name": "Pillbottle9",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pillbottle_9",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/hospitals/models/item/pillbottle_9.json",
-          "src/main/java/net/derpymeow/hospitals/item/Pillbottle9Item.java"
-        ]
-      },
-      "path": "~/Hospitals/Pills/Pill Bottles"
-    },
-    {
-      "name": "PillBottle10",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pill_bottle_10",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/hospitals/models/item/pill_bottle_10.json",
-          "src/main/java/net/derpymeow/hospitals/item/PillBottle10Item.java"
-        ]
-      },
-      "path": "~/Hospitals/Pills/Pill Bottles"
-    },
-    {
-      "name": "BottleRightClick",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bottle_right_click",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BottleRightClickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
-    },
-    {
-      "name": "Pbr0",
+      "name": "Pbr5",
       "type": "recipe",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pbr_0",
+      "registry_name": "pbr_5",
       "metadata": {
         "files": [
-          "src/main/resources/data/hospitals/recipes/pbr_0.json"
-        ]
-      },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
-    },
-    {
-      "name": "Pbr1",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pbr_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/hospitals/recipes/pbr_1.json"
-        ]
-      },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
-    },
-    {
-      "name": "Pbr2",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pbr_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/hospitals/recipes/pbr_2.json"
-        ]
-      },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
-    },
-    {
-      "name": "Pbr3",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pbr_3",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/hospitals/recipes/pbr_3.json"
+          "src/main/resources/data/hospitals/recipes/pbr_5.json"
         ]
       },
       "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
@@ -2694,14 +2681,14 @@
       "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
     },
     {
-      "name": "Pbr5",
+      "name": "Pbr7",
       "type": "recipe",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pbr_5",
+      "registry_name": "pbr_7",
       "metadata": {
         "files": [
-          "src/main/resources/data/hospitals/recipes/pbr_5.json"
+          "src/main/resources/data/hospitals/recipes/pbr_7.json"
         ]
       },
       "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
@@ -2720,27 +2707,53 @@
       "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
     },
     {
-      "name": "Pbr7",
+      "name": "Pbr1",
       "type": "recipe",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pbr_7",
+      "registry_name": "pbr_1",
       "metadata": {
         "files": [
-          "src/main/resources/data/hospitals/recipes/pbr_7.json"
+          "src/main/resources/data/hospitals/recipes/pbr_1.json"
         ]
       },
       "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
     },
     {
-      "name": "Pbr8",
+      "name": "Pbr0",
       "type": "recipe",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pbr_8",
+      "registry_name": "pbr_0",
       "metadata": {
         "files": [
-          "src/main/resources/data/hospitals/recipes/pbr_8.json"
+          "src/main/resources/data/hospitals/recipes/pbr_0.json"
+        ]
+      },
+      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+    },
+    {
+      "name": "Pbr3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pbr_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/pbr_3.json"
+        ]
+      },
+      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+    },
+    {
+      "name": "Pbr2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pbr_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/pbr_2.json"
         ]
       },
       "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
@@ -2759,49 +2772,22 @@
       "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
     },
     {
-      "name": "Pbr10",
+      "name": "Pbr8",
       "type": "recipe",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pbr_10",
+      "registry_name": "pbr_8",
       "metadata": {
         "files": [
-          "src/main/resources/data/hospitals/recipes/pbr_10.json"
+          "src/main/resources/data/hospitals/recipes/pbr_8.json"
         ]
       },
       "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
-    },
-    {
-      "name": "Temp",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "temp",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/hospitals/models/item/temp.json",
-          "src/main/java/net/derpymeow/hospitals/item/TempItem.java"
-        ]
-      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {
-    "ITEMS:mod:pills": [
-      "CUSTOM:Pill",
-      "CUSTOM:Pill1",
-      "CUSTOM:Pill2",
-      "CUSTOM:Pill3",
-      "CUSTOM:Pill4",
-      "CUSTOM:Pill5",
-      "CUSTOM:Pill6",
-      "CUSTOM:Pill7",
-      "CUSTOM:Pill8",
-      "CUSTOM:Pill9",
-      "CUSTOM:Pill10"
-    ]
-  },
+  "tag_elements": {},
   "tab_element_order": {
     "CUSTOM:OperatingRoomsTHM": [
       "AnaestheticMachine",
@@ -2941,34 +2927,10 @@
       "WABlock",
       "FABlock",
       "MedicalCross",
+      "Pill",
       "Scrubs",
       "Nurse",
       "Doctor"
-    ],
-    "CUSTOM:Hospitalspills": [
-      "Pillbottleempty",
-      "Pill",
-      "Pillbottle0",
-      "Pill1",
-      "Pillbottle1",
-      "Pill2",
-      "Pillbottle2",
-      "Pill3",
-      "Pillbottle3",
-      "Pill4",
-      "Pillbottle4",
-      "Pill5",
-      "PillBottle5",
-      "Pill6",
-      "Pillbottle6",
-      "Pill7",
-      "Pillbottle7",
-      "Pill8",
-      "PillBottle8",
-      "Pill9",
-      "Pillbottle9",
-      "Pill10",
-      "PillBottle10"
     ]
   },
   "language_map": {
@@ -2976,34 +2938,14 @@
       "block.hospitals.computer_screen_2_ct_scan_viewer": "Computer Screen 2 (CT Scan Viewer)",
       "block.hospitals.xray_light_box_arms": "X-RAY Light Box (Arms)",
       "block.hospitals.waste_bin_clinical_waste": "Waste Bin (Clinical Waste)",
-      "item.hospitals.pillbottle_3.description_0": "",
-      "item.hospitals.pillbottle_3.description_1": "Right Click To Open",
       "block.hospitals.fire_extinguisher": "Fire Extinguisher",
       "block.hospitals.vinyl_wall_red_type_1": "Vinyl Wall - Red (Type 1)",
       "block.hospitals.surgical_trolley": "Surgical Trolley",
-      "item.hospitals.pill_bottle_8": "Diphenhydramine Pill Bottle",
       "block.hospitals.hospital_bed": "Hospital Bed",
-      "item.hospitals.pill_bottle_5": "Dextromethorphan Pill Bottle",
       "block.hospitals.computer_ct_scan_viewer": "Computer (CT Scan Viewer)",
-      "item.hospitals.pill_7.description_0": "",
-      "item.hospitals.pill_7.description_1": "Effect: Nothing",
       "block.hospitals.vinyl_wall_blue_type_1": "Vinyl Wall - Grey (Type 1)",
-      "item.hospitals.pill_7.description_2": "",
-      "item.hospitals.pill_7.description_3": "Pills Can Be Used To Fill Pill Bottles",
       "block.hospitals.vinyl_wall_blue_type_2": "Vinyl Wall - Blue (Type 2)",
-      "item.hospitals.pillbottle_9": "Linagliptin Pill Bottle",
-      "item.hospitals.pillbottle_7": "Bismuth subsalicylate Pill Bottle",
-      "item.hospitals.pillbottle_6": "Pseudoephedrine Pill Bottle",
-      "item.hospitals.pillbottle_4": "Loratadine Pill Bottle",
       "entity.hospitals.nurse": "Nurse",
-      "item.hospitals.pillbottle_3": "Fexofenadine Pill Bottle",
-      "item.hospitals.pill_3.description_3": "Pills Can Be Used To Fill Pill Bottles",
-      "item.hospitals.pill_3.description_2": "",
-      "item.hospitals.pillbottle_2": "Ibuprofen Pill Bottle",
-      "item.hospitals.pill_3.description_1": "Effect: Nothing",
-      "item.hospitals.pillbottle_1": "Acetaminophen Pill Bottle",
-      "item.hospitals.pill_3.description_0": "",
-      "item.hospitals.pillbottle_0": "Generic/Placebo Pill Bottle",
       "block.hospitals.vinyl_floor_beige_type_2": "Vinyl Floor - Beige (Type 2)",
       "block.hospitals.vinyl_floor_grey": "Vinyl Floor - Grey",
       "block.hospitals.hand_sanitiser_dispenser": "Hand Sanitiser Dispenser",
@@ -3013,14 +2955,8 @@
       "item_group.hospitals.facilities_thm": "Facilities - THM",
       "block.hospitals.prescription_shelf": "Prescription Shelf",
       "block.hospitals.cladding_stone_effect": "Cladding (Stone Effect)",
-      "item.hospitals.pill_10.description_1": "Effect: Nothing",
-      "item.hospitals.pillbottleempty.description_1": "Put In Center Slot Of Crafting Table And Put Pills In The Other 8 Slots to Fill Bottle",
-      "item.hospitals.pill_10.description_0": "",
-      "item.hospitals.pill_10.description_3": "Pills Can Be Used To Fill Pill Bottles",
       "block.hospitals.rack_shelving_empty": "Rack Shelving (Empty)",
       "block.hospitals.plastered_wall_white": "Plastered Wall (White)",
-      "item.hospitals.pill_10.description_2": "",
-      "item.hospitals.pillbottleempty.description_0": "",
       "block.hospitals.x_ray_light": "X-Ray Light",
       "block.hospitals.vinyl_wall_beige_type_2": "Vinyl Wall - Beige (Type 2)",
       "block.hospitals.xray_light_box_feet": "X-RAY Light Box (Feet)",
@@ -3028,10 +2964,7 @@
       "block.hospitals.vinyl_wall_grey_type_1": "Vinyl Wall - Blue (Type 1)",
       "block.hospitals.vinyl_wall_grey_type_2": "Vinyl Wall - Grey (Type 2)",
       "block.hospitals.xray_bucky_stand": "X-RAY Bucky Stand",
-      "item.hospitals.pillbottleempty": "Empty Pill Bottle",
       "block.hospitals.anaesthetic_machine": "Anaesthetic Machine",
-      "item.hospitals.pillbottle_2.description_0": "",
-      "item.hospitals.pillbottle_2.description_1": "Right Click To Open",
       "block.hospitals.wall_storage_tubs_yellow": "Wall Storage Tubs (Yellow)",
       "block.hospitals.smooth_concrete": "Smooth Concrete",
       "block.hospitals.wet_floor_sign": "Wet Floor Sign",
@@ -3042,71 +2975,45 @@
       "block.hospitals.vinyl_floor_aqua_type_1": "Vinyl Floor - Aqua (Type 1)",
       "block.hospitals.medical_cross": "Medical Cross",
       "block.hospitals.plastered_wall_green": "Plastered Wall (Green)",
-      "item.hospitals.pill_4.description_1": "Effect: Nothing",
-      "item.hospitals.pill_4.description_2": "",
-      "item.hospitals.pill_bottle_5.description_0": "",
-      "item.hospitals.pill_bottle_5.description_1": "Right Click To Open",
-      "item.hospitals.pill_4.description_0": "",
       "block.hospitals.fa_block": "FA Block",
       "block.hospitals.wall_storage_tubs_red": "Wall Storage Tubs (Red)",
       "block.hospitals.red_desk_tray": "Red Desk Tray",
-      "item.hospitals.temp": "Temp",
-      "item.hospitals.pillbottle_0.description_0": "",
       "block.hospitals.surgical_instruments": "Surgical Instruments",
       "block.hospitals.xray_light_box_chest": "X-RAY Light Box (Chest)",
       "block.hospitals.waste_bin_domestic_waste": "Waste Bin (Domestic Waste)",
       "item_group.hospitals.pharmacy_thm": "Pharmacy - THM",
       "block.hospitals.plastered_wall_blue": "Plastered Wall (Blue)",
-      "item.hospitals.pill_bottle_10.description_1": "Right Click To Open",
       "block.hospitals.brick_grey": "Brick (Grey)",
       "block.hospitals.computer_screen_2_xray_viewer": "Computer Screen 2 (X-RAY Viewer)",
-      "item.hospitals.pill_bottle_10.description_0": "",
       "block.hospitals.th_block": "TH Block",
       "item_group.hospitals.radiology_thm": "Radiology - THM",
       "block.hospitals.analytical_balance": "Analytical Balance",
       "block.hospitals.bedside_head_unit": "Bedside Head Unit",
       "block.hospitals.vinyl_floor_red_type_1": "Vinyl Floor - Red (Type 1)",
       "block.hospitals.decorative_divide": "Decorative Divide",
-      "item.hospitals.pill_2.description_3": "Pills Can Be Used To Fill Pill Bottles",
-      "item.hospitals.pill_2.description_2": "",
       "block.hospitals.xray_light_box_neck": "X-RAY Light Box (Neck)",
-      "item.hospitals.pill_2.description_1": "Effect: Nothing",
-      "item.hospitals.pill_2.description_0": "",
-      "block.hospitals.suspended_ceiling": "Suspended Ceiling",
       "block.hospitals.vinyl_floor_white_type_1": "Vinyl Floor - White (Type 1)",
+      "block.hospitals.suspended_ceiling": "Suspended Ceiling",
       "item.hospitals.nurse_spawn_egg": "Nurse Spawn Egg",
-      "item.hospitals.pill_10": "Ashwagandha",
-      "item.hospitals.pill_1.description_2": "",
       "block.hospitals.vinyl_floor_blue_type_2": "Vinyl Floor - Blue (Type 2)",
       "block.hospitals.office_desk_phone": "Office Desk Phone",
-      "item.hospitals.pill_1.description_3": "Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.scrubs_chestplate": "Scrubs (Top)",
-      "item.hospitals.pill_1.description_0": "",
-      "item.hospitals.pill_1.description_1": "Effect: Nothing",
       "block.hospitals.surgical_workstation": "Surgical Workstation",
       "block.hospitals.iv_stand": "IV Stand",
       "block.hospitals.vinyl_floor_blue_type_1": "Vinyl Floor - Blue (Type 1)",
       "block.hospitals.medical_workstation_cart": "Medical Workstation Cart",
-      "item.hospitals.pill_5.description_0": "",
-      "item.hospitals.pill_5.description_1": "Effect: Nothing",
       "block.hospitals.blue_desk_tray": "Blue Desk Tray",
       "block.hospitals.xray_light_box_blank": "X-RAY Light Box (Blank)",
       "block.hospitals.drinks_fridge": "Drinks Fridge",
-      "item.hospitals.pill": "Generic Pill / Placebo",
+      "item.hospitals.pill": "Pill",
       "block.hospitals.vinyl_floor_green_type_1": "Vinyl Floor - Green (Type 1)",
       "block.hospitals.fire_exit_sign_wall_mounted": "Fire Exit Sign (Wall Mounted)",
       "block.hospitals.pharmacy_counter_stocked": "Pharmacy Counter (Stocked)",
       "block.hospitals.surgical_lamp": "Surgical Lamp",
-      "item.hospitals.pill_4": "Loratadine",
-      "item.hospitals.pill_5": "Dextromethorphan",
-      "item.hospitals.pill_2": "Ibuprofen",
-      "item.hospitals.pill_3": "Fexofenadine",
-      "item.hospitals.pill_1": "Acetaminophen",
       "block.hospitals.office_desk_with_back": "Office Desk (With Back)",
       "block.hospitals.pharmacy_counter": "Pharmacy Counter",
       "block.hospitals.illuminated_pharmacy_sign": "Illuminated Pharmacy Sign",
       "block.hospitals.pharmacy_counterwith_logo": "Pharmacy Counter (with Logo)",
-      "item.hospitals.pillbottle_0.description_1": "Right Click To Open",
       "block.hospitals.ward_resus_trolley": "Ward Resus Trolley",
       "block.hospitals.xray_light_box_hands": "X-RAY Light Box (Hands)",
       "block.hospitals.vinyl_floor_salmon_type_2": "Vinyl Floor - Salmon (Type 2)",
@@ -3114,19 +3021,9 @@
       "block.hospitals.medication_drawers": "Medication Drawers",
       "block.hospitals.capsule_filling_machine": "Capsule Filling Machine",
       "block.hospitals.plastered_wall_lime": "Plastered Wall (Lime)",
-      "item.hospitals.pill_8": "Diphenhydramine",
-      "item.hospitals.pill_9": "Linagliptin",
-      "item.hospitals.pill_6": "Pseudoephedrine",
-      "item.hospitals.pill_bottle_8.description_1": "Right Click To Open",
-      "item.hospitals.pill_7": "Bismuth subsalicylate",
-      "item.hospitals.pill_bottle_8.description_0": "",
       "block.hospitals.prescription_basket_empty": "Prescription Basket (Empty)",
-      "item.hospitals.pillbottle_1.description_1": "Right Click To Open",
-      "item.hospitals.pillbottle_1.description_0": "",
-      "item.hospitals.pill_4.description_3": "Pills Can Be Used To Fill Pill Bottles",
       "block.hospitals.computer_x_ray_viewer": "Computer (X-Ray Viewer)",
       "block.hospitals.life_support_syringe_pumps": "Life Support/Syringe Pumps",
-      "item.hospitals.pill_6.description_0": "",
       "block.hospitals.vinyl_wall_light_blue_type_1": "Vinyl Wall - Light Blue (Type 1)",
       "block.hospitals.sterile_work_counter_with_shelf": "Sterile Work Counter (With Shelf)",
       "block.hospitals.office_desk": "Office Desk",
@@ -3137,21 +3034,14 @@
       "block.hospitals.store_shelf_stocked": "Store Shelf (Stocked)",
       "block.hospitals.compounding_isolator": "Compounding Isolator",
       "block.hospitals.fetal_monitoring_workstation": "Fetal Monitoring Workstation",
-      "item.hospitals.pill_5.description_2": "",
-      "item.hospitals.pill_5.description_3": "Pills Can Be Used To Fill Pill Bottles",
       "block.hospitals.office_wall_phone": "Office Wall Phone",
-      "item.hospitals.pillbottle_7.description_0": "",
-      "item.hospitals.pillbottle_7.description_1": "Right Click To Open",
       "block.hospitals.surgical_instrument_trolley": "Surgical Instrument Trolley",
       "block.hospitals.cleaning_trolley": "Cleaning Trolley",
       "item.hospitals.scrubs_leggings": "Scrubs (Pants)",
       "item.hospitals.pill.description_0": "",
-      "item.hospitals.pill_6.description_2": "",
       "item.hospitals.pill.description_1": "Effect: Nothing",
-      "item.hospitals.pill_6.description_1": "Effect: Nothing",
       "item.hospitals.pill.description_2": "",
       "block.hospitals.operating_table": "Operating Table",
-      "item.hospitals.pill_6.description_3": "Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill.description_3": "Pills Can Be Used To Fill Pill Bottles",
       "block.hospitals.vinyl_floor_grey_type_1": "Vinyl Floor - Grey (Type 1)",
       "block.hospitals.brick_red": "Brick (Red)",
@@ -3163,43 +3053,27 @@
       "block.hospitals.scrub_sink": "Scrub Sink",
       "item.hospitals.scrubs_helmet": "Scrub Cap",
       "block.hospitals.x_ray_machine": "X-Ray Machine",
-      "item.hospitals.pillbottle_4.description_1": "Right Click To Open",
       "block.hospitals.store_shelf_empty": "Store Shelf (Empty)",
-      "item.hospitals.pillbottle_4.description_0": "",
       "block.hospitals.ra_block": "RA Block",
-      "item_group.hospitals.hospitalspills": "Hospitals - Pills",
-      "item.hospitals.pillbottle_9.description_1": "Right Click To Open",
-      "item.hospitals.pillbottle_9.description_0": "",
       "block.hospitals.brick_dark": "Brick (Dark)",
       "item.hospitals.doctor_spawn_egg": "Doctor Spawn Egg",
       "block.hospitals.roll_cage_storage": "Roll Cage (Storage)",
       "entity.hospitals.doctor": "Doctor",
-      "item.hospitals.pill_bottle_10": "Ashwagandha Pill Bottle",
       "block.hospitals.epos_cashier_system": "ePOS Cashier System",
       "block.hospitals.vinyl_floor_light_blue_type_1": "Vinyl Floor - Light Blue (Type 1)",
       "block.hospitals.worktop_with_shelf": "Worktop (With Shelf)",
-      "item.hospitals.pill_8.description_3": "Pills Can Be Used To Fill Pill Bottles",
       "block.hospitals.refridgerated_centrifuge": "Refridgerated Centrifuge",
       "block.hospitals.ventilation": "Ventilation",
       "block.hospitals.wa_block": "WA Block",
       "block.hospitals.plastered_wall_beige": "Plastered Wall - Beige",
-      "item.hospitals.pill_8.description_0": "",
-      "item.hospitals.pill_8.description_1": "Effect: Nothing",
-      "item.hospitals.pill_8.description_2": "",
       "block.hospitals.laboratory_fridge": "Laboratory Fridge",
       "item_group.hospitals.hospitals": "Hospitals",
       "block.hospitals.plastered_wall_sky_blue": "Plastered Wall (Sky Blue)",
       "block.hospitals.vinyl_wall_green_type_1": "Vinyl Wall - Green (Type 1)",
-      "block.hospitals.ph_block": "PH Block",
       "block.hospitals.vinyl_wall_salmon_type_2": "Vinyl Wall - Salmon (Type 2)",
+      "block.hospitals.ph_block": "PH Block",
       "item_group.hospitals.operating_rooms_thm": "Operating Rooms - THM",
-      "item.hospitals.pillbottle_6.description_1": "Right Click To Open",
       "block.hospitals.cardboard_box": "Cardboard Box",
-      "item.hospitals.pill_9.description_3": "Pills Can Be Used To Fill Pill Bottles",
-      "item.hospitals.pill_9.description_2": "",
-      "item.hospitals.pillbottle_6.description_0": "",
-      "item.hospitals.pill_9.description_1": "Effect: Nothing",
-      "item.hospitals.pill_9.description_0": "",
       "block.hospitals.ward_storage_drawers": "Ward Storage Drawers",
       "item.hospitals.scrubs_boots": "Shoe Covers",
       "block.hospitals.bottle_filling_machine": "Bottle Filling Machine",
@@ -3217,11 +3091,11 @@
         "children": []
       },
       {
-        "name": "Theatres",
+        "name": "Facilities",
         "children": []
       },
       {
-        "name": "Pharmacy",
+        "name": "Theatres",
         "children": []
       },
       {
@@ -3230,10 +3104,6 @@
       },
       {
         "name": "Ward",
-        "children": []
-      },
-      {
-        "name": "Facilities",
         "children": []
       },
       {
@@ -3258,6 +3128,10 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Pharmacy",
+        "children": []
       }
     ]
   },
