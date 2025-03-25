@@ -160,7 +160,6 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModBlocks.WA_BLOCK.get().asItem());
 				tabData.accept(HospitalsModBlocks.FA_BLOCK.get().asItem());
 				tabData.accept(HospitalsModBlocks.MEDICAL_CROSS.get().asItem());
-				tabData.accept(HospitalsModItems.PILL.get());
 				tabData.accept(HospitalsModItems.SCRUBS_HELMET.get());
 				tabData.accept(HospitalsModItems.SCRUBS_CHESTPLATE.get());
 				tabData.accept(HospitalsModItems.SCRUBS_LEGGINGS.get());
@@ -170,28 +169,28 @@ public class HospitalsModTabs {
 			}).withSearchBar().withTabsBefore(FACILITIES_THM.getId()).build());
 	public static final RegistryObject<CreativeModeTab> HOSPITALSPILLS = REGISTRY.register("hospitalspills",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.hospitalspills")).icon(() -> new ItemStack(HospitalsModItems.PILL.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(HospitalsModItems.PILL.get());
-				tabData.accept(HospitalsModItems.PILL_BOTTLE_5.get());
-				tabData.accept(HospitalsModItems.PILL_10.get());
-				tabData.accept(HospitalsModItems.PILL_BOTTLE_8.get());
-				tabData.accept(HospitalsModItems.PILL_BOTTLE_10.get());
-				tabData.accept(HospitalsModItems.PILL_9.get());
-				tabData.accept(HospitalsModItems.PILL_1.get());
-				tabData.accept(HospitalsModItems.PILLBOTTLE_9.get());
-				tabData.accept(HospitalsModItems.PILL_2.get());
-				tabData.accept(HospitalsModItems.PILL_3.get());
-				tabData.accept(HospitalsModItems.PILLBOTTLE_7.get());
-				tabData.accept(HospitalsModItems.PILL_4.get());
 				tabData.accept(HospitalsModItems.PILLBOTTLEEMPTY.get());
-				tabData.accept(HospitalsModItems.PILL_5.get());
-				tabData.accept(HospitalsModItems.PILL_6.get());
-				tabData.accept(HospitalsModItems.PILL_7.get());
-				tabData.accept(HospitalsModItems.PILL_8.get());
-				tabData.accept(HospitalsModItems.PILLBOTTLE_1.get());
-				tabData.accept(HospitalsModItems.PILLBOTTLE_2.get());
+				tabData.accept(HospitalsModItems.PILL.get());
 				tabData.accept(HospitalsModItems.PILLBOTTLE_0.get());
-				tabData.accept(HospitalsModItems.PILLBOTTLE_6.get());
+				tabData.accept(HospitalsModItems.PILL_1.get());
+				tabData.accept(HospitalsModItems.PILLBOTTLE_1.get());
+				tabData.accept(HospitalsModItems.PILL_2.get());
+				tabData.accept(HospitalsModItems.PILLBOTTLE_2.get());
+				tabData.accept(HospitalsModItems.PILL_3.get());
 				tabData.accept(HospitalsModItems.PILLBOTTLE_3.get());
+				tabData.accept(HospitalsModItems.PILL_4.get());
 				tabData.accept(HospitalsModItems.PILLBOTTLE_4.get());
+				tabData.accept(HospitalsModItems.PILL_5.get());
+				tabData.accept(HospitalsModItems.PILL_BOTTLE_5.get());
+				tabData.accept(HospitalsModItems.PILL_6.get());
+				tabData.accept(HospitalsModItems.PILLBOTTLE_6.get());
+				tabData.accept(HospitalsModItems.PILL_7.get());
+				tabData.accept(HospitalsModItems.PILLBOTTLE_7.get());
+				tabData.accept(HospitalsModItems.PILL_8.get());
+				tabData.accept(HospitalsModItems.PILL_BOTTLE_8.get());
+				tabData.accept(HospitalsModItems.PILL_9.get());
+				tabData.accept(HospitalsModItems.PILLBOTTLE_9.get());
+				tabData.accept(HospitalsModItems.PILL_10.get());
+				tabData.accept(HospitalsModItems.PILL_BOTTLE_10.get());
 			}).withSearchBar().withTabsBefore(HOSPITALS.getId()).build());
 }
