@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "hospitals:pill_34"
+    },
+    "b": {
+      "item": "hospitals:pillbottleempty"
+    },
+    "c": {
+      "item": "hospitals:pill_33"
+    }
+  },
+  "result": {
+    "item": "hospitals:pill_bottle_34",
+    "count": 1
+  }
+}
