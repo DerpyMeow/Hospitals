@@ -31,8 +31,8 @@
     "specialInformation": {
       "fixedValue": [
         "",
-        "Effect: Nothing",
-        "",
+        "-Use: Pain Relief",
+        "-Effect: Instant Health, Strength",
         "Pills Can Be Used To Fill Pill Bottles"
       ]
     },
@@ -41,6 +41,9 @@
     },
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "Pill2ate"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,

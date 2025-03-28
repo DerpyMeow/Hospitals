@@ -4123,6 +4123,158 @@
         ]
       },
       "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+    },
+    {
+      "name": "Pill1ate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill_1ate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/Pill1ateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Pills/Pills"
+    },
+    {
+      "name": "Pill2ate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill_2ate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/Pill2ateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Pills/Pills"
+    },
+    {
+      "name": "Pill3ate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill_3ate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/Pill3ateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Pills/Pills"
+    },
+    {
+      "name": "Pill4ate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill_4ate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/Pill4ateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Pills/Pills"
+    },
+    {
+      "name": "Pill5ate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill_5ate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/Pill5ateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Pills/Pills"
+    },
+    {
+      "name": "Pill6ate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill_6ate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/Pill6ateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Pills/Pills"
+    },
+    {
+      "name": "Pill7ate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill_7ate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/Pill7ateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Pills/Pills"
+    },
+    {
+      "name": "Pill8ate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pill_8ate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/Pill8ateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Pills/Pills"
     }
   ],
   "variable_elements": [],
@@ -4405,19 +4557,19 @@
       "item.hospitals.pill_bottle_8": "Diphenhydramine Pill Bottle",
       "item.hospitals.pill_14.description_3": "Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_14.description_2": "",
-      "item.hospitals.pill_14.description_1": "Effect: Nothing",
-      "item.hospitals.pill_bottle_5": "Dextromethorphan Pill Bottle",
       "block.hospitals.hospital_bed": "Hospital Bed",
+      "item.hospitals.pill_bottle_5": "Dextromethorphan Pill Bottle",
+      "item.hospitals.pill_14.description_1": "Effect: Nothing",
       "item.hospitals.pill_14.description_0": "",
       "block.hospitals.computer_ct_scan_viewer": "Computer (CT Scan Viewer)",
       "item.hospitals.pill_7.description_0": "",
       "item.hospitals.pill_24.description_1": "Effect: Nothing",
-      "item.hospitals.pill_7.description_1": "Effect: Nothing",
       "item.hospitals.pill_24.description_2": "",
-      "item.hospitals.pill_7.description_2": "",
+      "item.hospitals.pill_7.description_1": "-Use: Diarrhea, Heartburn",
+      "item.hospitals.pill_7.description_2": "-Effect: Nausea (severe), Speed, Jumpboost",
       "item.hospitals.pill_24.description_3": "Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_bottle_35.description_0": "",
-      "item.hospitals.pill_7.description_3": "Pills Can Be Used To Fill Pill Bottles",
+      "item.hospitals.pill_7.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_bottle_35.description_1": "Right Click To Open",
       "entity.hospitals.nurse": "Nurse",
       "item.hospitals.pill_24.description_0": "",
@@ -4435,8 +4587,8 @@
       "item.hospitals.pillbottle_21.description_0": "",
       "block.hospitals.vinyl_wall_beige_type_2": "Vinyl Wall - Beige (Type 2)",
       "item.hospitals.pill_bottle_16.description_1": "Right Click To Open",
-      "block.hospitals.xray_light_box_feet": "X-RAY Light Box (Feet)",
       "item.hospitals.pill_33.description_3": "Pills Can Be Used To Fill Pill Bottles",
+      "block.hospitals.xray_light_box_feet": "X-RAY Light Box (Feet)",
       "item.hospitals.pill_33.description_2": "",
       "item.hospitals.pill_bottle_16.description_0": "",
       "item.hospitals.pill_33.description_1": "Effect: Nothing",
@@ -4454,8 +4606,8 @@
       "block.hospitals.wall_storage_tubs_yellow": "Wall Storage Tubs (Yellow)",
       "item.hospitals.pill_bottle_25.description_0": "",
       "item.hospitals.pill_34.description_2": "",
-      "item.hospitals.pill_bottle_25.description_1": "Right Click To Open",
       "item.hospitals.pill_34.description_3": "Pills Can Be Used To Fill Pill Bottles",
+      "item.hospitals.pill_bottle_25.description_1": "Right Click To Open",
       "block.hospitals.medical_gas_ceiling_mounted": "Medical Gas (Ceiling Mounted)",
       "block.hospitals.fire_exit_sign_ceiling_mounted": "Fire Exit Sign (Ceiling Mounted)",
       "item.hospitals.pill_34.description_0": "",
@@ -4485,12 +4637,12 @@
       "item.hospitals.pill_22.description_1": "Effect: Nothing",
       "item.hospitals.pill_22.description_2": "",
       "item.hospitals.pill_bottle_26.description_0": "",
-      "item.hospitals.pill_22.description_0": "",
       "item.hospitals.pill_bottle_26.description_1": "Right Click To Open",
+      "item.hospitals.pill_22.description_0": "",
       "item.hospitals.nurse_spawn_egg": "Nurse Spawn Egg",
       "item.hospitals.pill_22.description_3": "Pills Can Be Used To Fill Pill Bottles",
-      "block.hospitals.office_desk_phone": "Office Desk Phone",
       "block.hospitals.vinyl_floor_blue_type_2": "Vinyl Floor - Blue (Type 2)",
+      "block.hospitals.office_desk_phone": "Office Desk Phone",
       "item.hospitals.scrubs_chestplate": "Scrubs (Top)",
       "item.hospitals.pill_bottle_27.description_1": "Right Click To Open",
       "item.hospitals.pill_bottle_27.description_0": "",
@@ -4504,8 +4656,8 @@
       "item.hospitals.pill_17.description_2": "",
       "item.hospitals.pill_17.description_1": "Effect: Nothing",
       "item.hospitals.pill_12.description_0": "",
-      "item.hospitals.pill_12.description_1": "Effect: Nothing",
       "item.hospitals.pill_17.description_3": "Pills Can Be Used To Fill Pill Bottles",
+      "item.hospitals.pill_12.description_1": "Effect: Nothing",
       "item.hospitals.pill_12.description_2": "",
       "item.hospitals.pill_12.description_3": "Pills Can Be Used To Fill Pill Bottles",
       "block.hospitals.pharmacy_counter_stocked": "Pharmacy Counter (Stocked)",
@@ -4626,11 +4778,11 @@
       "item.hospitals.pillbottle_6": "Pseudoephedrine Pill Bottle",
       "item.hospitals.pillbottle_4": "Loratadine Pill Bottle",
       "item.hospitals.pillbottle_3": "Fexofenadine Pill Bottle",
-      "item.hospitals.pill_3.description_3": "Pills Can Be Used To Fill Pill Bottles",
+      "item.hospitals.pill_3.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pillbottle_2": "Ibuprofen Pill Bottle",
-      "item.hospitals.pill_3.description_2": "",
+      "item.hospitals.pill_3.description_2": "-Effect: Clears All Other Effects (Unless You Have Wither Effect)",
       "item.hospitals.pillbottle_1": "Acetaminophen Pill Bottle",
-      "item.hospitals.pill_3.description_1": "Effect: Nothing",
+      "item.hospitals.pill_3.description_1": "-Uses: Allergy Relief",
       "item.hospitals.pillbottle_0": "Generic/Placebo Pill Bottle",
       "item.hospitals.pill_3.description_0": "",
       "block.hospitals.vinyl_floor_beige_type_2": "Vinyl Floor - Beige (Type 2)",
@@ -4664,8 +4816,8 @@
       "block.hospitals.vinyl_floor_aqua_type_2": "Vinyl Floor - Aqua (Type 2)",
       "block.hospitals.vinyl_floor_aqua_type_1": "Vinyl Floor - Aqua (Type 1)",
       "block.hospitals.plastered_wall_green": "Plastered Wall (Green)",
-      "item.hospitals.pill_4.description_1": "Effect: Nothing",
-      "item.hospitals.pill_4.description_2": "",
+      "item.hospitals.pill_4.description_1": "-Uses: Decongestant",
+      "item.hospitals.pill_4.description_2": "-Effect: Regeneration, Slowness, Resistance",
       "item.hospitals.pill_4.description_0": "",
       "item.hospitals.pill_20.description_0": "",
       "item.hospitals.pill_bottle_39.description_0": "",
@@ -4706,8 +4858,8 @@
       "block.hospitals.analytical_balance": "Analytical Balance",
       "block.hospitals.vinyl_floor_red_type_1": "Vinyl Floor - Red (Type 1)",
       "item.hospitals.pill_2.description_3": "Pills Can Be Used To Fill Pill Bottles",
-      "item.hospitals.pill_2.description_2": "",
-      "item.hospitals.pill_2.description_1": "Effect: Nothing",
+      "item.hospitals.pill_2.description_2": "-Effect: Instant Health, Strength",
+      "item.hospitals.pill_2.description_1": "-Use: Pain Relief",
       "block.hospitals.xray_light_box_neck": "X-RAY Light Box (Neck)",
       "item.hospitals.pill_2.description_0": "",
       "item.hospitals.pill_19": "Hydrocortisone",
@@ -4724,13 +4876,13 @@
       "item.hospitals.pill_11": "Amoxicillin",
       "item.hospitals.pill_12": "Azithromycin",
       "item.hospitals.pill_10": "Ashwagandha",
-      "item.hospitals.pill_1.description_2": "",
-      "item.hospitals.pill_1.description_3": "Pills Can Be Used To Fill Pill Bottles",
+      "item.hospitals.pill_1.description_2": "-Effect: Regeneration, Health Boost, Strength",
+      "item.hospitals.pill_1.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_37.description_3": "Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_37.description_0": "",
       "item.hospitals.pill_1.description_0": "",
       "item.hospitals.pill_37.description_2": "",
-      "item.hospitals.pill_1.description_1": "Effect: Nothing",
+      "item.hospitals.pill_1.description_1": "-Use: Pain Relief",
       "item.hospitals.pill_37.description_1": "Effect: Nothing",
       "block.hospitals.surgical_workstation": "Surgical Workstation",
       "block.hospitals.iv_stand": "IV Stand",
@@ -4744,7 +4896,7 @@
       "item.hospitals.pill_bottle_33.description_1": "Right Click To Open",
       "item.hospitals.pill_5.description_0": "",
       "block.hospitals.blue_desk_tray": "Blue Desk Tray",
-      "item.hospitals.pill_5.description_1": "Effect: Nothing",
+      "item.hospitals.pill_5.description_1": "-Use: Cough Relief",
       "item.hospitals.pill_bottle_38.description_0": "",
       "block.hospitals.drinks_fridge": "Drinks Fridge",
       "item.hospitals.pill": "Generic Pill / Placebo",
@@ -4784,7 +4936,7 @@
       "item.hospitals.pill_31.description_1": "Effect: Nothing",
       "item.hospitals.pillbottle_1.description_0": "",
       "item.hospitals.pill_31.description_2": "",
-      "item.hospitals.pill_4.description_3": "Pills Can Be Used To Fill Pill Bottles",
+      "item.hospitals.pill_4.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_31.description_3": "Pills Can Be Used To Fill Pill Bottles",
       "block.hospitals.life_support_syringe_pumps": "Life Support/Syringe Pumps",
       "item.hospitals.pill_bottle_40": "Vitamin B6 (pyridoxine) Pill Bottle",
@@ -4805,9 +4957,9 @@
       "block.hospitals.compounding_isolator": "Compounding Isolator",
       "block.hospitals.fetal_monitoring_workstation": "Fetal Monitoring Workstation",
       "item.hospitals.pill_bottle_31": "Vitamin A Pill Bottle",
-      "item.hospitals.pill_5.description_2": "",
+      "item.hospitals.pill_5.description_2": "-Effect: Nausea, Slowness, Regeneration (fast)",
       "item.hospitals.pill_bottle_32": "Vitamin C Pill Bottle",
-      "item.hospitals.pill_5.description_3": "Pills Can Be Used To Fill Pill Bottles",
+      "item.hospitals.pill_5.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_bottle_33": "Vitamin D Pill Bottle",
       "item.hospitals.pill_bottle_34": "Vitamin E Pill Bottle",
       "item.hospitals.pill_bottle_35": "Vitamin K Pill Bottle",
@@ -4821,11 +4973,11 @@
       "item.hospitals.pill_bottle_28": "Fluoxetine Pill Bottle",
       "item.hospitals.pill_bottle_29": "Methylphenidate Pill Bottle",
       "item.hospitals.pill.description_0": "",
-      "item.hospitals.pill_6.description_2": "",
+      "item.hospitals.pill_6.description_2": "-Effect: Nausea, Blindness, Resistance (high leve0",
       "item.hospitals.pill.description_1": "Effect: Nothing",
-      "item.hospitals.pill_6.description_1": "Effect: Nothing",
+      "item.hospitals.pill_6.description_1": "-Use: Decongestant",
       "item.hospitals.pill.description_2": "",
-      "item.hospitals.pill_6.description_3": "Pills Can Be Used To Fill Pill Bottles",
+      "item.hospitals.pill_6.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill.description_3": "Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_bottle_34.description_0": "",
       "item.hospitals.pill_bottle_22": "Oxycodone Pill Bottle",
@@ -4858,13 +5010,13 @@
       "item.hospitals.pill_bottle_15": "Atorvastatin Pill Bottle",
       "block.hospitals.vinyl_floor_light_blue_type_1": "Vinyl Floor - Light Blue (Type 1)",
       "block.hospitals.worktop_with_shelf": "Worktop (With Shelf)",
-      "item.hospitals.pill_8.description_3": "Pills Can Be Used To Fill Pill Bottles",
+      "item.hospitals.pill_8.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_bottle_31.description_1": "Right Click To Open",
       "block.hospitals.refridgerated_centrifuge": "Refridgerated Centrifuge",
       "item.hospitals.pill_bottle_31.description_0": "",
       "item.hospitals.pill_8.description_0": "",
-      "item.hospitals.pill_8.description_1": "Effect: Nothing",
-      "item.hospitals.pill_8.description_2": "",
+      "item.hospitals.pill_8.description_1": "-Use: Decongestant",
+      "item.hospitals.pill_8.description_2": "-Effect: Water Breathing, Slowness",
       "block.hospitals.vinyl_wall_salmon_type_2": "Vinyl Wall - Salmon (Type 2)",
       "item_group.hospitals.operating_rooms_thm": "Operating Rooms - THM",
       "item.hospitals.pillbottle_6.description_1": "Right Click To Open",

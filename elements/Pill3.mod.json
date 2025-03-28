@@ -31,9 +31,9 @@
     "specialInformation": {
       "fixedValue": [
         "",
-        "Effect: Nothing",
-        "",
-        "Pills Can Be Used To Fill Pill Bottles"
+        "-Uses: Allergy Relief",
+        "-Effect: Clears All Other Effects (Unless You Have Wither Effect)",
+        "-Pills Can Be Used To Fill Pill Bottles"
       ]
     },
     "glowCondition": {
@@ -41,6 +41,9 @@
     },
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "Pill3ate"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,

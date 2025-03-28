@@ -31,9 +31,9 @@
     "specialInformation": {
       "fixedValue": [
         "",
-        "Effect: Nothing",
-        "",
-        "Pills Can Be Used To Fill Pill Bottles"
+        "-Use: Decongestant",
+        "-Effect: Water Breathing, Slowness",
+        "-Pills Can Be Used To Fill Pill Bottles"
       ]
     },
     "glowCondition": {
