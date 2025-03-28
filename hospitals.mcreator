@@ -183,7 +183,7 @@
           "src/main/resources/assets/hospitals/blockstates/anaesthetic_machine.json"
         ]
       },
-      "path": "~/Theatres"
+      "path": "~/Original Mod/Theatres"
     },
     {
       "name": "SurgicalRefridgeratedCabinet",
@@ -200,7 +200,7 @@
           "src/main/resources/assets/hospitals/models/item/surgical_refridgerated_cabinet.json"
         ]
       },
-      "path": "~/Theatres"
+      "path": "~/Original Mod/Theatres"
     },
     {
       "name": "SurgicalWorktopTable",
@@ -217,7 +217,7 @@
           "src/main/resources/assets/hospitals/models/block/surgical_worktop_table.json"
         ]
       },
-      "path": "~/Theatres"
+      "path": "~/Original Mod/Theatres"
     },
     {
       "name": "SurgicalInstrumentTrolley",
@@ -234,7 +234,7 @@
           "src/main/resources/data/hospitals/loot_tables/blocks/surgical_instrument_trolley.json"
         ]
       },
-      "path": "~/Theatres"
+      "path": "~/Original Mod/Theatres"
     },
     {
       "name": "OperatingTable",
@@ -251,7 +251,7 @@
           "src/main/resources/assets/hospitals/models/block/operating_table.json"
         ]
       },
-      "path": "~/Theatres"
+      "path": "~/Original Mod/Theatres"
     },
     {
       "name": "ScrubSink",
@@ -268,7 +268,7 @@
           "src/main/resources/assets/hospitals/models/item/scrub_sink.json"
         ]
       },
-      "path": "~/Theatres"
+      "path": "~/Original Mod/Theatres"
     },
     {
       "name": "WallStorageTubsRed",
@@ -285,7 +285,7 @@
           "src/main/resources/data/hospitals/loot_tables/blocks/wall_storage_tubs_red.json"
         ]
       },
-      "path": "~/Theatres"
+      "path": "~/Original Mod/Theatres"
     },
     {
       "name": "WallStorageTubsYellow",
@@ -302,7 +302,7 @@
           "src/main/resources/assets/hospitals/blockstates/wall_storage_tubs_yellow.json"
         ]
       },
-      "path": "~/Theatres"
+      "path": "~/Original Mod/Theatres"
     },
     {
       "name": "SurgicalLamp",
@@ -319,7 +319,7 @@
           "src/main/resources/assets/hospitals/models/block/surgical_lamp.json"
         ]
       },
-      "path": "~/Theatres"
+      "path": "~/Original Mod/Theatres"
     },
     {
       "name": "SurgicalTrolley",
@@ -336,7 +336,7 @@
           "src/main/resources/assets/hospitals/models/block/surgical_trolley.json"
         ]
       },
-      "path": "~/Theatres"
+      "path": "~/Original Mod/Theatres"
     },
     {
       "name": "SterileWorktop",
@@ -353,7 +353,7 @@
           "src/main/resources/assets/hospitals/blockstates/sterile_worktop.json"
         ]
       },
-      "path": "~/Theatres"
+      "path": "~/Original Mod/Theatres"
     },
     {
       "name": "SterileWorkCounterWithShelf",
@@ -370,7 +370,7 @@
           "src/main/resources/assets/hospitals/models/item/sterile_work_counter_with_shelf.json"
         ]
       },
-      "path": "~/Theatres"
+      "path": "~/Original Mod/Theatres"
     },
     {
       "name": "SurgicalWorkstation",
@@ -387,7 +387,7 @@
           "src/main/resources/data/hospitals/loot_tables/blocks/surgical_workstation.json"
         ]
       },
-      "path": "~/Theatres"
+      "path": "~/Original Mod/Theatres"
     },
     {
       "name": "OperatingRoomControlPanel",
@@ -404,7 +404,7 @@
           "src/main/resources/assets/hospitals/blockstates/operating_room_control_panel.json"
         ]
       },
-      "path": "~/Theatres"
+      "path": "~/Original Mod/Theatres"
     },
     {
       "name": "SurgicalInstruments",
@@ -421,7 +421,7 @@
           "src/main/resources/assets/hospitals/models/item/surgical_instruments.json"
         ]
       },
-      "path": "~/Theatres"
+      "path": "~/Original Mod/Theatres"
     },
     {
       "name": "MedicalGasCeilingMounted",
@@ -438,7 +438,7 @@
           "src/main/resources/assets/hospitals/models/block/medical_gas_ceiling_mounted.json"
         ]
       },
-      "path": "~/Theatres"
+      "path": "~/Original Mod/Theatres"
     },
     {
       "name": "IlluminatedPharmacySign",
@@ -455,7 +455,7 @@
           "src/main/resources/assets/hospitals/blockstates/illuminated_pharmacy_sign.json"
         ]
       },
-      "path": "~/Pharmacy"
+      "path": "~/Original Mod/Pharmacy"
     },
     {
       "name": "StoreShelfEmpty",
@@ -472,7 +472,7 @@
           "src/main/resources/assets/hospitals/blockstates/store_shelf_empty.json"
         ]
       },
-      "path": "~/Pharmacy"
+      "path": "~/Original Mod/Pharmacy"
     },
     {
       "name": "StoreShelfStocked",
@@ -489,7 +489,7 @@
           "src/main/java/net/derpymeow/hospitals/block/StoreShelfStockedBlock.java"
         ]
       },
-      "path": "~/Pharmacy"
+      "path": "~/Original Mod/Pharmacy"
     },
     {
       "name": "CompoundingIsolator",
@@ -506,7 +506,7 @@
           "src/main/resources/assets/hospitals/models/block/compounding_isolator.json"
         ]
       },
-      "path": "~/Pharmacy"
+      "path": "~/Original Mod/Pharmacy"
     },
     {
       "name": "AnalyticalBalance",
@@ -523,7 +523,7 @@
           "src/main/resources/assets/hospitals/models/block/analytical_balance.json"
         ]
       },
-      "path": "~/Pharmacy"
+      "path": "~/Original Mod/Pharmacy"
     },
     {
       "name": "RefridgeratedCentrifuge",
@@ -540,7 +540,7 @@
           "src/main/resources/assets/hospitals/models/block/refridgerated_centrifuge.json"
         ]
       },
-      "path": "~/Pharmacy"
+      "path": "~/Original Mod/Pharmacy"
     },
     {
       "name": "WorktopWithShelf",
@@ -557,7 +557,7 @@
           "src/main/resources/assets/hospitals/models/block/worktop_with_shelf.json"
         ]
       },
-      "path": "~/Pharmacy"
+      "path": "~/Original Mod/Pharmacy"
     },
     {
       "name": "Worktop",
@@ -574,7 +574,7 @@
           "src/main/java/net/derpymeow/hospitals/block/WorktopBlock.java"
         ]
       },
-      "path": "~/Pharmacy"
+      "path": "~/Original Mod/Pharmacy"
     },
     {
       "name": "LaboratoryFridge",
@@ -591,7 +591,7 @@
           "src/main/resources/assets/hospitals/models/block/laboratory_fridge.json"
         ]
       },
-      "path": "~/Pharmacy"
+      "path": "~/Original Mod/Pharmacy"
     },
     {
       "name": "CapsuleFillingMachine",
@@ -608,7 +608,7 @@
           "src/main/resources/data/hospitals/loot_tables/blocks/capsule_filling_machine.json"
         ]
       },
-      "path": "~/Pharmacy"
+      "path": "~/Original Mod/Pharmacy"
     },
     {
       "name": "BottleFillingMachine",
@@ -625,7 +625,7 @@
           "src/main/resources/assets/hospitals/models/item/bottle_filling_machine.json"
         ]
       },
-      "path": "~/Pharmacy"
+      "path": "~/Original Mod/Pharmacy"
     },
     {
       "name": "MedicationDrawers",
@@ -642,7 +642,7 @@
           "src/main/resources/assets/hospitals/blockstates/medication_drawers.json"
         ]
       },
-      "path": "~/Pharmacy"
+      "path": "~/Original Mod/Pharmacy"
     },
     {
       "name": "PrescriptionShelf",
@@ -659,7 +659,7 @@
           "src/main/resources/assets/hospitals/models/block/prescription_shelf.json"
         ]
       },
-      "path": "~/Pharmacy"
+      "path": "~/Original Mod/Pharmacy"
     },
     {
       "name": "EPOSCashierSystem",
@@ -676,7 +676,7 @@
           "src/main/resources/assets/hospitals/models/block/epos_cashier_system.json"
         ]
       },
-      "path": "~/Pharmacy"
+      "path": "~/Original Mod/Pharmacy"
     },
     {
       "name": "PrescriptionBasketEmpty",
@@ -693,7 +693,7 @@
           "src/main/resources/assets/hospitals/models/item/prescription_basket_empty.json"
         ]
       },
-      "path": "~/Pharmacy"
+      "path": "~/Original Mod/Pharmacy"
     },
     {
       "name": "PrescriptionBasket",
@@ -710,7 +710,7 @@
           "src/main/resources/data/hospitals/loot_tables/blocks/prescription_basket.json"
         ]
       },
-      "path": "~/Pharmacy"
+      "path": "~/Original Mod/Pharmacy"
     },
     {
       "name": "PharmacyCounterStocked",
@@ -727,7 +727,7 @@
           "src/main/resources/assets/hospitals/models/item/pharmacy_counter_stocked.json"
         ]
       },
-      "path": "~/Pharmacy"
+      "path": "~/Original Mod/Pharmacy"
     },
     {
       "name": "PharmacyCounterwithLogo",
@@ -744,7 +744,7 @@
           "src/main/java/net/derpymeow/hospitals/block/PharmacyCounterwithLogoBlock.java"
         ]
       },
-      "path": "~/Pharmacy"
+      "path": "~/Original Mod/Pharmacy"
     },
     {
       "name": "PharmacyCounter",
@@ -761,7 +761,7 @@
           "src/main/resources/data/hospitals/loot_tables/blocks/pharmacy_counter.json"
         ]
       },
-      "path": "~/Pharmacy"
+      "path": "~/Original Mod/Pharmacy"
     },
     {
       "name": "DecorativeDivide",
@@ -778,7 +778,7 @@
           "src/main/resources/assets/hospitals/models/block/decorative_divide.json"
         ]
       },
-      "path": "~/Pharmacy"
+      "path": "~/Original Mod/Pharmacy"
     },
     {
       "name": "Ultrasound",
@@ -795,7 +795,7 @@
           "src/main/resources/assets/hospitals/blockstates/ultrasound.json"
         ]
       },
-      "path": "~/Radiology"
+      "path": "~/Original Mod/Radiology"
     },
     {
       "name": "XRayLight",
@@ -812,7 +812,7 @@
           "src/main/resources/assets/hospitals/models/item/x_ray_light.json"
         ]
       },
-      "path": "~/Radiology"
+      "path": "~/Original Mod/Radiology"
     },
     {
       "name": "XRAYLightBoxBlank",
@@ -829,7 +829,7 @@
           "src/main/resources/assets/hospitals/models/item/xray_light_box_blank.json"
         ]
       },
-      "path": "~/Radiology"
+      "path": "~/Original Mod/Radiology"
     },
     {
       "name": "XRAYLightBoxChest",
@@ -846,7 +846,7 @@
           "src/main/resources/data/hospitals/loot_tables/blocks/xray_light_box_chest.json"
         ]
       },
-      "path": "~/Radiology"
+      "path": "~/Original Mod/Radiology"
     },
     {
       "name": "XRAYLightBoxFeet",
@@ -863,7 +863,7 @@
           "src/main/resources/data/hospitals/loot_tables/blocks/xray_light_box_feet.json"
         ]
       },
-      "path": "~/Radiology"
+      "path": "~/Original Mod/Radiology"
     },
     {
       "name": "XRAYLightBoxHands",
@@ -880,7 +880,7 @@
           "src/main/resources/assets/hospitals/models/item/xray_light_box_hands.json"
         ]
       },
-      "path": "~/Radiology"
+      "path": "~/Original Mod/Radiology"
     },
     {
       "name": "XRAYLightBoxArms",
@@ -897,7 +897,7 @@
           "src/main/resources/assets/hospitals/blockstates/xray_light_box_arms.json"
         ]
       },
-      "path": "~/Radiology"
+      "path": "~/Original Mod/Radiology"
     },
     {
       "name": "XRAYLightBoxNeck",
@@ -914,7 +914,7 @@
           "src/main/resources/assets/hospitals/models/item/xray_light_box_neck.json"
         ]
       },
-      "path": "~/Radiology"
+      "path": "~/Original Mod/Radiology"
     },
     {
       "name": "XRayMachine",
@@ -931,7 +931,7 @@
           "src/main/resources/assets/hospitals/blockstates/x_ray_machine.json"
         ]
       },
-      "path": "~/Radiology"
+      "path": "~/Original Mod/Radiology"
     },
     {
       "name": "XRAYBuckyStand",
@@ -948,7 +948,7 @@
           "src/main/resources/assets/hospitals/blockstates/xray_bucky_stand.json"
         ]
       },
-      "path": "~/Radiology"
+      "path": "~/Original Mod/Radiology"
     },
     {
       "name": "ComputerCTScanViewer",
@@ -965,7 +965,7 @@
           "src/main/resources/data/hospitals/loot_tables/blocks/computer_ct_scan_viewer.json"
         ]
       },
-      "path": "~/Radiology"
+      "path": "~/Original Mod/Radiology"
     },
     {
       "name": "ComputerXRayViewer",
@@ -982,7 +982,7 @@
           "src/main/resources/assets/hospitals/blockstates/computer_x_ray_viewer.json"
         ]
       },
-      "path": "~/Radiology"
+      "path": "~/Original Mod/Radiology"
     },
     {
       "name": "ComputerScreen2CTScanViewer",
@@ -999,7 +999,7 @@
           "src/main/resources/assets/hospitals/models/block/computer_screen_2_ct_scan_viewer.json"
         ]
       },
-      "path": "~/Radiology"
+      "path": "~/Original Mod/Radiology"
     },
     {
       "name": "ComputerScreen2XRAYViewer",
@@ -1016,7 +1016,7 @@
           "src/main/resources/assets/hospitals/models/item/computer_screen_2_xray_viewer.json"
         ]
       },
-      "path": "~/Radiology"
+      "path": "~/Original Mod/Radiology"
     },
     {
       "name": "BedsideHeadUnit",
@@ -1033,7 +1033,7 @@
           "src/main/resources/assets/hospitals/models/block/bedside_head_unit.json"
         ]
       },
-      "path": "~/Ward"
+      "path": "~/Original Mod/Ward"
     },
     {
       "name": "WardStorageDrawers",
@@ -1050,7 +1050,7 @@
           "src/main/resources/assets/hospitals/blockstates/ward_storage_drawers.json"
         ]
       },
-      "path": "~/Ward"
+      "path": "~/Original Mod/Ward"
     },
     {
       "name": "FetalMonitoringWorkstation",
@@ -1067,7 +1067,7 @@
           "src/main/resources/assets/hospitals/models/item/fetal_monitoring_workstation.json"
         ]
       },
-      "path": "~/Ward"
+      "path": "~/Original Mod/Ward"
     },
     {
       "name": "HospitalBed",
@@ -1084,7 +1084,7 @@
           "src/main/resources/assets/hospitals/models/item/hospital_bed.json"
         ]
       },
-      "path": "~/Ward"
+      "path": "~/Original Mod/Ward"
     },
     {
       "name": "IVStand",
@@ -1101,7 +1101,7 @@
           "src/main/resources/assets/hospitals/models/block/iv_stand.json"
         ]
       },
-      "path": "~/Ward"
+      "path": "~/Original Mod/Ward"
     },
     {
       "name": "MedicalWorkstationCart",
@@ -1118,7 +1118,7 @@
           "src/main/java/net/derpymeow/hospitals/block/MedicalWorkstationCartBlock.java"
         ]
       },
-      "path": "~/Ward"
+      "path": "~/Original Mod/Ward"
     },
     {
       "name": "LifeSupportSyringePumps",
@@ -1135,7 +1135,7 @@
           "src/main/resources/assets/hospitals/blockstates/life_support_syringe_pumps.json"
         ]
       },
-      "path": "~/Ward"
+      "path": "~/Original Mod/Ward"
     },
     {
       "name": "HeartRateMonitor",
@@ -1152,7 +1152,7 @@
           "src/main/java/net/derpymeow/hospitals/block/HeartRateMonitorBlock.java"
         ]
       },
-      "path": "~/Ward"
+      "path": "~/Original Mod/Ward"
     },
     {
       "name": "WardResusTrolley",
@@ -1169,7 +1169,7 @@
           "src/main/java/net/derpymeow/hospitals/block/WardResusTrolleyBlock.java"
         ]
       },
-      "path": "~/Ward"
+      "path": "~/Original Mod/Ward"
     },
     {
       "name": "MedicalGasAlarmPanel",
@@ -1186,7 +1186,7 @@
           "src/main/resources/assets/hospitals/models/item/medical_gas_alarm_panel.json"
         ]
       },
-      "path": "~/Ward"
+      "path": "~/Original Mod/Ward"
     },
     {
       "name": "HandSanitiserDispenser",
@@ -1203,7 +1203,7 @@
           "src/main/resources/assets/hospitals/blockstates/hand_sanitiser_dispenser.json"
         ]
       },
-      "path": "~/Ward"
+      "path": "~/Original Mod/Ward"
     },
     {
       "name": "RackShelvingEmpty",
@@ -1220,7 +1220,7 @@
           "src/main/resources/assets/hospitals/blockstates/rack_shelving_empty.json"
         ]
       },
-      "path": "~/Ward"
+      "path": "~/Original Mod/Ward"
     },
     {
       "name": "RackShelvesLinen",
@@ -1237,7 +1237,7 @@
           "src/main/resources/assets/hospitals/models/block/rack_shelves_linen.json"
         ]
       },
-      "path": "~/Ward"
+      "path": "~/Original Mod/Ward"
     },
     {
       "name": "FireExitSignCeilingMounted",
@@ -1254,7 +1254,7 @@
           "src/main/resources/assets/hospitals/blockstates/fire_exit_sign_ceiling_mounted.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "FireExitSignWallMounted",
@@ -1271,7 +1271,7 @@
           "src/main/resources/assets/hospitals/models/item/fire_exit_sign_wall_mounted.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "FireExtinguisher",
@@ -1288,7 +1288,7 @@
           "src/main/resources/data/hospitals/loot_tables/blocks/fire_extinguisher.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "PatientInformaitonPoint",
@@ -1305,7 +1305,7 @@
           "src/main/resources/assets/hospitals/models/item/patient_informaiton_point.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "RollCageStorage",
@@ -1322,7 +1322,7 @@
           "src/main/resources/data/hospitals/loot_tables/blocks/roll_cage_storage.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "SuspendedCeiling",
@@ -1339,7 +1339,7 @@
           "src/main/resources/assets/hospitals/models/item/suspended_ceiling.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "VinylFloorBlueType1",
@@ -1356,7 +1356,7 @@
           "src/main/resources/assets/hospitals/models/block/vinyl_floor_blue_type_1.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "VinylFloorGreyType1",
@@ -1373,7 +1373,7 @@
           "src/main/java/net/derpymeow/hospitals/block/VinylFloorGreyType1Block.java"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "VinylFloorWhiteType1",
@@ -1390,7 +1390,7 @@
           "src/main/resources/assets/hospitals/models/block/vinyl_floor_white_type_1.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "VinylFloorLightBlueType1",
@@ -1407,7 +1407,7 @@
           "src/main/java/net/derpymeow/hospitals/block/VinylFloorLightBlueType1Block.java"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "VinylFloorGreenType1",
@@ -1424,7 +1424,7 @@
           "src/main/resources/assets/hospitals/blockstates/vinyl_floor_green_type_1.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "VinylFloorAquaType1",
@@ -1441,7 +1441,7 @@
           "src/main/resources/assets/hospitals/blockstates/vinyl_floor_aqua_type_1.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "VinylFloorRedType1",
@@ -1458,7 +1458,7 @@
           "src/main/resources/assets/hospitals/models/item/vinyl_floor_red_type_1.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "VinylWallBlueType1",
@@ -1475,7 +1475,7 @@
           "src/main/resources/assets/hospitals/models/item/vinyl_wall_blue_type_1.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "VinylWallGreyType1",
@@ -1492,7 +1492,7 @@
           "src/main/java/net/derpymeow/hospitals/block/VinylWallGreyType1Block.java"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "VinylWallWhiteType1",
@@ -1509,7 +1509,7 @@
           "src/main/java/net/derpymeow/hospitals/block/VinylWallWhiteType1Block.java"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "VinylWallLightBlueType1",
@@ -1526,7 +1526,7 @@
           "src/main/resources/assets/hospitals/models/item/vinyl_wall_light_blue_type_1.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "VinylWallGreenType1",
@@ -1543,7 +1543,7 @@
           "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_wall_green_type_1.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "VinylWallAquaType1",
@@ -1560,7 +1560,7 @@
           "src/main/resources/assets/hospitals/models/item/vinyl_wall_aqua_type_1.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "VinylWallRedType1",
@@ -1577,7 +1577,7 @@
           "src/main/resources/assets/hospitals/models/item/vinyl_wall_red_type_1.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "VinylFloorBlueType2",
@@ -1594,7 +1594,7 @@
           "src/main/resources/assets/hospitals/models/item/vinyl_floor_blue_type_2.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "VinylFloorBeigeType2",
@@ -1611,7 +1611,7 @@
           "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_floor_beige_type_2.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "VinylFloorGreyType2",
@@ -1628,7 +1628,7 @@
           "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_floor_grey_type_2.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "VinylFloorAquaType2",
@@ -1645,7 +1645,7 @@
           "src/main/java/net/derpymeow/hospitals/block/VinylFloorAquaType2Block.java"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "VinylFloorSalmonType2",
@@ -1662,7 +1662,7 @@
           "src/main/resources/assets/hospitals/blockstates/vinyl_floor_salmon_type_2.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "VinylWallBlueType2",
@@ -1679,7 +1679,7 @@
           "src/main/resources/assets/hospitals/models/block/vinyl_wall_blue_type_2.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "VinylWallBeigeType2",
@@ -1696,7 +1696,7 @@
           "src/main/resources/assets/hospitals/blockstates/vinyl_wall_beige_type_2.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "VinylWallGreyType2",
@@ -1713,7 +1713,7 @@
           "src/main/resources/assets/hospitals/models/block/vinyl_wall_grey_type_2.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "VinylWallAquaType2",
@@ -1730,7 +1730,7 @@
           "src/main/resources/assets/hospitals/blockstates/vinyl_wall_aqua_type_2.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "VinylWallSalmonType2",
@@ -1747,7 +1747,7 @@
           "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_wall_salmon_type_2.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "BrickBeige",
@@ -1764,7 +1764,7 @@
           "src/main/resources/assets/hospitals/models/block/brick_beige.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "BrickGrey",
@@ -1781,7 +1781,7 @@
           "src/main/resources/data/hospitals/loot_tables/blocks/brick_grey.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "BrickDark",
@@ -1798,7 +1798,7 @@
           "src/main/resources/assets/hospitals/models/block/brick_dark.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "BrickRed",
@@ -1815,7 +1815,7 @@
           "src/main/resources/assets/hospitals/models/item/brick_red.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "SmoothConcrete",
@@ -1832,7 +1832,7 @@
           "src/main/java/net/derpymeow/hospitals/block/SmoothConcreteBlock.java"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "PlasteredWallBeige",
@@ -1849,7 +1849,7 @@
           "src/main/resources/assets/hospitals/blockstates/plastered_wall_beige.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "PlasteredWallBlue",
@@ -1866,7 +1866,7 @@
           "src/main/resources/assets/hospitals/blockstates/plastered_wall_blue.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "PlasteredWallGreen",
@@ -1883,7 +1883,7 @@
           "src/main/resources/data/hospitals/loot_tables/blocks/plastered_wall_green.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "PlasteredWallGrey",
@@ -1900,7 +1900,7 @@
           "src/main/resources/assets/hospitals/blockstates/plastered_wall_grey.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "PlasteredWallLime",
@@ -1917,7 +1917,7 @@
           "src/main/resources/assets/hospitals/models/block/plastered_wall_lime.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "PlasteredWallSkyBlue",
@@ -1934,7 +1934,7 @@
           "src/main/java/net/derpymeow/hospitals/block/PlasteredWallSkyBlueBlock.java"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "PlasteredWallWhite",
@@ -1951,7 +1951,7 @@
           "src/main/resources/assets/hospitals/models/item/plastered_wall_white.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "Ventilation",
@@ -1968,7 +1968,7 @@
           "src/main/resources/assets/hospitals/blockstates/ventilation.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "CardboardBox",
@@ -1985,7 +1985,7 @@
           "src/main/resources/assets/hospitals/blockstates/cardboard_box.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "VinylFloorGrey",
@@ -2002,7 +2002,7 @@
           "src/main/resources/assets/hospitals/models/block/vinyl_floor_grey.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "CladdingStoneEffect",
@@ -2019,7 +2019,7 @@
           "src/main/resources/data/hospitals/loot_tables/blocks/cladding_stone_effect.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "BlueDeskTray",
@@ -2036,7 +2036,7 @@
           "src/main/resources/assets/hospitals/models/block/blue_desk_tray.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "RedDeskTray",
@@ -2053,7 +2053,7 @@
           "src/main/java/net/derpymeow/hospitals/block/RedDeskTrayBlock.java"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "DrinksFridge",
@@ -2070,7 +2070,7 @@
           "src/main/resources/assets/hospitals/blockstates/drinks_fridge.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "CleaningTrolley",
@@ -2087,7 +2087,7 @@
           "src/main/resources/assets/hospitals/models/block/cleaning_trolley.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "WetFloorSign",
@@ -2104,7 +2104,7 @@
           "src/main/resources/assets/hospitals/models/item/wet_floor_sign.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "OfficeWallPhone",
@@ -2121,7 +2121,7 @@
           "src/main/resources/data/hospitals/loot_tables/blocks/office_wall_phone.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "OfficeDeskPhone",
@@ -2138,7 +2138,7 @@
           "src/main/resources/data/hospitals/loot_tables/blocks/office_desk_phone.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "OfficePrinter",
@@ -2155,7 +2155,7 @@
           "src/main/java/net/derpymeow/hospitals/block/OfficePrinterBlock.java"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "OfficeDesk",
@@ -2172,7 +2172,7 @@
           "src/main/resources/assets/hospitals/blockstates/office_desk.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "OfficeDeskWithBack",
@@ -2189,7 +2189,7 @@
           "src/main/resources/data/hospitals/loot_tables/blocks/office_desk_with_back.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "WasteBinDomesticWaste",
@@ -2206,7 +2206,7 @@
           "src/main/resources/assets/hospitals/models/block/waste_bin_domestic_waste.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "WasteBinClinicalWaste",
@@ -2223,7 +2223,7 @@
           "src/main/resources/assets/hospitals/models/block/waste_bin_clinical_waste.json"
         ]
       },
-      "path": "~/Facilities"
+      "path": "~/Original Mod/Facilities"
     },
     {
       "name": "Pill",
@@ -4405,15 +4405,15 @@
       "item.hospitals.pill_bottle_8": "Diphenhydramine Pill Bottle",
       "item.hospitals.pill_14.description_3": "Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_14.description_2": "",
-      "block.hospitals.hospital_bed": "Hospital Bed",
-      "item.hospitals.pill_bottle_5": "Dextromethorphan Pill Bottle",
       "item.hospitals.pill_14.description_1": "Effect: Nothing",
+      "item.hospitals.pill_bottle_5": "Dextromethorphan Pill Bottle",
+      "block.hospitals.hospital_bed": "Hospital Bed",
       "item.hospitals.pill_14.description_0": "",
       "block.hospitals.computer_ct_scan_viewer": "Computer (CT Scan Viewer)",
       "item.hospitals.pill_7.description_0": "",
       "item.hospitals.pill_24.description_1": "Effect: Nothing",
-      "item.hospitals.pill_24.description_2": "",
       "item.hospitals.pill_7.description_1": "Effect: Nothing",
+      "item.hospitals.pill_24.description_2": "",
       "item.hospitals.pill_7.description_2": "",
       "item.hospitals.pill_24.description_3": "Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_bottle_35.description_0": "",
@@ -4435,8 +4435,8 @@
       "item.hospitals.pillbottle_21.description_0": "",
       "block.hospitals.vinyl_wall_beige_type_2": "Vinyl Wall - Beige (Type 2)",
       "item.hospitals.pill_bottle_16.description_1": "Right Click To Open",
-      "item.hospitals.pill_33.description_3": "Pills Can Be Used To Fill Pill Bottles",
       "block.hospitals.xray_light_box_feet": "X-RAY Light Box (Feet)",
+      "item.hospitals.pill_33.description_3": "Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_33.description_2": "",
       "item.hospitals.pill_bottle_16.description_0": "",
       "item.hospitals.pill_33.description_1": "Effect: Nothing",
@@ -4454,8 +4454,8 @@
       "block.hospitals.wall_storage_tubs_yellow": "Wall Storage Tubs (Yellow)",
       "item.hospitals.pill_bottle_25.description_0": "",
       "item.hospitals.pill_34.description_2": "",
-      "item.hospitals.pill_34.description_3": "Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_bottle_25.description_1": "Right Click To Open",
+      "item.hospitals.pill_34.description_3": "Pills Can Be Used To Fill Pill Bottles",
       "block.hospitals.medical_gas_ceiling_mounted": "Medical Gas (Ceiling Mounted)",
       "block.hospitals.fire_exit_sign_ceiling_mounted": "Fire Exit Sign (Ceiling Mounted)",
       "item.hospitals.pill_34.description_0": "",
@@ -4485,12 +4485,12 @@
       "item.hospitals.pill_22.description_1": "Effect: Nothing",
       "item.hospitals.pill_22.description_2": "",
       "item.hospitals.pill_bottle_26.description_0": "",
-      "item.hospitals.pill_bottle_26.description_1": "Right Click To Open",
       "item.hospitals.pill_22.description_0": "",
+      "item.hospitals.pill_bottle_26.description_1": "Right Click To Open",
       "item.hospitals.nurse_spawn_egg": "Nurse Spawn Egg",
       "item.hospitals.pill_22.description_3": "Pills Can Be Used To Fill Pill Bottles",
-      "block.hospitals.vinyl_floor_blue_type_2": "Vinyl Floor - Blue (Type 2)",
       "block.hospitals.office_desk_phone": "Office Desk Phone",
+      "block.hospitals.vinyl_floor_blue_type_2": "Vinyl Floor - Blue (Type 2)",
       "item.hospitals.scrubs_chestplate": "Scrubs (Top)",
       "item.hospitals.pill_bottle_27.description_1": "Right Click To Open",
       "item.hospitals.pill_bottle_27.description_0": "",
@@ -4504,8 +4504,8 @@
       "item.hospitals.pill_17.description_2": "",
       "item.hospitals.pill_17.description_1": "Effect: Nothing",
       "item.hospitals.pill_12.description_0": "",
-      "item.hospitals.pill_17.description_3": "Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_12.description_1": "Effect: Nothing",
+      "item.hospitals.pill_17.description_3": "Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_12.description_2": "",
       "item.hospitals.pill_12.description_3": "Pills Can Be Used To Fill Pill Bottles",
       "block.hospitals.pharmacy_counter_stocked": "Pharmacy Counter (Stocked)",
@@ -4896,26 +4896,6 @@
         "children": []
       },
       {
-        "name": "Theatres",
-        "children": []
-      },
-      {
-        "name": "Pharmacy",
-        "children": []
-      },
-      {
-        "name": "Radiology",
-        "children": []
-      },
-      {
-        "name": "Ward",
-        "children": []
-      },
-      {
-        "name": "Facilities",
-        "children": []
-      },
-      {
         "name": "Hospitals",
         "children": [
           {
@@ -4935,6 +4915,31 @@
                 ]
               }
             ]
+          }
+        ]
+      },
+      {
+        "name": "Original Mod",
+        "children": [
+          {
+            "name": "Theatres",
+            "children": []
+          },
+          {
+            "name": "Pharmacy",
+            "children": []
+          },
+          {
+            "name": "Radiology",
+            "children": []
+          },
+          {
+            "name": "Ward",
+            "children": []
+          },
+          {
+            "name": "Facilities",
+            "children": []
           }
         ]
       }
