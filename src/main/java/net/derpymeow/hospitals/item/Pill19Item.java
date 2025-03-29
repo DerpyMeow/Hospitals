@@ -7,7 +7,10 @@ import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.network.chat.Component;
+
+import net.derpymeow.hospitals.procedures.Pill19ateProcedure;
 
 import java.util.List;
 
@@ -23,5 +26,15 @@ public class Pill19Item extends Item {
 		list.add(Component.translatable("item.hospitals.pill_19.description_1"));
 		list.add(Component.translatable("item.hospitals.pill_19.description_2"));
 		list.add(Component.translatable("item.hospitals.pill_19.description_3"));
+	}
+
+	@Override
+	public ItemStack finishUsingItem(ItemStack itemstack, Level world, LivingEntity entity) {
+		ItemStack retval = super.finishUsingItem(itemstack, world, entity);
+		double x = entity.getX();
+		double y = entity.getY();
+		double z = entity.getZ();
+		Pill19ateProcedure.execute(entity);
+		return retval;
 	}
 }

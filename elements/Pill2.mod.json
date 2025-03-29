@@ -33,7 +33,7 @@
         "",
         "-Use: Pain Relief",
         "-Effect: Instant Health, Strength",
-        "Pills Can Be Used To Fill Pill Bottles"
+        "-Pills Can Be Used To Fill Pill Bottles"
       ]
     },
     "glowCondition": {
