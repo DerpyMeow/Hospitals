@@ -31,9 +31,9 @@
     "specialInformation": {
       "fixedValue": [
         "",
-        "Effect: Nothing",
-        "",
-        "Pills Can Be Used To Fill Pill Bottles"
+        "-Use: Schizophrenia / Bipolar Treatment",
+        "-Effect: Hunger, Fire Resistance, Water Breathing",
+        "-Pills Can Be Used To Fill Pill Bottles"
       ]
     },
     "glowCondition": {
@@ -41,6 +41,9 @@
     },
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "Pill30ate"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,

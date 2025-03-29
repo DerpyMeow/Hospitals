@@ -31,9 +31,9 @@
     "specialInformation": {
       "fixedValue": [
         "",
-        "Effect: Nothing",
-        "",
-        "Pills Can Be Used To Fill Pill Bottles"
+        "-Use: ADHD Treatment",
+        "-Effect: Nausea, Saturation, Glowing",
+        "-Pills Can Be Used To Fill Pill Bottles"
       ]
     },
     "glowCondition": {
@@ -41,6 +41,9 @@
     },
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "Pill29ate"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
