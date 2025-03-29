@@ -41,6 +41,9 @@
     },
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "Pill8ate"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
