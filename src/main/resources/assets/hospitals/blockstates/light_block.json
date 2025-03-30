@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/light_block"
+    },
+    "facing=east": {
+      "model": "hospitals:block/light_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/light_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/light_block",
+      "y": 270
+    }
+  }
+}

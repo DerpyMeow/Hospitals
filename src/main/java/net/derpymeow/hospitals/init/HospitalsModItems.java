@@ -333,6 +333,7 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> PILL_BOTTLE_43 = REGISTRY.register("pill_bottle_43", () -> new PillBottle43Item());
 	public static final RegistryObject<Item> SMALL_MEDKIT = REGISTRY.register("small_medkit", () -> new SmallMedkitItem());
 	public static final RegistryObject<Item> LARGEMEDKIT = REGISTRY.register("largemedkit", () -> new LargemedkitItem());
+	public static final RegistryObject<Item> LIGHT_BLOCK = block(HospitalsModBlocks.LIGHT_BLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

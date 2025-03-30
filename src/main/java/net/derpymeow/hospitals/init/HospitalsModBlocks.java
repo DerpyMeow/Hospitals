@@ -104,6 +104,7 @@ import net.derpymeow.hospitals.block.MedicalWorkstationCartBlock;
 import net.derpymeow.hospitals.block.MedicalGasCeilingMountedBlock;
 import net.derpymeow.hospitals.block.MedicalGasAlarmPanelBlock;
 import net.derpymeow.hospitals.block.MedicalCrossBlock;
+import net.derpymeow.hospitals.block.LightBlockBlock;
 import net.derpymeow.hospitals.block.LifeSupportSyringePumpsBlock;
 import net.derpymeow.hospitals.block.LaboratoryFridgeBlock;
 import net.derpymeow.hospitals.block.IlluminatedPharmacySignBlock;
@@ -268,6 +269,7 @@ public class HospitalsModBlocks {
 	public static final RegistryObject<Block> OFFICE_DESK_WITH_BACK = REGISTRY.register("office_desk_with_back", () -> new OfficeDeskWithBackBlock());
 	public static final RegistryObject<Block> WASTE_BIN_DOMESTIC_WASTE = REGISTRY.register("waste_bin_domestic_waste", () -> new WasteBinDomesticWasteBlock());
 	public static final RegistryObject<Block> WASTE_BIN_CLINICAL_WASTE = REGISTRY.register("waste_bin_clinical_waste", () -> new WasteBinClinicalWasteBlock());
+	public static final RegistryObject<Block> LIGHT_BLOCK = REGISTRY.register("light_block", () -> new LightBlockBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
