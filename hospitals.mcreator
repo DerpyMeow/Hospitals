@@ -4940,6 +4940,72 @@
         ]
       },
       "path": "~/Hospitals/Pills/Pills/Ate Procedures"
+    },
+    {
+      "name": "SmallMedkit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_medkit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/small_medkit.json",
+          "src/main/java/net/derpymeow/hospitals/item/SmallMedkitItem.java"
+        ]
+      },
+      "path": "~/Hospitals"
+    },
+    {
+      "name": "SmallMedkitRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_medkit_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/SmallMedkitRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals"
+    },
+    {
+      "name": "Largemedkit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "largemedkit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/LargemedkitItem.java",
+          "src/main/resources/assets/hospitals/models/item/largemedkit.json"
+        ]
+      },
+      "path": "~/Hospitals"
+    },
+    {
+      "name": "LargeMedkitRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_medkit_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/LargeMedkitRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals"
     }
   ],
   "variable_elements": [],
@@ -5110,7 +5176,9 @@
       "MedicalCross",
       "Scrubs",
       "Nurse",
-      "Doctor"
+      "Doctor",
+      "SmallMedkit",
+      "Largemedkit"
     ],
     "CUSTOM:Hospitalspills": [
       "Pill",
@@ -5281,6 +5349,8 @@
       "item.hospitals.pillbottle_20.description_0": "",
       "block.hospitals.medical_cross": "Medical Cross",
       "item.hospitals.pillbottle_20.description_1": "Right Click To Open",
+      "item.hospitals.largemedkit.description_0": "",
+      "item.hospitals.largemedkit.description_1": "Heals 8 Hearts",
       "item.hospitals.pill_25.description_0": "",
       "item.hospitals.pill_25.description_1": "-Use: Anxiety",
       "item.hospitals.pill_25.description_2": "-Effect: Slowness, Luck, Resistance",
@@ -5437,8 +5507,10 @@
       "item.hospitals.pill_29.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_29.description_2": "-Effect: Nausea, Saturation, Glowing",
       "block.hospitals.vinyl_wall_blue_type_1": "Vinyl Wall - Grey (Type 1)",
+      "item.hospitals.small_medkit.description_1": "Heals 4 Hearts",
       "block.hospitals.vinyl_wall_blue_type_2": "Vinyl Wall - Blue (Type 2)",
       "item.hospitals.pillbottle_9": "Linagliptin Pill Bottle",
+      "item.hospitals.small_medkit.description_0": "",
       "item.hospitals.pillbottle_7": "Bismuth subsalicylate Pill Bottle",
       "item.hospitals.pillbottle_6": "Pseudoephedrine Pill Bottle",
       "item.hospitals.pillbottle_4": "Loratadine Pill Bottle",
@@ -5454,6 +5526,7 @@
       "item.hospitals.pill_28.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_28.description_1": "-Use: Depression Treatment",
       "item.hospitals.pill_28.description_2": "-Effect: Blindness, Unluck, Instant Harming, Speed, Jump Boost, Haste",
+      "item.hospitals.small_medkit": "Small Medkit",
       "item.hospitals.pill_28.description_0": "",
       "block.hospitals.hand_sanitiser_dispenser": "Hand Sanitiser Dispenser",
       "item.hospitals.pill_bottle_30.description_0": "",
@@ -5603,6 +5676,7 @@
       "item.hospitals.pill_31.description_2": "-Effect: Night Vision",
       "item.hospitals.pill_4.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_31.description_3": "-Pills Can Be Used To Fill Pill Bottles",
+      "item.hospitals.largemedkit": "Large Medkit",
       "block.hospitals.life_support_syringe_pumps": "Life Support/Syringe Pumps",
       "item.hospitals.pill_bottle_40": "Vitamin B6 (pyridoxine) Pill Bottle",
       "item.hospitals.pill_6.description_0": "",

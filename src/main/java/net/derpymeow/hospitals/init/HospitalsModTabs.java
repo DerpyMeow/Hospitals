@@ -166,6 +166,8 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModItems.SCRUBS_BOOTS.get());
 				tabData.accept(HospitalsModItems.NURSE_SPAWN_EGG.get());
 				tabData.accept(HospitalsModItems.DOCTOR_SPAWN_EGG.get());
+				tabData.accept(HospitalsModItems.SMALL_MEDKIT.get());
+				tabData.accept(HospitalsModItems.LARGEMEDKIT.get());
 			}).withSearchBar().withTabsBefore(FACILITIES_THM.getId()).build());
 	public static final RegistryObject<CreativeModeTab> HOSPITALSPILLS = REGISTRY.register("hospitalspills",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.hospitalspills")).icon(() -> new ItemStack(HospitalsModItems.PILL.get())).displayItems((parameters, tabData) -> {

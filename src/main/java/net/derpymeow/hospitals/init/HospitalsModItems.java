@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.derpymeow.hospitals.item.SmallMedkitItem;
 import net.derpymeow.hospitals.item.ScrubsItem;
 import net.derpymeow.hospitals.item.PillbottleemptyItem;
 import net.derpymeow.hospitals.item.Pillbottle9Item;
@@ -103,6 +104,7 @@ import net.derpymeow.hospitals.item.Pill13Item;
 import net.derpymeow.hospitals.item.Pill12Item;
 import net.derpymeow.hospitals.item.Pill11Item;
 import net.derpymeow.hospitals.item.Pill10Item;
+import net.derpymeow.hospitals.item.LargemedkitItem;
 import net.derpymeow.hospitals.HospitalsMod;
 
 public class HospitalsModItems {
@@ -329,6 +331,8 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> PILL_BOTTLE_41 = REGISTRY.register("pill_bottle_41", () -> new PillBottle41Item());
 	public static final RegistryObject<Item> PILL_BOTTLE_42 = REGISTRY.register("pill_bottle_42", () -> new PillBottle42Item());
 	public static final RegistryObject<Item> PILL_BOTTLE_43 = REGISTRY.register("pill_bottle_43", () -> new PillBottle43Item());
+	public static final RegistryObject<Item> SMALL_MEDKIT = REGISTRY.register("small_medkit", () -> new SmallMedkitItem());
+	public static final RegistryObject<Item> LARGEMEDKIT = REGISTRY.register("largemedkit", () -> new LargemedkitItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
