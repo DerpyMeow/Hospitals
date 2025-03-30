@@ -17,6 +17,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.derpymeow.hospitals.init.HospitalsModVillagerProfessions;
 import net.derpymeow.hospitals.init.HospitalsModTabs;
 import net.derpymeow.hospitals.init.HospitalsModItems;
 import net.derpymeow.hospitals.init.HospitalsModEntities;
@@ -48,6 +49,8 @@ public class HospitalsMod {
 		HospitalsModEntities.REGISTRY.register(bus);
 
 		HospitalsModTabs.REGISTRY.register(bus);
+
+		HospitalsModVillagerProfessions.PROFESSIONS.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

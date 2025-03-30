@@ -19,7 +19,7 @@ public class CardboardBoxBlock extends Block {
 	public static final DirectionProperty FACING = DirectionalBlock.FACING;
 
 	public CardboardBoxBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.GRAVEL).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(1f, 10f));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 

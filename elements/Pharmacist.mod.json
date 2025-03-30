@@ -1,0 +1,16 @@
+{
+  "_fv": 73,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Pharmacist",
+    "pointOfInterest": {
+      "value": "CUSTOM:EPOSCashierSystem"
+    },
+    "actionSound": {
+      "value": "entity.villager.celebrate"
+    },
+    "hat": "Partial",
+    "professionTextureFile": "villager-planetminecraft-com-13582918.png",
+    "zombifiedProfessionTextureFile": "villager-planetminecraft-com-13582918.png"
+  }
+}
