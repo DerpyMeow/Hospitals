@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "item": "hospitals:computer_chip"
+    },
+    "b": {
+      "item": "hospitals:computer"
+    }
+  },
+  "result": {
+    "item": "hospitals:computer_ct_scan_viewer",
+    "count": 1
+  }
+}

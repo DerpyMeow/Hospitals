@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "hospitals:illuminated_pharmacy_sign"
+    },
+    "b": {
+      "item": "hospitals:pharmacy_counter"
+    }
+  },
+  "result": {
+    "item": "hospitals:pharmacy_counterwith_logo",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:glowstone"
+    },
+    "b": {
+      "item": "hospitals:stainless_steel"
+    }
+  },
+  "result": {
+    "item": "hospitals:xray_light_box_blank",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "hospitals:stainless_steel"
+    },
+    "b": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "item": "hospitals:prescription_basket_empty",
+    "count": 1
+  }
+}

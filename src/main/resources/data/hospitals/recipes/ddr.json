@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bab",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:planks"
+    },
+    "b": {
+      "item": "hospitals:stainless_steel"
+    }
+  },
+  "result": {
+    "item": "hospitals:decorative_divide",
+    "count": 1
+  }
+}

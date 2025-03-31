@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:paper"
+    },
+    "b": {
+      "item": "hospitals:prescription_basket_empty"
+    }
+  },
+  "result": {
+    "item": "hospitals:prescription_basket",
+    "count": 1
+  }
+}

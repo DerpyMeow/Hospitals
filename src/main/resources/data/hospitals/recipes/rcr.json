@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "hospitals:stainless_steel"
+    },
+    "b": {
+      "item": "hospitals:computer_chip"
+    }
+  },
+  "result": {
+    "item": "hospitals:refridgerated_centrifuge",
+    "count": 1
+  }
+}

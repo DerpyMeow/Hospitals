@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "hospitals:stainless_steel"
+    },
+    "b": {
+      "item": "hospitals:worktop"
+    }
+  },
+  "result": {
+    "item": "hospitals:worktop_with_shelf",
+    "count": 1
+  }
+}

@@ -5473,6 +5473,383 @@
         ]
       },
       "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Rcr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/rcr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Wwsr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wwsr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/wwsr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Wtr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wtr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/wtr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Lfr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lfr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/lfr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Cfmr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cfmr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/cfmr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Bfmr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bfmr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/bfmr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Mdr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mdr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/mdr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Psr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "psr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/psr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Posr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "posr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/posr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Bsr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bsr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/bsr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Bsfr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bsfr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/bsfr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Pcsr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pcsr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/pcsr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Scpr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scpr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/scpr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Scplr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scplr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/scplr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Ddr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ddr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/ddr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Rusr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rusr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/rusr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Xrlbr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xrlbr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/xrlbr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Lbr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lbr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/lbr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Xrcr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xrcr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/xrcr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Xrfr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xrfr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/xrfr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Xrhr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xrhr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/xrhr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Xrar",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xrar",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/xrar.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Xrnr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xrnr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/xrnr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Xbr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xbr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/xbr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Xbsr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xbsr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/xbsr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Cxr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cxr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/cxr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Xxr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xxr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/xxr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Twocxr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twocxr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/twocxr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Twoxxr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twoxxr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/twoxxr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
     }
   ],
   "variable_elements": [],
