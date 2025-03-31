@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "hospitals:cardboard_box"
+    },
+    "b": {
+      "item": "hospitals:store_shelf_empty"
+    }
+  },
+  "result": {
+    "item": "hospitals:store_shelf_stocked",
+    "count": 1
+  }
+}

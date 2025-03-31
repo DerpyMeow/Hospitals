@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:StainlessSteel"
+      },
+      {
+        "value": "CUSTOM:BlockOfStainlessSteel"
+      },
+      {
+        "value": "CUSTOM:StainlessSteel"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlockOfStainlessSteel"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:StainlessSteel"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:StainlessSteel"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SterileWorkCounterWithShelf"
+    },
+    "name": "swtwsr",
+    "namespace": "mod"
+  }
+}

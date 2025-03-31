@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "hospitals:stainless_steel"
+    },
+    "b": {
+      "item": "hospitals:block_of_stainless_steel"
+    }
+  },
+  "result": {
+    "item": "hospitals:store_shelf_empty",
+    "count": 1
+  }
+}

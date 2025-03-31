@@ -5265,6 +5265,214 @@
         ]
       },
       "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Ssr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ssr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/ssr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Rstr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rstr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/rstr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Ystr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ystr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/ystr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Slr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/slr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Str",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "str",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/str.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Stwtr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stwtr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/stwtr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Swtwsr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swtwsr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/swtwsr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Swsr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swsr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/swsr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Orcr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orcr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/orcr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Sir",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sir",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/sir.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Smhr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smhr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/smhr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Pipsr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pipsr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/pipsr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Psser",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "psser",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/psser.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Psssr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "psssr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/psssr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Pcir",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pcir",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/pcir.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Pabr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pabr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/pabr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
     }
   ],
   "variable_elements": [],
@@ -5546,8 +5754,8 @@
       "item.hospitals.pill_42.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_42.description_0": "",
       "item.hospitals.pillbottle_12.description_1": "Right Click To Open",
-      "block.hospitals.xray_light_box_arms": "X-RAY Light Box (Arms)",
       "item.hospitals.pillbottle_12.description_0": "",
+      "block.hospitals.xray_light_box_arms": "X-RAY Light Box (Arms)",
       "item.hospitals.computer_chip.description_0": "",
       "item.hospitals.pillbottle_3.description_0": "",
       "item.hospitals.pillbottle_3.description_1": "Right Click To Open",
@@ -5556,15 +5764,15 @@
       "item.hospitals.pill_bottle_8": "Diphenhydramine Pill Bottle",
       "item.hospitals.pill_14.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_14.description_2": "-Effect: Blindness, Nausea, Speed, Jump Boost",
-      "item.hospitals.pill_14.description_1": "-Use: High Blood Pressure",
-      "item.hospitals.pill_bottle_5": "Dextromethorphan Pill Bottle",
       "block.hospitals.hospital_bed": "Hospital Bed",
+      "item.hospitals.pill_bottle_5": "Dextromethorphan Pill Bottle",
+      "item.hospitals.pill_14.description_1": "-Use: High Blood Pressure",
       "item.hospitals.pill_14.description_0": "",
       "block.hospitals.computer_ct_scan_viewer": "Computer (CT Scan Viewer)",
       "item.hospitals.pill_7.description_0": "",
       "item.hospitals.pill_24.description_1": "-Use: OCD/PTSD Treatment",
-      "item.hospitals.pill_7.description_1": "-Use: Diarrhea, Heartburn",
       "item.hospitals.pill_24.description_2": "-Effect: Nausea, Weakness, Haste",
+      "item.hospitals.pill_7.description_1": "-Use: Diarrhea, Heartburn",
       "item.hospitals.pill_7.description_2": "-Effect: Nausea (severe), Speed, Jumpboost",
       "item.hospitals.pill_24.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_bottle_35.description_0": "",
@@ -5585,10 +5793,10 @@
       "item.hospitals.pillbottleempty.description_0": "",
       "item.hospitals.pillbottle_21.description_1": "Right Click To Open",
       "item.hospitals.pillbottle_21.description_0": "",
-      "block.hospitals.vinyl_wall_beige_type_2": "Vinyl Wall - Beige (Type 2)",
       "item.hospitals.pill_bottle_16.description_1": "Right Click To Open",
-      "block.hospitals.xray_light_box_feet": "X-RAY Light Box (Feet)",
+      "block.hospitals.vinyl_wall_beige_type_2": "Vinyl Wall - Beige (Type 2)",
       "item.hospitals.pill_33.description_3": "-Pills Can Be Used To Fill Pill Bottles",
+      "block.hospitals.xray_light_box_feet": "X-RAY Light Box (Feet)",
       "item.hospitals.pill_33.description_2": "-Effect: Regeneration",
       "item.hospitals.pill_bottle_16.description_0": "",
       "item.hospitals.pill_33.description_1": "-Use: Regulates Calcium ",
@@ -5606,8 +5814,8 @@
       "block.hospitals.wall_storage_tubs_yellow": "Wall Storage Tubs (Yellow)",
       "item.hospitals.pill_bottle_25.description_0": "",
       "item.hospitals.pill_34.description_2": "-Effect: Regeneration, Health Boost",
-      "item.hospitals.pill_bottle_25.description_1": "Right Click To Open",
       "item.hospitals.pill_34.description_3": "-Pills Can Be Used To Fill Pill Bottles",
+      "item.hospitals.pill_bottle_25.description_1": "Right Click To Open",
       "block.hospitals.medical_gas_ceiling_mounted": "Medical Gas (Ceiling Mounted)",
       "item.hospitals.unprocessed_steel.description_0": "",
       "block.hospitals.fire_exit_sign_ceiling_mounted": "Fire Exit Sign (Ceiling Mounted)",
@@ -5641,12 +5849,12 @@
       "item.hospitals.pill_22.description_1": "-Use: Pain Relief",
       "item.hospitals.pill_22.description_2": "-Effect: Nausea (strong), Slowness (strong), Blindness (strong), Weakness (strong), Regeneration (strong), Health Boost (strong), Saturation (strong)",
       "item.hospitals.pill_bottle_26.description_0": "",
-      "item.hospitals.pill_22.description_0": "",
       "item.hospitals.pill_bottle_26.description_1": "Right Click To Open",
+      "item.hospitals.pill_22.description_0": "",
       "item.hospitals.nurse_spawn_egg": "Nurse Spawn Egg",
       "item.hospitals.pill_22.description_3": "-Pills Can Be Used To Fill Pill Bottles",
-      "block.hospitals.office_desk_phone": "Office Desk Phone",
       "block.hospitals.vinyl_floor_blue_type_2": "Vinyl Floor - Blue (Type 2)",
+      "block.hospitals.office_desk_phone": "Office Desk Phone",
       "item.hospitals.scrubs_chestplate": "Scrubs (Top)",
       "item.hospitals.pill_bottle_27.description_1": "Right Click To Open",
       "item.hospitals.stainless_steel.description_0": "",
@@ -5662,8 +5870,8 @@
       "item.hospitals.pill_17.description_2": "-Effect: Nausea (strong), Speed, Jump Boost, Haste (strong), Weakness",
       "item.hospitals.pill_17.description_1": "-Use: Hypothyroidism",
       "item.hospitals.pill_12.description_0": "",
-      "item.hospitals.pill_12.description_1": "-Use: Antibiotic",
       "item.hospitals.pill_17.description_3": "-Pills Can Be Used To Fill Pill Bottles",
+      "item.hospitals.pill_12.description_1": "-Use: Antibiotic",
       "item.hospitals.pill_12.description_2": "-Effect: Slowness, Instant Health",
       "item.hospitals.pill_12.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "block.hospitals.pharmacy_counter_stocked": "Pharmacy Counter (Stocked)",
