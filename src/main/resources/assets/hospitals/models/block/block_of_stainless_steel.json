@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hospitals:block/stainlesssteeltx",
+    "up": "hospitals:block/stainlesssteeltx",
+    "north": "hospitals:block/stainlesssteeltx",
+    "east": "hospitals:block/stainlesssteeltx",
+    "south": "hospitals:block/stainlesssteeltx",
+    "west": "hospitals:block/stainlesssteeltx",
+    "particle": "hospitals:block/stainlesssteeltx"
+  },
+  "render_type": "solid"
+}

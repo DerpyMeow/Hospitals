@@ -13,6 +13,8 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.derpymeow.hospitals.item.UnprocessedSteelItem;
+import net.derpymeow.hospitals.item.StainlessSteelItem;
 import net.derpymeow.hospitals.item.SmallMedkitItem;
 import net.derpymeow.hospitals.item.ScrubsItem;
 import net.derpymeow.hospitals.item.PillbottleemptyItem;
@@ -105,6 +107,8 @@ import net.derpymeow.hospitals.item.Pill12Item;
 import net.derpymeow.hospitals.item.Pill11Item;
 import net.derpymeow.hospitals.item.Pill10Item;
 import net.derpymeow.hospitals.item.LargemedkitItem;
+import net.derpymeow.hospitals.item.ComputerItem;
+import net.derpymeow.hospitals.item.ComputerChipItem;
 import net.derpymeow.hospitals.HospitalsMod;
 
 public class HospitalsModItems {
@@ -334,6 +338,11 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> SMALL_MEDKIT = REGISTRY.register("small_medkit", () -> new SmallMedkitItem());
 	public static final RegistryObject<Item> LARGEMEDKIT = REGISTRY.register("largemedkit", () -> new LargemedkitItem());
 	public static final RegistryObject<Item> LIGHT_BLOCK = block(HospitalsModBlocks.LIGHT_BLOCK);
+	public static final RegistryObject<Item> STAINLESS_STEEL = REGISTRY.register("stainless_steel", () -> new StainlessSteelItem());
+	public static final RegistryObject<Item> BLOCK_OF_STAINLESS_STEEL = block(HospitalsModBlocks.BLOCK_OF_STAINLESS_STEEL);
+	public static final RegistryObject<Item> UNPROCESSED_STEEL = REGISTRY.register("unprocessed_steel", () -> new UnprocessedSteelItem());
+	public static final RegistryObject<Item> COMPUTER_CHIP = REGISTRY.register("computer_chip", () -> new ComputerChipItem());
+	public static final RegistryObject<Item> COMPUTER = REGISTRY.register("computer", () -> new ComputerItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

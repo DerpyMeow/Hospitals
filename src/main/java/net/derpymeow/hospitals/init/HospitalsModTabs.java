@@ -169,6 +169,11 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModItems.SMALL_MEDKIT.get());
 				tabData.accept(HospitalsModItems.LARGEMEDKIT.get());
 				tabData.accept(HospitalsModBlocks.LIGHT_BLOCK.get().asItem());
+				tabData.accept(HospitalsModItems.STAINLESS_STEEL.get());
+				tabData.accept(HospitalsModBlocks.BLOCK_OF_STAINLESS_STEEL.get().asItem());
+				tabData.accept(HospitalsModItems.UNPROCESSED_STEEL.get());
+				tabData.accept(HospitalsModItems.COMPUTER_CHIP.get());
+				tabData.accept(HospitalsModItems.COMPUTER.get());
 			}).withSearchBar().withTabsBefore(FACILITIES_THM.getId()).build());
 	public static final RegistryObject<CreativeModeTab> HOSPITALSPILLS = REGISTRY.register("hospitalspills",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.hospitalspills")).icon(() -> new ItemStack(HospitalsModItems.PILL.get())).displayItems((parameters, tabData) -> {

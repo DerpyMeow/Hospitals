@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abb",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "hospitals:computer"
+    },
+    "b": {
+      "item": "hospitals:stainless_steel"
+    },
+    "c": {
+      "item": "hospitals:block_of_stainless_steel"
+    }
+  },
+  "result": {
+    "item": "hospitals:anaesthetic_machine",
+    "count": 1
+  }
+}

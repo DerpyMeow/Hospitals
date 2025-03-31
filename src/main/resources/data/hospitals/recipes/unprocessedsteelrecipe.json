@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "a b",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:raw_iron"
+    },
+    "b": {
+      "item": "minecraft:coal"
+    }
+  },
+  "result": {
+    "item": "hospitals:unprocessed_steel",
+    "count": 1
+  }
+}
