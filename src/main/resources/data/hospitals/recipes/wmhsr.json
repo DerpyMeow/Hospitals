@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:water_bucket"
+    },
+    "b": {
+      "item": "hospitals:stainless_steel"
+    }
+  },
+  "result": {
+    "item": "hospitals:hand_sanitiser_dispenser",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:wool"
+    },
+    "b": {
+      "item": "hospitals:rack_shelving_empty"
+    }
+  },
+  "result": {
+    "item": "hospitals:rack_shelves_linen",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bca",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "hospitals:stainless_steel"
+    },
+    "b": {
+      "item": "minecraft:water_bucket"
+    },
+    "c": {
+      "item": "hospitals:computer_chip"
+    }
+  },
+  "result": {
+    "item": "hospitals:iv_stand",
+    "count": 1
+  }
+}

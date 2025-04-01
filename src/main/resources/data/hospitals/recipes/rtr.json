@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bbb",
+    "abc"
+  ],
+  "key": {
+    "a": {
+      "item": "hospitals:stainless_steel"
+    },
+    "b": {
+      "item": "hospitals:block_of_stainless_steel"
+    },
+    "c": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "item": "hospitals:ward_resus_trolley",
+    "count": 1
+  }
+}

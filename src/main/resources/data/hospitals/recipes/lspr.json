@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "abc",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "hospitals:computer_chip"
+    },
+    "b": {
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "hospitals:computer"
+    },
+    "d": {
+      "item": "hospitals:block_of_stainless_steel"
+    }
+  },
+  "result": {
+    "item": "hospitals:life_support_syringe_pumps",
+    "count": 1
+  }
+}

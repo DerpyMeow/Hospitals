@@ -5850,6 +5850,208 @@
         ]
       },
       "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Bhur",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bhur",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/bhur.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Wsdr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wsdr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/wsdr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Fmr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fmr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/fmr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Hbr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hbr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/hbr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Ivsr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ivsr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/ivsr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Mwsr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mwsr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/mwsr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Lspr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lspr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/lspr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Hrmr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hrmr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/hrmr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Rtr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rtr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/rtr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Mgapr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mgapr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/mgapr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Wmhsr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wmhsr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/wmhsr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Msser",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "msser",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/msser.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Mssfr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mssfr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/mssfr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Unlockrecipes",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unlockrecipes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/UnlockrecipesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals"
+    },
+    {
+      "name": "Testbook",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testbook",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/testbook.json",
+          "src/main/java/net/derpymeow/hospitals/item/TestbookItem.java"
+        ]
+      },
+      "path": "~/Hospitals"
     }
   ],
   "variable_elements": [],
@@ -6393,6 +6595,7 @@
       "item.hospitals.pill_10.description_1": "-Use: Stress Relief",
       "item.hospitals.pill_10.description_0": "",
       "item.hospitals.pill_19.description_0": "",
+      "item.hospitals.testbook": "Testbook",
       "item.hospitals.pill_10.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_19.description_1": "-Use: Inflammatory Relief",
       "item.hospitals.pill_10.description_2": "-Effect: Nausea, Slowness, Strength (strong)",

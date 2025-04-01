@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "hospitals:stainless_steel"
+    },
+    "b": {
+      "item": "minecraft:light_blue_dye"
+    }
+  },
+  "result": {
+    "item": "hospitals:ward_storage_drawers",
+    "count": 1
+  }
+}

@@ -14,6 +14,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.derpymeow.hospitals.item.UnprocessedSteelItem;
+import net.derpymeow.hospitals.item.TestbookItem;
 import net.derpymeow.hospitals.item.StainlessSteelItem;
 import net.derpymeow.hospitals.item.SmallMedkitItem;
 import net.derpymeow.hospitals.item.ScrubsItem;
@@ -343,6 +344,7 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> UNPROCESSED_STEEL = REGISTRY.register("unprocessed_steel", () -> new UnprocessedSteelItem());
 	public static final RegistryObject<Item> COMPUTER_CHIP = REGISTRY.register("computer_chip", () -> new ComputerChipItem());
 	public static final RegistryObject<Item> COMPUTER = REGISTRY.register("computer", () -> new ComputerItem());
+	public static final RegistryObject<Item> TESTBOOK = REGISTRY.register("testbook", () -> new TestbookItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
