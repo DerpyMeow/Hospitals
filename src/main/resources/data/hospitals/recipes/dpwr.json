@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:blue_wool"
+    },
+    "b": {
+      "item": "hospitals:office_desk"
+    }
+  },
+  "result": {
+    "item": "hospitals:office_desk_with_back",
+    "count": 1
+  }
+}

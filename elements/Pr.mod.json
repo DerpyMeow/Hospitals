@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.PAPER"
+      },
+      {
+        "value": "CUSTOM:StainlessSteel"
+      },
+      {
+        "value": "CUSTOM:StainlessSteel"
+      },
+      {
+        "value": "CUSTOM:StainlessSteel"
+      },
+      {
+        "value": "CUSTOM:BlockOfStainlessSteel"
+      },
+      {
+        "value": "Items.DYE#0"
+      },
+      {
+        "value": "CUSTOM:StainlessSteel"
+      },
+      {
+        "value": "CUSTOM:BlockOfStainlessSteel"
+      },
+      {
+        "value": "CUSTOM:ComputerChip"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:OfficePrinter"
+    },
+    "name": "pr",
+    "namespace": "mod"
+  }
+}

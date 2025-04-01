@@ -6052,6 +6052,396 @@
         ]
       },
       "path": "~/Hospitals"
+    },
+    {
+      "name": "Fescmrr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fescmrr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/fescmrr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Feswmr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feswmr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/feswmr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Fer",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/fer.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Pisr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pisr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/pisr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Rlcr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rlcr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/rlcr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Scr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/scr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Dfr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dfr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/dfr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Ctr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ctr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/ctr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Wfsr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wfsr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/wfsr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Bdtr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bdtr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/bdtr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Rdtr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rdtr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/rdtr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Dpr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dpr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/dpr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Wpr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wpr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/wpr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Pr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/pr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Dr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/dr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Dpwr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dpwr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/dpwr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Dwbr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dwbr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/dwbr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Cwbr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cwbr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/cwbr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes"
+    },
+    {
+      "name": "Vft1w",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vft_1w",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/vft_1w.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes/Vinyl Floor"
+    },
+    {
+      "name": "Vft1g",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vft_1g",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/vft_1g.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes/Vinyl Floor"
+    },
+    {
+      "name": "Vft1b",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vft_1b",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/vft_1b.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes/Vinyl Floor"
+    },
+    {
+      "name": "Vft1lb",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vft_1lb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/vft_1lb.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes/Vinyl Floor"
+    },
+    {
+      "name": "Vft1gr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vft_1gr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/vft_1gr.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes/Vinyl Floor"
+    },
+    {
+      "name": "Vft1aq",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vft_1aq",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/vft_1aq.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes/Vinyl Floor"
+    },
+    {
+      "name": "Vft1r",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vft_1r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/vft_1r.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes/Vinyl Floor"
+    },
+    {
+      "name": "Vft2b",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vft_2b",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/vft_2b.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes/Vinyl Floor"
+    },
+    {
+      "name": "Vft2be",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vft_2be",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/vft_2be.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes/Vinyl Floor"
+    },
+    {
+      "name": "Vft2g",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vft_2g",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/vft_2g.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes/Vinyl Floor"
+    },
+    {
+      "name": "Vft2aq",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vft_2aq",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/vft_2aq.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes/Vinyl Floor"
+    },
+    {
+      "name": "Vft2ar",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vft_2ar",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/vft_2ar.json"
+        ]
+      },
+      "path": "~/Original Mod/Crafting Recipes/Vinyl Floor"
     }
   ],
   "variable_elements": [],
@@ -6913,7 +7303,12 @@
           },
           {
             "name": "Crafting Recipes",
-            "children": []
+            "children": [
+              {
+                "name": "Vinyl Floor",
+                "children": []
+              }
+            ]
           }
         ]
       }

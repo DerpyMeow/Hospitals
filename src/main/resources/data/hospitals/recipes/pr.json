@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abb",
+    "bcd",
+    "bce"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:paper"
+    },
+    "b": {
+      "item": "hospitals:stainless_steel"
+    },
+    "c": {
+      "item": "hospitals:block_of_stainless_steel"
+    },
+    "d": {
+      "item": "minecraft:ink_sac"
+    },
+    "e": {
+      "item": "hospitals:computer_chip"
+    }
+  },
+  "result": {
+    "item": "hospitals:office_printer",
+    "count": 1
+  }
+}
