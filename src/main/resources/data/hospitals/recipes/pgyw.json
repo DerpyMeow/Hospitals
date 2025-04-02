@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "item": "hospitals:plastered_wall_white"
+    },
+    "b": {
+      "item": "minecraft:gray_dye"
+    }
+  },
+  "result": {
+    "item": "hospitals:plastered_wall_grey",
+    "count": 1
+  }
+}

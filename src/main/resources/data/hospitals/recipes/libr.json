@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:glowstone"
+    },
+    "b": {
+      "item": "hospitals:suspended_ceiling"
+    }
+  },
+  "result": {
+    "item": "hospitals:light_block",
+    "count": 1
+  }
+}

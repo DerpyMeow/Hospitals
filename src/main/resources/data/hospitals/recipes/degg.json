@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "ggg"
+  ],
+  "key": {
+    "a": {
+      "item": "hospitals:scrubs_helmet"
+    },
+    "b": {
+      "item": "hospitals:largemedkit"
+    },
+    "c": {
+      "item": "hospitals:scrubs_leggings"
+    },
+    "d": {
+      "item": "hospitals:scrubs_chestplate"
+    },
+    "e": {
+      "item": "minecraft:egg"
+    },
+    "f": {
+      "item": "hospitals:scrubs_boots"
+    },
+    "g": {
+      "item": "hospitals:medical_cross"
+    }
+  },
+  "result": {
+    "item": "hospitals:doctor_spawn_egg",
+    "count": 1
+  }
+}

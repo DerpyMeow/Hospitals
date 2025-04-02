@@ -2626,7 +2626,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Hospitals/Pills/Pill Bottles"
     },
     {
       "name": "Pbr0",
@@ -2639,7 +2639,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_0.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr1",
@@ -2652,7 +2652,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_1.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr2",
@@ -2665,7 +2665,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_2.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr3",
@@ -2678,7 +2678,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_3.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr4",
@@ -2691,7 +2691,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_4.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr5",
@@ -2704,7 +2704,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_5.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr6",
@@ -2717,7 +2717,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_6.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr7",
@@ -2730,7 +2730,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_7.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr8",
@@ -2743,7 +2743,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_8.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr9",
@@ -2756,7 +2756,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_9.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr10",
@@ -2769,7 +2769,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_10.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pill11",
@@ -3062,7 +3062,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_11.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr12",
@@ -3075,7 +3075,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_12.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr13",
@@ -3088,7 +3088,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_13.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr14",
@@ -3101,7 +3101,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_14.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr15",
@@ -3114,7 +3114,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_15.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr16",
@@ -3127,7 +3127,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_16.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr17",
@@ -3140,7 +3140,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_17.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr18",
@@ -3153,7 +3153,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_18.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr19",
@@ -3166,7 +3166,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_19.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr20",
@@ -3179,7 +3179,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_20.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pill21",
@@ -3472,7 +3472,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_21.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr22",
@@ -3485,7 +3485,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_22.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr23",
@@ -3498,7 +3498,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_23.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr24",
@@ -3511,7 +3511,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_24.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr25",
@@ -3524,7 +3524,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_25.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr26",
@@ -3537,7 +3537,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_26.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr27",
@@ -3550,7 +3550,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_27.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr28",
@@ -3563,7 +3563,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_28.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr29",
@@ -3576,7 +3576,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_29.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr30",
@@ -3589,7 +3589,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_30.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pill31",
@@ -3966,7 +3966,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_31.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr32",
@@ -3979,7 +3979,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_32.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr33",
@@ -3992,7 +3992,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_33.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr34",
@@ -4005,7 +4005,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_34.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr35",
@@ -4018,7 +4018,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_35.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr36",
@@ -4031,7 +4031,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_36.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr37",
@@ -4044,7 +4044,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_37.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr38",
@@ -4057,7 +4057,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_38.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr39",
@@ -4070,7 +4070,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_39.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr40",
@@ -4083,7 +4083,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_40.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr41",
@@ -4096,7 +4096,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_41.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr42",
@@ -4109,7 +4109,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_42.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pbr43",
@@ -4122,7 +4122,7 @@
           "src/main/resources/data/hospitals/recipes/pbr_43.json"
         ]
       },
-      "path": "~/Hospitals/Pills/Pill Bottles/Crafting Recipies"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pill1ate",
@@ -5075,7 +5075,7 @@
           "src/main/java/net/derpymeow/hospitals/item/StainlessSteelItem.java"
         ]
       },
-      "path": "~/Hospitals/Base Items For Crafting"
+      "path": "~/Hospitals"
     },
     {
       "name": "BlockOfStainlessSteel",
@@ -5092,7 +5092,7 @@
           "src/main/java/net/derpymeow/hospitals/block/BlockOfStainlessSteelBlock.java"
         ]
       },
-      "path": "~/Hospitals/Base Items For Crafting"
+      "path": "~/Hospitals"
     },
     {
       "name": "UnprocessedSteel",
@@ -5106,7 +5106,7 @@
           "src/main/resources/assets/hospitals/models/item/unprocessed_steel.json"
         ]
       },
-      "path": "~/Hospitals/Base Items For Crafting"
+      "path": "~/Hospitals"
     },
     {
       "name": "Unprocessedsteelrecipe",
@@ -5119,7 +5119,7 @@
           "src/main/resources/data/hospitals/recipes/unprocessedsteelrecipe.json"
         ]
       },
-      "path": "~/Hospitals/Base Items For Crafting"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "StainlessSteelRecipe",
@@ -5132,7 +5132,7 @@
           "src/main/resources/data/hospitals/recipes/stainless_steel_recipe.json"
         ]
       },
-      "path": "~/Hospitals/Base Items For Crafting"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Blockofstainlesssteelrecipe",
@@ -5145,7 +5145,7 @@
           "src/main/resources/data/hospitals/recipes/blockofstainlesssteelrecipe.json"
         ]
       },
-      "path": "~/Hospitals/Base Items For Crafting"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "ComputerChip",
@@ -5159,7 +5159,7 @@
           "src/main/resources/assets/hospitals/models/item/computer_chip.json"
         ]
       },
-      "path": "~/Hospitals/Base Items For Crafting"
+      "path": "~/Hospitals"
     },
     {
       "name": "ComputerChipRecipe",
@@ -5172,7 +5172,7 @@
           "src/main/resources/data/hospitals/recipes/computer_chip_recipe.json"
         ]
       },
-      "path": "~/Hospitals/Base Items For Crafting"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Computer",
@@ -5186,7 +5186,7 @@
           "src/main/java/net/derpymeow/hospitals/item/ComputerItem.java"
         ]
       },
-      "path": "~/Hospitals/Base Items For Crafting"
+      "path": "~/Hospitals"
     },
     {
       "name": "ComputerRecipe",
@@ -5199,7 +5199,7 @@
           "src/main/resources/data/hospitals/recipes/computer_recipe.json"
         ]
       },
-      "path": "~/Hospitals/Base Items For Crafting"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Amr",
@@ -5212,7 +5212,7 @@
           "src/main/resources/data/hospitals/recipes/amr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Frr",
@@ -5225,7 +5225,7 @@
           "src/main/resources/data/hospitals/recipes/frr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Swtr",
@@ -5238,7 +5238,7 @@
           "src/main/resources/data/hospitals/recipes/swtr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Sitr",
@@ -5251,7 +5251,7 @@
           "src/main/resources/data/hospitals/recipes/sitr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Optr",
@@ -5264,7 +5264,7 @@
           "src/main/resources/data/hospitals/recipes/optr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Ssr",
@@ -5277,7 +5277,7 @@
           "src/main/resources/data/hospitals/recipes/ssr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Rstr",
@@ -5290,7 +5290,7 @@
           "src/main/resources/data/hospitals/recipes/rstr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Ystr",
@@ -5303,7 +5303,7 @@
           "src/main/resources/data/hospitals/recipes/ystr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Slr",
@@ -5316,7 +5316,7 @@
           "src/main/resources/data/hospitals/recipes/slr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Str",
@@ -5329,7 +5329,7 @@
           "src/main/resources/data/hospitals/recipes/str.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Stwtr",
@@ -5342,7 +5342,7 @@
           "src/main/resources/data/hospitals/recipes/stwtr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Swtwsr",
@@ -5355,7 +5355,7 @@
           "src/main/resources/data/hospitals/recipes/swtwsr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Swsr",
@@ -5368,7 +5368,7 @@
           "src/main/resources/data/hospitals/recipes/swsr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Orcr",
@@ -5381,7 +5381,7 @@
           "src/main/resources/data/hospitals/recipes/orcr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Sir",
@@ -5394,7 +5394,7 @@
           "src/main/resources/data/hospitals/recipes/sir.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Smhr",
@@ -5407,7 +5407,7 @@
           "src/main/resources/data/hospitals/recipes/smhr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pipsr",
@@ -5420,7 +5420,7 @@
           "src/main/resources/data/hospitals/recipes/pipsr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Psser",
@@ -5433,7 +5433,7 @@
           "src/main/resources/data/hospitals/recipes/psser.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Psssr",
@@ -5446,7 +5446,7 @@
           "src/main/resources/data/hospitals/recipes/psssr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pcir",
@@ -5459,7 +5459,7 @@
           "src/main/resources/data/hospitals/recipes/pcir.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pabr",
@@ -5472,7 +5472,7 @@
           "src/main/resources/data/hospitals/recipes/pabr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Rcr",
@@ -5485,7 +5485,7 @@
           "src/main/resources/data/hospitals/recipes/rcr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Wwsr",
@@ -5498,7 +5498,7 @@
           "src/main/resources/data/hospitals/recipes/wwsr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Wtr",
@@ -5511,7 +5511,7 @@
           "src/main/resources/data/hospitals/recipes/wtr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Lfr",
@@ -5524,7 +5524,7 @@
           "src/main/resources/data/hospitals/recipes/lfr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Cfmr",
@@ -5537,7 +5537,7 @@
           "src/main/resources/data/hospitals/recipes/cfmr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Bfmr",
@@ -5550,7 +5550,7 @@
           "src/main/resources/data/hospitals/recipes/bfmr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Mdr",
@@ -5563,7 +5563,7 @@
           "src/main/resources/data/hospitals/recipes/mdr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Psr",
@@ -5576,7 +5576,7 @@
           "src/main/resources/data/hospitals/recipes/psr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Posr",
@@ -5589,7 +5589,7 @@
           "src/main/resources/data/hospitals/recipes/posr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Bsr",
@@ -5602,7 +5602,7 @@
           "src/main/resources/data/hospitals/recipes/bsr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Bsfr",
@@ -5615,7 +5615,7 @@
           "src/main/resources/data/hospitals/recipes/bsfr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pcsr",
@@ -5628,7 +5628,7 @@
           "src/main/resources/data/hospitals/recipes/pcsr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Scpr",
@@ -5641,7 +5641,7 @@
           "src/main/resources/data/hospitals/recipes/scpr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Scplr",
@@ -5654,7 +5654,7 @@
           "src/main/resources/data/hospitals/recipes/scplr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Ddr",
@@ -5667,7 +5667,7 @@
           "src/main/resources/data/hospitals/recipes/ddr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Rusr",
@@ -5680,7 +5680,7 @@
           "src/main/resources/data/hospitals/recipes/rusr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Xrlbr",
@@ -5693,7 +5693,7 @@
           "src/main/resources/data/hospitals/recipes/xrlbr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Lbr",
@@ -5706,7 +5706,7 @@
           "src/main/resources/data/hospitals/recipes/lbr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Xrcr",
@@ -5719,7 +5719,7 @@
           "src/main/resources/data/hospitals/recipes/xrcr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Xrfr",
@@ -5732,7 +5732,7 @@
           "src/main/resources/data/hospitals/recipes/xrfr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Xrhr",
@@ -5745,7 +5745,7 @@
           "src/main/resources/data/hospitals/recipes/xrhr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Xrar",
@@ -5758,7 +5758,7 @@
           "src/main/resources/data/hospitals/recipes/xrar.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Xrnr",
@@ -5771,7 +5771,7 @@
           "src/main/resources/data/hospitals/recipes/xrnr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Xbr",
@@ -5784,7 +5784,7 @@
           "src/main/resources/data/hospitals/recipes/xbr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Xbsr",
@@ -5797,7 +5797,7 @@
           "src/main/resources/data/hospitals/recipes/xbsr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Cxr",
@@ -5810,7 +5810,7 @@
           "src/main/resources/data/hospitals/recipes/cxr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Xxr",
@@ -5823,7 +5823,7 @@
           "src/main/resources/data/hospitals/recipes/xxr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Twocxr",
@@ -5836,7 +5836,7 @@
           "src/main/resources/data/hospitals/recipes/twocxr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Twoxxr",
@@ -5849,7 +5849,7 @@
           "src/main/resources/data/hospitals/recipes/twoxxr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Bhur",
@@ -5862,7 +5862,7 @@
           "src/main/resources/data/hospitals/recipes/bhur.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Wsdr",
@@ -5875,7 +5875,7 @@
           "src/main/resources/data/hospitals/recipes/wsdr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Fmr",
@@ -5888,7 +5888,7 @@
           "src/main/resources/data/hospitals/recipes/fmr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Hbr",
@@ -5901,7 +5901,7 @@
           "src/main/resources/data/hospitals/recipes/hbr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Ivsr",
@@ -5914,7 +5914,7 @@
           "src/main/resources/data/hospitals/recipes/ivsr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Mwsr",
@@ -5927,7 +5927,7 @@
           "src/main/resources/data/hospitals/recipes/mwsr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Lspr",
@@ -5940,7 +5940,7 @@
           "src/main/resources/data/hospitals/recipes/lspr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Hrmr",
@@ -5953,7 +5953,7 @@
           "src/main/resources/data/hospitals/recipes/hrmr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Rtr",
@@ -5966,7 +5966,7 @@
           "src/main/resources/data/hospitals/recipes/rtr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Mgapr",
@@ -5979,7 +5979,7 @@
           "src/main/resources/data/hospitals/recipes/mgapr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Wmhsr",
@@ -5992,7 +5992,7 @@
           "src/main/resources/data/hospitals/recipes/wmhsr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Msser",
@@ -6005,7 +6005,7 @@
           "src/main/resources/data/hospitals/recipes/msser.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Mssfr",
@@ -6018,7 +6018,7 @@
           "src/main/resources/data/hospitals/recipes/mssfr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Unlockrecipes",
@@ -6064,7 +6064,7 @@
           "src/main/resources/data/hospitals/recipes/fescmrr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Feswmr",
@@ -6077,7 +6077,7 @@
           "src/main/resources/data/hospitals/recipes/feswmr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Fer",
@@ -6090,7 +6090,7 @@
           "src/main/resources/data/hospitals/recipes/fer.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pisr",
@@ -6103,7 +6103,7 @@
           "src/main/resources/data/hospitals/recipes/pisr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Rlcr",
@@ -6116,7 +6116,7 @@
           "src/main/resources/data/hospitals/recipes/rlcr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Scr",
@@ -6129,7 +6129,7 @@
           "src/main/resources/data/hospitals/recipes/scr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Dfr",
@@ -6142,7 +6142,7 @@
           "src/main/resources/data/hospitals/recipes/dfr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Ctr",
@@ -6155,7 +6155,7 @@
           "src/main/resources/data/hospitals/recipes/ctr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Wfsr",
@@ -6168,7 +6168,7 @@
           "src/main/resources/data/hospitals/recipes/wfsr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Bdtr",
@@ -6181,7 +6181,7 @@
           "src/main/resources/data/hospitals/recipes/bdtr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Rdtr",
@@ -6194,7 +6194,7 @@
           "src/main/resources/data/hospitals/recipes/rdtr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Dpr",
@@ -6207,7 +6207,7 @@
           "src/main/resources/data/hospitals/recipes/dpr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Wpr",
@@ -6220,7 +6220,7 @@
           "src/main/resources/data/hospitals/recipes/wpr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Pr",
@@ -6233,7 +6233,7 @@
           "src/main/resources/data/hospitals/recipes/pr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Dr",
@@ -6246,7 +6246,7 @@
           "src/main/resources/data/hospitals/recipes/dr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Dpwr",
@@ -6259,7 +6259,7 @@
           "src/main/resources/data/hospitals/recipes/dpwr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Dwbr",
@@ -6272,7 +6272,7 @@
           "src/main/resources/data/hospitals/recipes/dwbr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Cwbr",
@@ -6285,7 +6285,7 @@
           "src/main/resources/data/hospitals/recipes/cwbr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Vft1w",
@@ -6298,7 +6298,7 @@
           "src/main/resources/data/hospitals/recipes/vft_1w.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes/Vinyl Floor"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Vft1g",
@@ -6311,7 +6311,7 @@
           "src/main/resources/data/hospitals/recipes/vft_1g.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes/Vinyl Floor"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Vft1b",
@@ -6324,7 +6324,7 @@
           "src/main/resources/data/hospitals/recipes/vft_1b.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes/Vinyl Floor"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Vft1lb",
@@ -6337,7 +6337,7 @@
           "src/main/resources/data/hospitals/recipes/vft_1lb.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes/Vinyl Floor"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Vft1gr",
@@ -6350,7 +6350,7 @@
           "src/main/resources/data/hospitals/recipes/vft_1gr.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes/Vinyl Floor"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Vft1aq",
@@ -6363,7 +6363,7 @@
           "src/main/resources/data/hospitals/recipes/vft_1aq.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes/Vinyl Floor"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Vft1r",
@@ -6376,7 +6376,7 @@
           "src/main/resources/data/hospitals/recipes/vft_1r.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes/Vinyl Floor"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Vft2b",
@@ -6389,7 +6389,7 @@
           "src/main/resources/data/hospitals/recipes/vft_2b.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes/Vinyl Floor"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Vft2be",
@@ -6402,7 +6402,7 @@
           "src/main/resources/data/hospitals/recipes/vft_2be.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes/Vinyl Floor"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Vft2g",
@@ -6415,7 +6415,7 @@
           "src/main/resources/data/hospitals/recipes/vft_2g.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes/Vinyl Floor"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Vft2aq",
@@ -6428,7 +6428,7 @@
           "src/main/resources/data/hospitals/recipes/vft_2aq.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes/Vinyl Floor"
+      "path": "~/Crafting Recipes"
     },
     {
       "name": "Vft2ar",
@@ -6441,7 +6441,501 @@
           "src/main/resources/data/hospitals/recipes/vft_2ar.json"
         ]
       },
-      "path": "~/Original Mod/Crafting Recipes/Vinyl Floor"
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Vw1w",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vw_1w",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/vw_1w.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Vw1gr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vw_1gr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/vw_1gr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Vw1b",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vw_1b",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/vw_1b.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Vw1lb",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vw_1lb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/vw_1lb.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Vw1g",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vw_1g",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/vw_1g.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Vw1aq",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vw_1aq",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/vw_1aq.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Vw1r",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vw_1r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/vw_1r.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Vw2b",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vw_2b",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/vw_2b.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Vw2be",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vw_2be",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/vw_2be.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Vw2g",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vw_2g",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/vw_2g.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Vw2aq",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vw_2aq",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/vw_2aq.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Vw2r",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vw_2r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/vw_2r.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Brickbe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brickbe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/brickbe.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Brickgr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brickgr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/brickgr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Brickdarkr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brickdarkr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/brickdarkr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Brickredr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brickredr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/brickredr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Concreter",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "concreter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/concreter.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Vf1dg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vf_1dg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/vf_1dg.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Pww",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pww",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/pww.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Pbw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pbw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/pbw.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Pblw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pblw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/pblw.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Pgrw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pgrw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/pgrw.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Pgyw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pgyw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/pgyw.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Plw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/plw.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Psbw",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "psbw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/psbw.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Ventr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ventr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/ventr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Cardboardr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cardboardr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/cardboardr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Cladstoner",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cladstoner",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/cladstoner.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Libr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "libr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/libr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Cbr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cbr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/cbr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Sccr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sccr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/sccr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Sctr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sctr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/sctr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Scrpr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scrpr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/scrpr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Scbr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scbr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/scbr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Nuegg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuegg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/nuegg.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Degg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "degg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/degg.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Smkr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smkr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/smkr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Lmkr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lmkr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/lmkr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
     }
   ],
   "variable_elements": [],
@@ -6723,8 +7217,8 @@
       "item.hospitals.pill_42.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_42.description_0": "",
       "item.hospitals.pillbottle_12.description_1": "Right Click To Open",
-      "block.hospitals.xray_light_box_arms": "X-RAY Light Box (Arms)",
       "item.hospitals.pillbottle_12.description_0": "",
+      "block.hospitals.xray_light_box_arms": "X-RAY Light Box (Arms)",
       "item.hospitals.computer_chip.description_0": "",
       "item.hospitals.pillbottle_3.description_0": "",
       "item.hospitals.pillbottle_3.description_1": "Right Click To Open",
@@ -6733,15 +7227,15 @@
       "item.hospitals.pill_bottle_8": "Diphenhydramine Pill Bottle",
       "item.hospitals.pill_14.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_14.description_2": "-Effect: Blindness, Nausea, Speed, Jump Boost",
-      "item.hospitals.pill_14.description_1": "-Use: High Blood Pressure",
-      "item.hospitals.pill_bottle_5": "Dextromethorphan Pill Bottle",
       "block.hospitals.hospital_bed": "Hospital Bed",
+      "item.hospitals.pill_bottle_5": "Dextromethorphan Pill Bottle",
+      "item.hospitals.pill_14.description_1": "-Use: High Blood Pressure",
       "item.hospitals.pill_14.description_0": "",
       "block.hospitals.computer_ct_scan_viewer": "Computer (CT Scan Viewer)",
       "item.hospitals.pill_7.description_0": "",
       "item.hospitals.pill_24.description_1": "-Use: OCD/PTSD Treatment",
-      "item.hospitals.pill_7.description_1": "-Use: Diarrhea, Heartburn",
       "item.hospitals.pill_24.description_2": "-Effect: Nausea, Weakness, Haste",
+      "item.hospitals.pill_7.description_1": "-Use: Diarrhea, Heartburn",
       "item.hospitals.pill_7.description_2": "-Effect: Nausea (severe), Speed, Jumpboost",
       "item.hospitals.pill_24.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_bottle_35.description_0": "",
@@ -6762,10 +7256,10 @@
       "item.hospitals.pillbottleempty.description_0": "",
       "item.hospitals.pillbottle_21.description_1": "Right Click To Open",
       "item.hospitals.pillbottle_21.description_0": "",
-      "block.hospitals.vinyl_wall_beige_type_2": "Vinyl Wall - Beige (Type 2)",
       "item.hospitals.pill_bottle_16.description_1": "Right Click To Open",
-      "block.hospitals.xray_light_box_feet": "X-RAY Light Box (Feet)",
+      "block.hospitals.vinyl_wall_beige_type_2": "Vinyl Wall - Beige (Type 2)",
       "item.hospitals.pill_33.description_3": "-Pills Can Be Used To Fill Pill Bottles",
+      "block.hospitals.xray_light_box_feet": "X-RAY Light Box (Feet)",
       "item.hospitals.pill_33.description_2": "-Effect: Regeneration",
       "item.hospitals.pill_bottle_16.description_0": "",
       "item.hospitals.pill_33.description_1": "-Use: Regulates Calcium ",
@@ -6783,8 +7277,8 @@
       "block.hospitals.wall_storage_tubs_yellow": "Wall Storage Tubs (Yellow)",
       "item.hospitals.pill_bottle_25.description_0": "",
       "item.hospitals.pill_34.description_2": "-Effect: Regeneration, Health Boost",
-      "item.hospitals.pill_bottle_25.description_1": "Right Click To Open",
       "item.hospitals.pill_34.description_3": "-Pills Can Be Used To Fill Pill Bottles",
+      "item.hospitals.pill_bottle_25.description_1": "Right Click To Open",
       "block.hospitals.medical_gas_ceiling_mounted": "Medical Gas (Ceiling Mounted)",
       "item.hospitals.unprocessed_steel.description_0": "",
       "block.hospitals.fire_exit_sign_ceiling_mounted": "Fire Exit Sign (Ceiling Mounted)",
@@ -6818,12 +7312,12 @@
       "item.hospitals.pill_22.description_1": "-Use: Pain Relief",
       "item.hospitals.pill_22.description_2": "-Effect: Nausea (strong), Slowness (strong), Blindness (strong), Weakness (strong), Regeneration (strong), Health Boost (strong), Saturation (strong)",
       "item.hospitals.pill_bottle_26.description_0": "",
-      "item.hospitals.pill_22.description_0": "",
       "item.hospitals.pill_bottle_26.description_1": "Right Click To Open",
+      "item.hospitals.pill_22.description_0": "",
       "item.hospitals.nurse_spawn_egg": "Nurse Spawn Egg",
       "item.hospitals.pill_22.description_3": "-Pills Can Be Used To Fill Pill Bottles",
-      "block.hospitals.office_desk_phone": "Office Desk Phone",
       "block.hospitals.vinyl_floor_blue_type_2": "Vinyl Floor - Blue (Type 2)",
+      "block.hospitals.office_desk_phone": "Office Desk Phone",
       "item.hospitals.scrubs_chestplate": "Scrubs (Top)",
       "item.hospitals.pill_bottle_27.description_1": "Right Click To Open",
       "item.hospitals.stainless_steel.description_0": "",
@@ -6839,8 +7333,8 @@
       "item.hospitals.pill_17.description_2": "-Effect: Nausea (strong), Speed, Jump Boost, Haste (strong), Weakness",
       "item.hospitals.pill_17.description_1": "-Use: Hypothyroidism",
       "item.hospitals.pill_12.description_0": "",
-      "item.hospitals.pill_12.description_1": "-Use: Antibiotic",
       "item.hospitals.pill_17.description_3": "-Pills Can Be Used To Fill Pill Bottles",
+      "item.hospitals.pill_12.description_1": "-Use: Antibiotic",
       "item.hospitals.pill_12.description_2": "-Effect: Slowness, Instant Health",
       "item.hospitals.pill_12.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "block.hospitals.pharmacy_counter_stocked": "Pharmacy Counter (Stocked)",
@@ -7263,12 +7757,7 @@
               },
               {
                 "name": "Pill Bottles",
-                "children": [
-                  {
-                    "name": "Crafting Recipies",
-                    "children": []
-                  }
-                ]
+                "children": []
               }
             ]
           },
@@ -7300,15 +7789,15 @@
           {
             "name": "Facilities",
             "children": []
-          },
+          }
+        ]
+      },
+      {
+        "name": "Crafting Recipes",
+        "children": [
           {
-            "name": "Crafting Recipes",
-            "children": [
-              {
-                "name": "Vinyl Floor",
-                "children": []
-              }
-            ]
+            "name": "Crafting Recipies",
+            "children": []
           }
         ]
       }
@@ -7317,7 +7806,7 @@
   "workspaceSettings": {
     "modid": "hospitals",
     "modName": "Hospitals (THM Expanded)",
-    "version": "1.3.0",
+    "version": "2.0.0",
     "description": "This Brings Complex Medical Blocks And Items To Minecraft: Based Off Of Leon90\u0027s Mod.",
     "author": "DerpyMeow, Leon90",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/hospitals",

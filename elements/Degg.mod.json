@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Scrubs.helmet"
+      },
+      {
+        "value": "CUSTOM:Largemedkit"
+      },
+      {
+        "value": "CUSTOM:Scrubs.legs"
+      },
+      {
+        "value": "CUSTOM:Scrubs.body"
+      },
+      {
+        "value": "Items.EGG"
+      },
+      {
+        "value": "CUSTOM:Scrubs.boots"
+      },
+      {
+        "value": "CUSTOM:MedicalCross"
+      },
+      {
+        "value": "CUSTOM:MedicalCross"
+      },
+      {
+        "value": "CUSTOM:MedicalCross"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Doctor.spawn_egg"
+    },
+    "name": "degg",
+    "namespace": "mod"
+  }
+}

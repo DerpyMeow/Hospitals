@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "hospitals:largemedkit"
+    },
+    "b": {
+      "item": "minecraft:egg"
+    },
+    "c": {
+      "item": "hospitals:medical_cross"
+    }
+  },
+  "result": {
+    "item": "hospitals:nurse_spawn_egg",
+    "count": 1
+  }
+}
