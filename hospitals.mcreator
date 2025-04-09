@@ -6021,39 +6021,6 @@
       "path": "~/Crafting Recipes"
     },
     {
-      "name": "Unlockrecipes",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "unlockrecipes",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/UnlockrecipesProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hospitals"
-    },
-    {
-      "name": "Testbook",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "testbook",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/hospitals/models/item/testbook.json",
-          "src/main/java/net/derpymeow/hospitals/item/TestbookItem.java"
-        ]
-      },
-      "path": "~/Hospitals"
-    },
-    {
       "name": "Fescmrr",
       "type": "recipe",
       "compiles": true,
@@ -6936,9 +6903,353 @@
         ]
       },
       "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Syringe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syringe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/syringe.json",
+          "src/main/java/net/derpymeow/hospitals/item/SyringeItem.java"
+        ]
+      },
+      "path": "~/TEST"
+    },
+    {
+      "name": "Emptysyringe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emptysyringe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/EmptysyringeItem.java",
+          "src/main/resources/assets/hospitals/models/item/emptysyringe.json"
+        ]
+      },
+      "path": "~/TEST"
+    },
+    {
+      "name": "SyringeLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syringe_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/SyringeLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/TEST"
+    },
+    {
+      "name": "EmptysyringeRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emptysyringe_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/EmptysyringeRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/TEST"
+    },
+    {
+      "name": "BloodTypeTester",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_type_tester",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/BloodTypeTesterItem.java",
+          "src/main/resources/assets/hospitals/models/item/blood_type_tester.json"
+        ]
+      },
+      "path": "~/Hospitals/Blood"
+    },
+    {
+      "name": "Tests",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tests",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Creative Tabs"
+    },
+    {
+      "name": "BloodTypeTesterRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_type_tester_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BloodTypeTesterRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood"
+    },
+    {
+      "name": "Blood",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/command/BloodCommand.java"
+        ]
+      },
+      "path": "~/Hospitals/Blood"
+    },
+    {
+      "name": "Setbloodtype",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setbloodtype",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/SetbloodtypeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood"
+    },
+    {
+      "name": "Onfirstjoinsetbloodtype",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onfirstjoinsetbloodtype",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/OnfirstjoinsetbloodtypeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood"
+    },
+    {
+      "name": "BloodTypeTesterEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_type_tester_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BloodTypeTesterEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood"
+    },
+    {
+      "name": "BloodTypeTesterRightClickedPasser",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_type_tester_right_clicked_passer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BloodTypeTesterRightClickedPasserProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood"
+    },
+    {
+      "name": "Listbloodtypes",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "listbloodtypes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/ListbloodtypesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood"
+    },
+    {
+      "name": "Bttr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bttr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/bttr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "BloodAmountGet",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_amount_get",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BloodAmountGetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood"
+    },
+    {
+      "name": "BloodAmountSet",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_amount_set",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BloodAmountSetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood"
+    },
+    {
+      "name": "Scrubmask",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mask",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/mask_helmet.json",
+          "src/main/java/net/derpymeow/hospitals/item/ScrubmaskItem.java"
+        ]
+      },
+      "path": "~/Hospitals"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "blood_type",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "9.0"
+    },
+    {
+      "name": "blood_amount",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "160.0"
+    }
+  ],
   "sound_elements": [],
   "tag_elements": {
     "ITEMS:mod:pills": [
@@ -7114,7 +7425,9 @@
       "BlockOfStainlessSteel",
       "UnprocessedSteel",
       "ComputerChip",
-      "Computer"
+      "Computer",
+      "BloodTypeTester",
+      "Scrubmask"
     ],
     "CUSTOM:Hospitalspills": [
       "Pill",
@@ -7333,8 +7646,8 @@
       "item.hospitals.pill_17.description_2": "-Effect: Nausea (strong), Speed, Jump Boost, Haste (strong), Weakness",
       "item.hospitals.pill_17.description_1": "-Use: Hypothyroidism",
       "item.hospitals.pill_12.description_0": "",
-      "item.hospitals.pill_17.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_12.description_1": "-Use: Antibiotic",
+      "item.hospitals.pill_17.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_12.description_2": "-Effect: Slowness, Instant Health",
       "item.hospitals.pill_12.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "block.hospitals.pharmacy_counter_stocked": "Pharmacy Counter (Stocked)",
@@ -7391,6 +7704,7 @@
       "block.hospitals.vinyl_floor_grey_type_2": "Vinyl Floor - Grey (Type 2)",
       "block.hospitals.vinyl_wall_white_type_1": "Vinyl Wall - White (Type 1)",
       "block.hospitals.sterile_worktop": "Sterile Worktop",
+      "item.hospitals.blood_type_tester": "Blood Type Tester",
       "block.hospitals.scrub_sink": "Scrub Sink",
       "item.hospitals.scrubs_helmet": "Scrub Cap",
       "block.hospitals.x_ray_machine": "X-Ray Machine",
@@ -7413,6 +7727,10 @@
       "block.hospitals.wa_block": "WA Block",
       "block.hospitals.plastered_wall_beige": "Plastered Wall - Beige",
       "item.hospitals.pill_15.description_3": "-Pills Can Be Used To Fill Pill Bottles",
+      "item.hospitals.blood_type_tester.description_2": "-Punch A Player To Get Their Blood Type",
+      "item.hospitals.blood_type_tester.description_3": "-Has 8 Uses",
+      "item.hospitals.blood_type_tester.description_0": "",
+      "item.hospitals.blood_type_tester.description_1": "-Right Click To Check Your Own Blood Type",
       "block.hospitals.laboratory_fridge": "Laboratory Fridge",
       "item_group.hospitals.hospitals": "Hospitals",
       "block.hospitals.plastered_wall_sky_blue": "Plastered Wall (Sky Blue)",
@@ -7420,6 +7738,7 @@
       "block.hospitals.ph_block": "PH Block",
       "block.hospitals.ward_storage_drawers": "Ward Storage Drawers",
       "item.hospitals.scrubs_boots": "Shoe Covers",
+      "item.hospitals.syringe": "Syringe TEST",
       "item.hospitals.pill_16.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_16.description_2": "-Effect: Speed (short time)",
       "block.hospitals.patient_informaiton_point": "Patient Informaiton Point",
@@ -7435,6 +7754,8 @@
       "item.hospitals.pill_38.description_1": "-Use: Lowers Cholesterol",
       "item.hospitals.pill_38.description_2": "-Effect: Speed",
       "item.hospitals.pill_38.description_3": "-Pills Can Be Used To Fill Pill Bottles",
+      "item.hospitals.syringe.description_0": "",
+      "item.hospitals.syringe.description_1": "TEST!",
       "block.hospitals.vinyl_wall_red_type_1": "Vinyl Wall - Red (Type 1)",
       "item.hospitals.pill_39": "Vitamin B5 (Pantothenic acid)",
       "item.hospitals.pill_37": "Vitamin B2 (riboflavin)",
@@ -7468,8 +7789,11 @@
       "item.hospitals.pillbottle_0": "Generic/Placebo Pill Bottle",
       "item.hospitals.pill_3.description_0": "",
       "block.hospitals.vinyl_floor_beige_type_2": "Vinyl Floor - Beige (Type 2)",
+      "item.hospitals.emptysyringe": "Empty Syringe TEST",
       "item.hospitals.pill_28.description_3": "-Pills Can Be Used To Fill Pill Bottles",
+      "item.hospitals.emptysyringe.description_1": "TEST!",
       "item.hospitals.pill_28.description_1": "-Use: Depression Treatment",
+      "item.hospitals.emptysyringe.description_0": "",
       "item.hospitals.pill_28.description_2": "-Effect: Blindness, Unluck, Instant Harming, Speed, Jump Boost, Haste",
       "item.hospitals.small_medkit": "Small Medkit",
       "item.hospitals.pill_28.description_0": "",
@@ -7479,7 +7803,6 @@
       "item.hospitals.pill_10.description_1": "-Use: Stress Relief",
       "item.hospitals.pill_10.description_0": "",
       "item.hospitals.pill_19.description_0": "",
-      "item.hospitals.testbook": "Testbook",
       "item.hospitals.pill_10.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_19.description_1": "-Use: Inflammatory Relief",
       "item.hospitals.pill_10.description_2": "-Effect: Nausea, Slowness, Strength (strong)",
@@ -7496,6 +7819,9 @@
       "block.hospitals.smooth_concrete": "Smooth Concrete",
       "block.hospitals.wet_floor_sign": "Wet Floor Sign",
       "item.hospitals.pill_bottle_41.description_0": "",
+      "item.hospitals.mask_helmet.description_0": "",
+      "item.hospitals.mask_helmet.description_1": "- Rendering May Look Weird / \"Too Big\"",
+      "item.hospitals.mask_helmet.description_2": "- This Item Is Not Fully Completed / Will Be Changed Or Removed In A Future Update",
       "item.hospitals.pill_bottle_13.description_0": "",
       "item.hospitals.pill_bottle_13.description_1": "Right Click To Open",
       "block.hospitals.vinyl_floor_aqua_type_2": "Vinyl Floor - Aqua (Type 2)",
@@ -7679,6 +8005,7 @@
       "item.hospitals.pill_bottle_26": "Gabapentin Pill Bottle",
       "item.hospitals.pill_bottle_34.description_1": "Right Click To Open",
       "block.hospitals.surgical_refridgerated_cabinet": "Surgical Refridgerated Cabinet",
+      "item_group.hospitals.tests": "Hospitals - Test Items",
       "item.hospitals.pill_41.description_0": "",
       "item.hospitals.pill_41.description_1": "-Use: Meatbolism",
       "item.hospitals.pillbottle_4.description_1": "Right Click To Open",
@@ -7730,7 +8057,8 @@
       "item.hospitals.pillbottle_11.description_0": "",
       "block.hospitals.ultrasound": "Ultrasound",
       "item.hospitals.stainless_steel": "Stainless Steel",
-      "block.hospitals.office_printer": "Office Printer"
+      "block.hospitals.office_printer": "Office Printer",
+      "item.hospitals.mask_helmet": "Surgical Mask"
     }
   },
   "foldersRoot": {
@@ -7762,7 +8090,7 @@
             ]
           },
           {
-            "name": "Base Items For Crafting",
+            "name": "Blood",
             "children": []
           }
         ]
@@ -7794,12 +8122,11 @@
       },
       {
         "name": "Crafting Recipes",
-        "children": [
-          {
-            "name": "Crafting Recipies",
-            "children": []
-          }
-        ]
+        "children": []
+      },
+      {
+        "name": "TEST",
+        "children": []
       }
     ]
   },

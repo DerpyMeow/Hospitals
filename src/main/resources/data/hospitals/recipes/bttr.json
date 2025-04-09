@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "dce"
+  ],
+  "key": {
+    "a": {
+      "item": "hospitals:stainless_steel"
+    },
+    "b": {
+      "item": "hospitals:computer"
+    },
+    "c": {
+      "item": "hospitals:computer_chip"
+    },
+    "d": {
+      "item": "minecraft:paper"
+    },
+    "e": {
+      "item": "minecraft:arrow"
+    }
+  },
+  "result": {
+    "item": "hospitals:blood_type_tester",
+    "count": 1
+  }
+}

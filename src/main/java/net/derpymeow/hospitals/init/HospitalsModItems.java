@@ -14,10 +14,11 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.derpymeow.hospitals.item.UnprocessedSteelItem;
-import net.derpymeow.hospitals.item.TestbookItem;
+import net.derpymeow.hospitals.item.SyringeItem;
 import net.derpymeow.hospitals.item.StainlessSteelItem;
 import net.derpymeow.hospitals.item.SmallMedkitItem;
 import net.derpymeow.hospitals.item.ScrubsItem;
+import net.derpymeow.hospitals.item.ScrubmaskItem;
 import net.derpymeow.hospitals.item.PillbottleemptyItem;
 import net.derpymeow.hospitals.item.Pillbottle9Item;
 import net.derpymeow.hospitals.item.Pillbottle7Item;
@@ -108,8 +109,10 @@ import net.derpymeow.hospitals.item.Pill12Item;
 import net.derpymeow.hospitals.item.Pill11Item;
 import net.derpymeow.hospitals.item.Pill10Item;
 import net.derpymeow.hospitals.item.LargemedkitItem;
+import net.derpymeow.hospitals.item.EmptysyringeItem;
 import net.derpymeow.hospitals.item.ComputerItem;
 import net.derpymeow.hospitals.item.ComputerChipItem;
+import net.derpymeow.hospitals.item.BloodTypeTesterItem;
 import net.derpymeow.hospitals.HospitalsMod;
 
 public class HospitalsModItems {
@@ -344,7 +347,10 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> UNPROCESSED_STEEL = REGISTRY.register("unprocessed_steel", () -> new UnprocessedSteelItem());
 	public static final RegistryObject<Item> COMPUTER_CHIP = REGISTRY.register("computer_chip", () -> new ComputerChipItem());
 	public static final RegistryObject<Item> COMPUTER = REGISTRY.register("computer", () -> new ComputerItem());
-	public static final RegistryObject<Item> TESTBOOK = REGISTRY.register("testbook", () -> new TestbookItem());
+	public static final RegistryObject<Item> SYRINGE = REGISTRY.register("syringe", () -> new SyringeItem());
+	public static final RegistryObject<Item> EMPTYSYRINGE = REGISTRY.register("emptysyringe", () -> new EmptysyringeItem());
+	public static final RegistryObject<Item> BLOOD_TYPE_TESTER = REGISTRY.register("blood_type_tester", () -> new BloodTypeTesterItem());
+	public static final RegistryObject<Item> MASK_HELMET = REGISTRY.register("mask_helmet", () -> new ScrubmaskItem.Helmet());
 
 	// Start of user code block custom items
 	// End of user code block custom items
