@@ -135,6 +135,7 @@ import net.derpymeow.hospitals.block.BrickDarkBlock;
 import net.derpymeow.hospitals.block.BrickBeigeBlock;
 import net.derpymeow.hospitals.block.BottleFillingMachineBlock;
 import net.derpymeow.hospitals.block.BlueDeskTrayBlock;
+import net.derpymeow.hospitals.block.BloodBankBlock;
 import net.derpymeow.hospitals.block.BlockOfStainlessSteelBlock;
 import net.derpymeow.hospitals.block.BedsideHeadUnitBlock;
 import net.derpymeow.hospitals.block.AnalyticalBalanceBlock;
@@ -272,6 +273,7 @@ public class HospitalsModBlocks {
 	public static final RegistryObject<Block> WASTE_BIN_CLINICAL_WASTE = REGISTRY.register("waste_bin_clinical_waste", () -> new WasteBinClinicalWasteBlock());
 	public static final RegistryObject<Block> LIGHT_BLOCK = REGISTRY.register("light_block", () -> new LightBlockBlock());
 	public static final RegistryObject<Block> BLOCK_OF_STAINLESS_STEEL = REGISTRY.register("block_of_stainless_steel", () -> new BlockOfStainlessSteelBlock());
+	public static final RegistryObject<Block> BLOOD_BANK = REGISTRY.register("blood_bank", () -> new BloodBankBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -23,6 +23,7 @@ import net.derpymeow.hospitals.init.HospitalsModMobEffects;
 import net.derpymeow.hospitals.init.HospitalsModItems;
 import net.derpymeow.hospitals.init.HospitalsModEntities;
 import net.derpymeow.hospitals.init.HospitalsModBlocks;
+import net.derpymeow.hospitals.init.HospitalsModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -45,7 +46,7 @@ public class HospitalsMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		HospitalsModBlocks.REGISTRY.register(bus);
-
+		HospitalsModBlockEntities.REGISTRY.register(bus);
 		HospitalsModItems.REGISTRY.register(bus);
 		HospitalsModEntities.REGISTRY.register(bus);
 

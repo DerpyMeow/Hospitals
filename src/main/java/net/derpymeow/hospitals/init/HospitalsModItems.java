@@ -369,6 +369,7 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> BLOOD_BAG_6 = REGISTRY.register("blood_bag_6", () -> new BloodBag6Item());
 	public static final RegistryObject<Item> BLOOD_BAG_7 = REGISTRY.register("blood_bag_7", () -> new BloodBag7Item());
 	public static final RegistryObject<Item> CREATIVE_PILL = REGISTRY.register("creative_pill", () -> new CreativePillItem());
+	public static final RegistryObject<Item> BLOOD_BANK = block(HospitalsModBlocks.BLOOD_BANK);
 
 	// Start of user code block custom items
 	// End of user code block custom items
