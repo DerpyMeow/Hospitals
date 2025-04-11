@@ -7,7 +7,6 @@ package net.derpymeow.hospitals.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
@@ -177,9 +176,18 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModItems.COMPUTER.get());
 				tabData.accept(HospitalsModItems.BLOOD_TYPE_TESTER.get());
 				tabData.accept(HospitalsModItems.MASK_HELMET.get());
+				tabData.accept(HospitalsModItems.BLOOD_BAG_0.get());
+				tabData.accept(HospitalsModItems.BLOOD_BAG_1.get());
+				tabData.accept(HospitalsModItems.BLOOD_BAG_2.get());
+				tabData.accept(HospitalsModItems.BLOOD_BAG_3.get());
+				tabData.accept(HospitalsModItems.BLOOD_BAG_4.get());
+				tabData.accept(HospitalsModItems.BLOOD_BAG_5.get());
+				tabData.accept(HospitalsModItems.BLOOD_BAG_6.get());
+				tabData.accept(HospitalsModItems.BLOOD_BAG_7.get());
 			}).withSearchBar().withTabsBefore(FACILITIES_THM.getId()).build());
 	public static final RegistryObject<CreativeModeTab> HOSPITALSPILLS = REGISTRY.register("hospitalspills",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.hospitalspills")).icon(() -> new ItemStack(HospitalsModItems.PILL.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(HospitalsModItems.CREATIVE_PILL.get());
 				tabData.accept(HospitalsModItems.PILL.get());
 				tabData.accept(HospitalsModItems.PILL_1.get());
 				tabData.accept(HospitalsModItems.PILL_2.get());
@@ -270,9 +278,4 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModItems.PILL_BOTTLE_42.get());
 				tabData.accept(HospitalsModItems.PILL_BOTTLE_43.get());
 			}).withSearchBar().withTabsBefore(HOSPITALS.getId()).build());
-	public static final RegistryObject<CreativeModeTab> TESTS = REGISTRY.register("tests",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.tests")).icon(() -> new ItemStack(Blocks.BARRIER)).displayItems((parameters, tabData) -> {
-				tabData.accept(HospitalsModItems.SYRINGE.get());
-				tabData.accept(HospitalsModItems.EMPTYSYRINGE.get());
-			}).withSearchBar().withTabsBefore(HOSPITALSPILLS.getId()).build());
 }

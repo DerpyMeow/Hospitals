@@ -72,6 +72,7 @@ public abstract class ScrubmaskItem extends ArmorItem {
 			list.add(Component.translatable("item.hospitals.mask_helmet.description_0"));
 			list.add(Component.translatable("item.hospitals.mask_helmet.description_1"));
 			list.add(Component.translatable("item.hospitals.mask_helmet.description_2"));
+			list.add(Component.translatable("item.hospitals.mask_helmet.description_3"));
 		}
 
 		@Override

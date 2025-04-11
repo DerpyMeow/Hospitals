@@ -9,11 +9,7 @@
     "states": [],
     "name": "Empty Syringe TEST",
     "rarity": "EPIC",
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:Tests"
-      }
-    ],
+    "creativeTabs": [],
     "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,

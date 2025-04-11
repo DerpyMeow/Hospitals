@@ -3,16 +3,20 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "work_in_progress",
+    "texture": "creative_pill_tx",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Syringe TEST",
+    "name": "Creative Pill",
     "rarity": "EPIC",
-    "creativeTabs": [],
-    "stackSize": 1,
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Hospitalspills"
+      }
+    ],
+    "stackSize": 64,
     "enchantability": 0,
-    "useDuration": 0,
+    "useDuration": 1,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
@@ -27,16 +31,19 @@
     "specialInformation": {
       "fixedValue": [
         "",
-        "TEST!"
+        "- Avalible In Creative Only",
+        "- Cannot Be Put In A pill Bottle Or Purchased From A Villager",
+        "- Gives Infinite Speed, Night Vison, Jump Boost, Water Breathing, Saturation",
+        "- Use Fexofenadine Pill Or \"/Effect Clear\" To Remove Effects"
       ]
     },
     "glowCondition": {
-      "fixedValue": false
+      "fixedValue": true
     },
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onEntityHitWith": {
-      "name": "SyringeLivingEntityIsHitWithItem"
+    "onFinishUsingItem": {
+      "name": "CreativePillAte"
     },
     "enableRanged": false,
     "shootConstantly": false,
@@ -45,14 +52,14 @@
       "value": "Arrow"
     },
     "projectileDisableAmmoCheck": false,
-    "isFood": false,
-    "nutritionalValue": 4,
+    "isFood": true,
+    "nutritionalValue": 2,
     "saturation": 0.3,
     "eatResultItem": {
       "value": ""
     },
     "isMeat": false,
-    "isAlwaysEdible": false,
+    "isAlwaysEdible": true,
     "animation": "none",
     "isMusicDisc": false,
     "musicDiscMusic": {

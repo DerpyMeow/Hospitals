@@ -3,14 +3,18 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "work_in_progress",
+    "texture": "bloodbagtype1",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Syringe TEST",
+    "name": "O- Blood Bag",
     "rarity": "EPIC",
-    "creativeTabs": [],
-    "stackSize": 1,
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Hospitals"
+      }
+    ],
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -25,18 +29,18 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": [
-        "",
-        "TEST!"
-      ]
+      "fixedValue": []
     },
     "glowCondition": {
       "fixedValue": false
     },
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "BloodBagRightclicked1"
+    },
     "onEntityHitWith": {
-      "name": "SyringeLivingEntityIsHitWithItem"
+      "name": "AttemptedIllegal"
     },
     "enableRanged": false,
     "shootConstantly": false,

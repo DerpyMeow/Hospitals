@@ -7005,17 +7005,6 @@
       "path": "~/Hospitals/Blood"
     },
     {
-      "name": "Tests",
-      "type": "tab",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tests",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Creative Tabs"
-    },
-    {
       "name": "BloodTypeTesterRightclicked",
       "type": "procedure",
       "compiles": true,
@@ -7234,6 +7223,591 @@
         ]
       },
       "path": "~/Hospitals"
+    },
+    {
+      "name": "BloodTypeReciveCheck",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_type_recive_check",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BloodTypeReciveCheckProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "bt1",
+            "type": "number"
+          },
+          {
+            "name": "bt2",
+            "type": "number"
+          }
+        ],
+        "return_type": "logic"
+      },
+      "path": "~/Hospitals/Blood"
+    },
+    {
+      "name": "BloodTypeReciveCheckCommandPasser",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_type_recive_check_command_passer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BloodTypeReciveCheckCommandPasserProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood"
+    },
+    {
+      "name": "BloodBagRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_bag_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BloodBagRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Bags/BloodBagProcedures"
+    },
+    {
+      "name": "BloodBag0",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_bag_0",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/BloodBag0Item.java",
+          "src/main/resources/assets/hospitals/models/item/blood_bag_0.json"
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Bags"
+    },
+    {
+      "name": "BloodBag1",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_bag_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/blood_bag_1.json",
+          "src/main/java/net/derpymeow/hospitals/item/BloodBag1Item.java"
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Bags"
+    },
+    {
+      "name": "BloodBag2",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_bag_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/BloodBag2Item.java",
+          "src/main/resources/assets/hospitals/models/item/blood_bag_2.json"
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Bags"
+    },
+    {
+      "name": "BloodBag3",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_bag_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/BloodBag3Item.java",
+          "src/main/resources/assets/hospitals/models/item/blood_bag_3.json"
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Bags"
+    },
+    {
+      "name": "BloodBag4",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_bag_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/blood_bag_4.json",
+          "src/main/java/net/derpymeow/hospitals/item/BloodBag4Item.java"
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Bags"
+    },
+    {
+      "name": "BloodBag5",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_bag_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/BloodBag5Item.java",
+          "src/main/resources/assets/hospitals/models/item/blood_bag_5.json"
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Bags"
+    },
+    {
+      "name": "BloodBag6",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_bag_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/BloodBag6Item.java",
+          "src/main/resources/assets/hospitals/models/item/blood_bag_6.json"
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Bags"
+    },
+    {
+      "name": "BloodBag7",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_bag_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/blood_bag_7.json",
+          "src/main/java/net/derpymeow/hospitals/item/BloodBag7Item.java"
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Bags"
+    },
+    {
+      "name": "BloodBagRightclicked1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_bag_rightclicked_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BloodBagRightclicked1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Bags/BloodBagProcedures"
+    },
+    {
+      "name": "BloodBagRightclicked2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_bag_rightclicked_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BloodBagRightclicked2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Bags/BloodBagProcedures"
+    },
+    {
+      "name": "BloodBagRightclicked3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_bag_rightclicked_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BloodBagRightclicked3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Bags/BloodBagProcedures"
+    },
+    {
+      "name": "BloodBagRightclicked4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_bag_rightclicked_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BloodBagRightclicked4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Bags/BloodBagProcedures"
+    },
+    {
+      "name": "BloodBagRightclicked5",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_bag_rightclicked_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BloodBagRightclicked5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Bags/BloodBagProcedures"
+    },
+    {
+      "name": "BloodBagRightclicked6",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_bag_rightclicked_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BloodBagRightclicked6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Bags/BloodBagProcedures"
+    },
+    {
+      "name": "BloodBagRightclicked7",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_bag_rightclicked_7",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BloodBagRightclicked7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Bags/BloodBagProcedures"
+    },
+    {
+      "name": "GoodBlood",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "good_blood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/GoodBloodProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood"
+    },
+    {
+      "name": "BadBlood",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bad_blood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BadBloodProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood"
+    },
+    {
+      "name": "BaCounterOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ba_counter_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/client/screens/BaCounterOverlayOverlay.java"
+        ]
+      },
+      "path": "~/Hospitals/Blood/visual display"
+    },
+    {
+      "name": "BaCounterOverlayStringPasser",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ba_counter_overlay_string_passer",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BaCounterOverlayStringPasserProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood/visual display"
+    },
+    {
+      "name": "Showbaco",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "showbaco",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/ShowbacoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood/visual display"
+    },
+    {
+      "name": "BACOPASSER",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bacopasser",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BACOPASSERProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood/visual display"
+    },
+    {
+      "name": "BloodAmountAdd",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_amount_add",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BloodAmountAddProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood"
+    },
+    {
+      "name": "BloodAmountSubtract",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_amount_subtract",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BloodAmountSubtractProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood"
+    },
+    {
+      "name": "SelfBloodProduction",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "self_blood_production",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/SelfBloodProductionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood"
+    },
+    {
+      "name": "BloodCommandHelp",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_command_help",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BloodCommandHelpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood"
+    },
+    {
+      "name": "AttemptedIllegal",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "attempted_illegal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/AttemptedIllegalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Bags/BloodBagProcedures"
+    },
+    {
+      "name": "CreativePill",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creative_pill",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/CreativePillItem.java",
+          "src/main/resources/assets/hospitals/models/item/creative_pill.json"
+        ]
+      },
+      "path": "~/Hospitals/Pills/Pills"
+    },
+    {
+      "name": "CreativePillAte",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creative_pill_ate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/CreativePillAteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Pills/Pills/Ate Procedures"
     }
   ],
   "variable_elements": [
@@ -7248,6 +7822,12 @@
       "type": "number",
       "scope": "player_lifetime",
       "value": "160.0"
+    },
+    {
+      "name": "display_blood_counter",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
     }
   ],
   "sound_elements": [],
@@ -7427,9 +8007,18 @@
       "ComputerChip",
       "Computer",
       "BloodTypeTester",
-      "Scrubmask"
+      "Scrubmask",
+      "BloodBag0",
+      "BloodBag1",
+      "BloodBag2",
+      "BloodBag3",
+      "BloodBag4",
+      "BloodBag5",
+      "BloodBag6",
+      "BloodBag7"
     ],
     "CUSTOM:Hospitalspills": [
+      "CreativePill",
       "Pill",
       "Pill1",
       "Pill2",
@@ -7525,8 +8114,8 @@
     "en_us": {
       "item.hospitals.pill_bottle_17.description_1": "Right Click To Open",
       "item.hospitals.pill_42.description_2": "-Effect: Instant Health",
-      "item.hospitals.pill_bottle_17.description_0": "",
       "item.hospitals.pill_42.description_1": "-Use: Red Blood Cell Formation / Liver",
+      "item.hospitals.pill_bottle_17.description_0": "",
       "item.hospitals.pill_42.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_42.description_0": "",
       "item.hospitals.pillbottle_12.description_1": "Right Click To Open",
@@ -7536,6 +8125,7 @@
       "item.hospitals.pillbottle_3.description_0": "",
       "item.hospitals.pillbottle_3.description_1": "Right Click To Open",
       "block.hospitals.fire_extinguisher": "Fire Extinguisher",
+      "item.hospitals.creative_pill": "Creative Pill",
       "block.hospitals.surgical_trolley": "Surgical Trolley",
       "item.hospitals.pill_bottle_8": "Diphenhydramine Pill Bottle",
       "item.hospitals.pill_14.description_3": "-Pills Can Be Used To Fill Pill Bottles",
@@ -7563,8 +8153,8 @@
       "block.hospitals.vinyl_wall_aqua_type_1": "Vinyl Wall - Aqua (Type 1)",
       "item.hospitals.pill_bottle_36.description_0": "",
       "item_group.hospitals.facilities_thm": "Facilities - THM",
-      "block.hospitals.prescription_shelf": "Prescription Shelf",
       "block.hospitals.cladding_stone_effect": "Cladding (Stone Effect)",
+      "block.hospitals.prescription_shelf": "Prescription Shelf",
       "item.hospitals.pillbottleempty.description_1": "Put In Center Slot Of Crafting Table And Put Pills In The Other 8 Slots to Fill Bottle",
       "item.hospitals.pillbottleempty.description_0": "",
       "item.hospitals.pillbottle_21.description_1": "Right Click To Open",
@@ -7589,15 +8179,23 @@
       "item.hospitals.pillbottle_2.description_1": "Right Click To Open",
       "block.hospitals.wall_storage_tubs_yellow": "Wall Storage Tubs (Yellow)",
       "item.hospitals.pill_bottle_25.description_0": "",
+      "item.hospitals.blood_bag_7": "AB- Blood Bag",
+      "item.hospitals.blood_bag_6": "AB+ Blood Bag",
+      "item.hospitals.blood_bag_5": "B- Blood Bag",
       "item.hospitals.pill_34.description_2": "-Effect: Regeneration, Health Boost",
+      "item.hospitals.blood_bag_4": "B+ Blood Bag",
       "item.hospitals.pill_34.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_bottle_25.description_1": "Right Click To Open",
       "block.hospitals.medical_gas_ceiling_mounted": "Medical Gas (Ceiling Mounted)",
       "item.hospitals.unprocessed_steel.description_0": "",
       "block.hospitals.fire_exit_sign_ceiling_mounted": "Fire Exit Sign (Ceiling Mounted)",
       "item.hospitals.unprocessed_steel.description_1": "so dirty but so pure...",
+      "item.hospitals.blood_bag_3": "A- Blood Bag",
       "item.hospitals.pill_34.description_0": "",
       "item.hospitals.pill_34.description_1": "-Use: Strengthen Immune System",
+      "item.hospitals.blood_bag_2": "A+ Blood Bag",
+      "item.hospitals.blood_bag_1": "O- Blood Bag",
+      "item.hospitals.blood_bag_0": "O+ Blood Bag",
       "block.hospitals.brick_beige": "Brick (Beige)",
       "item.hospitals.pillbottle_20.description_0": "",
       "block.hospitals.medical_cross": "Medical Cross",
@@ -7744,6 +8342,7 @@
       "block.hospitals.patient_informaiton_point": "Patient Informaiton Point",
       "item.hospitals.pill_16.description_1": "-Use: High Blood Pressure",
       "item.hospitals.pill_16.description_0": "",
+      "gui.hospitals.ba_counter_overlay.label_empty": "",
       "block.hospitals.computer_screen_2_ct_scan_viewer": "Computer Screen 2 (CT Scan Viewer)",
       "item.hospitals.pill_42": "Vitamin B9 (Folate/Folic Acid)",
       "item.hospitals.pill_43": "Vitamin B12 (cyanocobalamin)",
@@ -7822,6 +8421,7 @@
       "item.hospitals.mask_helmet.description_0": "",
       "item.hospitals.mask_helmet.description_1": "- Rendering May Look Weird / \"Too Big\"",
       "item.hospitals.mask_helmet.description_2": "- This Item Is Not Fully Completed / Will Be Changed Or Removed In A Future Update",
+      "item.hospitals.mask_helmet.description_3": "- Not Craftable For Now",
       "item.hospitals.pill_bottle_13.description_0": "",
       "item.hospitals.pill_bottle_13.description_1": "Right Click To Open",
       "block.hospitals.vinyl_floor_aqua_type_2": "Vinyl Floor - Aqua (Type 2)",
@@ -7943,13 +8543,18 @@
       "block.hospitals.plastered_wall_lime": "Plastered Wall (Lime)",
       "item.hospitals.pill_40.description_0": "",
       "item.hospitals.pill_bottle_41": "Vitamin B7 (Biotin) Pill Bottle",
+      "item.hospitals.creative_pill.description_1": "- Avalible In Creative Only",
       "item.hospitals.pill_bottle_42": "Vitamin B9 (Folate/Folic Acid) Pill Bottle",
+      "item.hospitals.creative_pill.description_0": "",
       "item.hospitals.pill_bottle_43": "Vitamin B12 (cyanocobalamin) Pill Bottle",
+      "item.hospitals.creative_pill.description_3": "- Gives Infinite Speed, Night Vison, Jump Boost, Water Breathing, Saturation",
       "item.hospitals.pill_31.description_0": "",
+      "item.hospitals.creative_pill.description_2": "- Cannot Be Put In A pill Bottle Or Purchased From A Villager",
       "item.hospitals.pillbottle_1.description_1": "Right Click To Open",
       "item.hospitals.pill_31.description_1": "-Use: Maintaining Eyesight",
       "item.hospitals.pillbottle_1.description_0": "",
       "item.hospitals.pill_31.description_2": "-Effect: Night Vision",
+      "item.hospitals.creative_pill.description_4": "- Use Fexofenadine Pill Or \"/Effect Clear\" To Remove Effects",
       "item.hospitals.pill_4.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_31.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.largemedkit": "Large Medkit",
@@ -8005,7 +8610,6 @@
       "item.hospitals.pill_bottle_26": "Gabapentin Pill Bottle",
       "item.hospitals.pill_bottle_34.description_1": "Right Click To Open",
       "block.hospitals.surgical_refridgerated_cabinet": "Surgical Refridgerated Cabinet",
-      "item_group.hospitals.tests": "Hospitals - Test Items",
       "item.hospitals.pill_41.description_0": "",
       "item.hospitals.pill_41.description_1": "-Use: Meatbolism",
       "item.hospitals.pillbottle_4.description_1": "Right Click To Open",
@@ -8091,7 +8695,21 @@
           },
           {
             "name": "Blood",
-            "children": []
+            "children": [
+              {
+                "name": "visual display",
+                "children": []
+              },
+              {
+                "name": "Blood Bags",
+                "children": [
+                  {
+                    "name": "BloodBagProcedures",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -8126,6 +8744,10 @@
       },
       {
         "name": "TEST",
+        "children": []
+      },
+      {
+        "name": "Loot Tables",
         "children": []
       }
     ]

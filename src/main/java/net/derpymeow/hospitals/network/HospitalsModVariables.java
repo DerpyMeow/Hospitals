@@ -67,6 +67,7 @@ public class HospitalsModVariables {
 			PlayerVariables original = ((PlayerVariables) event.getOriginal().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			clone.blood_type = original.blood_type;
+			clone.display_blood_counter = original.display_blood_counter;
 			if (!event.isWasDeath()) {
 				clone.blood_amount = original.blood_amount;
 			}
@@ -106,6 +107,7 @@ public class HospitalsModVariables {
 	public static class PlayerVariables {
 		public double blood_type = 9.0;
 		public double blood_amount = 160.0;
+		public boolean display_blood_counter = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -116,6 +118,7 @@ public class HospitalsModVariables {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putDouble("blood_type", blood_type);
 			nbt.putDouble("blood_amount", blood_amount);
+			nbt.putBoolean("display_blood_counter", display_blood_counter);
 			return nbt;
 		}
 
@@ -123,6 +126,7 @@ public class HospitalsModVariables {
 			CompoundTag nbt = (CompoundTag) tag;
 			blood_type = nbt.getDouble("blood_type");
 			blood_amount = nbt.getDouble("blood_amount");
+			display_blood_counter = nbt.getBoolean("display_blood_counter");
 		}
 	}
 
@@ -149,6 +153,7 @@ public class HospitalsModVariables {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 					variables.blood_type = message.data.blood_type;
 					variables.blood_amount = message.data.blood_amount;
+					variables.display_blood_counter = message.data.display_blood_counter;
 				}
 			});
 			context.setPacketHandled(true);
