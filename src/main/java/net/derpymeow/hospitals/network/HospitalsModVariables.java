@@ -68,6 +68,7 @@ public class HospitalsModVariables {
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			clone.blood_type = original.blood_type;
 			clone.display_blood_counter = original.display_blood_counter;
+			clone.hurt_blood_loss = original.hurt_blood_loss;
 			if (!event.isWasDeath()) {
 				clone.blood_amount = original.blood_amount;
 			}
@@ -108,6 +109,7 @@ public class HospitalsModVariables {
 		public double blood_type = 9.0;
 		public double blood_amount = 160.0;
 		public boolean display_blood_counter = false;
+		public boolean hurt_blood_loss = true;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -119,6 +121,7 @@ public class HospitalsModVariables {
 			nbt.putDouble("blood_type", blood_type);
 			nbt.putDouble("blood_amount", blood_amount);
 			nbt.putBoolean("display_blood_counter", display_blood_counter);
+			nbt.putBoolean("hurt_blood_loss", hurt_blood_loss);
 			return nbt;
 		}
 
@@ -127,6 +130,7 @@ public class HospitalsModVariables {
 			blood_type = nbt.getDouble("blood_type");
 			blood_amount = nbt.getDouble("blood_amount");
 			display_blood_counter = nbt.getBoolean("display_blood_counter");
+			hurt_blood_loss = nbt.getBoolean("hurt_blood_loss");
 		}
 	}
 
@@ -154,6 +158,7 @@ public class HospitalsModVariables {
 					variables.blood_type = message.data.blood_type;
 					variables.blood_amount = message.data.blood_amount;
 					variables.display_blood_counter = message.data.display_blood_counter;
+					variables.hurt_blood_loss = message.data.hurt_blood_loss;
 				}
 			});
 			context.setPacketHandled(true);
