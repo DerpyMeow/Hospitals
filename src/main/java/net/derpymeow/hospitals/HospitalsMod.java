@@ -20,6 +20,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.derpymeow.hospitals.init.HospitalsModVillagerProfessions;
 import net.derpymeow.hospitals.init.HospitalsModTabs;
 import net.derpymeow.hospitals.init.HospitalsModMobEffects;
+import net.derpymeow.hospitals.init.HospitalsModMenus;
 import net.derpymeow.hospitals.init.HospitalsModItems;
 import net.derpymeow.hospitals.init.HospitalsModEntities;
 import net.derpymeow.hospitals.init.HospitalsModBlocks;
@@ -55,6 +56,7 @@ public class HospitalsMod {
 		HospitalsModMobEffects.REGISTRY.register(bus);
 
 		HospitalsModVillagerProfessions.PROFESSIONS.register(bus);
+		HospitalsModMenus.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
