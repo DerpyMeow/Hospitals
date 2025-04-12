@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "hospitals:mask_helmet",
     "hospitals:scrubs_helmet"
   ]
 }

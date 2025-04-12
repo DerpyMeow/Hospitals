@@ -4,7 +4,7 @@ license="MIT License"
 
 [[mods]]
 modId="hospitals"
-version="2.0.0"
+version="3.0.0"
 displayName="Hospitals (THM Expanded)"
 updateJSONURL="https://raw.githubusercontent.com/DerpyMeow/Hospitals/refs/heads/master/UpdateChecker.json"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/hospitals"
