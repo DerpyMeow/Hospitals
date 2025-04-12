@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "hospitals:block_of_stainless_steel"
+    },
+    "b": {
+      "item": "minecraft:glass"
+    },
+    "c": {
+      "item": "minecraft:diamond"
+    },
+    "d": {
+      "item": "minecraft:water_bucket"
+    },
+    "e": {
+      "item": "hospitals:computer"
+    }
+  },
+  "result": {
+    "item": "hospitals:blood_bank",
+    "count": 1
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BlockOfStainlessSteel"
+      },
+      {
+        "value": "Blocks.GLASS"
+      },
+      {
+        "value": "CUSTOM:BlockOfStainlessSteel"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "CUSTOM:BlockOfStainlessSteel"
+      },
+      {
+        "value": "CUSTOM:Computer"
+      },
+      {
+        "value": "CUSTOM:BlockOfStainlessSteel"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BloodBank"
+    },
+    "name": "bbr",
+    "namespace": "mod"
+  }
+}

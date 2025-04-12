@@ -24,12 +24,12 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 0.5,
+        "mx": 0.0,
         "my": 0.0,
-        "mz": 0.5,
-        "Mx": 15.5,
-        "My": 25.0,
-        "Mz": 15.5,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 32.0,
+        "Mz": 16.0,
         "subtract": false
       }
     ],
@@ -106,13 +106,20 @@
     "vanillaToolTier": "NONE",
     "isBonemealable": false,
     "hasInventory": true,
+    "guiBoundTo": "BloodBankGUI",
     "openGUIOnRightClick": true,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
-    "inventoryOutSlotIDs": [],
-    "inventoryInSlotIDs": [],
+    "inventoryOutSlotIDs": [
+      0,
+      1
+    ],
+    "inventoryInSlotIDs": [
+      0,
+      1
+    ],
     "hasEnergyStorage": false,
     "energyInitial": 0,
     "energyCapacity": 400000,

@@ -3,7 +3,7 @@
   "_type": "gui",
   "definition": {
     "type": 1,
-    "width": 310,
+    "width": 235,
     "height": 166,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
@@ -21,27 +21,8 @@
             "value": -52429,
             "falpha": 0.0
           },
-          "x": 185,
-          "y": 109,
-          "locked": false
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "id": 0,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 68,
-          "y": 45,
+          "x": 187,
+          "y": 40,
           "locked": false
         }
       },
@@ -56,113 +37,8 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 130,
-          "y": 41,
-          "locked": false
-        }
-      },
-      {
-        "type": "checkbox",
-        "data": {
-          "name": "obox",
-          "text": "O",
-          "x": 165,
-          "y": 76,
-          "locked": false
-        }
-      },
-      {
-        "type": "checkbox",
-        "data": {
-          "name": "abox",
-          "text": "A",
-          "x": 121,
-          "y": 52,
-          "locked": false
-        }
-      },
-      {
-        "type": "checkbox",
-        "data": {
-          "name": "bbox",
-          "text": "B",
-          "x": 165,
-          "y": 52,
-          "locked": false
-        }
-      },
-      {
-        "type": "checkbox",
-        "data": {
-          "name": "abbox",
-          "text": "AB",
-          "x": 121,
-          "y": 77,
-          "locked": false
-        }
-      },
-      {
-        "type": "checkbox",
-        "data": {
-          "name": "pos",
-          "text": "+",
-          "x": 231,
-          "y": 52,
-          "locked": false
-        }
-      },
-      {
-        "type": "checkbox",
-        "data": {
-          "name": "neg",
-          "text": "-",
-          "x": 265,
-          "y": 52,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_select",
-          "text": {
-            "fixedValue": "Select +/-"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 234,
-          "y": 42,
-          "locked": false
-        }
-      },
-      {
-        "type": "outputslot",
-        "data": {
-          "id": 1,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 338,
-          "y": 56,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_output",
-          "text": {
-            "fixedValue": "Output"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 333,
-          "y": 81,
+          "x": 184,
+          "y": 51,
           "locked": false
         }
       },
@@ -177,8 +53,8 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 64,
-          "y": 65,
+          "x": 102,
+          "y": 44,
           "locked": false
         }
       },
@@ -193,8 +69,8 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 63,
-          "y": 77,
+          "x": 100,
+          "y": 55,
           "locked": false
         }
       },
@@ -209,24 +85,8 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 66,
-          "y": 88,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_placeholder",
-          "text": {
-            "fixedValue": "PLACEHOLDER"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 228,
-          "y": 82,
+          "x": 104,
+          "y": 65,
           "locked": false
         }
       },
@@ -241,40 +101,136 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 93,
-          "y": 69,
+          "x": 101,
+          "y": 78,
           "locked": false
         }
       },
       {
-        "type": "label",
+        "type": "button",
         "data": {
-          "name": "label_empty2",
-          "text": {
-            "fixedValue": "> > >"
+          "name": "button_a",
+          "text": "A+",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ButtonClickedAP"
           },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 197,
-          "y": 70,
+          "width": 35,
+          "height": 20,
+          "x": 134,
+          "y": 62,
           "locked": false
         }
       },
       {
-        "type": "label",
+        "type": "button",
         "data": {
-          "name": "label_empty3",
-          "text": {
-            "fixedValue": "> > >"
+          "name": "button_a1",
+          "text": "A-",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ButtonClickedAM"
           },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
+          "width": 35,
+          "height": 20,
+          "x": 134,
+          "y": 86,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_b",
+          "text": "B+",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ButtonClickedBP"
           },
-          "x": 302,
-          "y": 72,
+          "width": 35,
+          "height": 20,
+          "x": 173,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_b1",
+          "text": "B-",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ButtonClickedBM"
+          },
+          "width": 35,
+          "height": 20,
+          "x": 173,
+          "y": 86,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_o",
+          "text": "O+",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ButtonClickedOP"
+          },
+          "width": 35,
+          "height": 20,
+          "x": 212,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_o1",
+          "text": "O-",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ButtonClickedOM"
+          },
+          "width": 35,
+          "height": 20,
+          "x": 212,
+          "y": 86,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_ab",
+          "text": "AB+",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ButtonClickedABP"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 250,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_ab1",
+          "text": "AB-",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ButtonClickedABM"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 250,
+          "y": 86,
           "locked": false
         }
       }

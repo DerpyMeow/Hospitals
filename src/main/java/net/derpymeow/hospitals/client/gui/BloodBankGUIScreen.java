@@ -6,10 +6,12 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.Checkbox;
+import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.derpymeow.hospitals.world.inventory.BloodBankGUIMenu;
+import net.derpymeow.hospitals.network.BloodBankGUIButtonMessage;
+import net.derpymeow.hospitals.HospitalsMod;
 
 import java.util.HashMap;
 
@@ -20,12 +22,14 @@ public class BloodBankGUIScreen extends AbstractContainerScreen<BloodBankGUIMenu
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-	Checkbox obox;
-	Checkbox abox;
-	Checkbox bbox;
-	Checkbox abbox;
-	Checkbox pos;
-	Checkbox neg;
+	Button button_a;
+	Button button_a1;
+	Button button_b;
+	Button button_b1;
+	Button button_o;
+	Button button_o1;
+	Button button_ab;
+	Button button_ab1;
 
 	public BloodBankGUIScreen(BloodBankGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -34,7 +38,7 @@ public class BloodBankGUIScreen extends AbstractContainerScreen<BloodBankGUIMenu
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 310;
+		this.imageWidth = 235;
 		this.imageHeight = 166;
 	}
 
@@ -72,39 +76,80 @@ public class BloodBankGUIScreen extends AbstractContainerScreen<BloodBankGUIMenu
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.hospitals.blood_bank_gui.label_blood_bank"), 126, 72, -52429, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.hospitals.blood_bank_gui.label_select_type"), 71, 4, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.hospitals.blood_bank_gui.label_select"), 175, 5, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.hospitals.blood_bank_gui.label_output"), 274, 44, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.hospitals.blood_bank_gui.label_empty"), 5, 28, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.hospitals.blood_bank_gui.label_blood"), 4, 40, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.hospitals.blood_bank_gui.label_bag"), 7, 51, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.hospitals.blood_bank_gui.label_placeholder"), 169, 45, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.hospitals.blood_bank_gui.label_empty1"), 34, 32, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.hospitals.blood_bank_gui.label_empty2"), 138, 33, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.hospitals.blood_bank_gui.label_empty3"), 243, 35, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.hospitals.blood_bank_gui.label_blood_bank"), 91, 3, -52429, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.hospitals.blood_bank_gui.label_select_type"), 88, 14, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.hospitals.blood_bank_gui.label_empty"), 6, 7, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.hospitals.blood_bank_gui.label_blood"), 4, 18, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.hospitals.blood_bank_gui.label_bag"), 8, 28, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.hospitals.blood_bank_gui.label_empty1"), 5, 41, -12829636, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
-		obox = new Checkbox(this.leftPos + 106, this.topPos + 39, 20, 20, Component.translatable("gui.hospitals.blood_bank_gui.obox"), false);
-		guistate.put("checkbox:obox", obox);
-		this.addRenderableWidget(obox);
-		abox = new Checkbox(this.leftPos + 62, this.topPos + 15, 20, 20, Component.translatable("gui.hospitals.blood_bank_gui.abox"), false);
-		guistate.put("checkbox:abox", abox);
-		this.addRenderableWidget(abox);
-		bbox = new Checkbox(this.leftPos + 106, this.topPos + 15, 20, 20, Component.translatable("gui.hospitals.blood_bank_gui.bbox"), false);
-		guistate.put("checkbox:bbox", bbox);
-		this.addRenderableWidget(bbox);
-		abbox = new Checkbox(this.leftPos + 62, this.topPos + 40, 20, 20, Component.translatable("gui.hospitals.blood_bank_gui.abbox"), false);
-		guistate.put("checkbox:abbox", abbox);
-		this.addRenderableWidget(abbox);
-		pos = new Checkbox(this.leftPos + 172, this.topPos + 15, 20, 20, Component.translatable("gui.hospitals.blood_bank_gui.pos"), false);
-		guistate.put("checkbox:pos", pos);
-		this.addRenderableWidget(pos);
-		neg = new Checkbox(this.leftPos + 206, this.topPos + 15, 20, 20, Component.translatable("gui.hospitals.blood_bank_gui.neg"), false);
-		guistate.put("checkbox:neg", neg);
-		this.addRenderableWidget(neg);
+		button_a = Button.builder(Component.translatable("gui.hospitals.blood_bank_gui.button_a"), e -> {
+			if (true) {
+				HospitalsMod.PACKET_HANDLER.sendToServer(new BloodBankGUIButtonMessage(0, x, y, z));
+				BloodBankGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
+		}).bounds(this.leftPos + 38, this.topPos + 25, 35, 20).build();
+		guistate.put("button:button_a", button_a);
+		this.addRenderableWidget(button_a);
+		button_a1 = Button.builder(Component.translatable("gui.hospitals.blood_bank_gui.button_a1"), e -> {
+			if (true) {
+				HospitalsMod.PACKET_HANDLER.sendToServer(new BloodBankGUIButtonMessage(1, x, y, z));
+				BloodBankGUIButtonMessage.handleButtonAction(entity, 1, x, y, z);
+			}
+		}).bounds(this.leftPos + 38, this.topPos + 49, 35, 20).build();
+		guistate.put("button:button_a1", button_a1);
+		this.addRenderableWidget(button_a1);
+		button_b = Button.builder(Component.translatable("gui.hospitals.blood_bank_gui.button_b"), e -> {
+			if (true) {
+				HospitalsMod.PACKET_HANDLER.sendToServer(new BloodBankGUIButtonMessage(2, x, y, z));
+				BloodBankGUIButtonMessage.handleButtonAction(entity, 2, x, y, z);
+			}
+		}).bounds(this.leftPos + 77, this.topPos + 25, 35, 20).build();
+		guistate.put("button:button_b", button_b);
+		this.addRenderableWidget(button_b);
+		button_b1 = Button.builder(Component.translatable("gui.hospitals.blood_bank_gui.button_b1"), e -> {
+			if (true) {
+				HospitalsMod.PACKET_HANDLER.sendToServer(new BloodBankGUIButtonMessage(3, x, y, z));
+				BloodBankGUIButtonMessage.handleButtonAction(entity, 3, x, y, z);
+			}
+		}).bounds(this.leftPos + 77, this.topPos + 49, 35, 20).build();
+		guistate.put("button:button_b1", button_b1);
+		this.addRenderableWidget(button_b1);
+		button_o = Button.builder(Component.translatable("gui.hospitals.blood_bank_gui.button_o"), e -> {
+			if (true) {
+				HospitalsMod.PACKET_HANDLER.sendToServer(new BloodBankGUIButtonMessage(4, x, y, z));
+				BloodBankGUIButtonMessage.handleButtonAction(entity, 4, x, y, z);
+			}
+		}).bounds(this.leftPos + 116, this.topPos + 25, 35, 20).build();
+		guistate.put("button:button_o", button_o);
+		this.addRenderableWidget(button_o);
+		button_o1 = Button.builder(Component.translatable("gui.hospitals.blood_bank_gui.button_o1"), e -> {
+			if (true) {
+				HospitalsMod.PACKET_HANDLER.sendToServer(new BloodBankGUIButtonMessage(5, x, y, z));
+				BloodBankGUIButtonMessage.handleButtonAction(entity, 5, x, y, z);
+			}
+		}).bounds(this.leftPos + 116, this.topPos + 49, 35, 20).build();
+		guistate.put("button:button_o1", button_o1);
+		this.addRenderableWidget(button_o1);
+		button_ab = Button.builder(Component.translatable("gui.hospitals.blood_bank_gui.button_ab"), e -> {
+			if (true) {
+				HospitalsMod.PACKET_HANDLER.sendToServer(new BloodBankGUIButtonMessage(6, x, y, z));
+				BloodBankGUIButtonMessage.handleButtonAction(entity, 6, x, y, z);
+			}
+		}).bounds(this.leftPos + 154, this.topPos + 25, 40, 20).build();
+		guistate.put("button:button_ab", button_ab);
+		this.addRenderableWidget(button_ab);
+		button_ab1 = Button.builder(Component.translatable("gui.hospitals.blood_bank_gui.button_ab1"), e -> {
+			if (true) {
+				HospitalsMod.PACKET_HANDLER.sendToServer(new BloodBankGUIButtonMessage(7, x, y, z));
+				BloodBankGUIButtonMessage.handleButtonAction(entity, 7, x, y, z);
+			}
+		}).bounds(this.leftPos + 154, this.topPos + 49, 40, 20).build();
+		guistate.put("button:button_ab1", button_ab1);
+		this.addRenderableWidget(button_ab1);
 	}
 }
