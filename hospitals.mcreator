@@ -8215,6 +8215,370 @@
         ]
       },
       "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "BloodTypeTesterGetPlayerCommand",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_type_tester_get_player_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BloodTypeTesterGetPlayerCommandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood"
+    },
+    {
+      "name": "Showbloodparticles",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "showbloodparticles",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/Hospitals/Blood/BloodParticles"
+    },
+    {
+      "name": "BloodParticle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_particle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/particles/blood_particle.json",
+          "src/main/java/net/derpymeow/hospitals/client/particle/BloodParticleParticle.java"
+        ]
+      },
+      "path": "~/Hospitals/Blood/BloodParticles"
+    },
+    {
+      "name": "BloodParticlesDisplay",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_particles_display",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BloodParticlesDisplayProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood/BloodParticles"
+    },
+    {
+      "name": "BloodParticleDisplayProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_particle_display_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BloodParticleDisplayProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood/BloodParticles"
+    },
+    {
+      "name": "ReturnBPOverlay",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_bp_overlay",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/ReturnBPOverlayProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Pressure"
+    },
+    {
+      "name": "BPOveralyDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bp_overaly_display_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BPOveralyDisplayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Pressure"
+    },
+    {
+      "name": "BPdisplay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_pdisplay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/client/screens/BPdisplayOverlay.java"
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Pressure"
+    },
+    {
+      "name": "ChangeBPVisualDisplayCommand",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "change_bp_visual_display_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/ChangeBPVisualDisplayCommandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Pressure"
+    },
+    {
+      "name": "BPSet",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bp_set",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BPSetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Pressure"
+    },
+    {
+      "name": "BPGet",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bp_get",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BPGetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Pressure"
+    },
+    {
+      "name": "Bloodpressuremechanics",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodpressuremechanics",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/Hospitals/Blood/Blood Pressure"
+    },
+    {
+      "name": "Bpmechanicstoggle",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bpmechanicstoggle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BpmechanicstoggleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Pressure"
+    },
+    {
+      "name": "BloodPressureCuffRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_pressure_cuff_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BloodPressureCuffRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Pressure"
+    },
+    {
+      "name": "BloodPressureCuff",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_pressure_cuff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/BloodPressureCuffItem.java",
+          "src/main/resources/assets/hospitals/models/item/blood_pressure_cuff.json"
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Pressure"
+    },
+    {
+      "name": "BloodPressureCuffRightClickedEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_pressure_cuff_right_clicked_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BloodPressureCuffRightClickedEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Pressure"
+    },
+    {
+      "name": "Bpcr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bpcr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/bpcr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "GetPressureStatus",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_pressure_status",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/GetPressureStatusProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Pressure"
+    },
+    {
+      "name": "LowerBloodPressure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lower_blood_pressure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/LowerBloodPressureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hospitals/Blood/Blood Pressure"
     }
   ],
   "variable_elements": [
@@ -8238,6 +8602,36 @@
     },
     {
       "name": "hurt_blood_loss",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "true"
+    },
+    {
+      "name": "show_blood_particles",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "true"
+    },
+    {
+      "name": "blood_pressure_systolic",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "110.0"
+    },
+    {
+      "name": "blood_pressure_diastolic",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "68.0"
+    },
+    {
+      "name": "display_blood_pressure",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "blood_pressure_mechanics",
       "type": "logic",
       "scope": "player_persistent",
       "value": "true"
@@ -8266,7 +8660,31 @@
       "CUSTOM:Pill17",
       "CUSTOM:Pill18",
       "CUSTOM:Pill19",
-      "CUSTOM:Pill20"
+      "CUSTOM:Pill20",
+      "CUSTOM:Pill21",
+      "CUSTOM:Pill22",
+      "CUSTOM:Pill23",
+      "CUSTOM:Pill24",
+      "CUSTOM:Pill25",
+      "CUSTOM:Pill26",
+      "CUSTOM:Pill27",
+      "CUSTOM:Pill28",
+      "CUSTOM:Pill29",
+      "CUSTOM:Pill30",
+      "CUSTOM:Pill31",
+      "CUSTOM:Pill32",
+      "CUSTOM:Pill33",
+      "CUSTOM:Pill34",
+      "CUSTOM:Pill35",
+      "CUSTOM:Pill36",
+      "CUSTOM:Pill37",
+      "CUSTOM:Pill38",
+      "CUSTOM:Pill39",
+      "CUSTOM:Pill40",
+      "CUSTOM:Pill41",
+      "CUSTOM:Pill42",
+      "CUSTOM:Pill43",
+      "CUSTOM:CreativePill"
     ]
   },
   "tab_element_order": {
@@ -8430,7 +8848,8 @@
       "BloodBag6",
       "BloodBag7",
       "BloodBank",
-      "BloodBagEmpty"
+      "BloodBagEmpty",
+      "BloodPressureCuff"
     ],
     "CUSTOM:Hospitalspills": [
       "CreativePill",
@@ -8538,6 +8957,7 @@
       "item.hospitals.pillbottle_12.description_0": "",
       "block.hospitals.xray_light_box_arms": "X-RAY Light Box (Arms)",
       "item.hospitals.computer_chip.description_0": "",
+      "gamerule.bloodpressuremechanics": "Blood Pressure Mechanics",
       "item.hospitals.pillbottle_3.description_0": "",
       "item.hospitals.blood_bag_empty": "Blood Bag Empty",
       "item.hospitals.pillbottle_3.description_1": "Right Click To Open",
@@ -8546,7 +8966,8 @@
       "item.hospitals.creative_pill": "Creative Pill",
       "block.hospitals.surgical_trolley": "Surgical Trolley",
       "item.hospitals.pill_bottle_8": "Diphenhydramine Pill Bottle",
-      "item.hospitals.pill_14.description_3": "-Pills Can Be Used To Fill Pill Bottles",
+      "item.hospitals.pill_14.description_4": "-Pills Can Be Used To Fill Pill Bottles",
+      "item.hospitals.pill_14.description_3": "-Lowers Blood Pressure To Normal Levels",
       "item.hospitals.pill_14.description_2": "-Effect: Blindness, Nausea, Speed, Jump Boost",
       "block.hospitals.hospital_bed": "Hospital Bed",
       "item.hospitals.pill_bottle_5": "Dextromethorphan Pill Bottle",
@@ -8628,6 +9049,7 @@
       "item.hospitals.pill_bottle_5.description_0": "",
       "item.hospitals.pill_bottle_5.description_1": "Right Click To Open",
       "block.hospitals.wall_storage_tubs_red": "Wall Storage Tubs (Red)",
+      "gamerule.bloodpressuremechanics.description": "Default True. Can Be Toggled On A Player Level or A World Level. See Wiki For More Info.",
       "item_group.hospitals.pharmacy_thm": "Pharmacy - THM",
       "block.hospitals.plastered_wall_blue": "Plastered Wall (Blue)",
       "block.hospitals.th_block": "TH Block",
@@ -8656,6 +9078,7 @@
       "item.hospitals.pill_bottle_27.description_0": "",
       "block.hospitals.vinyl_floor_blue_type_1": "Vinyl Floor - Blue (Type 1)",
       "gui.hospitals.blood_bank_gui.abox": "A",
+      "item.hospitals.blood_pressure_cuff": "Blood Pressure Cuff",
       "item.hospitals.pill_26.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_26.description_2": "-Effect: Night Vision, Nausea (strong)",
       "item.hospitals.pill_26.description_1": "-Use: Epilepsy",
@@ -8771,12 +9194,18 @@
       "block.hospitals.ward_storage_drawers": "Ward Storage Drawers",
       "item.hospitals.scrubs_boots": "Shoe Covers",
       "item.hospitals.syringe": "Syringe TEST",
-      "item.hospitals.pill_16.description_3": "-Pills Can Be Used To Fill Pill Bottles",
+      "gamerule.showbloodparticles": "Show Blood Particles",
+      "item.hospitals.pill_16.description_3": "-Lowers Blood Pressure To Normal Levels",
       "item.hospitals.pill_16.description_2": "-Effect: Speed (short time)",
+      "item.hospitals.pill_16.description_4": "-Pills Can Be Used To Fill Pill Bottles",
       "block.hospitals.patient_informaiton_point": "Patient Informaiton Point",
       "item.hospitals.pill_16.description_1": "-Use: High Blood Pressure",
+      "item.hospitals.blood_pressure_cuff.description_3": "- Infinite Uses",
       "item.hospitals.pill_16.description_0": "",
+      "item.hospitals.blood_pressure_cuff.description_2": "- Left Click To Test Other Players (Not Entities)",
       "gui.hospitals.ba_counter_overlay.label_empty": "",
+      "item.hospitals.blood_pressure_cuff.description_1": "- Right Click To Test Self",
+      "item.hospitals.blood_pressure_cuff.description_0": "",
       "block.hospitals.computer_screen_2_ct_scan_viewer": "Computer Screen 2 (CT Scan Viewer)",
       "item.hospitals.pill_42": "Vitamin B9 (Folate/Folic Acid)",
       "item.hospitals.pill_43": "Vitamin B12 (cyanocobalamin)",
@@ -8856,6 +9285,7 @@
       "item.hospitals.pill_bottle_41.description_0": "",
       "block.hospitals.blood_bank": "Blood Bank",
       "item.hospitals.mask_helmet.description_0": "",
+      "gamerule.showbloodparticles.description": "Toggles If You Want All Players To Display Blood When Damaged. Can Be Toggled Individually, See Wiki.",
       "item.hospitals.mask_helmet.description_1": "- Rendering May Look Weird / \"Too Big\"",
       "item.hospitals.mask_helmet.description_2": "- This Item Is Not Fully Completed / Will Be Changed Or Removed In A Future Update",
       "item.hospitals.mask_helmet.description_3": "- Not Craftable For Now",
@@ -9069,6 +9499,7 @@
       "gui.hospitals.blood_bank_gui.sbox": "Stacks?",
       "item.hospitals.doctor_spawn_egg": "Doctor Spawn Egg",
       "item.hospitals.pill_bottle_10": "Ashwagandha Pill Bottle",
+      "gui.hospitals.b_pdisplay.label_test": "test",
       "block.hospitals.epos_cashier_system": "ePOS Cashier System",
       "item.hospitals.pill_bottle_13": "Cephalexin Pill Bottle",
       "item.hospitals.pill_bottle_14": "Lisinopril Pill Bottle",
@@ -9088,7 +9519,8 @@
       "item_group.hospitals.operating_rooms_thm": "Operating Rooms - THM",
       "item.hospitals.pillbottle_6.description_1": "Right Click To Open",
       "block.hospitals.cardboard_box": "Cardboard Box",
-      "item.hospitals.pill_9.description_3": "-Pills Can Be Used To Fill Pill Bottles",
+      "item.hospitals.pill_9.description_4": "-Pills Can Be Used To Fill Pill Bottles",
+      "item.hospitals.pill_9.description_3": "-Lowers Blood Pressure To Normal Levels",
       "item.hospitals.pill_9.description_2": "-Effect: Weakness, Instant Harming, Speed (fast)",
       "item.hospitals.pillbottle_6.description_0": "",
       "item.hospitals.pill_9.description_1": "-Use: High Blood Pressure",
@@ -9158,6 +9590,14 @@
               },
               {
                 "name": "badblood",
+                "children": []
+              },
+              {
+                "name": "Blood Pressure",
+                "children": []
+              },
+              {
+                "name": "BloodParticles",
                 "children": []
               }
             ]

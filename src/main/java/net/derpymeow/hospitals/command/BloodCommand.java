@@ -17,13 +17,17 @@ import net.derpymeow.hospitals.procedures.TogglebloodlosspersonProcedure;
 import net.derpymeow.hospitals.procedures.ShowbacoProcedure;
 import net.derpymeow.hospitals.procedures.SetbloodtypeProcedure;
 import net.derpymeow.hospitals.procedures.ListbloodtypesProcedure;
-import net.derpymeow.hospitals.procedures.BloodTypeTesterRightclickedProcedure;
+import net.derpymeow.hospitals.procedures.BpmechanicstoggleProcedure;
+import net.derpymeow.hospitals.procedures.BloodTypeTesterGetPlayerCommandProcedure;
 import net.derpymeow.hospitals.procedures.BloodTypeReciveCheckCommandPasserProcedure;
+import net.derpymeow.hospitals.procedures.BloodParticleDisplayProcedureProcedure;
 import net.derpymeow.hospitals.procedures.BloodCommandHelpProcedure;
 import net.derpymeow.hospitals.procedures.BloodAmountSubtractProcedure;
 import net.derpymeow.hospitals.procedures.BloodAmountSetProcedure;
 import net.derpymeow.hospitals.procedures.BloodAmountGetProcedure;
 import net.derpymeow.hospitals.procedures.BloodAmountAddProcedure;
+import net.derpymeow.hospitals.procedures.BPSetProcedure;
+import net.derpymeow.hospitals.procedures.BPGetProcedure;
 
 import com.mojang.brigadier.arguments.DoubleArgumentType;
 import com.mojang.brigadier.arguments.BoolArgumentType;
@@ -46,7 +50,7 @@ public class BloodCommand {
 					if (entity != null)
 						direction = entity.getDirection();
 
-					BloodTypeTesterRightclickedProcedure.execute(entity);
+					BloodTypeTesterGetPlayerCommandProcedure.execute(arguments, entity);
 					return 0;
 				}))).then(Commands.literal("set").then(Commands.argument("name", EntityArgument.player()).then(Commands.argument("ammount", DoubleArgumentType.doubleArg(0, 7)).executes(arguments -> {
 					Level world = arguments.getSource().getUnsidedLevel();
@@ -188,6 +192,63 @@ public class BloodCommand {
 
 					TogglebloodlosspersonProcedure.execute(arguments);
 					return 0;
-				})))));
+				})))).then(Commands.literal("visual").then(Commands.argument("name", EntityArgument.player()).then(Commands.argument("tf7", BoolArgumentType.bool()).executes(arguments -> {
+					Level world = arguments.getSource().getUnsidedLevel();
+					double x = arguments.getSource().getPosition().x();
+					double y = arguments.getSource().getPosition().y();
+					double z = arguments.getSource().getPosition().z();
+					Entity entity = arguments.getSource().getEntity();
+					if (entity == null && world instanceof ServerLevel _servLevel)
+						entity = FakePlayerFactory.getMinecraft(_servLevel);
+					Direction direction = Direction.DOWN;
+					if (entity != null)
+						direction = entity.getDirection();
+
+					BloodParticleDisplayProcedureProcedure.execute(arguments);
+					return 0;
+				})))).then(Commands.literal("pressure").then(Commands.literal("set")
+						.then(Commands.argument("name", EntityArgument.player()).then(Commands.argument("sys", DoubleArgumentType.doubleArg(0, 200)).then(Commands.argument("dia", DoubleArgumentType.doubleArg(0, 130)).executes(arguments -> {
+							Level world = arguments.getSource().getUnsidedLevel();
+							double x = arguments.getSource().getPosition().x();
+							double y = arguments.getSource().getPosition().y();
+							double z = arguments.getSource().getPosition().z();
+							Entity entity = arguments.getSource().getEntity();
+							if (entity == null && world instanceof ServerLevel _servLevel)
+								entity = FakePlayerFactory.getMinecraft(_servLevel);
+							Direction direction = Direction.DOWN;
+							if (entity != null)
+								direction = entity.getDirection();
+
+							BPSetProcedure.execute(arguments);
+							return 0;
+						}))))).then(Commands.literal("get").then(Commands.argument("name", EntityArgument.player()).executes(arguments -> {
+							Level world = arguments.getSource().getUnsidedLevel();
+							double x = arguments.getSource().getPosition().x();
+							double y = arguments.getSource().getPosition().y();
+							double z = arguments.getSource().getPosition().z();
+							Entity entity = arguments.getSource().getEntity();
+							if (entity == null && world instanceof ServerLevel _servLevel)
+								entity = FakePlayerFactory.getMinecraft(_servLevel);
+							Direction direction = Direction.DOWN;
+							if (entity != null)
+								direction = entity.getDirection();
+
+							BPGetProcedure.execute(arguments, entity);
+							return 0;
+						}))).then(Commands.literal("toggle_mechanics").then(Commands.argument("name", EntityArgument.player()).then(Commands.argument("bpmtf", BoolArgumentType.bool()).executes(arguments -> {
+							Level world = arguments.getSource().getUnsidedLevel();
+							double x = arguments.getSource().getPosition().x();
+							double y = arguments.getSource().getPosition().y();
+							double z = arguments.getSource().getPosition().z();
+							Entity entity = arguments.getSource().getEntity();
+							if (entity == null && world instanceof ServerLevel _servLevel)
+								entity = FakePlayerFactory.getMinecraft(_servLevel);
+							Direction direction = Direction.DOWN;
+							if (entity != null)
+								direction = entity.getDirection();
+
+							BpmechanicstoggleProcedure.execute(arguments);
+							return 0;
+						}))))));
 	}
 }

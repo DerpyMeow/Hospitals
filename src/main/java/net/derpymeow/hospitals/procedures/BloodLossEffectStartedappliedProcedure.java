@@ -10,10 +10,8 @@ public class BloodLossEffectStartedappliedProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 4800, 5));
+			_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 4800, 1));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 4800, 5));
-		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.HARM, 1, 1));
+			_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 4800, 1));
 	}
 }

@@ -20,7 +20,7 @@
         "attribute": {
           "value": "MAX_HEALTH"
         },
-        "amount": -0.75,
+        "amount": -0.25,
         "operation": "ADD_MULTIPLIED_BASE"
       },
       {

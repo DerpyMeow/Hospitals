@@ -186,6 +186,7 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModItems.BLOOD_BAG_7.get());
 				tabData.accept(HospitalsModBlocks.BLOOD_BANK.get().asItem());
 				tabData.accept(HospitalsModItems.BLOOD_BAG_EMPTY.get());
+				tabData.accept(HospitalsModItems.BLOOD_PRESSURE_CUFF.get());
 			}).withSearchBar().withTabsBefore(FACILITIES_THM.getId()).build());
 	public static final RegistryObject<CreativeModeTab> HOSPITALSPILLS = REGISTRY.register("hospitalspills",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.hospitalspills")).icon(() -> new ItemStack(HospitalsModItems.PILL.get())).displayItems((parameters, tabData) -> {

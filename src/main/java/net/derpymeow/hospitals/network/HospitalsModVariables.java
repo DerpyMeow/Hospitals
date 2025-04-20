@@ -69,8 +69,13 @@ public class HospitalsModVariables {
 			clone.blood_type = original.blood_type;
 			clone.display_blood_counter = original.display_blood_counter;
 			clone.hurt_blood_loss = original.hurt_blood_loss;
+			clone.show_blood_particles = original.show_blood_particles;
+			clone.display_blood_pressure = original.display_blood_pressure;
+			clone.blood_pressure_mechanics = original.blood_pressure_mechanics;
 			if (!event.isWasDeath()) {
 				clone.blood_amount = original.blood_amount;
+				clone.blood_pressure_systolic = original.blood_pressure_systolic;
+				clone.blood_pressure_diastolic = original.blood_pressure_diastolic;
 			}
 		}
 	}
@@ -110,6 +115,11 @@ public class HospitalsModVariables {
 		public double blood_amount = 160.0;
 		public boolean display_blood_counter = false;
 		public boolean hurt_blood_loss = true;
+		public boolean show_blood_particles = true;
+		public double blood_pressure_systolic = 110.0;
+		public double blood_pressure_diastolic = 68.0;
+		public boolean display_blood_pressure = false;
+		public boolean blood_pressure_mechanics = true;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -122,6 +132,11 @@ public class HospitalsModVariables {
 			nbt.putDouble("blood_amount", blood_amount);
 			nbt.putBoolean("display_blood_counter", display_blood_counter);
 			nbt.putBoolean("hurt_blood_loss", hurt_blood_loss);
+			nbt.putBoolean("show_blood_particles", show_blood_particles);
+			nbt.putDouble("blood_pressure_systolic", blood_pressure_systolic);
+			nbt.putDouble("blood_pressure_diastolic", blood_pressure_diastolic);
+			nbt.putBoolean("display_blood_pressure", display_blood_pressure);
+			nbt.putBoolean("blood_pressure_mechanics", blood_pressure_mechanics);
 			return nbt;
 		}
 
@@ -131,6 +146,11 @@ public class HospitalsModVariables {
 			blood_amount = nbt.getDouble("blood_amount");
 			display_blood_counter = nbt.getBoolean("display_blood_counter");
 			hurt_blood_loss = nbt.getBoolean("hurt_blood_loss");
+			show_blood_particles = nbt.getBoolean("show_blood_particles");
+			blood_pressure_systolic = nbt.getDouble("blood_pressure_systolic");
+			blood_pressure_diastolic = nbt.getDouble("blood_pressure_diastolic");
+			display_blood_pressure = nbt.getBoolean("display_blood_pressure");
+			blood_pressure_mechanics = nbt.getBoolean("blood_pressure_mechanics");
 		}
 	}
 
@@ -159,6 +179,11 @@ public class HospitalsModVariables {
 					variables.blood_amount = message.data.blood_amount;
 					variables.display_blood_counter = message.data.display_blood_counter;
 					variables.hurt_blood_loss = message.data.hurt_blood_loss;
+					variables.show_blood_particles = message.data.show_blood_particles;
+					variables.blood_pressure_systolic = message.data.blood_pressure_systolic;
+					variables.blood_pressure_diastolic = message.data.blood_pressure_diastolic;
+					variables.display_blood_pressure = message.data.display_blood_pressure;
+					variables.blood_pressure_mechanics = message.data.blood_pressure_mechanics;
 				}
 			});
 			context.setPacketHandled(true);

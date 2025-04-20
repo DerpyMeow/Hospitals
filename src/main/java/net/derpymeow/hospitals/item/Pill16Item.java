@@ -26,6 +26,7 @@ public class Pill16Item extends Item {
 		list.add(Component.translatable("item.hospitals.pill_16.description_1"));
 		list.add(Component.translatable("item.hospitals.pill_16.description_2"));
 		list.add(Component.translatable("item.hospitals.pill_16.description_3"));
+		list.add(Component.translatable("item.hospitals.pill_16.description_4"));
 	}
 
 	@Override

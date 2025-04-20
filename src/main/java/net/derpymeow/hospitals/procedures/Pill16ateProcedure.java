@@ -11,5 +11,6 @@ public class Pill16ateProcedure {
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 300, 1));
+		LowerBloodPressureProcedure.execute(entity);
 	}
 }

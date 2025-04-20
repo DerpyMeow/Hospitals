@@ -17,7 +17,7 @@ import java.util.ArrayList;
 public class BloodLossMobEffect extends MobEffect {
 	public BloodLossMobEffect() {
 		super(MobEffectCategory.HARMFUL, -8894906);
-		this.addAttributeModifier(Attributes.MAX_HEALTH, "4d16852f-9d81-384d-8d03-dfaa5a7d4532", -0.75, AttributeModifier.Operation.MULTIPLY_BASE);
+		this.addAttributeModifier(Attributes.MAX_HEALTH, "4d16852f-9d81-384d-8d03-dfaa5a7d4532", -0.25, AttributeModifier.Operation.MULTIPLY_BASE);
 		this.addAttributeModifier(Attributes.MOVEMENT_SPEED, "3857928f-02d5-375a-b7c9-d5c6b43a6fcd", -0.15, AttributeModifier.Operation.MULTIPLY_BASE);
 		this.addAttributeModifier(Attributes.ATTACK_DAMAGE, "ba9e1ee6-a1bb-3554-8a7f-0e47f7541f5e", -0.5, AttributeModifier.Operation.MULTIPLY_BASE);
 	}

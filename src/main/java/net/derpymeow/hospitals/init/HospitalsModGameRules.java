@@ -11,4 +11,6 @@ import net.minecraft.world.level.GameRules;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class HospitalsModGameRules {
 	public static final GameRules.Key<GameRules.BooleanValue> BLOODLOSSTOGGLE = GameRules.register("bloodlosstoggle", GameRules.Category.PLAYER, GameRules.BooleanValue.create(true));
+	public static final GameRules.Key<GameRules.BooleanValue> SHOWBLOODPARTICLES = GameRules.register("showbloodparticles", GameRules.Category.PLAYER, GameRules.BooleanValue.create(true));
+	public static final GameRules.Key<GameRules.BooleanValue> BLOODPRESSUREMECHANICS = GameRules.register("bloodpressuremechanics", GameRules.Category.PLAYER, GameRules.BooleanValue.create(true));
 }
