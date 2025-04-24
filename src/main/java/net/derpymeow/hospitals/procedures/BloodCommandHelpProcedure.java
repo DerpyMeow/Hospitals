@@ -9,6 +9,6 @@ public class BloodCommandHelpProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof Player _player && !_player.level().isClientSide())
-			_player.displayClientMessage(Component.literal(("Help With /Blood & Other Hospital Mod Related Questions Can Be Found Here:" + "\n" + "https://github.com/DerpyMeow/Hospitals/wiki")), false);
+			_player.displayClientMessage(Component.literal(("Help With /Blood & Other Hospital Mod Related Questions Can Be Found Here:" + "\n" + "https://github.com/DerpyMeow/Hospitals/wiki/Blood#blood-1")), false);
 	}
 }
