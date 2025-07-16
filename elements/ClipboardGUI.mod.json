@@ -1,0 +1,50 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "clipart2066356.png",
+          "use1Xscale": true,
+          "x": 139,
+          "y": 2,
+          "locked": false
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Type Here",
+          "name": "clipboardText",
+          "width": 120,
+          "height": 20,
+          "x": 157,
+          "y": 44,
+          "locked": false
+        }
+      }
+    ],
+    "onOpen": {
+      "name": "ClipboardGUIThisGUIIsOpened"
+    },
+    "onClosed": {
+      "name": "ClipboardGUIThisGUIIsClosed"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

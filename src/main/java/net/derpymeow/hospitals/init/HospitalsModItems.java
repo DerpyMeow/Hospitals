@@ -114,6 +114,7 @@ import net.derpymeow.hospitals.item.EmptysyringeItem;
 import net.derpymeow.hospitals.item.CreativePillItem;
 import net.derpymeow.hospitals.item.ComputerItem;
 import net.derpymeow.hospitals.item.ComputerChipItem;
+import net.derpymeow.hospitals.item.ClipboardItem;
 import net.derpymeow.hospitals.item.BloodTypeTesterItem;
 import net.derpymeow.hospitals.item.BloodPressureCuffItem;
 import net.derpymeow.hospitals.item.BloodBagEmptyItem;
@@ -376,6 +377,7 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> BLOOD_BAG_EMPTY = REGISTRY.register("blood_bag_empty", () -> new BloodBagEmptyItem());
 	public static final RegistryObject<Item> BLOOD_PRESSURE_CUFF = REGISTRY.register("blood_pressure_cuff", () -> new BloodPressureCuffItem());
 	public static final RegistryObject<Item> WIPINFO = REGISTRY.register("wipinfo", () -> new WIPINFOItem());
+	public static final RegistryObject<Item> CLIPBOARD = REGISTRY.register("clipboard", () -> new ClipboardItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

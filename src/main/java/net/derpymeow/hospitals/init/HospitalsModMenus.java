@@ -15,6 +15,7 @@ import net.derpymeow.hospitals.world.inventory.Page3Menu;
 import net.derpymeow.hospitals.world.inventory.Page2Menu;
 import net.derpymeow.hospitals.world.inventory.Page1Menu;
 import net.derpymeow.hospitals.world.inventory.HospitalsWIPInfoMenu;
+import net.derpymeow.hospitals.world.inventory.ClipboardGUIMenu;
 import net.derpymeow.hospitals.world.inventory.BookTemplateMenu;
 import net.derpymeow.hospitals.world.inventory.BloodBankGUIMenu;
 import net.derpymeow.hospitals.HospitalsMod;
@@ -27,4 +28,5 @@ public class HospitalsModMenus {
 	public static final RegistryObject<MenuType<Page2Menu>> PAGE_2 = REGISTRY.register("page_2", () -> IForgeMenuType.create(Page2Menu::new));
 	public static final RegistryObject<MenuType<Page3Menu>> PAGE_3 = REGISTRY.register("page_3", () -> IForgeMenuType.create(Page3Menu::new));
 	public static final RegistryObject<MenuType<HospitalsWIPInfoMenu>> HOSPITALS_WIP_INFO = REGISTRY.register("hospitals_wip_info", () -> IForgeMenuType.create(HospitalsWIPInfoMenu::new));
+	public static final RegistryObject<MenuType<ClipboardGUIMenu>> CLIPBOARD_GUI = REGISTRY.register("clipboard_gui", () -> IForgeMenuType.create(ClipboardGUIMenu::new));
 }
