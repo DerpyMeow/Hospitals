@@ -44,7 +44,7 @@
     "isWaterloggable": false,
     "creativeTabs": [
       {
-        "value": "CUSTOM:Hospitals"
+        "value": "CUSTOM:WIP"
       }
     ],
     "destroyTool": "Not specified",

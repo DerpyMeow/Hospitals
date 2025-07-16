@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.derpymeow.hospitals.item.WIPINFOItem;
 import net.derpymeow.hospitals.item.UnprocessedSteelItem;
 import net.derpymeow.hospitals.item.SyringeItem;
 import net.derpymeow.hospitals.item.StainlessSteelItem;
@@ -374,6 +375,7 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> BLOOD_BANK = block(HospitalsModBlocks.BLOOD_BANK);
 	public static final RegistryObject<Item> BLOOD_BAG_EMPTY = REGISTRY.register("blood_bag_empty", () -> new BloodBagEmptyItem());
 	public static final RegistryObject<Item> BLOOD_PRESSURE_CUFF = REGISTRY.register("blood_pressure_cuff", () -> new BloodPressureCuffItem());
+	public static final RegistryObject<Item> WIPINFO = REGISTRY.register("wipinfo", () -> new WIPINFOItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

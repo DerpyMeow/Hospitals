@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "bloodbagtype0",
+    "texture": "work_in_progress",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "O+ Blood Bag",
-    "rarity": "EPIC",
+    "name": "WIPINFO",
+    "rarity": "COMMON",
     "creativeTabs": [
       {
         "value": "CUSTOM:WIP"
@@ -29,18 +29,17 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Use Item To See How To Acsess Work In Progress Items"
+      ]
     },
     "glowCondition": {
-      "fixedValue": false
+      "fixedValue": true
     },
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedInAir": {
-      "name": "BloodBagRightclicked"
-    },
-    "onEntityHitWith": {
-      "name": "AttemptedIllegal"
+      "name": "OpenWIPGui"
     },
     "enableRanged": false,
     "shootConstantly": false,

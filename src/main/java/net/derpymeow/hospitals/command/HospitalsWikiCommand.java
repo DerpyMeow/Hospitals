@@ -43,7 +43,7 @@ public class HospitalsWikiCommand {
 						index++;
 					}
 
-					OpenWIKIGuiProcedure.execute(world, x, y, z, entity);
+					OpenWIKIGuiProcedure.execute(entity);
 					return 0;
 				})).executes(arguments -> {
 					Level world = arguments.getSource().getUnsidedLevel();
@@ -64,7 +64,7 @@ public class HospitalsWikiCommand {
 						index++;
 					}
 
-					OpenWIKIGuiProcedure.execute(world, x, y, z, entity);
+					OpenWIKIGuiProcedure.execute(entity);
 					return 0;
 				}));
 	}
