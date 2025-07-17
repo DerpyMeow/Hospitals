@@ -378,6 +378,7 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> BLOOD_PRESSURE_CUFF = REGISTRY.register("blood_pressure_cuff", () -> new BloodPressureCuffItem());
 	public static final RegistryObject<Item> WIPINFO = REGISTRY.register("wipinfo", () -> new WIPINFOItem());
 	public static final RegistryObject<Item> CLIPBOARD = REGISTRY.register("clipboard", () -> new ClipboardItem());
+	public static final RegistryObject<Item> WARNING = block(HospitalsModBlocks.WARNING);
 
 	// Start of user code block custom items
 	// End of user code block custom items

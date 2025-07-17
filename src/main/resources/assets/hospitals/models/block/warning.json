@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hospitals:block/warningblock",
+    "up": "hospitals:block/warningblock",
+    "north": "hospitals:block/warningblock",
+    "east": "hospitals:block/warningblock",
+    "south": "hospitals:block/warningblock",
+    "west": "hospitals:block/warningblock",
+    "particle": "hospitals:block/warningblock"
+  },
+  "render_type": "solid"
+}

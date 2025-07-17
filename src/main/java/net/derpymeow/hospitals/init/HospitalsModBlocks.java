@@ -24,6 +24,7 @@ import net.derpymeow.hospitals.block.WorktopBlock;
 import net.derpymeow.hospitals.block.WetFloorSignBlock;
 import net.derpymeow.hospitals.block.WasteBinDomesticWasteBlock;
 import net.derpymeow.hospitals.block.WasteBinClinicalWasteBlock;
+import net.derpymeow.hospitals.block.WarningBlock;
 import net.derpymeow.hospitals.block.WardStorageDrawersBlock;
 import net.derpymeow.hospitals.block.WardResusTrolleyBlock;
 import net.derpymeow.hospitals.block.WallStorageTubsYellowBlock;
@@ -274,6 +275,7 @@ public class HospitalsModBlocks {
 	public static final RegistryObject<Block> LIGHT_BLOCK = REGISTRY.register("light_block", () -> new LightBlockBlock());
 	public static final RegistryObject<Block> BLOCK_OF_STAINLESS_STEEL = REGISTRY.register("block_of_stainless_steel", () -> new BlockOfStainlessSteelBlock());
 	public static final RegistryObject<Block> BLOOD_BANK = REGISTRY.register("blood_bank", () -> new BloodBankBlock());
+	public static final RegistryObject<Block> WARNING = REGISTRY.register("warning", () -> new WarningBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
