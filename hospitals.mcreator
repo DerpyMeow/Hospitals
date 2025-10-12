@@ -6905,257 +6905,6 @@
       "path": "~/Crafting Recipes"
     },
     {
-      "name": "Syringe",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "syringe",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/hospitals/models/item/syringe.json",
-          "src/main/java/net/derpymeow/hospitals/item/SyringeItem.java"
-        ]
-      },
-      "path": "~/TEST"
-    },
-    {
-      "name": "Emptysyringe",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "emptysyringe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/item/EmptysyringeItem.java",
-          "src/main/resources/assets/hospitals/models/item/emptysyringe.json"
-        ]
-      },
-      "path": "~/TEST"
-    },
-    {
-      "name": "SyringeLivingEntityIsHitWithItem",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "syringe_living_entity_is_hit_with_item",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/SyringeLivingEntityIsHitWithItemProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/TEST"
-    },
-    {
-      "name": "EmptysyringeRightclickedOnBlock",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "emptysyringe_rightclicked_on_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/EmptysyringeRightclickedOnBlockProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/TEST"
-    },
-    {
-      "name": "BloodTypeTester",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_type_tester",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/item/BloodTypeTesterItem.java",
-          "src/main/resources/assets/hospitals/models/item/blood_type_tester.json"
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "BloodTypeTesterRightclicked",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_type_tester_rightclicked",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BloodTypeTesterRightclickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "Blood",
-      "type": "command",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/command/BloodCommand.java"
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "Setbloodtype",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "setbloodtype",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/SetbloodtypeProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "arguments",
-            "type": "cmdcontext"
-          },
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "Onfirstjoinsetbloodtype",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "onfirstjoinsetbloodtype",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/OnfirstjoinsetbloodtypeProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "BloodTypeTesterEntity",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_type_tester_entity",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BloodTypeTesterEntityProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "BloodTypeTesterRightClickedPasser",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_type_tester_right_clicked_passer",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BloodTypeTesterRightClickedPasserProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "Listbloodtypes",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "listbloodtypes",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/ListbloodtypesProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
       "name": "Bttr",
       "type": "recipe",
       "compiles": true,
@@ -7167,48 +6916,6 @@
         ]
       },
       "path": "~/Crafting Recipes"
-    },
-    {
-      "name": "BloodAmountGet",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_amount_get",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BloodAmountGetProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "arguments",
-            "type": "cmdcontext"
-          },
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "BloodAmountSet",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_amount_set",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BloodAmountSetProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "arguments",
-            "type": "cmdcontext"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood"
     },
     {
       "name": "Scrubmask",
@@ -7223,558 +6930,6 @@
         ]
       },
       "path": "~/Hospitals"
-    },
-    {
-      "name": "BloodTypeReciveCheck",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_type_recive_check",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BloodTypeReciveCheckProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "bt1",
-            "type": "number"
-          },
-          {
-            "name": "bt2",
-            "type": "number"
-          }
-        ],
-        "return_type": "logic"
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "BloodTypeReciveCheckCommandPasser",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_type_recive_check_command_passer",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BloodTypeReciveCheckCommandPasserProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "arguments",
-            "type": "cmdcontext"
-          },
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "BloodBagRightclicked",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_bag_rightclicked",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BloodBagRightclickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Bags/BloodBagProcedures"
-    },
-    {
-      "name": "BloodBag0",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_bag_0",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/item/BloodBag0Item.java",
-          "src/main/resources/assets/hospitals/models/item/blood_bag_0.json"
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Bags"
-    },
-    {
-      "name": "BloodBag1",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_bag_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/hospitals/models/item/blood_bag_1.json",
-          "src/main/java/net/derpymeow/hospitals/item/BloodBag1Item.java"
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Bags"
-    },
-    {
-      "name": "BloodBag2",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_bag_2",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/item/BloodBag2Item.java",
-          "src/main/resources/assets/hospitals/models/item/blood_bag_2.json"
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Bags"
-    },
-    {
-      "name": "BloodBag3",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_bag_3",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/item/BloodBag3Item.java",
-          "src/main/resources/assets/hospitals/models/item/blood_bag_3.json"
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Bags"
-    },
-    {
-      "name": "BloodBag4",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_bag_4",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/hospitals/models/item/blood_bag_4.json",
-          "src/main/java/net/derpymeow/hospitals/item/BloodBag4Item.java"
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Bags"
-    },
-    {
-      "name": "BloodBag5",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_bag_5",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/item/BloodBag5Item.java",
-          "src/main/resources/assets/hospitals/models/item/blood_bag_5.json"
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Bags"
-    },
-    {
-      "name": "BloodBag6",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_bag_6",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/item/BloodBag6Item.java",
-          "src/main/resources/assets/hospitals/models/item/blood_bag_6.json"
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Bags"
-    },
-    {
-      "name": "BloodBag7",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_bag_7",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/hospitals/models/item/blood_bag_7.json",
-          "src/main/java/net/derpymeow/hospitals/item/BloodBag7Item.java"
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Bags"
-    },
-    {
-      "name": "BloodBagRightclicked1",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_bag_rightclicked_1",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BloodBagRightclicked1Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Bags/BloodBagProcedures"
-    },
-    {
-      "name": "BloodBagRightclicked2",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_bag_rightclicked_2",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BloodBagRightclicked2Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Bags/BloodBagProcedures"
-    },
-    {
-      "name": "BloodBagRightclicked3",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_bag_rightclicked_3",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BloodBagRightclicked3Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Bags/BloodBagProcedures"
-    },
-    {
-      "name": "BloodBagRightclicked4",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_bag_rightclicked_4",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BloodBagRightclicked4Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Bags/BloodBagProcedures"
-    },
-    {
-      "name": "BloodBagRightclicked5",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_bag_rightclicked_5",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BloodBagRightclicked5Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Bags/BloodBagProcedures"
-    },
-    {
-      "name": "BloodBagRightclicked6",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_bag_rightclicked_6",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BloodBagRightclicked6Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Bags/BloodBagProcedures"
-    },
-    {
-      "name": "BloodBagRightclicked7",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_bag_rightclicked_7",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BloodBagRightclicked7Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Bags/BloodBagProcedures"
-    },
-    {
-      "name": "GoodBlood",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "good_blood",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/GoodBloodProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "BadBlood",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bad_blood",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BadBloodProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "BaCounterOverlay",
-      "type": "overlay",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ba_counter_overlay",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/client/screens/BaCounterOverlayOverlay.java"
-        ]
-      },
-      "path": "~/Hospitals/Blood/visual display"
-    },
-    {
-      "name": "BaCounterOverlayStringPasser",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ba_counter_overlay_string_passer",
-      "metadata": {
-        "return_type": "string",
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BaCounterOverlayStringPasserProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/visual display"
-    },
-    {
-      "name": "Showbaco",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "showbaco",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/ShowbacoProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "arguments",
-            "type": "cmdcontext"
-          },
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/visual display"
-    },
-    {
-      "name": "BACOPASSER",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bacopasser",
-      "metadata": {
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BACOPASSERProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/visual display"
-    },
-    {
-      "name": "BloodAmountAdd",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_amount_add",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BloodAmountAddProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "arguments",
-            "type": "cmdcontext"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "BloodAmountSubtract",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_amount_subtract",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BloodAmountSubtractProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "arguments",
-            "type": "cmdcontext"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "SelfBloodProduction",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "self_blood_production",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/SelfBloodProductionProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "BloodCommandHelp",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_command_help",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BloodCommandHelpProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "AttemptedIllegal",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "attempted_illegal",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/AttemptedIllegalProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Bags/BloodBagProcedures"
     },
     {
       "name": "CreativePill",
@@ -7810,374 +6965,6 @@
       "path": "~/Hospitals/Pills/Pills/Ate Procedures"
     },
     {
-      "name": "TransfusionReaction",
-      "type": "potioneffect",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "transfusion_reaction",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/potion/TransfusionReactionMobEffect.java"
-        ]
-      },
-      "path": "~/Hospitals/Blood/badblood"
-    },
-    {
-      "name": "TransfusionReactionEffectStartedapplied",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "transfusion_reaction_effect_startedapplied",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/TransfusionReactionEffectStartedappliedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/badblood"
-    },
-    {
-      "name": "BloodLossEffectStartedapplied",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_loss_effect_startedapplied",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BloodLossEffectStartedappliedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/badblood"
-    },
-    {
-      "name": "BloodLoss",
-      "type": "potioneffect",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_loss",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/potion/BloodLossMobEffect.java"
-        ]
-      },
-      "path": "~/Hospitals/Blood/badblood"
-    },
-    {
-      "name": "BloodAmountTicker",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_amount_ticker",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BloodAmountTickerProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "Bloodlosstoggle",
-      "type": "gamerule",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloodlosstoggle",
-      "metadata": {
-        "files": [],
-        "type": "logic"
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "RemoveBloodAmountOnDamage",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "remove_blood_amount_on_damage",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/RemoveBloodAmountOnDamageProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/badblood"
-    },
-    {
-      "name": "Togglebloodlossperson",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "togglebloodlossperson",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/TogglebloodlosspersonProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "arguments",
-            "type": "cmdcontext"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "BloodBank",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_bank",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/hospitals/loot_tables/blocks/blood_bank.json",
-          "src/main/java/net/derpymeow/hospitals/block/BloodBankBlock.java",
-          "src/main/resources/assets/hospitals/models/item/blood_bank.json",
-          "src/main/java/net/derpymeow/hospitals/block/entity/BloodBankBlockEntity.java",
-          "src/main/resources/assets/hospitals/blockstates/blood_bank.json",
-          "src/main/resources/assets/hospitals/models/block/blood_bank.json"
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "BloodBagEmpty",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_bag_empty",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/hospitals/models/item/blood_bag_empty.json",
-          "src/main/java/net/derpymeow/hospitals/item/BloodBagEmptyItem.java"
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Bags"
-    },
-    {
-      "name": "BloodBankGUI",
-      "type": "gui",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_bank_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/world/inventory/BloodBankGUIMenu.java",
-          "src/main/java/net/derpymeow/hospitals/network/BloodBankGUIButtonMessage.java",
-          "src/main/java/net/derpymeow/hospitals/client/gui/BloodBankGUIScreen.java"
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "ButtonClickedAP",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "button_clicked_ap",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/ButtonClickedAPProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "guistate",
-            "type": "map"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "ButtonClickedAM",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "button_clicked_am",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/ButtonClickedAMProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "guistate",
-            "type": "map"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "ButtonClickedBP",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "button_clicked_bp",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/ButtonClickedBPProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "guistate",
-            "type": "map"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "ButtonClickedBM",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "button_clicked_bm",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/ButtonClickedBMProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "guistate",
-            "type": "map"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "ButtonClickedOP",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "button_clicked_op",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/ButtonClickedOPProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "guistate",
-            "type": "map"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "ButtonClickedOM",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "button_clicked_om",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/ButtonClickedOMProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "guistate",
-            "type": "map"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "ButtonClickedABP",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "button_clicked_abp",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/ButtonClickedABPProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "guistate",
-            "type": "map"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "ButtonClickedABM",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "button_clicked_abm",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/ButtonClickedABMProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "guistate",
-            "type": "map"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
       "name": "Bbr",
       "type": "recipe",
       "compiles": true,
@@ -8189,19 +6976,6 @@
         ]
       },
       "path": "~/Crafting Recipes"
-    },
-    {
-      "name": "LootChest",
-      "type": "loottable",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "loot_chest",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/chests/village_plains_house.json"
-        ]
-      },
-      "path": "~/Loot Tables"
     },
     {
       "name": "Ebbr",
@@ -8217,318 +6991,6 @@
       "path": "~/Crafting Recipes"
     },
     {
-      "name": "BloodTypeTesterGetPlayerCommand",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_type_tester_get_player_command",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BloodTypeTesterGetPlayerCommandProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "arguments",
-            "type": "cmdcontext"
-          },
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "Showbloodparticles",
-      "type": "gamerule",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "showbloodparticles",
-      "metadata": {
-        "files": [],
-        "type": "logic"
-      },
-      "path": "~/Hospitals/Blood/BloodParticles"
-    },
-    {
-      "name": "BloodParticle",
-      "type": "particle",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_particle",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/hospitals/particles/blood_particle.json",
-          "src/main/java/net/derpymeow/hospitals/client/particle/BloodParticleParticle.java"
-        ]
-      },
-      "path": "~/Hospitals/Blood/BloodParticles"
-    },
-    {
-      "name": "BloodParticlesDisplay",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_particles_display",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BloodParticlesDisplayProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/BloodParticles"
-    },
-    {
-      "name": "BloodParticleDisplayProcedure",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_particle_display_procedure",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BloodParticleDisplayProcedureProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "arguments",
-            "type": "cmdcontext"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/BloodParticles"
-    },
-    {
-      "name": "ReturnBPOverlay",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "return_bp_overlay",
-      "metadata": {
-        "return_type": "string",
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/ReturnBPOverlayProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Pressure"
-    },
-    {
-      "name": "BPOveralyDisplayCondition",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bp_overaly_display_condition",
-      "metadata": {
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BPOveralyDisplayConditionProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Pressure"
-    },
-    {
-      "name": "BPdisplay",
-      "type": "overlay",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "b_pdisplay",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/client/screens/BPdisplayOverlay.java"
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Pressure"
-    },
-    {
-      "name": "ChangeBPVisualDisplayCommand",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "change_bp_visual_display_command",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/ChangeBPVisualDisplayCommandProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "arguments",
-            "type": "cmdcontext"
-          },
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Pressure"
-    },
-    {
-      "name": "BPSet",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bp_set",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BPSetProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "arguments",
-            "type": "cmdcontext"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Pressure"
-    },
-    {
-      "name": "BPGet",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bp_get",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BPGetProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "arguments",
-            "type": "cmdcontext"
-          },
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Pressure"
-    },
-    {
-      "name": "Bloodpressuremechanics",
-      "type": "gamerule",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloodpressuremechanics",
-      "metadata": {
-        "files": [],
-        "type": "logic"
-      },
-      "path": "~/Hospitals/Blood/Blood Pressure"
-    },
-    {
-      "name": "Bpmechanicstoggle",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bpmechanicstoggle",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BpmechanicstoggleProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "arguments",
-            "type": "cmdcontext"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Pressure"
-    },
-    {
-      "name": "BloodPressureCuffRightclicked",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_pressure_cuff_rightclicked",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BloodPressureCuffRightclickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Pressure"
-    },
-    {
-      "name": "BloodPressureCuff",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_pressure_cuff",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/item/BloodPressureCuffItem.java",
-          "src/main/resources/assets/hospitals/models/item/blood_pressure_cuff.json"
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Pressure"
-    },
-    {
-      "name": "BloodPressureCuffRightClickedEntity",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blood_pressure_cuff_right_clicked_entity",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/BloodPressureCuffRightClickedEntityProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Pressure"
-    },
-    {
       "name": "Bpcr",
       "type": "recipe",
       "compiles": true,
@@ -8540,710 +7002,6 @@
         ]
       },
       "path": "~/Crafting Recipes"
-    },
-    {
-      "name": "GetPressureStatus",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "get_pressure_status",
-      "metadata": {
-        "return_type": "number",
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/GetPressureStatusProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Pressure"
-    },
-    {
-      "name": "LowerBloodPressure",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lower_blood_pressure",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/LowerBloodPressureProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Pressure"
-    },
-    {
-      "name": "FoodBPProcedure",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "food_bp_procedure",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/FoodBPProcedureProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Pressure"
-    },
-    {
-      "name": "SevereHypertension",
-      "type": "potioneffect",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "severe_hypertension",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/potion/SevereHypertensionMobEffect.java"
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Pressure"
-    },
-    {
-      "name": "HighBPKill",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "high_bp_kill",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/HighBPKillProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Pressure"
-    },
-    {
-      "name": "CheckBPTicker",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "check_bp_ticker",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/CheckBPTickerProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Hospitals/Blood/Blood Pressure"
-    },
-    {
-      "name": "BookTemplate",
-      "type": "gui",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "book_template",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/world/inventory/BookTemplateMenu.java",
-          "src/main/java/net/derpymeow/hospitals/network/BookTemplateButtonMessage.java",
-          "src/main/java/net/derpymeow/hospitals/client/gui/BookTemplateScreen.java"
-        ]
-      },
-      "path": "~/WikiBook"
-    },
-    {
-      "name": "OpenWIKIGui",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "open_wiki_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/OpenWIKIGuiProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/WikiBook"
-    },
-    {
-      "name": "HospitalsWiki",
-      "type": "command",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hospitals_wiki",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/command/HospitalsWikiCommand.java"
-        ]
-      },
-      "path": "~/WikiBook"
-    },
-    {
-      "name": "GoHomePage",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "go_home_page",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/GoHomePageProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/WikiBook"
-    },
-    {
-      "name": "CloseBookButton",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "close_book_button",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/CloseBookButtonProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/WikiBook"
-    },
-    {
-      "name": "PageBackTemplate",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "page_back_template",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/PageBackTemplateProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/WikiBook"
-    },
-    {
-      "name": "PageNextTemplate",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "page_next_template",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/PageNextTemplateProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/WikiBook"
-    },
-    {
-      "name": "Page1",
-      "type": "gui",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "page_1",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/world/inventory/Page1Menu.java",
-          "src/main/java/net/derpymeow/hospitals/network/Page1ButtonMessage.java",
-          "src/main/java/net/derpymeow/hospitals/client/gui/Page1Screen.java"
-        ]
-      },
-      "path": "~/WikiBook"
-    },
-    {
-      "name": "Page2",
-      "type": "gui",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "page_2",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/network/Page2ButtonMessage.java",
-          "src/main/java/net/derpymeow/hospitals/client/gui/Page2Screen.java",
-          "src/main/java/net/derpymeow/hospitals/world/inventory/Page2Menu.java"
-        ]
-      },
-      "path": "~/WikiBook"
-    },
-    {
-      "name": "Page3",
-      "type": "gui",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "page_3",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/client/gui/Page3Screen.java",
-          "src/main/java/net/derpymeow/hospitals/world/inventory/Page3Menu.java",
-          "src/main/java/net/derpymeow/hospitals/network/Page3ButtonMessage.java"
-        ]
-      },
-      "path": "~/WikiBook"
-    },
-    {
-      "name": "Pn1",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pn_1",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/Pn1Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/WikiBook"
-    },
-    {
-      "name": "Pb2",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pb_2",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/Pb2Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/WikiBook"
-    },
-    {
-      "name": "Pn2",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pn_2",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/Pn2Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/WikiBook"
-    },
-    {
-      "name": "Pb3",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pb_3",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/Pb3Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/WikiBook"
-    },
-    {
-      "name": "WIP",
-      "type": "tab",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wip",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Creative Tabs"
-    },
-    {
-      "name": "HospitalsWIPInfo",
-      "type": "gui",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hospitals_wip_info",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/world/inventory/HospitalsWIPInfoMenu.java",
-          "src/main/java/net/derpymeow/hospitals/client/gui/HospitalsWIPInfoScreen.java"
-        ]
-      },
-      "path": "~/Hospitals"
-    },
-    {
-      "name": "OpenWIPGui",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "open_wip_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/OpenWIPGuiProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Hospitals"
-    },
-    {
-      "name": "WIPINFO",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wipinfo",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/hospitals/models/item/wipinfo.json",
-          "src/main/java/net/derpymeow/hospitals/item/WIPINFOItem.java"
-        ]
-      },
-      "path": "~/Hospitals"
-    },
-    {
-      "name": "Hospitalscommandwip",
-      "type": "command",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hospitalscommandwip",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/command/HospitalscommandwipCommand.java"
-        ]
-      },
-      "path": "~/Hospitals"
-    },
-    {
-      "name": "ClipboardRightclicked",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "clipboard_rightclicked",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/ClipboardRightclickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Hospitals"
-    },
-    {
-      "name": "Clipboard",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "clipboard",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/item/ClipboardItem.java",
-          "src/main/resources/assets/hospitals/models/item/clipboard.json"
-        ]
-      },
-      "path": "~/Hospitals"
-    },
-    {
-      "name": "ClipboardGUI",
-      "type": "gui",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "clipboard_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/world/inventory/ClipboardGUIMenu.java",
-          "src/main/java/net/derpymeow/hospitals/client/gui/ClipboardGUIScreen.java"
-        ]
-      },
-      "path": "~/Hospitals"
-    },
-    {
-      "name": "ClipboardGUIThisGUIIsClosed",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "clipboard_gui_this_gui_is_closed",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/ClipboardGUIThisGUIIsClosedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "guistate",
-            "type": "map"
-          }
-        ]
-      },
-      "path": "~/Hospitals"
-    },
-    {
-      "name": "ClipboardRightclicked2",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "clipboard_rightclicked_2",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/ClipboardRightclicked2Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Hospitals"
-    },
-    {
-      "name": "ClipboardGUIThisGUIIsOpened",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "clipboard_gui_this_gui_is_opened",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/ClipboardGUIThisGUIIsOpenedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "guistate",
-            "type": "map"
-          }
-        ]
-      },
-      "path": "~/Hospitals"
     },
     {
       "name": "Warning",
@@ -9519,7 +7277,8 @@
       "UnprocessedSteel",
       "ComputerChip",
       "Computer",
-      "Warning"
+      "Warning",
+      "Scrubmask"
     ],
     "CUSTOM:Hospitalspills": [
       "CreativePill",
@@ -9612,22 +7371,6 @@
       "PillBottle41",
       "PillBottle42",
       "PillBottle43"
-    ],
-    "CUSTOM:WIP": [
-      "WIPINFO",
-      "BloodTypeTester",
-      "Scrubmask",
-      "BloodBag0",
-      "BloodBag1",
-      "BloodBag2",
-      "BloodBag3",
-      "BloodBag4",
-      "BloodBag5",
-      "BloodBag6",
-      "BloodBag7",
-      "BloodBank",
-      "BloodBagEmpty",
-      "BloodPressureCuff"
     ]
   },
   "language_map": {
@@ -9643,14 +7386,11 @@
       "item.hospitals.pillbottle_12.description_0": "",
       "block.hospitals.xray_light_box_arms": "X-RAY Light Box (Arms)",
       "item.hospitals.computer_chip.description_0": "",
-      "gamerule.bloodpressuremechanics": "Blood Pressure Mechanics",
       "item.hospitals.pillbottle_3.description_0": "",
-      "item.hospitals.blood_bag_empty": "Blood Bag Empty",
       "item.hospitals.pillbottle_3.description_1": "Right Click To Open",
       "block.hospitals.fire_extinguisher": "Fire Extinguisher",
       "gui.hospitals.blood_bank_gui.bbox": "B",
       "item.hospitals.creative_pill": "Creative Pill",
-      "gui.hospitals.page_2.button_original_mod": "Original Mod",
       "block.hospitals.surgical_trolley": "Surgical Trolley",
       "item.hospitals.pill_bottle_8": "Diphenhydramine Pill Bottle",
       "item.hospitals.pill_14.description_4": "-Pills Can Be Used To Fill Pill Bottles",
@@ -9670,13 +7410,10 @@
       "item.hospitals.pill_bottle_35.description_0": "",
       "item.hospitals.pill_7.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_bottle_35.description_1": "Right Click To Open",
-      "gui.hospitals.page_2.button_crafting_recipies": "Crafting Recipies",
       "item.hospitals.computer_chip.description_1": "hmmmmm...",
-      "effect.hospitals.transfusion_reaction": "Transfusion Reaction",
       "entity.hospitals.nurse": "Nurse",
       "item.hospitals.pill_24.description_0": "",
       "block.hospitals.vinyl_floor_grey": "Vinyl Floor - Grey",
-      "gui.hospitals.page_1.label_this_goes_back": "This Goes Back",
       "item.hospitals.pill_bottle_36.description_1": "Right Click To Open",
       "block.hospitals.vinyl_wall_aqua_type_2": "Vinyl Wall - Aqua (Type 2)",
       "block.hospitals.vinyl_wall_aqua_type_1": "Vinyl Wall - Aqua (Type 1)",
@@ -9684,17 +7421,14 @@
       "item_group.hospitals.facilities_thm": "Facilities - THM",
       "block.hospitals.cladding_stone_effect": "Cladding (Stone Effect)",
       "block.hospitals.prescription_shelf": "Prescription Shelf",
-      "gui.hospitals.hospitals_wip_info.label_finished_they_will_be_in_the": "finished, they will be in the",
       "item.hospitals.pillbottleempty.description_1": "Put In Center Slot Of Crafting Table And Put Pills In The Other 8 Slots to Fill Bottle",
       "item.hospitals.pillbottleempty.description_0": "",
       "item.hospitals.pillbottle_21.description_1": "Right Click To Open",
       "item.hospitals.pillbottle_21.description_0": "",
-      "gui.hospitals.hospitals_wip_info.label_in_the_future_when_these_are_fin": "in the future when these are ",
       "item.hospitals.pill_bottle_16.description_1": "Right Click To Open",
       "block.hospitals.vinyl_wall_beige_type_2": "Vinyl Wall - Beige (Type 2)",
       "item.hospitals.pill_33.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "block.hospitals.xray_light_box_feet": "X-RAY Light Box (Feet)",
-      "item_group.hospitals.wip": "Hospitals - W.I.P.",
       "item.hospitals.pill_33.description_2": "-Effect: Regeneration",
       "item.hospitals.pill_bottle_16.description_0": "",
       "item.hospitals.pill_33.description_1": "-Use: Regulates Calcium ",
@@ -9702,7 +7436,6 @@
       "block.hospitals.vinyl_wall_grey_type_1": "Vinyl Wall - Blue (Type 1)",
       "block.hospitals.vinyl_wall_grey_type_2": "Vinyl Wall - Grey (Type 2)",
       "item.hospitals.pillbottleempty": "Empty Pill Bottle",
-      "gui.hospitals.page_1.label_curseforge_page": "Curseforge Page.",
       "block.hospitals.anaesthetic_machine": "Anaesthetic Machine",
       "item.hospitals.pill_32.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_32.description_2": "-Effect: Resistance, Strength",
@@ -9712,25 +7445,15 @@
       "item.hospitals.pillbottle_2.description_1": "Right Click To Open",
       "block.hospitals.wall_storage_tubs_yellow": "Wall Storage Tubs (Yellow)",
       "item.hospitals.pill_bottle_25.description_0": "",
-      "item.hospitals.blood_bag_7": "AB- Blood Bag",
-      "item.hospitals.blood_bag_6": "AB+ Blood Bag",
       "item.hospitals.pill_34.description_2": "-Effect: Regeneration, Health Boost",
-      "item.hospitals.blood_bag_5": "B- Blood Bag",
-      "item.hospitals.blood_bag_4": "B+ Blood Bag",
       "item.hospitals.pill_34.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_bottle_25.description_1": "Right Click To Open",
-      "gui.hospitals.page_1.label_this_closes_the_book": "This Closes",
-      "gui.hospitals.hospitals_wip_info.label_like_blood_countpressure_etc": "Like Blood Count,Pressure, etc",
       "block.hospitals.medical_gas_ceiling_mounted": "Medical Gas (Ceiling Mounted)",
       "item.hospitals.unprocessed_steel.description_0": "",
       "block.hospitals.fire_exit_sign_ceiling_mounted": "Fire Exit Sign (Ceiling Mounted)",
       "item.hospitals.unprocessed_steel.description_1": "so dirty but so pure...",
-      "item.hospitals.blood_bag_3": "A- Blood Bag",
       "item.hospitals.pill_34.description_0": "",
       "item.hospitals.pill_34.description_1": "-Use: Strengthen Immune System",
-      "item.hospitals.blood_bag_2": "A+ Blood Bag",
-      "item.hospitals.blood_bag_1": "O- Blood Bag",
-      "item.hospitals.blood_bag_0": "O+ Blood Bag",
       "block.hospitals.brick_beige": "Brick (Beige)",
       "item.hospitals.pillbottle_20.description_0": "",
       "block.hospitals.medical_cross": "Medical Cross",
@@ -9745,11 +7468,8 @@
       "item.hospitals.pill_bottle_5.description_1": "Right Click To Open",
       "block.hospitals.wall_storage_tubs_red": "Wall Storage Tubs (Red)",
       "block.hospitals.warning": "Warning Block",
-      "gui.hospitals.page_1.label_the_most_detailed": "The Most Detailed \u0026",
-      "gamerule.bloodpressuremechanics.description": "Default True. Can Be Toggled On A Player Level or A World Level. See Wiki For More Info.",
       "item_group.hospitals.pharmacy_thm": "Pharmacy - THM",
       "block.hospitals.plastered_wall_blue": "Plastered Wall (Blue)",
-      "gui.hospitals.page_2.label_text": "Table Of Contents",
       "block.hospitals.th_block": "TH Block",
       "item.hospitals.pill_23.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_23.description_2": "-Effect: Slowness, Slow Falling",
@@ -9764,8 +7484,6 @@
       "item.hospitals.pill_bottle_26.description_0": "",
       "item.hospitals.pill_bottle_26.description_1": "Right Click To Open",
       "item.hospitals.pill_22.description_0": "",
-      "gui.hospitals.page_1.label_is_found_on": "Is Found On The",
-      "gui.hospitals.blood_bank_gui.label_empty": "Empty",
       "item.hospitals.nurse_spawn_egg": "Nurse Spawn Egg",
       "item.hospitals.pill_22.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "block.hospitals.vinyl_floor_blue_type_2": "Vinyl Floor - Blue (Type 2)",
@@ -9775,33 +7493,24 @@
       "item.hospitals.stainless_steel.description_0": "",
       "item.hospitals.stainless_steel.description_1": "ooo shiny",
       "item.hospitals.pill_bottle_27.description_0": "",
-      "gui.hospitals.page_1.label_to_this_page": "To This Page",
       "block.hospitals.vinyl_floor_blue_type_1": "Vinyl Floor - Blue (Type 1)",
       "gui.hospitals.blood_bank_gui.abox": "A",
-      "gui.hospitals.page_1.label_the_book": "The Book",
-      "item.hospitals.blood_pressure_cuff": "Blood Pressure Cuff",
       "item.hospitals.pill_26.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_26.description_2": "-Effect: Night Vision, Nausea (strong)",
-      "gui.hospitals.page_2.button_update_mod": "Update Mod",
       "item.hospitals.pill_26.description_1": "-Use: Epilepsy",
       "block.hospitals.xray_light_box_blank": "X-RAY Light Box (Blank)",
       "item.hospitals.pill_26.description_0": "",
       "item.hospitals.pill_17.description_0": "",
       "item.hospitals.pill_17.description_2": "-Effect: Nausea (strong), Speed, Jump Boost, Haste (strong), Weakness",
       "gui.hospitals.blood_bank_gui.label_empty3": "\u003e \u003e \u003e",
-      "gui.hospitals.blood_bank_gui.button_b1": "B-",
       "item.hospitals.pill_17.description_1": "-Use: Hypothyroidism",
       "item.hospitals.pill_12.description_0": "",
-      "gui.hospitals.blood_bank_gui.label_empty1": "\u003e \u003e \u003e",
       "item.hospitals.pill_12.description_1": "-Use: Antibiotic",
       "item.hospitals.pill_17.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "gui.hospitals.blood_bank_gui.label_empty2": "\u003e \u003e \u003e",
       "item.hospitals.pill_12.description_2": "-Effect: Slowness, Instant Health",
       "item.hospitals.pill_12.description_3": "-Pills Can Be Used To Fill Pill Bottles",
-      "gui.hospitals.blood_bank_gui.button_ab": "AB+",
-      "gui.hospitals.page_1.label_next_page": "Next Page!",
       "block.hospitals.pharmacy_counter_stocked": "Pharmacy Counter (Stocked)",
-      "gui.hospitals.hospitals_wip_info.label_main_mod_features": "main mod features",
       "item.hospitals.pill_4": "Loratadine",
       "item.hospitals.pill_5": "Dextromethorphan",
       "item.hospitals.pill_2": "Ibuprofen",
@@ -9815,13 +7524,11 @@
       "gui.hospitals.blood_bank_gui.obox": "O",
       "item.hospitals.pill_bottle_29.description_1": "Right Click To Open",
       "item.hospitals.pill_bottle_29.description_0": "",
-      "effect.hospitals.blood_loss": "Blood Loss",
       "block.hospitals.ward_resus_trolley": "Ward Resus Trolley",
       "block.hospitals.xray_light_box_hands": "X-RAY Light Box (Hands)",
       "block.hospitals.vinyl_floor_salmon_type_2": "Vinyl Floor - Salmon (Type 2)",
       "block.hospitals.block_of_stainless_steel": "Block Of Stainless Steel",
       "item.hospitals.pillbottle_20": "Omeprazole Pill Bottle",
-      "item.hospitals.clipboard": "Clipboard",
       "item.hospitals.pillbottle_21": "Pantoprazole Pill Bottle",
       "block.hospitals.capsule_filling_machine": "Capsule Filling Machine",
       "item.hospitals.pill_8": "Diphenhydramine",
@@ -9840,16 +7547,12 @@
       "item.hospitals.pill_27.description_2": "-Effect: Weakness, Saturation",
       "block.hospitals.vinyl_wall_light_blue_type_1": "Vinyl Wall - Light Blue (Type 1)",
       "block.hospitals.office_desk": "Office Desk",
-      "gui.hospitals.clipboard_gui.clipboardText": "Type Here",
       "item.hospitals.pill_11.description_0": "",
       "item.hospitals.pill_11.description_1": "-Use: Antibiotic",
       "item.hospitals.pill_11.description_2": "-Effect: Nausea (strong), Weakness, Slowness, Health Boost (strong), Regeneration (strong)",
-      "gui.hospitals.blood_bank_gui.button_a1": "A-",
       "item.hospitals.pillbottle_11": "Amoxicillin Pill Bottle",
       "item.hospitals.pillbottle_12": "Azithromycin Pill Bottle",
-      "gui.hospitals.blood_bank_gui.label_select_type": "Select Type",
       "item.hospitals.pill_11.description_3": "-Pills Can Be Used To Fill Pill Bottles",
-      "gui.hospitals.page_2.button_steel": "Steel",
       "item.hospitals.pill_13.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "block.hospitals.office_wall_phone": "Office Wall Phone",
       "item.hospitals.pill_13.description_2": "-Effect: Resistance, Blindness",
@@ -9861,14 +7564,10 @@
       "block.hospitals.brick_red": "Brick (Red)",
       "block.hospitals.vinyl_floor_grey_type_2": "Vinyl Floor - Grey (Type 2)",
       "block.hospitals.vinyl_wall_white_type_1": "Vinyl Wall - White (Type 1)",
-      "gui.hospitals.page_1.label_text": "Hospitals Mod Wiki Book",
-      "gui.hospitals.page_2.button_blood_counts": "Blood Counts",
       "gui.hospitals.blood_bank_gui.abbox": "AB",
       "block.hospitals.sterile_worktop": "Sterile Worktop",
-      "item.hospitals.blood_type_tester": "Blood Type Tester",
       "block.hospitals.scrub_sink": "Scrub Sink",
       "item.hospitals.scrubs_helmet": "Scrub Cap",
-      "gui.hospitals.hospitals_wip_info.label_to_use_the_wip_features": "To Use The W.I.P Features",
       "block.hospitals.x_ray_machine": "X-Ray Machine",
       "item.hospitals.pill_bottle_18.description_0": "",
       "block.hospitals.ra_block": "RA Block",
@@ -9881,7 +7580,6 @@
       "entity.hospitals.doctor": "Doctor",
       "item.hospitals.pill_18.description_2": "-Effect: Slowness (strong), Resistance (strong)",
       "item.hospitals.pill_18.description_3": "-Pills Can Be Used To Fill Pill Bottles",
-      "item.hospitals.wipinfo": "WIPINFO",
       "item.hospitals.pill_15.description_1": "-Use: Lower Cholesterol",
       "item.hospitals.pill_15.description_2": "-Effect: Nausea, Slowness, Weakness, Saturation (strong)",
       "block.hospitals.ventilation": "Ventilation",
@@ -9891,40 +7589,22 @@
       "block.hospitals.wa_block": "WA Block",
       "block.hospitals.plastered_wall_beige": "Plastered Wall - Beige",
       "item.hospitals.pill_15.description_3": "-Pills Can Be Used To Fill Pill Bottles",
-      "item.hospitals.blood_type_tester.description_2": "-Punch A Player To Get Their Blood Type",
-      "item.hospitals.blood_type_tester.description_3": "-Has 8 Uses",
-      "item.hospitals.blood_type_tester.description_0": "",
-      "item.hospitals.blood_type_tester.description_1": "-Right Click To Check Your Own Blood Type",
       "gui.hospitals.blood_bank_gui.label_placeholder": "PLACEHOLDER",
       "block.hospitals.laboratory_fridge": "Laboratory Fridge",
       "item_group.hospitals.hospitals": "Hospitals",
       "block.hospitals.plastered_wall_sky_blue": "Plastered Wall (Sky Blue)",
       "block.hospitals.vinyl_wall_green_type_1": "Vinyl Wall - Green (Type 1)",
       "block.hospitals.ph_block": "PH Block",
-      "gui.hospitals.page_1.label_can_be_found_on_the": "Can Be Found On The ",
-      "gui.hospitals.page_2.button_pills": "Pills",
-      "gui.hospitals.page_2.button_scrubs": "Scrubs",
-      "gui.hospitals.page_1.label_found_on_the_online": "Found On The Online",
-      "gui.hospitals.blood_bank_gui.label_blood_bank": "Blood Bank",
       "block.hospitals.ward_storage_drawers": "Ward Storage Drawers",
       "item.hospitals.scrubs_boots": "Shoe Covers",
-      "item.hospitals.syringe": "Syringe TEST",
-      "gamerule.showbloodparticles": "Show Blood Particles",
       "item.hospitals.pill_16.description_3": "-Lowers Blood Pressure To Normal Levels",
       "item.hospitals.pill_16.description_2": "-Effect: Speed (short time)",
       "item.hospitals.pill_16.description_4": "-Pills Can Be Used To Fill Pill Bottles",
-      "gui.hospitals.page_1.label_updated_info_can_be": "Updated Info Can Be",
       "block.hospitals.patient_informaiton_point": "Patient Informaiton Point",
       "item.hospitals.pill_16.description_1": "-Use: High Blood Pressure",
-      "item.hospitals.blood_pressure_cuff.description_3": "- Infinite Uses",
       "item.hospitals.pill_16.description_0": "",
-      "item.hospitals.blood_pressure_cuff.description_2": "- Left Click To Test Other Players (Not Entities)",
       "gui.hospitals.ba_counter_overlay.label_empty": "",
-      "item.hospitals.blood_pressure_cuff.description_1": "- Right Click To Test Self",
-      "item.hospitals.blood_pressure_cuff.description_0": "",
-      "gui.hospitals.page_2.button_computer_stuff": "Computer Stuff",
       "block.hospitals.computer_screen_2_ct_scan_viewer": "Computer Screen 2 (CT Scan Viewer)",
-      "gui.hospitals.page_2.button_other": "Other",
       "item.hospitals.pill_42": "Vitamin B9 (Folate/Folic Acid)",
       "item.hospitals.pill_43": "Vitamin B12 (cyanocobalamin)",
       "item.hospitals.pill_40": "Vitamin B6 (pyridoxine)",
@@ -9935,14 +7615,11 @@
       "item.hospitals.pill_38.description_1": "-Use: Lowers Cholesterol",
       "item.hospitals.pill_38.description_2": "-Effect: Speed",
       "item.hospitals.pill_38.description_3": "-Pills Can Be Used To Fill Pill Bottles",
-      "item.hospitals.syringe.description_0": "",
-      "item.hospitals.syringe.description_1": "TEST!",
       "block.hospitals.vinyl_wall_red_type_1": "Vinyl Wall - Red (Type 1)",
       "item.hospitals.pill_39": "Vitamin B5 (Pantothenic acid)",
       "item.hospitals.pill_37": "Vitamin B2 (riboflavin)",
       "item.hospitals.pill_38": "Vitamin B3 (niacin)",
       "item.hospitals.pill_35": "Vitamin K",
-      "gui.hospitals.hospitals_wip_info.label_you_can_change_all_the_toggles_u": "you can change all the toggles",
       "item.hospitals.pill_36": "Vitamin B1 (thiamine)",
       "item.hospitals.pill_33": "Vitamin D",
       "item.hospitals.pill_34": "Vitamin E",
@@ -9958,7 +7635,6 @@
       "item.hospitals.small_medkit.description_1": "Heals 4 Hearts",
       "block.hospitals.vinyl_wall_blue_type_2": "Vinyl Wall - Blue (Type 2)",
       "item.hospitals.pillbottle_9": "Linagliptin Pill Bottle",
-      "gui.hospitals.blood_bank_gui.label_bag": "Bags",
       "item.hospitals.small_medkit.description_0": "",
       "item.hospitals.pillbottle_7": "Bismuth subsalicylate Pill Bottle",
       "item.hospitals.pillbottle_6": "Pseudoephedrine Pill Bottle",
@@ -9972,12 +7648,8 @@
       "item.hospitals.pillbottle_0": "Generic/Placebo Pill Bottle",
       "item.hospitals.pill_3.description_0": "",
       "block.hospitals.vinyl_floor_beige_type_2": "Vinyl Floor - Beige (Type 2)",
-      "item.hospitals.emptysyringe": "Empty Syringe TEST",
       "item.hospitals.pill_28.description_3": "-Pills Can Be Used To Fill Pill Bottles",
-      "gui.hospitals.page_2.button_pharmacists": "Pharmacists",
-      "item.hospitals.emptysyringe.description_1": "TEST!",
       "item.hospitals.pill_28.description_1": "-Use: Depression Treatment",
-      "item.hospitals.emptysyringe.description_0": "",
       "item.hospitals.pill_28.description_2": "-Effect: Blindness, Unluck, Instant Harming, Speed, Jump Boost, Haste",
       "item.hospitals.small_medkit": "Small Medkit",
       "item.hospitals.pill_28.description_0": "",
@@ -10003,22 +7675,17 @@
       "block.hospitals.smooth_concrete": "Smooth Concrete",
       "block.hospitals.wet_floor_sign": "Wet Floor Sign",
       "item.hospitals.pill_bottle_41.description_0": "",
-      "block.hospitals.blood_bank": "Blood Bank",
       "item.hospitals.mask_helmet.description_0": "",
-      "gamerule.showbloodparticles.description": "Toggles If You Want All Players To Display Blood When Damaged. Can Be Toggled Individually, See Wiki.",
       "item.hospitals.mask_helmet.description_1": "- Rendering May Look Weird / \"Too Big\"",
       "item.hospitals.mask_helmet.description_2": "- This Item Is Not Fully Completed / Will Be Changed Or Removed In A Future Update",
       "item.hospitals.mask_helmet.description_3": "- Not Craftable For Now",
       "item.hospitals.pill_bottle_13.description_0": "",
-      "gui.hospitals.page_2.button_blood_pressure": "Blood Pressure",
       "item.hospitals.pill_bottle_13.description_1": "Right Click To Open",
       "block.hospitals.vinyl_floor_aqua_type_2": "Vinyl Floor - Aqua (Type 2)",
       "block.hospitals.vinyl_floor_aqua_type_1": "Vinyl Floor - Aqua (Type 1)",
       "block.hospitals.plastered_wall_green": "Plastered Wall (Green)",
       "item.hospitals.pill_4.description_1": "-Use: Decongestant",
       "item.hospitals.pill_4.description_2": "-Effect: Regeneration, Slowness, Resistance",
-      "gui.hospitals.blood_bank_gui.button_o1": "O-",
-      "gui.hospitals.page_1.label_table_of_contents": "Table Of Contents",
       "item.hospitals.pill_4.description_0": "",
       "item.hospitals.pill_20.description_0": "",
       "item.hospitals.pill_bottle_39.description_0": "",
@@ -10029,7 +7696,6 @@
       "block.hospitals.fa_block": "FA Block",
       "block.hospitals.red_desk_tray": "Red Desk Tray",
       "item.hospitals.pill_39.description_0": "",
-      "gui.hospitals.page_2.button_blood": "/blood",
       "item.hospitals.pill_bottle_41.description_1": "Right Click To Open",
       "item.hospitals.pillbottle_0.description_0": "",
       "item.hospitals.pill_39.description_3": "-Pills Can Be Used To Fill Pill Bottles",
@@ -10052,7 +7718,6 @@
       "item.hospitals.pill_36.description_0": "",
       "item.hospitals.pill_20": "Omeprazole",
       "item.hospitals.pill_36.description_3": "-Pills Can Be Used To Fill Pill Bottles",
-      "gui.hospitals.page_2.button_blood_types": "Blood Types",
       "block.hospitals.computer_screen_2_xray_viewer": "Computer Screen 2 (X-RAY Viewer)",
       "item.hospitals.pill_bottle_10.description_0": "",
       "item.hospitals.pill_21": "Pantoprazole",
@@ -10064,7 +7729,6 @@
       "item.hospitals.pill_2.description_2": "-Effect: Instant Health, Strength",
       "item.hospitals.pill_2.description_1": "-Use: Pain Relief",
       "block.hospitals.xray_light_box_neck": "X-RAY Light Box (Neck)",
-      "gui.hospitals.page_2.button_visual_blood": "Visual Blood",
       "item.hospitals.pill_2.description_0": "",
       "item.hospitals.pill_19": "Hydrocortisone",
       "item.hospitals.pill_bottle_40.description_1": "Right Click To Open",
@@ -10079,14 +7743,12 @@
       "item.hospitals.pill_14": "Lisinopril",
       "item.hospitals.pill_11": "Amoxicillin",
       "item.hospitals.pill_12": "Azithromycin",
-      "item.hospitals.wipinfo.description_0": "Use Item To See How To Acsess Work In Progress Items",
       "item.hospitals.pill_10": "Ashwagandha",
       "item.hospitals.computer.description_0": "",
       "item.hospitals.computer.description_1": "i forgot my password :(",
       "item.hospitals.pill_1.description_2": "-Effect: Regeneration, Health Boost, Strength",
       "item.hospitals.pill_1.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_37.description_3": "-Pills Can Be Used To Fill Pill Bottles",
-      "gamerule.bloodlosstoggle.description": "When Enabled, Players Will Lose Blood When Hurt.",
       "item.hospitals.pill_37.description_0": "",
       "item.hospitals.pill_1.description_0": "",
       "item.hospitals.pill_37.description_2": "-Effects: Haste",
@@ -10097,7 +7759,6 @@
       "block.hospitals.iv_stand": "IV Stand",
       "block.hospitals.medical_workstation_cart": "Medical Workstation Cart",
       "item.hospitals.pill_21.description_2": "-Effect: Speed",
-      "gui.hospitals.blood_bank_gui.label_blood": "Blood",
       "item.hospitals.pill_21.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_bottle_38.description_1": "Right Click To Open",
       "item.hospitals.pill_21.description_0": "",
@@ -10107,9 +7768,7 @@
       "item.hospitals.pill_5.description_0": "",
       "block.hospitals.blue_desk_tray": "Blue Desk Tray",
       "item.hospitals.pill_5.description_1": "-Use: Cough Relief",
-      "effect.hospitals.severe_hypertension": "Severe Hypertension",
       "item.hospitals.pill_bottle_38.description_0": "",
-      "gamerule.bloodlosstoggle": "Toggle Blood Loss",
       "block.hospitals.drinks_fridge": "Drinks Fridge",
       "item.hospitals.pill": "Generic Pill / Placebo",
       "item.hospitals.pill_bottle_42.description_0": "",
@@ -10118,7 +7777,6 @@
       "block.hospitals.fire_exit_sign_wall_mounted": "Fire Exit Sign (Wall Mounted)",
       "block.hospitals.light_block": "Light Block",
       "item.hospitals.pill_35.description_0": "",
-      "gui.hospitals.page_2.button_pharmacies": "Pharmacies",
       "block.hospitals.surgical_lamp": "Surgical Lamp",
       "item.hospitals.pill_bottle_24.description_1": "Right Click To Open",
       "item.hospitals.pill_35.description_3": "-Pills Can Be Used To Fill Pill Bottles",
@@ -10133,12 +7791,10 @@
       "item.hospitals.pill_30.description_1": "-Use: Schizophrenia / Bipolar Treatment",
       "item.hospitals.pill_30.description_0": "",
       "item.hospitals.pillbottle_0.description_1": "Right Click To Open",
-      "gui.hospitals.hospitals_wip_info.label_by_using_the_toggle_mechanics": "by using the toggle commands",
       "block.hospitals.medical_gas_alarm_panel": "Medical Gas Alarm Panel",
       "block.hospitals.medication_drawers": "Medication Drawers",
       "item.hospitals.pill_bottle_23.description_1": "Right Click To Open",
       "item.hospitals.pill_40.description_3": "-Pills Can Be Used To Fill Pill Bottles",
-      "gui.hospitals.page_1.label_wiki_page": "Wiki Page. The Link",
       "item.hospitals.pill_40.description_1": "-Use: Hormonal Balance / Brain Health",
       "item.hospitals.pill_bottle_23.description_0": "",
       "item.hospitals.pill_40.description_2": "-Effect: Luck (strong) ",
@@ -10172,7 +7828,6 @@
       "block.hospitals.surgical_worktop_table": "Surgical Worktop/Table",
       "item.hospitals.pill_bottle_38": "Vitamin B3 (niacin) Pill Bottle",
       "item.hospitals.pill_bottle_43.description_0": "",
-      "gui.hospitals.hospitals_wip_info.label_go_to_bitlybloodcommand": "go to bit.ly/blood-command",
       "item.hospitals.pill_bottle_39": "Vitamin B5 (Pantothenic acid) Pill Bottle",
       "block.hospitals.prescription_basket": "Prescription Basket",
       "item.hospitals.pill_bottle_43.description_1": "Right Click To Open",
@@ -10237,13 +7892,11 @@
       "item.hospitals.pill_bottle_15": "Atorvastatin Pill Bottle",
       "block.hospitals.vinyl_floor_light_blue_type_1": "Vinyl Floor - Light Blue (Type 1)",
       "block.hospitals.worktop_with_shelf": "Worktop (With Shelf)",
-      "gui.hospitals.blood_bank_gui.button_o": "O+",
       "item.hospitals.pill_8.description_3": "-Pills Can Be Used To Fill Pill Bottles",
       "item.hospitals.pill_bottle_31.description_1": "Right Click To Open",
       "block.hospitals.refridgerated_centrifuge": "Refridgerated Centrifuge",
       "item.hospitals.pill_bottle_31.description_0": "",
       "item.hospitals.pill_8.description_0": "",
-      "gui.hospitals.book_template.label_text": "Text",
       "item.hospitals.pill_8.description_1": "-Use: Decongestant",
       "item.hospitals.pill_8.description_2": "-Effect: Water Breathing, Slowness",
       "entity.minecraft.villager.hospitals.pharmacist": "Pharmacist",
@@ -10266,13 +7919,9 @@
       "block.hospitals.bottle_filling_machine": "Bottle Filling Machine",
       "block.hospitals.operating_room_control_panel": "Operating Room Control Panel",
       "item.hospitals.pillbottle_11.description_1": "Right Click To Open",
-      "gui.hospitals.blood_bank_gui.button_a": "A+",
       "item.hospitals.pillbottle_11.description_0": "",
-      "gui.hospitals.blood_bank_gui.button_ab1": "AB-",
       "block.hospitals.ultrasound": "Ultrasound",
-      "gui.hospitals.blood_bank_gui.button_b": "B+",
       "item.hospitals.stainless_steel": "Stainless Steel",
-      "gui.hospitals.page_3.label_text": "p3",
       "block.hospitals.office_printer": "Office Printer",
       "item.hospitals.mask_helmet": "Surgical Mask"
     }
@@ -10301,36 +7950,6 @@
               },
               {
                 "name": "Pill Bottles",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "Blood",
-            "children": [
-              {
-                "name": "visual display",
-                "children": []
-              },
-              {
-                "name": "Blood Bags",
-                "children": [
-                  {
-                    "name": "BloodBagProcedures",
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "name": "badblood",
-                "children": []
-              },
-              {
-                "name": "Blood Pressure",
-                "children": []
-              },
-              {
-                "name": "BloodParticles",
                 "children": []
               }
             ]
@@ -10369,25 +7988,13 @@
       {
         "name": "Crafting Recipes",
         "children": []
-      },
-      {
-        "name": "TEST",
-        "children": []
-      },
-      {
-        "name": "Loot Tables",
-        "children": []
-      },
-      {
-        "name": "WikiBook",
-        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "hospitals",
     "modName": "Hospitals (THM Expanded)",
-    "version": "3.2.0",
+    "version": "3.2.1",
     "description": "This Brings Complex Medical Blocks And Items To Minecraft: Based Off Of Leon90\u0027s Mod.",
     "author": "DerpyMeow, Leon90",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/hospitals",

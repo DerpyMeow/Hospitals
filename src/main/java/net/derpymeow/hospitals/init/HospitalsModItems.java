@@ -13,9 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
-import net.derpymeow.hospitals.item.WIPINFOItem;
 import net.derpymeow.hospitals.item.UnprocessedSteelItem;
-import net.derpymeow.hospitals.item.SyringeItem;
 import net.derpymeow.hospitals.item.StainlessSteelItem;
 import net.derpymeow.hospitals.item.SmallMedkitItem;
 import net.derpymeow.hospitals.item.ScrubsItem;
@@ -110,22 +108,9 @@ import net.derpymeow.hospitals.item.Pill12Item;
 import net.derpymeow.hospitals.item.Pill11Item;
 import net.derpymeow.hospitals.item.Pill10Item;
 import net.derpymeow.hospitals.item.LargemedkitItem;
-import net.derpymeow.hospitals.item.EmptysyringeItem;
 import net.derpymeow.hospitals.item.CreativePillItem;
 import net.derpymeow.hospitals.item.ComputerItem;
 import net.derpymeow.hospitals.item.ComputerChipItem;
-import net.derpymeow.hospitals.item.ClipboardItem;
-import net.derpymeow.hospitals.item.BloodTypeTesterItem;
-import net.derpymeow.hospitals.item.BloodPressureCuffItem;
-import net.derpymeow.hospitals.item.BloodBagEmptyItem;
-import net.derpymeow.hospitals.item.BloodBag7Item;
-import net.derpymeow.hospitals.item.BloodBag6Item;
-import net.derpymeow.hospitals.item.BloodBag5Item;
-import net.derpymeow.hospitals.item.BloodBag4Item;
-import net.derpymeow.hospitals.item.BloodBag3Item;
-import net.derpymeow.hospitals.item.BloodBag2Item;
-import net.derpymeow.hospitals.item.BloodBag1Item;
-import net.derpymeow.hospitals.item.BloodBag0Item;
 import net.derpymeow.hospitals.HospitalsMod;
 
 public class HospitalsModItems {
@@ -360,24 +345,8 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> UNPROCESSED_STEEL = REGISTRY.register("unprocessed_steel", () -> new UnprocessedSteelItem());
 	public static final RegistryObject<Item> COMPUTER_CHIP = REGISTRY.register("computer_chip", () -> new ComputerChipItem());
 	public static final RegistryObject<Item> COMPUTER = REGISTRY.register("computer", () -> new ComputerItem());
-	public static final RegistryObject<Item> SYRINGE = REGISTRY.register("syringe", () -> new SyringeItem());
-	public static final RegistryObject<Item> EMPTYSYRINGE = REGISTRY.register("emptysyringe", () -> new EmptysyringeItem());
-	public static final RegistryObject<Item> BLOOD_TYPE_TESTER = REGISTRY.register("blood_type_tester", () -> new BloodTypeTesterItem());
 	public static final RegistryObject<Item> MASK_HELMET = REGISTRY.register("mask_helmet", () -> new ScrubmaskItem.Helmet());
-	public static final RegistryObject<Item> BLOOD_BAG_0 = REGISTRY.register("blood_bag_0", () -> new BloodBag0Item());
-	public static final RegistryObject<Item> BLOOD_BAG_1 = REGISTRY.register("blood_bag_1", () -> new BloodBag1Item());
-	public static final RegistryObject<Item> BLOOD_BAG_2 = REGISTRY.register("blood_bag_2", () -> new BloodBag2Item());
-	public static final RegistryObject<Item> BLOOD_BAG_3 = REGISTRY.register("blood_bag_3", () -> new BloodBag3Item());
-	public static final RegistryObject<Item> BLOOD_BAG_4 = REGISTRY.register("blood_bag_4", () -> new BloodBag4Item());
-	public static final RegistryObject<Item> BLOOD_BAG_5 = REGISTRY.register("blood_bag_5", () -> new BloodBag5Item());
-	public static final RegistryObject<Item> BLOOD_BAG_6 = REGISTRY.register("blood_bag_6", () -> new BloodBag6Item());
-	public static final RegistryObject<Item> BLOOD_BAG_7 = REGISTRY.register("blood_bag_7", () -> new BloodBag7Item());
 	public static final RegistryObject<Item> CREATIVE_PILL = REGISTRY.register("creative_pill", () -> new CreativePillItem());
-	public static final RegistryObject<Item> BLOOD_BANK = block(HospitalsModBlocks.BLOOD_BANK);
-	public static final RegistryObject<Item> BLOOD_BAG_EMPTY = REGISTRY.register("blood_bag_empty", () -> new BloodBagEmptyItem());
-	public static final RegistryObject<Item> BLOOD_PRESSURE_CUFF = REGISTRY.register("blood_pressure_cuff", () -> new BloodPressureCuffItem());
-	public static final RegistryObject<Item> WIPINFO = REGISTRY.register("wipinfo", () -> new WIPINFOItem());
-	public static final RegistryObject<Item> CLIPBOARD = REGISTRY.register("clipboard", () -> new ClipboardItem());
 	public static final RegistryObject<Item> WARNING = block(HospitalsModBlocks.WARNING);
 
 	// Start of user code block custom items

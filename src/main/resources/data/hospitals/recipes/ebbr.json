@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "hospitals:blood_bag_empty",
+    "item": "hospitals:deleted_mod_element",
     "count": 1
   }
 }
