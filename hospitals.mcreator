@@ -6905,19 +6905,6 @@
       "path": "~/Crafting Recipes"
     },
     {
-      "name": "Bttr",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bttr",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/hospitals/recipes/bttr.json"
-        ]
-      },
-      "path": "~/Crafting Recipes"
-    },
-    {
       "name": "Scrubmask",
       "type": "armor",
       "compiles": true,
@@ -6963,45 +6950,6 @@
         ]
       },
       "path": "~/Hospitals/Pills/Pills/Ate Procedures"
-    },
-    {
-      "name": "Bbr",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bbr",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/hospitals/recipes/bbr.json"
-        ]
-      },
-      "path": "~/Crafting Recipes"
-    },
-    {
-      "name": "Ebbr",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ebbr",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/hospitals/recipes/ebbr.json"
-        ]
-      },
-      "path": "~/Crafting Recipes"
-    },
-    {
-      "name": "Bpcr",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bpcr",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/hospitals/recipes/bpcr.json"
-        ]
-      },
-      "path": "~/Crafting Recipes"
     },
     {
       "name": "Warning",
@@ -7874,7 +7822,6 @@
   "metadata": {
     "files": [
       "src/main/resources/pack.mcmeta",
-      "src/main/java/net/derpymeow/hospitals/network/HospitalsModVariables.java",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModTabs.java",
       "src/main/java/net/derpymeow/hospitals/HospitalsMod.java",
       "src/main/resources/META-INF/mods.toml",
