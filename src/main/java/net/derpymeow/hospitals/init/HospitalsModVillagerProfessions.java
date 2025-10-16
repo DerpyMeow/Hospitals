@@ -1,4 +1,3 @@
-
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
@@ -34,7 +33,7 @@ public class HospitalsModVillagerProfessions {
 	private static final Map<String, ProfessionPoiType> POI_TYPES = new HashMap<>();
 	public static final DeferredRegister<VillagerProfession> PROFESSIONS = DeferredRegister.create(ForgeRegistries.VILLAGER_PROFESSIONS, HospitalsMod.MODID);
 	public static final RegistryObject<VillagerProfession> PHARMACIST = registerProfession("pharmacist", () -> HospitalsModBlocks.EPOS_CASHIER_SYSTEM.get(),
-			() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.villager.celebrate")));
+			() -> ForgeRegistries.SOUND_EVENTS.getValue(ResourceLocation.parse("entity.villager.celebrate")));
 
 	private static RegistryObject<VillagerProfession> registerProfession(String name, Supplier<Block> block, Supplier<SoundEvent> soundEvent) {
 		POI_TYPES.put(name, new ProfessionPoiType(block, null));

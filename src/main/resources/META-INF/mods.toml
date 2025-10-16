@@ -4,13 +4,13 @@ license="MIT License"
 
 [[mods]]
 modId="hospitals"
-version="3.2.1"
+version="3.2.2"
 displayName="Hospitals (THM Expanded)"
 updateJSONURL="https://raw.githubusercontent.com/DerpyMeow/Hospitals/refs/heads/master/UpdateChecker.json"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/hospitals"
 logoFile="logo.png"
 credits="This Mod Is An Updated And Expanded Version Of Leon90's \"The Hospital Mod\". Original Mod - https://www.curseforge.com/minecraft/mc-mods/the-hospital-mod"
-authors="DerpyMeow, Leon90"
+authors="DerpyMeow"
 description="This Brings Complex Medical Blocks And Items To Minecraft: Based Off Of Leon90's Mod."
 
 # Start of user code block mod configuration

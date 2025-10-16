@@ -1,4 +1,3 @@
-
 package net.derpymeow.hospitals.item;
 
 import net.minecraftforge.api.distmarker.OnlyIn;

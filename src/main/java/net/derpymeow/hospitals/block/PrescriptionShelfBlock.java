@@ -1,4 +1,3 @@
-
 package net.derpymeow.hospitals.block;
 
 import net.minecraft.world.phys.shapes.VoxelShape;

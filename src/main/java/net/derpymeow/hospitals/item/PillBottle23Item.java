@@ -1,4 +1,3 @@
-
 package net.derpymeow.hospitals.item;
 
 import net.minecraft.world.level.Level;

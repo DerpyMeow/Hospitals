@@ -1,4 +1,3 @@
-
 package net.derpymeow.hospitals.block;
 
 import org.checkerframework.checker.units.qual.s;
