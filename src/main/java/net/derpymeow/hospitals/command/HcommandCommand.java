@@ -19,7 +19,7 @@ public class HcommandCommand {
 	public static void registerCommand(RegisterCommandsEvent event) {
 		event.getDispatcher().register(Commands.literal("hospitals")
 
-				.executes(arguments -> {
+				.then(Commands.literal("test").executes(arguments -> {
 					Level world = arguments.getSource().getUnsidedLevel();
 					double x = arguments.getSource().getPosition().x();
 					double y = arguments.getSource().getPosition().y();
@@ -33,7 +33,7 @@ public class HcommandCommand {
 
 					HcmdtestProcedure.execute(entity);
 					return 0;
-				}));
+				})));
 	}
 
 }
