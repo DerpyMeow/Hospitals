@@ -4,7 +4,7 @@
   "definition": {
     "commandName": "hospitals",
     "type": "STANDARD",
-    "permissionLevel": "No requirement",
-    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"literal\"><field name=\"name\">test</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">Hcmdtest</field></block></statement></block></next></block></xml>"
+    "permissionLevel": "4",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"literal\"><field name=\"name\">dev_mode_dont_use</field><statement name=\"args\"><block type=\"literal\"><field name=\"name\">give</field><statement name=\"args\"><block type=\"literal\"><field name=\"name\">blood_bags</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">Devcmdsbloodbags</field></block></statement></block></statement><next><block type=\"literal\"><field name=\"name\">toggle</field><statement name=\"args\"><block type=\"logic\"><field name=\"name\">dmtf</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">Hcmdtest</field></block></statement></block></statement></block></next></block></statement></block></next></block></xml>"
   }
 }
