@@ -547,5 +547,14 @@
   "block.hospitals.ultrasound": "Ultrasound",
   "item.hospitals.stainless_steel": "Stainless Steel",
   "block.hospitals.office_printer": "Office Printer",
-  "item.hospitals.mask_helmet": "Surgical Mask"
+  "item.hospitals.mask_helmet": "Surgical Mask",
+  "item.hospitals.bloodbagonegative": "Blood Bag O-",
+  "item.hospitals.bloodbagopositive": "Blood Bag O+",
+  "item.hospitals.bloodbagbnegative": "Blood Bag B-",
+  "item.hospitals.bloodbagbpositive": "Blood Bag B+",
+  "item.hospitals.bloodbaganegative": "Blood Bag A-",
+  "item.hospitals.bloodbagapositive": "Blood Bag A+",
+  "item.hospitals.bloodbagabnegative": "Blood Bag AB-",
+  "item.hospitals.bloodbagabpositive": "Blood Bag AB+",
+  "item.hospitals.bloodbagempty": "Empty Blood Bag"
 }

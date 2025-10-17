@@ -110,6 +110,15 @@ import net.derpymeow.hospitals.item.LargemedkitItem;
 import net.derpymeow.hospitals.item.CreativePillItem;
 import net.derpymeow.hospitals.item.ComputerItem;
 import net.derpymeow.hospitals.item.ComputerChipItem;
+import net.derpymeow.hospitals.item.BloodbagopositiveItem;
+import net.derpymeow.hospitals.item.BloodbagonegativeItem;
+import net.derpymeow.hospitals.item.BloodbagemptyItem;
+import net.derpymeow.hospitals.item.BloodbagbpositiveItem;
+import net.derpymeow.hospitals.item.BloodbagbnegativeItem;
+import net.derpymeow.hospitals.item.BloodbagapositiveItem;
+import net.derpymeow.hospitals.item.BloodbaganegativeItem;
+import net.derpymeow.hospitals.item.BloodbagabpositiveItem;
+import net.derpymeow.hospitals.item.BloodbagabnegativeItem;
 import net.derpymeow.hospitals.HospitalsMod;
 
 public class HospitalsModItems {
@@ -347,6 +356,15 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> MASK_HELMET = REGISTRY.register("mask_helmet", () -> new ScrubmaskItem.Helmet());
 	public static final RegistryObject<Item> CREATIVE_PILL = REGISTRY.register("creative_pill", () -> new CreativePillItem());
 	public static final RegistryObject<Item> WARNING = block(HospitalsModBlocks.WARNING);
+	public static final RegistryObject<Item> BLOODBAGONEGATIVE = REGISTRY.register("bloodbagonegative", () -> new BloodbagonegativeItem());
+	public static final RegistryObject<Item> BLOODBAGOPOSITIVE = REGISTRY.register("bloodbagopositive", () -> new BloodbagopositiveItem());
+	public static final RegistryObject<Item> BLOODBAGBNEGATIVE = REGISTRY.register("bloodbagbnegative", () -> new BloodbagbnegativeItem());
+	public static final RegistryObject<Item> BLOODBAGBPOSITIVE = REGISTRY.register("bloodbagbpositive", () -> new BloodbagbpositiveItem());
+	public static final RegistryObject<Item> BLOODBAGANEGATIVE = REGISTRY.register("bloodbaganegative", () -> new BloodbaganegativeItem());
+	public static final RegistryObject<Item> BLOODBAGAPOSITIVE = REGISTRY.register("bloodbagapositive", () -> new BloodbagapositiveItem());
+	public static final RegistryObject<Item> BLOODBAGABNEGATIVE = REGISTRY.register("bloodbagabnegative", () -> new BloodbagabnegativeItem());
+	public static final RegistryObject<Item> BLOODBAGABPOSITIVE = REGISTRY.register("bloodbagabpositive", () -> new BloodbagabpositiveItem());
+	public static final RegistryObject<Item> BLOODBAGEMPTY = REGISTRY.register("bloodbagempty", () -> new BloodbagemptyItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

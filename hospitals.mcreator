@@ -7019,14 +7019,229 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ],
         "files": [
           "src/main/java/net/derpymeow/hospitals/procedures/DevcmdsbloodbagsProcedure.java"
+        ]
+      },
+      "path": "~/Experimental/expdevcmds"
+    },
+    {
+      "name": "Bloodbagonegative",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodbagonegative",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/bloodbagonegative.json",
+          "src/main/java/net/derpymeow/hospitals/item/BloodbagonegativeItem.java"
+        ]
+      },
+      "path": "~/Experimental/Blood Bags"
+    },
+    {
+      "name": "Bloodbagopositive",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodbagopositive",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/BloodbagopositiveItem.java",
+          "src/main/resources/assets/hospitals/models/item/bloodbagopositive.json"
+        ]
+      },
+      "path": "~/Experimental/Blood Bags"
+    },
+    {
+      "name": "Bloodbagbnegative",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodbagbnegative",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/bloodbagbnegative.json",
+          "src/main/java/net/derpymeow/hospitals/item/BloodbagbnegativeItem.java"
+        ]
+      },
+      "path": "~/Experimental/Blood Bags"
+    },
+    {
+      "name": "Bloodbagbpositive",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodbagbpositive",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/bloodbagbpositive.json",
+          "src/main/java/net/derpymeow/hospitals/item/BloodbagbpositiveItem.java"
+        ]
+      },
+      "path": "~/Experimental/Blood Bags"
+    },
+    {
+      "name": "Bloodbaganegative",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodbaganegative",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/bloodbaganegative.json",
+          "src/main/java/net/derpymeow/hospitals/item/BloodbaganegativeItem.java"
+        ]
+      },
+      "path": "~/Experimental/Blood Bags"
+    },
+    {
+      "name": "Bloodbagapositive",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodbagapositive",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/BloodbagapositiveItem.java",
+          "src/main/resources/assets/hospitals/models/item/bloodbagapositive.json"
+        ]
+      },
+      "path": "~/Experimental/Blood Bags"
+    },
+    {
+      "name": "Bloodbagabnegative",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodbagabnegative",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/BloodbagabnegativeItem.java",
+          "src/main/resources/assets/hospitals/models/item/bloodbagabnegative.json"
+        ]
+      },
+      "path": "~/Experimental/Blood Bags"
+    },
+    {
+      "name": "Bloodbagabpositive",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodbagabpositive",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/BloodbagabpositiveItem.java",
+          "src/main/resources/assets/hospitals/models/item/bloodbagabpositive.json"
+        ]
+      },
+      "path": "~/Experimental/Blood Bags"
+    },
+    {
+      "name": "Bloodbagempty",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodbagempty",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/bloodbagempty.json",
+          "src/main/java/net/derpymeow/hospitals/item/BloodbagemptyItem.java"
+        ]
+      },
+      "path": "~/Experimental/Blood Bags"
+    },
+    {
+      "name": "DonationLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donation_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "dl_give",
+            "type": "string"
+          },
+          {
+            "name": "dl_take",
+            "type": "string"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/DonationLogicProcedure.java"
+        ]
+      },
+      "path": "~/Experimental/Blood Bags"
+    },
+    {
+      "name": "Devcmdsdonationlogictester",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "devcmdsdonationlogictester",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/DevcmdsdonationlogictesterProcedure.java"
+        ]
+      },
+      "path": "~/Experimental/expdevcmds"
+    },
+    {
+      "name": "Selfbloodcomparebagrightclick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "selfbloodcomparebagrightclick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/SelfbloodcomparebagrightclickProcedure.java"
+        ]
+      },
+      "path": "~/Experimental/Blood Bags"
+    },
+    {
+      "name": "Devcmdssettype",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "devcmdssettype",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/DevcmdssettypeProcedure.java"
         ]
       },
       "path": "~/Experimental/expdevcmds"
@@ -7038,6 +7253,12 @@
       "type": "logic",
       "scope": "map",
       "value": "false"
+    },
+    {
+      "name": "blood_type",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "O-"
     }
   ],
   "sound_elements": [],
@@ -7886,7 +8107,16 @@
       "block.hospitals.ultrasound": "Ultrasound",
       "item.hospitals.stainless_steel": "Stainless Steel",
       "block.hospitals.office_printer": "Office Printer",
-      "item.hospitals.mask_helmet": "Surgical Mask"
+      "item.hospitals.mask_helmet": "Surgical Mask",
+      "item.hospitals.bloodbagonegative": "Blood Bag O-",
+      "item.hospitals.bloodbagopositive": "Blood Bag O+",
+      "item.hospitals.bloodbagbnegative": "Blood Bag B-",
+      "item.hospitals.bloodbagbpositive": "Blood Bag B+",
+      "item.hospitals.bloodbaganegative": "Blood Bag A-",
+      "item.hospitals.bloodbagapositive": "Blood Bag A+",
+      "item.hospitals.bloodbagabnegative": "Blood Bag AB-",
+      "item.hospitals.bloodbagabpositive": "Blood Bag AB+",
+      "item.hospitals.bloodbagempty": "Empty Blood Bag"
     }
   },
   "metadata": {
