@@ -6967,6 +6967,38 @@
         ]
       },
       "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "Hcmdtest",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hcmdtest",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/HcmdtestProcedure.java"
+        ]
+      },
+      "path": "~/Hospitals"
+    },
+    {
+      "name": "Hcommand",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hcommand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/command/HcommandCommand.java"
+        ]
+      },
+      "path": "~/Hospitals"
     }
   ],
   "variable_elements": [],
