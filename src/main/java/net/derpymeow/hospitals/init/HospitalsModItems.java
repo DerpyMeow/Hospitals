@@ -13,6 +13,15 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.derpymeow.hospitals.item.UnprocessedSteelItem;
+import net.derpymeow.hospitals.item.SyringebloodOnegativeItem;
+import net.derpymeow.hospitals.item.SyringeBloodOPositiveItem;
+import net.derpymeow.hospitals.item.SyringeBloodMixedItem;
+import net.derpymeow.hospitals.item.SyringeBloodBPositiveItem;
+import net.derpymeow.hospitals.item.SyringeBloodBNegativeItem;
+import net.derpymeow.hospitals.item.SyringeBloodAPositiveItem;
+import net.derpymeow.hospitals.item.SyringeBloodANegativeItem;
+import net.derpymeow.hospitals.item.SyringeBloodABPositiveItem;
+import net.derpymeow.hospitals.item.SyringeBloodABNegativeItem;
 import net.derpymeow.hospitals.item.StainlessSteelItem;
 import net.derpymeow.hospitals.item.SmallMedkitItem;
 import net.derpymeow.hospitals.item.ScrubsItem;
@@ -107,6 +116,7 @@ import net.derpymeow.hospitals.item.Pill12Item;
 import net.derpymeow.hospitals.item.Pill11Item;
 import net.derpymeow.hospitals.item.Pill10Item;
 import net.derpymeow.hospitals.item.LargemedkitItem;
+import net.derpymeow.hospitals.item.EmptySyringeItem;
 import net.derpymeow.hospitals.item.CreativePillItem;
 import net.derpymeow.hospitals.item.ComputerItem;
 import net.derpymeow.hospitals.item.ComputerChipItem;
@@ -365,6 +375,17 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> BLOODBAGABNEGATIVE = REGISTRY.register("bloodbagabnegative", () -> new BloodbagabnegativeItem());
 	public static final RegistryObject<Item> BLOODBAGABPOSITIVE = REGISTRY.register("bloodbagabpositive", () -> new BloodbagabpositiveItem());
 	public static final RegistryObject<Item> BLOODBAGEMPTY = REGISTRY.register("bloodbagempty", () -> new BloodbagemptyItem());
+	public static final RegistryObject<Item> EMPTY_SYRINGE = REGISTRY.register("empty_syringe", () -> new EmptySyringeItem());
+	public static final RegistryObject<Item> SYRINGEBLOOD_ONEGATIVE = REGISTRY.register("syringeblood_onegative", () -> new SyringebloodOnegativeItem());
+	public static final RegistryObject<Item> SYRINGE_BLOOD_O_POSITIVE = REGISTRY.register("syringe_blood_o_positive", () -> new SyringeBloodOPositiveItem());
+	public static final RegistryObject<Item> SYRINGE_BLOOD_B_NEGATIVE = REGISTRY.register("syringe_blood_b_negative", () -> new SyringeBloodBNegativeItem());
+	public static final RegistryObject<Item> SYRINGE_BLOOD_B_POSITIVE = REGISTRY.register("syringe_blood_b_positive", () -> new SyringeBloodBPositiveItem());
+	public static final RegistryObject<Item> SYRINGE_BLOOD_A_NEGATIVE = REGISTRY.register("syringe_blood_a_negative", () -> new SyringeBloodANegativeItem());
+	public static final RegistryObject<Item> SYRINGE_BLOOD_A_POSITIVE = REGISTRY.register("syringe_blood_a_positive", () -> new SyringeBloodAPositiveItem());
+	public static final RegistryObject<Item> SYRINGE_BLOOD_AB_NEGATIVE = REGISTRY.register("syringe_blood_ab_negative", () -> new SyringeBloodABNegativeItem());
+	public static final RegistryObject<Item> SYRINGE_BLOOD_AB_POSITIVE = REGISTRY.register("syringe_blood_ab_positive", () -> new SyringeBloodABPositiveItem());
+	public static final RegistryObject<Item> SYRINGE_BLOOD_MIXED = REGISTRY.register("syringe_blood_mixed", () -> new SyringeBloodMixedItem());
+	public static final RegistryObject<Item> BLOOD_CENTRIFUGE = block(HospitalsModBlocks.BLOOD_CENTRIFUGE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

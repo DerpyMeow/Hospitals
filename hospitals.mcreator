@@ -7245,6 +7245,209 @@
         ]
       },
       "path": "~/Experimental/expdevcmds"
+    },
+    {
+      "name": "EmptySyringe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_syringe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/EmptySyringeItem.java",
+          "src/main/resources/assets/hospitals/models/item/empty_syringe.json"
+        ]
+      },
+      "path": "~/Experimental/syringe"
+    },
+    {
+      "name": "SyringebloodOnegative",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syringeblood_onegative",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/syringeblood_onegative.json",
+          "src/main/java/net/derpymeow/hospitals/item/SyringebloodOnegativeItem.java"
+        ]
+      },
+      "path": "~/Experimental/syringe"
+    },
+    {
+      "name": "SyringeBloodOPositive",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syringe_blood_o_positive",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/syringe_blood_o_positive.json",
+          "src/main/java/net/derpymeow/hospitals/item/SyringeBloodOPositiveItem.java"
+        ]
+      },
+      "path": "~/Experimental/syringe"
+    },
+    {
+      "name": "SyringeBloodBNegative",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syringe_blood_b_negative",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/syringe_blood_b_negative.json",
+          "src/main/java/net/derpymeow/hospitals/item/SyringeBloodBNegativeItem.java"
+        ]
+      },
+      "path": "~/Experimental/syringe"
+    },
+    {
+      "name": "SyringeBloodBPositive",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syringe_blood_b_positive",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/syringe_blood_b_positive.json",
+          "src/main/java/net/derpymeow/hospitals/item/SyringeBloodBPositiveItem.java"
+        ]
+      },
+      "path": "~/Experimental/syringe"
+    },
+    {
+      "name": "SyringeBloodANegative",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syringe_blood_a_negative",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/SyringeBloodANegativeItem.java",
+          "src/main/resources/assets/hospitals/models/item/syringe_blood_a_negative.json"
+        ]
+      },
+      "path": "~/Experimental/syringe"
+    },
+    {
+      "name": "SyringeBloodAPositive",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syringe_blood_a_positive",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/SyringeBloodAPositiveItem.java",
+          "src/main/resources/assets/hospitals/models/item/syringe_blood_a_positive.json"
+        ]
+      },
+      "path": "~/Experimental/syringe"
+    },
+    {
+      "name": "SyringeBloodABNegative",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syringe_blood_ab_negative",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/SyringeBloodABNegativeItem.java",
+          "src/main/resources/assets/hospitals/models/item/syringe_blood_ab_negative.json"
+        ]
+      },
+      "path": "~/Experimental/syringe"
+    },
+    {
+      "name": "SyringeBloodABPositive",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syringe_blood_ab_positive",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/syringe_blood_ab_positive.json",
+          "src/main/java/net/derpymeow/hospitals/item/SyringeBloodABPositiveItem.java"
+        ]
+      },
+      "path": "~/Experimental/syringe"
+    },
+    {
+      "name": "SyringeBloodMixed",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syringe_blood_mixed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/SyringeBloodMixedItem.java",
+          "src/main/resources/assets/hospitals/models/item/syringe_blood_mixed.json"
+        ]
+      },
+      "path": "~/Experimental/syringe"
+    },
+    {
+      "name": "BloodCentrifuge",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_centrifuge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/entity/BloodCentrifugeBlockEntity.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/blood_centrifuge.json",
+          "src/main/resources/assets/hospitals/models/block/blood_centrifuge.json",
+          "src/main/resources/assets/hospitals/models/item/blood_centrifuge.json",
+          "src/main/java/net/derpymeow/hospitals/block/BloodCentrifugeBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/blood_centrifuge.json"
+        ]
+      },
+      "path": "~/Experimental/Blood Centrifuge"
+    },
+    {
+      "name": "Exp",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exp",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Experimental"
+    },
+    {
+      "name": "BloodCentrifugeGui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_centrifuge_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/network/BloodCentrifugeGuiButtonMessage.java",
+          "src/main/java/net/derpymeow/hospitals/client/gui/BloodCentrifugeGuiScreen.java",
+          "src/main/java/net/derpymeow/hospitals/world/inventory/BloodCentrifugeGuiMenu.java"
+        ]
+      },
+      "path": "~/Experimental/Blood Centrifuge"
+    },
+    {
+      "name": "BloodCentrifugeGuiManagment",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_centrifuge_gui_managment",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BloodCentrifugeGuiManagmentProcedure.java"
+        ]
+      },
+      "path": "~/Experimental/Blood Centrifuge"
     }
   ],
   "variable_elements": [
@@ -7309,6 +7512,17 @@
       "CUSTOM:Pill42",
       "CUSTOM:Pill43",
       "CUSTOM:CreativePill"
+    ],
+    "ITEMS:mod:syringes": [
+      "CUSTOM:SyringebloodOnegative",
+      "CUSTOM:SyringeBloodOPositive",
+      "CUSTOM:SyringeBloodBNegative",
+      "CUSTOM:SyringeBloodBPositive",
+      "CUSTOM:SyringeBloodANegative",
+      "CUSTOM:SyringeBloodAPositive",
+      "CUSTOM:SyringeBloodABNegative",
+      "CUSTOM:SyringeBloodABPositive",
+      "CUSTOM:SyringeBloodMixed"
     ]
   },
   "tab_element_order": {
@@ -7555,6 +7769,28 @@
       "PillBottle41",
       "PillBottle42",
       "PillBottle43"
+    ],
+    "CUSTOM:Exp": [
+      "Bloodbagonegative",
+      "Bloodbagopositive",
+      "Bloodbagbnegative",
+      "Bloodbagbpositive",
+      "Bloodbaganegative",
+      "Bloodbagapositive",
+      "Bloodbagabnegative",
+      "Bloodbagabpositive",
+      "Bloodbagempty",
+      "SyringebloodOnegative",
+      "SyringeBloodOPositive",
+      "SyringeBloodBNegative",
+      "SyringeBloodBPositive",
+      "SyringeBloodANegative",
+      "SyringeBloodAPositive",
+      "SyringeBloodABNegative",
+      "SyringeBloodABPositive",
+      "SyringeBloodMixed",
+      "EmptySyringe",
+      "BloodCentrifuge"
     ]
   },
   "language_map": {
@@ -8116,7 +8352,24 @@
       "item.hospitals.bloodbagapositive": "Blood Bag A+",
       "item.hospitals.bloodbagabnegative": "Blood Bag AB-",
       "item.hospitals.bloodbagabpositive": "Blood Bag AB+",
-      "item.hospitals.bloodbagempty": "Empty Blood Bag"
+      "item.hospitals.bloodbagempty": "Empty Blood Bag",
+      "item.hospitals.empty_syringe": "Empty Syringe",
+      "item.hospitals.syringeblood_onegative": "Blood Filled Syringe (O-)",
+      "item.hospitals.syringe_blood_o_positive": "Blood Filled Syringe (O+)",
+      "item.hospitals.syringe_blood_b_negative": "Blood Filled Syringe (B-)",
+      "item.hospitals.syringe_blood_b_positive": "Blood Filled Syringe (B+)",
+      "item.hospitals.syringe_blood_a_negative": "Blood Filled Syringe (A-)",
+      "item.hospitals.syringe_blood_a_positive": "Blood Filled Syringe (A+)",
+      "item.hospitals.syringe_blood_ab_negative": "Blood Filled Syringe (AB-)",
+      "item.hospitals.syringe_blood_ab_positive": "Blood Filled Syringe (AB+)",
+      "item.hospitals.syringe_blood_mixed": "Blood Filled Syringe (Mixed)",
+      "block.hospitals.blood_centrifuge": "Blood Centrifuge",
+      "item_group.hospitals.exp": "Experimental",
+      "gui.hospitals.blood_centrifuge_gui.label_blood_centrifuge": "Blood Centrifuge",
+      "gui.hospitals.blood_centrifuge_gui.label_output": "Output",
+      "gui.hospitals.blood_centrifuge_gui.tooltip_hwiki_for_help": "/hwiki for help!",
+      "gui.hospitals.blood_centrifuge_gui.label_syringe": "Input",
+      "gui.hospitals.blood_centrifuge_gui.button_convert": "---\u003e"
     }
   },
   "metadata": {
@@ -8126,10 +8379,14 @@
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModTabs.java",
       "src/main/java/net/derpymeow/hospitals/HospitalsMod.java",
       "src/main/resources/META-INF/mods.toml",
+      "src/main/java/net/derpymeow/hospitals/init/HospitalsModMenus.java",
+      "src/main/java/net/derpymeow/hospitals/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/derpymeow/hospitals/init/HospitalsModScreens.java",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModVillagerProfessions.java",
       "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModTrades.java",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModBlocks.java",
+      "src/main/java/net/derpymeow/hospitals/init/HospitalsModBlockEntities.java",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModItems.java",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModEntityRenderers.java",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModEntities.java"
@@ -8207,6 +8464,14 @@
           },
           {
             "name": "expdevcmds",
+            "children": []
+          },
+          {
+            "name": "syringe",
+            "children": []
+          },
+          {
+            "name": "Blood Centrifuge",
             "children": []
           }
         ]

@@ -556,5 +556,22 @@
   "item.hospitals.bloodbagapositive": "Blood Bag A+",
   "item.hospitals.bloodbagabnegative": "Blood Bag AB-",
   "item.hospitals.bloodbagabpositive": "Blood Bag AB+",
-  "item.hospitals.bloodbagempty": "Empty Blood Bag"
+  "item.hospitals.bloodbagempty": "Empty Blood Bag",
+  "item.hospitals.empty_syringe": "Empty Syringe",
+  "item.hospitals.syringeblood_onegative": "Blood Filled Syringe (O-)",
+  "item.hospitals.syringe_blood_o_positive": "Blood Filled Syringe (O+)",
+  "item.hospitals.syringe_blood_b_negative": "Blood Filled Syringe (B-)",
+  "item.hospitals.syringe_blood_b_positive": "Blood Filled Syringe (B+)",
+  "item.hospitals.syringe_blood_a_negative": "Blood Filled Syringe (A-)",
+  "item.hospitals.syringe_blood_a_positive": "Blood Filled Syringe (A+)",
+  "item.hospitals.syringe_blood_ab_negative": "Blood Filled Syringe (AB-)",
+  "item.hospitals.syringe_blood_ab_positive": "Blood Filled Syringe (AB+)",
+  "item.hospitals.syringe_blood_mixed": "Blood Filled Syringe (Mixed)",
+  "block.hospitals.blood_centrifuge": "Blood Centrifuge",
+  "item_group.hospitals.exp": "Experimental",
+  "gui.hospitals.blood_centrifuge_gui.label_blood_centrifuge": "Blood Centrifuge",
+  "gui.hospitals.blood_centrifuge_gui.label_output": "Output",
+  "gui.hospitals.blood_centrifuge_gui.tooltip_hwiki_for_help": "/hwiki for help!",
+  "gui.hospitals.blood_centrifuge_gui.label_syringe": "Input",
+  "gui.hospitals.blood_centrifuge_gui.button_convert": "---\u003e"
 }

@@ -19,9 +19,11 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.derpymeow.hospitals.init.HospitalsModVillagerProfessions;
 import net.derpymeow.hospitals.init.HospitalsModTabs;
+import net.derpymeow.hospitals.init.HospitalsModMenus;
 import net.derpymeow.hospitals.init.HospitalsModItems;
 import net.derpymeow.hospitals.init.HospitalsModEntities;
 import net.derpymeow.hospitals.init.HospitalsModBlocks;
+import net.derpymeow.hospitals.init.HospitalsModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -44,13 +46,14 @@ public class HospitalsMod {
 		IEventBus bus = context.getModEventBus();
 
 		HospitalsModBlocks.REGISTRY.register(bus);
-
+		HospitalsModBlockEntities.REGISTRY.register(bus);
 		HospitalsModItems.REGISTRY.register(bus);
 		HospitalsModEntities.REGISTRY.register(bus);
 
 		HospitalsModTabs.REGISTRY.register(bus);
 
 		HospitalsModVillagerProfessions.PROFESSIONS.register(bus);
+		HospitalsModMenus.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "bloodbagtype4",
+    "texture": "syringe_blood_filled_tx",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},
     "states": [],
-    "name": "Blood Bag B+",
+    "name": "Blood Filled Syringe (A+)",
     "rarity": "COMMON",
     "creativeTabs": [
       {
@@ -37,9 +37,6 @@
     },
     "inventorySize": 9,
     "inventoryStackSize": 99,
-    "onRightClickedInAir": {
-      "name": "Selfbloodcomparebagrightclick"
-    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
