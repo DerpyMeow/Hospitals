@@ -7595,6 +7595,125 @@
         ]
       },
       "path": "~/Hospitals"
+    },
+    {
+      "name": "MiniTiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mini_tiles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/MiniTilesBlock.java",
+          "src/main/resources/assets/hospitals/models/item/mini_tiles.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/mini_tiles.json",
+          "src/main/resources/assets/hospitals/models/block/mini_tiles.json",
+          "src/main/resources/assets/hospitals/blockstates/mini_tiles.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "Largedarktiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "largedarktiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/largedarktiles.json",
+          "src/main/resources/assets/hospitals/models/item/largedarktiles.json",
+          "src/main/resources/assets/hospitals/blockstates/largedarktiles.json",
+          "src/main/java/net/derpymeow/hospitals/block/LargedarktilesBlock.java",
+          "src/main/resources/assets/hospitals/models/block/largedarktiles.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "Largelightbluetiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "largelightbluetiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/blockstates/largelightbluetiles.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/largelightbluetiles.json",
+          "src/main/java/net/derpymeow/hospitals/block/LargelightbluetilesBlock.java",
+          "src/main/resources/assets/hospitals/models/block/largelightbluetiles.json",
+          "src/main/resources/assets/hospitals/models/item/largelightbluetiles.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "Labtiles1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "labtiles_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/labtiles_1.json",
+          "src/main/resources/assets/hospitals/models/item/labtiles_1.json",
+          "src/main/resources/assets/hospitals/blockstates/labtiles_1.json",
+          "src/main/java/net/derpymeow/hospitals/block/Labtiles1Block.java",
+          "src/main/resources/assets/hospitals/models/block/labtiles_1.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "Labtiles2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "labtiles_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/labtiles_2.json",
+          "src/main/resources/assets/hospitals/models/block/labtiles_2.json",
+          "src/main/resources/assets/hospitals/models/item/labtiles_2.json",
+          "src/main/resources/assets/hospitals/blockstates/labtiles_2.json",
+          "src/main/java/net/derpymeow/hospitals/block/Labtiles2Block.java"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "Labtiles3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "labtiles_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/Labtiles3Block.java",
+          "src/main/resources/assets/hospitals/blockstates/labtiles_3.json",
+          "src/main/resources/assets/hospitals/models/block/labtiles_3.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/labtiles_3.json",
+          "src/main/resources/assets/hospitals/models/item/labtiles_3.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "Labtiles4",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "labtiles_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/labtiles_4.json",
+          "src/main/resources/assets/hospitals/models/block/labtiles_4.json",
+          "src/main/java/net/derpymeow/hospitals/block/Labtiles4Block.java",
+          "src/main/resources/assets/hospitals/blockstates/labtiles_4.json",
+          "src/main/resources/assets/hospitals/models/item/labtiles_4.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
     }
   ],
   "variable_elements": [
@@ -7825,7 +7944,14 @@
       "BlockOfStainlessSteel",
       "UnprocessedSteel",
       "ComputerChip",
-      "Computer"
+      "Computer",
+      "MiniTiles",
+      "Largedarktiles",
+      "Largelightbluetiles",
+      "Labtiles1",
+      "Labtiles2",
+      "Labtiles3",
+      "Labtiles4"
     ],
     "CUSTOM:Hospitalspills": [
       "CreativePill",
@@ -8547,7 +8673,22 @@
       "gui.hospitals.expinfobookgui.label_player_because_they_are_not_fini": "player because they are not finished.",
       "item.hospitals.wiki_book": "Wiki Book",
       "item.hospitals.wiki_book.description_1": "Hospitals Mod Wiki Book",
-      "item.hospitals.wiki_book.description_0": ""
+      "item.hospitals.wiki_book.description_0": "",
+      "block.hospitals.mini_tiles": "Mini Tiles",
+      "block.hospitals.largedarktiles": "Large Dark Tiles",
+      "block.hospitals.largelightbluetiles": "Large Light Blue Tiles",
+      "block.hospitals.labtiles_1": "Lab Tiles 1",
+      "block.hospitals.labtiles_2": "Lab Tiles 2",
+      "block.hospitals.labtiles_3": "Lab Tiles 3",
+      "block.hospitals.labtiles_4": "Lab Tiles 4",
+      "block.hospitals.labtiles_4.description_0": "",
+      "block.hospitals.labtiles_4.description_1": "Same as Lab Tiles 3, but with gradient",
+      "block.hospitals.labtiles_2.description_1": "Same as Lab Tiles 1, but with gradient",
+      "block.hospitals.labtiles_2.description_0": "",
+      "block.hospitals.labtiles_1.description_0": "",
+      "block.hospitals.labtiles_1.description_1": "Same as Lab Tiles 3, but with thinner border",
+      "block.hospitals.labtiles_3.description_0": "",
+      "block.hospitals.labtiles_3.description_1": "Same as Lab Tiles 1, but with thicker border"
     }
   },
   "metadata": {

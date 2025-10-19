@@ -100,6 +100,7 @@ import net.derpymeow.hospitals.block.OfficeDeskWithBackBlock;
 import net.derpymeow.hospitals.block.OfficeDeskPhoneBlock;
 import net.derpymeow.hospitals.block.OfficeDeskBlock;
 import net.derpymeow.hospitals.block.MixedBloodBlock;
+import net.derpymeow.hospitals.block.MiniTilesBlock;
 import net.derpymeow.hospitals.block.MedicationDrawersBlock;
 import net.derpymeow.hospitals.block.MedicalWorkstationCartBlock;
 import net.derpymeow.hospitals.block.MedicalGasCeilingMountedBlock;
@@ -107,6 +108,12 @@ import net.derpymeow.hospitals.block.MedicalGasAlarmPanelBlock;
 import net.derpymeow.hospitals.block.MedicalCrossBlock;
 import net.derpymeow.hospitals.block.LightBlockBlock;
 import net.derpymeow.hospitals.block.LifeSupportSyringePumpsBlock;
+import net.derpymeow.hospitals.block.LargelightbluetilesBlock;
+import net.derpymeow.hospitals.block.LargedarktilesBlock;
+import net.derpymeow.hospitals.block.Labtiles4Block;
+import net.derpymeow.hospitals.block.Labtiles3Block;
+import net.derpymeow.hospitals.block.Labtiles2Block;
+import net.derpymeow.hospitals.block.Labtiles1Block;
 import net.derpymeow.hospitals.block.LaboratoryFridgeBlock;
 import net.derpymeow.hospitals.block.IlluminatedPharmacySignBlock;
 import net.derpymeow.hospitals.block.IVStandBlock;
@@ -277,6 +284,13 @@ public class HospitalsModBlocks {
 	public static final RegistryObject<Block> WARNING = REGISTRY.register("warning", () -> new WarningBlock());
 	public static final RegistryObject<Block> BLOOD_CENTRIFUGE = REGISTRY.register("blood_centrifuge", () -> new BloodCentrifugeBlock());
 	public static final RegistryObject<Block> MIXED_BLOOD = REGISTRY.register("mixed_blood", () -> new MixedBloodBlock());
+	public static final RegistryObject<Block> MINI_TILES = REGISTRY.register("mini_tiles", () -> new MiniTilesBlock());
+	public static final RegistryObject<Block> LARGEDARKTILES = REGISTRY.register("largedarktiles", () -> new LargedarktilesBlock());
+	public static final RegistryObject<Block> LARGELIGHTBLUETILES = REGISTRY.register("largelightbluetiles", () -> new LargelightbluetilesBlock());
+	public static final RegistryObject<Block> LABTILES_1 = REGISTRY.register("labtiles_1", () -> new Labtiles1Block());
+	public static final RegistryObject<Block> LABTILES_2 = REGISTRY.register("labtiles_2", () -> new Labtiles2Block());
+	public static final RegistryObject<Block> LABTILES_3 = REGISTRY.register("labtiles_3", () -> new Labtiles3Block());
+	public static final RegistryObject<Block> LABTILES_4 = REGISTRY.register("labtiles_4", () -> new Labtiles4Block());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

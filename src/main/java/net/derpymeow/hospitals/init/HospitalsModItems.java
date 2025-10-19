@@ -392,6 +392,13 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> MIXED_BLOOD_BUCKET = REGISTRY.register("mixed_blood_bucket", () -> new MixedBloodItem());
 	public static final RegistryObject<Item> EXPERIMENTAL_INFOBOOK = REGISTRY.register("experimental_infobook", () -> new ExperimentalInfobookItem());
 	public static final RegistryObject<Item> WIKI_BOOK = REGISTRY.register("wiki_book", () -> new WikiBookItem());
+	public static final RegistryObject<Item> MINI_TILES = block(HospitalsModBlocks.MINI_TILES);
+	public static final RegistryObject<Item> LARGEDARKTILES = block(HospitalsModBlocks.LARGEDARKTILES);
+	public static final RegistryObject<Item> LARGELIGHTBLUETILES = block(HospitalsModBlocks.LARGELIGHTBLUETILES);
+	public static final RegistryObject<Item> LABTILES_1 = block(HospitalsModBlocks.LABTILES_1);
+	public static final RegistryObject<Item> LABTILES_2 = block(HospitalsModBlocks.LABTILES_2);
+	public static final RegistryObject<Item> LABTILES_3 = block(HospitalsModBlocks.LABTILES_3);
+	public static final RegistryObject<Item> LABTILES_4 = block(HospitalsModBlocks.LABTILES_4);
 
 	// Start of user code block custom items
 	// End of user code block custom items
