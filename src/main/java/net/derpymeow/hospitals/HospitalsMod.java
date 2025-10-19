@@ -21,6 +21,8 @@ import net.derpymeow.hospitals.init.HospitalsModVillagerProfessions;
 import net.derpymeow.hospitals.init.HospitalsModTabs;
 import net.derpymeow.hospitals.init.HospitalsModMenus;
 import net.derpymeow.hospitals.init.HospitalsModItems;
+import net.derpymeow.hospitals.init.HospitalsModFluids;
+import net.derpymeow.hospitals.init.HospitalsModFluidTypes;
 import net.derpymeow.hospitals.init.HospitalsModEntities;
 import net.derpymeow.hospitals.init.HospitalsModBlocks;
 import net.derpymeow.hospitals.init.HospitalsModBlockEntities;
@@ -54,6 +56,8 @@ public class HospitalsMod {
 
 		HospitalsModVillagerProfessions.PROFESSIONS.register(bus);
 		HospitalsModMenus.REGISTRY.register(bus);
+		HospitalsModFluids.REGISTRY.register(bus);
+		HospitalsModFluidTypes.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

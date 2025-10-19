@@ -153,6 +153,7 @@ public class HospitalsModTabs {
 			}).withSearchBar().withTabsBefore(WARD_THM.getId()).build());
 	public static final RegistryObject<CreativeModeTab> HOSPITALS = REGISTRY.register("hospitals",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.hospitals")).icon(() -> new ItemStack(HospitalsModBlocks.MEDICAL_CROSS.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(HospitalsModItems.WIKI_BOOK.get());
 				tabData.accept(HospitalsModBlocks.TH_BLOCK.get().asItem());
 				tabData.accept(HospitalsModBlocks.PH_BLOCK.get().asItem());
 				tabData.accept(HospitalsModBlocks.RA_BLOCK.get().asItem());
@@ -173,8 +174,6 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModItems.UNPROCESSED_STEEL.get());
 				tabData.accept(HospitalsModItems.COMPUTER_CHIP.get());
 				tabData.accept(HospitalsModItems.COMPUTER.get());
-				tabData.accept(HospitalsModBlocks.WARNING.get().asItem());
-				tabData.accept(HospitalsModItems.MASK_HELMET.get());
 			}).withSearchBar().withTabsBefore(FACILITIES_THM.getId()).build());
 	public static final RegistryObject<CreativeModeTab> HOSPITALSPILLS = REGISTRY.register("hospitalspills",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.hospitalspills")).icon(() -> new ItemStack(HospitalsModItems.PILL.get())).displayItems((parameters, tabData) -> {
@@ -271,6 +270,7 @@ public class HospitalsModTabs {
 			}).withSearchBar().withTabsBefore(HOSPITALS.getId()).build());
 	public static final RegistryObject<CreativeModeTab> EXP = REGISTRY.register("exp",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.exp")).icon(() -> new ItemStack(HospitalsModBlocks.WARNING.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(HospitalsModItems.EXPERIMENTAL_INFOBOOK.get());
 				tabData.accept(HospitalsModItems.BLOODBAGONEGATIVE.get());
 				tabData.accept(HospitalsModItems.BLOODBAGOPOSITIVE.get());
 				tabData.accept(HospitalsModItems.BLOODBAGBNEGATIVE.get());
@@ -291,5 +291,8 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_MIXED.get());
 				tabData.accept(HospitalsModItems.EMPTY_SYRINGE.get());
 				tabData.accept(HospitalsModBlocks.BLOOD_CENTRIFUGE.get().asItem());
+				tabData.accept(HospitalsModItems.MIXED_BLOOD_BUCKET.get());
+				tabData.accept(HospitalsModItems.MASK_HELMET.get());
+				tabData.accept(HospitalsModBlocks.WARNING.get().asItem());
 			}).withTabsBefore(HOSPITALSPILLS.getId()).build());
 }

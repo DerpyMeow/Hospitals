@@ -139,6 +139,19 @@ public class BloodCentrifugeGuiManagmentProcedure {
 						_menu.getSlots().get(3).set(_setstack);
 						_player.containerMenu.broadcastChanges();
 					}
+				} else if (HospitalsModItems.SYRINGE_BLOOD_MIXED.get() == s0.getItem()) {
+					if (entity instanceof Player _player && _player.containerMenu instanceof HospitalsModMenus.MenuAccessor _menu) {
+						ItemStack _setstack = new ItemStack(HospitalsModItems.MIXED_BLOOD_BUCKET.get()).copy();
+						_setstack.setCount(1);
+						_menu.getSlots().get(2).set(_setstack);
+						_player.containerMenu.broadcastChanges();
+					}
+					if (entity instanceof Player _player && _player.containerMenu instanceof HospitalsModMenus.MenuAccessor _menu) {
+						ItemStack _setstack = new ItemStack(HospitalsModItems.EMPTY_SYRINGE.get()).copy();
+						_setstack.setCount(2);
+						_menu.getSlots().get(3).set(_setstack);
+						_player.containerMenu.broadcastChanges();
+					}
 				}
 			}
 			if (entity instanceof Player _player && _player.containerMenu instanceof HospitalsModMenus.MenuAccessor _menu) {

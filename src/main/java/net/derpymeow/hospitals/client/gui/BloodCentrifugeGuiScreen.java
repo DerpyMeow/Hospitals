@@ -47,7 +47,7 @@ public class BloodCentrifugeGuiScreen extends AbstractContainerScreen<BloodCentr
 		this.renderBackground(guiGraphics);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		boolean customTooltipShown = false;
-		if (mouseX > leftPos + 76 && mouseX < leftPos + 100 && mouseY > topPos + 57 && mouseY < topPos + 81) {
+		if (mouseX > leftPos + 74 && mouseX < leftPos + 98 && mouseY > topPos + 34 && mouseY < topPos + 58) {
 			guiGraphics.renderTooltip(font, Component.translatable("gui.hospitals.blood_centrifuge_gui.tooltip_hwiki_for_help"), mouseX, mouseY);
 			customTooltipShown = true;
 		}

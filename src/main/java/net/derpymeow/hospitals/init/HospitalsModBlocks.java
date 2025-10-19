@@ -99,6 +99,7 @@ import net.derpymeow.hospitals.block.OfficePrinterBlock;
 import net.derpymeow.hospitals.block.OfficeDeskWithBackBlock;
 import net.derpymeow.hospitals.block.OfficeDeskPhoneBlock;
 import net.derpymeow.hospitals.block.OfficeDeskBlock;
+import net.derpymeow.hospitals.block.MixedBloodBlock;
 import net.derpymeow.hospitals.block.MedicationDrawersBlock;
 import net.derpymeow.hospitals.block.MedicalWorkstationCartBlock;
 import net.derpymeow.hospitals.block.MedicalGasCeilingMountedBlock;
@@ -275,6 +276,7 @@ public class HospitalsModBlocks {
 	public static final RegistryObject<Block> BLOCK_OF_STAINLESS_STEEL = REGISTRY.register("block_of_stainless_steel", () -> new BlockOfStainlessSteelBlock());
 	public static final RegistryObject<Block> WARNING = REGISTRY.register("warning", () -> new WarningBlock());
 	public static final RegistryObject<Block> BLOOD_CENTRIFUGE = REGISTRY.register("blood_centrifuge", () -> new BloodCentrifugeBlock());
+	public static final RegistryObject<Block> MIXED_BLOOD = REGISTRY.register("mixed_blood", () -> new MixedBloodBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

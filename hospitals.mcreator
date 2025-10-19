@@ -7448,6 +7448,153 @@
         ]
       },
       "path": "~/Experimental/Blood Centrifuge"
+    },
+    {
+      "name": "MixedBlood",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mixed_blood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/blockstates/mixed_blood.json",
+          "src/main/java/net/derpymeow/hospitals/fluid/types/MixedBloodFluidType.java",
+          "src/main/java/net/derpymeow/hospitals/block/MixedBloodBlock.java",
+          "src/main/java/net/derpymeow/hospitals/fluid/MixedBloodFluid.java",
+          "src/main/java/net/derpymeow/hospitals/item/MixedBloodItem.java",
+          "src/main/resources/assets/hospitals/models/item/mixed_blood_bucket.json",
+          "src/main/resources/assets/hospitals/models/block/mixed_blood.json"
+        ]
+      },
+      "path": "~/Experimental/Blood Bags"
+    },
+    {
+      "name": "ExperimentalInfobook",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "experimental_infobook",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/ExperimentalInfobookItem.java",
+          "src/main/resources/assets/hospitals/models/item/experimental_infobook.json"
+        ]
+      },
+      "path": "~/Experimental"
+    },
+    {
+      "name": "Expinfobookgui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expinfobookgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/world/inventory/ExpinfobookguiMenu.java",
+          "src/main/java/net/derpymeow/hospitals/client/gui/ExpinfobookguiScreen.java"
+        ]
+      },
+      "path": "~/Experimental"
+    },
+    {
+      "name": "ExperimentalInfobookRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "experimental_infobook_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/ExperimentalInfobookRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Experimental"
+    },
+    {
+      "name": "Hwikiprocedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hwikiprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/HwikiprocedureProcedure.java"
+        ]
+      },
+      "path": "~/Hospitals"
+    },
+    {
+      "name": "Hwiki",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hwiki",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/command/HwikiCommand.java"
+        ]
+      },
+      "path": "~/Hospitals"
+    },
+    {
+      "name": "WikiBookRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wiki_book_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/WikiBookRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Hospitals"
+    },
+    {
+      "name": "WikiBook",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wiki_book",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/wiki_book.json",
+          "src/main/java/net/derpymeow/hospitals/item/WikiBookItem.java"
+        ]
+      },
+      "path": "~/Hospitals"
     }
   ],
   "variable_elements": [
@@ -7523,6 +7670,9 @@
       "CUSTOM:SyringeBloodABNegative",
       "CUSTOM:SyringeBloodABPositive",
       "CUSTOM:SyringeBloodMixed"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:MixedBlood"
     ]
   },
   "tab_element_order": {
@@ -7658,6 +7808,7 @@
       "WasteBinClinicalWaste"
     ],
     "CUSTOM:Hospitals": [
+      "WikiBook",
       "THBlock",
       "PHBlock",
       "RABlock",
@@ -7674,9 +7825,7 @@
       "BlockOfStainlessSteel",
       "UnprocessedSteel",
       "ComputerChip",
-      "Computer",
-      "Warning",
-      "Scrubmask"
+      "Computer"
     ],
     "CUSTOM:Hospitalspills": [
       "CreativePill",
@@ -7771,6 +7920,7 @@
       "PillBottle43"
     ],
     "CUSTOM:Exp": [
+      "ExperimentalInfobook",
       "Bloodbagonegative",
       "Bloodbagopositive",
       "Bloodbagbnegative",
@@ -7790,7 +7940,10 @@
       "SyringeBloodABPositive",
       "SyringeBloodMixed",
       "EmptySyringe",
-      "BloodCentrifuge"
+      "BloodCentrifuge",
+      "MixedBlood",
+      "Scrubmask",
+      "Warning"
     ]
   },
   "language_map": {
@@ -8364,12 +8517,37 @@
       "item.hospitals.syringe_blood_ab_positive": "Blood Filled Syringe (AB+)",
       "item.hospitals.syringe_blood_mixed": "Blood Filled Syringe (Mixed)",
       "block.hospitals.blood_centrifuge": "Blood Centrifuge",
-      "item_group.hospitals.exp": "Experimental",
+      "item_group.hospitals.exp": "Hospitals - Experimental",
       "gui.hospitals.blood_centrifuge_gui.label_blood_centrifuge": "Blood Centrifuge",
       "gui.hospitals.blood_centrifuge_gui.label_output": "Output",
       "gui.hospitals.blood_centrifuge_gui.tooltip_hwiki_for_help": "/hwiki for help!",
       "gui.hospitals.blood_centrifuge_gui.label_syringe": "Input",
-      "gui.hospitals.blood_centrifuge_gui.button_convert": "---\u003e"
+      "gui.hospitals.blood_centrifuge_gui.button_convert": "---\u003e",
+      "block.hospitals.mixed_blood": "Mixed Blood",
+      "item.hospitals.mixed_blood_bucket": "Mixed Blood Bucket",
+      "item.hospitals.mixed_blood_bucket.description_0": "- Has no specific type",
+      "fluid.hospitals.mixed_blood": "Mixed Blood",
+      "fluid_type.hospitals.mixed_blood": "Mixed Blood",
+      "item.hospitals.experimental_infobook": "Experimental Info Book",
+      "gui.hospitals.expinfobookgui.label_these_features_please_contact_t": "these features, please contact the mod",
+      "gui.hospitals.expinfobookgui.label_everything_in_this_creative_tab": "Everything in this creative tab",
+      "gui.hospitals.expinfobookgui.label_these_blocksitems_will_not_be_a": "These blocks/items will not be added to the",
+      "gui.hospitals.expinfobookgui.label_crafted_this_is_because_it_is_n1": "crafted, this is because it is not a ",
+      "gui.hospitals.expinfobookgui.label_creator_thanks_for_using_the_ex": "creator. Thanks for using the experimental",
+      "gui.hospitals.expinfobookgui.label_crafted_this_is_because_it_is_n": "crafted, this is because it is not a fully supported feature yet",
+      "gui.hospitals.expinfobookgui.label_fully_supported_blockitem_yet": "fully supported block/item yet. Additonally,",
+      "gui.hospitals.expinfobookgui.label_these_items_will_not_have_any_ef": "These items will not have any effect on the",
+      "gui.hospitals.expinfobookgui.label_hospitals_experimental_info": "Hospitals: Experimental Info",
+      "gui.hospitals.expinfobookgui.label_version_press_esc_to_close_this": "features! press esc to close this menu!",
+      "gui.hospitals.expinfobookgui.label_everything_in_this_creative_tab3": "Everything in this creative tab cannot be",
+      "gui.hospitals.expinfobookgui.label_everything_in_this_creative_tab2": "Everything in this creative tab",
+      "gui.hospitals.expinfobookgui.label_none_of_this_will_be_on_the_wiki": "None of this will be on the wiki because it is not finished",
+      "gui.hospitals.expinfobookgui.label_wiki_page_yet_if_you_have_any_i": "wiki page yet. If you have any issues with",
+      "gui.hospitals.expinfobookgui.label_everything_in_this_creative_tab1": "Everything in this creative tab cannot be crafted,",
+      "gui.hospitals.expinfobookgui.label_player_because_they_are_not_fini": "player because they are not finished.",
+      "item.hospitals.wiki_book": "Wiki Book",
+      "item.hospitals.wiki_book.description_1": "Hospitals Mod Wiki Book",
+      "item.hospitals.wiki_book.description_0": ""
     }
   },
   "metadata": {
@@ -8379,6 +8557,8 @@
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModTabs.java",
       "src/main/java/net/derpymeow/hospitals/HospitalsMod.java",
       "src/main/resources/META-INF/mods.toml",
+      "src/main/java/net/derpymeow/hospitals/init/HospitalsModFluidTypes.java",
+      "src/main/java/net/derpymeow/hospitals/init/HospitalsModFluids.java",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModMenus.java",
       "src/main/java/net/derpymeow/hospitals/network/MenuStateUpdateMessage.java",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModScreens.java",
