@@ -613,5 +613,9 @@
   "block.hospitals.labtiles_1.description_0": "",
   "block.hospitals.labtiles_1.description_1": "Same as Lab Tiles 3, but with thinner border",
   "block.hospitals.labtiles_3.description_0": "",
-  "block.hospitals.labtiles_3.description_1": "Same as Lab Tiles 1, but with thicker border"
+  "block.hospitals.labtiles_3.description_1": "Same as Lab Tiles 1, but with thicker border",
+  "block.hospitals.darklabtiles_1.description_0": "",
+  "block.hospitals.darklabtiles_1.description_1": "Same as Lab Tiles 3, but with gradient",
+  "block.hospitals.darklabtiles_1": "Dark Lab Tiles 1",
+  "block.hospitals.darklabtiles_2": "Dark Lab Tiles 2"
 }

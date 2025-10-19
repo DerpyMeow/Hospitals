@@ -128,6 +128,8 @@ import net.derpymeow.hospitals.block.FABlockBlock;
 import net.derpymeow.hospitals.block.EPOSCashierSystemBlock;
 import net.derpymeow.hospitals.block.DrinksFridgeBlock;
 import net.derpymeow.hospitals.block.DecorativeDivideBlock;
+import net.derpymeow.hospitals.block.Darklabtiles2Block;
+import net.derpymeow.hospitals.block.Darklabtiles1Block;
 import net.derpymeow.hospitals.block.ComputerXRayViewerBlock;
 import net.derpymeow.hospitals.block.ComputerScreen2XRAYViewerBlock;
 import net.derpymeow.hospitals.block.ComputerScreen2CTScanViewerBlock;
@@ -291,6 +293,8 @@ public class HospitalsModBlocks {
 	public static final RegistryObject<Block> LABTILES_2 = REGISTRY.register("labtiles_2", () -> new Labtiles2Block());
 	public static final RegistryObject<Block> LABTILES_3 = REGISTRY.register("labtiles_3", () -> new Labtiles3Block());
 	public static final RegistryObject<Block> LABTILES_4 = REGISTRY.register("labtiles_4", () -> new Labtiles4Block());
+	public static final RegistryObject<Block> DARKLABTILES_1 = REGISTRY.register("darklabtiles_1", () -> new Darklabtiles1Block());
+	public static final RegistryObject<Block> DARKLABTILES_2 = REGISTRY.register("darklabtiles_2", () -> new Darklabtiles2Block());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

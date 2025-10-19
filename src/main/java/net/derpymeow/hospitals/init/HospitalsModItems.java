@@ -399,6 +399,8 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> LABTILES_2 = block(HospitalsModBlocks.LABTILES_2);
 	public static final RegistryObject<Item> LABTILES_3 = block(HospitalsModBlocks.LABTILES_3);
 	public static final RegistryObject<Item> LABTILES_4 = block(HospitalsModBlocks.LABTILES_4);
+	public static final RegistryObject<Item> DARKLABTILES_1 = block(HospitalsModBlocks.DARKLABTILES_1);
+	public static final RegistryObject<Item> DARKLABTILES_2 = block(HospitalsModBlocks.DARKLABTILES_2);
 
 	// Start of user code block custom items
 	// End of user code block custom items

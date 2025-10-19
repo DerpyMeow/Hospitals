@@ -7714,6 +7714,40 @@
         ]
       },
       "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "Darklabtiles1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darklabtiles_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/blockstates/darklabtiles_1.json",
+          "src/main/resources/assets/hospitals/models/item/darklabtiles_1.json",
+          "src/main/java/net/derpymeow/hospitals/block/Darklabtiles1Block.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/darklabtiles_1.json",
+          "src/main/resources/assets/hospitals/models/block/darklabtiles_1.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "Darklabtiles2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darklabtiles_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/darklabtiles_2.json",
+          "src/main/resources/assets/hospitals/blockstates/darklabtiles_2.json",
+          "src/main/resources/assets/hospitals/models/item/darklabtiles_2.json",
+          "src/main/java/net/derpymeow/hospitals/block/Darklabtiles2Block.java",
+          "src/main/resources/assets/hospitals/models/block/darklabtiles_2.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
     }
   ],
   "variable_elements": [
@@ -7951,7 +7985,9 @@
       "Labtiles1",
       "Labtiles2",
       "Labtiles3",
-      "Labtiles4"
+      "Labtiles4",
+      "Darklabtiles1",
+      "Darklabtiles2"
     ],
     "CUSTOM:Hospitalspills": [
       "CreativePill",
@@ -8688,7 +8724,11 @@
       "block.hospitals.labtiles_1.description_0": "",
       "block.hospitals.labtiles_1.description_1": "Same as Lab Tiles 3, but with thinner border",
       "block.hospitals.labtiles_3.description_0": "",
-      "block.hospitals.labtiles_3.description_1": "Same as Lab Tiles 1, but with thicker border"
+      "block.hospitals.labtiles_3.description_1": "Same as Lab Tiles 1, but with thicker border",
+      "block.hospitals.darklabtiles_1.description_0": "",
+      "block.hospitals.darklabtiles_1.description_1": "Same as Lab Tiles 3, but with gradient",
+      "block.hospitals.darklabtiles_1": "Dark Lab Tiles 1",
+      "block.hospitals.darklabtiles_2": "Dark Lab Tiles 2"
     }
   },
   "metadata": {
