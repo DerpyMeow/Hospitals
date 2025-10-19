@@ -7748,6 +7748,97 @@
         ]
       },
       "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "Minitilesrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minitilesrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/minitilesrecipe.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Largedarktilescr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "largedarktilescr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/largedarktilescr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Llbtcr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "llbtcr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/llbtcr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Lt1cr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lt_1cr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/lt_1cr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Lt2cr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lt_2cr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/lt_2cr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Lt3cr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lt_3cr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/lt_3cr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Lt4cr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lt_4cr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/lt_4cr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
     }
   ],
   "variable_elements": [
