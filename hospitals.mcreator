@@ -7839,6 +7839,38 @@
         ]
       },
       "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "HosptialsGettingstarted",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hosptials_gettingstarted",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/advancements/hosptials_gettingstarted.json"
+        ]
+      },
+      "path": "~/Crafting Recipes/unlock_system"
+    },
+    {
+      "name": "Uls",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uls",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/UlsProcedure.java"
+        ]
+      },
+      "path": "~/Crafting Recipes/unlock_system"
     }
   ],
   "variable_elements": [
@@ -8819,7 +8851,9 @@
       "block.hospitals.darklabtiles_1.description_0": "",
       "block.hospitals.darklabtiles_1.description_1": "Same as Lab Tiles 3, but with gradient",
       "block.hospitals.darklabtiles_1": "Dark Lab Tiles 1",
-      "block.hospitals.darklabtiles_2": "Dark Lab Tiles 2"
+      "block.hospitals.darklabtiles_2": "Dark Lab Tiles 2",
+      "advancements.hosptials_gettingstarted.title": "Hospitals: Getting Started",
+      "advancements.hosptials_gettingstarted.descr": "Join a world with the Hospitals mod"
     }
   },
   "metadata": {
@@ -8905,7 +8939,12 @@
       },
       {
         "name": "Crafting Recipes",
-        "children": []
+        "children": [
+          {
+            "name": "unlock_system",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Experimental",
@@ -8933,7 +8972,7 @@
   "workspaceSettings": {
     "modid": "hospitals",
     "modName": "Hospitals (THM Expanded)",
-    "version": "3.3.0",
+    "version": "3.4.0",
     "description": "This Brings Complex Medical Blocks And Items To Minecraft: Based Off Of Leon90\u0027s Mod.",
     "author": "DerpyMeow",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/hospitals",

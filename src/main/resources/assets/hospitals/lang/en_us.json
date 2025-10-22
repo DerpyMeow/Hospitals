@@ -617,5 +617,7 @@
   "block.hospitals.darklabtiles_1.description_0": "",
   "block.hospitals.darklabtiles_1.description_1": "Same as Lab Tiles 3, but with gradient",
   "block.hospitals.darklabtiles_1": "Dark Lab Tiles 1",
-  "block.hospitals.darklabtiles_2": "Dark Lab Tiles 2"
+  "block.hospitals.darklabtiles_2": "Dark Lab Tiles 2",
+  "advancements.hosptials_gettingstarted.title": "Hospitals: Getting Started",
+  "advancements.hosptials_gettingstarted.descr": "Join a world with the Hospitals mod"
 }
