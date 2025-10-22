@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hospitals:block/dark_lab_tiles_1_tx",
+    "up": "hospitals:block/dark_lab_tiles_1_tx",
+    "north": "hospitals:block/dark_lab_tiles_1_tx",
+    "east": "hospitals:block/dark_lab_tiles_1_tx",
+    "south": "hospitals:block/dark_lab_tiles_1_tx",
+    "west": "hospitals:block/dark_lab_tiles_1_tx",
+    "particle": "hospitals:block/dark_lab_tiles_1_tx"
+  },
+  "render_type": "solid"
+}

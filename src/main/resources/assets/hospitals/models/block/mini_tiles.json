@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hospitals:block/minitilesblocktx",
+    "up": "hospitals:block/minitilesblocktx",
+    "north": "hospitals:block/minitilesblocktx",
+    "east": "hospitals:block/minitilesblocktx",
+    "south": "hospitals:block/minitilesblocktx",
+    "west": "hospitals:block/minitilesblocktx",
+    "particle": "hospitals:block/minitilesblocktx"
+  },
+  "render_type": "solid"
+}

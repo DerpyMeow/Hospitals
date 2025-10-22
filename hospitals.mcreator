@@ -6977,8 +6977,16 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ],
         "files": [
@@ -6999,9 +7007,886 @@
         ]
       },
       "path": "~/Hospitals"
+    },
+    {
+      "name": "Devcmdsbloodbags",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "devcmdsbloodbags",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/DevcmdsbloodbagsProcedure.java"
+        ]
+      },
+      "path": "~/Experimental/expdevcmds"
+    },
+    {
+      "name": "Bloodbagonegative",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodbagonegative",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/bloodbagonegative.json",
+          "src/main/java/net/derpymeow/hospitals/item/BloodbagonegativeItem.java"
+        ]
+      },
+      "path": "~/Experimental/Blood Bags"
+    },
+    {
+      "name": "Bloodbagopositive",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodbagopositive",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/BloodbagopositiveItem.java",
+          "src/main/resources/assets/hospitals/models/item/bloodbagopositive.json"
+        ]
+      },
+      "path": "~/Experimental/Blood Bags"
+    },
+    {
+      "name": "Bloodbagbnegative",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodbagbnegative",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/bloodbagbnegative.json",
+          "src/main/java/net/derpymeow/hospitals/item/BloodbagbnegativeItem.java"
+        ]
+      },
+      "path": "~/Experimental/Blood Bags"
+    },
+    {
+      "name": "Bloodbagbpositive",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodbagbpositive",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/bloodbagbpositive.json",
+          "src/main/java/net/derpymeow/hospitals/item/BloodbagbpositiveItem.java"
+        ]
+      },
+      "path": "~/Experimental/Blood Bags"
+    },
+    {
+      "name": "Bloodbaganegative",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodbaganegative",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/bloodbaganegative.json",
+          "src/main/java/net/derpymeow/hospitals/item/BloodbaganegativeItem.java"
+        ]
+      },
+      "path": "~/Experimental/Blood Bags"
+    },
+    {
+      "name": "Bloodbagapositive",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodbagapositive",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/BloodbagapositiveItem.java",
+          "src/main/resources/assets/hospitals/models/item/bloodbagapositive.json"
+        ]
+      },
+      "path": "~/Experimental/Blood Bags"
+    },
+    {
+      "name": "Bloodbagabnegative",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodbagabnegative",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/BloodbagabnegativeItem.java",
+          "src/main/resources/assets/hospitals/models/item/bloodbagabnegative.json"
+        ]
+      },
+      "path": "~/Experimental/Blood Bags"
+    },
+    {
+      "name": "Bloodbagabpositive",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodbagabpositive",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/BloodbagabpositiveItem.java",
+          "src/main/resources/assets/hospitals/models/item/bloodbagabpositive.json"
+        ]
+      },
+      "path": "~/Experimental/Blood Bags"
+    },
+    {
+      "name": "Bloodbagempty",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodbagempty",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/bloodbagempty.json",
+          "src/main/java/net/derpymeow/hospitals/item/BloodbagemptyItem.java"
+        ]
+      },
+      "path": "~/Experimental/Blood Bags"
+    },
+    {
+      "name": "DonationLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donation_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "dl_give",
+            "type": "string"
+          },
+          {
+            "name": "dl_take",
+            "type": "string"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/DonationLogicProcedure.java"
+        ]
+      },
+      "path": "~/Experimental/Blood Bags"
+    },
+    {
+      "name": "Devcmdsdonationlogictester",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "devcmdsdonationlogictester",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/DevcmdsdonationlogictesterProcedure.java"
+        ]
+      },
+      "path": "~/Experimental/expdevcmds"
+    },
+    {
+      "name": "Selfbloodcomparebagrightclick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "selfbloodcomparebagrightclick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/SelfbloodcomparebagrightclickProcedure.java"
+        ]
+      },
+      "path": "~/Experimental/Blood Bags"
+    },
+    {
+      "name": "Devcmdssettype",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "devcmdssettype",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/DevcmdssettypeProcedure.java"
+        ]
+      },
+      "path": "~/Experimental/expdevcmds"
+    },
+    {
+      "name": "EmptySyringe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_syringe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/EmptySyringeItem.java",
+          "src/main/resources/assets/hospitals/models/item/empty_syringe.json"
+        ]
+      },
+      "path": "~/Experimental/syringe"
+    },
+    {
+      "name": "SyringebloodOnegative",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syringeblood_onegative",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/syringeblood_onegative.json",
+          "src/main/java/net/derpymeow/hospitals/item/SyringebloodOnegativeItem.java"
+        ]
+      },
+      "path": "~/Experimental/syringe"
+    },
+    {
+      "name": "SyringeBloodOPositive",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syringe_blood_o_positive",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/syringe_blood_o_positive.json",
+          "src/main/java/net/derpymeow/hospitals/item/SyringeBloodOPositiveItem.java"
+        ]
+      },
+      "path": "~/Experimental/syringe"
+    },
+    {
+      "name": "SyringeBloodBNegative",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syringe_blood_b_negative",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/syringe_blood_b_negative.json",
+          "src/main/java/net/derpymeow/hospitals/item/SyringeBloodBNegativeItem.java"
+        ]
+      },
+      "path": "~/Experimental/syringe"
+    },
+    {
+      "name": "SyringeBloodBPositive",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syringe_blood_b_positive",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/syringe_blood_b_positive.json",
+          "src/main/java/net/derpymeow/hospitals/item/SyringeBloodBPositiveItem.java"
+        ]
+      },
+      "path": "~/Experimental/syringe"
+    },
+    {
+      "name": "SyringeBloodANegative",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syringe_blood_a_negative",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/SyringeBloodANegativeItem.java",
+          "src/main/resources/assets/hospitals/models/item/syringe_blood_a_negative.json"
+        ]
+      },
+      "path": "~/Experimental/syringe"
+    },
+    {
+      "name": "SyringeBloodAPositive",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syringe_blood_a_positive",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/SyringeBloodAPositiveItem.java",
+          "src/main/resources/assets/hospitals/models/item/syringe_blood_a_positive.json"
+        ]
+      },
+      "path": "~/Experimental/syringe"
+    },
+    {
+      "name": "SyringeBloodABNegative",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syringe_blood_ab_negative",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/SyringeBloodABNegativeItem.java",
+          "src/main/resources/assets/hospitals/models/item/syringe_blood_ab_negative.json"
+        ]
+      },
+      "path": "~/Experimental/syringe"
+    },
+    {
+      "name": "SyringeBloodABPositive",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syringe_blood_ab_positive",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/syringe_blood_ab_positive.json",
+          "src/main/java/net/derpymeow/hospitals/item/SyringeBloodABPositiveItem.java"
+        ]
+      },
+      "path": "~/Experimental/syringe"
+    },
+    {
+      "name": "SyringeBloodMixed",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syringe_blood_mixed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/SyringeBloodMixedItem.java",
+          "src/main/resources/assets/hospitals/models/item/syringe_blood_mixed.json"
+        ]
+      },
+      "path": "~/Experimental/syringe"
+    },
+    {
+      "name": "BloodCentrifuge",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_centrifuge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/entity/BloodCentrifugeBlockEntity.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/blood_centrifuge.json",
+          "src/main/resources/assets/hospitals/models/block/blood_centrifuge.json",
+          "src/main/resources/assets/hospitals/models/item/blood_centrifuge.json",
+          "src/main/java/net/derpymeow/hospitals/block/BloodCentrifugeBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/blood_centrifuge.json"
+        ]
+      },
+      "path": "~/Experimental/Blood Centrifuge"
+    },
+    {
+      "name": "Exp",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exp",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Experimental"
+    },
+    {
+      "name": "BloodCentrifugeGui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_centrifuge_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/network/BloodCentrifugeGuiButtonMessage.java",
+          "src/main/java/net/derpymeow/hospitals/client/gui/BloodCentrifugeGuiScreen.java",
+          "src/main/java/net/derpymeow/hospitals/world/inventory/BloodCentrifugeGuiMenu.java"
+        ]
+      },
+      "path": "~/Experimental/Blood Centrifuge"
+    },
+    {
+      "name": "BloodCentrifugeGuiManagment",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_centrifuge_gui_managment",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BloodCentrifugeGuiManagmentProcedure.java"
+        ]
+      },
+      "path": "~/Experimental/Blood Centrifuge"
+    },
+    {
+      "name": "MixedBlood",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mixed_blood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/blockstates/mixed_blood.json",
+          "src/main/java/net/derpymeow/hospitals/fluid/types/MixedBloodFluidType.java",
+          "src/main/java/net/derpymeow/hospitals/block/MixedBloodBlock.java",
+          "src/main/java/net/derpymeow/hospitals/fluid/MixedBloodFluid.java",
+          "src/main/java/net/derpymeow/hospitals/item/MixedBloodItem.java",
+          "src/main/resources/assets/hospitals/models/item/mixed_blood_bucket.json",
+          "src/main/resources/assets/hospitals/models/block/mixed_blood.json"
+        ]
+      },
+      "path": "~/Experimental/Blood Bags"
+    },
+    {
+      "name": "ExperimentalInfobook",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "experimental_infobook",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/ExperimentalInfobookItem.java",
+          "src/main/resources/assets/hospitals/models/item/experimental_infobook.json"
+        ]
+      },
+      "path": "~/Experimental"
+    },
+    {
+      "name": "Expinfobookgui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expinfobookgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/world/inventory/ExpinfobookguiMenu.java",
+          "src/main/java/net/derpymeow/hospitals/client/gui/ExpinfobookguiScreen.java"
+        ]
+      },
+      "path": "~/Experimental"
+    },
+    {
+      "name": "ExperimentalInfobookRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "experimental_infobook_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/ExperimentalInfobookRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Experimental"
+    },
+    {
+      "name": "Hwikiprocedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hwikiprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/HwikiprocedureProcedure.java"
+        ]
+      },
+      "path": "~/Hospitals"
+    },
+    {
+      "name": "Hwiki",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hwiki",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/command/HwikiCommand.java"
+        ]
+      },
+      "path": "~/Hospitals"
+    },
+    {
+      "name": "WikiBookRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wiki_book_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/WikiBookRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Hospitals"
+    },
+    {
+      "name": "WikiBook",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wiki_book",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/wiki_book.json",
+          "src/main/java/net/derpymeow/hospitals/item/WikiBookItem.java"
+        ]
+      },
+      "path": "~/Hospitals"
+    },
+    {
+      "name": "MiniTiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mini_tiles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/MiniTilesBlock.java",
+          "src/main/resources/assets/hospitals/models/item/mini_tiles.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/mini_tiles.json",
+          "src/main/resources/assets/hospitals/models/block/mini_tiles.json",
+          "src/main/resources/assets/hospitals/blockstates/mini_tiles.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "Largedarktiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "largedarktiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/largedarktiles.json",
+          "src/main/resources/assets/hospitals/models/item/largedarktiles.json",
+          "src/main/resources/assets/hospitals/blockstates/largedarktiles.json",
+          "src/main/java/net/derpymeow/hospitals/block/LargedarktilesBlock.java",
+          "src/main/resources/assets/hospitals/models/block/largedarktiles.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "Largelightbluetiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "largelightbluetiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/blockstates/largelightbluetiles.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/largelightbluetiles.json",
+          "src/main/java/net/derpymeow/hospitals/block/LargelightbluetilesBlock.java",
+          "src/main/resources/assets/hospitals/models/block/largelightbluetiles.json",
+          "src/main/resources/assets/hospitals/models/item/largelightbluetiles.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "Labtiles1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "labtiles_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/labtiles_1.json",
+          "src/main/resources/assets/hospitals/models/item/labtiles_1.json",
+          "src/main/resources/assets/hospitals/blockstates/labtiles_1.json",
+          "src/main/java/net/derpymeow/hospitals/block/Labtiles1Block.java",
+          "src/main/resources/assets/hospitals/models/block/labtiles_1.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "Labtiles2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "labtiles_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/labtiles_2.json",
+          "src/main/resources/assets/hospitals/models/block/labtiles_2.json",
+          "src/main/resources/assets/hospitals/models/item/labtiles_2.json",
+          "src/main/resources/assets/hospitals/blockstates/labtiles_2.json",
+          "src/main/java/net/derpymeow/hospitals/block/Labtiles2Block.java"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "Labtiles3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "labtiles_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/Labtiles3Block.java",
+          "src/main/resources/assets/hospitals/blockstates/labtiles_3.json",
+          "src/main/resources/assets/hospitals/models/block/labtiles_3.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/labtiles_3.json",
+          "src/main/resources/assets/hospitals/models/item/labtiles_3.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "Labtiles4",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "labtiles_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/labtiles_4.json",
+          "src/main/resources/assets/hospitals/models/block/labtiles_4.json",
+          "src/main/java/net/derpymeow/hospitals/block/Labtiles4Block.java",
+          "src/main/resources/assets/hospitals/blockstates/labtiles_4.json",
+          "src/main/resources/assets/hospitals/models/item/labtiles_4.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "Darklabtiles1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darklabtiles_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/blockstates/darklabtiles_1.json",
+          "src/main/resources/assets/hospitals/models/item/darklabtiles_1.json",
+          "src/main/java/net/derpymeow/hospitals/block/Darklabtiles1Block.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/darklabtiles_1.json",
+          "src/main/resources/assets/hospitals/models/block/darklabtiles_1.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "Darklabtiles2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darklabtiles_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/darklabtiles_2.json",
+          "src/main/resources/assets/hospitals/blockstates/darklabtiles_2.json",
+          "src/main/resources/assets/hospitals/models/item/darklabtiles_2.json",
+          "src/main/java/net/derpymeow/hospitals/block/Darklabtiles2Block.java",
+          "src/main/resources/assets/hospitals/models/block/darklabtiles_2.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "Minitilesrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minitilesrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/minitilesrecipe.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Largedarktilescr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "largedarktilescr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/largedarktilescr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Llbtcr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "llbtcr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/llbtcr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Lt1cr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lt_1cr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/lt_1cr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Lt2cr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lt_2cr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/lt_2cr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Lt3cr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lt_3cr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/lt_3cr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Lt4cr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lt_4cr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/lt_4cr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "HosptialsGettingstarted",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hosptials_gettingstarted",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/advancements/hosptials_gettingstarted.json"
+        ]
+      },
+      "path": "~/Crafting Recipes/unlock_system"
+    },
+    {
+      "name": "Uls",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uls",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/UlsProcedure.java"
+        ]
+      },
+      "path": "~/Crafting Recipes/unlock_system"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "dev_mode",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "blood_type",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "O-"
+    }
+  ],
   "sound_elements": [],
   "tag_elements": {
     "ITEMS:mod:pills": [
@@ -7050,6 +7935,20 @@
       "CUSTOM:Pill42",
       "CUSTOM:Pill43",
       "CUSTOM:CreativePill"
+    ],
+    "ITEMS:mod:syringes": [
+      "CUSTOM:SyringebloodOnegative",
+      "CUSTOM:SyringeBloodOPositive",
+      "CUSTOM:SyringeBloodBNegative",
+      "CUSTOM:SyringeBloodBPositive",
+      "CUSTOM:SyringeBloodANegative",
+      "CUSTOM:SyringeBloodAPositive",
+      "CUSTOM:SyringeBloodABNegative",
+      "CUSTOM:SyringeBloodABPositive",
+      "CUSTOM:SyringeBloodMixed"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:MixedBlood"
     ]
   },
   "tab_element_order": {
@@ -7185,6 +8084,7 @@
       "WasteBinClinicalWaste"
     ],
     "CUSTOM:Hospitals": [
+      "WikiBook",
       "THBlock",
       "PHBlock",
       "RABlock",
@@ -7202,8 +8102,15 @@
       "UnprocessedSteel",
       "ComputerChip",
       "Computer",
-      "Warning",
-      "Scrubmask"
+      "MiniTiles",
+      "Largedarktiles",
+      "Largelightbluetiles",
+      "Labtiles1",
+      "Labtiles2",
+      "Labtiles3",
+      "Labtiles4",
+      "Darklabtiles1",
+      "Darklabtiles2"
     ],
     "CUSTOM:Hospitalspills": [
       "CreativePill",
@@ -7296,6 +8203,32 @@
       "PillBottle41",
       "PillBottle42",
       "PillBottle43"
+    ],
+    "CUSTOM:Exp": [
+      "ExperimentalInfobook",
+      "Bloodbagonegative",
+      "Bloodbagopositive",
+      "Bloodbagbnegative",
+      "Bloodbagbpositive",
+      "Bloodbaganegative",
+      "Bloodbagapositive",
+      "Bloodbagabnegative",
+      "Bloodbagabpositive",
+      "Bloodbagempty",
+      "SyringebloodOnegative",
+      "SyringeBloodOPositive",
+      "SyringeBloodBNegative",
+      "SyringeBloodBPositive",
+      "SyringeBloodANegative",
+      "SyringeBloodAPositive",
+      "SyringeBloodABNegative",
+      "SyringeBloodABPositive",
+      "SyringeBloodMixed",
+      "EmptySyringe",
+      "BloodCentrifuge",
+      "MixedBlood",
+      "Scrubmask",
+      "Warning"
     ]
   },
   "language_map": {
@@ -7848,19 +8781,98 @@
       "block.hospitals.ultrasound": "Ultrasound",
       "item.hospitals.stainless_steel": "Stainless Steel",
       "block.hospitals.office_printer": "Office Printer",
-      "item.hospitals.mask_helmet": "Surgical Mask"
+      "item.hospitals.mask_helmet": "Surgical Mask",
+      "item.hospitals.bloodbagonegative": "Blood Bag O-",
+      "item.hospitals.bloodbagopositive": "Blood Bag O+",
+      "item.hospitals.bloodbagbnegative": "Blood Bag B-",
+      "item.hospitals.bloodbagbpositive": "Blood Bag B+",
+      "item.hospitals.bloodbaganegative": "Blood Bag A-",
+      "item.hospitals.bloodbagapositive": "Blood Bag A+",
+      "item.hospitals.bloodbagabnegative": "Blood Bag AB-",
+      "item.hospitals.bloodbagabpositive": "Blood Bag AB+",
+      "item.hospitals.bloodbagempty": "Empty Blood Bag",
+      "item.hospitals.empty_syringe": "Empty Syringe",
+      "item.hospitals.syringeblood_onegative": "Blood Filled Syringe (O-)",
+      "item.hospitals.syringe_blood_o_positive": "Blood Filled Syringe (O+)",
+      "item.hospitals.syringe_blood_b_negative": "Blood Filled Syringe (B-)",
+      "item.hospitals.syringe_blood_b_positive": "Blood Filled Syringe (B+)",
+      "item.hospitals.syringe_blood_a_negative": "Blood Filled Syringe (A-)",
+      "item.hospitals.syringe_blood_a_positive": "Blood Filled Syringe (A+)",
+      "item.hospitals.syringe_blood_ab_negative": "Blood Filled Syringe (AB-)",
+      "item.hospitals.syringe_blood_ab_positive": "Blood Filled Syringe (AB+)",
+      "item.hospitals.syringe_blood_mixed": "Blood Filled Syringe (Mixed)",
+      "block.hospitals.blood_centrifuge": "Blood Centrifuge",
+      "item_group.hospitals.exp": "Hospitals - Experimental",
+      "gui.hospitals.blood_centrifuge_gui.label_blood_centrifuge": "Blood Centrifuge",
+      "gui.hospitals.blood_centrifuge_gui.label_output": "Output",
+      "gui.hospitals.blood_centrifuge_gui.tooltip_hwiki_for_help": "/hwiki for help!",
+      "gui.hospitals.blood_centrifuge_gui.label_syringe": "Input",
+      "gui.hospitals.blood_centrifuge_gui.button_convert": "---\u003e",
+      "block.hospitals.mixed_blood": "Mixed Blood",
+      "item.hospitals.mixed_blood_bucket": "Mixed Blood Bucket",
+      "item.hospitals.mixed_blood_bucket.description_0": "- Has no specific type",
+      "fluid.hospitals.mixed_blood": "Mixed Blood",
+      "fluid_type.hospitals.mixed_blood": "Mixed Blood",
+      "item.hospitals.experimental_infobook": "Experimental Info Book",
+      "gui.hospitals.expinfobookgui.label_these_features_please_contact_t": "these features, please contact the mod",
+      "gui.hospitals.expinfobookgui.label_everything_in_this_creative_tab": "Everything in this creative tab",
+      "gui.hospitals.expinfobookgui.label_these_blocksitems_will_not_be_a": "These blocks/items will not be added to the",
+      "gui.hospitals.expinfobookgui.label_crafted_this_is_because_it_is_n1": "crafted, this is because it is not a ",
+      "gui.hospitals.expinfobookgui.label_creator_thanks_for_using_the_ex": "creator. Thanks for using the experimental",
+      "gui.hospitals.expinfobookgui.label_crafted_this_is_because_it_is_n": "crafted, this is because it is not a fully supported feature yet",
+      "gui.hospitals.expinfobookgui.label_fully_supported_blockitem_yet": "fully supported block/item yet. Additonally,",
+      "gui.hospitals.expinfobookgui.label_these_items_will_not_have_any_ef": "These items will not have any effect on the",
+      "gui.hospitals.expinfobookgui.label_hospitals_experimental_info": "Hospitals: Experimental Info",
+      "gui.hospitals.expinfobookgui.label_version_press_esc_to_close_this": "features! press esc to close this menu!",
+      "gui.hospitals.expinfobookgui.label_everything_in_this_creative_tab3": "Everything in this creative tab cannot be",
+      "gui.hospitals.expinfobookgui.label_everything_in_this_creative_tab2": "Everything in this creative tab",
+      "gui.hospitals.expinfobookgui.label_none_of_this_will_be_on_the_wiki": "None of this will be on the wiki because it is not finished",
+      "gui.hospitals.expinfobookgui.label_wiki_page_yet_if_you_have_any_i": "wiki page yet. If you have any issues with",
+      "gui.hospitals.expinfobookgui.label_everything_in_this_creative_tab1": "Everything in this creative tab cannot be crafted,",
+      "gui.hospitals.expinfobookgui.label_player_because_they_are_not_fini": "player because they are not finished.",
+      "item.hospitals.wiki_book": "Wiki Book",
+      "item.hospitals.wiki_book.description_1": "Hospitals Mod Wiki Book",
+      "item.hospitals.wiki_book.description_0": "",
+      "block.hospitals.mini_tiles": "Mini Tiles",
+      "block.hospitals.largedarktiles": "Large Dark Tiles",
+      "block.hospitals.largelightbluetiles": "Large Light Blue Tiles",
+      "block.hospitals.labtiles_1": "Lab Tiles 1",
+      "block.hospitals.labtiles_2": "Lab Tiles 2",
+      "block.hospitals.labtiles_3": "Lab Tiles 3",
+      "block.hospitals.labtiles_4": "Lab Tiles 4",
+      "block.hospitals.labtiles_4.description_0": "",
+      "block.hospitals.labtiles_4.description_1": "Same as Lab Tiles 3, but with gradient",
+      "block.hospitals.labtiles_2.description_1": "Same as Lab Tiles 1, but with gradient",
+      "block.hospitals.labtiles_2.description_0": "",
+      "block.hospitals.labtiles_1.description_0": "",
+      "block.hospitals.labtiles_1.description_1": "Same as Lab Tiles 3, but with thinner border",
+      "block.hospitals.labtiles_3.description_0": "",
+      "block.hospitals.labtiles_3.description_1": "Same as Lab Tiles 1, but with thicker border",
+      "block.hospitals.darklabtiles_1.description_0": "",
+      "block.hospitals.darklabtiles_1.description_1": "Same as Lab Tiles 3, but with gradient",
+      "block.hospitals.darklabtiles_1": "Dark Lab Tiles 1",
+      "block.hospitals.darklabtiles_2": "Dark Lab Tiles 2",
+      "advancements.hosptials_gettingstarted.title": "Hospitals: Getting Started",
+      "advancements.hosptials_gettingstarted.descr": "Join a world with the Hospitals mod"
     }
   },
   "metadata": {
     "files": [
       "src/main/resources/pack.mcmeta",
+      "src/main/java/net/derpymeow/hospitals/network/HospitalsModVariables.java",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModTabs.java",
       "src/main/java/net/derpymeow/hospitals/HospitalsMod.java",
       "src/main/resources/META-INF/mods.toml",
+      "src/main/java/net/derpymeow/hospitals/init/HospitalsModFluidTypes.java",
+      "src/main/java/net/derpymeow/hospitals/init/HospitalsModFluids.java",
+      "src/main/java/net/derpymeow/hospitals/init/HospitalsModMenus.java",
+      "src/main/java/net/derpymeow/hospitals/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/derpymeow/hospitals/init/HospitalsModScreens.java",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModVillagerProfessions.java",
       "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModTrades.java",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModBlocks.java",
+      "src/main/java/net/derpymeow/hospitals/init/HospitalsModBlockEntities.java",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModItems.java",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModEntityRenderers.java",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModEntities.java"
@@ -7927,18 +8939,44 @@
       },
       {
         "name": "Crafting Recipes",
-        "children": []
+        "children": [
+          {
+            "name": "unlock_system",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Experimental",
+        "children": [
+          {
+            "name": "Blood Bags",
+            "children": []
+          },
+          {
+            "name": "expdevcmds",
+            "children": []
+          },
+          {
+            "name": "syringe",
+            "children": []
+          },
+          {
+            "name": "Blood Centrifuge",
+            "children": []
+          }
+        ]
       }
     ]
   },
   "workspaceSettings": {
     "modid": "hospitals",
     "modName": "Hospitals (THM Expanded)",
-    "version": "3.2.2",
+    "version": "3.4.0",
     "description": "This Brings Complex Medical Blocks And Items To Minecraft: Based Off Of Leon90\u0027s Mod.",
     "author": "DerpyMeow",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/hospitals",
-    "license": "MIT License",
+    "license": "https://github.com/DerpyMeow/Hospitals/blob/release/LICENSE",
     "serverSideOnly": false,
     "updateURL": "https://raw.githubusercontent.com/DerpyMeow/Hospitals/refs/heads/master/UpdateChecker.json",
     "modPicture": "high_quality_logo",

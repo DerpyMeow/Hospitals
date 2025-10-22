@@ -1,0 +1,12 @@
+{
+  "parent": "hospitals:custom/blood_centrifuge",
+  "textures": {
+    "all": "hospitals:block/base_tx",
+    "particle": "hospitals:block/base_tx",
+    "0": "hospitals:block/legs_tx",
+    "1": "hospitals:block/base_tx",
+    "2": "hospitals:block/spinner_tx",
+    "3": "hospitals:block/bar_tx"
+  },
+  "render_type": "solid"
+}

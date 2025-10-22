@@ -153,6 +153,7 @@ public class HospitalsModTabs {
 			}).withSearchBar().withTabsBefore(WARD_THM.getId()).build());
 	public static final RegistryObject<CreativeModeTab> HOSPITALS = REGISTRY.register("hospitals",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.hospitals")).icon(() -> new ItemStack(HospitalsModBlocks.MEDICAL_CROSS.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(HospitalsModItems.WIKI_BOOK.get());
 				tabData.accept(HospitalsModBlocks.TH_BLOCK.get().asItem());
 				tabData.accept(HospitalsModBlocks.PH_BLOCK.get().asItem());
 				tabData.accept(HospitalsModBlocks.RA_BLOCK.get().asItem());
@@ -173,8 +174,15 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModItems.UNPROCESSED_STEEL.get());
 				tabData.accept(HospitalsModItems.COMPUTER_CHIP.get());
 				tabData.accept(HospitalsModItems.COMPUTER.get());
-				tabData.accept(HospitalsModBlocks.WARNING.get().asItem());
-				tabData.accept(HospitalsModItems.MASK_HELMET.get());
+				tabData.accept(HospitalsModBlocks.MINI_TILES.get().asItem());
+				tabData.accept(HospitalsModBlocks.LARGEDARKTILES.get().asItem());
+				tabData.accept(HospitalsModBlocks.LARGELIGHTBLUETILES.get().asItem());
+				tabData.accept(HospitalsModBlocks.LABTILES_1.get().asItem());
+				tabData.accept(HospitalsModBlocks.LABTILES_2.get().asItem());
+				tabData.accept(HospitalsModBlocks.LABTILES_3.get().asItem());
+				tabData.accept(HospitalsModBlocks.LABTILES_4.get().asItem());
+				tabData.accept(HospitalsModBlocks.DARKLABTILES_1.get().asItem());
+				tabData.accept(HospitalsModBlocks.DARKLABTILES_2.get().asItem());
 			}).withSearchBar().withTabsBefore(FACILITIES_THM.getId()).build());
 	public static final RegistryObject<CreativeModeTab> HOSPITALSPILLS = REGISTRY.register("hospitalspills",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.hospitalspills")).icon(() -> new ItemStack(HospitalsModItems.PILL.get())).displayItems((parameters, tabData) -> {
@@ -269,4 +277,31 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModItems.PILL_BOTTLE_42.get());
 				tabData.accept(HospitalsModItems.PILL_BOTTLE_43.get());
 			}).withSearchBar().withTabsBefore(HOSPITALS.getId()).build());
+	public static final RegistryObject<CreativeModeTab> EXP = REGISTRY.register("exp",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.exp")).icon(() -> new ItemStack(HospitalsModBlocks.WARNING.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(HospitalsModItems.EXPERIMENTAL_INFOBOOK.get());
+				tabData.accept(HospitalsModItems.BLOODBAGONEGATIVE.get());
+				tabData.accept(HospitalsModItems.BLOODBAGOPOSITIVE.get());
+				tabData.accept(HospitalsModItems.BLOODBAGBNEGATIVE.get());
+				tabData.accept(HospitalsModItems.BLOODBAGBPOSITIVE.get());
+				tabData.accept(HospitalsModItems.BLOODBAGANEGATIVE.get());
+				tabData.accept(HospitalsModItems.BLOODBAGAPOSITIVE.get());
+				tabData.accept(HospitalsModItems.BLOODBAGABNEGATIVE.get());
+				tabData.accept(HospitalsModItems.BLOODBAGABPOSITIVE.get());
+				tabData.accept(HospitalsModItems.BLOODBAGEMPTY.get());
+				tabData.accept(HospitalsModItems.SYRINGEBLOOD_ONEGATIVE.get());
+				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_O_POSITIVE.get());
+				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_B_NEGATIVE.get());
+				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_B_POSITIVE.get());
+				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_A_NEGATIVE.get());
+				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_A_POSITIVE.get());
+				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_AB_NEGATIVE.get());
+				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_AB_POSITIVE.get());
+				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_MIXED.get());
+				tabData.accept(HospitalsModItems.EMPTY_SYRINGE.get());
+				tabData.accept(HospitalsModBlocks.BLOOD_CENTRIFUGE.get().asItem());
+				tabData.accept(HospitalsModItems.MIXED_BLOOD_BUCKET.get());
+				tabData.accept(HospitalsModItems.MASK_HELMET.get());
+				tabData.accept(HospitalsModBlocks.WARNING.get().asItem());
+			}).withTabsBefore(HOSPITALSPILLS.getId()).build());
 }

@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "legs_tx",
+        "1": "base_tx",
+        "2": "spinner_tx",
+        "3": "bar_tx"
+      },
+      "name": "default"
+    }
+  }
+}

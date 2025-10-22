@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "hospitals:syringe_blood_a_negative",
+    "hospitals:syringe_blood_mixed",
+    "hospitals:syringe_blood_ab_negative",
+    "hospitals:syringe_blood_b_negative",
+    "hospitals:syringe_blood_b_positive",
+    "hospitals:syringe_blood_ab_positive",
+    "hospitals:syringe_blood_a_positive",
+    "hospitals:syringeblood_onegative",
+    "hospitals:syringe_blood_o_positive"
+  ]
+}

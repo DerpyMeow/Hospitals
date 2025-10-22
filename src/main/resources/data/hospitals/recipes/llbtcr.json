@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a",
+    "bc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "b": {
+      "item": "minecraft:white_concrete"
+    },
+    "c": {
+      "item": "minecraft:gray_dye"
+    }
+  },
+  "result": {
+    "item": "hospitals:largelightbluetiles",
+    "count": 1
+  }
+}

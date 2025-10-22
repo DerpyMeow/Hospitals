@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hospitals:block/large_light_blue_tiles_tx",
+    "up": "hospitals:block/large_light_blue_tiles_tx",
+    "north": "hospitals:block/large_light_blue_tiles_tx",
+    "east": "hospitals:block/large_light_blue_tiles_tx",
+    "south": "hospitals:block/large_light_blue_tiles_tx",
+    "west": "hospitals:block/large_light_blue_tiles_tx",
+    "particle": "hospitals:block/large_light_blue_tiles_tx"
+  },
+  "render_type": "solid"
+}
