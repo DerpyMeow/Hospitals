@@ -1,35 +1,35 @@
 {
   "homepage": "https://www.curseforge.com/minecraft/mc-mods/hospitals",
   "1.21.1": {
-    "3.3.0": "See Updates On Curseforge"
+    "3.4.0": "See Updates On Curseforge"
   },
   "1.20.1": {
-    "3.3.0": "See Updates On Curseforge"
+    "3.4.0": "See Updates On Curseforge"
   },
   "1.20.6": {
-    "3.3.0": "See Updates On Curseforge"
+    "3.4.0": "See Updates On Curseforge"
   },
   "1.20.4": {
-    "3.3.0": "See Updates On Curseforge"
+    "3.4.0": "See Updates On Curseforge"
   },
   "1.19.4": {
-    "3.3.0": "See Updates On Curseforge"
+    "3.4.0": "See Updates On Curseforge"
   },
   "1.19.2": {
-    "3.3.0": "See Updates On Curseforge"
+    "3.4.0": "See Updates On Curseforge"
   },
   "promos": {
-    "1.21.1-latest": "3.3.0",
-    "1.21.1-recommended": "3.3.0",
-    "1.20.1-latest": "3.3.0",
-    "1.20.1-recommended": "3.3.0",
-    "1.20.6-latest": "3.3.0",
-    "1.20.6-recommended": "3.3.0",
-    "1.20.4-latest": "3.3.0",
-    "1.20.4-recommended": "3.3.0",
-    "1.19.4-latest": "3.3.0",
-    "1.19.4-recommended": "3.3.0",
-    "1.19.2-latest": "3.3.0",
-    "1.19.2-recommended": "3.3.0"
+    "1.21.1-latest": "3.4.0",
+    "1.21.1-recommended": "3.4.0",
+    "1.20.1-latest": "3.4.0",
+    "1.20.1-recommended": "3.4.0",
+    "1.20.6-latest": "3.4.0",
+    "1.20.6-recommended": "3.4.0",
+    "1.20.4-latest": "3.4.0",
+    "1.20.4-recommended": "3.4.0",
+    "1.19.4-latest": "3.4.0",
+    "1.19.4-recommended": "3.4.0",
+    "1.19.2-latest": "3.4.0",
+    "1.19.2-recommended": "3.4.0"
   }
 }
