@@ -1,5 +1,7 @@
 package net.derpymeow.hospitals.procedures;
 
+import net.minecraftforge.eventbus.api.Event;
+
 public class DonationLogicProcedure {
 	public static boolean execute(String dl_give, String dl_take) {
 		if (dl_give == null || dl_take == null)

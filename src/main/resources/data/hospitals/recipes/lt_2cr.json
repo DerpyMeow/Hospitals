@@ -3,14 +3,14 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "hospitals:labtiles_1"
+      "item": "hospitals:deleted_mod_element"
     },
     {
       "item": "minecraft:light_gray_dye"
     }
   ],
   "result": {
-    "item": "hospitals:labtiles_2",
+    "item": "hospitals:deleted_mod_element",
     "count": 1
   }
 }
