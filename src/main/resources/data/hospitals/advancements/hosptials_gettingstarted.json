@@ -191,12 +191,13 @@
       "hospitals:smkr",
       "hospitals:lmkr",
       "hospitals:minitilesrecipe",
-      "hospitals:largedarktilescr",
+      "hospitals:deleted_mod_element",
       "hospitals:llbtcr",
-      "hospitals:lt_1cr",
+      "hospitals:deleted_mod_element",
       "hospitals:lt_2cr",
-      "hospitals:lt_3cr",
-      "hospitals:lt_4cr"
+      "hospitals:deleted_mod_element",
+      "hospitals:lt_4cr",
+      "hospitals:warningblockrecipe"
     ]
   },
   "parent": "minecraft:adventure/adventuring_time"

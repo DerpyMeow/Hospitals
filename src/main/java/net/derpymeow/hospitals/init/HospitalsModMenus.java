@@ -24,8 +24,8 @@ import java.util.Map;
 
 public class HospitalsModMenus {
 	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.MENU_TYPES, HospitalsMod.MODID);
-	public static final RegistryObject<MenuType<BloodCentrifugeGuiMenu>> BLOOD_CENTRIFUGE_GUI = REGISTRY.register("blood_centrifuge_gui", () -> IForgeMenuType.create(BloodCentrifugeGuiMenu::new));
 	public static final RegistryObject<MenuType<ExpinfobookguiMenu>> EXPINFOBOOKGUI = REGISTRY.register("expinfobookgui", () -> IForgeMenuType.create(ExpinfobookguiMenu::new));
+	public static final RegistryObject<MenuType<BloodCentrifugeGuiMenu>> BLOOD_CENTRIFUGE_GUI = REGISTRY.register("blood_centrifuge_gui", () -> IForgeMenuType.create(BloodCentrifugeGuiMenu::new));
 
 	public interface MenuAccessor {
 		Map<String, Object> getMenuState();

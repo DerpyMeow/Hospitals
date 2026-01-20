@@ -1,11 +1,8 @@
 package net.derpymeow.hospitals.procedures;
 
-import net.minecraft.world.entity.Entity;
+import net.minecraftforge.eventbus.api.Event;
 
 public class WikiBookRightclickedProcedure {
-	public static void execute(Entity entity) {
-		if (entity == null)
-			return;
-		HwikiprocedureProcedure.execute(entity);
+	public static void execute() {
 	}
 }

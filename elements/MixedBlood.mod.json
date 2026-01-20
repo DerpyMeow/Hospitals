@@ -6,7 +6,7 @@
     "bucketName": "Mixed Blood Bucket",
     "textureStill": "blood_still",
     "textureFlowing": "blood_flowing",
-    "textureRenderOverlay": "",
+    "textureRenderOverlay": "blood_swimming_overlay",
     "hasFog": true,
     "fogColor": {
       "value": -10420224,
@@ -37,7 +37,7 @@
     "textureBucket": "",
     "creativeTabs": [
       {
-        "value": "CUSTOM:Exp"
+        "value": "CUSTOM:Hospitals"
       }
     ],
     "emptySound": {

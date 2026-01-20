@@ -1,24 +1,5 @@
 package net.derpymeow.hospitals.fluid.types;
 
-import org.joml.Vector3f;
-
-import net.minecraftforge.fluids.FluidType;
-import net.minecraftforge.common.SoundActions;
-import net.minecraftforge.client.extensions.common.IClientFluidTypeExtensions;
-
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.sounds.SoundEvents;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.FogRenderer;
-import net.minecraft.client.multiplayer.ClientLevel;
-import net.minecraft.client.Camera;
-
-import java.util.function.Consumer;
-
-import com.mojang.blaze3d.systems.RenderSystem;
-import com.mojang.blaze3d.shaders.FogShape;
-
 public class MixedBloodFluidType extends FluidType {
 	public MixedBloodFluidType() {
 		super(FluidType.Properties.create().fallDistanceModifier(0F).canExtinguish(true).supportsBoating(true).canHydrate(true).motionScale(0.007D).canConvertToSource(true).sound(SoundActions.BUCKET_FILL, SoundEvents.BUCKET_FILL)
@@ -30,6 +11,7 @@ public class MixedBloodFluidType extends FluidType {
 		consumer.accept(new IClientFluidTypeExtensions() {
 			private static final ResourceLocation STILL_TEXTURE = ResourceLocation.parse("hospitals:block/blood_still");
 			private static final ResourceLocation FLOWING_TEXTURE = ResourceLocation.parse("hospitals:block/blood_flowing");
+			private static final ResourceLocation RENDER_OVERLAY_TEXTURE = ResourceLocation.parse("hospitals:textures/blood_swimming_overlay.png");
 
 			@Override
 			public ResourceLocation getStillTexture() {
@@ -39,6 +21,11 @@ public class MixedBloodFluidType extends FluidType {
 			@Override
 			public ResourceLocation getFlowingTexture() {
 				return FLOWING_TEXTURE;
+			}
+
+			@Override
+			public ResourceLocation getRenderOverlayTexture(Minecraft mc) {
+				return RENDER_OVERLAY_TEXTURE;
 			}
 
 			@Override
