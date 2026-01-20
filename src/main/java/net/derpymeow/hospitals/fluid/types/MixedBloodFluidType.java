@@ -12,6 +12,7 @@ import net.minecraft.sounds.SoundEvents;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.FogRenderer;
 import net.minecraft.client.multiplayer.ClientLevel;
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.Camera;
 
 import java.util.function.Consumer;
@@ -30,6 +31,7 @@ public class MixedBloodFluidType extends FluidType {
 		consumer.accept(new IClientFluidTypeExtensions() {
 			private static final ResourceLocation STILL_TEXTURE = ResourceLocation.parse("hospitals:block/blood_still");
 			private static final ResourceLocation FLOWING_TEXTURE = ResourceLocation.parse("hospitals:block/blood_flowing");
+			private static final ResourceLocation RENDER_OVERLAY_TEXTURE = ResourceLocation.parse("hospitals:textures/blood_swimming_overlay.png");
 
 			@Override
 			public ResourceLocation getStillTexture() {
@@ -39,6 +41,11 @@ public class MixedBloodFluidType extends FluidType {
 			@Override
 			public ResourceLocation getFlowingTexture() {
 				return FLOWING_TEXTURE;
+			}
+
+			@Override
+			public ResourceLocation getRenderOverlayTexture(Minecraft mc) {
+				return RENDER_OVERLAY_TEXTURE;
 			}
 
 			@Override

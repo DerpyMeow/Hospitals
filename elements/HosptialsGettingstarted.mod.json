@@ -200,7 +200,8 @@
       "Lt1cr",
       "Lt2cr",
       "Lt3cr",
-      "Lt4cr"
+      "Lt4cr",
+      "Warningblockrecipe"
     ],
     "rewardXP": 0,
     "achievementType": "task",

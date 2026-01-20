@@ -7224,29 +7224,6 @@
       "path": "~/Experimental/Blood Bags"
     },
     {
-      "name": "Devcmdssettype",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "devcmdssettype",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "arguments",
-            "type": "cmdcontext"
-          },
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/DevcmdssettypeProcedure.java"
-        ]
-      },
-      "path": "~/Experimental/expdevcmds"
-    },
-    {
       "name": "EmptySyringe",
       "type": "item",
       "compiles": true,
@@ -7466,7 +7443,7 @@
           "src/main/resources/assets/hospitals/models/block/mixed_blood.json"
         ]
       },
-      "path": "~/Experimental/Blood Bags"
+      "path": "~/Hospitals/Blood"
     },
     {
       "name": "ExperimentalInfobook",
@@ -7871,6 +7848,78 @@
         ]
       },
       "path": "~/Crafting Recipes/unlock_system"
+    },
+    {
+      "name": "Bgettype",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bgettype",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BgettypeProcedure.java"
+        ]
+      },
+      "path": "~/Hospitals/Blood"
+    },
+    {
+      "name": "Btypeset",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "btypeset",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BtypesetProcedure.java"
+        ]
+      },
+      "path": "~/Hospitals/Blood"
+    },
+    {
+      "name": "Blood",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/command/BloodCommand.java"
+        ]
+      },
+      "path": "~/Hospitals/Blood"
+    },
+    {
+      "name": "Warningblockrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warningblockrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/warningblockrecipe.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
     }
   ],
   "variable_elements": [
@@ -7949,6 +7998,17 @@
     ],
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:MixedBlood"
+    ],
+    "ITEMS:mod:blood_bags": [
+      "CUSTOM:Bloodbagonegative",
+      "CUSTOM:Bloodbagopositive",
+      "CUSTOM:Bloodbagbnegative",
+      "CUSTOM:Bloodbagbpositive",
+      "CUSTOM:Bloodbaganegative",
+      "CUSTOM:Bloodbagapositive",
+      "CUSTOM:Bloodbagabnegative",
+      "CUSTOM:Bloodbagabpositive",
+      "CUSTOM:Bloodbagempty"
     ]
   },
   "tab_element_order": {
@@ -8110,7 +8170,8 @@
       "Labtiles3",
       "Labtiles4",
       "Darklabtiles1",
-      "Darklabtiles2"
+      "Darklabtiles2",
+      "MixedBlood"
     ],
     "CUSTOM:Hospitalspills": [
       "CreativePill",
@@ -8226,7 +8287,6 @@
       "SyringeBloodMixed",
       "EmptySyringe",
       "BloodCentrifuge",
-      "MixedBlood",
       "Scrubmask",
       "Warning"
     ]
@@ -8908,6 +8968,10 @@
           },
           {
             "name": "NewBlocks",
+            "children": []
+          },
+          {
+            "name": "Blood",
             "children": []
           }
         ]

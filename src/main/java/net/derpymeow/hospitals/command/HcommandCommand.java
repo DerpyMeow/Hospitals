@@ -15,7 +15,6 @@ import net.minecraft.commands.Commands;
 
 import net.derpymeow.hospitals.procedures.HwikiprocedureProcedure;
 import net.derpymeow.hospitals.procedures.HcmdtestProcedure;
-import net.derpymeow.hospitals.procedures.DevcmdssettypeProcedure;
 import net.derpymeow.hospitals.procedures.DevcmdsdonationlogictesterProcedure;
 import net.derpymeow.hospitals.procedures.DevcmdsbloodbagsProcedure;
 
@@ -81,20 +80,6 @@ public class HcommandCommand {
 				direction = entity.getDirection();
 
 			DevcmdsdonationlogictesterProcedure.execute(arguments, entity);
-			return 0;
-		})))).then(Commands.literal("set").then(Commands.literal("blood_type").then(Commands.argument("set_type", StringArgumentType.word()).executes(arguments -> {
-			Level world = arguments.getSource().getUnsidedLevel();
-			double x = arguments.getSource().getPosition().x();
-			double y = arguments.getSource().getPosition().y();
-			double z = arguments.getSource().getPosition().z();
-			Entity entity = arguments.getSource().getEntity();
-			if (entity == null && world instanceof ServerLevel _servLevel)
-				entity = FakePlayerFactory.getMinecraft(_servLevel);
-			Direction direction = Direction.DOWN;
-			if (entity != null)
-				direction = entity.getDirection();
-
-			DevcmdssettypeProcedure.execute(arguments, entity);
 			return 0;
 		}))))));
 	}

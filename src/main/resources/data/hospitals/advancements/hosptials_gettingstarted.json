@@ -196,7 +196,8 @@
       "hospitals:lt_1cr",
       "hospitals:lt_2cr",
       "hospitals:lt_3cr",
-      "hospitals:lt_4cr"
+      "hospitals:lt_4cr",
+      "hospitals:warningblockrecipe"
     ]
   },
   "parent": "minecraft:adventure/adventuring_time"
