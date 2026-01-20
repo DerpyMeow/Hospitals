@@ -18,8 +18,8 @@ public class HospitalsModScreens {
 	@SubscribeEvent
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
-			MenuScreens.register(HospitalsModMenus.BLOOD_CENTRIFUGE_GUI.get(), BloodCentrifugeGuiScreen::new);
 			MenuScreens.register(HospitalsModMenus.EXPINFOBOOKGUI.get(), ExpinfobookguiScreen::new);
+			MenuScreens.register(HospitalsModMenus.BLOOD_CENTRIFUGE_GUI.get(), BloodCentrifugeGuiScreen::new);
 		});
 	}
 

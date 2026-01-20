@@ -1,11 +1,6 @@
 package net.derpymeow.hospitals.procedures;
 
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.network.chat.MutableComponent;
-import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.ClickEvent;
-import net.minecraft.ChatFormatting;
+import net.minecraftforge.eventbus.api.Event;
 
 public class HwikiprocedureProcedure {
 	public static void execute(Entity entity) {
