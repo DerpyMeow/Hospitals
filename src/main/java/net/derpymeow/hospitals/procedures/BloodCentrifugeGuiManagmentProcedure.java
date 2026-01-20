@@ -1,11 +1,6 @@
 package net.derpymeow.hospitals.procedures;
 
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.Entity;
-
-import net.derpymeow.hospitals.init.HospitalsModMenus;
-import net.derpymeow.hospitals.init.HospitalsModItems;
+import net.minecraftforge.eventbus.api.Event;
 
 public class BloodCentrifugeGuiManagmentProcedure {
 	public static void execute(Entity entity) {
@@ -35,119 +30,119 @@ public class BloodCentrifugeGuiManagmentProcedure {
 			s0 = (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof HospitalsModMenus.MenuAccessor _menu2 ? _menu2.getSlots().get(0).getItem() : ItemStack.EMPTY).copy();
 			s1 = (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof HospitalsModMenus.MenuAccessor _menu3 ? _menu3.getSlots().get(1).getItem() : ItemStack.EMPTY).copy();
 			if (s0.getItem() == s1.getItem()) {
-				if (HospitalsModItems.SYRINGEBLOOD_ONEGATIVE.get() == s0.getItem()) {
+				if (HospitalsModItems.DELETED_MOD_ELEMENT.get() == s0.getItem()) {
 					if (entity instanceof Player _player && _player.containerMenu instanceof HospitalsModMenus.MenuAccessor _menu) {
-						ItemStack _setstack = new ItemStack(HospitalsModItems.BLOODBAGONEGATIVE.get()).copy();
+						ItemStack _setstack = new ItemStack(HospitalsModItems.DELETED_MOD_ELEMENT.get()).copy();
 						_setstack.setCount(1);
 						_menu.getSlots().get(2).set(_setstack);
 						_player.containerMenu.broadcastChanges();
 					}
 					if (entity instanceof Player _player && _player.containerMenu instanceof HospitalsModMenus.MenuAccessor _menu) {
-						ItemStack _setstack = new ItemStack(HospitalsModItems.EMPTY_SYRINGE.get()).copy();
+						ItemStack _setstack = new ItemStack(HospitalsModItems.DELETED_MOD_ELEMENT.get()).copy();
 						_setstack.setCount(2);
 						_menu.getSlots().get(3).set(_setstack);
 						_player.containerMenu.broadcastChanges();
 					}
-				} else if (HospitalsModItems.SYRINGE_BLOOD_O_POSITIVE.get() == s0.getItem()) {
+				} else if (HospitalsModItems.DELETED_MOD_ELEMENT.get() == s0.getItem()) {
 					if (entity instanceof Player _player && _player.containerMenu instanceof HospitalsModMenus.MenuAccessor _menu) {
-						ItemStack _setstack = new ItemStack(HospitalsModItems.BLOODBAGOPOSITIVE.get()).copy();
+						ItemStack _setstack = new ItemStack(HospitalsModItems.DELETED_MOD_ELEMENT.get()).copy();
 						_setstack.setCount(1);
 						_menu.getSlots().get(2).set(_setstack);
 						_player.containerMenu.broadcastChanges();
 					}
 					if (entity instanceof Player _player && _player.containerMenu instanceof HospitalsModMenus.MenuAccessor _menu) {
-						ItemStack _setstack = new ItemStack(HospitalsModItems.EMPTY_SYRINGE.get()).copy();
+						ItemStack _setstack = new ItemStack(HospitalsModItems.DELETED_MOD_ELEMENT.get()).copy();
 						_setstack.setCount(2);
 						_menu.getSlots().get(3).set(_setstack);
 						_player.containerMenu.broadcastChanges();
 					}
-				} else if (HospitalsModItems.SYRINGE_BLOOD_B_NEGATIVE.get() == s0.getItem()) {
+				} else if (HospitalsModItems.DELETED_MOD_ELEMENT.get() == s0.getItem()) {
 					if (entity instanceof Player _player && _player.containerMenu instanceof HospitalsModMenus.MenuAccessor _menu) {
-						ItemStack _setstack = new ItemStack(HospitalsModItems.BLOODBAGBNEGATIVE.get()).copy();
+						ItemStack _setstack = new ItemStack(HospitalsModItems.DELETED_MOD_ELEMENT.get()).copy();
 						_setstack.setCount(1);
 						_menu.getSlots().get(2).set(_setstack);
 						_player.containerMenu.broadcastChanges();
 					}
 					if (entity instanceof Player _player && _player.containerMenu instanceof HospitalsModMenus.MenuAccessor _menu) {
-						ItemStack _setstack = new ItemStack(HospitalsModItems.EMPTY_SYRINGE.get()).copy();
+						ItemStack _setstack = new ItemStack(HospitalsModItems.DELETED_MOD_ELEMENT.get()).copy();
 						_setstack.setCount(2);
 						_menu.getSlots().get(3).set(_setstack);
 						_player.containerMenu.broadcastChanges();
 					}
 				} else if (HospitalsModItems.SYRINGE_BLOOD_B_POSITIVE.get() == s0.getItem()) {
 					if (entity instanceof Player _player && _player.containerMenu instanceof HospitalsModMenus.MenuAccessor _menu) {
-						ItemStack _setstack = new ItemStack(HospitalsModItems.BLOODBAGBPOSITIVE.get()).copy();
+						ItemStack _setstack = new ItemStack(HospitalsModItems.DELETED_MOD_ELEMENT.get()).copy();
 						_setstack.setCount(1);
 						_menu.getSlots().get(2).set(_setstack);
 						_player.containerMenu.broadcastChanges();
 					}
 					if (entity instanceof Player _player && _player.containerMenu instanceof HospitalsModMenus.MenuAccessor _menu) {
-						ItemStack _setstack = new ItemStack(HospitalsModItems.EMPTY_SYRINGE.get()).copy();
+						ItemStack _setstack = new ItemStack(HospitalsModItems.DELETED_MOD_ELEMENT.get()).copy();
 						_setstack.setCount(2);
 						_menu.getSlots().get(3).set(_setstack);
 						_player.containerMenu.broadcastChanges();
 					}
-				} else if (HospitalsModItems.SYRINGE_BLOOD_A_NEGATIVE.get() == s0.getItem()) {
+				} else if (HospitalsModItems.DELETED_MOD_ELEMENT.get() == s0.getItem()) {
 					if (entity instanceof Player _player && _player.containerMenu instanceof HospitalsModMenus.MenuAccessor _menu) {
-						ItemStack _setstack = new ItemStack(HospitalsModItems.BLOODBAGANEGATIVE.get()).copy();
+						ItemStack _setstack = new ItemStack(HospitalsModItems.DELETED_MOD_ELEMENT.get()).copy();
 						_setstack.setCount(1);
 						_menu.getSlots().get(2).set(_setstack);
 						_player.containerMenu.broadcastChanges();
 					}
 					if (entity instanceof Player _player && _player.containerMenu instanceof HospitalsModMenus.MenuAccessor _menu) {
-						ItemStack _setstack = new ItemStack(HospitalsModItems.EMPTY_SYRINGE.get()).copy();
+						ItemStack _setstack = new ItemStack(HospitalsModItems.DELETED_MOD_ELEMENT.get()).copy();
 						_setstack.setCount(2);
 						_menu.getSlots().get(3).set(_setstack);
 						_player.containerMenu.broadcastChanges();
 					}
-				} else if (HospitalsModItems.SYRINGE_BLOOD_A_POSITIVE.get() == s0.getItem()) {
+				} else if (HospitalsModItems.DELETED_MOD_ELEMENT.get() == s0.getItem()) {
 					if (entity instanceof Player _player && _player.containerMenu instanceof HospitalsModMenus.MenuAccessor _menu) {
-						ItemStack _setstack = new ItemStack(HospitalsModItems.BLOODBAGAPOSITIVE.get()).copy();
+						ItemStack _setstack = new ItemStack(HospitalsModItems.DELETED_MOD_ELEMENT.get()).copy();
 						_setstack.setCount(1);
 						_menu.getSlots().get(2).set(_setstack);
 						_player.containerMenu.broadcastChanges();
 					}
 					if (entity instanceof Player _player && _player.containerMenu instanceof HospitalsModMenus.MenuAccessor _menu) {
-						ItemStack _setstack = new ItemStack(HospitalsModItems.EMPTY_SYRINGE.get()).copy();
+						ItemStack _setstack = new ItemStack(HospitalsModItems.DELETED_MOD_ELEMENT.get()).copy();
 						_setstack.setCount(2);
 						_menu.getSlots().get(3).set(_setstack);
 						_player.containerMenu.broadcastChanges();
 					}
 				} else if (HospitalsModItems.SYRINGE_BLOOD_AB_NEGATIVE.get() == s0.getItem()) {
 					if (entity instanceof Player _player && _player.containerMenu instanceof HospitalsModMenus.MenuAccessor _menu) {
-						ItemStack _setstack = new ItemStack(HospitalsModItems.BLOODBAGABNEGATIVE.get()).copy();
+						ItemStack _setstack = new ItemStack(HospitalsModItems.DELETED_MOD_ELEMENT.get()).copy();
 						_setstack.setCount(1);
 						_menu.getSlots().get(2).set(_setstack);
 						_player.containerMenu.broadcastChanges();
 					}
 					if (entity instanceof Player _player && _player.containerMenu instanceof HospitalsModMenus.MenuAccessor _menu) {
-						ItemStack _setstack = new ItemStack(HospitalsModItems.EMPTY_SYRINGE.get()).copy();
+						ItemStack _setstack = new ItemStack(HospitalsModItems.DELETED_MOD_ELEMENT.get()).copy();
 						_setstack.setCount(2);
 						_menu.getSlots().get(3).set(_setstack);
 						_player.containerMenu.broadcastChanges();
 					}
-				} else if (HospitalsModItems.SYRINGE_BLOOD_AB_POSITIVE.get() == s0.getItem()) {
+				} else if (HospitalsModItems.DELETED_MOD_ELEMENT.get() == s0.getItem()) {
 					if (entity instanceof Player _player && _player.containerMenu instanceof HospitalsModMenus.MenuAccessor _menu) {
-						ItemStack _setstack = new ItemStack(HospitalsModItems.BLOODBAGABPOSITIVE.get()).copy();
+						ItemStack _setstack = new ItemStack(HospitalsModItems.DELETED_MOD_ELEMENT.get()).copy();
 						_setstack.setCount(1);
 						_menu.getSlots().get(2).set(_setstack);
 						_player.containerMenu.broadcastChanges();
 					}
 					if (entity instanceof Player _player && _player.containerMenu instanceof HospitalsModMenus.MenuAccessor _menu) {
-						ItemStack _setstack = new ItemStack(HospitalsModItems.EMPTY_SYRINGE.get()).copy();
+						ItemStack _setstack = new ItemStack(HospitalsModItems.DELETED_MOD_ELEMENT.get()).copy();
 						_setstack.setCount(2);
 						_menu.getSlots().get(3).set(_setstack);
 						_player.containerMenu.broadcastChanges();
 					}
-				} else if (HospitalsModItems.SYRINGE_BLOOD_MIXED.get() == s0.getItem()) {
+				} else if (HospitalsModItems.DELETED_MOD_ELEMENT.get() == s0.getItem()) {
 					if (entity instanceof Player _player && _player.containerMenu instanceof HospitalsModMenus.MenuAccessor _menu) {
-						ItemStack _setstack = new ItemStack(HospitalsModItems.MIXED_BLOOD_BUCKET.get()).copy();
+						ItemStack _setstack = new ItemStack(HospitalsModItems.DELETED_MOD_ELEMENT_BUCKET.get()).copy();
 						_setstack.setCount(1);
 						_menu.getSlots().get(2).set(_setstack);
 						_player.containerMenu.broadcastChanges();
 					}
 					if (entity instanceof Player _player && _player.containerMenu instanceof HospitalsModMenus.MenuAccessor _menu) {
-						ItemStack _setstack = new ItemStack(HospitalsModItems.EMPTY_SYRINGE.get()).copy();
+						ItemStack _setstack = new ItemStack(HospitalsModItems.DELETED_MOD_ELEMENT.get()).copy();
 						_setstack.setCount(2);
 						_menu.getSlots().get(3).set(_setstack);
 						_player.containerMenu.broadcastChanges();
