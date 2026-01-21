@@ -201,7 +201,9 @@
       "Lt2cr",
       "Lt3cr",
       "Lt4cr",
-      "Warningblockrecipe"
+      "Warningblockrecipe",
+      "Syringerecipe",
+      "Bloodbagcrafting"
     ],
     "rewardXP": 0,
     "achievementType": "task",

@@ -197,7 +197,9 @@
       "hospitals:lt_2cr",
       "hospitals:lt_3cr",
       "hospitals:lt_4cr",
-      "hospitals:warningblockrecipe"
+      "hospitals:warningblockrecipe",
+      "hospitals:syringerecipe",
+      "hospitals:bloodbagcrafting"
     ]
   },
   "parent": "minecraft:adventure/adventuring_time"

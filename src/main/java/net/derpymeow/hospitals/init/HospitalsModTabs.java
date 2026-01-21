@@ -184,6 +184,8 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModBlocks.DARKLABTILES_1.get().asItem());
 				tabData.accept(HospitalsModBlocks.DARKLABTILES_2.get().asItem());
 				tabData.accept(HospitalsModItems.MIXED_BLOOD_BUCKET.get());
+				tabData.accept(HospitalsModItems.BLOOD_TYPE_TESTER.get());
+				tabData.accept(HospitalsModBlocks.WARNING.get().asItem());
 			}).withSearchBar().withTabsBefore(FACILITIES_THM.getId()).build());
 	public static final RegistryObject<CreativeModeTab> HOSPITALSPILLS = REGISTRY.register("hospitalspills",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.hospitalspills")).icon(() -> new ItemStack(HospitalsModItems.PILL.get())).displayItems((parameters, tabData) -> {
@@ -302,6 +304,5 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModItems.EMPTY_SYRINGE.get());
 				tabData.accept(HospitalsModBlocks.BLOOD_CENTRIFUGE.get().asItem());
 				tabData.accept(HospitalsModItems.MASK_HELMET.get());
-				tabData.accept(HospitalsModBlocks.WARNING.get().asItem());
 			}).withTabsBefore(HOSPITALSPILLS.getId()).build());
 }

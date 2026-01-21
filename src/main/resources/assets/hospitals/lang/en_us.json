@@ -619,5 +619,10 @@
   "block.hospitals.darklabtiles_1": "Dark Lab Tiles 1",
   "block.hospitals.darklabtiles_2": "Dark Lab Tiles 2",
   "advancements.hosptials_gettingstarted.title": "Hospitals: Getting Started",
-  "advancements.hosptials_gettingstarted.descr": "Join a world with the Hospitals mod"
+  "advancements.hosptials_gettingstarted.descr": "Join a world with the Hospitals mod",
+  "item.hospitals.blood_type_tester.description_0": "- Has 8 Uses",
+  "item.hospitals.blood_type_tester": "Blood Type Tester",
+  "item.hospitals.blood_type_tester.description_1": "- Right click to test self",
+  "item.hospitals.blood_type_tester.description_2": "- Punch player to test others",
+  "item.hospitals.blood_type_tester.description_3": "- Does not work on non-player mobs"
 }

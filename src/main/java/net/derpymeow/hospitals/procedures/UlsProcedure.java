@@ -45,6 +45,7 @@ public class UlsProcedure {
 						_player.getAdvancements().award(_adv, criteria);
 				}
 			}
+			RandomBloodTypeOnFirstJoinProcedure.execute(entity);
 		}
 	}
 }
