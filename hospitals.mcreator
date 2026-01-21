@@ -8037,6 +8037,19 @@
         ]
       },
       "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Bloodtypetesterrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodtypetesterrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/bloodtypetesterrecipe.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
     }
   ],
   "variable_elements": [

@@ -203,7 +203,8 @@
       "Lt4cr",
       "Warningblockrecipe",
       "Syringerecipe",
-      "Bloodbagcrafting"
+      "Bloodbagcrafting",
+      "Bloodtypetesterrecipe"
     ],
     "rewardXP": 0,
     "achievementType": "task",
