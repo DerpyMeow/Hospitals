@@ -1,20 +1,19 @@
-# Gradle build system ignores
+# ===== OS junk =====
+.DS_Store
+Thumbs.db
+
+# ===== Gradle build system =====
 .gradle/
 build/
+run/
+*.log
 
-# Other IDE related folders
+# ===== IDE files =====
 .idea/
 .settings/
-
-# MCreator workspace
-.mcreator/
-
-# Minecraft client/server files
-run/
-
-# MacOS system files
-.DS_STORE
-
-# Other Files (In Eclipse)
+.vscode/
 .classpath
 .project
+
+# ===== MCreator internal =====
+.mcreator/
