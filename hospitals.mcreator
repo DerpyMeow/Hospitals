@@ -8887,14 +8887,21 @@
   },
   "metadata": {
     "files": [
-      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/mods.toml",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModTabs.java",
       "src/main/java/net/derpymeow/hospitals/HospitalsMod.java",
-      "src/main/resources/META-INF/mods.toml",
+      "src/main/java/net/derpymeow/hospitals/network/HospitalsModVariables.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/derpymeow/hospitals/init/HospitalsModFluidTypes.java",
+      "src/main/java/net/derpymeow/hospitals/init/HospitalsModFluids.java",
+      "src/main/java/net/derpymeow/hospitals/init/HospitalsModScreens.java",
+      "src/main/java/net/derpymeow/hospitals/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/derpymeow/hospitals/init/HospitalsModMenus.java",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModVillagerProfessions.java",
       "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModTrades.java",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModBlocks.java",
+      "src/main/java/net/derpymeow/hospitals/init/HospitalsModBlockEntities.java",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModItems.java",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModEntityRenderers.java",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModEntities.java"
