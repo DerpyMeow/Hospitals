@@ -380,7 +380,7 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> BLOODBAGABPOSITIVE = REGISTRY.register("bloodbagabpositive", () -> new BloodbagabpositiveItem());
 	public static final RegistryObject<Item> BLOODBAGEMPTY = REGISTRY.register("bloodbagempty", () -> new BloodbagemptyItem());
 	public static final RegistryObject<Item> EMPTY_SYRINGE = REGISTRY.register("empty_syringe", () -> new EmptySyringeItem());
-	public static final RegistryObject<Item> SYRINGEBLOOD_ONEGATIVE = REGISTRY.register("syringeblood_onegative", () -> new SyringebloodOnegativeItem());
+	public static final RegistryObject<Item> SYRINGE_BLOOD_O_NEGATIVE = REGISTRY.register("syringe_blood_o_negative", () -> new SyringebloodOnegativeItem());
 	public static final RegistryObject<Item> SYRINGE_BLOOD_O_POSITIVE = REGISTRY.register("syringe_blood_o_positive", () -> new SyringeBloodOPositiveItem());
 	public static final RegistryObject<Item> SYRINGE_BLOOD_B_NEGATIVE = REGISTRY.register("syringe_blood_b_negative", () -> new SyringeBloodBNegativeItem());
 	public static final RegistryObject<Item> SYRINGE_BLOOD_B_POSITIVE = REGISTRY.register("syringe_blood_b_positive", () -> new SyringeBloodBPositiveItem());
@@ -389,7 +389,6 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> SYRINGE_BLOOD_AB_NEGATIVE = REGISTRY.register("syringe_blood_ab_negative", () -> new SyringeBloodABNegativeItem());
 	public static final RegistryObject<Item> SYRINGE_BLOOD_AB_POSITIVE = REGISTRY.register("syringe_blood_ab_positive", () -> new SyringeBloodABPositiveItem());
 	public static final RegistryObject<Item> SYRINGE_BLOOD_MIXED = REGISTRY.register("syringe_blood_mixed", () -> new SyringeBloodMixedItem());
-	public static final RegistryObject<Item> BLOOD_CENTRIFUGE = block(HospitalsModBlocks.BLOOD_CENTRIFUGE);
 	public static final RegistryObject<Item> MIXED_BLOOD_BUCKET = REGISTRY.register("mixed_blood_bucket", () -> new MixedBloodItem());
 	public static final RegistryObject<Item> EXPERIMENTAL_INFOBOOK = REGISTRY.register("experimental_infobook", () -> new ExperimentalInfobookItem());
 	public static final RegistryObject<Item> WIKI_BOOK = REGISTRY.register("wiki_book", () -> new WikiBookItem());

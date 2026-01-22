@@ -145,7 +145,6 @@ import net.derpymeow.hospitals.block.BrickDarkBlock;
 import net.derpymeow.hospitals.block.BrickBeigeBlock;
 import net.derpymeow.hospitals.block.BottleFillingMachineBlock;
 import net.derpymeow.hospitals.block.BlueDeskTrayBlock;
-import net.derpymeow.hospitals.block.BloodCentrifugeBlock;
 import net.derpymeow.hospitals.block.BlockOfStainlessSteelBlock;
 import net.derpymeow.hospitals.block.BedsideHeadUnitBlock;
 import net.derpymeow.hospitals.block.AnalyticalBalanceBlock;
@@ -284,7 +283,6 @@ public class HospitalsModBlocks {
 	public static final RegistryObject<Block> LIGHT_BLOCK = REGISTRY.register("light_block", () -> new LightBlockBlock());
 	public static final RegistryObject<Block> BLOCK_OF_STAINLESS_STEEL = REGISTRY.register("block_of_stainless_steel", () -> new BlockOfStainlessSteelBlock());
 	public static final RegistryObject<Block> WARNING = REGISTRY.register("warning", () -> new WarningBlock());
-	public static final RegistryObject<Block> BLOOD_CENTRIFUGE = REGISTRY.register("blood_centrifuge", () -> new BloodCentrifugeBlock());
 	public static final RegistryObject<Block> MIXED_BLOOD = REGISTRY.register("mixed_blood", () -> new MixedBloodBlock());
 	public static final RegistryObject<Block> MINI_TILES = REGISTRY.register("mini_tiles", () -> new MiniTilesBlock());
 	public static final RegistryObject<Block> LARGEDARKTILES = REGISTRY.register("largedarktiles", () -> new LargedarktilesBlock());

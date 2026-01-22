@@ -12,7 +12,7 @@
     "rarity": "COMMON",
     "creativeTabs": [
       {
-        "value": "CUSTOM:Exp"
+        "value": "CUSTOM:Hospitals"
       }
     ],
     "stackSize": 64,
@@ -27,16 +27,28 @@
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "enableMeleeDamage": false,
-    "damageVsEntity": 0.0,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 1.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "",
+        "- Right click air to fill with own type",
+        "- Left click other players to fill with their type",
+        "- Left click other mobs to fill with mixed",
+        "- Does 1/2 heart of damage to entity"
+      ]
     },
     "glowCondition": {
       "fixedValue": false
     },
     "inventorySize": 9,
     "inventoryStackSize": 99,
+    "onRightClickedInAir": {
+      "name": "EmptySyringeSelfsHitWithItem"
+    },
+    "onEntityHitWith": {
+      "name": "EmptySyringeLivingEntityIsHitWithItem"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,

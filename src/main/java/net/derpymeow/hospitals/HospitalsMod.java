@@ -25,7 +25,6 @@ import net.derpymeow.hospitals.init.HospitalsModFluids;
 import net.derpymeow.hospitals.init.HospitalsModFluidTypes;
 import net.derpymeow.hospitals.init.HospitalsModEntities;
 import net.derpymeow.hospitals.init.HospitalsModBlocks;
-import net.derpymeow.hospitals.init.HospitalsModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -48,7 +47,7 @@ public class HospitalsMod {
 		IEventBus bus = context.getModEventBus();
 
 		HospitalsModBlocks.REGISTRY.register(bus);
-		HospitalsModBlockEntities.REGISTRY.register(bus);
+
 		HospitalsModItems.REGISTRY.register(bus);
 		HospitalsModEntities.REGISTRY.register(bus);
 
