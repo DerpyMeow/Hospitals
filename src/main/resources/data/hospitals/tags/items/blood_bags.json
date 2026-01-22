@@ -3,7 +3,6 @@
   "values": [
     "hospitals:bloodbagbpositive",
     "hospitals:bloodbagapositive",
-    "hospitals:bloodbagempty",
     "hospitals:bloodbagabnegative",
     "hospitals:bloodbagabpositive",
     "hospitals:bloodbagbnegative",

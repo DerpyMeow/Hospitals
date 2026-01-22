@@ -4,9 +4,9 @@ license="https://github.com/DerpyMeow/Hospitals/blob/release/LICENSE"
 
 [[mods]]
 modId="hospitals"
-version="3.4.1"
+version="3.5.0"
 displayName="Hospitals (THM Expanded)"
-updateJSONURL="https://raw.githubusercontent.com/DerpyMeow/Hospitals/refs/heads/master/UpdateChecker.json"
+updateJSONURL="https://raw.githubusercontent.com/DerpyMeow/Hospitals/refs/heads/release/UpdateChecker.json"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/hospitals"
 logoFile="logo.png"
 credits="This Mod Is An Updated And Expanded Version Of Leon90's \"The Hospital Mod\". Original Mod - https://www.curseforge.com/minecraft/mc-mods/the-hospital-mod"

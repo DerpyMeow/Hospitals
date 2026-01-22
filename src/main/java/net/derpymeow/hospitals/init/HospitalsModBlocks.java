@@ -77,6 +77,7 @@ import net.derpymeow.hospitals.block.RedDeskTrayBlock;
 import net.derpymeow.hospitals.block.RackShelvingEmptyBlock;
 import net.derpymeow.hospitals.block.RackShelvesLinenBlock;
 import net.derpymeow.hospitals.block.RABlockBlock;
+import net.derpymeow.hospitals.block.PurifierBlock;
 import net.derpymeow.hospitals.block.PrescriptionShelfBlock;
 import net.derpymeow.hospitals.block.PrescriptionBasketEmptyBlock;
 import net.derpymeow.hospitals.block.PrescriptionBasketBlock;
@@ -293,6 +294,7 @@ public class HospitalsModBlocks {
 	public static final RegistryObject<Block> LABTILES_4 = REGISTRY.register("labtiles_4", () -> new Labtiles4Block());
 	public static final RegistryObject<Block> DARKLABTILES_1 = REGISTRY.register("darklabtiles_1", () -> new Darklabtiles1Block());
 	public static final RegistryObject<Block> DARKLABTILES_2 = REGISTRY.register("darklabtiles_2", () -> new Darklabtiles2Block());
+	public static final RegistryObject<Block> PURIFIER = REGISTRY.register("purifier", () -> new PurifierBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

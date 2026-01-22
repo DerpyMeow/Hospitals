@@ -187,6 +187,15 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModItems.BLOOD_TYPE_TESTER.get());
 				tabData.accept(HospitalsModBlocks.WARNING.get().asItem());
 				tabData.accept(HospitalsModItems.EMPTY_SYRINGE.get());
+				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_O_NEGATIVE.get());
+				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_O_POSITIVE.get());
+				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_B_NEGATIVE.get());
+				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_B_POSITIVE.get());
+				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_A_NEGATIVE.get());
+				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_A_POSITIVE.get());
+				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_AB_NEGATIVE.get());
+				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_AB_POSITIVE.get());
+				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_MIXED.get());
 			}).withSearchBar().withTabsBefore(FACILITIES_THM.getId()).build());
 	public static final RegistryObject<CreativeModeTab> HOSPITALSPILLS = REGISTRY.register("hospitalspills",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.hospitalspills")).icon(() -> new ItemStack(HospitalsModItems.PILL.get())).displayItems((parameters, tabData) -> {
@@ -293,15 +302,7 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModItems.BLOODBAGABNEGATIVE.get());
 				tabData.accept(HospitalsModItems.BLOODBAGABPOSITIVE.get());
 				tabData.accept(HospitalsModItems.BLOODBAGEMPTY.get());
-				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_MIXED.get());
 				tabData.accept(HospitalsModItems.MASK_HELMET.get());
-				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_O_POSITIVE.get());
-				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_B_NEGATIVE.get());
-				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_B_POSITIVE.get());
-				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_A_NEGATIVE.get());
-				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_A_POSITIVE.get());
-				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_AB_NEGATIVE.get());
-				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_AB_POSITIVE.get());
-				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_O_NEGATIVE.get());
+				tabData.accept(HospitalsModBlocks.PURIFIER.get().asItem());
 			}).withTabsBefore(HOSPITALSPILLS.getId()).build());
 }

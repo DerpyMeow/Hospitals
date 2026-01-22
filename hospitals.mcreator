@@ -7235,7 +7235,7 @@
           "src/main/resources/assets/hospitals/models/item/empty_syringe.json"
         ]
       },
-      "path": "~/Experimental/syringes"
+      "path": "~/Hospitals/Blood/Syringes"
     },
     {
       "name": "SyringebloodOnegative",
@@ -7249,7 +7249,7 @@
           "src/main/java/net/derpymeow/hospitals/item/SyringebloodOnegativeItem.java"
         ]
       },
-      "path": "~/Experimental/syringes"
+      "path": "~/Hospitals/Blood/Syringes"
     },
     {
       "name": "SyringeBloodOPositive",
@@ -7263,7 +7263,7 @@
           "src/main/java/net/derpymeow/hospitals/item/SyringeBloodOPositiveItem.java"
         ]
       },
-      "path": "~/Experimental/syringes"
+      "path": "~/Hospitals/Blood/Syringes"
     },
     {
       "name": "SyringeBloodBNegative",
@@ -7277,7 +7277,7 @@
           "src/main/resources/assets/hospitals/models/item/syringe_blood_b_negative.json"
         ]
       },
-      "path": "~/Experimental/syringes"
+      "path": "~/Hospitals/Blood/Syringes"
     },
     {
       "name": "SyringeBloodBPositive",
@@ -7291,7 +7291,7 @@
           "src/main/java/net/derpymeow/hospitals/item/SyringeBloodBPositiveItem.java"
         ]
       },
-      "path": "~/Experimental/syringes"
+      "path": "~/Hospitals/Blood/Syringes"
     },
     {
       "name": "SyringeBloodANegative",
@@ -7305,7 +7305,7 @@
           "src/main/resources/assets/hospitals/models/item/syringe_blood_a_negative.json"
         ]
       },
-      "path": "~/Experimental/syringes"
+      "path": "~/Hospitals/Blood/Syringes"
     },
     {
       "name": "SyringeBloodAPositive",
@@ -7319,7 +7319,7 @@
           "src/main/resources/assets/hospitals/models/item/syringe_blood_a_positive.json"
         ]
       },
-      "path": "~/Experimental/syringes"
+      "path": "~/Hospitals/Blood/Syringes"
     },
     {
       "name": "SyringeBloodABNegative",
@@ -7333,7 +7333,7 @@
           "src/main/java/net/derpymeow/hospitals/item/SyringeBloodABNegativeItem.java"
         ]
       },
-      "path": "~/Experimental/syringes"
+      "path": "~/Hospitals/Blood/Syringes"
     },
     {
       "name": "SyringeBloodABPositive",
@@ -7347,7 +7347,7 @@
           "src/main/resources/assets/hospitals/models/item/syringe_blood_ab_positive.json"
         ]
       },
-      "path": "~/Experimental/syringes"
+      "path": "~/Hospitals/Blood/Syringes"
     },
     {
       "name": "SyringeBloodMixed",
@@ -7361,7 +7361,7 @@
           "src/main/java/net/derpymeow/hospitals/item/SyringeBloodMixedItem.java"
         ]
       },
-      "path": "~/Experimental/syringes"
+      "path": "~/Hospitals/Blood/Syringes"
     },
     {
       "name": "Exp",
@@ -8024,7 +8024,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/EmptySyringeLivingEntityIsHitWithItemProcedure.java"
         ]
       },
-      "path": "~/Experimental/syringes"
+      "path": "~/Hospitals/Blood/Syringes"
     },
     {
       "name": "EmptySyringeSelfsHitWithItem",
@@ -8047,7 +8047,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/EmptySyringeSelfsHitWithItemProcedure.java"
         ]
       },
-      "path": "~/Experimental/syringes"
+      "path": "~/Hospitals/Blood/Syringes"
     },
     {
       "name": "Stringtoitemblood",
@@ -8067,7 +8067,58 @@
           "src/main/java/net/derpymeow/hospitals/procedures/StringtoitembloodProcedure.java"
         ]
       },
-      "path": "~/Experimental/syringes"
+      "path": "~/Hospitals/Blood/Syringes"
+    },
+    {
+      "name": "Purifier",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purifier",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/purifier.json",
+          "src/main/java/net/derpymeow/hospitals/block/PurifierBlock.java",
+          "src/main/resources/assets/hospitals/models/block/purifier.json",
+          "src/main/resources/assets/hospitals/models/item/purifier.json",
+          "src/main/resources/assets/hospitals/blockstates/purifier.json"
+        ]
+      },
+      "path": "~/Hospitals/Blood"
+    },
+    {
+      "name": "PurifierGui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purifier_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/world/inventory/PurifierGuiMenu.java",
+          "src/main/java/net/derpymeow/hospitals/client/gui/PurifierGuiScreen.java",
+          "src/main/java/net/derpymeow/hospitals/network/PurifierGuiButtonMessage.java"
+        ]
+      },
+      "path": "~/Hospitals/Blood"
+    },
+    {
+      "name": "PurifierLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purifier_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/PurifierLogicProcedure.java"
+        ]
+      },
+      "path": "~/Hospitals/Blood"
     }
   ],
   "variable_elements": [
@@ -8155,8 +8206,7 @@
       "CUSTOM:Bloodbaganegative",
       "CUSTOM:Bloodbagapositive",
       "CUSTOM:Bloodbagabnegative",
-      "CUSTOM:Bloodbagabpositive",
-      "CUSTOM:Bloodbagempty"
+      "CUSTOM:Bloodbagabpositive"
     ]
   },
   "tab_element_order": {
@@ -8322,7 +8372,16 @@
       "MixedBlood",
       "BloodTypeTester",
       "Warning",
-      "EmptySyringe"
+      "EmptySyringe",
+      "SyringebloodOnegative",
+      "SyringeBloodOPositive",
+      "SyringeBloodBNegative",
+      "SyringeBloodBPositive",
+      "SyringeBloodANegative",
+      "SyringeBloodAPositive",
+      "SyringeBloodABNegative",
+      "SyringeBloodABPositive",
+      "SyringeBloodMixed"
     ],
     "CUSTOM:Hospitalspills": [
       "CreativePill",
@@ -8427,16 +8486,8 @@
       "Bloodbagabnegative",
       "Bloodbagabpositive",
       "Bloodbagempty",
-      "SyringeBloodMixed",
       "Scrubmask",
-      "SyringeBloodOPositive",
-      "SyringeBloodBNegative",
-      "SyringeBloodBPositive",
-      "SyringeBloodANegative",
-      "SyringeBloodAPositive",
-      "SyringeBloodABNegative",
-      "SyringeBloodABPositive",
-      "SyringebloodOnegative"
+      "Purifier"
     ]
   },
   "language_map": {
@@ -9065,7 +9116,9 @@
       "item.hospitals.syringe_blood_a_positive": "Blood Filled Syringe (A+)",
       "item.hospitals.syringe_blood_ab_negative": "Blood Filled Syringe (AB-)",
       "item.hospitals.syringe_blood_ab_positive": "Blood Filled Syringe (AB+)",
-      "item.hospitals.syringe_blood_o_negative": "Blood Filled Syringe (O-)"
+      "item.hospitals.syringe_blood_o_negative": "Blood Filled Syringe (O-)",
+      "block.hospitals.purifier": "Purifier",
+      "gui.hospitals.purifier_gui.label_purifier": "Purifier"
     }
   },
   "metadata": {
@@ -9105,7 +9158,12 @@
           },
           {
             "name": "Blood",
-            "children": []
+            "children": [
+              {
+                "name": "Syringes",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Pharmacy",
@@ -9185,10 +9243,6 @@
             "children": []
           },
           {
-            "name": "syringes",
-            "children": []
-          },
-          {
             "name": "Blood Centrifuge",
             "children": []
           }
@@ -9199,13 +9253,13 @@
   "workspaceSettings": {
     "modid": "hospitals",
     "modName": "Hospitals (THM Expanded)",
-    "version": "3.4.1",
+    "version": "3.5.0",
     "description": "This Brings Complex Medical Blocks And Items To Minecraft: Based Off Of Leon90\u0027s Mod.",
     "author": "DerpyMeow",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/hospitals",
     "license": "https://github.com/DerpyMeow/Hospitals/blob/release/LICENSE",
     "serverSideOnly": false,
-    "updateURL": "https://raw.githubusercontent.com/DerpyMeow/Hospitals/refs/heads/master/UpdateChecker.json",
+    "updateURL": "https://raw.githubusercontent.com/DerpyMeow/Hospitals/refs/heads/release/UpdateChecker.json",
     "modPicture": "high_quality_logo",
     "requiredMods": [],
     "dependencies": [],

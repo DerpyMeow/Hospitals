@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "hospitals:item/work_in_progress"
+  },
+  "render_type": "translucent"
+}

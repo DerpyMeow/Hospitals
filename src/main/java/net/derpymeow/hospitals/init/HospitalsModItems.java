@@ -402,6 +402,7 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> DARKLABTILES_1 = block(HospitalsModBlocks.DARKLABTILES_1);
 	public static final RegistryObject<Item> DARKLABTILES_2 = block(HospitalsModBlocks.DARKLABTILES_2);
 	public static final RegistryObject<Item> BLOOD_TYPE_TESTER = REGISTRY.register("blood_type_tester", () -> new BloodTypeTesterItem());
+	public static final RegistryObject<Item> PURIFIER = block(HospitalsModBlocks.PURIFIER);
 
 	// Start of user code block custom items
 	// End of user code block custom items

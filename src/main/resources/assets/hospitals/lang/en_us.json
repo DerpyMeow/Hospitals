@@ -623,5 +623,7 @@
   "item.hospitals.syringe_blood_a_positive": "Blood Filled Syringe (A+)",
   "item.hospitals.syringe_blood_ab_negative": "Blood Filled Syringe (AB-)",
   "item.hospitals.syringe_blood_ab_positive": "Blood Filled Syringe (AB+)",
-  "item.hospitals.syringe_blood_o_negative": "Blood Filled Syringe (O-)"
+  "item.hospitals.syringe_blood_o_negative": "Blood Filled Syringe (O-)",
+  "block.hospitals.purifier": "Purifier",
+  "gui.hospitals.purifier_gui.label_purifier": "Purifier"
 }
