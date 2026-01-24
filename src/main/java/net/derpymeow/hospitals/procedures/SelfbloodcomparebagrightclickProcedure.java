@@ -11,18 +11,20 @@ public class SelfbloodcomparebagrightclickProcedure {
 	public static void execute(Entity entity, ItemStack itemstack) {
 		if (entity == null)
 			return;
-		if (("0").equals((entity.getCapability(HospitalsModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new HospitalsModVariables.PlayerVariables())).blood_type)) {
-			if (entity instanceof Player _player && !_player.level().isClientSide())
-				_player.displayClientMessage(Component.literal("Player Has No Type!"), true);
-		} else if (true == DonationLogicProcedure.execute((((itemstack.getDisplayName().getString()).substring(10)).replace("]", "")).replace(" ", ""),
-				(entity.getCapability(HospitalsModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new HospitalsModVariables.PlayerVariables())).blood_type)) {
-			if (entity instanceof Player _player && !_player.level().isClientSide())
-				_player.displayClientMessage(Component.literal(((((itemstack.getDisplayName().getString()).substring(10)).replace("]", "")).replace(" ", "") + " is compatible with "
-						+ (entity.getCapability(HospitalsModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new HospitalsModVariables.PlayerVariables())).blood_type)), true);
-		} else {
-			if (entity instanceof Player _player && !_player.level().isClientSide())
-				_player.displayClientMessage(Component.literal(((((itemstack.getDisplayName().getString()).substring(10)).replace("]", "")).replace(" ", "") + " is not compatible with "
-						+ (entity.getCapability(HospitalsModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new HospitalsModVariables.PlayerVariables())).blood_type)), true);
+		if (0 == 1) {
+			if (("0").equals((entity.getCapability(HospitalsModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new HospitalsModVariables.PlayerVariables())).blood_type)) {
+				if (entity instanceof Player _player && !_player.level().isClientSide())
+					_player.displayClientMessage(Component.literal("Player Has No Type!"), true);
+			} else if (true == DonationLogicProcedure.execute((((itemstack.getDisplayName().getString()).substring(10)).replace("]", "")).replace(" ", ""),
+					(entity.getCapability(HospitalsModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new HospitalsModVariables.PlayerVariables())).blood_type)) {
+				if (entity instanceof Player _player && !_player.level().isClientSide())
+					_player.displayClientMessage(Component.literal(((((itemstack.getDisplayName().getString()).substring(10)).replace("]", "")).replace(" ", "") + " is compatible with "
+							+ (entity.getCapability(HospitalsModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new HospitalsModVariables.PlayerVariables())).blood_type)), true);
+			} else {
+				if (entity instanceof Player _player && !_player.level().isClientSide())
+					_player.displayClientMessage(Component.literal(((((itemstack.getDisplayName().getString()).substring(10)).replace("]", "")).replace(" ", "") + " is not compatible with "
+							+ (entity.getCapability(HospitalsModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new HospitalsModVariables.PlayerVariables())).blood_type)), true);
+			}
 		}
 	}
 }

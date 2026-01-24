@@ -625,5 +625,9 @@
   "item.hospitals.syringe_blood_ab_positive": "Blood Filled Syringe (AB+)",
   "item.hospitals.syringe_blood_o_negative": "Blood Filled Syringe (O-)",
   "block.hospitals.purifier": "Purifier",
-  "gui.hospitals.purifier_gui.label_purifier": "Purifier"
+  "gui.hospitals.purifier_gui.label_purifier": "Purifier",
+  "item.hospitals.bloodbagused": "Used Blood Bag",
+  "item.hospitals.bloodbagused.description_1": "- Medical Waste",
+  "item.hospitals.bloodbagused.description_0": "",
+  "item.hospitals.iv_kit": "IV Kit"
 }

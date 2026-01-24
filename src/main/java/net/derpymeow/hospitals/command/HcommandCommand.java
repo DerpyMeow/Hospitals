@@ -13,6 +13,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.commands.Commands;
 
+import net.derpymeow.hospitals.procedures.TestttProcedure;
 import net.derpymeow.hospitals.procedures.HwikiprocedureProcedure;
 import net.derpymeow.hospitals.procedures.HcmdtestProcedure;
 import net.derpymeow.hospitals.procedures.DevcmdsdonationlogictesterProcedure;
@@ -67,7 +68,7 @@ public class HcommandCommand {
 
 			HcmdtestProcedure.execute(world, arguments, entity);
 			return 0;
-		}))).then(Commands.literal("donationlogictester").then(Commands.argument("dl_take", StringArgumentType.word()).then(Commands.argument("dl_give", StringArgumentType.word()).executes(arguments -> {
+		}))).then(Commands.literal("donationlogictester").then(Commands.argument("dl_give", StringArgumentType.word()).then(Commands.argument("dl_take", StringArgumentType.word()).executes(arguments -> {
 			Level world = arguments.getSource().getUnsidedLevel();
 			double x = arguments.getSource().getPosition().x();
 			double y = arguments.getSource().getPosition().y();
@@ -81,7 +82,21 @@ public class HcommandCommand {
 
 			DevcmdsdonationlogictesterProcedure.execute(arguments, entity);
 			return 0;
-		}))))));
+		})))).then(Commands.literal("test").executes(arguments -> {
+			Level world = arguments.getSource().getUnsidedLevel();
+			double x = arguments.getSource().getPosition().x();
+			double y = arguments.getSource().getPosition().y();
+			double z = arguments.getSource().getPosition().z();
+			Entity entity = arguments.getSource().getEntity();
+			if (entity == null && world instanceof ServerLevel _servLevel)
+				entity = FakePlayerFactory.getMinecraft(_servLevel);
+			Direction direction = Direction.DOWN;
+			if (entity != null)
+				direction = entity.getDirection();
+
+			TestttProcedure.execute(entity);
+			return 0;
+		}))));
 	}
 
 }

@@ -118,11 +118,13 @@ import net.derpymeow.hospitals.item.Pill11Item;
 import net.derpymeow.hospitals.item.Pill10Item;
 import net.derpymeow.hospitals.item.MixedBloodItem;
 import net.derpymeow.hospitals.item.LargemedkitItem;
+import net.derpymeow.hospitals.item.IVKitItem;
 import net.derpymeow.hospitals.item.ExperimentalInfobookItem;
 import net.derpymeow.hospitals.item.EmptySyringeItem;
 import net.derpymeow.hospitals.item.CreativePillItem;
 import net.derpymeow.hospitals.item.ComputerItem;
 import net.derpymeow.hospitals.item.ComputerChipItem;
+import net.derpymeow.hospitals.item.BloodbagusedItem;
 import net.derpymeow.hospitals.item.BloodbagopositiveItem;
 import net.derpymeow.hospitals.item.BloodbagonegativeItem;
 import net.derpymeow.hospitals.item.BloodbagemptyItem;
@@ -403,6 +405,8 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> DARKLABTILES_2 = block(HospitalsModBlocks.DARKLABTILES_2);
 	public static final RegistryObject<Item> BLOOD_TYPE_TESTER = REGISTRY.register("blood_type_tester", () -> new BloodTypeTesterItem());
 	public static final RegistryObject<Item> PURIFIER = block(HospitalsModBlocks.PURIFIER);
+	public static final RegistryObject<Item> BLOODBAGUSED = REGISTRY.register("bloodbagused", () -> new BloodbagusedItem());
+	public static final RegistryObject<Item> IV_KIT = REGISTRY.register("iv_kit", () -> new IVKitItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

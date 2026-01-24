@@ -4,32 +4,62 @@ public class DonationLogicProcedure {
 	public static boolean execute(String dl_give, String dl_take) {
 		if (dl_give == null || dl_take == null)
 			return false;
-		if (dl_take.contains("B-") && dl_give.contains("AB-")) {
-			return false;
-		} else if (dl_take.contains("AB")) {
-			if (dl_take.contains("-")) {
-				return !dl_give.contains("+");
+		boolean rhOK = false;
+		boolean aboOK = false;
+		String gABO = "";
+		String tABO = "";
+		String gRh = "";
+		String tRh = "";
+		String gRaw = "";
+		String tRaw = "";
+		gRaw = (dl_give).toUpperCase();
+		tRaw = (dl_take).toUpperCase();
+		if (BloodStringValidCheckerProcedure.execute(gRaw) && BloodStringValidCheckerProcedure.execute(tRaw)) {
+			if (gRaw.contains("AB")) {
+				gABO = "AB";
+			} else if (gRaw.contains("A")) {
+				gABO = "A";
+			} else if (gRaw.contains("B")) {
+				gABO = "B";
 			} else {
-				return true;
+				gABO = "O";
 			}
-		} else if (dl_take.contains("A")) {
-			if (dl_take.contains("-")) {
-				return (dl_give.contains("A") || dl_give.contains("O")) && !dl_give.contains("+");
+			if (tRaw.contains("AB")) {
+				tABO = "AB";
+			} else if (tRaw.contains("A")) {
+				tABO = "A";
+			} else if (tRaw.contains("B")) {
+				tABO = "B";
 			} else {
-				return dl_give.contains("A") || dl_give.contains("O");
+				tABO = "O";
 			}
-		} else if (dl_take.contains("B")) {
-			if (dl_take.contains("-")) {
-				return (dl_give.contains("B") || dl_give.contains("O")) && !dl_give.contains("+");
+			if (gRaw.contains("+")) {
+				gRh = "+";
 			} else {
-				return dl_give.contains("B") || dl_give.contains("O");
+				gRh = "-";
 			}
-		} else if (dl_take.contains("O")) {
-			if (dl_take.contains("-")) {
-				return dl_give.contains("O") && !dl_give.contains("+");
+			if (tRaw.contains("+")) {
+				tRh = "+";
 			} else {
-				return dl_give.contains("O");
+				tRh = "-";
 			}
+			aboOK = false;
+			if ((tABO).equals("O")) {
+				aboOK = (gABO).equals("O");
+			} else if ((tABO).equals("A")) {
+				aboOK = (gABO).equals("A") || (gABO).equals("O");
+			} else if ((tABO).equals("B")) {
+				aboOK = (gABO).equals("B") || (gABO).equals("O");
+			} else if ((tABO).equals("AB")) {
+				aboOK = true;
+			}
+			rhOK = false;
+			if ((tRh).equals("-")) {
+				rhOK = (gRh).equals("-");
+			} else {
+				rhOK = true;
+			}
+			return aboOK && rhOK;
 		} else {
 			return false;
 		}
