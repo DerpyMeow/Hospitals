@@ -8213,6 +8213,97 @@
         ]
       },
       "path": "~/Hospitals/Blood/Blood Bags"
+    },
+    {
+      "name": "Centrifuge",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "centrifuge",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/centrifuge.json",
+          "src/main/resources/assets/hospitals/blockstates/centrifuge.json",
+          "src/main/resources/assets/hospitals/models/item/centrifuge.json",
+          "src/main/java/net/derpymeow/hospitals/block/CentrifugeBlock.java",
+          "src/main/resources/assets/hospitals/models/block/centrifuge.json"
+        ]
+      },
+      "path": "~/Hospitals/Blood/Centrifuge"
+    },
+    {
+      "name": "CentrifugeGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "centrifuge_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/client/gui/CentrifugeGUIScreen.java",
+          "src/main/java/net/derpymeow/hospitals/network/CentrifugeGUIButtonMessage.java",
+          "src/main/java/net/derpymeow/hospitals/world/inventory/CentrifugeGUIMenu.java"
+        ]
+      },
+      "path": "~/Hospitals/Blood/Centrifuge"
+    },
+    {
+      "name": "SyringeItemToBloodBagItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syringe_item_to_blood_bag_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "input",
+            "type": "itemstack"
+          }
+        ],
+        "return_type": "itemstack",
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/SyringeItemToBloodBagItemProcedure.java"
+        ]
+      },
+      "path": "~/Hospitals/Blood/Centrifuge"
+    },
+    {
+      "name": "BloodBagItemToSyringeItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_bag_item_to_syringe_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "input",
+            "type": "itemstack"
+          }
+        ],
+        "return_type": "itemstack",
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/BloodBagItemToSyringeItemProcedure.java"
+        ]
+      },
+      "path": "~/Hospitals/Blood/Centrifuge"
+    },
+    {
+      "name": "CentrifugeLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "centrifuge_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/CentrifugeLogicProcedure.java"
+        ]
+      },
+      "path": "~/Hospitals/Blood/Centrifuge"
     }
   ],
   "variable_elements": [
@@ -8301,6 +8392,16 @@
       "CUSTOM:Bloodbagapositive",
       "CUSTOM:Bloodbagabnegative",
       "CUSTOM:Bloodbagabpositive"
+    ],
+    "ITEMS:mod:syringes_excluding_mixed": [
+      "CUSTOM:SyringebloodOnegative",
+      "CUSTOM:SyringeBloodOPositive",
+      "CUSTOM:SyringeBloodBNegative",
+      "CUSTOM:SyringeBloodBPositive",
+      "CUSTOM:SyringeBloodANegative",
+      "CUSTOM:SyringeBloodAPositive",
+      "CUSTOM:SyringeBloodABNegative",
+      "CUSTOM:SyringeBloodABPositive"
     ]
   },
   "tab_element_order": {
@@ -8477,7 +8578,8 @@
       "SyringeBloodABPositive",
       "SyringeBloodMixed",
       "Bloodbagused",
-      "IVKit"
+      "IVKit",
+      "Centrifuge"
     ],
     "CUSTOM:Hospitalspills": [
       "CreativePill",
@@ -9218,7 +9320,12 @@
       "item.hospitals.bloodbagused": "Used Blood Bag",
       "item.hospitals.bloodbagused.description_1": "- Medical Waste",
       "item.hospitals.bloodbagused.description_0": "",
-      "item.hospitals.iv_kit": "IV Kit"
+      "item.hospitals.iv_kit": "IV Kit",
+      "item.hospitals.iv_kit.description_0": "",
+      "item.hospitals.iv_kit.description_2": "- WIll use any bags in priority of effictivness",
+      "item.hospitals.iv_kit.description_1": "- Right click to heal using blood bags",
+      "block.hospitals.centrifuge": "Centrifuge",
+      "gui.hospitals.centrifuge_gui.label_centrifuge": "Centrifuge"
     }
   },
   "metadata": {
@@ -9271,6 +9378,10 @@
                     "children": []
                   }
                 ]
+              },
+              {
+                "name": "Centrifuge",
+                "children": []
               }
             ]
           },

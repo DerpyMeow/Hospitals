@@ -17,6 +17,7 @@ import net.minecraft.client.Minecraft;
 
 import net.derpymeow.hospitals.world.inventory.PurifierGuiMenu;
 import net.derpymeow.hospitals.world.inventory.ExpinfobookguiMenu;
+import net.derpymeow.hospitals.world.inventory.CentrifugeGUIMenu;
 import net.derpymeow.hospitals.network.MenuStateUpdateMessage;
 import net.derpymeow.hospitals.HospitalsMod;
 
@@ -26,6 +27,7 @@ public class HospitalsModMenus {
 	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.MENU_TYPES, HospitalsMod.MODID);
 	public static final RegistryObject<MenuType<ExpinfobookguiMenu>> EXPINFOBOOKGUI = REGISTRY.register("expinfobookgui", () -> IForgeMenuType.create(ExpinfobookguiMenu::new));
 	public static final RegistryObject<MenuType<PurifierGuiMenu>> PURIFIER_GUI = REGISTRY.register("purifier_gui", () -> IForgeMenuType.create(PurifierGuiMenu::new));
+	public static final RegistryObject<MenuType<CentrifugeGUIMenu>> CENTRIFUGE_GUI = REGISTRY.register("centrifuge_gui", () -> IForgeMenuType.create(CentrifugeGUIMenu::new));
 
 	public interface MenuAccessor {
 		Map<String, Object> getMenuState();

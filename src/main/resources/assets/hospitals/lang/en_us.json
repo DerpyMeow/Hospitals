@@ -629,5 +629,10 @@
   "item.hospitals.bloodbagused": "Used Blood Bag",
   "item.hospitals.bloodbagused.description_1": "- Medical Waste",
   "item.hospitals.bloodbagused.description_0": "",
-  "item.hospitals.iv_kit": "IV Kit"
+  "item.hospitals.iv_kit": "IV Kit",
+  "item.hospitals.iv_kit.description_0": "",
+  "item.hospitals.iv_kit.description_2": "- WIll use any bags in priority of effictivness",
+  "item.hospitals.iv_kit.description_1": "- Right click to heal using blood bags",
+  "block.hospitals.centrifuge": "Centrifuge",
+  "gui.hospitals.centrifuge_gui.label_centrifuge": "Centrifuge"
 }

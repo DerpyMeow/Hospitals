@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "work_in_progress",
+    "texture": "iv_kit_tx",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},
@@ -30,7 +30,11 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "",
+        "- Right click to heal using blood bags",
+        "- WIll use any bags in priority of effictivness"
+      ]
     },
     "glowCondition": {
       "fixedValue": false

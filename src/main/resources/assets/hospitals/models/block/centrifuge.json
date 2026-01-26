@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hospitals:block/work_in_progress",
+    "up": "hospitals:block/work_in_progress",
+    "north": "hospitals:block/work_in_progress",
+    "east": "hospitals:block/work_in_progress",
+    "south": "hospitals:block/work_in_progress",
+    "west": "hospitals:block/work_in_progress",
+    "particle": "hospitals:block/work_in_progress"
+  },
+  "render_type": "solid"
+}

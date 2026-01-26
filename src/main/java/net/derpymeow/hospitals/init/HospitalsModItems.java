@@ -407,6 +407,7 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> PURIFIER = block(HospitalsModBlocks.PURIFIER);
 	public static final RegistryObject<Item> BLOODBAGUSED = REGISTRY.register("bloodbagused", () -> new BloodbagusedItem());
 	public static final RegistryObject<Item> IV_KIT = REGISTRY.register("iv_kit", () -> new IVKitItem());
+	public static final RegistryObject<Item> CENTRIFUGE = block(HospitalsModBlocks.CENTRIFUGE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

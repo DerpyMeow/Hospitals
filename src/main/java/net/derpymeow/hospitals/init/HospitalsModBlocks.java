@@ -138,6 +138,7 @@ import net.derpymeow.hospitals.block.ComputerCTScanViewerBlock;
 import net.derpymeow.hospitals.block.CompoundingIsolatorBlock;
 import net.derpymeow.hospitals.block.CleaningTrolleyBlock;
 import net.derpymeow.hospitals.block.CladdingStoneEffectBlock;
+import net.derpymeow.hospitals.block.CentrifugeBlock;
 import net.derpymeow.hospitals.block.CardboardBoxBlock;
 import net.derpymeow.hospitals.block.CapsuleFillingMachineBlock;
 import net.derpymeow.hospitals.block.BrickRedBlock;
@@ -295,6 +296,7 @@ public class HospitalsModBlocks {
 	public static final RegistryObject<Block> DARKLABTILES_1 = REGISTRY.register("darklabtiles_1", () -> new Darklabtiles1Block());
 	public static final RegistryObject<Block> DARKLABTILES_2 = REGISTRY.register("darklabtiles_2", () -> new Darklabtiles2Block());
 	public static final RegistryObject<Block> PURIFIER = REGISTRY.register("purifier", () -> new PurifierBlock());
+	public static final RegistryObject<Block> CENTRIFUGE = REGISTRY.register("centrifuge", () -> new CentrifugeBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

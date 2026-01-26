@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "hospitals:item/work_in_progress"
+    "layer0": "hospitals:item/iv_kit_tx"
   }
 }
