@@ -38,7 +38,10 @@
     "customProperties": [],
     "name": "Centrifuge",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "",
+        "- Craft Info Books For Help"
+      ]
     },
     "hardness": 1.0,
     "resistance": 10.0,

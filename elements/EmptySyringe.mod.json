@@ -35,7 +35,8 @@
         "- Right click air to fill with own type",
         "- Left click other players to fill with their type",
         "- Left click other mobs to fill with mixed",
-        "- Does 1/2 heart of damage to entity"
+        "- Does 1/2 heart of damage to entity",
+        "- Craft Info Books For Help"
       ]
     },
     "glowCondition": {

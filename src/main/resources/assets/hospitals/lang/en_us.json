@@ -623,5 +623,14 @@
   "block.hospitals.centrifuge": "Centrifuge",
   "gui.hospitals.centrifuge_gui.label_centrifuge": "Centrifuge",
   "block.hospitals.purifier.description_0": "",
-  "block.hospitals.purifier.description_1": ""
+  "block.hospitals.purifier.description_1": "- Craft Info Books For Help",
+  "item.hospitals.textbookchem_101": "Hospital Chemistry: Machines \u0026 Processing",
+  "item.hospitals.textbookblood_101": "Hospital Chemistry: Foundations of Hematology",
+  "item.hospitals.empty_syringe.description_5": "- Craft Info Books For Help",
+  "block.hospitals.centrifuge.description_1": "- Craft Info Books For Help",
+  "block.hospitals.centrifuge.description_0": "",
+  "item.hospitals.textbookchem_101.description_1": "- Intro To Medical Machines",
+  "item.hospitals.textbookchem_101.description_0": "",
+  "item.hospitals.textbookblood_101.description_1": "- Intro To Blood Mechanics",
+  "item.hospitals.textbookblood_101.description_0": ""
 }

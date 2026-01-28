@@ -10,6 +10,8 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import net.derpymeow.hospitals.client.gui.Textbookchem101GUIScreen;
+import net.derpymeow.hospitals.client.gui.Textbookblood101GUIScreen;
 import net.derpymeow.hospitals.client.gui.PurifierGuiScreen;
 import net.derpymeow.hospitals.client.gui.CentrifugeGUIScreen;
 
@@ -20,6 +22,8 @@ public class HospitalsModScreens {
 		event.enqueueWork(() -> {
 			MenuScreens.register(HospitalsModMenus.PURIFIER_GUI.get(), PurifierGuiScreen::new);
 			MenuScreens.register(HospitalsModMenus.CENTRIFUGE_GUI.get(), CentrifugeGUIScreen::new);
+			MenuScreens.register(HospitalsModMenus.TEXTBOOKCHEM_101_GUI.get(), Textbookchem101GUIScreen::new);
+			MenuScreens.register(HospitalsModMenus.TEXTBOOKBLOOD_101_GUI.get(), Textbookblood101GUIScreen::new);
 		});
 	}
 

@@ -48,6 +48,7 @@ public class EmptySyringeItem extends Item {
 		list.add(Component.translatable("item.hospitals.empty_syringe.description_2"));
 		list.add(Component.translatable("item.hospitals.empty_syringe.description_3"));
 		list.add(Component.translatable("item.hospitals.empty_syringe.description_4"));
+		list.add(Component.translatable("item.hospitals.empty_syringe.description_5"));
 	}
 
 	@Override

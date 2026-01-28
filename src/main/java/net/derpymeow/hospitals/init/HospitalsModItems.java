@@ -14,6 +14,8 @@ import net.minecraft.world.item.BlockItem;
 
 import net.derpymeow.hospitals.item.WikiBookItem;
 import net.derpymeow.hospitals.item.UnprocessedSteelItem;
+import net.derpymeow.hospitals.item.Textbookchem101Item;
+import net.derpymeow.hospitals.item.Textbookblood101Item;
 import net.derpymeow.hospitals.item.SyringebloodOnegativeItem;
 import net.derpymeow.hospitals.item.SyringeBloodOPositiveItem;
 import net.derpymeow.hospitals.item.SyringeBloodMixedItem;
@@ -406,6 +408,8 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> BLOODBAGUSED = REGISTRY.register("bloodbagused", () -> new BloodbagusedItem());
 	public static final RegistryObject<Item> IV_KIT = REGISTRY.register("iv_kit", () -> new IVKitItem());
 	public static final RegistryObject<Item> CENTRIFUGE = block(HospitalsModBlocks.CENTRIFUGE);
+	public static final RegistryObject<Item> TEXTBOOKCHEM_101 = REGISTRY.register("textbookchem_101", () -> new Textbookchem101Item());
+	public static final RegistryObject<Item> TEXTBOOKBLOOD_101 = REGISTRY.register("textbookblood_101", () -> new Textbookblood101Item());
 
 	// Start of user code block custom items
 	// End of user code block custom items

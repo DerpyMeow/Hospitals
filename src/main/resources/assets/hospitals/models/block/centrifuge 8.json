@@ -1,0 +1,16 @@
+{
+  "parent": "hospitals:custom/cf_block_model",
+  "textures": {
+    "all": "minecraft:block/barrel_top_open",
+    "particle": "minecraft:block/barrel_top_open",
+    "0": "hospitals:block/leg_tx",
+    "1": "hospitals:block/metal_frame_tx",
+    "2": "hospitals:block/glass_tx",
+    "3": "hospitals:block/inner_machine_tx",
+    "4": "hospitals:block/vial_tx",
+    "5": "hospitals:block/inner_circle_tx",
+    "6": "hospitals:block/panel_tx",
+    "7": "hospitals:block/buttons_tx"
+  },
+  "render_type": "cutout_mipped"
+}

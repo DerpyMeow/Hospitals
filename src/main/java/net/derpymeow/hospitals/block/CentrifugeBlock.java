@@ -18,6 +18,8 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
@@ -32,6 +34,8 @@ import net.minecraft.core.BlockPos;
 
 import net.derpymeow.hospitals.world.inventory.CentrifugeGUIMenu;
 
+import java.util.List;
+
 import io.netty.buffer.Unpooled;
 
 public class CentrifugeBlock extends Block {
@@ -40,6 +44,13 @@ public class CentrifugeBlock extends Block {
 	public CentrifugeBlock() {
 		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
+	}
+
+	@Override
+	public void appendHoverText(ItemStack itemstack, BlockGetter level, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, level, list, flag);
+		list.add(Component.translatable("block.hospitals.centrifuge.description_0"));
+		list.add(Component.translatable("block.hospitals.centrifuge.description_1"));
 	}
 
 	@Override

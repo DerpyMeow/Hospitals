@@ -8269,6 +8269,90 @@
         ]
       },
       "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Textbookchem101",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "textbookchem_101",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/inventory/Textbookchem101InventoryCapability.java",
+          "src/main/resources/assets/hospitals/models/item/textbookchem_101.json",
+          "src/main/java/net/derpymeow/hospitals/item/Textbookchem101Item.java"
+        ]
+      },
+      "path": "~/Hospitals/Textbooks"
+    },
+    {
+      "name": "Textbookchem101GUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "textbookchem_101_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/world/inventory/Textbookchem101GUIMenu.java",
+          "src/main/java/net/derpymeow/hospitals/client/gui/Textbookchem101GUIScreen.java"
+        ]
+      },
+      "path": "~/Hospitals/Textbooks"
+    },
+    {
+      "name": "Textbookblood101",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "textbookblood_101",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/textbookblood_101.json",
+          "src/main/java/net/derpymeow/hospitals/item/Textbookblood101Item.java",
+          "src/main/java/net/derpymeow/hospitals/item/inventory/Textbookblood101InventoryCapability.java"
+        ]
+      },
+      "path": "~/Hospitals/Textbooks"
+    },
+    {
+      "name": "Textbookblood101GUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "textbookblood_101_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/client/gui/Textbookblood101GUIScreen.java",
+          "src/main/java/net/derpymeow/hospitals/world/inventory/Textbookblood101GUIMenu.java"
+        ]
+      },
+      "path": "~/Hospitals/Textbooks"
+    },
+    {
+      "name": "Blood101crafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_101crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/blood_101crafting.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Chem101Recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chem_101_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/chem_101_recipe.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
     }
   ],
   "variable_elements": [
@@ -8503,6 +8587,8 @@
     ],
     "CUSTOM:Hospitals": [
       "WikiBook",
+      "Textbookchem101",
+      "Textbookblood101",
       "THBlock",
       "PHBlock",
       "RABlock",
@@ -9276,7 +9362,16 @@
       "block.hospitals.centrifuge": "Centrifuge",
       "gui.hospitals.centrifuge_gui.label_centrifuge": "Centrifuge",
       "block.hospitals.purifier.description_0": "",
-      "block.hospitals.purifier.description_1": ""
+      "block.hospitals.purifier.description_1": "- Craft Info Books For Help",
+      "item.hospitals.textbookchem_101": "Hospital Chemistry: Machines \u0026 Processing",
+      "item.hospitals.textbookblood_101": "Hospital Chemistry: Foundations of Hematology",
+      "item.hospitals.empty_syringe.description_5": "- Craft Info Books For Help",
+      "block.hospitals.centrifuge.description_1": "- Craft Info Books For Help",
+      "block.hospitals.centrifuge.description_0": "",
+      "item.hospitals.textbookchem_101.description_1": "- Intro To Medical Machines",
+      "item.hospitals.textbookchem_101.description_0": "",
+      "item.hospitals.textbookblood_101.description_1": "- Intro To Blood Mechanics",
+      "item.hospitals.textbookblood_101.description_0": ""
     }
   },
   "metadata": {

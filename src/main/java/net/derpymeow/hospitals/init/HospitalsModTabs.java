@@ -154,6 +154,8 @@ public class HospitalsModTabs {
 	public static final RegistryObject<CreativeModeTab> HOSPITALS = REGISTRY.register("hospitals",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.hospitals")).icon(() -> new ItemStack(HospitalsModBlocks.MEDICAL_CROSS.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(HospitalsModItems.WIKI_BOOK.get());
+				tabData.accept(HospitalsModItems.TEXTBOOKCHEM_101.get());
+				tabData.accept(HospitalsModItems.TEXTBOOKBLOOD_101.get());
 				tabData.accept(HospitalsModBlocks.TH_BLOCK.get().asItem());
 				tabData.accept(HospitalsModBlocks.PH_BLOCK.get().asItem());
 				tabData.accept(HospitalsModBlocks.RA_BLOCK.get().asItem());
