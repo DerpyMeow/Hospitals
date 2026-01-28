@@ -164,6 +164,7 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModItems.SCRUBS_CHESTPLATE.get());
 				tabData.accept(HospitalsModItems.SCRUBS_LEGGINGS.get());
 				tabData.accept(HospitalsModItems.SCRUBS_BOOTS.get());
+				tabData.accept(HospitalsModItems.MASK_HELMET.get());
 				tabData.accept(HospitalsModItems.NURSE_SPAWN_EGG.get());
 				tabData.accept(HospitalsModItems.DOCTOR_SPAWN_EGG.get());
 				tabData.accept(HospitalsModItems.SMALL_MEDKIT.get());
@@ -196,19 +197,18 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_AB_NEGATIVE.get());
 				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_AB_POSITIVE.get());
 				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_MIXED.get());
-				tabData.accept(HospitalsModItems.BLOODBAGUSED.get());
 				tabData.accept(HospitalsModItems.IV_KIT.get());
-				tabData.accept(HospitalsModBlocks.CENTRIFUGE.get().asItem());
-				tabData.accept(HospitalsModItems.BLOODBAGANEGATIVE.get());
-				tabData.accept(HospitalsModItems.BLOODBAGBPOSITIVE.get());
-				tabData.accept(HospitalsModItems.BLOODBAGBNEGATIVE.get());
-				tabData.accept(HospitalsModItems.BLOODBAGEMPTY.get());
-				tabData.accept(HospitalsModItems.BLOODBAGABPOSITIVE.get());
-				tabData.accept(HospitalsModItems.BLOODBAGABNEGATIVE.get());
-				tabData.accept(HospitalsModItems.BLOODBAGAPOSITIVE.get());
 				tabData.accept(HospitalsModItems.BLOODBAGONEGATIVE.get());
 				tabData.accept(HospitalsModItems.BLOODBAGOPOSITIVE.get());
-				tabData.accept(HospitalsModItems.MASK_HELMET.get());
+				tabData.accept(HospitalsModItems.BLOODBAGBNEGATIVE.get());
+				tabData.accept(HospitalsModItems.BLOODBAGBPOSITIVE.get());
+				tabData.accept(HospitalsModItems.BLOODBAGANEGATIVE.get());
+				tabData.accept(HospitalsModItems.BLOODBAGAPOSITIVE.get());
+				tabData.accept(HospitalsModItems.BLOODBAGABNEGATIVE.get());
+				tabData.accept(HospitalsModItems.BLOODBAGABPOSITIVE.get());
+				tabData.accept(HospitalsModItems.BLOODBAGEMPTY.get());
+				tabData.accept(HospitalsModItems.BLOODBAGUSED.get());
+				tabData.accept(HospitalsModBlocks.CENTRIFUGE.get().asItem());
 				tabData.accept(HospitalsModBlocks.PURIFIER.get().asItem());
 			}).withSearchBar().withTabsBefore(FACILITIES_THM.getId()).build());
 	public static final RegistryObject<CreativeModeTab> HOSPITALSPILLS = REGISTRY.register("hospitalspills",
