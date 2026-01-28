@@ -2,8 +2,8 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "work_in_progress",
-    "textureTop": "",
+    "texture": "pf_sides",
+    "textureTop": "pf_top",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
@@ -15,7 +15,7 @@
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "animations": [],
-    "itemTexture": "work_in_progress",
+    "itemTexture": "",
     "particleTexture": "",
     "blockSetType": "OAK",
     "tintType": "No tint",
@@ -50,7 +50,7 @@
     "immuneToFire": false,
     "creativeTabs": [
       {
-        "value": "CUSTOM:Exp"
+        "value": "CUSTOM:Hospitals"
       }
     ],
     "destroyTool": "Not specified",

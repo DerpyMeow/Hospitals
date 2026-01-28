@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "def"
+  ],
+  "key": {
+    "a": {
+      "item": "hospitals:empty_syringe"
+    },
+    "b": {
+      "item": "hospitals:stainless_steel"
+    },
+    "c": {
+      "item": "minecraft:glass_pane"
+    },
+    "d": {
+      "item": "minecraft:iron_ingot"
+    },
+    "e": {
+      "item": "hospitals:block_of_stainless_steel"
+    },
+    "f": {
+      "item": "hospitals:computer_chip"
+    }
+  },
+  "result": {
+    "item": "hospitals:centrifuge",
+    "count": 1
+  }
+}

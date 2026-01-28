@@ -6916,7 +6916,7 @@
           "src/main/resources/assets/hospitals/models/item/mask_helmet.json"
         ]
       },
-      "path": "~/Experimental"
+      "path": "~/Hospitals/RP-ITEMS"
     },
     {
       "name": "CreativePill",
@@ -7364,17 +7364,6 @@
       "path": "~/Hospitals/Blood/Syringes"
     },
     {
-      "name": "Exp",
-      "type": "tab",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "exp",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Experimental"
-    },
-    {
       "name": "MixedBlood",
       "type": "fluid",
       "compiles": true,
@@ -7392,69 +7381,6 @@
         ]
       },
       "path": "~/Hospitals/Blood"
-    },
-    {
-      "name": "ExperimentalInfobook",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "experimental_infobook",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/hospitals/models/item/experimental_infobook.json",
-          "src/main/java/net/derpymeow/hospitals/item/ExperimentalInfobookItem.java"
-        ]
-      },
-      "path": "~/Experimental"
-    },
-    {
-      "name": "Expinfobookgui",
-      "type": "gui",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "expinfobookgui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/world/inventory/ExpinfobookguiMenu.java",
-          "src/main/java/net/derpymeow/hospitals/client/gui/ExpinfobookguiScreen.java"
-        ]
-      },
-      "path": "~/Experimental"
-    },
-    {
-      "name": "ExperimentalInfobookRightclicked",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "experimental_infobook_rightclicked",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ],
-        "files": [
-          "src/main/java/net/derpymeow/hospitals/procedures/ExperimentalInfobookRightclickedProcedure.java"
-        ]
-      },
-      "path": "~/Experimental"
     },
     {
       "name": "Hwikiprocedure",
@@ -7913,7 +7839,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/BloodTypeTesterRightclickedProcedure.java"
         ]
       },
-      "path": "~/Hospitals/Blood"
+      "path": "~/Hospitals/Blood/Blood Type Tester"
     },
     {
       "name": "BloodTypeTesterPunched",
@@ -7944,7 +7870,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/BloodTypeTesterPunchedProcedure.java"
         ]
       },
-      "path": "~/Hospitals/Blood"
+      "path": "~/Hospitals/Blood/Blood Type Tester"
     },
     {
       "name": "BloodTypeTester",
@@ -7958,7 +7884,7 @@
           "src/main/resources/assets/hospitals/models/item/blood_type_tester.json"
         ]
       },
-      "path": "~/Hospitals/Blood"
+      "path": "~/Hospitals/Blood/Blood Type Tester"
     },
     {
       "name": "Syringerecipe",
@@ -8084,7 +8010,7 @@
           "src/main/resources/assets/hospitals/blockstates/purifier.json"
         ]
       },
-      "path": "~/Hospitals/Blood"
+      "path": "~/Hospitals/Blood/Purifier"
     },
     {
       "name": "PurifierGui",
@@ -8099,7 +8025,7 @@
           "src/main/java/net/derpymeow/hospitals/network/PurifierGuiButtonMessage.java"
         ]
       },
-      "path": "~/Hospitals/Blood"
+      "path": "~/Hospitals/Blood/Purifier"
     },
     {
       "name": "PurifierLogic",
@@ -8118,7 +8044,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/PurifierLogicProcedure.java"
         ]
       },
-      "path": "~/Hospitals/Blood"
+      "path": "~/Hospitals/Blood/Purifier"
     },
     {
       "name": "BloodStringValidChecker",
@@ -8304,6 +8230,45 @@
         ]
       },
       "path": "~/Hospitals/Blood/Centrifuge"
+    },
+    {
+      "name": "SurgicalMaskRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "surgical_mask_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/surgical_mask_recipe.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "CFBlockRecipie",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cf_block_recipie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/cf_block_recipie.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "PfblockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pfblock_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/pfblock_recipe.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
     }
   ],
   "variable_elements": [
@@ -8579,7 +8544,18 @@
       "SyringeBloodMixed",
       "Bloodbagused",
       "IVKit",
-      "Centrifuge"
+      "Centrifuge",
+      "Bloodbaganegative",
+      "Bloodbagbpositive",
+      "Bloodbagbnegative",
+      "Bloodbagempty",
+      "Bloodbagabpositive",
+      "Bloodbagabnegative",
+      "Bloodbagapositive",
+      "Bloodbagonegative",
+      "Bloodbagopositive",
+      "Scrubmask",
+      "Purifier"
     ],
     "CUSTOM:Hospitalspills": [
       "CreativePill",
@@ -8672,20 +8648,6 @@
       "PillBottle41",
       "PillBottle42",
       "PillBottle43"
-    ],
-    "CUSTOM:Exp": [
-      "ExperimentalInfobook",
-      "Bloodbagonegative",
-      "Bloodbagopositive",
-      "Bloodbagbnegative",
-      "Bloodbagbpositive",
-      "Bloodbaganegative",
-      "Bloodbagapositive",
-      "Bloodbagabnegative",
-      "Bloodbagabpositive",
-      "Bloodbagempty",
-      "Scrubmask",
-      "Purifier"
     ]
   },
   "language_map": {
@@ -9250,29 +9212,16 @@
       "item.hospitals.bloodbagempty": "Empty Blood Bag",
       "item.hospitals.empty_syringe": "Empty Syringe",
       "item.hospitals.syringe_blood_mixed": "Blood Filled Syringe (Mixed)",
-      "item_group.hospitals.exp": "Hospitals - Experimental",
       "block.hospitals.mixed_blood": "Mixed Blood",
       "item.hospitals.mixed_blood_bucket": "Mixed Blood Bucket",
       "item.hospitals.mixed_blood_bucket.description_0": "- Has no specific type",
       "fluid.hospitals.mixed_blood": "Mixed Blood",
       "fluid_type.hospitals.mixed_blood": "Mixed Blood",
-      "item.hospitals.experimental_infobook": "Experimental Info Book",
-      "gui.hospitals.expinfobookgui.label_these_features_please_contact_t": "these features, please contact the mod",
       "gui.hospitals.expinfobookgui.label_everything_in_this_creative_tab": "Everything in this creative tab",
-      "gui.hospitals.expinfobookgui.label_these_blocksitems_will_not_be_a": "These blocks/items will not be added to the",
-      "gui.hospitals.expinfobookgui.label_crafted_this_is_because_it_is_n1": "crafted, this is because it is not a ",
-      "gui.hospitals.expinfobookgui.label_creator_thanks_for_using_the_ex": "creator. Thanks for using the experimental",
       "gui.hospitals.expinfobookgui.label_crafted_this_is_because_it_is_n": "crafted, this is because it is not a fully supported feature yet",
-      "gui.hospitals.expinfobookgui.label_fully_supported_blockitem_yet": "fully supported block/item yet. Additonally,",
-      "gui.hospitals.expinfobookgui.label_these_items_will_not_have_any_ef": "These items will not have any effect on the",
-      "gui.hospitals.expinfobookgui.label_hospitals_experimental_info": "Hospitals: Experimental Info",
-      "gui.hospitals.expinfobookgui.label_version_press_esc_to_close_this": "features! press esc to close this menu!",
-      "gui.hospitals.expinfobookgui.label_everything_in_this_creative_tab3": "Everything in this creative tab cannot be",
       "gui.hospitals.expinfobookgui.label_everything_in_this_creative_tab2": "Everything in this creative tab",
       "gui.hospitals.expinfobookgui.label_none_of_this_will_be_on_the_wiki": "None of this will be on the wiki because it is not finished",
-      "gui.hospitals.expinfobookgui.label_wiki_page_yet_if_you_have_any_i": "wiki page yet. If you have any issues with",
       "gui.hospitals.expinfobookgui.label_everything_in_this_creative_tab1": "Everything in this creative tab cannot be crafted,",
-      "gui.hospitals.expinfobookgui.label_player_because_they_are_not_fini": "player because they are not finished.",
       "item.hospitals.wiki_book": "Wiki Book",
       "item.hospitals.wiki_book.description_1": "Hospitals Mod Wiki Book",
       "item.hospitals.wiki_book.description_0": "",
@@ -9325,7 +9274,9 @@
       "item.hospitals.iv_kit.description_2": "- WIll use any bags in priority of effictivness",
       "item.hospitals.iv_kit.description_1": "- Right click to heal using blood bags",
       "block.hospitals.centrifuge": "Centrifuge",
-      "gui.hospitals.centrifuge_gui.label_centrifuge": "Centrifuge"
+      "gui.hospitals.centrifuge_gui.label_centrifuge": "Centrifuge",
+      "block.hospitals.purifier.description_0": "",
+      "block.hospitals.purifier.description_1": ""
     }
   },
   "metadata": {
@@ -9381,6 +9332,14 @@
               },
               {
                 "name": "Centrifuge",
+                "children": []
+              },
+              {
+                "name": "Purifier",
+                "children": []
+              },
+              {
+                "name": "Blood Type Tester",
                 "children": []
               }
             ]
@@ -9457,10 +9416,6 @@
           {
             "name": "expdevcmds",
             "children": []
-          },
-          {
-            "name": "Blood Centrifuge",
-            "children": []
           }
         ]
       }
@@ -9469,7 +9424,7 @@
   "workspaceSettings": {
     "modid": "hospitals",
     "modName": "Hospitals (THM Expanded)",
-    "version": "3.5.0",
+    "version": "3.6.0",
     "description": "This Brings Complex Medical Blocks And Items To Minecraft: Based Off Of Leon90\u0027s Mod.",
     "author": "DerpyMeow",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/hospitals",
@@ -9482,7 +9437,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
-    "credits": "This Mod Is An Updated And Expanded Version Of Leon90\u0027s \"The Hospital Mod\". Original Mod - https://www.curseforge.com/minecraft/mc-mods/the-hospital-mod",
+    "credits": "This Mod Is Maintained And Developed By DerpyMeow. Thank you to Leon90 for Parts of This Mod, Including Original Blocks From \"The Hospital Mod\".",
     "modElementsPackage": "net.derpymeow.hospitals"
   },
   "mcreatorVersion": 202500228610

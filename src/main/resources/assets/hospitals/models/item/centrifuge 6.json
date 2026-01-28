@@ -1,5 +1,5 @@
 {
-  "parent": "hospitals:block/purifier",
+  "parent": "hospitals:block/centrifuge",
   "display": {
     "thirdperson": {
       "rotation": [

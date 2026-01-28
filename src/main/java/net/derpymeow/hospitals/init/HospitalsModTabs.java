@@ -199,6 +199,17 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModItems.BLOODBAGUSED.get());
 				tabData.accept(HospitalsModItems.IV_KIT.get());
 				tabData.accept(HospitalsModBlocks.CENTRIFUGE.get().asItem());
+				tabData.accept(HospitalsModItems.BLOODBAGANEGATIVE.get());
+				tabData.accept(HospitalsModItems.BLOODBAGBPOSITIVE.get());
+				tabData.accept(HospitalsModItems.BLOODBAGBNEGATIVE.get());
+				tabData.accept(HospitalsModItems.BLOODBAGEMPTY.get());
+				tabData.accept(HospitalsModItems.BLOODBAGABPOSITIVE.get());
+				tabData.accept(HospitalsModItems.BLOODBAGABNEGATIVE.get());
+				tabData.accept(HospitalsModItems.BLOODBAGAPOSITIVE.get());
+				tabData.accept(HospitalsModItems.BLOODBAGONEGATIVE.get());
+				tabData.accept(HospitalsModItems.BLOODBAGOPOSITIVE.get());
+				tabData.accept(HospitalsModItems.MASK_HELMET.get());
+				tabData.accept(HospitalsModBlocks.PURIFIER.get().asItem());
 			}).withSearchBar().withTabsBefore(FACILITIES_THM.getId()).build());
 	public static final RegistryObject<CreativeModeTab> HOSPITALSPILLS = REGISTRY.register("hospitalspills",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.hospitalspills")).icon(() -> new ItemStack(HospitalsModItems.PILL.get())).displayItems((parameters, tabData) -> {
@@ -293,19 +304,4 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModItems.PILL_BOTTLE_42.get());
 				tabData.accept(HospitalsModItems.PILL_BOTTLE_43.get());
 			}).withSearchBar().withTabsBefore(HOSPITALS.getId()).build());
-	public static final RegistryObject<CreativeModeTab> EXP = REGISTRY.register("exp",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.exp")).icon(() -> new ItemStack(HospitalsModBlocks.WARNING.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(HospitalsModItems.EXPERIMENTAL_INFOBOOK.get());
-				tabData.accept(HospitalsModItems.BLOODBAGONEGATIVE.get());
-				tabData.accept(HospitalsModItems.BLOODBAGOPOSITIVE.get());
-				tabData.accept(HospitalsModItems.BLOODBAGBNEGATIVE.get());
-				tabData.accept(HospitalsModItems.BLOODBAGBPOSITIVE.get());
-				tabData.accept(HospitalsModItems.BLOODBAGANEGATIVE.get());
-				tabData.accept(HospitalsModItems.BLOODBAGAPOSITIVE.get());
-				tabData.accept(HospitalsModItems.BLOODBAGABNEGATIVE.get());
-				tabData.accept(HospitalsModItems.BLOODBAGABPOSITIVE.get());
-				tabData.accept(HospitalsModItems.BLOODBAGEMPTY.get());
-				tabData.accept(HospitalsModItems.MASK_HELMET.get());
-				tabData.accept(HospitalsModBlocks.PURIFIER.get().asItem());
-			}).withTabsBefore(HOSPITALSPILLS.getId()).build());
 }

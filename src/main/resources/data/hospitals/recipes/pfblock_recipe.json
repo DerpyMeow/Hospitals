@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "hospitals:computer_chip"
+    },
+    "b": {
+      "item": "hospitals:empty_syringe"
+    },
+    "c": {
+      "item": "hospitals:block_of_stainless_steel"
+    },
+    "d": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "hospitals:purifier",
+    "count": 1
+  }
+}

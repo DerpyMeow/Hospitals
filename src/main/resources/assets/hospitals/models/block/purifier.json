@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "hospitals:block/work_in_progress",
-    "up": "hospitals:block/work_in_progress",
-    "north": "hospitals:block/work_in_progress",
-    "east": "hospitals:block/work_in_progress",
-    "south": "hospitals:block/work_in_progress",
-    "west": "hospitals:block/work_in_progress",
-    "particle": "hospitals:block/work_in_progress"
+    "down": "hospitals:block/pf_sides",
+    "up": "hospitals:block/pf_top",
+    "north": "hospitals:block/pf_sides",
+    "east": "hospitals:block/pf_sides",
+    "south": "hospitals:block/pf_sides",
+    "west": "hospitals:block/pf_sides",
+    "particle": "hospitals:block/pf_sides"
   },
   "render_type": "solid"
 }

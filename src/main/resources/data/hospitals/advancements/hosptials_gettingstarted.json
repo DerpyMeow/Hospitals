@@ -200,7 +200,10 @@
       "hospitals:warningblockrecipe",
       "hospitals:syringerecipe",
       "hospitals:bloodbagcrafting",
-      "hospitals:bloodtypetesterrecipe"
+      "hospitals:bloodtypetesterrecipe",
+      "hospitals:surgical_mask_recipe",
+      "hospitals:cf_block_recipie",
+      "hospitals:pfblock_recipe"
     ]
   },
   "parent": "minecraft:adventure/adventuring_time"

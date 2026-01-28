@@ -1,0 +1,17 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "leg_tx",
+        "1": "metal_frame_tx",
+        "2": "glass_tx",
+        "3": "inner_machine_tx",
+        "4": "vial_tx",
+        "5": "inner_circle_tx",
+        "6": "panel_tx",
+        "7": "buttons_tx"
+      },
+      "name": "default"
+    }
+  }
+}

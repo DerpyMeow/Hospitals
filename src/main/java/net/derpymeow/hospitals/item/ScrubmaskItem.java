@@ -1,8 +1,6 @@
 package net.derpymeow.hospitals.item;
 
-import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ArmorMaterial;
@@ -11,9 +9,6 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.network.chat.Component;
-
-import java.util.List;
 
 public abstract class ScrubmaskItem extends ArmorItem {
 	public ScrubmaskItem(ArmorItem.Type type, Item.Properties properties) {
@@ -63,15 +58,6 @@ public abstract class ScrubmaskItem extends ArmorItem {
 	public static class Helmet extends ScrubmaskItem {
 		public Helmet() {
 			super(ArmorItem.Type.HELMET, new Item.Properties());
-		}
-
-		@Override
-		public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
-			super.appendHoverText(itemstack, level, list, flag);
-			list.add(Component.translatable("item.hospitals.mask_helmet.description_0"));
-			list.add(Component.translatable("item.hospitals.mask_helmet.description_1"));
-			list.add(Component.translatable("item.hospitals.mask_helmet.description_2"));
-			list.add(Component.translatable("item.hospitals.mask_helmet.description_3"));
 		}
 
 		@Override

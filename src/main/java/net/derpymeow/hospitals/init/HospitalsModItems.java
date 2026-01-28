@@ -119,7 +119,6 @@ import net.derpymeow.hospitals.item.Pill10Item;
 import net.derpymeow.hospitals.item.MixedBloodItem;
 import net.derpymeow.hospitals.item.LargemedkitItem;
 import net.derpymeow.hospitals.item.IVKitItem;
-import net.derpymeow.hospitals.item.ExperimentalInfobookItem;
 import net.derpymeow.hospitals.item.EmptySyringeItem;
 import net.derpymeow.hospitals.item.CreativePillItem;
 import net.derpymeow.hospitals.item.ComputerItem;
@@ -392,7 +391,6 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> SYRINGE_BLOOD_AB_POSITIVE = REGISTRY.register("syringe_blood_ab_positive", () -> new SyringeBloodABPositiveItem());
 	public static final RegistryObject<Item> SYRINGE_BLOOD_MIXED = REGISTRY.register("syringe_blood_mixed", () -> new SyringeBloodMixedItem());
 	public static final RegistryObject<Item> MIXED_BLOOD_BUCKET = REGISTRY.register("mixed_blood_bucket", () -> new MixedBloodItem());
-	public static final RegistryObject<Item> EXPERIMENTAL_INFOBOOK = REGISTRY.register("experimental_infobook", () -> new ExperimentalInfobookItem());
 	public static final RegistryObject<Item> WIKI_BOOK = REGISTRY.register("wiki_book", () -> new WikiBookItem());
 	public static final RegistryObject<Item> MINI_TILES = block(HospitalsModBlocks.MINI_TILES);
 	public static final RegistryObject<Item> LARGEDARKTILES = block(HospitalsModBlocks.LARGEDARKTILES);

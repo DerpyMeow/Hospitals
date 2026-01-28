@@ -12,7 +12,7 @@
     "rarity": "COMMON",
     "creativeTabs": [
       {
-        "value": "CUSTOM:Exp"
+        "value": "CUSTOM:Hospitals"
       }
     ],
     "stackSize": 64,

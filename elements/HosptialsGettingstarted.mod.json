@@ -204,7 +204,10 @@
       "Warningblockrecipe",
       "Syringerecipe",
       "Bloodbagcrafting",
-      "Bloodtypetesterrecipe"
+      "Bloodtypetesterrecipe",
+      "SurgicalMaskRecipe",
+      "CFBlockRecipie",
+      "PfblockRecipe"
     ],
     "rewardXP": 0,
     "achievementType": "task",

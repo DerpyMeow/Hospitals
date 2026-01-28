@@ -12,7 +12,7 @@
     "textureBoots": "",
     "creativeTabs": [
       {
-        "value": "CUSTOM:Exp"
+        "value": "CUSTOM:Hospitals"
       }
     ],
     "armorTextureFile": "armor",
@@ -21,12 +21,7 @@
     "leggingsName": "Scrubmask Leggings",
     "bootsName": "Scrubmask Boots",
     "helmetSpecialInformation": {
-      "fixedValue": [
-        "",
-        "- Rendering May Look Weird / \"Too Big\"",
-        "- This Item Is Not Fully Completed / Will Be Changed Or Removed In A Future Update",
-        "- Not Craftable For Now"
-      ]
+      "fixedValue": []
     },
     "bodySpecialInformation": {
       "fixedValue": []

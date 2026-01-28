@@ -12,5 +12,5 @@
     "6": "hospitals:block/panel_tx",
     "7": "hospitals:block/buttons_tx"
   },
-  "render_type": "cutout"
+  "render_type": "cutout_mipped"
 }
