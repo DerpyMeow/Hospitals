@@ -27,6 +27,7 @@ import net.derpymeow.hospitals.item.SyringeBloodANegativeItem;
 import net.derpymeow.hospitals.item.SyringeBloodABPositiveItem;
 import net.derpymeow.hospitals.item.SyringeBloodABNegativeItem;
 import net.derpymeow.hospitals.item.StickynoteItem;
+import net.derpymeow.hospitals.item.StethoscopeItem;
 import net.derpymeow.hospitals.item.StainlessSteelItem;
 import net.derpymeow.hospitals.item.SmallMedkitItem;
 import net.derpymeow.hospitals.item.ScrubsItem;

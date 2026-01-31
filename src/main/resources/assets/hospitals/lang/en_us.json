@@ -641,5 +641,8 @@
   "item.hospitals.phone": "Phone",
   "item.hospitals.tablet": "Tablet",
   "item.hospitals.mug": "Mug",
-  "item.hospitals.bedpan": "Bed Pan"
+  "item.hospitals.bedpan": "Bed Pan",
+  "item.hospitals.stethoscope.description_1": "- Will be usable in future updates",
+  "item.hospitals.stethoscope.description_0": "",
+  "item.hospitals.stethoscope": "Stethoscope"
 }
