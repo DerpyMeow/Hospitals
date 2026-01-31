@@ -16,6 +16,7 @@ import net.derpymeow.hospitals.item.WikiBookItem;
 import net.derpymeow.hospitals.item.UnprocessedSteelItem;
 import net.derpymeow.hospitals.item.Textbookchem101Item;
 import net.derpymeow.hospitals.item.Textbookblood101Item;
+import net.derpymeow.hospitals.item.TabletItem;
 import net.derpymeow.hospitals.item.SyringebloodOnegativeItem;
 import net.derpymeow.hospitals.item.SyringeBloodOPositiveItem;
 import net.derpymeow.hospitals.item.SyringeBloodMixedItem;
@@ -25,6 +26,7 @@ import net.derpymeow.hospitals.item.SyringeBloodAPositiveItem;
 import net.derpymeow.hospitals.item.SyringeBloodANegativeItem;
 import net.derpymeow.hospitals.item.SyringeBloodABPositiveItem;
 import net.derpymeow.hospitals.item.SyringeBloodABNegativeItem;
+import net.derpymeow.hospitals.item.StickynoteItem;
 import net.derpymeow.hospitals.item.StainlessSteelItem;
 import net.derpymeow.hospitals.item.SmallMedkitItem;
 import net.derpymeow.hospitals.item.ScrubsItem;
@@ -118,13 +120,19 @@ import net.derpymeow.hospitals.item.Pill13Item;
 import net.derpymeow.hospitals.item.Pill12Item;
 import net.derpymeow.hospitals.item.Pill11Item;
 import net.derpymeow.hospitals.item.Pill10Item;
+import net.derpymeow.hospitals.item.PhoneItem;
+import net.derpymeow.hospitals.item.PenItem;
+import net.derpymeow.hospitals.item.MugItem;
 import net.derpymeow.hospitals.item.MixedBloodItem;
 import net.derpymeow.hospitals.item.LargemedkitItem;
 import net.derpymeow.hospitals.item.IVKitItem;
+import net.derpymeow.hospitals.item.FolderItem;
 import net.derpymeow.hospitals.item.EmptySyringeItem;
 import net.derpymeow.hospitals.item.CreativePillItem;
 import net.derpymeow.hospitals.item.ComputerItem;
 import net.derpymeow.hospitals.item.ComputerChipItem;
+import net.derpymeow.hospitals.item.ClipboardItem;
+import net.derpymeow.hospitals.item.CalenderItem;
 import net.derpymeow.hospitals.item.BloodbagusedItem;
 import net.derpymeow.hospitals.item.BloodbagopositiveItem;
 import net.derpymeow.hospitals.item.BloodbagonegativeItem;
@@ -136,6 +144,7 @@ import net.derpymeow.hospitals.item.BloodbaganegativeItem;
 import net.derpymeow.hospitals.item.BloodbagabpositiveItem;
 import net.derpymeow.hospitals.item.BloodbagabnegativeItem;
 import net.derpymeow.hospitals.item.BloodTypeTesterItem;
+import net.derpymeow.hospitals.item.BedpanItem;
 import net.derpymeow.hospitals.HospitalsMod;
 
 public class HospitalsModItems {
@@ -410,6 +419,16 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> CENTRIFUGE = block(HospitalsModBlocks.CENTRIFUGE);
 	public static final RegistryObject<Item> TEXTBOOKCHEM_101 = REGISTRY.register("textbookchem_101", () -> new Textbookchem101Item());
 	public static final RegistryObject<Item> TEXTBOOKBLOOD_101 = REGISTRY.register("textbookblood_101", () -> new Textbookblood101Item());
+	public static final RegistryObject<Item> CLIPBOARD = REGISTRY.register("clipboard", () -> new ClipboardItem());
+	public static final RegistryObject<Item> PEN = REGISTRY.register("pen", () -> new PenItem());
+	public static final RegistryObject<Item> FOLDER = REGISTRY.register("folder", () -> new FolderItem());
+	public static final RegistryObject<Item> STICKYNOTE = REGISTRY.register("stickynote", () -> new StickynoteItem());
+	public static final RegistryObject<Item> CALENDER = REGISTRY.register("calender", () -> new CalenderItem());
+	public static final RegistryObject<Item> PHONE = REGISTRY.register("phone", () -> new PhoneItem());
+	public static final RegistryObject<Item> TABLET = REGISTRY.register("tablet", () -> new TabletItem());
+	public static final RegistryObject<Item> MUG = REGISTRY.register("mug", () -> new MugItem());
+	public static final RegistryObject<Item> BEDPAN = REGISTRY.register("bedpan", () -> new BedpanItem());
+	public static final RegistryObject<Item> STETHOSCOPE = REGISTRY.register("stethoscope", () -> new StethoscopeItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

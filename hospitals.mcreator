@@ -8353,6 +8353,146 @@
         ]
       },
       "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Clipboard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clipboard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/clipboard.json",
+          "src/main/java/net/derpymeow/hospitals/item/ClipboardItem.java"
+        ]
+      },
+      "path": "~/Hospitals/RP-ITEMS"
+    },
+    {
+      "name": "Pen",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pen",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/pen.json",
+          "src/main/java/net/derpymeow/hospitals/item/PenItem.java"
+        ]
+      },
+      "path": "~/Hospitals/RP-ITEMS"
+    },
+    {
+      "name": "Folder",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "folder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/FolderItem.java",
+          "src/main/resources/assets/hospitals/models/item/folder.json"
+        ]
+      },
+      "path": "~/Hospitals/RP-ITEMS"
+    },
+    {
+      "name": "Stickynote",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stickynote",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/stickynote.json",
+          "src/main/java/net/derpymeow/hospitals/item/StickynoteItem.java"
+        ]
+      },
+      "path": "~/Hospitals/RP-ITEMS"
+    },
+    {
+      "name": "Calender",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calender",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/CalenderItem.java",
+          "src/main/resources/assets/hospitals/models/item/calender.json"
+        ]
+      },
+      "path": "~/Hospitals/RP-ITEMS"
+    },
+    {
+      "name": "Phone",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/phone.json",
+          "src/main/java/net/derpymeow/hospitals/item/PhoneItem.java"
+        ]
+      },
+      "path": "~/Hospitals/RP-ITEMS"
+    },
+    {
+      "name": "Tablet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tablet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/TabletItem.java",
+          "src/main/resources/assets/hospitals/models/item/tablet.json"
+        ]
+      },
+      "path": "~/Hospitals/RP-ITEMS"
+    },
+    {
+      "name": "Mug",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mug",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/mug.json",
+          "src/main/java/net/derpymeow/hospitals/item/MugItem.java"
+        ]
+      },
+      "path": "~/Hospitals/RP-ITEMS"
+    },
+    {
+      "name": "Bedpan",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedpan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/bedpan.json",
+          "src/main/java/net/derpymeow/hospitals/item/BedpanItem.java"
+        ]
+      },
+      "path": "~/Hospitals/RP-ITEMS"
+    },
+    {
+      "name": "Stethoscope",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stethoscope",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/StethoscopeItem.java",
+          "src/main/resources/assets/hospitals/models/item/stethoscope.json"
+        ]
+      },
+      "path": "~/Hospitals/RP-ITEMS"
     }
   ],
   "variable_elements": [
@@ -8641,7 +8781,17 @@
       "Bloodbagempty",
       "Bloodbagused",
       "Centrifuge",
-      "Purifier"
+      "Purifier",
+      "Clipboard",
+      "Pen",
+      "Folder",
+      "Stickynote",
+      "Calender",
+      "Phone",
+      "Tablet",
+      "Mug",
+      "Bedpan",
+      "Stethoscope"
     ],
     "CUSTOM:Hospitalspills": [
       "CreativePill",
@@ -9371,23 +9521,35 @@
       "item.hospitals.textbookchem_101.description_1": "- Intro To Medical Machines",
       "item.hospitals.textbookchem_101.description_0": "",
       "item.hospitals.textbookblood_101.description_1": "- Intro To Blood Mechanics",
-      "item.hospitals.textbookblood_101.description_0": ""
+      "item.hospitals.textbookblood_101.description_0": "",
+      "item.hospitals.clipboard": "Clipboard",
+      "item.hospitals.pen": "Pen",
+      "item.hospitals.folder": "Folder",
+      "item.hospitals.stickynote": "Sticky Note",
+      "item.hospitals.calender": "Calender",
+      "item.hospitals.phone": "Phone",
+      "item.hospitals.tablet": "Tablet",
+      "item.hospitals.mug": "Mug",
+      "item.hospitals.bedpan": "Bed Pan",
+      "item.hospitals.stethoscope.description_1": "- Will be usable in future updates",
+      "item.hospitals.stethoscope.description_0": "",
+      "item.hospitals.stethoscope": "Stethoscope"
     }
   },
   "metadata": {
     "files": [
-      "src/main/resources/META-INF/mods.toml",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModTabs.java",
-      "src/main/java/net/derpymeow/hospitals/HospitalsMod.java",
       "src/main/java/net/derpymeow/hospitals/network/HospitalsModVariables.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/java/net/derpymeow/hospitals/init/HospitalsModFluidTypes.java",
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/java/net/derpymeow/hospitals/HospitalsMod.java",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModFluids.java",
-      "src/main/java/net/derpymeow/hospitals/init/HospitalsModScreens.java",
+      "src/main/java/net/derpymeow/hospitals/init/HospitalsModFluidTypes.java",
       "src/main/java/net/derpymeow/hospitals/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/derpymeow/hospitals/init/HospitalsModScreens.java",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModMenus.java",
-      "src/main/java/net/derpymeow/hospitals/init/HospitalsModVillagerProfessions.java",
       "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
+      "src/main/java/net/derpymeow/hospitals/init/HospitalsModVillagerProfessions.java",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModTrades.java",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModBlocks.java",
       "src/main/java/net/derpymeow/hospitals/init/HospitalsModItems.java",

@@ -212,6 +212,15 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModItems.BLOODBAGUSED.get());
 				tabData.accept(HospitalsModBlocks.CENTRIFUGE.get().asItem());
 				tabData.accept(HospitalsModBlocks.PURIFIER.get().asItem());
+				tabData.accept(HospitalsModItems.CLIPBOARD.get());
+				tabData.accept(HospitalsModItems.PEN.get());
+				tabData.accept(HospitalsModItems.FOLDER.get());
+				tabData.accept(HospitalsModItems.STICKYNOTE.get());
+				tabData.accept(HospitalsModItems.CALENDER.get());
+				tabData.accept(HospitalsModItems.PHONE.get());
+				tabData.accept(HospitalsModItems.TABLET.get());
+				tabData.accept(HospitalsModItems.MUG.get());
+				tabData.accept(HospitalsModItems.BEDPAN.get());
 			}).withSearchBar().withTabsBefore(FACILITIES_THM.getId()).build());
 	public static final RegistryObject<CreativeModeTab> HOSPITALSPILLS = REGISTRY.register("hospitalspills",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.hospitalspills")).icon(() -> new ItemStack(HospitalsModItems.PILL.get())).displayItems((parameters, tabData) -> {

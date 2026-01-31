@@ -632,5 +632,14 @@
   "item.hospitals.textbookchem_101.description_1": "- Intro To Medical Machines",
   "item.hospitals.textbookchem_101.description_0": "",
   "item.hospitals.textbookblood_101.description_1": "- Intro To Blood Mechanics",
-  "item.hospitals.textbookblood_101.description_0": ""
+  "item.hospitals.textbookblood_101.description_0": "",
+  "item.hospitals.clipboard": "Clipboard",
+  "item.hospitals.pen": "Pen",
+  "item.hospitals.folder": "Folder",
+  "item.hospitals.stickynote": "Sticky Note",
+  "item.hospitals.calender": "Calender",
+  "item.hospitals.phone": "Phone",
+  "item.hospitals.tablet": "Tablet",
+  "item.hospitals.mug": "Mug",
+  "item.hospitals.bedpan": "Bed Pan"
 }
