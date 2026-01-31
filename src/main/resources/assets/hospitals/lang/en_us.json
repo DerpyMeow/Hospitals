@@ -644,5 +644,13 @@
   "item.hospitals.bedpan": "Bed Pan",
   "item.hospitals.stethoscope.description_1": "- Will be usable in future updates",
   "item.hospitals.stethoscope.description_0": "",
-  "item.hospitals.stethoscope": "Stethoscope"
+  "item.hospitals.stethoscope": "Stethoscope",
+  "block.hospitals.babybluextiles": "Baby Blue X-Shaped Tiles",
+  "block.hospitals.classic_floortiles": "Classic Floor Tiles",
+  "block.hospitals.high_gloss_flooring": "High Gloss Flooring",
+  "block.hospitals.boringflooring": "Boring Flooring",
+  "block.hospitals.shattered_wall_tiles": "Shattered Wall Tiles",
+  "block.hospitals.strippedoakwallpanels": "Stripped Oak Wall Panels",
+  "block.hospitals.strippedsprucewallpanels": "Stripped Spruce Wall Panels",
+  "block.hospitals.institutionalwalltile": "Institutional Wall Tiles"
 }

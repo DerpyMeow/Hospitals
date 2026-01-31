@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hospitals:block/classic_tiles",
+    "up": "hospitals:block/classic_tiles",
+    "north": "hospitals:block/classic_tiles",
+    "east": "hospitals:block/classic_tiles",
+    "south": "hospitals:block/classic_tiles",
+    "west": "hospitals:block/classic_tiles",
+    "particle": "hospitals:block/classic_tiles"
+  },
+  "render_type": "solid"
+}

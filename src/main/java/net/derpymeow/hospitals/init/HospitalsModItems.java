@@ -430,6 +430,14 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> MUG = REGISTRY.register("mug", () -> new MugItem());
 	public static final RegistryObject<Item> BEDPAN = REGISTRY.register("bedpan", () -> new BedpanItem());
 	public static final RegistryObject<Item> STETHOSCOPE = REGISTRY.register("stethoscope", () -> new StethoscopeItem());
+	public static final RegistryObject<Item> BABYBLUEXTILES = block(HospitalsModBlocks.BABYBLUEXTILES);
+	public static final RegistryObject<Item> CLASSIC_FLOORTILES = block(HospitalsModBlocks.CLASSIC_FLOORTILES);
+	public static final RegistryObject<Item> HIGH_GLOSS_FLOORING = block(HospitalsModBlocks.HIGH_GLOSS_FLOORING);
+	public static final RegistryObject<Item> BORINGFLOORING = block(HospitalsModBlocks.BORINGFLOORING);
+	public static final RegistryObject<Item> SHATTERED_WALL_TILES = block(HospitalsModBlocks.SHATTERED_WALL_TILES);
+	public static final RegistryObject<Item> STRIPPEDOAKWALLPANELS = block(HospitalsModBlocks.STRIPPEDOAKWALLPANELS);
+	public static final RegistryObject<Item> STRIPPEDSPRUCEWALLPANELS = block(HospitalsModBlocks.STRIPPEDSPRUCEWALLPANELS);
+	public static final RegistryObject<Item> INSTITUTIONALWALLTILE = block(HospitalsModBlocks.INSTITUTIONALWALLTILE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

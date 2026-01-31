@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hospitals:block/baby_blue_x_tiles_tx",
+    "up": "hospitals:block/baby_blue_x_tiles_tx",
+    "north": "hospitals:block/baby_blue_x_tiles_tx",
+    "east": "hospitals:block/baby_blue_x_tiles_tx",
+    "south": "hospitals:block/baby_blue_x_tiles_tx",
+    "west": "hospitals:block/baby_blue_x_tiles_tx",
+    "particle": "hospitals:block/baby_blue_x_tiles_tx"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hospitals:block/shattered_wall_tiles_tx",
+    "up": "hospitals:block/shattered_wall_tiles_tx",
+    "north": "hospitals:block/shattered_wall_tiles_tx",
+    "east": "hospitals:block/shattered_wall_tiles_tx",
+    "south": "hospitals:block/shattered_wall_tiles_tx",
+    "west": "hospitals:block/shattered_wall_tiles_tx",
+    "particle": "hospitals:block/shattered_wall_tiles_tx"
+  },
+  "render_type": "solid"
+}

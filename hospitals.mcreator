@@ -8493,6 +8493,142 @@
         ]
       },
       "path": "~/Hospitals/RP-ITEMS"
+    },
+    {
+      "name": "Babybluextiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "babybluextiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/block/babybluextiles.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/babybluextiles.json",
+          "src/main/resources/assets/hospitals/blockstates/babybluextiles.json",
+          "src/main/java/net/derpymeow/hospitals/block/BabybluextilesBlock.java",
+          "src/main/resources/assets/hospitals/models/item/babybluextiles.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "ClassicFloortiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_floortiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/classic_floortiles.json",
+          "src/main/resources/assets/hospitals/models/block/classic_floortiles.json",
+          "src/main/resources/assets/hospitals/models/item/classic_floortiles.json",
+          "src/main/java/net/derpymeow/hospitals/block/ClassicFloortilesBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/classic_floortiles.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "HighGlossFlooring",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "high_gloss_flooring",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/HighGlossFlooringBlock.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/high_gloss_flooring.json",
+          "src/main/resources/assets/hospitals/models/item/high_gloss_flooring.json",
+          "src/main/resources/assets/hospitals/models/block/high_gloss_flooring.json",
+          "src/main/resources/assets/hospitals/blockstates/high_gloss_flooring.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "Boringflooring",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boringflooring",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/blockstates/boringflooring.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/boringflooring.json",
+          "src/main/java/net/derpymeow/hospitals/block/BoringflooringBlock.java",
+          "src/main/resources/assets/hospitals/models/item/boringflooring.json",
+          "src/main/resources/assets/hospitals/models/block/boringflooring.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "ShatteredWallTiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shattered_wall_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/shattered_wall_tiles.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/shattered_wall_tiles.json",
+          "src/main/resources/assets/hospitals/blockstates/shattered_wall_tiles.json",
+          "src/main/resources/assets/hospitals/models/block/shattered_wall_tiles.json",
+          "src/main/java/net/derpymeow/hospitals/block/ShatteredWallTilesBlock.java"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "Strippedoakwallpanels",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strippedoakwallpanels",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/blockstates/strippedoakwallpanels.json",
+          "src/main/resources/assets/hospitals/models/item/strippedoakwallpanels.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/strippedoakwallpanels.json",
+          "src/main/resources/assets/hospitals/models/block/strippedoakwallpanels.json",
+          "src/main/java/net/derpymeow/hospitals/block/StrippedoakwallpanelsBlock.java"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "Strippedsprucewallpanels",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strippedsprucewallpanels",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/StrippedsprucewallpanelsBlock.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/strippedsprucewallpanels.json",
+          "src/main/resources/assets/hospitals/models/item/strippedsprucewallpanels.json",
+          "src/main/resources/assets/hospitals/blockstates/strippedsprucewallpanels.json",
+          "src/main/resources/assets/hospitals/models/block/strippedsprucewallpanels.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "Institutionalwalltile",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "institutionalwalltile",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/block/institutionalwalltile.json",
+          "src/main/java/net/derpymeow/hospitals/block/InstitutionalwalltileBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/institutionalwalltile.json",
+          "src/main/resources/assets/hospitals/models/item/institutionalwalltile.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/institutionalwalltile.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
     }
   ],
   "variable_elements": [
@@ -8791,7 +8927,15 @@
       "Tablet",
       "Mug",
       "Bedpan",
-      "Stethoscope"
+      "Stethoscope",
+      "Boringflooring",
+      "HighGlossFlooring",
+      "ClassicFloortiles",
+      "Babybluextiles",
+      "ShatteredWallTiles",
+      "Strippedoakwallpanels",
+      "Strippedsprucewallpanels",
+      "Institutionalwalltile"
     ],
     "CUSTOM:Hospitalspills": [
       "CreativePill",
@@ -9533,7 +9677,15 @@
       "item.hospitals.bedpan": "Bed Pan",
       "item.hospitals.stethoscope.description_1": "- Will be usable in future updates",
       "item.hospitals.stethoscope.description_0": "",
-      "item.hospitals.stethoscope": "Stethoscope"
+      "item.hospitals.stethoscope": "Stethoscope",
+      "block.hospitals.babybluextiles": "Baby Blue X-Shaped Tiles",
+      "block.hospitals.classic_floortiles": "Classic Floor Tiles",
+      "block.hospitals.high_gloss_flooring": "High Gloss Flooring",
+      "block.hospitals.boringflooring": "Boring Flooring",
+      "block.hospitals.shattered_wall_tiles": "Shattered Wall Tiles",
+      "block.hospitals.strippedoakwallpanels": "Stripped Oak Wall Panels",
+      "block.hospitals.strippedsprucewallpanels": "Stripped Spruce Wall Panels",
+      "block.hospitals.institutionalwalltile": "Institutional Wall Tiles"
     }
   },
   "metadata": {

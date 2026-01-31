@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hospitals:block/stripped_spruce_wall_panels_tx",
+    "up": "hospitals:block/stripped_spruce_wall_panels_tx",
+    "north": "hospitals:block/stripped_spruce_wall_panels_tx",
+    "east": "hospitals:block/stripped_spruce_wall_panels_tx",
+    "south": "hospitals:block/stripped_spruce_wall_panels_tx",
+    "west": "hospitals:block/stripped_spruce_wall_panels_tx",
+    "particle": "hospitals:block/stripped_spruce_wall_panels_tx"
+  },
+  "render_type": "solid"
+}

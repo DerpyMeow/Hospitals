@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hospitals:block/boring_flooring_tx",
+    "up": "hospitals:block/boring_flooring_tx",
+    "north": "hospitals:block/boring_flooring_tx",
+    "east": "hospitals:block/boring_flooring_tx",
+    "south": "hospitals:block/boring_flooring_tx",
+    "west": "hospitals:block/boring_flooring_tx",
+    "particle": "hospitals:block/boring_flooring_tx"
+  },
+  "render_type": "solid"
+}

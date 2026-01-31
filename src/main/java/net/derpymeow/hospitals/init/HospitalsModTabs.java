@@ -222,6 +222,14 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModItems.MUG.get());
 				tabData.accept(HospitalsModItems.BEDPAN.get());
 				tabData.accept(HospitalsModItems.STETHOSCOPE.get());
+				tabData.accept(HospitalsModBlocks.BORINGFLOORING.get().asItem());
+				tabData.accept(HospitalsModBlocks.HIGH_GLOSS_FLOORING.get().asItem());
+				tabData.accept(HospitalsModBlocks.CLASSIC_FLOORTILES.get().asItem());
+				tabData.accept(HospitalsModBlocks.BABYBLUEXTILES.get().asItem());
+				tabData.accept(HospitalsModBlocks.SHATTERED_WALL_TILES.get().asItem());
+				tabData.accept(HospitalsModBlocks.STRIPPEDOAKWALLPANELS.get().asItem());
+				tabData.accept(HospitalsModBlocks.STRIPPEDSPRUCEWALLPANELS.get().asItem());
+				tabData.accept(HospitalsModBlocks.INSTITUTIONALWALLTILE.get().asItem());
 			}).withSearchBar().withTabsBefore(FACILITIES_THM.getId()).build());
 	public static final RegistryObject<CreativeModeTab> HOSPITALSPILLS = REGISTRY.register("hospitalspills",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.hospitalspills")).icon(() -> new ItemStack(HospitalsModItems.PILL.get())).displayItems((parameters, tabData) -> {
