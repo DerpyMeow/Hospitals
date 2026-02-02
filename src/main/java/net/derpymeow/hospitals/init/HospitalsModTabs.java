@@ -231,6 +231,7 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModBlocks.STRIPPEDSPRUCEWALLPANELS.get().asItem());
 				tabData.accept(HospitalsModBlocks.INSTITUTIONALWALLTILE.get().asItem());
 				tabData.accept(HospitalsModBlocks.ROOM_FLAGS.get().asItem());
+				tabData.accept(HospitalsModBlocks.DO_NOT_ENTER_SIGN.get().asItem());
 			}).withSearchBar().withTabsBefore(FACILITIES_THM.getId()).build());
 	public static final RegistryObject<CreativeModeTab> HOSPITALSPILLS = REGISTRY.register("hospitalspills",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.hospitalspills")).icon(() -> new ItemStack(HospitalsModItems.PILL.get())).displayItems((parameters, tabData) -> {

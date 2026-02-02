@@ -19,11 +19,11 @@
       "registry_name": "th_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/blockstates/th_block.json",
-          "src/main/resources/assets/hospitals/models/item/th_block.json",
           "src/main/resources/assets/hospitals/models/block/th_block.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/th_block.json",
-          "src/main/java/net/derpymeow/hospitals/block/THBlockBlock.java"
+          "src/main/resources/assets/hospitals/models/item/th_block.json",
+          "src/main/java/net/derpymeow/hospitals/block/THBlockBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/th_block.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/th_block.json"
         ]
       },
       "path": "~/Creative Tabs"
@@ -47,11 +47,11 @@
       "registry_name": "ph_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/block/ph_block.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/ph_block.json",
           "src/main/resources/assets/hospitals/blockstates/ph_block.json",
           "src/main/resources/assets/hospitals/models/item/ph_block.json",
-          "src/main/java/net/derpymeow/hospitals/block/PHBlockBlock.java"
+          "src/main/java/net/derpymeow/hospitals/block/PHBlockBlock.java",
+          "src/main/resources/assets/hospitals/models/block/ph_block.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/ph_block.json"
         ]
       },
       "path": "~/Creative Tabs"
@@ -65,9 +65,9 @@
       "metadata": {
         "files": [
           "src/main/resources/data/hospitals/loot_tables/blocks/ra_block.json",
-          "src/main/resources/assets/hospitals/models/block/ra_block.json",
           "src/main/resources/assets/hospitals/blockstates/ra_block.json",
           "src/main/resources/assets/hospitals/models/item/ra_block.json",
+          "src/main/resources/assets/hospitals/models/block/ra_block.json",
           "src/main/java/net/derpymeow/hospitals/block/RABlockBlock.java"
         ]
       },
@@ -92,11 +92,11 @@
       "registry_name": "wa_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/block/wa_block.json",
-          "src/main/resources/assets/hospitals/models/item/wa_block.json",
+          "src/main/resources/assets/hospitals/blockstates/wa_block.json",
           "src/main/java/net/derpymeow/hospitals/block/WABlockBlock.java",
           "src/main/resources/data/hospitals/loot_tables/blocks/wa_block.json",
-          "src/main/resources/assets/hospitals/blockstates/wa_block.json"
+          "src/main/resources/assets/hospitals/models/item/wa_block.json",
+          "src/main/resources/assets/hospitals/models/block/wa_block.json"
         ]
       },
       "path": "~/Creative Tabs"
@@ -120,10 +120,10 @@
       "registry_name": "fa_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/fa_block.json",
-          "src/main/resources/assets/hospitals/blockstates/fa_block.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/fa_block.json",
           "src/main/resources/assets/hospitals/models/block/fa_block.json",
+          "src/main/resources/assets/hospitals/blockstates/fa_block.json",
+          "src/main/resources/assets/hospitals/models/item/fa_block.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/fa_block.json",
           "src/main/java/net/derpymeow/hospitals/block/FABlockBlock.java"
         ]
       },
@@ -148,11 +148,11 @@
       "registry_name": "medical_cross",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/blockstates/medical_cross.json",
+          "src/main/java/net/derpymeow/hospitals/block/MedicalCrossBlock.java",
+          "src/main/resources/assets/hospitals/models/block/medical_cross.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/medical_cross.json",
           "src/main/resources/assets/hospitals/models/item/medical_cross.json",
-          "src/main/java/net/derpymeow/hospitals/block/MedicalCrossBlock.java",
-          "src/main/resources/assets/hospitals/models/block/medical_cross.json"
+          "src/main/resources/assets/hospitals/blockstates/medical_cross.json"
         ]
       },
       "path": "~/Creative Tabs"
@@ -176,11 +176,11 @@
       "registry_name": "anaesthetic_machine",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/anaesthetic_machine.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/anaesthetic_machine.json",
-          "src/main/resources/assets/hospitals/models/block/anaesthetic_machine.json",
           "src/main/resources/assets/hospitals/blockstates/anaesthetic_machine.json",
-          "src/main/java/net/derpymeow/hospitals/block/AnaestheticMachineBlock.java"
+          "src/main/resources/data/hospitals/loot_tables/blocks/anaesthetic_machine.json",
+          "src/main/java/net/derpymeow/hospitals/block/AnaestheticMachineBlock.java",
+          "src/main/resources/assets/hospitals/models/item/anaesthetic_machine.json",
+          "src/main/resources/assets/hospitals/models/block/anaesthetic_machine.json"
         ]
       },
       "path": "~/Original Mod/Theatres"
@@ -193,11 +193,11 @@
       "registry_name": "surgical_refridgerated_cabinet",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/block/SurgicalRefridgeratedCabinetBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/surgical_refridgerated_cabinet.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/surgical_refridgerated_cabinet.json",
           "src/main/resources/assets/hospitals/models/block/surgical_refridgerated_cabinet.json",
           "src/main/resources/assets/hospitals/models/item/surgical_refridgerated_cabinet.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/surgical_refridgerated_cabinet.json",
-          "src/main/resources/assets/hospitals/blockstates/surgical_refridgerated_cabinet.json"
+          "src/main/java/net/derpymeow/hospitals/block/SurgicalRefridgeratedCabinetBlock.java"
         ]
       },
       "path": "~/Original Mod/Theatres"
@@ -210,10 +210,10 @@
       "registry_name": "surgical_worktop_table",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/block/surgical_worktop_table.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/surgical_worktop_table.json",
           "src/main/java/net/derpymeow/hospitals/block/SurgicalWorktopTableBlock.java",
+          "src/main/resources/assets/hospitals/models/block/surgical_worktop_table.json",
           "src/main/resources/assets/hospitals/blockstates/surgical_worktop_table.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/surgical_worktop_table.json",
           "src/main/resources/assets/hospitals/models/item/surgical_worktop_table.json"
         ]
       },
@@ -227,10 +227,10 @@
       "registry_name": "surgical_instrument_trolley",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/surgical_instrument_trolley.json",
-          "src/main/resources/assets/hospitals/blockstates/surgical_instrument_trolley.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/surgical_instrument_trolley.json",
+          "src/main/resources/assets/hospitals/blockstates/surgical_instrument_trolley.json",
           "src/main/java/net/derpymeow/hospitals/block/SurgicalInstrumentTrolleyBlock.java",
+          "src/main/resources/assets/hospitals/models/item/surgical_instrument_trolley.json",
           "src/main/resources/assets/hospitals/models/block/surgical_instrument_trolley.json"
         ]
       },
@@ -244,11 +244,11 @@
       "registry_name": "operating_table",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/block/OperatingTableBlock.java",
-          "src/main/resources/assets/hospitals/models/item/operating_table.json",
           "src/main/resources/assets/hospitals/blockstates/operating_table.json",
           "src/main/resources/assets/hospitals/models/block/operating_table.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/operating_table.json"
+          "src/main/resources/data/hospitals/loot_tables/blocks/operating_table.json",
+          "src/main/resources/assets/hospitals/models/item/operating_table.json",
+          "src/main/java/net/derpymeow/hospitals/block/OperatingTableBlock.java"
         ]
       },
       "path": "~/Original Mod/Theatres"
@@ -261,11 +261,11 @@
       "registry_name": "scrub_sink",
       "metadata": {
         "files": [
+          "src/main/resources/assets/hospitals/models/item/scrub_sink.json",
+          "src/main/resources/assets/hospitals/models/block/scrub_sink.json",
           "src/main/java/net/derpymeow/hospitals/block/ScrubSinkBlock.java",
           "src/main/resources/assets/hospitals/blockstates/scrub_sink.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/scrub_sink.json",
-          "src/main/resources/assets/hospitals/models/block/scrub_sink.json",
-          "src/main/resources/assets/hospitals/models/item/scrub_sink.json"
+          "src/main/resources/data/hospitals/loot_tables/blocks/scrub_sink.json"
         ]
       },
       "path": "~/Original Mod/Theatres"
@@ -278,11 +278,11 @@
       "registry_name": "wall_storage_tubs_red",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/block/WallStorageTubsRedBlock.java",
-          "src/main/resources/data/hospitals/loot_tables/blocks/wall_storage_tubs_red.json",
-          "src/main/resources/assets/hospitals/models/item/wall_storage_tubs_red.json",
+          "src/main/resources/assets/hospitals/blockstates/wall_storage_tubs_red.json",
           "src/main/resources/assets/hospitals/models/block/wall_storage_tubs_red.json",
-          "src/main/resources/assets/hospitals/blockstates/wall_storage_tubs_red.json"
+          "src/main/java/net/derpymeow/hospitals/block/WallStorageTubsRedBlock.java",
+          "src/main/resources/assets/hospitals/models/item/wall_storage_tubs_red.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/wall_storage_tubs_red.json"
         ]
       },
       "path": "~/Original Mod/Theatres"
@@ -295,9 +295,9 @@
       "registry_name": "wall_storage_tubs_yellow",
       "metadata": {
         "files": [
-          "src/main/resources/data/hospitals/loot_tables/blocks/wall_storage_tubs_yellow.json",
           "src/main/java/net/derpymeow/hospitals/block/WallStorageTubsYellowBlock.java",
           "src/main/resources/assets/hospitals/models/block/wall_storage_tubs_yellow.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/wall_storage_tubs_yellow.json",
           "src/main/resources/assets/hospitals/models/item/wall_storage_tubs_yellow.json",
           "src/main/resources/assets/hospitals/blockstates/wall_storage_tubs_yellow.json"
         ]
@@ -313,10 +313,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/hospitals/blockstates/surgical_lamp.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/surgical_lamp.json",
           "src/main/java/net/derpymeow/hospitals/block/SurgicalLampBlock.java",
           "src/main/resources/assets/hospitals/models/item/surgical_lamp.json",
-          "src/main/resources/assets/hospitals/models/block/surgical_lamp.json"
+          "src/main/resources/assets/hospitals/models/block/surgical_lamp.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/surgical_lamp.json"
         ]
       },
       "path": "~/Original Mod/Theatres"
@@ -329,11 +329,11 @@
       "registry_name": "surgical_trolley",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/block/SurgicalTrolleyBlock.java",
-          "src/main/resources/assets/hospitals/blockstates/surgical_trolley.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/surgical_trolley.json",
           "src/main/resources/assets/hospitals/models/item/surgical_trolley.json",
-          "src/main/resources/assets/hospitals/models/block/surgical_trolley.json"
+          "src/main/resources/data/hospitals/loot_tables/blocks/surgical_trolley.json",
+          "src/main/resources/assets/hospitals/models/block/surgical_trolley.json",
+          "src/main/java/net/derpymeow/hospitals/block/SurgicalTrolleyBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/surgical_trolley.json"
         ]
       },
       "path": "~/Original Mod/Theatres"
@@ -346,11 +346,11 @@
       "registry_name": "sterile_worktop",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/block/sterile_worktop.json",
-          "src/main/resources/assets/hospitals/blockstates/sterile_worktop.json",
           "src/main/resources/assets/hospitals/models/item/sterile_worktop.json",
           "src/main/java/net/derpymeow/hospitals/block/SterileWorktopBlock.java",
-          "src/main/resources/data/hospitals/loot_tables/blocks/sterile_worktop.json"
+          "src/main/resources/data/hospitals/loot_tables/blocks/sterile_worktop.json",
+          "src/main/resources/assets/hospitals/blockstates/sterile_worktop.json",
+          "src/main/resources/assets/hospitals/models/block/sterile_worktop.json"
         ]
       },
       "path": "~/Original Mod/Theatres"
@@ -364,10 +364,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/derpymeow/hospitals/block/SterileWorkCounterWithShelfBlock.java",
-          "src/main/resources/assets/hospitals/models/block/sterile_work_counter_with_shelf.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/sterile_work_counter_with_shelf.json",
+          "src/main/resources/assets/hospitals/blockstates/sterile_work_counter_with_shelf.json",
           "src/main/resources/assets/hospitals/models/item/sterile_work_counter_with_shelf.json",
-          "src/main/resources/assets/hospitals/blockstates/sterile_work_counter_with_shelf.json"
+          "src/main/resources/assets/hospitals/models/block/sterile_work_counter_with_shelf.json"
         ]
       },
       "path": "~/Original Mod/Theatres"
@@ -380,11 +380,11 @@
       "registry_name": "surgical_workstation",
       "metadata": {
         "files": [
-          "src/main/resources/data/hospitals/loot_tables/blocks/surgical_workstation.json",
           "src/main/resources/assets/hospitals/models/block/surgical_workstation.json",
-          "src/main/resources/assets/hospitals/blockstates/surgical_workstation.json",
           "src/main/java/net/derpymeow/hospitals/block/SurgicalWorkstationBlock.java",
-          "src/main/resources/assets/hospitals/models/item/surgical_workstation.json"
+          "src/main/resources/assets/hospitals/blockstates/surgical_workstation.json",
+          "src/main/resources/assets/hospitals/models/item/surgical_workstation.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/surgical_workstation.json"
         ]
       },
       "path": "~/Original Mod/Theatres"
@@ -397,10 +397,10 @@
       "registry_name": "operating_room_control_panel",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/block/OperatingRoomControlPanelBlock.java",
           "src/main/resources/data/hospitals/loot_tables/blocks/operating_room_control_panel.json",
           "src/main/resources/assets/hospitals/models/block/operating_room_control_panel.json",
           "src/main/resources/assets/hospitals/models/item/operating_room_control_panel.json",
+          "src/main/java/net/derpymeow/hospitals/block/OperatingRoomControlPanelBlock.java",
           "src/main/resources/assets/hospitals/blockstates/operating_room_control_panel.json"
         ]
       },
@@ -414,11 +414,11 @@
       "registry_name": "surgical_instruments",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/blockstates/surgical_instruments.json",
           "src/main/java/net/derpymeow/hospitals/block/SurgicalInstrumentsBlock.java",
           "src/main/resources/assets/hospitals/models/block/surgical_instruments.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/surgical_instruments.json",
-          "src/main/resources/assets/hospitals/models/item/surgical_instruments.json"
+          "src/main/resources/assets/hospitals/models/item/surgical_instruments.json",
+          "src/main/resources/assets/hospitals/blockstates/surgical_instruments.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/surgical_instruments.json"
         ]
       },
       "path": "~/Original Mod/Theatres"
@@ -432,10 +432,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/hospitals/models/block/medical_gas_ceiling_mounted.json",
-          "src/main/resources/assets/hospitals/models/item/medical_gas_ceiling_mounted.json",
-          "src/main/java/net/derpymeow/hospitals/block/MedicalGasCeilingMountedBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/medical_gas_ceiling_mounted.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/medical_gas_ceiling_mounted.json",
-          "src/main/resources/assets/hospitals/blockstates/medical_gas_ceiling_mounted.json"
+          "src/main/java/net/derpymeow/hospitals/block/MedicalGasCeilingMountedBlock.java",
+          "src/main/resources/assets/hospitals/models/item/medical_gas_ceiling_mounted.json"
         ]
       },
       "path": "~/Original Mod/Theatres"
@@ -449,10 +449,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/derpymeow/hospitals/block/IlluminatedPharmacySignBlock.java",
-          "src/main/resources/assets/hospitals/models/item/illuminated_pharmacy_sign.json",
-          "src/main/resources/assets/hospitals/models/block/illuminated_pharmacy_sign.json",
+          "src/main/resources/assets/hospitals/blockstates/illuminated_pharmacy_sign.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/illuminated_pharmacy_sign.json",
-          "src/main/resources/assets/hospitals/blockstates/illuminated_pharmacy_sign.json"
+          "src/main/resources/assets/hospitals/models/item/illuminated_pharmacy_sign.json",
+          "src/main/resources/assets/hospitals/models/block/illuminated_pharmacy_sign.json"
         ]
       },
       "path": "~/Original Mod/Pharmacy"
@@ -467,9 +467,9 @@
         "files": [
           "src/main/resources/data/hospitals/loot_tables/blocks/store_shelf_empty.json",
           "src/main/resources/assets/hospitals/models/block/store_shelf_empty.json",
+          "src/main/java/net/derpymeow/hospitals/block/StoreShelfEmptyBlock.java",
           "src/main/resources/assets/hospitals/models/item/store_shelf_empty.json",
-          "src/main/resources/assets/hospitals/blockstates/store_shelf_empty.json",
-          "src/main/java/net/derpymeow/hospitals/block/StoreShelfEmptyBlock.java"
+          "src/main/resources/assets/hospitals/blockstates/store_shelf_empty.json"
         ]
       },
       "path": "~/Original Mod/Pharmacy"
@@ -482,11 +482,11 @@
       "registry_name": "store_shelf_stocked",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/blockstates/store_shelf_stocked.json",
-          "src/main/resources/assets/hospitals/models/block/store_shelf_stocked.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/store_shelf_stocked.json",
           "src/main/resources/assets/hospitals/models/item/store_shelf_stocked.json",
-          "src/main/java/net/derpymeow/hospitals/block/StoreShelfStockedBlock.java"
+          "src/main/resources/data/hospitals/loot_tables/blocks/store_shelf_stocked.json",
+          "src/main/java/net/derpymeow/hospitals/block/StoreShelfStockedBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/store_shelf_stocked.json",
+          "src/main/resources/assets/hospitals/models/block/store_shelf_stocked.json"
         ]
       },
       "path": "~/Original Mod/Pharmacy"
@@ -499,11 +499,11 @@
       "registry_name": "compounding_isolator",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/block/compounding_isolator.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/compounding_isolator.json",
-          "src/main/resources/assets/hospitals/models/item/compounding_isolator.json",
           "src/main/java/net/derpymeow/hospitals/block/CompoundingIsolatorBlock.java",
-          "src/main/resources/assets/hospitals/blockstates/compounding_isolator.json"
+          "src/main/resources/data/hospitals/loot_tables/blocks/compounding_isolator.json",
+          "src/main/resources/assets/hospitals/blockstates/compounding_isolator.json",
+          "src/main/resources/assets/hospitals/models/block/compounding_isolator.json",
+          "src/main/resources/assets/hospitals/models/item/compounding_isolator.json"
         ]
       },
       "path": "~/Original Mod/Pharmacy"
@@ -516,11 +516,11 @@
       "registry_name": "analytical_balance",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/block/analytical_balance.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/analytical_balance.json",
-          "src/main/resources/assets/hospitals/models/item/analytical_balance.json",
           "src/main/resources/assets/hospitals/blockstates/analytical_balance.json",
-          "src/main/java/net/derpymeow/hospitals/block/AnalyticalBalanceBlock.java"
+          "src/main/resources/data/hospitals/loot_tables/blocks/analytical_balance.json",
+          "src/main/java/net/derpymeow/hospitals/block/AnalyticalBalanceBlock.java",
+          "src/main/resources/assets/hospitals/models/item/analytical_balance.json",
+          "src/main/resources/assets/hospitals/models/block/analytical_balance.json"
         ]
       },
       "path": "~/Original Mod/Pharmacy"
@@ -533,11 +533,11 @@
       "registry_name": "refridgerated_centrifuge",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/refridgerated_centrifuge.json",
-          "src/main/java/net/derpymeow/hospitals/block/RefridgeratedCentrifugeBlock.java",
-          "src/main/resources/data/hospitals/loot_tables/blocks/refridgerated_centrifuge.json",
           "src/main/resources/assets/hospitals/blockstates/refridgerated_centrifuge.json",
-          "src/main/resources/assets/hospitals/models/block/refridgerated_centrifuge.json"
+          "src/main/resources/assets/hospitals/models/block/refridgerated_centrifuge.json",
+          "src/main/java/net/derpymeow/hospitals/block/RefridgeratedCentrifugeBlock.java",
+          "src/main/resources/assets/hospitals/models/item/refridgerated_centrifuge.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/refridgerated_centrifuge.json"
         ]
       },
       "path": "~/Original Mod/Pharmacy"
@@ -550,11 +550,11 @@
       "registry_name": "worktop_with_shelf",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/worktop_with_shelf.json",
-          "src/main/resources/assets/hospitals/models/block/worktop_with_shelf.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/worktop_with_shelf.json",
           "src/main/java/net/derpymeow/hospitals/block/WorktopWithShelfBlock.java",
-          "src/main/resources/assets/hospitals/blockstates/worktop_with_shelf.json"
+          "src/main/resources/assets/hospitals/blockstates/worktop_with_shelf.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/worktop_with_shelf.json",
+          "src/main/resources/assets/hospitals/models/block/worktop_with_shelf.json",
+          "src/main/resources/assets/hospitals/models/item/worktop_with_shelf.json"
         ]
       },
       "path": "~/Original Mod/Pharmacy"
@@ -567,11 +567,11 @@
       "registry_name": "worktop",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/block/worktop.json",
           "src/main/resources/assets/hospitals/models/item/worktop.json",
-          "src/main/java/net/derpymeow/hospitals/block/WorktopBlock.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/worktop.json",
           "src/main/resources/assets/hospitals/blockstates/worktop.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/worktop.json"
+          "src/main/java/net/derpymeow/hospitals/block/WorktopBlock.java",
+          "src/main/resources/assets/hospitals/models/block/worktop.json"
         ]
       },
       "path": "~/Original Mod/Pharmacy"
@@ -584,11 +584,11 @@
       "registry_name": "laboratory_fridge",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/block/LaboratoryFridgeBlock.java",
-          "src/main/resources/assets/hospitals/models/item/laboratory_fridge.json",
-          "src/main/resources/assets/hospitals/models/block/laboratory_fridge.json",
           "src/main/resources/assets/hospitals/blockstates/laboratory_fridge.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/laboratory_fridge.json"
+          "src/main/resources/data/hospitals/loot_tables/blocks/laboratory_fridge.json",
+          "src/main/resources/assets/hospitals/models/item/laboratory_fridge.json",
+          "src/main/java/net/derpymeow/hospitals/block/LaboratoryFridgeBlock.java",
+          "src/main/resources/assets/hospitals/models/block/laboratory_fridge.json"
         ]
       },
       "path": "~/Original Mod/Pharmacy"
@@ -602,8 +602,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/hospitals/blockstates/capsule_filling_machine.json",
-          "src/main/java/net/derpymeow/hospitals/block/CapsuleFillingMachineBlock.java",
           "src/main/resources/assets/hospitals/models/block/capsule_filling_machine.json",
+          "src/main/java/net/derpymeow/hospitals/block/CapsuleFillingMachineBlock.java",
           "src/main/resources/data/hospitals/loot_tables/blocks/capsule_filling_machine.json",
           "src/main/resources/assets/hospitals/models/item/capsule_filling_machine.json"
         ]
@@ -618,9 +618,9 @@
       "registry_name": "bottle_filling_machine",
       "metadata": {
         "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/bottle_filling_machine.json",
           "src/main/resources/assets/hospitals/models/item/bottle_filling_machine.json",
           "src/main/resources/assets/hospitals/models/block/bottle_filling_machine.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/bottle_filling_machine.json",
           "src/main/java/net/derpymeow/hospitals/block/BottleFillingMachineBlock.java",
           "src/main/resources/assets/hospitals/blockstates/bottle_filling_machine.json"
         ]
@@ -635,11 +635,11 @@
       "registry_name": "medication_drawers",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/block/MedicationDrawersBlock.java",
-          "src/main/resources/assets/hospitals/blockstates/medication_drawers.json",
           "src/main/resources/assets/hospitals/models/item/medication_drawers.json",
+          "src/main/resources/assets/hospitals/models/block/medication_drawers.json",
+          "src/main/java/net/derpymeow/hospitals/block/MedicationDrawersBlock.java",
           "src/main/resources/data/hospitals/loot_tables/blocks/medication_drawers.json",
-          "src/main/resources/assets/hospitals/models/block/medication_drawers.json"
+          "src/main/resources/assets/hospitals/blockstates/medication_drawers.json"
         ]
       },
       "path": "~/Original Mod/Pharmacy"
@@ -652,11 +652,11 @@
       "registry_name": "prescription_shelf",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/block/PrescriptionShelfBlock.java",
           "src/main/resources/data/hospitals/loot_tables/blocks/prescription_shelf.json",
-          "src/main/resources/assets/hospitals/models/item/prescription_shelf.json",
+          "src/main/resources/assets/hospitals/blockstates/prescription_shelf.json",
+          "src/main/java/net/derpymeow/hospitals/block/PrescriptionShelfBlock.java",
           "src/main/resources/assets/hospitals/models/block/prescription_shelf.json",
-          "src/main/resources/assets/hospitals/blockstates/prescription_shelf.json"
+          "src/main/resources/assets/hospitals/models/item/prescription_shelf.json"
         ]
       },
       "path": "~/Original Mod/Pharmacy"
@@ -669,11 +669,11 @@
       "registry_name": "epos_cashier_system",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/block/EPOSCashierSystemBlock.java",
-          "src/main/resources/assets/hospitals/blockstates/epos_cashier_system.json",
           "src/main/resources/assets/hospitals/models/block/epos_cashier_system.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/epos_cashier_system.json",
           "src/main/resources/assets/hospitals/models/item/epos_cashier_system.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/epos_cashier_system.json"
+          "src/main/java/net/derpymeow/hospitals/block/EPOSCashierSystemBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/epos_cashier_system.json"
         ]
       },
       "path": "~/Original Mod/Pharmacy"
@@ -686,11 +686,11 @@
       "registry_name": "prescription_basket_empty",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/prescription_basket_empty.json",
-          "src/main/resources/assets/hospitals/blockstates/prescription_basket_empty.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/prescription_basket_empty.json",
-          "src/main/resources/assets/hospitals/models/block/prescription_basket_empty.json",
-          "src/main/java/net/derpymeow/hospitals/block/PrescriptionBasketEmptyBlock.java"
+          "src/main/resources/assets/hospitals/blockstates/prescription_basket_empty.json",
+          "src/main/java/net/derpymeow/hospitals/block/PrescriptionBasketEmptyBlock.java",
+          "src/main/resources/assets/hospitals/models/item/prescription_basket_empty.json",
+          "src/main/resources/assets/hospitals/models/block/prescription_basket_empty.json"
         ]
       },
       "path": "~/Original Mod/Pharmacy"
@@ -703,11 +703,11 @@
       "registry_name": "prescription_basket",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/block/prescription_basket.json",
-          "src/main/resources/assets/hospitals/models/item/prescription_basket.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/prescription_basket.json",
+          "src/main/resources/assets/hospitals/blockstates/prescription_basket.json",
           "src/main/java/net/derpymeow/hospitals/block/PrescriptionBasketBlock.java",
-          "src/main/resources/assets/hospitals/blockstates/prescription_basket.json"
+          "src/main/resources/assets/hospitals/models/block/prescription_basket.json",
+          "src/main/resources/assets/hospitals/models/item/prescription_basket.json"
         ]
       },
       "path": "~/Original Mod/Pharmacy"
@@ -721,10 +721,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/derpymeow/hospitals/block/PharmacyCounterStockedBlock.java",
-          "src/main/resources/assets/hospitals/models/item/pharmacy_counter_stocked.json",
           "src/main/resources/assets/hospitals/models/block/pharmacy_counter_stocked.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/pharmacy_counter_stocked.json",
-          "src/main/resources/assets/hospitals/blockstates/pharmacy_counter_stocked.json"
+          "src/main/resources/assets/hospitals/blockstates/pharmacy_counter_stocked.json",
+          "src/main/resources/assets/hospitals/models/item/pharmacy_counter_stocked.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/pharmacy_counter_stocked.json"
         ]
       },
       "path": "~/Original Mod/Pharmacy"
@@ -737,11 +737,11 @@
       "registry_name": "pharmacy_counterwith_logo",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/block/PharmacyCounterwithLogoBlock.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/pharmacy_counterwith_logo.json",
           "src/main/resources/assets/hospitals/blockstates/pharmacy_counterwith_logo.json",
-          "src/main/resources/assets/hospitals/models/item/pharmacy_counterwith_logo.json",
           "src/main/resources/assets/hospitals/models/block/pharmacy_counterwith_logo.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/pharmacy_counterwith_logo.json"
+          "src/main/java/net/derpymeow/hospitals/block/PharmacyCounterwithLogoBlock.java",
+          "src/main/resources/assets/hospitals/models/item/pharmacy_counterwith_logo.json"
         ]
       },
       "path": "~/Original Mod/Pharmacy"
@@ -754,11 +754,11 @@
       "registry_name": "pharmacy_counter",
       "metadata": {
         "files": [
-          "src/main/resources/data/hospitals/loot_tables/blocks/pharmacy_counter.json",
-          "src/main/resources/assets/hospitals/models/item/pharmacy_counter.json",
           "src/main/java/net/derpymeow/hospitals/block/PharmacyCounterBlock.java",
           "src/main/resources/assets/hospitals/blockstates/pharmacy_counter.json",
-          "src/main/resources/assets/hospitals/models/block/pharmacy_counter.json"
+          "src/main/resources/data/hospitals/loot_tables/blocks/pharmacy_counter.json",
+          "src/main/resources/assets/hospitals/models/block/pharmacy_counter.json",
+          "src/main/resources/assets/hospitals/models/item/pharmacy_counter.json"
         ]
       },
       "path": "~/Original Mod/Pharmacy"
@@ -771,11 +771,11 @@
       "registry_name": "decorative_divide",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/decorative_divide.json",
-          "src/main/resources/assets/hospitals/blockstates/decorative_divide.json",
-          "src/main/java/net/derpymeow/hospitals/block/DecorativeDivideBlock.java",
           "src/main/resources/assets/hospitals/models/block/decorative_divide.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/decorative_divide.json"
+          "src/main/java/net/derpymeow/hospitals/block/DecorativeDivideBlock.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/decorative_divide.json",
+          "src/main/resources/assets/hospitals/models/item/decorative_divide.json",
+          "src/main/resources/assets/hospitals/blockstates/decorative_divide.json"
         ]
       },
       "path": "~/Original Mod/Pharmacy"
@@ -788,11 +788,11 @@
       "registry_name": "ultrasound",
       "metadata": {
         "files": [
+          "src/main/java/net/derpymeow/hospitals/block/UltrasoundBlock.java",
           "src/main/resources/data/hospitals/loot_tables/blocks/ultrasound.json",
           "src/main/resources/assets/hospitals/blockstates/ultrasound.json",
-          "src/main/resources/assets/hospitals/models/block/ultrasound.json",
-          "src/main/java/net/derpymeow/hospitals/block/UltrasoundBlock.java",
-          "src/main/resources/assets/hospitals/models/item/ultrasound.json"
+          "src/main/resources/assets/hospitals/models/item/ultrasound.json",
+          "src/main/resources/assets/hospitals/models/block/ultrasound.json"
         ]
       },
       "path": "~/Original Mod/Radiology"
@@ -805,11 +805,11 @@
       "registry_name": "x_ray_light",
       "metadata": {
         "files": [
+          "src/main/resources/assets/hospitals/models/item/x_ray_light.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/x_ray_light.json",
           "src/main/java/net/derpymeow/hospitals/block/XRayLightBlock.java",
           "src/main/resources/assets/hospitals/models/block/x_ray_light.json",
-          "src/main/resources/assets/hospitals/blockstates/x_ray_light.json",
-          "src/main/resources/assets/hospitals/models/item/x_ray_light.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/x_ray_light.json"
+          "src/main/resources/assets/hospitals/blockstates/x_ray_light.json"
         ]
       },
       "path": "~/Original Mod/Radiology"
@@ -822,10 +822,10 @@
       "registry_name": "xray_light_box_blank",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/blockstates/xray_light_box_blank.json",
-          "src/main/resources/assets/hospitals/models/block/xray_light_box_blank.json",
           "src/main/resources/assets/hospitals/models/item/xray_light_box_blank.json",
+          "src/main/resources/assets/hospitals/models/block/xray_light_box_blank.json",
           "src/main/java/net/derpymeow/hospitals/block/XRAYLightBoxBlankBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/xray_light_box_blank.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/xray_light_box_blank.json"
         ]
       },
@@ -839,10 +839,10 @@
       "registry_name": "xray_light_box_chest",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/blockstates/xray_light_box_chest.json",
-          "src/main/resources/assets/hospitals/models/block/xray_light_box_chest.json",
-          "src/main/resources/assets/hospitals/models/item/xray_light_box_chest.json",
           "src/main/java/net/derpymeow/hospitals/block/XRAYLightBoxChestBlock.java",
+          "src/main/resources/assets/hospitals/models/item/xray_light_box_chest.json",
+          "src/main/resources/assets/hospitals/models/block/xray_light_box_chest.json",
+          "src/main/resources/assets/hospitals/blockstates/xray_light_box_chest.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/xray_light_box_chest.json"
         ]
       },
@@ -856,11 +856,11 @@
       "registry_name": "xray_light_box_feet",
       "metadata": {
         "files": [
-          "src/main/resources/data/hospitals/loot_tables/blocks/xray_light_box_feet.json",
-          "src/main/java/net/derpymeow/hospitals/block/XRAYLightBoxFeetBlock.java",
-          "src/main/resources/assets/hospitals/models/block/xray_light_box_feet.json",
           "src/main/resources/assets/hospitals/blockstates/xray_light_box_feet.json",
-          "src/main/resources/assets/hospitals/models/item/xray_light_box_feet.json"
+          "src/main/java/net/derpymeow/hospitals/block/XRAYLightBoxFeetBlock.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/xray_light_box_feet.json",
+          "src/main/resources/assets/hospitals/models/item/xray_light_box_feet.json",
+          "src/main/resources/assets/hospitals/models/block/xray_light_box_feet.json"
         ]
       },
       "path": "~/Original Mod/Radiology"
@@ -873,11 +873,11 @@
       "registry_name": "xray_light_box_hands",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/blockstates/xray_light_box_hands.json",
-          "src/main/java/net/derpymeow/hospitals/block/XRAYLightBoxHandsBlock.java",
+          "src/main/resources/assets/hospitals/models/item/xray_light_box_hands.json",
           "src/main/resources/assets/hospitals/models/block/xray_light_box_hands.json",
+          "src/main/resources/assets/hospitals/blockstates/xray_light_box_hands.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/xray_light_box_hands.json",
-          "src/main/resources/assets/hospitals/models/item/xray_light_box_hands.json"
+          "src/main/java/net/derpymeow/hospitals/block/XRAYLightBoxHandsBlock.java"
         ]
       },
       "path": "~/Original Mod/Radiology"
@@ -890,11 +890,11 @@
       "registry_name": "xray_light_box_arms",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/block/XRAYLightBoxArmsBlock.java",
-          "src/main/resources/data/hospitals/loot_tables/blocks/xray_light_box_arms.json",
+          "src/main/resources/assets/hospitals/blockstates/xray_light_box_arms.json",
           "src/main/resources/assets/hospitals/models/item/xray_light_box_arms.json",
           "src/main/resources/assets/hospitals/models/block/xray_light_box_arms.json",
-          "src/main/resources/assets/hospitals/blockstates/xray_light_box_arms.json"
+          "src/main/java/net/derpymeow/hospitals/block/XRAYLightBoxArmsBlock.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/xray_light_box_arms.json"
         ]
       },
       "path": "~/Original Mod/Radiology"
@@ -907,11 +907,11 @@
       "registry_name": "xray_light_box_neck",
       "metadata": {
         "files": [
-          "src/main/resources/data/hospitals/loot_tables/blocks/xray_light_box_neck.json",
-          "src/main/java/net/derpymeow/hospitals/block/XRAYLightBoxNeckBlock.java",
-          "src/main/resources/assets/hospitals/models/item/xray_light_box_neck.json",
           "src/main/resources/assets/hospitals/models/block/xray_light_box_neck.json",
-          "src/main/resources/assets/hospitals/blockstates/xray_light_box_neck.json"
+          "src/main/java/net/derpymeow/hospitals/block/XRAYLightBoxNeckBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/xray_light_box_neck.json",
+          "src/main/resources/assets/hospitals/models/item/xray_light_box_neck.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/xray_light_box_neck.json"
         ]
       },
       "path": "~/Original Mod/Radiology"
@@ -924,11 +924,11 @@
       "registry_name": "x_ray_machine",
       "metadata": {
         "files": [
-          "src/main/resources/data/hospitals/loot_tables/blocks/x_ray_machine.json",
-          "src/main/resources/assets/hospitals/blockstates/x_ray_machine.json",
-          "src/main/resources/assets/hospitals/models/block/x_ray_machine.json",
           "src/main/java/net/derpymeow/hospitals/block/XRayMachineBlock.java",
-          "src/main/resources/assets/hospitals/models/item/x_ray_machine.json"
+          "src/main/resources/assets/hospitals/models/item/x_ray_machine.json",
+          "src/main/resources/assets/hospitals/models/block/x_ray_machine.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/x_ray_machine.json",
+          "src/main/resources/assets/hospitals/blockstates/x_ray_machine.json"
         ]
       },
       "path": "~/Original Mod/Radiology"
@@ -941,11 +941,11 @@
       "registry_name": "xray_bucky_stand",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/block/XRAYBuckyStandBlock.java",
           "src/main/resources/assets/hospitals/models/block/xray_bucky_stand.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/xray_bucky_stand.json",
+          "src/main/resources/assets/hospitals/models/item/xray_bucky_stand.json",
+          "src/main/java/net/derpymeow/hospitals/block/XRAYBuckyStandBlock.java",
           "src/main/resources/assets/hospitals/blockstates/xray_bucky_stand.json",
-          "src/main/resources/assets/hospitals/models/item/xray_bucky_stand.json"
+          "src/main/resources/data/hospitals/loot_tables/blocks/xray_bucky_stand.json"
         ]
       },
       "path": "~/Original Mod/Radiology"
@@ -958,11 +958,11 @@
       "registry_name": "computer_ct_scan_viewer",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/block/ComputerCTScanViewerBlock.java",
           "src/main/resources/data/hospitals/loot_tables/blocks/computer_ct_scan_viewer.json",
           "src/main/resources/assets/hospitals/models/item/computer_ct_scan_viewer.json",
-          "src/main/resources/assets/hospitals/models/block/computer_ct_scan_viewer.json",
-          "src/main/resources/assets/hospitals/blockstates/computer_ct_scan_viewer.json"
+          "src/main/java/net/derpymeow/hospitals/block/ComputerCTScanViewerBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/computer_ct_scan_viewer.json",
+          "src/main/resources/assets/hospitals/models/block/computer_ct_scan_viewer.json"
         ]
       },
       "path": "~/Original Mod/Radiology"
@@ -975,11 +975,11 @@
       "registry_name": "computer_x_ray_viewer",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/computer_x_ray_viewer.json",
-          "src/main/resources/assets/hospitals/models/block/computer_x_ray_viewer.json",
+          "src/main/resources/assets/hospitals/blockstates/computer_x_ray_viewer.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/computer_x_ray_viewer.json",
+          "src/main/resources/assets/hospitals/models/item/computer_x_ray_viewer.json",
           "src/main/java/net/derpymeow/hospitals/block/ComputerXRayViewerBlock.java",
-          "src/main/resources/assets/hospitals/blockstates/computer_x_ray_viewer.json"
+          "src/main/resources/assets/hospitals/models/block/computer_x_ray_viewer.json"
         ]
       },
       "path": "~/Original Mod/Radiology"
@@ -992,8 +992,8 @@
       "registry_name": "computer_screen_2_ct_scan_viewer",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/computer_screen_2_ct_scan_viewer.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/computer_screen_2_ct_scan_viewer.json",
+          "src/main/resources/assets/hospitals/models/item/computer_screen_2_ct_scan_viewer.json",
           "src/main/resources/assets/hospitals/blockstates/computer_screen_2_ct_scan_viewer.json",
           "src/main/resources/assets/hospitals/models/block/computer_screen_2_ct_scan_viewer.json",
           "src/main/java/net/derpymeow/hospitals/block/ComputerScreen2CTScanViewerBlock.java"
@@ -1009,11 +1009,11 @@
       "registry_name": "computer_screen_2_xray_viewer",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/block/computer_screen_2_xray_viewer.json",
-          "src/main/resources/assets/hospitals/models/item/computer_screen_2_xray_viewer.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/computer_screen_2_xray_viewer.json",
           "src/main/java/net/derpymeow/hospitals/block/ComputerScreen2XRAYViewerBlock.java",
-          "src/main/resources/assets/hospitals/blockstates/computer_screen_2_xray_viewer.json"
+          "src/main/resources/assets/hospitals/blockstates/computer_screen_2_xray_viewer.json",
+          "src/main/resources/assets/hospitals/models/item/computer_screen_2_xray_viewer.json",
+          "src/main/resources/assets/hospitals/models/block/computer_screen_2_xray_viewer.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/computer_screen_2_xray_viewer.json"
         ]
       },
       "path": "~/Original Mod/Radiology"
@@ -1026,11 +1026,11 @@
       "registry_name": "bedside_head_unit",
       "metadata": {
         "files": [
+          "src/main/java/net/derpymeow/hospitals/block/BedsideHeadUnitBlock.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/bedside_head_unit.json",
           "src/main/resources/assets/hospitals/models/item/bedside_head_unit.json",
           "src/main/resources/assets/hospitals/blockstates/bedside_head_unit.json",
-          "src/main/resources/assets/hospitals/models/block/bedside_head_unit.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/bedside_head_unit.json",
-          "src/main/java/net/derpymeow/hospitals/block/BedsideHeadUnitBlock.java"
+          "src/main/resources/assets/hospitals/models/block/bedside_head_unit.json"
         ]
       },
       "path": "~/Original Mod/Ward"
@@ -1043,11 +1043,11 @@
       "registry_name": "ward_storage_drawers",
       "metadata": {
         "files": [
+          "src/main/resources/assets/hospitals/models/item/ward_storage_drawers.json",
           "src/main/java/net/derpymeow/hospitals/block/WardStorageDrawersBlock.java",
           "src/main/resources/assets/hospitals/blockstates/ward_storage_drawers.json",
-          "src/main/resources/assets/hospitals/models/block/ward_storage_drawers.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/ward_storage_drawers.json",
-          "src/main/resources/assets/hospitals/models/item/ward_storage_drawers.json"
+          "src/main/resources/assets/hospitals/models/block/ward_storage_drawers.json"
         ]
       },
       "path": "~/Original Mod/Ward"
@@ -1061,10 +1061,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/hospitals/models/item/fetal_monitoring_workstation.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/fetal_monitoring_workstation.json",
+          "src/main/resources/assets/hospitals/models/block/fetal_monitoring_workstation.json",
           "src/main/java/net/derpymeow/hospitals/block/FetalMonitoringWorkstationBlock.java",
-          "src/main/resources/assets/hospitals/blockstates/fetal_monitoring_workstation.json",
-          "src/main/resources/assets/hospitals/models/block/fetal_monitoring_workstation.json"
+          "src/main/resources/data/hospitals/loot_tables/blocks/fetal_monitoring_workstation.json",
+          "src/main/resources/assets/hospitals/blockstates/fetal_monitoring_workstation.json"
         ]
       },
       "path": "~/Original Mod/Ward"
@@ -1079,9 +1079,9 @@
         "files": [
           "src/main/resources/assets/hospitals/models/block/hospital_bed.json",
           "src/main/java/net/derpymeow/hospitals/block/HospitalBedBlock.java",
+          "src/main/resources/assets/hospitals/models/item/hospital_bed.json",
           "src/main/resources/assets/hospitals/blockstates/hospital_bed.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/hospital_bed.json",
-          "src/main/resources/assets/hospitals/models/item/hospital_bed.json"
+          "src/main/resources/data/hospitals/loot_tables/blocks/hospital_bed.json"
         ]
       },
       "path": "~/Original Mod/Ward"
@@ -1094,10 +1094,10 @@
       "registry_name": "iv_stand",
       "metadata": {
         "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/iv_stand.json",
+          "src/main/resources/assets/hospitals/models/block/iv_stand.json",
           "src/main/java/net/derpymeow/hospitals/block/IVStandBlock.java",
           "src/main/resources/assets/hospitals/models/item/iv_stand.json",
-          "src/main/resources/assets/hospitals/models/block/iv_stand.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/iv_stand.json",
           "src/main/resources/assets/hospitals/blockstates/iv_stand.json"
         ]
       },
@@ -1111,11 +1111,11 @@
       "registry_name": "medical_workstation_cart",
       "metadata": {
         "files": [
-          "src/main/resources/data/hospitals/loot_tables/blocks/medical_workstation_cart.json",
-          "src/main/resources/assets/hospitals/models/item/medical_workstation_cart.json",
-          "src/main/java/net/derpymeow/hospitals/block/MedicalWorkstationCartBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/medical_workstation_cart.json",
           "src/main/resources/assets/hospitals/models/block/medical_workstation_cart.json",
-          "src/main/resources/assets/hospitals/blockstates/medical_workstation_cart.json"
+          "src/main/java/net/derpymeow/hospitals/block/MedicalWorkstationCartBlock.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/medical_workstation_cart.json",
+          "src/main/resources/assets/hospitals/models/item/medical_workstation_cart.json"
         ]
       },
       "path": "~/Original Mod/Ward"
@@ -1128,11 +1128,11 @@
       "registry_name": "life_support_syringe_pumps",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/life_support_syringe_pumps.json",
+          "src/main/resources/assets/hospitals/blockstates/life_support_syringe_pumps.json",
           "src/main/java/net/derpymeow/hospitals/block/LifeSupportSyringePumpsBlock.java",
-          "src/main/resources/assets/hospitals/models/block/life_support_syringe_pumps.json",
+          "src/main/resources/assets/hospitals/models/item/life_support_syringe_pumps.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/life_support_syringe_pumps.json",
-          "src/main/resources/assets/hospitals/blockstates/life_support_syringe_pumps.json"
+          "src/main/resources/assets/hospitals/models/block/life_support_syringe_pumps.json"
         ]
       },
       "path": "~/Original Mod/Ward"
@@ -1146,10 +1146,10 @@
       "metadata": {
         "files": [
           "src/main/resources/data/hospitals/loot_tables/blocks/heart_rate_monitor.json",
-          "src/main/resources/assets/hospitals/models/block/heart_rate_monitor.json",
-          "src/main/java/net/derpymeow/hospitals/block/HeartRateMonitorBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/heart_rate_monitor.json",
           "src/main/resources/assets/hospitals/models/item/heart_rate_monitor.json",
-          "src/main/resources/assets/hospitals/blockstates/heart_rate_monitor.json"
+          "src/main/resources/assets/hospitals/models/block/heart_rate_monitor.json",
+          "src/main/java/net/derpymeow/hospitals/block/HeartRateMonitorBlock.java"
         ]
       },
       "path": "~/Original Mod/Ward"
@@ -1162,9 +1162,9 @@
       "registry_name": "ward_resus_trolley",
       "metadata": {
         "files": [
+          "src/main/java/net/derpymeow/hospitals/block/WardResusTrolleyBlock.java",
           "src/main/resources/data/hospitals/loot_tables/blocks/ward_resus_trolley.json",
           "src/main/resources/assets/hospitals/blockstates/ward_resus_trolley.json",
-          "src/main/java/net/derpymeow/hospitals/block/WardResusTrolleyBlock.java",
           "src/main/resources/assets/hospitals/models/item/ward_resus_trolley.json",
           "src/main/resources/assets/hospitals/models/block/ward_resus_trolley.json"
         ]
@@ -1179,10 +1179,10 @@
       "registry_name": "medical_gas_alarm_panel",
       "metadata": {
         "files": [
-          "src/main/resources/data/hospitals/loot_tables/blocks/medical_gas_alarm_panel.json",
-          "src/main/resources/assets/hospitals/models/block/medical_gas_alarm_panel.json",
-          "src/main/resources/assets/hospitals/models/item/medical_gas_alarm_panel.json",
           "src/main/java/net/derpymeow/hospitals/block/MedicalGasAlarmPanelBlock.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/medical_gas_alarm_panel.json",
+          "src/main/resources/assets/hospitals/models/item/medical_gas_alarm_panel.json",
+          "src/main/resources/assets/hospitals/models/block/medical_gas_alarm_panel.json",
           "src/main/resources/assets/hospitals/blockstates/medical_gas_alarm_panel.json"
         ]
       },
@@ -1198,9 +1198,9 @@
         "files": [
           "src/main/java/net/derpymeow/hospitals/block/HandSanitiserDispenserBlock.java",
           "src/main/resources/assets/hospitals/blockstates/hand_sanitiser_dispenser.json",
-          "src/main/resources/assets/hospitals/models/block/hand_sanitiser_dispenser.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/hand_sanitiser_dispenser.json",
-          "src/main/resources/assets/hospitals/models/item/hand_sanitiser_dispenser.json"
+          "src/main/resources/assets/hospitals/models/item/hand_sanitiser_dispenser.json",
+          "src/main/resources/assets/hospitals/models/block/hand_sanitiser_dispenser.json"
         ]
       },
       "path": "~/Original Mod/Ward"
@@ -1213,11 +1213,11 @@
       "registry_name": "rack_shelving_empty",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/block/rack_shelving_empty.json",
           "src/main/resources/assets/hospitals/models/item/rack_shelving_empty.json",
           "src/main/java/net/derpymeow/hospitals/block/RackShelvingEmptyBlock.java",
-          "src/main/resources/data/hospitals/loot_tables/blocks/rack_shelving_empty.json",
-          "src/main/resources/assets/hospitals/blockstates/rack_shelving_empty.json"
+          "src/main/resources/assets/hospitals/models/block/rack_shelving_empty.json",
+          "src/main/resources/assets/hospitals/blockstates/rack_shelving_empty.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/rack_shelving_empty.json"
         ]
       },
       "path": "~/Original Mod/Ward"
@@ -1230,11 +1230,11 @@
       "registry_name": "rack_shelves_linen",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/block/rack_shelves_linen.json",
-          "src/main/java/net/derpymeow/hospitals/block/RackShelvesLinenBlock.java",
-          "src/main/resources/assets/hospitals/models/item/rack_shelves_linen.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/rack_shelves_linen.json",
-          "src/main/resources/assets/hospitals/blockstates/rack_shelves_linen.json"
+          "src/main/resources/assets/hospitals/models/block/rack_shelves_linen.json",
+          "src/main/resources/assets/hospitals/blockstates/rack_shelves_linen.json",
+          "src/main/java/net/derpymeow/hospitals/block/RackShelvesLinenBlock.java",
+          "src/main/resources/assets/hospitals/models/item/rack_shelves_linen.json"
         ]
       },
       "path": "~/Original Mod/Ward"
@@ -1247,10 +1247,10 @@
       "registry_name": "fire_exit_sign_ceiling_mounted",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/blockstates/fire_exit_sign_ceiling_mounted.json",
           "src/main/java/net/derpymeow/hospitals/block/FireExitSignCeilingMountedBlock.java",
-          "src/main/resources/assets/hospitals/models/block/fire_exit_sign_ceiling_mounted.json",
           "src/main/resources/assets/hospitals/models/item/fire_exit_sign_ceiling_mounted.json",
+          "src/main/resources/assets/hospitals/models/block/fire_exit_sign_ceiling_mounted.json",
+          "src/main/resources/assets/hospitals/blockstates/fire_exit_sign_ceiling_mounted.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/fire_exit_sign_ceiling_mounted.json"
         ]
       },
@@ -1264,10 +1264,10 @@
       "registry_name": "fire_exit_sign_wall_mounted",
       "metadata": {
         "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/fire_exit_sign_wall_mounted.json",
+          "src/main/resources/assets/hospitals/blockstates/fire_exit_sign_wall_mounted.json",
           "src/main/java/net/derpymeow/hospitals/block/FireExitSignWallMountedBlock.java",
           "src/main/resources/assets/hospitals/models/item/fire_exit_sign_wall_mounted.json",
-          "src/main/resources/assets/hospitals/blockstates/fire_exit_sign_wall_mounted.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/fire_exit_sign_wall_mounted.json",
           "src/main/resources/assets/hospitals/models/block/fire_exit_sign_wall_mounted.json"
         ]
       },
@@ -1281,11 +1281,11 @@
       "registry_name": "fire_extinguisher",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/fire_extinguisher.json",
-          "src/main/resources/assets/hospitals/blockstates/fire_extinguisher.json",
           "src/main/java/net/derpymeow/hospitals/block/FireExtinguisherBlock.java",
           "src/main/resources/assets/hospitals/models/block/fire_extinguisher.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/fire_extinguisher.json"
+          "src/main/resources/data/hospitals/loot_tables/blocks/fire_extinguisher.json",
+          "src/main/resources/assets/hospitals/models/item/fire_extinguisher.json",
+          "src/main/resources/assets/hospitals/blockstates/fire_extinguisher.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1298,11 +1298,11 @@
       "registry_name": "patient_informaiton_point",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/block/PatientInformaitonPointBlock.java",
-          "src/main/resources/assets/hospitals/models/item/patient_informaiton_point.json",
+          "src/main/resources/assets/hospitals/models/block/patient_informaiton_point.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/patient_informaiton_point.json",
           "src/main/resources/assets/hospitals/blockstates/patient_informaiton_point.json",
-          "src/main/resources/assets/hospitals/models/block/patient_informaiton_point.json"
+          "src/main/resources/assets/hospitals/models/item/patient_informaiton_point.json",
+          "src/main/java/net/derpymeow/hospitals/block/PatientInformaitonPointBlock.java"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1315,11 +1315,11 @@
       "registry_name": "roll_cage_storage",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/blockstates/roll_cage_storage.json",
-          "src/main/resources/assets/hospitals/models/item/roll_cage_storage.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/roll_cage_storage.json",
+          "src/main/java/net/derpymeow/hospitals/block/RollCageStorageBlock.java",
           "src/main/resources/assets/hospitals/models/block/roll_cage_storage.json",
-          "src/main/java/net/derpymeow/hospitals/block/RollCageStorageBlock.java"
+          "src/main/resources/assets/hospitals/blockstates/roll_cage_storage.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/roll_cage_storage.json",
+          "src/main/resources/assets/hospitals/models/item/roll_cage_storage.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1349,11 +1349,11 @@
       "registry_name": "vinyl_floor_blue_type_1",
       "metadata": {
         "files": [
-          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_floor_blue_type_1.json",
           "src/main/resources/assets/hospitals/models/item/vinyl_floor_blue_type_1.json",
           "src/main/resources/assets/hospitals/blockstates/vinyl_floor_blue_type_1.json",
           "src/main/java/net/derpymeow/hospitals/block/VinylFloorBlueType1Block.java",
-          "src/main/resources/assets/hospitals/models/block/vinyl_floor_blue_type_1.json"
+          "src/main/resources/assets/hospitals/models/block/vinyl_floor_blue_type_1.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_floor_blue_type_1.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1366,11 +1366,11 @@
       "registry_name": "vinyl_floor_grey_type_1",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/block/VinylFloorGreyType1Block.java",
-          "src/main/resources/assets/hospitals/models/block/vinyl_floor_grey_type_1.json",
           "src/main/resources/assets/hospitals/blockstates/vinyl_floor_grey_type_1.json",
-          "src/main/resources/assets/hospitals/models/item/vinyl_floor_grey_type_1.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_floor_grey_type_1.json"
+          "src/main/resources/assets/hospitals/models/block/vinyl_floor_grey_type_1.json",
+          "src/main/java/net/derpymeow/hospitals/block/VinylFloorGreyType1Block.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_floor_grey_type_1.json",
+          "src/main/resources/assets/hospitals/models/item/vinyl_floor_grey_type_1.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1383,11 +1383,11 @@
       "registry_name": "vinyl_floor_white_type_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/block/vinyl_floor_white_type_1.json",
-          "src/main/resources/assets/hospitals/blockstates/vinyl_floor_white_type_1.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_floor_white_type_1.json",
           "src/main/resources/assets/hospitals/models/item/vinyl_floor_white_type_1.json",
+          "src/main/resources/assets/hospitals/models/block/vinyl_floor_white_type_1.json",
           "src/main/java/net/derpymeow/hospitals/block/VinylFloorWhiteType1Block.java",
-          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_floor_white_type_1.json"
+          "src/main/resources/assets/hospitals/blockstates/vinyl_floor_white_type_1.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1400,11 +1400,11 @@
       "registry_name": "vinyl_floor_light_blue_type_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/block/vinyl_floor_light_blue_type_1.json",
+          "src/main/resources/assets/hospitals/blockstates/vinyl_floor_light_blue_type_1.json",
           "src/main/resources/assets/hospitals/models/item/vinyl_floor_light_blue_type_1.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_floor_light_blue_type_1.json",
+          "src/main/resources/assets/hospitals/models/block/vinyl_floor_light_blue_type_1.json",
           "src/main/java/net/derpymeow/hospitals/block/VinylFloorLightBlueType1Block.java",
-          "src/main/resources/assets/hospitals/blockstates/vinyl_floor_light_blue_type_1.json"
+          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_floor_light_blue_type_1.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1417,11 +1417,11 @@
       "registry_name": "vinyl_floor_green_type_1",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/block/VinylFloorGreenType1Block.java",
-          "src/main/resources/assets/hospitals/models/item/vinyl_floor_green_type_1.json",
-          "src/main/resources/assets/hospitals/blockstates/vinyl_floor_green_type_1.json",
           "src/main/resources/assets/hospitals/models/block/vinyl_floor_green_type_1.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_floor_green_type_1.json"
+          "src/main/java/net/derpymeow/hospitals/block/VinylFloorGreenType1Block.java",
+          "src/main/resources/assets/hospitals/blockstates/vinyl_floor_green_type_1.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_floor_green_type_1.json",
+          "src/main/resources/assets/hospitals/models/item/vinyl_floor_green_type_1.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1434,11 +1434,11 @@
       "registry_name": "vinyl_floor_aqua_type_1",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/block/VinylFloorAquaType1Block.java",
-          "src/main/resources/assets/hospitals/models/block/vinyl_floor_aqua_type_1.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_floor_aqua_type_1.json",
           "src/main/resources/assets/hospitals/models/item/vinyl_floor_aqua_type_1.json",
-          "src/main/resources/assets/hospitals/blockstates/vinyl_floor_aqua_type_1.json"
+          "src/main/java/net/derpymeow/hospitals/block/VinylFloorAquaType1Block.java",
+          "src/main/resources/assets/hospitals/blockstates/vinyl_floor_aqua_type_1.json",
+          "src/main/resources/assets/hospitals/models/block/vinyl_floor_aqua_type_1.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1451,10 +1451,10 @@
       "registry_name": "vinyl_floor_red_type_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/vinyl_floor_red_type_1.json",
-          "src/main/resources/assets/hospitals/models/block/vinyl_floor_red_type_1.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_floor_red_type_1.json",
           "src/main/java/net/derpymeow/hospitals/block/VinylFloorRedType1Block.java",
+          "src/main/resources/assets/hospitals/models/item/vinyl_floor_red_type_1.json",
+          "src/main/resources/assets/hospitals/models/block/vinyl_floor_red_type_1.json",
           "src/main/resources/assets/hospitals/blockstates/vinyl_floor_red_type_1.json"
         ]
       },
@@ -1469,10 +1469,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/hospitals/blockstates/vinyl_wall_blue_type_1.json",
-          "src/main/java/net/derpymeow/hospitals/block/VinylWallBlueType1Block.java",
-          "src/main/resources/assets/hospitals/models/item/vinyl_wall_blue_type_1.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_wall_blue_type_1.json",
           "src/main/resources/assets/hospitals/models/block/vinyl_wall_blue_type_1.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_wall_blue_type_1.json"
+          "src/main/resources/assets/hospitals/models/item/vinyl_wall_blue_type_1.json",
+          "src/main/java/net/derpymeow/hospitals/block/VinylWallBlueType1Block.java"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1487,9 +1487,9 @@
         "files": [
           "src/main/resources/assets/hospitals/models/item/vinyl_wall_grey_type_1.json",
           "src/main/resources/assets/hospitals/models/block/vinyl_wall_grey_type_1.json",
-          "src/main/java/net/derpymeow/hospitals/block/VinylWallGreyType1Block.java",
           "src/main/resources/assets/hospitals/blockstates/vinyl_wall_grey_type_1.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_wall_grey_type_1.json"
+          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_wall_grey_type_1.json",
+          "src/main/java/net/derpymeow/hospitals/block/VinylWallGreyType1Block.java"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1502,11 +1502,11 @@
       "registry_name": "vinyl_wall_white_type_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/block/vinyl_wall_white_type_1.json",
-          "src/main/resources/assets/hospitals/blockstates/vinyl_wall_white_type_1.json",
           "src/main/java/net/derpymeow/hospitals/block/VinylWallWhiteType1Block.java",
-          "src/main/resources/assets/hospitals/models/item/vinyl_wall_white_type_1.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_wall_white_type_1.json"
+          "src/main/resources/assets/hospitals/blockstates/vinyl_wall_white_type_1.json",
+          "src/main/resources/assets/hospitals/models/block/vinyl_wall_white_type_1.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_wall_white_type_1.json",
+          "src/main/resources/assets/hospitals/models/item/vinyl_wall_white_type_1.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1519,11 +1519,11 @@
       "registry_name": "vinyl_wall_light_blue_type_1",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/block/VinylWallLightBlueType1Block.java",
+          "src/main/resources/assets/hospitals/models/block/vinyl_wall_light_blue_type_1.json",
           "src/main/resources/assets/hospitals/models/item/vinyl_wall_light_blue_type_1.json",
+          "src/main/java/net/derpymeow/hospitals/block/VinylWallLightBlueType1Block.java",
           "src/main/resources/assets/hospitals/blockstates/vinyl_wall_light_blue_type_1.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_wall_light_blue_type_1.json",
-          "src/main/resources/assets/hospitals/models/block/vinyl_wall_light_blue_type_1.json"
+          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_wall_light_blue_type_1.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1536,11 +1536,11 @@
       "registry_name": "vinyl_wall_green_type_1",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/block/VinylWallGreenType1Block.java",
           "src/main/resources/assets/hospitals/blockstates/vinyl_wall_green_type_1.json",
           "src/main/resources/assets/hospitals/models/block/vinyl_wall_green_type_1.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_wall_green_type_1.json",
-          "src/main/resources/assets/hospitals/models/item/vinyl_wall_green_type_1.json"
+          "src/main/java/net/derpymeow/hospitals/block/VinylWallGreenType1Block.java",
+          "src/main/resources/assets/hospitals/models/item/vinyl_wall_green_type_1.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_wall_green_type_1.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1555,9 +1555,9 @@
         "files": [
           "src/main/resources/assets/hospitals/models/item/vinyl_wall_aqua_type_1.json",
           "src/main/resources/assets/hospitals/models/block/vinyl_wall_aqua_type_1.json",
-          "src/main/resources/assets/hospitals/blockstates/vinyl_wall_aqua_type_1.json",
           "src/main/java/net/derpymeow/hospitals/block/VinylWallAquaType1Block.java",
-          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_wall_aqua_type_1.json"
+          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_wall_aqua_type_1.json",
+          "src/main/resources/assets/hospitals/blockstates/vinyl_wall_aqua_type_1.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1570,9 +1570,9 @@
       "registry_name": "vinyl_wall_red_type_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/vinyl_wall_red_type_1.json",
           "src/main/resources/assets/hospitals/blockstates/vinyl_wall_red_type_1.json",
           "src/main/java/net/derpymeow/hospitals/block/VinylWallRedType1Block.java",
+          "src/main/resources/assets/hospitals/models/item/vinyl_wall_red_type_1.json",
           "src/main/resources/assets/hospitals/models/block/vinyl_wall_red_type_1.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_wall_red_type_1.json"
         ]
@@ -1587,11 +1587,11 @@
       "registry_name": "vinyl_floor_blue_type_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/blockstates/vinyl_floor_blue_type_2.json",
           "src/main/java/net/derpymeow/hospitals/block/VinylFloorBlueType2Block.java",
+          "src/main/resources/assets/hospitals/blockstates/vinyl_floor_blue_type_2.json",
+          "src/main/resources/assets/hospitals/models/block/vinyl_floor_blue_type_2.json",
           "src/main/resources/assets/hospitals/models/item/vinyl_floor_blue_type_2.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_floor_blue_type_2.json",
-          "src/main/resources/assets/hospitals/models/block/vinyl_floor_blue_type_2.json"
+          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_floor_blue_type_2.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1606,9 +1606,9 @@
         "files": [
           "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_floor_beige_type_2.json",
           "src/main/resources/assets/hospitals/blockstates/vinyl_floor_beige_type_2.json",
-          "src/main/resources/assets/hospitals/models/block/vinyl_floor_beige_type_2.json",
+          "src/main/resources/assets/hospitals/models/item/vinyl_floor_beige_type_2.json",
           "src/main/java/net/derpymeow/hospitals/block/VinylFloorBeigeType2Block.java",
-          "src/main/resources/assets/hospitals/models/item/vinyl_floor_beige_type_2.json"
+          "src/main/resources/assets/hospitals/models/block/vinyl_floor_beige_type_2.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1621,8 +1621,8 @@
       "registry_name": "vinyl_floor_grey_type_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/blockstates/vinyl_floor_grey_type_2.json",
           "src/main/java/net/derpymeow/hospitals/block/VinylFloorGreyType2Block.java",
+          "src/main/resources/assets/hospitals/blockstates/vinyl_floor_grey_type_2.json",
           "src/main/resources/assets/hospitals/models/block/vinyl_floor_grey_type_2.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_floor_grey_type_2.json",
           "src/main/resources/assets/hospitals/models/item/vinyl_floor_grey_type_2.json"
@@ -1639,8 +1639,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/hospitals/blockstates/vinyl_floor_aqua_type_2.json",
-          "src/main/resources/assets/hospitals/models/block/vinyl_floor_aqua_type_2.json",
           "src/main/java/net/derpymeow/hospitals/block/VinylFloorAquaType2Block.java",
+          "src/main/resources/assets/hospitals/models/block/vinyl_floor_aqua_type_2.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_floor_aqua_type_2.json",
           "src/main/resources/assets/hospitals/models/item/vinyl_floor_aqua_type_2.json"
         ]
@@ -1655,11 +1655,11 @@
       "registry_name": "vinyl_floor_salmon_type_2",
       "metadata": {
         "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_floor_salmon_type_2.json",
           "src/main/resources/assets/hospitals/blockstates/vinyl_floor_salmon_type_2.json",
-          "src/main/resources/assets/hospitals/models/block/vinyl_floor_salmon_type_2.json",
-          "src/main/resources/assets/hospitals/models/item/vinyl_floor_salmon_type_2.json",
           "src/main/java/net/derpymeow/hospitals/block/VinylFloorSalmonType2Block.java",
-          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_floor_salmon_type_2.json"
+          "src/main/resources/assets/hospitals/models/block/vinyl_floor_salmon_type_2.json",
+          "src/main/resources/assets/hospitals/models/item/vinyl_floor_salmon_type_2.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1673,9 +1673,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/hospitals/models/item/vinyl_wall_blue_type_2.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_wall_blue_type_2.json",
           "src/main/resources/assets/hospitals/blockstates/vinyl_wall_blue_type_2.json",
           "src/main/java/net/derpymeow/hospitals/block/VinylWallBlueType2Block.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_wall_blue_type_2.json",
           "src/main/resources/assets/hospitals/models/block/vinyl_wall_blue_type_2.json"
         ]
       },
@@ -1689,11 +1689,11 @@
       "registry_name": "vinyl_wall_beige_type_2",
       "metadata": {
         "files": [
+          "src/main/resources/assets/hospitals/models/item/vinyl_wall_beige_type_2.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_wall_beige_type_2.json",
           "src/main/java/net/derpymeow/hospitals/block/VinylWallBeigeType2Block.java",
-          "src/main/resources/assets/hospitals/models/block/vinyl_wall_beige_type_2.json",
-          "src/main/resources/assets/hospitals/models/item/vinyl_wall_beige_type_2.json",
-          "src/main/resources/assets/hospitals/blockstates/vinyl_wall_beige_type_2.json"
+          "src/main/resources/assets/hospitals/blockstates/vinyl_wall_beige_type_2.json",
+          "src/main/resources/assets/hospitals/models/block/vinyl_wall_beige_type_2.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1707,10 +1707,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/hospitals/blockstates/vinyl_wall_grey_type_2.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_wall_grey_type_2.json",
+          "src/main/java/net/derpymeow/hospitals/block/VinylWallGreyType2Block.java",
           "src/main/resources/assets/hospitals/models/item/vinyl_wall_grey_type_2.json",
-          "src/main/resources/assets/hospitals/models/block/vinyl_wall_grey_type_2.json",
-          "src/main/java/net/derpymeow/hospitals/block/VinylWallGreyType2Block.java"
+          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_wall_grey_type_2.json",
+          "src/main/resources/assets/hospitals/models/block/vinyl_wall_grey_type_2.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1723,10 +1723,10 @@
       "registry_name": "vinyl_wall_aqua_type_2",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/block/VinylWallAquaType2Block.java",
-          "src/main/resources/assets/hospitals/blockstates/vinyl_wall_aqua_type_2.json",
-          "src/main/resources/assets/hospitals/models/block/vinyl_wall_aqua_type_2.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_wall_aqua_type_2.json",
+          "src/main/resources/assets/hospitals/blockstates/vinyl_wall_aqua_type_2.json",
+          "src/main/java/net/derpymeow/hospitals/block/VinylWallAquaType2Block.java",
+          "src/main/resources/assets/hospitals/models/block/vinyl_wall_aqua_type_2.json",
           "src/main/resources/assets/hospitals/models/item/vinyl_wall_aqua_type_2.json"
         ]
       },
@@ -1740,11 +1740,11 @@
       "registry_name": "vinyl_wall_salmon_type_2",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/block/VinylWallSalmonType2Block.java",
-          "src/main/resources/assets/hospitals/models/item/vinyl_wall_salmon_type_2.json",
           "src/main/resources/assets/hospitals/models/block/vinyl_wall_salmon_type_2.json",
-          "src/main/resources/assets/hospitals/blockstates/vinyl_wall_salmon_type_2.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_wall_salmon_type_2.json"
+          "src/main/java/net/derpymeow/hospitals/block/VinylWallSalmonType2Block.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_wall_salmon_type_2.json",
+          "src/main/resources/assets/hospitals/models/item/vinyl_wall_salmon_type_2.json",
+          "src/main/resources/assets/hospitals/blockstates/vinyl_wall_salmon_type_2.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1757,11 +1757,11 @@
       "registry_name": "brick_beige",
       "metadata": {
         "files": [
-          "src/main/resources/data/hospitals/loot_tables/blocks/brick_beige.json",
-          "src/main/java/net/derpymeow/hospitals/block/BrickBeigeBlock.java",
-          "src/main/resources/assets/hospitals/models/block/brick_beige.json",
           "src/main/resources/assets/hospitals/blockstates/brick_beige.json",
-          "src/main/resources/assets/hospitals/models/item/brick_beige.json"
+          "src/main/java/net/derpymeow/hospitals/block/BrickBeigeBlock.java",
+          "src/main/resources/assets/hospitals/models/item/brick_beige.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/brick_beige.json",
+          "src/main/resources/assets/hospitals/models/block/brick_beige.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1774,11 +1774,11 @@
       "registry_name": "brick_grey",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/block/brick_grey.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/brick_grey.json",
+          "src/main/resources/assets/hospitals/blockstates/brick_grey.json",
           "src/main/resources/assets/hospitals/models/item/brick_grey.json",
           "src/main/java/net/derpymeow/hospitals/block/BrickGreyBlock.java",
-          "src/main/resources/assets/hospitals/blockstates/brick_grey.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/brick_grey.json"
+          "src/main/resources/assets/hospitals/models/block/brick_grey.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1791,11 +1791,11 @@
       "registry_name": "brick_dark",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/brick_dark.json",
-          "src/main/resources/assets/hospitals/models/block/brick_dark.json",
           "src/main/java/net/derpymeow/hospitals/block/BrickDarkBlock.java",
+          "src/main/resources/assets/hospitals/models/block/brick_dark.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/brick_dark.json",
           "src/main/resources/assets/hospitals/blockstates/brick_dark.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/brick_dark.json"
+          "src/main/resources/assets/hospitals/models/item/brick_dark.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1808,11 +1808,11 @@
       "registry_name": "brick_red",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/blockstates/brick_red.json",
-          "src/main/java/net/derpymeow/hospitals/block/BrickRedBlock.java",
           "src/main/resources/assets/hospitals/models/item/brick_red.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/brick_red.json",
-          "src/main/resources/assets/hospitals/models/block/brick_red.json"
+          "src/main/resources/assets/hospitals/blockstates/brick_red.json",
+          "src/main/resources/assets/hospitals/models/block/brick_red.json",
+          "src/main/java/net/derpymeow/hospitals/block/BrickRedBlock.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/brick_red.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1825,11 +1825,11 @@
       "registry_name": "smooth_concrete",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/blockstates/smooth_concrete.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/smooth_concrete.json",
-          "src/main/java/net/derpymeow/hospitals/block/SmoothConcreteBlock.java",
           "src/main/resources/assets/hospitals/models/item/smooth_concrete.json",
-          "src/main/resources/assets/hospitals/models/block/smooth_concrete.json"
+          "src/main/resources/assets/hospitals/models/block/smooth_concrete.json",
+          "src/main/java/net/derpymeow/hospitals/block/SmoothConcreteBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/smooth_concrete.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/smooth_concrete.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1842,11 +1842,11 @@
       "registry_name": "plastered_wall_beige",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/block/plastered_wall_beige.json",
-          "src/main/resources/assets/hospitals/models/item/plastered_wall_beige.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/plastered_wall_beige.json",
+          "src/main/resources/assets/hospitals/models/block/plastered_wall_beige.json",
+          "src/main/java/net/derpymeow/hospitals/block/PlasteredWallBeigeBlock.java",
           "src/main/resources/assets/hospitals/blockstates/plastered_wall_beige.json",
-          "src/main/java/net/derpymeow/hospitals/block/PlasteredWallBeigeBlock.java"
+          "src/main/resources/assets/hospitals/models/item/plastered_wall_beige.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1859,11 +1859,11 @@
       "registry_name": "plastered_wall_blue",
       "metadata": {
         "files": [
-          "src/main/resources/data/hospitals/loot_tables/blocks/plastered_wall_blue.json",
+          "src/main/resources/assets/hospitals/blockstates/plastered_wall_blue.json",
+          "src/main/resources/assets/hospitals/models/block/plastered_wall_blue.json",
           "src/main/java/net/derpymeow/hospitals/block/PlasteredWallBlueBlock.java",
           "src/main/resources/assets/hospitals/models/item/plastered_wall_blue.json",
-          "src/main/resources/assets/hospitals/models/block/plastered_wall_blue.json",
-          "src/main/resources/assets/hospitals/blockstates/plastered_wall_blue.json"
+          "src/main/resources/data/hospitals/loot_tables/blocks/plastered_wall_blue.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1877,9 +1877,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/derpymeow/hospitals/block/PlasteredWallGreenBlock.java",
-          "src/main/resources/data/hospitals/loot_tables/blocks/plastered_wall_green.json",
           "src/main/resources/assets/hospitals/models/block/plastered_wall_green.json",
           "src/main/resources/assets/hospitals/models/item/plastered_wall_green.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/plastered_wall_green.json",
           "src/main/resources/assets/hospitals/blockstates/plastered_wall_green.json"
         ]
       },
@@ -1893,11 +1893,11 @@
       "registry_name": "plastered_wall_grey",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/plastered_wall_grey.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/plastered_wall_grey.json",
+          "src/main/resources/assets/hospitals/blockstates/plastered_wall_grey.json",
           "src/main/java/net/derpymeow/hospitals/block/PlasteredWallGreyBlock.java",
-          "src/main/resources/assets/hospitals/models/block/plastered_wall_grey.json",
-          "src/main/resources/assets/hospitals/blockstates/plastered_wall_grey.json"
+          "src/main/resources/assets/hospitals/models/item/plastered_wall_grey.json",
+          "src/main/resources/assets/hospitals/models/block/plastered_wall_grey.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1910,11 +1910,11 @@
       "registry_name": "plastered_wall_lime",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/block/PlasteredWallLimeBlock.java",
-          "src/main/resources/assets/hospitals/blockstates/plastered_wall_lime.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/plastered_wall_lime.json",
+          "src/main/resources/assets/hospitals/blockstates/plastered_wall_lime.json",
           "src/main/resources/assets/hospitals/models/item/plastered_wall_lime.json",
-          "src/main/resources/assets/hospitals/models/block/plastered_wall_lime.json"
+          "src/main/resources/assets/hospitals/models/block/plastered_wall_lime.json",
+          "src/main/java/net/derpymeow/hospitals/block/PlasteredWallLimeBlock.java"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1928,10 +1928,10 @@
       "metadata": {
         "files": [
           "src/main/resources/data/hospitals/loot_tables/blocks/plastered_wall_sky_blue.json",
-          "src/main/resources/assets/hospitals/models/block/plastered_wall_sky_blue.json",
-          "src/main/resources/assets/hospitals/blockstates/plastered_wall_sky_blue.json",
+          "src/main/resources/assets/hospitals/models/item/plastered_wall_sky_blue.json",
           "src/main/java/net/derpymeow/hospitals/block/PlasteredWallSkyBlueBlock.java",
-          "src/main/resources/assets/hospitals/models/item/plastered_wall_sky_blue.json"
+          "src/main/resources/assets/hospitals/models/block/plastered_wall_sky_blue.json",
+          "src/main/resources/assets/hospitals/blockstates/plastered_wall_sky_blue.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1944,11 +1944,11 @@
       "registry_name": "plastered_wall_white",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/block/PlasteredWallWhiteBlock.java",
-          "src/main/resources/data/hospitals/loot_tables/blocks/plastered_wall_white.json",
           "src/main/resources/assets/hospitals/models/item/plastered_wall_white.json",
-          "src/main/resources/assets/hospitals/models/block/plastered_wall_white.json",
-          "src/main/resources/assets/hospitals/blockstates/plastered_wall_white.json"
+          "src/main/resources/assets/hospitals/blockstates/plastered_wall_white.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/plastered_wall_white.json",
+          "src/main/java/net/derpymeow/hospitals/block/PlasteredWallWhiteBlock.java",
+          "src/main/resources/assets/hospitals/models/block/plastered_wall_white.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1961,11 +1961,11 @@
       "registry_name": "ventilation",
       "metadata": {
         "files": [
+          "src/main/java/net/derpymeow/hospitals/block/VentilationBlock.java",
           "src/main/resources/data/hospitals/loot_tables/blocks/ventilation.json",
-          "src/main/resources/assets/hospitals/blockstates/ventilation.json",
-          "src/main/resources/assets/hospitals/models/block/ventilation.json",
           "src/main/resources/assets/hospitals/models/item/ventilation.json",
-          "src/main/java/net/derpymeow/hospitals/block/VentilationBlock.java"
+          "src/main/resources/assets/hospitals/models/block/ventilation.json",
+          "src/main/resources/assets/hospitals/blockstates/ventilation.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1978,11 +1978,11 @@
       "registry_name": "cardboard_box",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/blockstates/cardboard_box.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/cardboard_box.json",
+          "src/main/resources/assets/hospitals/models/block/cardboard_box.json",
           "src/main/resources/assets/hospitals/models/item/cardboard_box.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/cardboard_box.json",
           "src/main/java/net/derpymeow/hospitals/block/CardboardBoxBlock.java",
-          "src/main/resources/assets/hospitals/models/block/cardboard_box.json"
+          "src/main/resources/assets/hospitals/blockstates/cardboard_box.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -1998,8 +1998,8 @@
           "src/main/resources/assets/hospitals/blockstates/vinyl_floor_grey.json",
           "src/main/resources/assets/hospitals/models/item/vinyl_floor_grey.json",
           "src/main/java/net/derpymeow/hospitals/block/VinylFloorGreyBlock.java",
-          "src/main/resources/assets/hospitals/models/block/vinyl_floor_grey.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_floor_grey.json"
+          "src/main/resources/data/hospitals/loot_tables/blocks/vinyl_floor_grey.json",
+          "src/main/resources/assets/hospitals/models/block/vinyl_floor_grey.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -2013,10 +2013,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/hospitals/models/item/cladding_stone_effect.json",
-          "src/main/resources/assets/hospitals/blockstates/cladding_stone_effect.json",
-          "src/main/resources/assets/hospitals/models/block/cladding_stone_effect.json",
           "src/main/java/net/derpymeow/hospitals/block/CladdingStoneEffectBlock.java",
-          "src/main/resources/data/hospitals/loot_tables/blocks/cladding_stone_effect.json"
+          "src/main/resources/data/hospitals/loot_tables/blocks/cladding_stone_effect.json",
+          "src/main/resources/assets/hospitals/blockstates/cladding_stone_effect.json",
+          "src/main/resources/assets/hospitals/models/block/cladding_stone_effect.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -2029,11 +2029,11 @@
       "registry_name": "blue_desk_tray",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/blue_desk_tray.json",
-          "src/main/resources/assets/hospitals/models/block/blue_desk_tray.json",
           "src/main/java/net/derpymeow/hospitals/block/BlueDeskTrayBlock.java",
           "src/main/resources/data/hospitals/loot_tables/blocks/blue_desk_tray.json",
-          "src/main/resources/assets/hospitals/blockstates/blue_desk_tray.json"
+          "src/main/resources/assets/hospitals/blockstates/blue_desk_tray.json",
+          "src/main/resources/assets/hospitals/models/item/blue_desk_tray.json",
+          "src/main/resources/assets/hospitals/models/block/blue_desk_tray.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -2046,11 +2046,11 @@
       "registry_name": "red_desk_tray",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/block/RedDeskTrayBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/red_desk_tray.json",
+          "src/main/resources/assets/hospitals/models/block/red_desk_tray.json",
           "src/main/resources/assets/hospitals/models/item/red_desk_tray.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/red_desk_tray.json",
-          "src/main/resources/assets/hospitals/models/block/red_desk_tray.json",
-          "src/main/resources/assets/hospitals/blockstates/red_desk_tray.json"
+          "src/main/java/net/derpymeow/hospitals/block/RedDeskTrayBlock.java"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -2065,9 +2065,9 @@
         "files": [
           "src/main/resources/assets/hospitals/blockstates/drinks_fridge.json",
           "src/main/java/net/derpymeow/hospitals/block/DrinksFridgeBlock.java",
+          "src/main/resources/assets/hospitals/models/item/drinks_fridge.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/drinks_fridge.json",
-          "src/main/resources/assets/hospitals/models/block/drinks_fridge.json",
-          "src/main/resources/assets/hospitals/models/item/drinks_fridge.json"
+          "src/main/resources/assets/hospitals/models/block/drinks_fridge.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -2080,11 +2080,11 @@
       "registry_name": "cleaning_trolley",
       "metadata": {
         "files": [
+          "src/main/java/net/derpymeow/hospitals/block/CleaningTrolleyBlock.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/cleaning_trolley.json",
           "src/main/resources/assets/hospitals/blockstates/cleaning_trolley.json",
           "src/main/resources/assets/hospitals/models/item/cleaning_trolley.json",
-          "src/main/resources/assets/hospitals/models/block/cleaning_trolley.json",
-          "src/main/java/net/derpymeow/hospitals/block/CleaningTrolleyBlock.java",
-          "src/main/resources/data/hospitals/loot_tables/blocks/cleaning_trolley.json"
+          "src/main/resources/assets/hospitals/models/block/cleaning_trolley.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -2097,11 +2097,11 @@
       "registry_name": "wet_floor_sign",
       "metadata": {
         "files": [
-          "src/main/resources/data/hospitals/loot_tables/blocks/wet_floor_sign.json",
-          "src/main/resources/assets/hospitals/blockstates/wet_floor_sign.json",
-          "src/main/resources/assets/hospitals/models/block/wet_floor_sign.json",
           "src/main/resources/assets/hospitals/models/item/wet_floor_sign.json",
-          "src/main/java/net/derpymeow/hospitals/block/WetFloorSignBlock.java"
+          "src/main/resources/assets/hospitals/blockstates/wet_floor_sign.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/wet_floor_sign.json",
+          "src/main/java/net/derpymeow/hospitals/block/WetFloorSignBlock.java",
+          "src/main/resources/assets/hospitals/models/block/wet_floor_sign.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -2114,11 +2114,11 @@
       "registry_name": "office_wall_phone",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/block/OfficeWallPhoneBlock.java",
           "src/main/resources/assets/hospitals/models/item/office_wall_phone.json",
-          "src/main/resources/assets/hospitals/models/block/office_wall_phone.json",
           "src/main/resources/assets/hospitals/blockstates/office_wall_phone.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/office_wall_phone.json"
+          "src/main/resources/data/hospitals/loot_tables/blocks/office_wall_phone.json",
+          "src/main/java/net/derpymeow/hospitals/block/OfficeWallPhoneBlock.java",
+          "src/main/resources/assets/hospitals/models/block/office_wall_phone.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -2131,11 +2131,11 @@
       "registry_name": "office_desk_phone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/office_desk_phone.json",
-          "src/main/resources/assets/hospitals/blockstates/office_desk_phone.json",
+          "src/main/java/net/derpymeow/hospitals/block/OfficeDeskPhoneBlock.java",
           "src/main/resources/data/hospitals/loot_tables/blocks/office_desk_phone.json",
-          "src/main/resources/assets/hospitals/models/block/office_desk_phone.json",
-          "src/main/java/net/derpymeow/hospitals/block/OfficeDeskPhoneBlock.java"
+          "src/main/resources/assets/hospitals/blockstates/office_desk_phone.json",
+          "src/main/resources/assets/hospitals/models/item/office_desk_phone.json",
+          "src/main/resources/assets/hospitals/models/block/office_desk_phone.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -2151,8 +2151,8 @@
           "src/main/resources/assets/hospitals/models/item/office_printer.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/office_printer.json",
           "src/main/resources/assets/hospitals/models/block/office_printer.json",
-          "src/main/resources/assets/hospitals/blockstates/office_printer.json",
-          "src/main/java/net/derpymeow/hospitals/block/OfficePrinterBlock.java"
+          "src/main/java/net/derpymeow/hospitals/block/OfficePrinterBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/office_printer.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -2165,11 +2165,11 @@
       "registry_name": "office_desk",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/blockstates/office_desk.json",
           "src/main/java/net/derpymeow/hospitals/block/OfficeDeskBlock.java",
           "src/main/resources/assets/hospitals/models/item/office_desk.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/office_desk.json",
           "src/main/resources/assets/hospitals/models/block/office_desk.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/office_desk.json"
+          "src/main/resources/assets/hospitals/blockstates/office_desk.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -2182,10 +2182,10 @@
       "registry_name": "office_desk_with_back",
       "metadata": {
         "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/office_desk_with_back.json",
+          "src/main/resources/assets/hospitals/models/block/office_desk_with_back.json",
           "src/main/java/net/derpymeow/hospitals/block/OfficeDeskWithBackBlock.java",
           "src/main/resources/assets/hospitals/models/item/office_desk_with_back.json",
-          "src/main/resources/assets/hospitals/models/block/office_desk_with_back.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/office_desk_with_back.json",
           "src/main/resources/assets/hospitals/blockstates/office_desk_with_back.json"
         ]
       },
@@ -2199,11 +2199,11 @@
       "registry_name": "waste_bin_domestic_waste",
       "metadata": {
         "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/waste_bin_domestic_waste.json",
           "src/main/java/net/derpymeow/hospitals/block/WasteBinDomesticWasteBlock.java",
-          "src/main/resources/assets/hospitals/models/block/waste_bin_domestic_waste.json",
           "src/main/resources/assets/hospitals/blockstates/waste_bin_domestic_waste.json",
-          "src/main/resources/assets/hospitals/models/item/waste_bin_domestic_waste.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/waste_bin_domestic_waste.json"
+          "src/main/resources/assets/hospitals/models/block/waste_bin_domestic_waste.json",
+          "src/main/resources/assets/hospitals/models/item/waste_bin_domestic_waste.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -2216,11 +2216,11 @@
       "registry_name": "waste_bin_clinical_waste",
       "metadata": {
         "files": [
-          "src/main/resources/data/hospitals/loot_tables/blocks/waste_bin_clinical_waste.json",
+          "src/main/resources/assets/hospitals/blockstates/waste_bin_clinical_waste.json",
+          "src/main/resources/assets/hospitals/models/block/waste_bin_clinical_waste.json",
           "src/main/java/net/derpymeow/hospitals/block/WasteBinClinicalWasteBlock.java",
           "src/main/resources/assets/hospitals/models/item/waste_bin_clinical_waste.json",
-          "src/main/resources/assets/hospitals/blockstates/waste_bin_clinical_waste.json",
-          "src/main/resources/assets/hospitals/models/block/waste_bin_clinical_waste.json"
+          "src/main/resources/data/hospitals/loot_tables/blocks/waste_bin_clinical_waste.json"
         ]
       },
       "path": "~/Original Mod/Facilities"
@@ -2233,8 +2233,8 @@
       "registry_name": "pill",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/PillItem.java",
-          "src/main/resources/assets/hospitals/models/item/pill.json"
+          "src/main/resources/assets/hospitals/models/item/pill.json",
+          "src/main/java/net/derpymeow/hospitals/item/PillItem.java"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pills"
@@ -2247,10 +2247,10 @@
       "registry_name": "scrubs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/scrubs_boots.json",
           "src/main/resources/assets/hospitals/models/item/scrubs_leggings.json",
-          "src/main/java/net/derpymeow/hospitals/item/ScrubsItem.java",
           "src/main/resources/assets/hospitals/models/item/scrubs_chestplate.json",
+          "src/main/java/net/derpymeow/hospitals/item/ScrubsItem.java",
+          "src/main/resources/assets/hospitals/models/item/scrubs_boots.json",
           "src/main/resources/assets/hospitals/models/item/scrubs_helmet.json"
         ]
       },
@@ -2264,9 +2264,9 @@
       "registry_name": "nurse",
       "metadata": {
         "files": [
+          "src/main/java/net/derpymeow/hospitals/entity/NurseEntity.java",
           "src/main/resources/assets/hospitals/models/item/nurse_spawn_egg.json",
-          "src/main/java/net/derpymeow/hospitals/client/renderer/NurseRenderer.java",
-          "src/main/java/net/derpymeow/hospitals/entity/NurseEntity.java"
+          "src/main/java/net/derpymeow/hospitals/client/renderer/NurseRenderer.java"
         ]
       },
       "path": "~/Hospitals/RP-ITEMS"
@@ -2294,8 +2294,8 @@
       "registry_name": "pill_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/pill_1.json",
-          "src/main/java/net/derpymeow/hospitals/item/Pill1Item.java"
+          "src/main/java/net/derpymeow/hospitals/item/Pill1Item.java",
+          "src/main/resources/assets/hospitals/models/item/pill_1.json"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pills"
@@ -2333,8 +2333,8 @@
       "registry_name": "pill_3",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/Pill3Item.java",
-          "src/main/resources/assets/hospitals/models/item/pill_3.json"
+          "src/main/resources/assets/hospitals/models/item/pill_3.json",
+          "src/main/java/net/derpymeow/hospitals/item/Pill3Item.java"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pills"
@@ -2347,8 +2347,8 @@
       "registry_name": "pill_4",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/pill_4.json",
-          "src/main/java/net/derpymeow/hospitals/item/Pill4Item.java"
+          "src/main/java/net/derpymeow/hospitals/item/Pill4Item.java",
+          "src/main/resources/assets/hospitals/models/item/pill_4.json"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pills"
@@ -2361,8 +2361,8 @@
       "registry_name": "pill_5",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/pill_5.json",
-          "src/main/java/net/derpymeow/hospitals/item/Pill5Item.java"
+          "src/main/java/net/derpymeow/hospitals/item/Pill5Item.java",
+          "src/main/resources/assets/hospitals/models/item/pill_5.json"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pills"
@@ -2375,8 +2375,8 @@
       "registry_name": "pill_6",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/Pill6Item.java",
-          "src/main/resources/assets/hospitals/models/item/pill_6.json"
+          "src/main/resources/assets/hospitals/models/item/pill_6.json",
+          "src/main/java/net/derpymeow/hospitals/item/Pill6Item.java"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pills"
@@ -2389,8 +2389,8 @@
       "registry_name": "pill_7",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/pill_7.json",
-          "src/main/java/net/derpymeow/hospitals/item/Pill7Item.java"
+          "src/main/java/net/derpymeow/hospitals/item/Pill7Item.java",
+          "src/main/resources/assets/hospitals/models/item/pill_7.json"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pills"
@@ -2403,8 +2403,8 @@
       "registry_name": "pill_8",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/Pill8Item.java",
-          "src/main/resources/assets/hospitals/models/item/pill_8.json"
+          "src/main/resources/assets/hospitals/models/item/pill_8.json",
+          "src/main/java/net/derpymeow/hospitals/item/Pill8Item.java"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pills"
@@ -2431,8 +2431,8 @@
       "registry_name": "pill_10",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/Pill10Item.java",
-          "src/main/resources/assets/hospitals/models/item/pill_10.json"
+          "src/main/resources/assets/hospitals/models/item/pill_10.json",
+          "src/main/java/net/derpymeow/hospitals/item/Pill10Item.java"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pills"
@@ -2473,8 +2473,8 @@
       "registry_name": "pillbottle_1",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/Pillbottle1Item.java",
-          "src/main/resources/assets/hospitals/models/item/pillbottle_1.json"
+          "src/main/resources/assets/hospitals/models/item/pillbottle_1.json",
+          "src/main/java/net/derpymeow/hospitals/item/Pillbottle1Item.java"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
@@ -2515,8 +2515,8 @@
       "registry_name": "pillbottle_4",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/Pillbottle4Item.java",
-          "src/main/resources/assets/hospitals/models/item/pillbottle_4.json"
+          "src/main/resources/assets/hospitals/models/item/pillbottle_4.json",
+          "src/main/java/net/derpymeow/hospitals/item/Pillbottle4Item.java"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
@@ -2543,8 +2543,8 @@
       "registry_name": "pillbottle_6",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/pillbottle_6.json",
-          "src/main/java/net/derpymeow/hospitals/item/Pillbottle6Item.java"
+          "src/main/java/net/derpymeow/hospitals/item/Pillbottle6Item.java",
+          "src/main/resources/assets/hospitals/models/item/pillbottle_6.json"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
@@ -2557,8 +2557,8 @@
       "registry_name": "pillbottle_7",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/pillbottle_7.json",
-          "src/main/java/net/derpymeow/hospitals/item/Pillbottle7Item.java"
+          "src/main/java/net/derpymeow/hospitals/item/Pillbottle7Item.java",
+          "src/main/resources/assets/hospitals/models/item/pillbottle_7.json"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
@@ -2585,8 +2585,8 @@
       "registry_name": "pillbottle_9",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/Pillbottle9Item.java",
-          "src/main/resources/assets/hospitals/models/item/pillbottle_9.json"
+          "src/main/resources/assets/hospitals/models/item/pillbottle_9.json",
+          "src/main/java/net/derpymeow/hospitals/item/Pillbottle9Item.java"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
@@ -2793,8 +2793,8 @@
       "registry_name": "pill_12",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/Pill12Item.java",
-          "src/main/resources/assets/hospitals/models/item/pill_12.json"
+          "src/main/resources/assets/hospitals/models/item/pill_12.json",
+          "src/main/java/net/derpymeow/hospitals/item/Pill12Item.java"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pills"
@@ -2835,8 +2835,8 @@
       "registry_name": "pill_15",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/pill_15.json",
-          "src/main/java/net/derpymeow/hospitals/item/Pill15Item.java"
+          "src/main/java/net/derpymeow/hospitals/item/Pill15Item.java",
+          "src/main/resources/assets/hospitals/models/item/pill_15.json"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pills"
@@ -2863,8 +2863,8 @@
       "registry_name": "pill_17",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/pill_17.json",
-          "src/main/java/net/derpymeow/hospitals/item/Pill17Item.java"
+          "src/main/java/net/derpymeow/hospitals/item/Pill17Item.java",
+          "src/main/resources/assets/hospitals/models/item/pill_17.json"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pills"
@@ -2877,8 +2877,8 @@
       "registry_name": "pill_18",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/pill_18.json",
-          "src/main/java/net/derpymeow/hospitals/item/Pill18Item.java"
+          "src/main/java/net/derpymeow/hospitals/item/Pill18Item.java",
+          "src/main/resources/assets/hospitals/models/item/pill_18.json"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pills"
@@ -2919,8 +2919,8 @@
       "registry_name": "pillbottle_11",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/pillbottle_11.json",
-          "src/main/java/net/derpymeow/hospitals/item/Pillbottle11Item.java"
+          "src/main/java/net/derpymeow/hospitals/item/Pillbottle11Item.java",
+          "src/main/resources/assets/hospitals/models/item/pillbottle_11.json"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
@@ -2947,8 +2947,8 @@
       "registry_name": "pill_bottle_13",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/PillBottle13Item.java",
-          "src/main/resources/assets/hospitals/models/item/pill_bottle_13.json"
+          "src/main/resources/assets/hospitals/models/item/pill_bottle_13.json",
+          "src/main/java/net/derpymeow/hospitals/item/PillBottle13Item.java"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
@@ -2961,8 +2961,8 @@
       "registry_name": "pill_bottle_14",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/pill_bottle_14.json",
-          "src/main/java/net/derpymeow/hospitals/item/PillBottle14Item.java"
+          "src/main/java/net/derpymeow/hospitals/item/PillBottle14Item.java",
+          "src/main/resources/assets/hospitals/models/item/pill_bottle_14.json"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
@@ -2975,8 +2975,8 @@
       "registry_name": "pill_bottle_15",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/PillBottle15Item.java",
-          "src/main/resources/assets/hospitals/models/item/pill_bottle_15.json"
+          "src/main/resources/assets/hospitals/models/item/pill_bottle_15.json",
+          "src/main/java/net/derpymeow/hospitals/item/PillBottle15Item.java"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
@@ -2989,8 +2989,8 @@
       "registry_name": "pill_bottle_16",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/PillBottle16Item.java",
-          "src/main/resources/assets/hospitals/models/item/pill_bottle_16.json"
+          "src/main/resources/assets/hospitals/models/item/pill_bottle_16.json",
+          "src/main/java/net/derpymeow/hospitals/item/PillBottle16Item.java"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
@@ -3003,8 +3003,8 @@
       "registry_name": "pill_bottle_17",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/PillBottle17Item.java",
-          "src/main/resources/assets/hospitals/models/item/pill_bottle_17.json"
+          "src/main/resources/assets/hospitals/models/item/pill_bottle_17.json",
+          "src/main/java/net/derpymeow/hospitals/item/PillBottle17Item.java"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
@@ -3017,8 +3017,8 @@
       "registry_name": "pill_bottle_18",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/pill_bottle_18.json",
-          "src/main/java/net/derpymeow/hospitals/item/PillBottle18Item.java"
+          "src/main/java/net/derpymeow/hospitals/item/PillBottle18Item.java",
+          "src/main/resources/assets/hospitals/models/item/pill_bottle_18.json"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
@@ -3031,8 +3031,8 @@
       "registry_name": "pill_bottle_19",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/PillBottle19Item.java",
-          "src/main/resources/assets/hospitals/models/item/pill_bottle_19.json"
+          "src/main/resources/assets/hospitals/models/item/pill_bottle_19.json",
+          "src/main/java/net/derpymeow/hospitals/item/PillBottle19Item.java"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
@@ -3203,8 +3203,8 @@
       "registry_name": "pill_22",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/pill_22.json",
-          "src/main/java/net/derpymeow/hospitals/item/Pill22Item.java"
+          "src/main/java/net/derpymeow/hospitals/item/Pill22Item.java",
+          "src/main/resources/assets/hospitals/models/item/pill_22.json"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pills"
@@ -3231,8 +3231,8 @@
       "registry_name": "pill_24",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/Pill24Item.java",
-          "src/main/resources/assets/hospitals/models/item/pill_24.json"
+          "src/main/resources/assets/hospitals/models/item/pill_24.json",
+          "src/main/java/net/derpymeow/hospitals/item/Pill24Item.java"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pills"
@@ -3245,8 +3245,8 @@
       "registry_name": "pill_25",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/Pill25Item.java",
-          "src/main/resources/assets/hospitals/models/item/pill_25.json"
+          "src/main/resources/assets/hospitals/models/item/pill_25.json",
+          "src/main/java/net/derpymeow/hospitals/item/Pill25Item.java"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pills"
@@ -3259,8 +3259,8 @@
       "registry_name": "pill_26",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/Pill26Item.java",
-          "src/main/resources/assets/hospitals/models/item/pill_26.json"
+          "src/main/resources/assets/hospitals/models/item/pill_26.json",
+          "src/main/java/net/derpymeow/hospitals/item/Pill26Item.java"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pills"
@@ -3273,8 +3273,8 @@
       "registry_name": "pill_27",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/Pill27Item.java",
-          "src/main/resources/assets/hospitals/models/item/pill_27.json"
+          "src/main/resources/assets/hospitals/models/item/pill_27.json",
+          "src/main/java/net/derpymeow/hospitals/item/Pill27Item.java"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pills"
@@ -3315,8 +3315,8 @@
       "registry_name": "pill_30",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/pill_30.json",
-          "src/main/java/net/derpymeow/hospitals/item/Pill30Item.java"
+          "src/main/java/net/derpymeow/hospitals/item/Pill30Item.java",
+          "src/main/resources/assets/hospitals/models/item/pill_30.json"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pills"
@@ -3329,8 +3329,8 @@
       "registry_name": "pillbottle_21",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/Pillbottle21Item.java",
-          "src/main/resources/assets/hospitals/models/item/pillbottle_21.json"
+          "src/main/resources/assets/hospitals/models/item/pillbottle_21.json",
+          "src/main/java/net/derpymeow/hospitals/item/Pillbottle21Item.java"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
@@ -3357,8 +3357,8 @@
       "registry_name": "pill_bottle_23",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/PillBottle23Item.java",
-          "src/main/resources/assets/hospitals/models/item/pill_bottle_23.json"
+          "src/main/resources/assets/hospitals/models/item/pill_bottle_23.json",
+          "src/main/java/net/derpymeow/hospitals/item/PillBottle23Item.java"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
@@ -3371,8 +3371,8 @@
       "registry_name": "pill_bottle_24",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/PillBottle24Item.java",
-          "src/main/resources/assets/hospitals/models/item/pill_bottle_24.json"
+          "src/main/resources/assets/hospitals/models/item/pill_bottle_24.json",
+          "src/main/java/net/derpymeow/hospitals/item/PillBottle24Item.java"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
@@ -3399,8 +3399,8 @@
       "registry_name": "pill_bottle_26",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/pill_bottle_26.json",
-          "src/main/java/net/derpymeow/hospitals/item/PillBottle26Item.java"
+          "src/main/java/net/derpymeow/hospitals/item/PillBottle26Item.java",
+          "src/main/resources/assets/hospitals/models/item/pill_bottle_26.json"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
@@ -3441,8 +3441,8 @@
       "registry_name": "pill_bottle_29",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/pill_bottle_29.json",
-          "src/main/java/net/derpymeow/hospitals/item/PillBottle29Item.java"
+          "src/main/java/net/derpymeow/hospitals/item/PillBottle29Item.java",
+          "src/main/resources/assets/hospitals/models/item/pill_bottle_29.json"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
@@ -3455,8 +3455,8 @@
       "registry_name": "pill_bottle_30",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/PillBottle30Item.java",
-          "src/main/resources/assets/hospitals/models/item/pill_bottle_30.json"
+          "src/main/resources/assets/hospitals/models/item/pill_bottle_30.json",
+          "src/main/java/net/derpymeow/hospitals/item/PillBottle30Item.java"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
@@ -3641,8 +3641,8 @@
       "registry_name": "pill_34",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/Pill34Item.java",
-          "src/main/resources/assets/hospitals/models/item/pill_34.json"
+          "src/main/resources/assets/hospitals/models/item/pill_34.json",
+          "src/main/java/net/derpymeow/hospitals/item/Pill34Item.java"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pills"
@@ -3725,8 +3725,8 @@
       "registry_name": "pill_40",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/Pill40Item.java",
-          "src/main/resources/assets/hospitals/models/item/pill_40.json"
+          "src/main/resources/assets/hospitals/models/item/pill_40.json",
+          "src/main/java/net/derpymeow/hospitals/item/Pill40Item.java"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pills"
@@ -3739,8 +3739,8 @@
       "registry_name": "pill_41",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/pill_41.json",
-          "src/main/java/net/derpymeow/hospitals/item/Pill41Item.java"
+          "src/main/java/net/derpymeow/hospitals/item/Pill41Item.java",
+          "src/main/resources/assets/hospitals/models/item/pill_41.json"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pills"
@@ -3753,8 +3753,8 @@
       "registry_name": "pill_42",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/Pill42Item.java",
-          "src/main/resources/assets/hospitals/models/item/pill_42.json"
+          "src/main/resources/assets/hospitals/models/item/pill_42.json",
+          "src/main/java/net/derpymeow/hospitals/item/Pill42Item.java"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pills"
@@ -3767,8 +3767,8 @@
       "registry_name": "pill_43",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/pill_43.json",
-          "src/main/java/net/derpymeow/hospitals/item/Pill43Item.java"
+          "src/main/java/net/derpymeow/hospitals/item/Pill43Item.java",
+          "src/main/resources/assets/hospitals/models/item/pill_43.json"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pills"
@@ -3809,8 +3809,8 @@
       "registry_name": "pill_bottle_33",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/pill_bottle_33.json",
-          "src/main/java/net/derpymeow/hospitals/item/PillBottle33Item.java"
+          "src/main/java/net/derpymeow/hospitals/item/PillBottle33Item.java",
+          "src/main/resources/assets/hospitals/models/item/pill_bottle_33.json"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
@@ -3823,8 +3823,8 @@
       "registry_name": "pill_bottle_34",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/pill_bottle_34.json",
-          "src/main/java/net/derpymeow/hospitals/item/PillBottle34Item.java"
+          "src/main/java/net/derpymeow/hospitals/item/PillBottle34Item.java",
+          "src/main/resources/assets/hospitals/models/item/pill_bottle_34.json"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
@@ -3865,8 +3865,8 @@
       "registry_name": "pill_bottle_37",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/pill_bottle_37.json",
-          "src/main/java/net/derpymeow/hospitals/item/PillBottle37Item.java"
+          "src/main/java/net/derpymeow/hospitals/item/PillBottle37Item.java",
+          "src/main/resources/assets/hospitals/models/item/pill_bottle_37.json"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
@@ -3879,8 +3879,8 @@
       "registry_name": "pill_bottle_38",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/PillBottle38Item.java",
-          "src/main/resources/assets/hospitals/models/item/pill_bottle_38.json"
+          "src/main/resources/assets/hospitals/models/item/pill_bottle_38.json",
+          "src/main/java/net/derpymeow/hospitals/item/PillBottle38Item.java"
         ]
       },
       "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
@@ -4949,8 +4949,8 @@
       "registry_name": "small_medkit",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/SmallMedkitItem.java",
-          "src/main/resources/assets/hospitals/models/item/small_medkit.json"
+          "src/main/resources/assets/hospitals/models/item/small_medkit.json",
+          "src/main/java/net/derpymeow/hospitals/item/SmallMedkitItem.java"
         ]
       },
       "path": "~/Hospitals"
@@ -4982,8 +4982,8 @@
       "registry_name": "largemedkit",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/LargemedkitItem.java",
-          "src/main/resources/assets/hospitals/models/item/largemedkit.json"
+          "src/main/resources/assets/hospitals/models/item/largemedkit.json",
+          "src/main/java/net/derpymeow/hospitals/item/LargemedkitItem.java"
         ]
       },
       "path": "~/Hospitals"
@@ -5028,11 +5028,11 @@
       "registry_name": "light_block",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/block/LightBlockBlock.java",
-          "src/main/resources/data/hospitals/loot_tables/blocks/light_block.json",
+          "src/main/resources/assets/hospitals/models/item/light_block.json",
           "src/main/resources/assets/hospitals/blockstates/light_block.json",
           "src/main/resources/assets/hospitals/models/block/light_block.json",
-          "src/main/resources/assets/hospitals/models/item/light_block.json"
+          "src/main/java/net/derpymeow/hospitals/block/LightBlockBlock.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/light_block.json"
         ]
       },
       "path": "~/Hospitals/NewBlocks"
@@ -5071,8 +5071,8 @@
       "registry_name": "stainless_steel",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/StainlessSteelItem.java",
-          "src/main/resources/assets/hospitals/models/item/stainless_steel.json"
+          "src/main/resources/assets/hospitals/models/item/stainless_steel.json",
+          "src/main/java/net/derpymeow/hospitals/item/StainlessSteelItem.java"
         ]
       },
       "path": "~/Hospitals"
@@ -5085,10 +5085,10 @@
       "registry_name": "block_of_stainless_steel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/blockstates/block_of_stainless_steel.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/block_of_stainless_steel.json",
           "src/main/resources/assets/hospitals/models/item/block_of_stainless_steel.json",
           "src/main/resources/assets/hospitals/models/block/block_of_stainless_steel.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/block_of_stainless_steel.json",
+          "src/main/resources/assets/hospitals/blockstates/block_of_stainless_steel.json",
           "src/main/java/net/derpymeow/hospitals/block/BlockOfStainlessSteelBlock.java"
         ]
       },
@@ -5155,8 +5155,8 @@
       "registry_name": "computer_chip",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/computer_chip.json",
-          "src/main/java/net/derpymeow/hospitals/item/ComputerChipItem.java"
+          "src/main/java/net/derpymeow/hospitals/item/ComputerChipItem.java",
+          "src/main/resources/assets/hospitals/models/item/computer_chip.json"
         ]
       },
       "path": "~/Hospitals"
@@ -6912,8 +6912,8 @@
       "registry_name": "mask",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/ScrubmaskItem.java",
-          "src/main/resources/assets/hospitals/models/item/mask_helmet.json"
+          "src/main/resources/assets/hospitals/models/item/mask_helmet.json",
+          "src/main/java/net/derpymeow/hospitals/item/ScrubmaskItem.java"
         ]
       },
       "path": "~/Hospitals/RP-ITEMS"
@@ -6959,11 +6959,11 @@
       "registry_name": "warning",
       "metadata": {
         "files": [
-          "src/main/resources/data/hospitals/loot_tables/blocks/warning.json",
           "src/main/resources/assets/hospitals/models/block/warning.json",
+          "src/main/java/net/derpymeow/hospitals/block/WarningBlock.java",
           "src/main/resources/assets/hospitals/models/item/warning.json",
-          "src/main/resources/assets/hospitals/blockstates/warning.json",
-          "src/main/java/net/derpymeow/hospitals/block/WarningBlock.java"
+          "src/main/resources/data/hospitals/loot_tables/blocks/warning.json",
+          "src/main/resources/assets/hospitals/blockstates/warning.json"
         ]
       },
       "path": "~/Hospitals/NewBlocks"
@@ -7049,8 +7049,8 @@
       "registry_name": "bloodbagopositive",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/BloodbagopositiveItem.java",
-          "src/main/resources/assets/hospitals/models/item/bloodbagopositive.json"
+          "src/main/resources/assets/hospitals/models/item/bloodbagopositive.json",
+          "src/main/java/net/derpymeow/hospitals/item/BloodbagopositiveItem.java"
         ]
       },
       "path": "~/Hospitals/Blood/Blood Bags"
@@ -7063,8 +7063,8 @@
       "registry_name": "bloodbagbnegative",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/BloodbagbnegativeItem.java",
-          "src/main/resources/assets/hospitals/models/item/bloodbagbnegative.json"
+          "src/main/resources/assets/hospitals/models/item/bloodbagbnegative.json",
+          "src/main/java/net/derpymeow/hospitals/item/BloodbagbnegativeItem.java"
         ]
       },
       "path": "~/Hospitals/Blood/Blood Bags"
@@ -7091,8 +7091,8 @@
       "registry_name": "bloodbaganegative",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/bloodbaganegative.json",
-          "src/main/java/net/derpymeow/hospitals/item/BloodbaganegativeItem.java"
+          "src/main/java/net/derpymeow/hospitals/item/BloodbaganegativeItem.java",
+          "src/main/resources/assets/hospitals/models/item/bloodbaganegative.json"
         ]
       },
       "path": "~/Hospitals/Blood/Blood Bags"
@@ -7105,8 +7105,8 @@
       "registry_name": "bloodbagapositive",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/BloodbagapositiveItem.java",
-          "src/main/resources/assets/hospitals/models/item/bloodbagapositive.json"
+          "src/main/resources/assets/hospitals/models/item/bloodbagapositive.json",
+          "src/main/java/net/derpymeow/hospitals/item/BloodbagapositiveItem.java"
         ]
       },
       "path": "~/Hospitals/Blood/Blood Bags"
@@ -7119,8 +7119,8 @@
       "registry_name": "bloodbagabnegative",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/BloodbagabnegativeItem.java",
-          "src/main/resources/assets/hospitals/models/item/bloodbagabnegative.json"
+          "src/main/resources/assets/hospitals/models/item/bloodbagabnegative.json",
+          "src/main/java/net/derpymeow/hospitals/item/BloodbagabnegativeItem.java"
         ]
       },
       "path": "~/Hospitals/Blood/Blood Bags"
@@ -7133,8 +7133,8 @@
       "registry_name": "bloodbagabpositive",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/BloodbagabpositiveItem.java",
-          "src/main/resources/assets/hospitals/models/item/bloodbagabpositive.json"
+          "src/main/resources/assets/hospitals/models/item/bloodbagabpositive.json",
+          "src/main/java/net/derpymeow/hospitals/item/BloodbagabpositiveItem.java"
         ]
       },
       "path": "~/Hospitals/Blood/Blood Bags"
@@ -7147,8 +7147,8 @@
       "registry_name": "bloodbagempty",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/BloodbagemptyItem.java",
-          "src/main/resources/assets/hospitals/models/item/bloodbagempty.json"
+          "src/main/resources/assets/hospitals/models/item/bloodbagempty.json",
+          "src/main/java/net/derpymeow/hospitals/item/BloodbagemptyItem.java"
         ]
       },
       "path": "~/Hospitals/Blood/Blood Bags"
@@ -7231,8 +7231,8 @@
       "registry_name": "empty_syringe",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/EmptySyringeItem.java",
-          "src/main/resources/assets/hospitals/models/item/empty_syringe.json"
+          "src/main/resources/assets/hospitals/models/item/empty_syringe.json",
+          "src/main/java/net/derpymeow/hospitals/item/EmptySyringeItem.java"
         ]
       },
       "path": "~/Hospitals/Blood/Syringes"
@@ -7245,8 +7245,8 @@
       "registry_name": "syringe_blood_o_negative",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/syringe_blood_o_negative.json",
-          "src/main/java/net/derpymeow/hospitals/item/SyringebloodOnegativeItem.java"
+          "src/main/java/net/derpymeow/hospitals/item/SyringebloodOnegativeItem.java",
+          "src/main/resources/assets/hospitals/models/item/syringe_blood_o_negative.json"
         ]
       },
       "path": "~/Hospitals/Blood/Syringes"
@@ -7259,8 +7259,8 @@
       "registry_name": "syringe_blood_o_positive",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/syringe_blood_o_positive.json",
-          "src/main/java/net/derpymeow/hospitals/item/SyringeBloodOPositiveItem.java"
+          "src/main/java/net/derpymeow/hospitals/item/SyringeBloodOPositiveItem.java",
+          "src/main/resources/assets/hospitals/models/item/syringe_blood_o_positive.json"
         ]
       },
       "path": "~/Hospitals/Blood/Syringes"
@@ -7301,8 +7301,8 @@
       "registry_name": "syringe_blood_a_negative",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/SyringeBloodANegativeItem.java",
-          "src/main/resources/assets/hospitals/models/item/syringe_blood_a_negative.json"
+          "src/main/resources/assets/hospitals/models/item/syringe_blood_a_negative.json",
+          "src/main/java/net/derpymeow/hospitals/item/SyringeBloodANegativeItem.java"
         ]
       },
       "path": "~/Hospitals/Blood/Syringes"
@@ -7315,8 +7315,8 @@
       "registry_name": "syringe_blood_a_positive",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/SyringeBloodAPositiveItem.java",
-          "src/main/resources/assets/hospitals/models/item/syringe_blood_a_positive.json"
+          "src/main/resources/assets/hospitals/models/item/syringe_blood_a_positive.json",
+          "src/main/java/net/derpymeow/hospitals/item/SyringeBloodAPositiveItem.java"
         ]
       },
       "path": "~/Hospitals/Blood/Syringes"
@@ -7371,13 +7371,13 @@
       "registry_name": "mixed_blood",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/MixedBloodItem.java",
           "src/main/java/net/derpymeow/hospitals/block/MixedBloodBlock.java",
-          "src/main/resources/assets/hospitals/models/item/mixed_blood_bucket.json",
-          "src/main/resources/assets/hospitals/blockstates/mixed_blood.json",
+          "src/main/java/net/derpymeow/hospitals/item/MixedBloodItem.java",
           "src/main/java/net/derpymeow/hospitals/fluid/types/MixedBloodFluidType.java",
           "src/main/java/net/derpymeow/hospitals/fluid/MixedBloodFluid.java",
-          "src/main/resources/assets/hospitals/models/block/mixed_blood.json"
+          "src/main/resources/assets/hospitals/blockstates/mixed_blood.json",
+          "src/main/resources/assets/hospitals/models/block/mixed_blood.json",
+          "src/main/resources/assets/hospitals/models/item/mixed_blood_bucket.json"
         ]
       },
       "path": "~/Hospitals/Blood"
@@ -7441,8 +7441,8 @@
       "registry_name": "wiki_book",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/wiki_book.json",
-          "src/main/java/net/derpymeow/hospitals/item/WikiBookItem.java"
+          "src/main/java/net/derpymeow/hospitals/item/WikiBookItem.java",
+          "src/main/resources/assets/hospitals/models/item/wiki_book.json"
         ]
       },
       "path": "~/Hospitals/hospitals-command"
@@ -7455,11 +7455,11 @@
       "registry_name": "mini_tiles",
       "metadata": {
         "files": [
-          "src/main/resources/data/hospitals/loot_tables/blocks/mini_tiles.json",
-          "src/main/resources/assets/hospitals/blockstates/mini_tiles.json",
-          "src/main/resources/assets/hospitals/models/block/mini_tiles.json",
           "src/main/java/net/derpymeow/hospitals/block/MiniTilesBlock.java",
-          "src/main/resources/assets/hospitals/models/item/mini_tiles.json"
+          "src/main/resources/assets/hospitals/models/item/mini_tiles.json",
+          "src/main/resources/assets/hospitals/models/block/mini_tiles.json",
+          "src/main/resources/assets/hospitals/blockstates/mini_tiles.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/mini_tiles.json"
         ]
       },
       "path": "~/Hospitals/NewBlocks"
@@ -7472,11 +7472,11 @@
       "registry_name": "largedarktiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/block/largedarktiles.json",
-          "src/main/resources/assets/hospitals/blockstates/largedarktiles.json",
           "src/main/java/net/derpymeow/hospitals/block/LargedarktilesBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/largedarktiles.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/largedarktiles.json",
           "src/main/resources/assets/hospitals/models/item/largedarktiles.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/largedarktiles.json"
+          "src/main/resources/assets/hospitals/models/block/largedarktiles.json"
         ]
       },
       "path": "~/Hospitals/NewBlocks"
@@ -7489,11 +7489,11 @@
       "registry_name": "largelightbluetiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/blockstates/largelightbluetiles.json",
-          "src/main/resources/assets/hospitals/models/block/largelightbluetiles.json",
-          "src/main/resources/assets/hospitals/models/item/largelightbluetiles.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/largelightbluetiles.json",
-          "src/main/java/net/derpymeow/hospitals/block/LargelightbluetilesBlock.java"
+          "src/main/resources/assets/hospitals/models/item/largelightbluetiles.json",
+          "src/main/java/net/derpymeow/hospitals/block/LargelightbluetilesBlock.java",
+          "src/main/resources/assets/hospitals/models/block/largelightbluetiles.json",
+          "src/main/resources/assets/hospitals/blockstates/largelightbluetiles.json"
         ]
       },
       "path": "~/Hospitals/NewBlocks"
@@ -7506,11 +7506,11 @@
       "registry_name": "labtiles_1",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/block/Labtiles1Block.java",
-          "src/main/resources/data/hospitals/loot_tables/blocks/labtiles_1.json",
           "src/main/resources/assets/hospitals/blockstates/labtiles_1.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/labtiles_1.json",
+          "src/main/resources/assets/hospitals/models/block/labtiles_1.json",
           "src/main/resources/assets/hospitals/models/item/labtiles_1.json",
-          "src/main/resources/assets/hospitals/models/block/labtiles_1.json"
+          "src/main/java/net/derpymeow/hospitals/block/Labtiles1Block.java"
         ]
       },
       "path": "~/Hospitals/NewBlocks"
@@ -7523,11 +7523,11 @@
       "registry_name": "labtiles_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/blockstates/labtiles_2.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/labtiles_2.json",
           "src/main/java/net/derpymeow/hospitals/block/Labtiles2Block.java",
           "src/main/resources/assets/hospitals/models/item/labtiles_2.json",
-          "src/main/resources/assets/hospitals/models/block/labtiles_2.json"
+          "src/main/resources/assets/hospitals/models/block/labtiles_2.json",
+          "src/main/resources/assets/hospitals/blockstates/labtiles_2.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/labtiles_2.json"
         ]
       },
       "path": "~/Hospitals/NewBlocks"
@@ -7540,11 +7540,11 @@
       "registry_name": "labtiles_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/block/labtiles_3.json",
-          "src/main/resources/data/hospitals/loot_tables/blocks/labtiles_3.json",
-          "src/main/resources/assets/hospitals/models/item/labtiles_3.json",
           "src/main/resources/assets/hospitals/blockstates/labtiles_3.json",
-          "src/main/java/net/derpymeow/hospitals/block/Labtiles3Block.java"
+          "src/main/java/net/derpymeow/hospitals/block/Labtiles3Block.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/labtiles_3.json",
+          "src/main/resources/assets/hospitals/models/block/labtiles_3.json",
+          "src/main/resources/assets/hospitals/models/item/labtiles_3.json"
         ]
       },
       "path": "~/Hospitals/NewBlocks"
@@ -7558,10 +7558,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/hospitals/models/block/labtiles_4.json",
-          "src/main/java/net/derpymeow/hospitals/block/Labtiles4Block.java",
-          "src/main/resources/assets/hospitals/models/item/labtiles_4.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/labtiles_4.json",
-          "src/main/resources/assets/hospitals/blockstates/labtiles_4.json"
+          "src/main/resources/assets/hospitals/blockstates/labtiles_4.json",
+          "src/main/java/net/derpymeow/hospitals/block/Labtiles4Block.java",
+          "src/main/resources/assets/hospitals/models/item/labtiles_4.json"
         ]
       },
       "path": "~/Hospitals/NewBlocks"
@@ -7575,10 +7575,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/hospitals/blockstates/darklabtiles_1.json",
-          "src/main/resources/assets/hospitals/models/item/darklabtiles_1.json",
-          "src/main/resources/assets/hospitals/models/block/darklabtiles_1.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/darklabtiles_1.json",
           "src/main/java/net/derpymeow/hospitals/block/Darklabtiles1Block.java",
-          "src/main/resources/data/hospitals/loot_tables/blocks/darklabtiles_1.json"
+          "src/main/resources/assets/hospitals/models/item/darklabtiles_1.json",
+          "src/main/resources/assets/hospitals/models/block/darklabtiles_1.json"
         ]
       },
       "path": "~/Hospitals/NewBlocks"
@@ -7591,11 +7591,11 @@
       "registry_name": "darklabtiles_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/block/darklabtiles_2.json",
-          "src/main/java/net/derpymeow/hospitals/block/Darklabtiles2Block.java",
+          "src/main/resources/assets/hospitals/blockstates/darklabtiles_2.json",
           "src/main/resources/data/hospitals/loot_tables/blocks/darklabtiles_2.json",
+          "src/main/resources/assets/hospitals/models/block/darklabtiles_2.json",
           "src/main/resources/assets/hospitals/models/item/darklabtiles_2.json",
-          "src/main/resources/assets/hospitals/blockstates/darklabtiles_2.json"
+          "src/main/java/net/derpymeow/hospitals/block/Darklabtiles2Block.java"
         ]
       },
       "path": "~/Hospitals/NewBlocks"
@@ -8004,10 +8004,10 @@
       "metadata": {
         "files": [
           "src/main/resources/data/hospitals/loot_tables/blocks/purifier.json",
+          "src/main/resources/assets/hospitals/blockstates/purifier.json",
           "src/main/java/net/derpymeow/hospitals/block/PurifierBlock.java",
-          "src/main/resources/assets/hospitals/models/block/purifier.json",
           "src/main/resources/assets/hospitals/models/item/purifier.json",
-          "src/main/resources/assets/hospitals/blockstates/purifier.json"
+          "src/main/resources/assets/hospitals/models/block/purifier.json"
         ]
       },
       "path": "~/Hospitals/Blood/Purifier"
@@ -8020,8 +8020,8 @@
       "registry_name": "purifier_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/world/inventory/PurifierGuiMenu.java",
           "src/main/java/net/derpymeow/hospitals/client/gui/PurifierGuiScreen.java",
+          "src/main/java/net/derpymeow/hospitals/world/inventory/PurifierGuiMenu.java",
           "src/main/java/net/derpymeow/hospitals/network/PurifierGuiButtonMessage.java"
         ]
       },
@@ -8074,8 +8074,8 @@
       "registry_name": "bloodbagused",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/BloodbagusedItem.java",
-          "src/main/resources/assets/hospitals/models/item/bloodbagused.json"
+          "src/main/resources/assets/hospitals/models/item/bloodbagused.json",
+          "src/main/java/net/derpymeow/hospitals/item/BloodbagusedItem.java"
         ]
       },
       "path": "~/Hospitals/Blood/Blood Bags"
@@ -8115,8 +8115,8 @@
       "registry_name": "iv_kit",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/IVKitItem.java",
-          "src/main/resources/assets/hospitals/models/item/iv_kit.json"
+          "src/main/resources/assets/hospitals/models/item/iv_kit.json",
+          "src/main/java/net/derpymeow/hospitals/item/IVKitItem.java"
         ]
       },
       "path": "~/Hospitals/Blood/Blood Bags/iv_kit"
@@ -8148,11 +8148,11 @@
       "registry_name": "centrifuge",
       "metadata": {
         "files": [
-          "src/main/resources/data/hospitals/loot_tables/blocks/centrifuge.json",
-          "src/main/resources/assets/hospitals/blockstates/centrifuge.json",
-          "src/main/resources/assets/hospitals/models/item/centrifuge.json",
           "src/main/java/net/derpymeow/hospitals/block/CentrifugeBlock.java",
-          "src/main/resources/assets/hospitals/models/block/centrifuge.json"
+          "src/main/resources/data/hospitals/loot_tables/blocks/centrifuge.json",
+          "src/main/resources/assets/hospitals/models/block/centrifuge.json",
+          "src/main/resources/assets/hospitals/blockstates/centrifuge.json",
+          "src/main/resources/assets/hospitals/models/item/centrifuge.json"
         ]
       },
       "path": "~/Hospitals/Blood/Centrifuge"
@@ -8165,9 +8165,9 @@
       "registry_name": "centrifuge_gui",
       "metadata": {
         "files": [
+          "src/main/java/net/derpymeow/hospitals/world/inventory/CentrifugeGUIMenu.java",
           "src/main/java/net/derpymeow/hospitals/client/gui/CentrifugeGUIScreen.java",
-          "src/main/java/net/derpymeow/hospitals/network/CentrifugeGUIButtonMessage.java",
-          "src/main/java/net/derpymeow/hospitals/world/inventory/CentrifugeGUIMenu.java"
+          "src/main/java/net/derpymeow/hospitals/network/CentrifugeGUIButtonMessage.java"
         ]
       },
       "path": "~/Hospitals/Blood/Centrifuge"
@@ -8278,9 +8278,9 @@
       "registry_name": "textbookchem_101",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/item/inventory/Textbookchem101InventoryCapability.java",
+          "src/main/java/net/derpymeow/hospitals/item/Textbookchem101Item.java",
           "src/main/resources/assets/hospitals/models/item/textbookchem_101.json",
-          "src/main/java/net/derpymeow/hospitals/item/Textbookchem101Item.java"
+          "src/main/java/net/derpymeow/hospitals/item/inventory/Textbookchem101InventoryCapability.java"
         ]
       },
       "path": "~/Hospitals/Textbooks"
@@ -8293,8 +8293,8 @@
       "registry_name": "textbookchem_101_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/world/inventory/Textbookchem101GUIMenu.java",
-          "src/main/java/net/derpymeow/hospitals/client/gui/Textbookchem101GUIScreen.java"
+          "src/main/java/net/derpymeow/hospitals/client/gui/Textbookchem101GUIScreen.java",
+          "src/main/java/net/derpymeow/hospitals/world/inventory/Textbookchem101GUIMenu.java"
         ]
       },
       "path": "~/Hospitals/Textbooks"
@@ -8307,9 +8307,9 @@
       "registry_name": "textbookblood_101",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hospitals/models/item/textbookblood_101.json",
           "src/main/java/net/derpymeow/hospitals/item/Textbookblood101Item.java",
-          "src/main/java/net/derpymeow/hospitals/item/inventory/Textbookblood101InventoryCapability.java"
+          "src/main/java/net/derpymeow/hospitals/item/inventory/Textbookblood101InventoryCapability.java",
+          "src/main/resources/assets/hospitals/models/item/textbookblood_101.json"
         ]
       },
       "path": "~/Hospitals/Textbooks"
@@ -8322,8 +8322,8 @@
       "registry_name": "textbookblood_101_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/derpymeow/hospitals/client/gui/Textbookblood101GUIScreen.java",
-          "src/main/java/net/derpymeow/hospitals/world/inventory/Textbookblood101GUIMenu.java"
+          "src/main/java/net/derpymeow/hospitals/world/inventory/Textbookblood101GUIMenu.java",
+          "src/main/java/net/derpymeow/hospitals/client/gui/Textbookblood101GUIScreen.java"
         ]
       },
       "path": "~/Hospitals/Textbooks"
@@ -8745,6 +8745,23 @@
         ]
       },
       "path": "~/Hospitals/NewBlocks/RoomFlags"
+    },
+    {
+      "name": "Donotentersign",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "do_not_enter_sign",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/do_not_enter_sign.json",
+          "src/main/resources/assets/hospitals/blockstates/do_not_enter_sign.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/do_not_enter_sign.json",
+          "src/main/resources/assets/hospitals/models/block/do_not_enter_sign.json",
+          "src/main/java/net/derpymeow/hospitals/block/DonotentersignBlock.java"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
     }
   ],
   "variable_elements": [
@@ -9052,7 +9069,8 @@
       "Strippedoakwallpanels",
       "Strippedsprucewallpanels",
       "Institutionalwalltile",
-      "RoomFlags"
+      "RoomFlags",
+      "Donotentersign"
     ],
     "CUSTOM:Hospitalspills": [
       "CreativePill",
@@ -9817,7 +9835,8 @@
       "block.hospitals.room_flags_4.description_0": "",
       "block.hospitals.room_flags_5": "Room Flags",
       "block.hospitals.room_flags_5.description_1": "- Click to change flags",
-      "block.hospitals.room_flags_5.description_0": ""
+      "block.hospitals.room_flags_5.description_0": "",
+      "block.hospitals.do_not_enter_sign": "Do Not Enter Sign"
     }
   },
   "metadata": {

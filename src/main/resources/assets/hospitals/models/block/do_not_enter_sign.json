@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/do_not_enter_sign",
+  "textures": {
+    "all": "hospitals:block/do_not_enter_sign_tx",
+    "particle": "hospitals:block/do_not_enter_sign_tx",
+    "1": "hospitals:block/do_not_enter_sign_tx"
+  },
+  "render_type": "solid"
+}
