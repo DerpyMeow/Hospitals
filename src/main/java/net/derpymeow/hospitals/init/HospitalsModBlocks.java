@@ -74,6 +74,11 @@ import net.derpymeow.hospitals.block.SterileWorkCounterWithShelfBlock;
 import net.derpymeow.hospitals.block.SmoothConcreteBlock;
 import net.derpymeow.hospitals.block.ShatteredWallTilesBlock;
 import net.derpymeow.hospitals.block.ScrubSinkBlock;
+import net.derpymeow.hospitals.block.RoomFlagsBlock;
+import net.derpymeow.hospitals.block.RoomFlags5Block;
+import net.derpymeow.hospitals.block.RoomFlags4Block;
+import net.derpymeow.hospitals.block.RoomFlags3Block;
+import net.derpymeow.hospitals.block.RoomFlags2Block;
 import net.derpymeow.hospitals.block.RollCageStorageBlock;
 import net.derpymeow.hospitals.block.RefridgeratedCentrifugeBlock;
 import net.derpymeow.hospitals.block.RedDeskTrayBlock;
@@ -313,6 +318,11 @@ public class HospitalsModBlocks {
 	public static final RegistryObject<Block> STRIPPEDOAKWALLPANELS = REGISTRY.register("strippedoakwallpanels", () -> new StrippedoakwallpanelsBlock());
 	public static final RegistryObject<Block> STRIPPEDSPRUCEWALLPANELS = REGISTRY.register("strippedsprucewallpanels", () -> new StrippedsprucewallpanelsBlock());
 	public static final RegistryObject<Block> INSTITUTIONALWALLTILE = REGISTRY.register("institutionalwalltile", () -> new InstitutionalwalltileBlock());
+	public static final RegistryObject<Block> ROOM_FLAGS = REGISTRY.register("room_flags", () -> new RoomFlagsBlock());
+	public static final RegistryObject<Block> ROOM_FLAGS_2 = REGISTRY.register("room_flags_2", () -> new RoomFlags2Block());
+	public static final RegistryObject<Block> ROOM_FLAGS_3 = REGISTRY.register("room_flags_3", () -> new RoomFlags3Block());
+	public static final RegistryObject<Block> ROOM_FLAGS_4 = REGISTRY.register("room_flags_4", () -> new RoomFlags4Block());
+	public static final RegistryObject<Block> ROOM_FLAGS_5 = REGISTRY.register("room_flags_5", () -> new RoomFlags5Block());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

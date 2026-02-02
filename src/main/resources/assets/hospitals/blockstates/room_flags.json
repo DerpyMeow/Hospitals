@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/room_flags"
+    },
+    "facing=east": {
+      "model": "hospitals:block/room_flags",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/room_flags",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/room_flags",
+      "y": 270
+    }
+  }
+}

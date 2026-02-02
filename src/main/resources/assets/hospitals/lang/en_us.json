@@ -652,5 +652,20 @@
   "block.hospitals.shattered_wall_tiles": "Shattered Wall Tiles",
   "block.hospitals.strippedoakwallpanels": "Stripped Oak Wall Panels",
   "block.hospitals.strippedsprucewallpanels": "Stripped Spruce Wall Panels",
-  "block.hospitals.institutionalwalltile": "Institutional Wall Tiles"
+  "block.hospitals.institutionalwalltile": "Institutional Wall Tiles",
+  "block.hospitals.room_flags.description_0": "",
+  "block.hospitals.room_flags.description_1": "- Click to change flags",
+  "block.hospitals.room_flags": "Room Flags",
+  "block.hospitals.room_flags_2": "Room Flags",
+  "block.hospitals.room_flags_2.description_0": "",
+  "block.hospitals.room_flags_2.description_1": "- Click to change flags",
+  "block.hospitals.room_flags_3.description_0": "",
+  "block.hospitals.room_flags_3.description_1": "- Click to change flags",
+  "block.hospitals.room_flags_3": "Room Flags",
+  "block.hospitals.room_flags_4.description_1": "- Click to change flags",
+  "block.hospitals.room_flags_4": "Room Flags",
+  "block.hospitals.room_flags_4.description_0": "",
+  "block.hospitals.room_flags_5": "Room Flags",
+  "block.hospitals.room_flags_5.description_1": "- Click to change flags",
+  "block.hospitals.room_flags_5.description_0": ""
 }

@@ -438,6 +438,11 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> STRIPPEDOAKWALLPANELS = block(HospitalsModBlocks.STRIPPEDOAKWALLPANELS);
 	public static final RegistryObject<Item> STRIPPEDSPRUCEWALLPANELS = block(HospitalsModBlocks.STRIPPEDSPRUCEWALLPANELS);
 	public static final RegistryObject<Item> INSTITUTIONALWALLTILE = block(HospitalsModBlocks.INSTITUTIONALWALLTILE);
+	public static final RegistryObject<Item> ROOM_FLAGS = block(HospitalsModBlocks.ROOM_FLAGS);
+	public static final RegistryObject<Item> ROOM_FLAGS_2 = block(HospitalsModBlocks.ROOM_FLAGS_2);
+	public static final RegistryObject<Item> ROOM_FLAGS_3 = block(HospitalsModBlocks.ROOM_FLAGS_3);
+	public static final RegistryObject<Item> ROOM_FLAGS_4 = block(HospitalsModBlocks.ROOM_FLAGS_4);
+	public static final RegistryObject<Item> ROOM_FLAGS_5 = block(HospitalsModBlocks.ROOM_FLAGS_5);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/room_flag_1",
+  "textures": {
+    "all": "hospitals:block/stiched_texture",
+    "particle": "hospitals:block/stiched_texture",
+    "5": "hospitals:block/stiched_texture"
+  },
+  "render_type": "solid"
+}

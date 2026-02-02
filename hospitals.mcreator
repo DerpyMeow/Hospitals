@@ -8629,6 +8629,122 @@
         ]
       },
       "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "RoomFlags",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "room_flags",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/block/room_flags.json",
+          "src/main/resources/assets/hospitals/blockstates/room_flags.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/room_flags.json",
+          "src/main/java/net/derpymeow/hospitals/block/RoomFlagsBlock.java",
+          "src/main/resources/assets/hospitals/models/item/room_flags.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks/RoomFlags"
+    },
+    {
+      "name": "RoomFlagsOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "room_flags_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/RoomFlagsOnBlockRightClickedProcedure.java"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks/RoomFlags"
+    },
+    {
+      "name": "RoomFlags2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "room_flags_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/RoomFlags2Block.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/room_flags_2.json",
+          "src/main/resources/assets/hospitals/models/block/room_flags_2.json",
+          "src/main/resources/assets/hospitals/models/item/room_flags_2.json",
+          "src/main/resources/assets/hospitals/blockstates/room_flags_2.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks/RoomFlags"
+    },
+    {
+      "name": "RoomFlags3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "room_flags_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/blockstates/room_flags_3.json",
+          "src/main/java/net/derpymeow/hospitals/block/RoomFlags3Block.java",
+          "src/main/resources/assets/hospitals/models/block/room_flags_3.json",
+          "src/main/resources/assets/hospitals/models/item/room_flags_3.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/room_flags_3.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks/RoomFlags"
+    },
+    {
+      "name": "RoomFlags4",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "room_flags_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/room_flags_4.json",
+          "src/main/resources/assets/hospitals/models/item/room_flags_4.json",
+          "src/main/resources/assets/hospitals/blockstates/room_flags_4.json",
+          "src/main/resources/assets/hospitals/models/block/room_flags_4.json",
+          "src/main/java/net/derpymeow/hospitals/block/RoomFlags4Block.java"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks/RoomFlags"
+    },
+    {
+      "name": "RoomFlags5",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "room_flags_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/room_flags_5.json",
+          "src/main/resources/assets/hospitals/blockstates/room_flags_5.json",
+          "src/main/resources/assets/hospitals/models/block/room_flags_5.json",
+          "src/main/java/net/derpymeow/hospitals/block/RoomFlags5Block.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/room_flags_5.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks/RoomFlags"
     }
   ],
   "variable_elements": [
@@ -8935,7 +9051,8 @@
       "ShatteredWallTiles",
       "Strippedoakwallpanels",
       "Strippedsprucewallpanels",
-      "Institutionalwalltile"
+      "Institutionalwalltile",
+      "RoomFlags"
     ],
     "CUSTOM:Hospitalspills": [
       "CreativePill",
@@ -9685,7 +9802,22 @@
       "block.hospitals.shattered_wall_tiles": "Shattered Wall Tiles",
       "block.hospitals.strippedoakwallpanels": "Stripped Oak Wall Panels",
       "block.hospitals.strippedsprucewallpanels": "Stripped Spruce Wall Panels",
-      "block.hospitals.institutionalwalltile": "Institutional Wall Tiles"
+      "block.hospitals.institutionalwalltile": "Institutional Wall Tiles",
+      "block.hospitals.room_flags.description_0": "",
+      "block.hospitals.room_flags.description_1": "- Click to change flags",
+      "block.hospitals.room_flags": "Room Flags",
+      "block.hospitals.room_flags_2": "Room Flags",
+      "block.hospitals.room_flags_2.description_0": "",
+      "block.hospitals.room_flags_2.description_1": "- Click to change flags",
+      "block.hospitals.room_flags_3.description_0": "",
+      "block.hospitals.room_flags_3.description_1": "- Click to change flags",
+      "block.hospitals.room_flags_3": "Room Flags",
+      "block.hospitals.room_flags_4.description_1": "- Click to change flags",
+      "block.hospitals.room_flags_4": "Room Flags",
+      "block.hospitals.room_flags_4.description_0": "",
+      "block.hospitals.room_flags_5": "Room Flags",
+      "block.hospitals.room_flags_5.description_1": "- Click to change flags",
+      "block.hospitals.room_flags_5.description_0": ""
     }
   },
   "metadata": {
@@ -9721,7 +9853,12 @@
         "children": [
           {
             "name": "NewBlocks",
-            "children": []
+            "children": [
+              {
+                "name": "RoomFlags",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Blood",
