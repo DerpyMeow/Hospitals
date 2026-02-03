@@ -8762,6 +8762,23 @@
         ]
       },
       "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "Spilledblood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spilledblood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/block/spilledblood.json",
+          "src/main/resources/assets/hospitals/models/item/spilledblood.json",
+          "src/main/java/net/derpymeow/hospitals/block/SpilledbloodBlock.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/spilledblood.json",
+          "src/main/resources/assets/hospitals/blockstates/spilledblood.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
     }
   ],
   "variable_elements": [
@@ -9070,7 +9087,8 @@
       "Strippedsprucewallpanels",
       "Institutionalwalltile",
       "RoomFlags",
-      "Donotentersign"
+      "Donotentersign",
+      "Spilledblood"
     ],
     "CUSTOM:Hospitalspills": [
       "CreativePill",
@@ -9836,7 +9854,8 @@
       "block.hospitals.room_flags_5": "Room Flags",
       "block.hospitals.room_flags_5.description_1": "- Click to change flags",
       "block.hospitals.room_flags_5.description_0": "",
-      "block.hospitals.do_not_enter_sign": "Do Not Enter Sign"
+      "block.hospitals.do_not_enter_sign": "Do Not Enter Sign",
+      "block.hospitals.spilledblood": "Spilled Blood"
     }
   },
   "metadata": {

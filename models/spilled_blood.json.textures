@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "spilled_blood_tx"
+      },
+      "name": "default"
+    }
+  }
+}

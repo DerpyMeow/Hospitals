@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/spilled_blood",
+  "textures": {
+    "all": "hospitals:block/spilled_blood_tx",
+    "particle": "hospitals:block/spilled_blood_tx",
+    "0": "hospitals:block/spilled_blood_tx"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -668,5 +668,6 @@
   "block.hospitals.room_flags_5": "Room Flags",
   "block.hospitals.room_flags_5.description_1": "- Click to change flags",
   "block.hospitals.room_flags_5.description_0": "",
-  "block.hospitals.do_not_enter_sign": "Do Not Enter Sign"
+  "block.hospitals.do_not_enter_sign": "Do Not Enter Sign",
+  "block.hospitals.spilledblood": "Spilled Blood"
 }

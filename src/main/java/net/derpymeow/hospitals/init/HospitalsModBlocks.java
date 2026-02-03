@@ -71,6 +71,7 @@ import net.derpymeow.hospitals.block.StoreShelfStockedBlock;
 import net.derpymeow.hospitals.block.StoreShelfEmptyBlock;
 import net.derpymeow.hospitals.block.SterileWorktopBlock;
 import net.derpymeow.hospitals.block.SterileWorkCounterWithShelfBlock;
+import net.derpymeow.hospitals.block.SpilledbloodBlock;
 import net.derpymeow.hospitals.block.SmoothConcreteBlock;
 import net.derpymeow.hospitals.block.ShatteredWallTilesBlock;
 import net.derpymeow.hospitals.block.ScrubSinkBlock;
@@ -325,6 +326,7 @@ public class HospitalsModBlocks {
 	public static final RegistryObject<Block> ROOM_FLAGS_4 = REGISTRY.register("room_flags_4", () -> new RoomFlags4Block());
 	public static final RegistryObject<Block> ROOM_FLAGS_5 = REGISTRY.register("room_flags_5", () -> new RoomFlags5Block());
 	public static final RegistryObject<Block> DO_NOT_ENTER_SIGN = REGISTRY.register("do_not_enter_sign", () -> new DonotentersignBlock());
+	public static final RegistryObject<Block> SPILLEDBLOOD = REGISTRY.register("spilledblood", () -> new SpilledbloodBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
