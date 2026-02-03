@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/paper_stack",
+  "textures": {
+    "all": "hospitals:block/paper",
+    "particle": "hospitals:block/paper",
+    "0": "hospitals:block/paper"
+  },
+  "render_type": "solid"
+}

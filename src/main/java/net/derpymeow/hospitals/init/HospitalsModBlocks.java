@@ -101,6 +101,7 @@ import net.derpymeow.hospitals.block.PharmacyCounterwithLogoBlock;
 import net.derpymeow.hospitals.block.PharmacyCounterStockedBlock;
 import net.derpymeow.hospitals.block.PharmacyCounterBlock;
 import net.derpymeow.hospitals.block.PatientInformaitonPointBlock;
+import net.derpymeow.hospitals.block.PaperStackBlock;
 import net.derpymeow.hospitals.block.PHBlockBlock;
 import net.derpymeow.hospitals.block.OperatingTableBlock;
 import net.derpymeow.hospitals.block.OperatingRoomControlPanelBlock;
@@ -327,6 +328,7 @@ public class HospitalsModBlocks {
 	public static final RegistryObject<Block> ROOM_FLAGS_5 = REGISTRY.register("room_flags_5", () -> new RoomFlags5Block());
 	public static final RegistryObject<Block> DO_NOT_ENTER_SIGN = REGISTRY.register("do_not_enter_sign", () -> new DonotentersignBlock());
 	public static final RegistryObject<Block> SPILLEDBLOOD = REGISTRY.register("spilledblood", () -> new SpilledbloodBlock());
+	public static final RegistryObject<Block> PAPER_STACK = REGISTRY.register("paper_stack", () -> new PaperStackBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

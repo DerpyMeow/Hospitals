@@ -8779,6 +8779,23 @@
         ]
       },
       "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "PaperStack",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paper_stack",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/paper_stack.json",
+          "src/main/resources/assets/hospitals/blockstates/paper_stack.json",
+          "src/main/java/net/derpymeow/hospitals/block/PaperStackBlock.java",
+          "src/main/resources/assets/hospitals/models/block/paper_stack.json",
+          "src/main/resources/assets/hospitals/models/item/paper_stack.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
     }
   ],
   "variable_elements": [
@@ -9088,7 +9105,8 @@
       "Institutionalwalltile",
       "RoomFlags",
       "Donotentersign",
-      "Spilledblood"
+      "Spilledblood",
+      "PaperStack"
     ],
     "CUSTOM:Hospitalspills": [
       "CreativePill",
@@ -9855,7 +9873,8 @@
       "block.hospitals.room_flags_5.description_1": "- Click to change flags",
       "block.hospitals.room_flags_5.description_0": "",
       "block.hospitals.do_not_enter_sign": "Do Not Enter Sign",
-      "block.hospitals.spilledblood": "Spilled Blood"
+      "block.hospitals.spilledblood": "Spilled Blood",
+      "block.hospitals.paper_stack": "Paper Stack"
     }
   },
   "metadata": {
