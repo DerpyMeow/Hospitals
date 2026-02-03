@@ -152,6 +152,7 @@ import net.derpymeow.hospitals.block.CompoundingIsolatorBlock;
 import net.derpymeow.hospitals.block.CleaningTrolleyBlock;
 import net.derpymeow.hospitals.block.ClassicFloortilesBlock;
 import net.derpymeow.hospitals.block.CladdingStoneEffectBlock;
+import net.derpymeow.hospitals.block.ChairBlock;
 import net.derpymeow.hospitals.block.CentrifugeBlock;
 import net.derpymeow.hospitals.block.CardboardBoxBlock;
 import net.derpymeow.hospitals.block.CapsuleFillingMachineBlock;
@@ -329,6 +330,7 @@ public class HospitalsModBlocks {
 	public static final RegistryObject<Block> DO_NOT_ENTER_SIGN = REGISTRY.register("do_not_enter_sign", () -> new DonotentersignBlock());
 	public static final RegistryObject<Block> SPILLEDBLOOD = REGISTRY.register("spilledblood", () -> new SpilledbloodBlock());
 	public static final RegistryObject<Block> PAPER_STACK = REGISTRY.register("paper_stack", () -> new PaperStackBlock());
+	public static final RegistryObject<Block> CHAIR = REGISTRY.register("chair", () -> new ChairBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

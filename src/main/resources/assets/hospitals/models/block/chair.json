@@ -1,0 +1,11 @@
+{
+  "parent": "hospitals:custom/chair",
+  "textures": {
+    "all": "hospitals:block/chair_back_tx",
+    "particle": "hospitals:block/chair_back_tx",
+    "0": "hospitals:block/chair_leg_tx",
+    "1": "hospitals:block/chair_seat_texture",
+    "2": "hospitals:block/chair_back_tx"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "chair_leg_tx",
+        "1": "chair_seat_texture",
+        "2": "chair_back_tx"
+      },
+      "name": "default"
+    }
+  }
+}

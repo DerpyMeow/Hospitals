@@ -8796,6 +8796,23 @@
         ]
       },
       "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "Chair",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chair",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/chair.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/chair.json",
+          "src/main/resources/assets/hospitals/models/block/chair.json",
+          "src/main/java/net/derpymeow/hospitals/block/ChairBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/chair.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
     }
   ],
   "variable_elements": [
@@ -9106,7 +9123,8 @@
       "RoomFlags",
       "Donotentersign",
       "Spilledblood",
-      "PaperStack"
+      "PaperStack",
+      "Chair"
     ],
     "CUSTOM:Hospitalspills": [
       "CreativePill",
@@ -9874,7 +9892,8 @@
       "block.hospitals.room_flags_5.description_0": "",
       "block.hospitals.do_not_enter_sign": "Do Not Enter Sign",
       "block.hospitals.spilledblood": "Spilled Blood",
-      "block.hospitals.paper_stack": "Paper Stack"
+      "block.hospitals.paper_stack": "Paper Stack",
+      "block.hospitals.chair": "Chair"
     }
   },
   "metadata": {
