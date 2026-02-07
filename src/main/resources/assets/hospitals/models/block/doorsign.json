@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/door_sign",
+  "textures": {
+    "all": "hospitals:block/door_sign_tx",
+    "particle": "hospitals:block/door_sign_tx",
+    "0": "hospitals:block/door_sign_tx"
+  },
+  "render_type": "solid"
+}

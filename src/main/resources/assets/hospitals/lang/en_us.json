@@ -671,5 +671,6 @@
   "block.hospitals.do_not_enter_sign": "Do Not Enter Sign",
   "block.hospitals.spilledblood": "Spilled Blood",
   "block.hospitals.paper_stack": "Paper Stack",
-  "block.hospitals.chair": "Chair"
+  "block.hospitals.chair": "Chair",
+  "block.hospitals.doorsign": "Door Sign"
 }

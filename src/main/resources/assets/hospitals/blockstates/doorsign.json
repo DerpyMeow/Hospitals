@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/doorsign"
+    },
+    "facing=east": {
+      "model": "hospitals:block/doorsign",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/doorsign",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/doorsign",
+      "y": 270
+    }
+  }
+}

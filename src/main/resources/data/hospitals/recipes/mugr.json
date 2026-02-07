@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:terracotta"
+    },
+    "b": {
+      "item": "minecraft:flower_pot"
+    },
+    "c": {
+      "tag": "forge:dyes"
+    }
+  },
+  "result": {
+    "item": "hospitals:mug",
+    "count": 1
+  }
+}

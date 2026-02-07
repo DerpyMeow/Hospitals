@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "b": {
+      "item": "hospitals:boringflooring"
+    }
+  },
+  "result": {
+    "item": "hospitals:babybluextiles",
+    "count": 1
+  }
+}

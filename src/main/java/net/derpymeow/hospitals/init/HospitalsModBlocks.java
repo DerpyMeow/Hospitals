@@ -140,6 +140,7 @@ import net.derpymeow.hospitals.block.FetalMonitoringWorkstationBlock;
 import net.derpymeow.hospitals.block.FABlockBlock;
 import net.derpymeow.hospitals.block.EPOSCashierSystemBlock;
 import net.derpymeow.hospitals.block.DrinksFridgeBlock;
+import net.derpymeow.hospitals.block.DoorsignBlock;
 import net.derpymeow.hospitals.block.DonotentersignBlock;
 import net.derpymeow.hospitals.block.DecorativeDivideBlock;
 import net.derpymeow.hospitals.block.Darklabtiles2Block;
@@ -331,6 +332,7 @@ public class HospitalsModBlocks {
 	public static final RegistryObject<Block> SPILLEDBLOOD = REGISTRY.register("spilledblood", () -> new SpilledbloodBlock());
 	public static final RegistryObject<Block> PAPER_STACK = REGISTRY.register("paper_stack", () -> new PaperStackBlock());
 	public static final RegistryObject<Block> CHAIR = REGISTRY.register("chair", () -> new ChairBlock());
+	public static final RegistryObject<Block> DOORSIGN = REGISTRY.register("doorsign", () -> new DoorsignBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:planks"
+    },
+    "b": {
+      "item": "hospitals:stainless_steel"
+    },
+    "c": {
+      "tag": "forge:dyes"
+    }
+  },
+  "result": {
+    "item": "hospitals:chair",
+    "count": 1
+  }
+}

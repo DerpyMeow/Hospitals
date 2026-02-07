@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "tag": "hospitals:blood_bags"
+    }
+  },
+  "result": {
+    "item": "hospitals:spilledblood",
+    "count": 1
+  }
+}

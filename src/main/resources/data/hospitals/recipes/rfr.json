@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cad",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "hospitals:stainless_steel"
+    },
+    "b": {
+      "item": "minecraft:red_dye"
+    },
+    "c": {
+      "item": "minecraft:blue_dye"
+    },
+    "d": {
+      "item": "minecraft:green_dye"
+    },
+    "e": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "result": {
+    "item": "hospitals:room_flags",
+    "count": 5
+  }
+}

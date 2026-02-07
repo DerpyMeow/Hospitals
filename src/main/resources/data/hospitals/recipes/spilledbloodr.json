@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "hospitals:mixed_blood_bucket"
+    }
+  },
+  "result": {
+    "item": "hospitals:spilledblood",
+    "count": 1
+  }
+}

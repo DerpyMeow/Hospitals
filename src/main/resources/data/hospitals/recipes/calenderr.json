@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:clock"
+    },
+    "b": {
+      "item": "hospitals:paper_stack"
+    },
+    "c": {
+      "item": "minecraft:ink_sac"
+    }
+  },
+  "result": {
+    "item": "hospitals:calender",
+    "count": 12
+  }
+}

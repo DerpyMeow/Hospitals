@@ -8813,6 +8813,348 @@
         ]
       },
       "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "Doorsign",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doorsign",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/doorsign.json",
+          "src/main/resources/assets/hospitals/blockstates/doorsign.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/doorsign.json",
+          "src/main/resources/assets/hospitals/models/block/doorsign.json",
+          "src/main/java/net/derpymeow/hospitals/block/DoorsignBlock.java"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks"
+    },
+    {
+      "name": "Clipboardr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clipboardr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/clipboardr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Penr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "penr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/penr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Folderr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "folderr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/folderr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Stickr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stickr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/stickr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Calenderr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calenderr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/calenderr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Phoner",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phoner",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/phoner.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Tabletr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tabletr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/tabletr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Mugr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mugr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/mugr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Bedpanr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedpanr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/bedpanr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Stethr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stethr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/stethr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Borr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "borr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/borr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Hgfr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hgfr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/hgfr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Cfr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cfr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/cfr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Bbxtr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bbxtr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/bbxtr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Swtrr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swtrr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/swtrr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Sopwr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sopwr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/sopwr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Sspr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sspr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/sspr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Iwtr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iwtr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/iwtr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Rfr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rfr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/rfr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Dner",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dner",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/dner.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Spilledbloodr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spilledbloodr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/spilledbloodr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Spilledbloodr2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spilledbloodr_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/spilledbloodr_2.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Psrr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "psrr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/psrr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Chairr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chairr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/chairr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Dsr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dsr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/dsr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
     }
   ],
   "variable_elements": [
@@ -9049,36 +9391,19 @@
       "WikiBook",
       "Textbookchem101",
       "Textbookblood101",
-      "THBlock",
-      "PHBlock",
-      "RABlock",
-      "WABlock",
-      "FABlock",
-      "MedicalCross",
       "Scrubs",
       "Scrubmask",
       "Nurse",
       "Doctor",
       "SmallMedkit",
       "Largemedkit",
-      "LightBlock",
       "StainlessSteel",
       "BlockOfStainlessSteel",
       "UnprocessedSteel",
       "ComputerChip",
       "Computer",
-      "MiniTiles",
-      "Largedarktiles",
-      "Largelightbluetiles",
-      "Labtiles1",
-      "Labtiles2",
-      "Labtiles3",
-      "Labtiles4",
-      "Darklabtiles1",
-      "Darklabtiles2",
       "MixedBlood",
       "BloodTypeTester",
-      "Warning",
       "EmptySyringe",
       "SyringebloodOnegative",
       "SyringeBloodOPositive",
@@ -9112,6 +9437,24 @@
       "Mug",
       "Bedpan",
       "Stethoscope",
+      "Spilledblood",
+      "Warning",
+      "THBlock",
+      "PHBlock",
+      "RABlock",
+      "WABlock",
+      "FABlock",
+      "MedicalCross",
+      "LightBlock",
+      "MiniTiles",
+      "Largedarktiles",
+      "Largelightbluetiles",
+      "Labtiles1",
+      "Labtiles2",
+      "Labtiles3",
+      "Labtiles4",
+      "Darklabtiles1",
+      "Darklabtiles2",
       "Boringflooring",
       "HighGlossFlooring",
       "ClassicFloortiles",
@@ -9122,9 +9465,9 @@
       "Institutionalwalltile",
       "RoomFlags",
       "Donotentersign",
-      "Spilledblood",
       "PaperStack",
-      "Chair"
+      "Chair",
+      "Doorsign"
     ],
     "CUSTOM:Hospitalspills": [
       "CreativePill",
@@ -9893,7 +10236,8 @@
       "block.hospitals.do_not_enter_sign": "Do Not Enter Sign",
       "block.hospitals.spilledblood": "Spilled Blood",
       "block.hospitals.paper_stack": "Paper Stack",
-      "block.hospitals.chair": "Chair"
+      "block.hospitals.chair": "Chair",
+      "block.hospitals.doorsign": "Door Sign"
     }
   },
   "metadata": {
@@ -10050,7 +10394,7 @@
   "workspaceSettings": {
     "modid": "hospitals",
     "modName": "Hospitals (THM Expanded)",
-    "version": "3.6.0",
+    "version": "3.7.0",
     "description": "This Brings Complex Medical Blocks And Items To Minecraft: Based Off Of Leon90\u0027s Mod.",
     "author": "DerpyMeow",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/hospitals",

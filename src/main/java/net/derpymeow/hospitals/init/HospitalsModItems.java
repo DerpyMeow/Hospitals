@@ -447,6 +447,7 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> SPILLEDBLOOD = block(HospitalsModBlocks.SPILLEDBLOOD);
 	public static final RegistryObject<Item> PAPER_STACK = block(HospitalsModBlocks.PAPER_STACK);
 	public static final RegistryObject<Item> CHAIR = block(HospitalsModBlocks.CHAIR);
+	public static final RegistryObject<Item> DOORSIGN = block(HospitalsModBlocks.DOORSIGN);
 
 	// Start of user code block custom items
 	// End of user code block custom items

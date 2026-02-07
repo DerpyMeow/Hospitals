@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 18,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:StainlessSteel"
+      },
+      {
+        "value": "CUSTOM:StainlessSteel"
+      },
+      {
+        "value": "CUSTOM:StainlessSteel"
+      },
+      {
+        "value": "CUSTOM:StainlessSteel"
+      },
+      {
+        "value": "CUSTOM:PaperStack"
+      },
+      {
+        "value": "CUSTOM:StainlessSteel"
+      },
+      {
+        "value": "CUSTOM:StainlessSteel"
+      },
+      {
+        "value": "CUSTOM:StainlessSteel"
+      },
+      {
+        "value": "CUSTOM:StainlessSteel"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Doorsign"
+    },
+    "name": "dsr",
+    "namespace": "mod"
+  }
+}
