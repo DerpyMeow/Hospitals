@@ -4,7 +4,7 @@ license="https://github.com/DerpyMeow/Hospitals/blob/release/LICENSE"
 
 [[mods]]
 modId="hospitals"
-version="3.6.0"
+version="3.7.0"
 displayName="Hospitals (THM Expanded)"
 updateJSONURL="https://raw.githubusercontent.com/DerpyMeow/Hospitals/refs/heads/release/UpdateChecker.json"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/hospitals"

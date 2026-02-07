@@ -172,7 +172,6 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModItems.COMPUTER.get());
 				tabData.accept(HospitalsModItems.MIXED_BLOOD_BUCKET.get());
 				tabData.accept(HospitalsModItems.BLOOD_TYPE_TESTER.get());
-				tabData.accept(HospitalsModBlocks.WARNING.get().asItem());
 				tabData.accept(HospitalsModItems.EMPTY_SYRINGE.get());
 				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_O_NEGATIVE.get());
 				tabData.accept(HospitalsModItems.SYRINGE_BLOOD_O_POSITIVE.get());
@@ -207,6 +206,7 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModItems.BEDPAN.get());
 				tabData.accept(HospitalsModItems.STETHOSCOPE.get());
 				tabData.accept(HospitalsModBlocks.SPILLEDBLOOD.get().asItem());
+				tabData.accept(HospitalsModBlocks.WARNING.get().asItem());
 				tabData.accept(HospitalsModBlocks.TH_BLOCK.get().asItem());
 				tabData.accept(HospitalsModBlocks.PH_BLOCK.get().asItem());
 				tabData.accept(HospitalsModBlocks.RA_BLOCK.get().asItem());
