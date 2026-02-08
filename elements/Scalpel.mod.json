@@ -1,0 +1,39 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "scalpel_tx",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Scalpel",
+    "specialInformation": {
+      "fixedValue": [
+        "",
+        "- Medically Sharp"
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Hospitals"
+      }
+    ],
+    "efficiency": 0.0,
+    "attackSpeed": 0.2,
+    "enchantability": 2,
+    "damageVsEntity": 10.0,
+    "usageCount": 32,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -9155,6 +9155,146 @@
         ]
       },
       "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Forceps",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forceps",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/forceps.json",
+          "src/main/java/net/derpymeow/hospitals/item/ForcepsItem.java"
+        ]
+      },
+      "path": "~/Hospitals/Surgical Instrument Suite"
+    },
+    {
+      "name": "Surgicalscissors",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "surgicalscissors",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/surgicalscissors.json",
+          "src/main/java/net/derpymeow/hospitals/item/SurgicalscissorsItem.java"
+        ]
+      },
+      "path": "~/Hospitals/Surgical Instrument Suite"
+    },
+    {
+      "name": "Retractor",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "retractor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/RetractorItem.java",
+          "src/main/resources/assets/hospitals/models/item/retractor.json"
+        ]
+      },
+      "path": "~/Hospitals/Surgical Instrument Suite"
+    },
+    {
+      "name": "Percussionhammer",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "percussionhammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/percussionhammer.json",
+          "src/main/java/net/derpymeow/hospitals/item/PercussionhammerItem.java"
+        ]
+      },
+      "path": "~/Hospitals/Surgical Instrument Suite"
+    },
+    {
+      "name": "Surgicalmarker",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "surgicalmarker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/SurgicalmarkerItem.java",
+          "src/main/resources/assets/hospitals/models/item/surgicalmarker.json"
+        ]
+      },
+      "path": "~/Hospitals/Surgical Instrument Suite"
+    },
+    {
+      "name": "Tourniquet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tourniquet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/tourniquet.json",
+          "src/main/java/net/derpymeow/hospitals/item/TourniquetItem.java"
+        ]
+      },
+      "path": "~/Hospitals/Surgical Instrument Suite"
+    },
+    {
+      "name": "Scalpel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scalpel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/scalpel.json",
+          "src/main/java/net/derpymeow/hospitals/item/ScalpelItem.java"
+        ]
+      },
+      "path": "~/Hospitals/Surgical Instrument Suite"
+    },
+    {
+      "name": "Idcardvarient1",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "idcardvarient_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/idcardvarient_1.json",
+          "src/main/java/net/derpymeow/hospitals/item/Idcardvarient1Item.java"
+        ]
+      },
+      "path": "~/Hospitals/Surgical Instrument Suite"
+    },
+    {
+      "name": "Idcardvarient2",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "idcardvarient_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/idcardvarient_2.json",
+          "src/main/java/net/derpymeow/hospitals/item/Idcardvarient2Item.java"
+        ]
+      },
+      "path": "~/Hospitals/Surgical Instrument Suite"
+    },
+    {
+      "name": "Idcardvarient3",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "idcardvarient_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/Idcardvarient3Item.java",
+          "src/main/resources/assets/hospitals/models/item/idcardvarient_3.json"
+        ]
+      },
+      "path": "~/Hospitals/Surgical Instrument Suite"
     }
   ],
   "variable_elements": [
@@ -9253,6 +9393,9 @@
       "CUSTOM:SyringeBloodAPositive",
       "CUSTOM:SyringeBloodABNegative",
       "CUSTOM:SyringeBloodABPositive"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Scalpel"
     ]
   },
   "tab_element_order": {
@@ -9467,7 +9610,17 @@
       "Donotentersign",
       "PaperStack",
       "Chair",
-      "Doorsign"
+      "Doorsign",
+      "Forceps",
+      "Surgicalscissors",
+      "Retractor",
+      "Percussionhammer",
+      "Surgicalmarker",
+      "Tourniquet",
+      "Scalpel",
+      "Idcardvarient1",
+      "Idcardvarient2",
+      "Idcardvarient3"
     ],
     "CUSTOM:Hospitalspills": [
       "CreativePill",
@@ -10237,7 +10390,19 @@
       "block.hospitals.spilledblood": "Spilled Blood",
       "block.hospitals.paper_stack": "Paper Stack",
       "block.hospitals.chair": "Chair",
-      "block.hospitals.doorsign": "Door Sign"
+      "block.hospitals.doorsign": "Door Sign",
+      "item.hospitals.forceps": "Forceps",
+      "item.hospitals.surgicalscissors": "Surgical Scissors",
+      "item.hospitals.retractor": "Retractor",
+      "item.hospitals.percussionhammer": "Percussion Hammer",
+      "item.hospitals.surgicalmarker": "Surgical Marker",
+      "item.hospitals.tourniquet": "Tourniquet",
+      "item.hospitals.scalpel.description_1": "- Medically Sharp",
+      "item.hospitals.scalpel": "Scalpel",
+      "item.hospitals.scalpel.description_0": "",
+      "item.hospitals.idcardvarient_1": "ID Card (Varient #1)",
+      "item.hospitals.idcardvarient_2": "ID Card (Varient #2)",
+      "item.hospitals.idcardvarient_3": "ID Card (Varient #3)"
     }
   },
   "metadata": {
@@ -10347,6 +10512,10 @@
           },
           {
             "name": "Textbooks",
+            "children": []
+          },
+          {
+            "name": "Surgical Instrument Suite",
             "children": []
           }
         ]

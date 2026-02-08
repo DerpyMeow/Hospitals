@@ -14,6 +14,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.derpymeow.hospitals.item.WikiBookItem;
 import net.derpymeow.hospitals.item.UnprocessedSteelItem;
+import net.derpymeow.hospitals.item.TourniquetItem;
 import net.derpymeow.hospitals.item.Textbookchem101Item;
 import net.derpymeow.hospitals.item.Textbookblood101Item;
 import net.derpymeow.hospitals.item.TabletItem;
@@ -26,12 +27,16 @@ import net.derpymeow.hospitals.item.SyringeBloodAPositiveItem;
 import net.derpymeow.hospitals.item.SyringeBloodANegativeItem;
 import net.derpymeow.hospitals.item.SyringeBloodABPositiveItem;
 import net.derpymeow.hospitals.item.SyringeBloodABNegativeItem;
+import net.derpymeow.hospitals.item.SurgicalscissorsItem;
+import net.derpymeow.hospitals.item.SurgicalmarkerItem;
 import net.derpymeow.hospitals.item.StickynoteItem;
 import net.derpymeow.hospitals.item.StethoscopeItem;
 import net.derpymeow.hospitals.item.StainlessSteelItem;
 import net.derpymeow.hospitals.item.SmallMedkitItem;
 import net.derpymeow.hospitals.item.ScrubsItem;
 import net.derpymeow.hospitals.item.ScrubmaskItem;
+import net.derpymeow.hospitals.item.ScalpelItem;
+import net.derpymeow.hospitals.item.RetractorItem;
 import net.derpymeow.hospitals.item.PillbottleemptyItem;
 import net.derpymeow.hospitals.item.Pillbottle9Item;
 import net.derpymeow.hospitals.item.Pillbottle7Item;
@@ -122,11 +127,16 @@ import net.derpymeow.hospitals.item.Pill12Item;
 import net.derpymeow.hospitals.item.Pill11Item;
 import net.derpymeow.hospitals.item.Pill10Item;
 import net.derpymeow.hospitals.item.PhoneItem;
+import net.derpymeow.hospitals.item.PercussionhammerItem;
 import net.derpymeow.hospitals.item.PenItem;
 import net.derpymeow.hospitals.item.MugItem;
 import net.derpymeow.hospitals.item.MixedBloodItem;
 import net.derpymeow.hospitals.item.LargemedkitItem;
+import net.derpymeow.hospitals.item.Idcardvarient3Item;
+import net.derpymeow.hospitals.item.Idcardvarient2Item;
+import net.derpymeow.hospitals.item.Idcardvarient1Item;
 import net.derpymeow.hospitals.item.IVKitItem;
+import net.derpymeow.hospitals.item.ForcepsItem;
 import net.derpymeow.hospitals.item.FolderItem;
 import net.derpymeow.hospitals.item.EmptySyringeItem;
 import net.derpymeow.hospitals.item.CreativePillItem;
@@ -448,6 +458,16 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> PAPER_STACK = block(HospitalsModBlocks.PAPER_STACK);
 	public static final RegistryObject<Item> CHAIR = block(HospitalsModBlocks.CHAIR);
 	public static final RegistryObject<Item> DOORSIGN = block(HospitalsModBlocks.DOORSIGN);
+	public static final RegistryObject<Item> FORCEPS = REGISTRY.register("forceps", () -> new ForcepsItem());
+	public static final RegistryObject<Item> SURGICALSCISSORS = REGISTRY.register("surgicalscissors", () -> new SurgicalscissorsItem());
+	public static final RegistryObject<Item> RETRACTOR = REGISTRY.register("retractor", () -> new RetractorItem());
+	public static final RegistryObject<Item> PERCUSSIONHAMMER = REGISTRY.register("percussionhammer", () -> new PercussionhammerItem());
+	public static final RegistryObject<Item> SURGICALMARKER = REGISTRY.register("surgicalmarker", () -> new SurgicalmarkerItem());
+	public static final RegistryObject<Item> TOURNIQUET = REGISTRY.register("tourniquet", () -> new TourniquetItem());
+	public static final RegistryObject<Item> SCALPEL = REGISTRY.register("scalpel", () -> new ScalpelItem());
+	public static final RegistryObject<Item> IDCARDVARIENT_1 = REGISTRY.register("idcardvarient_1", () -> new Idcardvarient1Item());
+	public static final RegistryObject<Item> IDCARDVARIENT_2 = REGISTRY.register("idcardvarient_2", () -> new Idcardvarient2Item());
+	public static final RegistryObject<Item> IDCARDVARIENT_3 = REGISTRY.register("idcardvarient_3", () -> new Idcardvarient3Item());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -672,5 +672,17 @@
   "block.hospitals.spilledblood": "Spilled Blood",
   "block.hospitals.paper_stack": "Paper Stack",
   "block.hospitals.chair": "Chair",
-  "block.hospitals.doorsign": "Door Sign"
+  "block.hospitals.doorsign": "Door Sign",
+  "item.hospitals.forceps": "Forceps",
+  "item.hospitals.surgicalscissors": "Surgical Scissors",
+  "item.hospitals.retractor": "Retractor",
+  "item.hospitals.percussionhammer": "Percussion Hammer",
+  "item.hospitals.surgicalmarker": "Surgical Marker",
+  "item.hospitals.tourniquet": "Tourniquet",
+  "item.hospitals.scalpel.description_1": "- Medically Sharp",
+  "item.hospitals.scalpel": "Scalpel",
+  "item.hospitals.scalpel.description_0": "",
+  "item.hospitals.idcardvarient_1": "ID Card (Varient #1)",
+  "item.hospitals.idcardvarient_2": "ID Card (Varient #2)",
+  "item.hospitals.idcardvarient_3": "ID Card (Varient #3)"
 }
