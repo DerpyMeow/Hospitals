@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "wristband_tx"
+      },
+      "name": "default"
+    }
+  }
+}

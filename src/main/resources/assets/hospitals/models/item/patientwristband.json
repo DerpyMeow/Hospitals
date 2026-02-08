@@ -1,0 +1,7 @@
+{
+  "parent": "hospitals:custom/pt_wristband",
+  "textures": {
+    "0": "hospitals:block/wristband_tx",
+    "particle": "minecraft:item/paper"
+  }
+}

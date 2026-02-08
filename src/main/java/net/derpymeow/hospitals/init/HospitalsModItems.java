@@ -129,6 +129,7 @@ import net.derpymeow.hospitals.item.Pill10Item;
 import net.derpymeow.hospitals.item.PhoneItem;
 import net.derpymeow.hospitals.item.PercussionhammerItem;
 import net.derpymeow.hospitals.item.PenItem;
+import net.derpymeow.hospitals.item.PatientwristbandItem;
 import net.derpymeow.hospitals.item.MugItem;
 import net.derpymeow.hospitals.item.MixedBloodItem;
 import net.derpymeow.hospitals.item.LargemedkitItem;
@@ -468,6 +469,8 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> IDCARDVARIENT_1 = REGISTRY.register("idcardvarient_1", () -> new Idcardvarient1Item());
 	public static final RegistryObject<Item> IDCARDVARIENT_2 = REGISTRY.register("idcardvarient_2", () -> new Idcardvarient2Item());
 	public static final RegistryObject<Item> IDCARDVARIENT_3 = REGISTRY.register("idcardvarient_3", () -> new Idcardvarient3Item());
+	public static final RegistryObject<Item> PATIENTWRISTBAND = REGISTRY.register("patientwristband", () -> new PatientwristbandItem());
+	public static final RegistryObject<Item> ID_CARD_SCANNER = block(HospitalsModBlocks.ID_CARD_SCANNER);
 
 	// Start of user code block custom items
 	// End of user code block custom items

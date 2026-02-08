@@ -9266,7 +9266,7 @@
           "src/main/java/net/derpymeow/hospitals/item/Idcardvarient1Item.java"
         ]
       },
-      "path": "~/Hospitals/Surgical Instrument Suite"
+      "path": "~/Hospitals/RP-ITEMS"
     },
     {
       "name": "Idcardvarient2",
@@ -9280,7 +9280,7 @@
           "src/main/java/net/derpymeow/hospitals/item/Idcardvarient2Item.java"
         ]
       },
-      "path": "~/Hospitals/Surgical Instrument Suite"
+      "path": "~/Hospitals/RP-ITEMS"
     },
     {
       "name": "Idcardvarient3",
@@ -9294,7 +9294,159 @@
           "src/main/resources/assets/hospitals/models/item/idcardvarient_3.json"
         ]
       },
-      "path": "~/Hospitals/Surgical Instrument Suite"
+      "path": "~/Hospitals/RP-ITEMS"
+    },
+    {
+      "name": "Patientwristband",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patientwristband",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/PatientwristbandItem.java",
+          "src/main/resources/assets/hospitals/models/item/patientwristband.json"
+        ]
+      },
+      "path": "~/Hospitals/RP-ITEMS"
+    },
+    {
+      "name": "IDCardScanner",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "id_card_scanner",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/id_card_scanner.json",
+          "src/main/resources/assets/hospitals/blockstates/id_card_scanner.json",
+          "src/main/resources/assets/hospitals/models/block/id_card_scanner.json",
+          "src/main/java/net/derpymeow/hospitals/block/IDCardScannerBlock.java",
+          "src/main/resources/assets/hospitals/models/item/id_card_scanner.json"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks/IDCardScanner"
+    },
+    {
+      "name": "CallsoundIDvalid",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "callsound_i_dvalid",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/CallsoundIDvalidProcedure.java"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks/IDCardScanner"
+    },
+    {
+      "name": "CallsoundIDInvalid",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "callsound_id_invalid",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/CallsoundIDInvalidProcedure.java"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks/IDCardScanner"
+    },
+    {
+      "name": "IDCardScannerOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "id_card_scanner_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/IDCardScannerOnBlockRightClickedProcedure.java"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks/IDCardScanner"
+    },
+    {
+      "name": "IDCardScannerEmittedRedstonePower",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "id_card_scanner_emitted_redstone_power",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          }
+        ],
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/IDCardScannerEmittedRedstonePowerProcedure.java"
+        ]
+      },
+      "path": "~/Hospitals/NewBlocks/IDCardScanner"
     }
   ],
   "variable_elements": [
@@ -9396,6 +9548,11 @@
     ],
     "ITEMS:minecraft:swords": [
       "~CUSTOM:Scalpel"
+    ],
+    "ITEMS:mod:valid_id_for_scanner": [
+      "CUSTOM:Idcardvarient1",
+      "CUSTOM:Idcardvarient2",
+      "CUSTOM:Idcardvarient3"
     ]
   },
   "tab_element_order": {
@@ -9620,7 +9777,9 @@
       "Scalpel",
       "Idcardvarient1",
       "Idcardvarient2",
-      "Idcardvarient3"
+      "Idcardvarient3",
+      "Patientwristband",
+      "IDCardScanner"
     ],
     "CUSTOM:Hospitalspills": [
       "CreativePill",
@@ -10402,7 +10561,11 @@
       "item.hospitals.scalpel.description_0": "",
       "item.hospitals.idcardvarient_1": "ID Card (Varient #1)",
       "item.hospitals.idcardvarient_2": "ID Card (Varient #2)",
-      "item.hospitals.idcardvarient_3": "ID Card (Varient #3)"
+      "item.hospitals.idcardvarient_3": "ID Card (Varient #3)",
+      "item.hospitals.patientwristband": "Patient Wristband",
+      "item.hospitals.patientwristband.description_0": "",
+      "item.hospitals.patientwristband.description_1": "- Leave in off-hand slot for best effect",
+      "block.hospitals.id_card_scanner": "ID Card Scanner"
     }
   },
   "metadata": {
@@ -10441,6 +10604,10 @@
             "children": [
               {
                 "name": "RoomFlags",
+                "children": []
+              },
+              {
+                "name": "IDCardScanner",
                 "children": []
               }
             ]

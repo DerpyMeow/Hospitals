@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/id_reader_model",
+  "textures": {
+    "all": "hospitals:block/id_scanner_tx",
+    "particle": "hospitals:block/id_scanner_tx",
+    "2": "hospitals:block/id_scanner_tx"
+  },
+  "render_type": "solid"
+}

@@ -684,5 +684,9 @@
   "item.hospitals.scalpel.description_0": "",
   "item.hospitals.idcardvarient_1": "ID Card (Varient #1)",
   "item.hospitals.idcardvarient_2": "ID Card (Varient #2)",
-  "item.hospitals.idcardvarient_3": "ID Card (Varient #3)"
+  "item.hospitals.idcardvarient_3": "ID Card (Varient #3)",
+  "item.hospitals.patientwristband": "Patient Wristband",
+  "item.hospitals.patientwristband.description_0": "",
+  "item.hospitals.patientwristband.description_1": "- Leave in off-hand slot for best effect",
+  "block.hospitals.id_card_scanner": "ID Card Scanner"
 }
