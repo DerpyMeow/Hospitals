@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:paper"
+    },
+    "b": {
+      "item": "hospitals:stethoscope"
+    },
+    "c": {
+      "item": "hospitals:computer_chip"
+    }
+  },
+  "result": {
+    "item": "hospitals:idcardvarient_1",
+    "count": 1
+  }
+}

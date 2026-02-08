@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    " b ",
+    "  b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "b": {
+      "item": "hospitals:stainless_steel"
+    }
+  },
+  "result": {
+    "item": "hospitals:percussionhammer",
+    "count": 1
+  }
+}

@@ -9447,6 +9447,162 @@
         ]
       },
       "path": "~/Hospitals/NewBlocks/IDCardScanner"
+    },
+    {
+      "name": "Sclr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sclr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/sclr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Fcr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fcr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/fcr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Ssrr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ssrr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/ssrr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Rr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/rr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Smr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/smr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Phr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/phr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Tqr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tqr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/tqr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Pwbr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pwbr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/pwbr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Ics",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ics",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/ics.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Id1r",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "id_1r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/id_1r.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Id2r",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "id_2r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/id_2r.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Id3r",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "id_3r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/id_3r.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
     }
   ],
   "variable_elements": [
@@ -10730,7 +10886,7 @@
   "workspaceSettings": {
     "modid": "hospitals",
     "modName": "Hospitals (THM Expanded)",
-    "version": "3.7.0",
+    "version": "3.8.0",
     "description": "This Brings Complex Medical Blocks And Items To Minecraft: Based Off Of Leon90\u0027s Mod.",
     "author": "DerpyMeow",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/hospitals",

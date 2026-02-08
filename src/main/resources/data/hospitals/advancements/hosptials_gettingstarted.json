@@ -230,7 +230,19 @@
       "hospitals:spilledbloodr_2",
       "hospitals:psrr",
       "hospitals:chairr",
-      "hospitals:dsr"
+      "hospitals:dsr",
+      "hospitals:sclr",
+      "hospitals:fcr",
+      "hospitals:ssrr",
+      "hospitals:rr",
+      "hospitals:smr",
+      "hospitals:phr",
+      "hospitals:tqr",
+      "hospitals:pwbr",
+      "hospitals:ics",
+      "hospitals:id_1r",
+      "hospitals:id_2r",
+      "hospitals:id_3r"
     ]
   },
   "parent": "minecraft:adventure/adventuring_time"
