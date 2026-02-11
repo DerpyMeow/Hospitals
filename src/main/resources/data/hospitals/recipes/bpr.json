@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:book"
+    },
+    "b": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "item": "hospitals:textbookpill_101",
+    "count": 1
+  }
+}

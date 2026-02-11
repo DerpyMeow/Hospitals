@@ -9616,6 +9616,132 @@
         ]
       },
       "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Textbooksteel101",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "textbooksteel_101",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/Textbooksteel101Item.java",
+          "src/main/java/net/derpymeow/hospitals/item/inventory/Textbooksteel101InventoryCapability.java",
+          "src/main/resources/assets/hospitals/models/item/textbooksteel_101.json"
+        ]
+      },
+      "path": "~/Hospitals/Textbooks"
+    },
+    {
+      "name": "Textbooksteel101GUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "textbooksteel_101_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/client/gui/Textbooksteel101GUIScreen.java",
+          "src/main/java/net/derpymeow/hospitals/world/inventory/Textbooksteel101GUIMenu.java"
+        ]
+      },
+      "path": "~/Hospitals/Textbooks"
+    },
+    {
+      "name": "Textbookpill101",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "textbookpill_101",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/item/Textbookpill101Item.java",
+          "src/main/resources/assets/hospitals/models/item/textbookpill_101.json",
+          "src/main/java/net/derpymeow/hospitals/item/inventory/Textbookpill101InventoryCapability.java"
+        ]
+      },
+      "path": "~/Hospitals/Textbooks"
+    },
+    {
+      "name": "Textbookpill101GUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "textbookpill_101_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/world/inventory/Textbookpill101GUIMenu.java",
+          "src/main/java/net/derpymeow/hospitals/client/gui/Textbookpill101GUIScreen.java"
+        ]
+      },
+      "path": "~/Hospitals/Textbooks"
+    },
+    {
+      "name": "Bsrr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bsrr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/bsrr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Bpr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bpr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/bpr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Textbookbasic101",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "textbookbasic_101",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/textbookbasic_101.json",
+          "src/main/java/net/derpymeow/hospitals/item/inventory/Textbookbasic101InventoryCapability.java",
+          "src/main/java/net/derpymeow/hospitals/item/Textbookbasic101Item.java"
+        ]
+      },
+      "path": "~/Hospitals/Textbooks"
+    },
+    {
+      "name": "Textbookbasic101GUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "textbookbasic_101_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/world/inventory/Textbookbasic101GUIMenu.java",
+          "src/main/java/net/derpymeow/hospitals/client/gui/Textbookbasic101GUIScreen.java"
+        ]
+      },
+      "path": "~/Hospitals/Textbooks"
+    },
+    {
+      "name": "Bbr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bbr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/bbr.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
     }
   ],
   "variable_elements": [
@@ -9948,7 +10074,10 @@
       "Idcardvarient2",
       "Idcardvarient3",
       "Patientwristband",
-      "IDCardScanner"
+      "IDCardScanner",
+      "Textbooksteel101",
+      "Textbookpill101",
+      "Textbookbasic101"
     ],
     "CUSTOM:Hospitalspills": [
       "CreativePill",
@@ -10734,7 +10863,16 @@
       "item.hospitals.patientwristband": "Patient Wristband",
       "item.hospitals.patientwristband.description_0": "",
       "item.hospitals.patientwristband.description_1": "- Leave in off-hand slot for best effect",
-      "block.hospitals.id_card_scanner": "ID Card Scanner"
+      "block.hospitals.id_card_scanner": "ID Card Scanner",
+      "item.hospitals.textbooksteel_101": "Hospital Chemistry: Steel Synthesis",
+      "item.hospitals.textbooksteel_101.description_1": "- Intro To Stainless Steel Fabrication",
+      "item.hospitals.textbooksteel_101.description_0": "",
+      "item.hospitals.textbookpill_101": "Hospital Chemistry: Pharmacology ",
+      "item.hospitals.textbookpill_101.description_0": "",
+      "item.hospitals.textbookpill_101.description_1": "- Intro To Medication",
+      "item.hospitals.textbookbasic_101.description_0": "",
+      "item.hospitals.textbookbasic_101.description_1": "- Intro To Hospital Chemistry",
+      "item.hospitals.textbookbasic_101": "Hospital Chemistry: Fundamentals "
     }
   },
   "metadata": {

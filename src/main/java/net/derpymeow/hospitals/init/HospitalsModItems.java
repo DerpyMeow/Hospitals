@@ -15,8 +15,11 @@ import net.minecraft.world.item.BlockItem;
 import net.derpymeow.hospitals.item.WikiBookItem;
 import net.derpymeow.hospitals.item.UnprocessedSteelItem;
 import net.derpymeow.hospitals.item.TourniquetItem;
+import net.derpymeow.hospitals.item.Textbooksteel101Item;
+import net.derpymeow.hospitals.item.Textbookpill101Item;
 import net.derpymeow.hospitals.item.Textbookchem101Item;
 import net.derpymeow.hospitals.item.Textbookblood101Item;
+import net.derpymeow.hospitals.item.Textbookbasic101Item;
 import net.derpymeow.hospitals.item.TabletItem;
 import net.derpymeow.hospitals.item.SyringebloodOnegativeItem;
 import net.derpymeow.hospitals.item.SyringeBloodOPositiveItem;
@@ -471,6 +474,9 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> IDCARDVARIENT_3 = REGISTRY.register("idcardvarient_3", () -> new Idcardvarient3Item());
 	public static final RegistryObject<Item> PATIENTWRISTBAND = REGISTRY.register("patientwristband", () -> new PatientwristbandItem());
 	public static final RegistryObject<Item> ID_CARD_SCANNER = block(HospitalsModBlocks.ID_CARD_SCANNER);
+	public static final RegistryObject<Item> TEXTBOOKSTEEL_101 = REGISTRY.register("textbooksteel_101", () -> new Textbooksteel101Item());
+	public static final RegistryObject<Item> TEXTBOOKPILL_101 = REGISTRY.register("textbookpill_101", () -> new Textbookpill101Item());
+	public static final RegistryObject<Item> TEXTBOOKBASIC_101 = REGISTRY.register("textbookbasic_101", () -> new Textbookbasic101Item());
 
 	// Start of user code block custom items
 	// End of user code block custom items
