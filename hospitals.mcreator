@@ -9983,9 +9983,11 @@
       "WasteBinClinicalWaste"
     ],
     "CUSTOM:Hospitals": [
-      "WikiBook",
-      "Textbookchem101",
+      "Textbookbasic101",
+      "Textbooksteel101",
       "Textbookblood101",
+      "Textbookchem101",
+      "Textbookpill101",
       "Scrubs",
       "Scrubmask",
       "Nurse",
@@ -10074,10 +10076,7 @@
       "Idcardvarient2",
       "Idcardvarient3",
       "Patientwristband",
-      "IDCardScanner",
-      "Textbooksteel101",
-      "Textbookpill101",
-      "Textbookbasic101"
+      "IDCardScanner"
     ],
     "CUSTOM:Hospitalspills": [
       "CreativePill",
@@ -11058,7 +11057,7 @@
   "workspaceSettings": {
     "modid": "hospitals",
     "modName": "Hospitals (THM Expanded)",
-    "version": "3.8.0",
+    "version": "4.0.0",
     "description": "This Brings Complex Medical Blocks And Items To Minecraft: Based Off Of Leon90\u0027s Mod.",
     "author": "DerpyMeow",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/hospitals",
