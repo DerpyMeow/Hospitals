@@ -242,7 +242,11 @@
       "hospitals:ics",
       "hospitals:id_1r",
       "hospitals:id_2r",
-      "hospitals:id_3r"
+      "hospitals:id_3r",
+      "hospitals:sbtosir",
+      "hospitals:bsrr",
+      "hospitals:bpr",
+      "hospitals:bbr"
     ]
   },
   "parent": "minecraft:adventure/adventuring_time"
