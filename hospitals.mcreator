@@ -9603,6 +9603,19 @@
         ]
       },
       "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Sbtosir",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sbtosir",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/recipes/sbtosir.json"
+        ]
+      },
+      "path": "~/Crafting Recipes"
     }
   ],
   "variable_elements": [
