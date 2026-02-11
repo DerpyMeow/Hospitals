@@ -5,6 +5,7 @@
     "renderType": 0,
     "texture": "computertx",
     "customModelName": "Normal",
+    "guiTexture": "",
     "customProperties": {},
     "states": [],
     "name": "Computer",
@@ -29,10 +30,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": [
-        "",
-        "i forgot my password :("
-      ]
+      "fixedValue": []
     },
     "glowCondition": {
       "fixedValue": false

@@ -38,10 +38,7 @@
     "customProperties": [],
     "name": "Lab Tiles 2",
     "specialInformation": {
-      "fixedValue": [
-        "",
-        "Same as Lab Tiles 1, but with gradient"
-      ]
+      "fixedValue": []
     },
     "hardness": 1.0,
     "resistance": 10.0,

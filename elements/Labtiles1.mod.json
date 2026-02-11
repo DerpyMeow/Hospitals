@@ -38,10 +38,7 @@
     "customProperties": [],
     "name": "Lab Tiles 1",
     "specialInformation": {
-      "fixedValue": [
-        "",
-        "Same as Lab Tiles 3, but with thinner border"
-      ]
+      "fixedValue": []
     },
     "hardness": 1.0,
     "resistance": 10.0,

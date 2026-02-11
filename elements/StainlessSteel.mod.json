@@ -5,6 +5,7 @@
     "renderType": 0,
     "texture": "stainlesssteeltx",
     "customModelName": "Normal",
+    "guiTexture": "",
     "customProperties": {},
     "states": [],
     "name": "Stainless Steel",
@@ -29,10 +30,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": [
-        "",
-        "ooo shiny"
-      ]
+      "fixedValue": []
     },
     "glowCondition": {
       "fixedValue": false

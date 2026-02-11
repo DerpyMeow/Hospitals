@@ -38,10 +38,7 @@
     "customProperties": [],
     "name": "Block Of Stainless Steel",
     "specialInformation": {
-      "fixedValue": [
-        "",
-        "so shiny you can almost see your reflection"
-      ]
+      "fixedValue": []
     },
     "hardness": 1.5,
     "resistance": 15.0,
@@ -115,6 +112,9 @@
     "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 7.0
+    },
     "hasInventory": false,
     "openGUIOnRightClick": false,
     "inventorySize": 9,

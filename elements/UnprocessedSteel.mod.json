@@ -5,6 +5,7 @@
     "renderType": 0,
     "texture": "unprocessedsteel",
     "customModelName": "Normal",
+    "guiTexture": "",
     "customProperties": {},
     "states": [],
     "name": "Unprocessed Steel",
@@ -29,10 +30,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": [
-        "",
-        "so dirty but so pure..."
-      ]
+      "fixedValue": []
     },
     "glowCondition": {
       "fixedValue": false
