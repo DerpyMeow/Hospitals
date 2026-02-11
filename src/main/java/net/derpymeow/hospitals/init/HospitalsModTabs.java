@@ -153,9 +153,11 @@ public class HospitalsModTabs {
 			}).withSearchBar().withTabsBefore(WARD_THM.getId()).build());
 	public static final RegistryObject<CreativeModeTab> HOSPITALS = REGISTRY.register("hospitals",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.hospitals")).icon(() -> new ItemStack(HospitalsModBlocks.MEDICAL_CROSS.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(HospitalsModItems.WIKI_BOOK.get());
-				tabData.accept(HospitalsModItems.TEXTBOOKCHEM_101.get());
+				tabData.accept(HospitalsModItems.TEXTBOOKBASIC_101.get());
+				tabData.accept(HospitalsModItems.TEXTBOOKSTEEL_101.get());
 				tabData.accept(HospitalsModItems.TEXTBOOKBLOOD_101.get());
+				tabData.accept(HospitalsModItems.TEXTBOOKCHEM_101.get());
+				tabData.accept(HospitalsModItems.TEXTBOOKPILL_101.get());
 				tabData.accept(HospitalsModItems.SCRUBS_HELMET.get());
 				tabData.accept(HospitalsModItems.SCRUBS_CHESTPLATE.get());
 				tabData.accept(HospitalsModItems.SCRUBS_LEGGINGS.get());
@@ -248,9 +250,6 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModItems.IDCARDVARIENT_3.get());
 				tabData.accept(HospitalsModItems.PATIENTWRISTBAND.get());
 				tabData.accept(HospitalsModBlocks.ID_CARD_SCANNER.get().asItem());
-				tabData.accept(HospitalsModItems.TEXTBOOKSTEEL_101.get());
-				tabData.accept(HospitalsModItems.TEXTBOOKPILL_101.get());
-				tabData.accept(HospitalsModItems.TEXTBOOKBASIC_101.get());
 			}).withSearchBar().withTabsBefore(FACILITIES_THM.getId()).build());
 	public static final RegistryObject<CreativeModeTab> HOSPITALSPILLS = REGISTRY.register("hospitalspills",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.hospitalspills")).icon(() -> new ItemStack(HospitalsModItems.PILL.get())).displayItems((parameters, tabData) -> {
