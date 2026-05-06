@@ -4,7 +4,9 @@
 
 ​	This minecraft mod has over 200 unique blocks and items, blood types, medications, and much more to come!
 
-### <u>**Features**</u>
+### ![Features](https://raw.githubusercontent.com/DerpyMeow/Hospitals/refs/heads/release/ModPage-Assets/Features-Banner.png)
+
+### <u>**What's Included**</u>
 
 - Over 200+ Detailed Realistic Medical Blocks (Everything from [The Original Hospital Mod](https://www.curseforge.com/minecraft/mc-mods/the-hospital-mod))
 - Small & Large First Aid Kit
@@ -27,7 +29,9 @@
 
 ​	The mod [JEI](https://www.curseforge.com/minecraft/mc-mods/jei) is recommended to make finding crafting recipes easier, but it is not required, nor does it change gameplay. All crafting recipes are given on join, this way you can find them in the recipe book. When using survival mode, I would recommend crafting the “Hospital Chemistry: Fundamentals” book to get a good start to progressing.
 
-### <u>**Versions**</u>
+### ![Versions](https://raw.githubusercontent.com/DerpyMeow/Hospitals/refs/heads/release/ModPage-Assets/Versions-Banner.png)
+
+### <u>**Choose A Version**</u>
 
 NOTE: Please download the latest version, not the most downloaded version, as newer content and more stable builds will be released in higher versions.
 
@@ -49,7 +53,9 @@ NOTE: Please download the latest version, not the most downloaded version, as ne
 
 **1.15.2, 1.14.4, 1.12.2** - (This Is [The Original Mod](https://www.curseforge.com/minecraft/mc-mods/the-hospital-mod)) - Latest Mod Version: Original Mod Only (No new Items)
 
-### <u>**Other Information**</u>
+### ![Other Information](https://raw.githubusercontent.com/DerpyMeow/Hospitals/refs/heads/release/ModPage-Assets/OtherInformation-Banner.png)
+
+### <u>**Suggestions & Help**</u>
 
 Join the discord to get notified on updates, make suggestions, or for mod help!
 
@@ -59,6 +65,7 @@ If you have a suggestion or need help with something, but can't join the discord
 
 You can find a full guide on how to play with this mod on the [wiki](https://derpymeow.github.io/Hospitals/hospitals-wiki.pdf)!
 
-Legal Information:
+### <u>**Legal Info**</u>
+
 Parts of this mod were originally made by Leon90 under the MIT License, meaning that you can copy, edit, and publish the original mod without limitations. This mod will be under the same license, so feel free to do anything with it. It is encouraged that this mod is only dowloaded on curseforge or modrinth, but cannot be legally enforced. Read the [license](https://github.com/DerpyMeow/Hospitals/blob/release/LICENSE) here.
 
