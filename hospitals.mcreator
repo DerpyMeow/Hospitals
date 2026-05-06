@@ -9848,7 +9848,12 @@
       "CUSTOM:Idcardvarient1",
       "CUSTOM:Idcardvarient2",
       "CUSTOM:Idcardvarient3"
-    ]
+    ],
+    "ITEMS:minecraft:head_armor": [],
+    "ITEMS:minecraft:chest_armor": [],
+    "ITEMS:minecraft:leg_armor": [],
+    "ITEMS:minecraft:foot_armor": [],
+    "ITEMS:minecraft:enchantable/durability": []
   },
   "tab_element_order": {
     "CUSTOM:OperatingRoomsTHM": [
@@ -10871,7 +10876,14 @@
       "item.hospitals.textbookpill_101.description_1": "- Intro To Medication",
       "item.hospitals.textbookbasic_101.description_0": "",
       "item.hospitals.textbookbasic_101.description_1": "- Intro To Hospital Chemistry",
-      "item.hospitals.textbookbasic_101": "Hospital Chemistry: Fundamentals "
+      "item.hospitals.textbookbasic_101": "Hospital Chemistry: Fundamentals ",
+      "itemGroup.hospitals.operating_rooms_thm": "Operating Rooms - THM",
+      "itemGroup.hospitals.pharmacy_thm": "Pharmacy - THM",
+      "itemGroup.hospitals.radiology_thm": "Radiology - THM",
+      "itemGroup.hospitals.ward_thm": "Ward - THM",
+      "itemGroup.hospitals.facilities_thm": "Facilities - THM",
+      "itemGroup.hospitals.hospitals": "Hospitals",
+      "itemGroup.hospitals.hospitalspills": "Hospitals - Pills"
     }
   },
   "metadata": {

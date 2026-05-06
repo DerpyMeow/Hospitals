@@ -43,7 +43,7 @@ NOTE: Please download the latest version, not the most downloaded version, as ne
 
 **1.20.4** - NeoForge - Latest v4.0.0
 
-**1.20.1** - Forge - Latest v4.0.0
+**1.20.1** - Forge - Latest v4.0.0 ***(Recommended)***
 
 **1.19.4** - Forge - Latest v4.0.0
 

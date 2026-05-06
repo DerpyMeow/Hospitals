@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "hospitals:bloodbagbpositive",
+    "hospitals:bloodbagapositive",
+    "hospitals:bloodbagabnegative",
+    "hospitals:bloodbagabpositive",
+    "hospitals:bloodbagbnegative",
+    "hospitals:bloodbaganegative",
+    "hospitals:bloodbagonegative",
+    "hospitals:bloodbagopositive"
+  ]
+}

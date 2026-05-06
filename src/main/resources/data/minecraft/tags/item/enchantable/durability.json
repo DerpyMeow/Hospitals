@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "hospitals:blood_type_tester"
+    "hospitals:blood_type_tester",
+    "hospitals:iv_kit"
   ]
 }
