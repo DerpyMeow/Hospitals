@@ -68,4 +68,3 @@ You can find a full guide on how to play with this mod on the [wiki](https://der
 ### <u>**Legal Info**</u>
 
 Parts of this mod were originally made by Leon90 under the MIT License, meaning that you can copy, edit, and publish the original mod without limitations. This mod will be under the same license, so feel free to do anything with it. It is encouraged that this mod is only dowloaded on curseforge or modrinth, but cannot be legally enforced. Read the [license](https://github.com/DerpyMeow/Hospitals/blob/release/LICENSE) here.
-
