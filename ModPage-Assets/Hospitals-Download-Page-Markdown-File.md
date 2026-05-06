@@ -57,6 +57,8 @@ https://discord.com/invite/JFR7e4Thrk
 
 If you have a suggestion or need help with something, but can't join the discord, feel free to use [this google form](https://docs.google.com/forms/d/e/1FAIpQLSfUeeZsgpBslSjxjC42QPYpR61DRAhgm-mVPlOaEGrhVl_Tlg/viewform), make [a github issue](https://github.com/DerpyMeow/Hospitals/issues), or leave [a curseforge comment](https://www.curseforge.com/minecraft/mc-mods/hospitals/comments)!
 
+You can find a full guide on how to play with this mod on the [wiki](https://derpymeow.github.io/Hospitals/hospitals-wiki.pdf)!
+
 Legal Information:
 Parts of this mod were originally made by Leon90 under the MIT License, meaning that you can copy, edit, and publish the original mod without limitations. This mod will be under the same license, so feel free to do anything with it. It is encouraged that this mod is only dowloaded on curseforge or modrinth, but cannot be legally enforced. Read the [license](https://github.com/DerpyMeow/Hospitals/blob/release/LICENSE) here.
 
