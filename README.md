@@ -1,3 +1,5 @@
+**NOTE: This Github Readme Page description won't be updated as often as the curseforge or modrinth discription, but the latest release will still be avalible here also**
+
 ![Banner](https://raw.githubusercontent.com/DerpyMeow/Hospitals/refs/heads/release/ModPage-Assets/Banner.png)
 
 ### <u>**Welcome To Hospitals!**</u>
