@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "rail_tx",
+        "1": "net_tx_working"
+      },
+      "name": "default"
+    }
+  }
+}

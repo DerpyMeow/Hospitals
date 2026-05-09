@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/curtains_corner",
+  "textures": {
+    "all": "hospitals:block/curtain_texture_corner",
+    "particle": "hospitals:block/curtain_texture_corner",
+    "0": "hospitals:block/curtain_texture_corner"
+  },
+  "render_type": "cutout_mipped"
+}

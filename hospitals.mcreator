@@ -2237,7 +2237,7 @@
           "src/main/java/net/derpymeow/hospitals/item/PillItem.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Scrubs",
@@ -2298,7 +2298,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_1.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Hospitalspills",
@@ -2323,7 +2323,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_2.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill3",
@@ -2337,7 +2337,7 @@
           "src/main/java/net/derpymeow/hospitals/item/Pill3Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill4",
@@ -2351,7 +2351,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_4.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill5",
@@ -2365,7 +2365,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_5.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill6",
@@ -2379,7 +2379,7 @@
           "src/main/java/net/derpymeow/hospitals/item/Pill6Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill7",
@@ -2393,7 +2393,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_7.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill8",
@@ -2407,7 +2407,7 @@
           "src/main/java/net/derpymeow/hospitals/item/Pill8Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill9",
@@ -2421,7 +2421,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_9.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill10",
@@ -2435,7 +2435,7 @@
           "src/main/java/net/derpymeow/hospitals/item/Pill10Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pillbottleempty",
@@ -2449,7 +2449,7 @@
           "src/main/resources/assets/hospitals/models/item/pillbottleempty.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "Pillbottle0",
@@ -2463,7 +2463,7 @@
           "src/main/resources/assets/hospitals/models/item/pillbottle_0.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "Pillbottle1",
@@ -2477,7 +2477,7 @@
           "src/main/java/net/derpymeow/hospitals/item/Pillbottle1Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "Pillbottle2",
@@ -2491,7 +2491,7 @@
           "src/main/java/net/derpymeow/hospitals/item/Pillbottle2Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "Pillbottle3",
@@ -2505,7 +2505,7 @@
           "src/main/resources/assets/hospitals/models/item/pillbottle_3.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "Pillbottle4",
@@ -2519,7 +2519,7 @@
           "src/main/java/net/derpymeow/hospitals/item/Pillbottle4Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle5",
@@ -2533,7 +2533,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_bottle_5.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "Pillbottle6",
@@ -2547,7 +2547,7 @@
           "src/main/resources/assets/hospitals/models/item/pillbottle_6.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "Pillbottle7",
@@ -2561,7 +2561,7 @@
           "src/main/resources/assets/hospitals/models/item/pillbottle_7.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle8",
@@ -2575,7 +2575,7 @@
           "src/main/java/net/derpymeow/hospitals/item/PillBottle8Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "Pillbottle9",
@@ -2589,7 +2589,7 @@
           "src/main/java/net/derpymeow/hospitals/item/Pillbottle9Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle10",
@@ -2603,7 +2603,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_bottle_10.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "BottleRightClick",
@@ -2626,7 +2626,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "Pbr0",
@@ -2783,7 +2783,7 @@
           "src/main/java/net/derpymeow/hospitals/item/Pill11Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill12",
@@ -2797,7 +2797,7 @@
           "src/main/java/net/derpymeow/hospitals/item/Pill12Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill13",
@@ -2811,7 +2811,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_13.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill14",
@@ -2825,7 +2825,7 @@
           "src/main/java/net/derpymeow/hospitals/item/Pill14Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill15",
@@ -2839,7 +2839,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_15.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill16",
@@ -2853,7 +2853,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_16.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill17",
@@ -2867,7 +2867,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_17.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill18",
@@ -2881,7 +2881,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_18.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill19",
@@ -2895,7 +2895,7 @@
           "src/main/java/net/derpymeow/hospitals/item/Pill19Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill20",
@@ -2909,7 +2909,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_20.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pillbottle11",
@@ -2923,7 +2923,7 @@
           "src/main/resources/assets/hospitals/models/item/pillbottle_11.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "Pillbottle12",
@@ -2937,7 +2937,7 @@
           "src/main/resources/assets/hospitals/models/item/pillbottle_12.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle13",
@@ -2951,7 +2951,7 @@
           "src/main/java/net/derpymeow/hospitals/item/PillBottle13Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle14",
@@ -2965,7 +2965,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_bottle_14.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle15",
@@ -2979,7 +2979,7 @@
           "src/main/java/net/derpymeow/hospitals/item/PillBottle15Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle16",
@@ -2993,7 +2993,7 @@
           "src/main/java/net/derpymeow/hospitals/item/PillBottle16Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle17",
@@ -3007,7 +3007,7 @@
           "src/main/java/net/derpymeow/hospitals/item/PillBottle17Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle18",
@@ -3021,7 +3021,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_bottle_18.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle19",
@@ -3035,7 +3035,7 @@
           "src/main/java/net/derpymeow/hospitals/item/PillBottle19Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "Pillbottle20",
@@ -3049,7 +3049,7 @@
           "src/main/resources/assets/hospitals/models/item/pillbottle_20.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "Pbr11",
@@ -3193,7 +3193,7 @@
           "src/main/java/net/derpymeow/hospitals/item/Pill21Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill22",
@@ -3207,7 +3207,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_22.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill23",
@@ -3221,7 +3221,7 @@
           "src/main/java/net/derpymeow/hospitals/item/Pill23Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill24",
@@ -3235,7 +3235,7 @@
           "src/main/java/net/derpymeow/hospitals/item/Pill24Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill25",
@@ -3249,7 +3249,7 @@
           "src/main/java/net/derpymeow/hospitals/item/Pill25Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill26",
@@ -3263,7 +3263,7 @@
           "src/main/java/net/derpymeow/hospitals/item/Pill26Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill27",
@@ -3277,7 +3277,7 @@
           "src/main/java/net/derpymeow/hospitals/item/Pill27Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill28",
@@ -3291,7 +3291,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_28.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill29",
@@ -3305,7 +3305,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_29.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill30",
@@ -3319,7 +3319,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_30.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pillbottle21",
@@ -3333,7 +3333,7 @@
           "src/main/java/net/derpymeow/hospitals/item/Pillbottle21Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle22",
@@ -3347,7 +3347,7 @@
           "src/main/java/net/derpymeow/hospitals/item/PillBottle22Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle23",
@@ -3361,7 +3361,7 @@
           "src/main/java/net/derpymeow/hospitals/item/PillBottle23Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle24",
@@ -3375,7 +3375,7 @@
           "src/main/java/net/derpymeow/hospitals/item/PillBottle24Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle25",
@@ -3389,7 +3389,7 @@
           "src/main/java/net/derpymeow/hospitals/item/PillBottle25Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle26",
@@ -3403,7 +3403,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_bottle_26.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle27",
@@ -3417,7 +3417,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_bottle_27.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle28",
@@ -3431,7 +3431,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_bottle_28.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle29",
@@ -3445,7 +3445,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_bottle_29.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle30",
@@ -3459,7 +3459,7 @@
           "src/main/java/net/derpymeow/hospitals/item/PillBottle30Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "Pbr21",
@@ -3603,7 +3603,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_31.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill32",
@@ -3617,7 +3617,7 @@
           "src/main/java/net/derpymeow/hospitals/item/Pill32Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill33",
@@ -3631,7 +3631,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_33.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill34",
@@ -3645,7 +3645,7 @@
           "src/main/java/net/derpymeow/hospitals/item/Pill34Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill35",
@@ -3659,7 +3659,7 @@
           "src/main/java/net/derpymeow/hospitals/item/Pill35Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill36",
@@ -3673,7 +3673,7 @@
           "src/main/java/net/derpymeow/hospitals/item/Pill36Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill37",
@@ -3687,7 +3687,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_37.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill38",
@@ -3701,7 +3701,7 @@
           "src/main/java/net/derpymeow/hospitals/item/Pill38Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill39",
@@ -3715,7 +3715,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_39.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill40",
@@ -3729,7 +3729,7 @@
           "src/main/java/net/derpymeow/hospitals/item/Pill40Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill41",
@@ -3743,7 +3743,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_41.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill42",
@@ -3757,7 +3757,7 @@
           "src/main/java/net/derpymeow/hospitals/item/Pill42Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "Pill43",
@@ -3771,7 +3771,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_43.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "PillBottle31",
@@ -3785,7 +3785,7 @@
           "src/main/java/net/derpymeow/hospitals/item/PillBottle31Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle32",
@@ -3799,7 +3799,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_bottle_32.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle33",
@@ -3813,7 +3813,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_bottle_33.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle34",
@@ -3827,7 +3827,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_bottle_34.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle35",
@@ -3841,7 +3841,7 @@
           "src/main/java/net/derpymeow/hospitals/item/PillBottle35Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle36",
@@ -3855,7 +3855,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_bottle_36.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle37",
@@ -3869,7 +3869,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_bottle_37.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle38",
@@ -3883,7 +3883,7 @@
           "src/main/java/net/derpymeow/hospitals/item/PillBottle38Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle39",
@@ -3897,7 +3897,7 @@
           "src/main/java/net/derpymeow/hospitals/item/PillBottle39Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle40",
@@ -3911,7 +3911,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_bottle_40.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle41",
@@ -3925,7 +3925,7 @@
           "src/main/java/net/derpymeow/hospitals/item/PillBottle41Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle42",
@@ -3939,7 +3939,7 @@
           "src/main/resources/assets/hospitals/models/item/pill_bottle_42.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "PillBottle43",
@@ -3953,7 +3953,7 @@
           "src/main/java/net/derpymeow/hospitals/item/PillBottle43Item.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pill Bottles"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pill Bottles"
     },
     {
       "name": "Pbr31",
@@ -4141,7 +4141,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill2ate",
@@ -4160,7 +4160,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill3ate",
@@ -4179,7 +4179,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill4ate",
@@ -4198,7 +4198,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill5ate",
@@ -4217,7 +4217,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill6ate",
@@ -4236,7 +4236,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill7ate",
@@ -4255,7 +4255,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill8ate",
@@ -4274,7 +4274,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill9ate",
@@ -4293,7 +4293,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill10ate",
@@ -4312,7 +4312,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill11ate",
@@ -4331,7 +4331,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill12ate",
@@ -4350,7 +4350,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill13ate",
@@ -4369,7 +4369,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill14ate",
@@ -4388,7 +4388,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill15ate",
@@ -4407,7 +4407,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill16ate",
@@ -4426,7 +4426,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill17ate",
@@ -4445,7 +4445,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill18ate",
@@ -4464,7 +4464,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill19ate",
@@ -4483,7 +4483,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill20ate",
@@ -4502,7 +4502,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill21ate",
@@ -4521,7 +4521,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill22ate",
@@ -4540,7 +4540,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill23ate",
@@ -4559,7 +4559,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill24ate",
@@ -4578,7 +4578,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill25ate",
@@ -4597,7 +4597,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill26ate",
@@ -4616,7 +4616,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill27ate",
@@ -4635,7 +4635,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill28ate",
@@ -4654,7 +4654,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill29ate",
@@ -4673,7 +4673,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill30ate",
@@ -4692,7 +4692,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill31ate",
@@ -4711,7 +4711,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill32ate",
@@ -4730,7 +4730,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill33ate",
@@ -4749,7 +4749,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill34ate",
@@ -4768,7 +4768,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill35ate",
@@ -4787,7 +4787,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill36ate",
@@ -4806,7 +4806,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill37ate",
@@ -4825,7 +4825,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill38ate",
@@ -4844,7 +4844,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill39ate",
@@ -4863,7 +4863,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill40ate",
@@ -4882,7 +4882,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill41ate",
@@ -4901,7 +4901,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill42ate",
@@ -4920,7 +4920,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Pill43ate",
@@ -4939,7 +4939,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "SmallMedkit",
@@ -5018,7 +5018,7 @@
           "src/main/resources/assets/hospitals/textures/entity/villager/profession/pharmacist.png.mcmeta"
         ]
       },
-      "path": "~/Hospitals/Pharmacy"
+      "path": "~/Hospitals/Lab/Pharmacy"
     },
     {
       "name": "LightBlock",
@@ -5046,7 +5046,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/Hospitals/Pharmacy"
+      "path": "~/Hospitals/Lab/Pharmacy"
     },
     {
       "name": "Pharmacy",
@@ -5061,7 +5061,7 @@
           "src/main/resources/data/hospitals/worldgen/template_pool/pharmacy.json"
         ]
       },
-      "path": "~/Hospitals/Pharmacy"
+      "path": "~/Hospitals/Lab/Pharmacy"
     },
     {
       "name": "StainlessSteel",
@@ -6930,7 +6930,7 @@
           "src/main/java/net/derpymeow/hospitals/item/CreativePillItem.java"
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills"
     },
     {
       "name": "CreativePillAte",
@@ -6949,7 +6949,7 @@
           }
         ]
       },
-      "path": "~/Hospitals/Pharmacy/Pills/Pills/Ate Procedures"
+      "path": "~/Hospitals/Lab/Pharmacy/Pills/Pills/Ate Procedures"
     },
     {
       "name": "Warning",
@@ -7039,7 +7039,7 @@
           "src/main/java/net/derpymeow/hospitals/item/BloodbagonegativeItem.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Blood Bags"
+      "path": "~/Hospitals/Lab/Blood/Blood Bags"
     },
     {
       "name": "Bloodbagopositive",
@@ -7053,7 +7053,7 @@
           "src/main/java/net/derpymeow/hospitals/item/BloodbagopositiveItem.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Blood Bags"
+      "path": "~/Hospitals/Lab/Blood/Blood Bags"
     },
     {
       "name": "Bloodbagbnegative",
@@ -7067,7 +7067,7 @@
           "src/main/java/net/derpymeow/hospitals/item/BloodbagbnegativeItem.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Blood Bags"
+      "path": "~/Hospitals/Lab/Blood/Blood Bags"
     },
     {
       "name": "Bloodbagbpositive",
@@ -7081,7 +7081,7 @@
           "src/main/java/net/derpymeow/hospitals/item/BloodbagbpositiveItem.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Blood Bags"
+      "path": "~/Hospitals/Lab/Blood/Blood Bags"
     },
     {
       "name": "Bloodbaganegative",
@@ -7095,7 +7095,7 @@
           "src/main/resources/assets/hospitals/models/item/bloodbaganegative.json"
         ]
       },
-      "path": "~/Hospitals/Blood/Blood Bags"
+      "path": "~/Hospitals/Lab/Blood/Blood Bags"
     },
     {
       "name": "Bloodbagapositive",
@@ -7109,7 +7109,7 @@
           "src/main/java/net/derpymeow/hospitals/item/BloodbagapositiveItem.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Blood Bags"
+      "path": "~/Hospitals/Lab/Blood/Blood Bags"
     },
     {
       "name": "Bloodbagabnegative",
@@ -7123,7 +7123,7 @@
           "src/main/java/net/derpymeow/hospitals/item/BloodbagabnegativeItem.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Blood Bags"
+      "path": "~/Hospitals/Lab/Blood/Blood Bags"
     },
     {
       "name": "Bloodbagabpositive",
@@ -7137,7 +7137,7 @@
           "src/main/java/net/derpymeow/hospitals/item/BloodbagabpositiveItem.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Blood Bags"
+      "path": "~/Hospitals/Lab/Blood/Blood Bags"
     },
     {
       "name": "Bloodbagempty",
@@ -7151,7 +7151,7 @@
           "src/main/java/net/derpymeow/hospitals/item/BloodbagemptyItem.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Blood Bags"
+      "path": "~/Hospitals/Lab/Blood/Blood Bags"
     },
     {
       "name": "DonationLogic",
@@ -7175,7 +7175,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/DonationLogicProcedure.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Blood Bags"
+      "path": "~/Hospitals/Lab/Blood/Blood Bags"
     },
     {
       "name": "Devcmdsdonationlogictester",
@@ -7221,7 +7221,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/SelfbloodcomparebagrightclickProcedure.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Blood Bags"
+      "path": "~/Hospitals/Lab/Blood/Blood Bags"
     },
     {
       "name": "EmptySyringe",
@@ -7235,7 +7235,7 @@
           "src/main/java/net/derpymeow/hospitals/item/EmptySyringeItem.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Syringes"
+      "path": "~/Hospitals/Lab/Blood/Syringes"
     },
     {
       "name": "SyringebloodOnegative",
@@ -7249,7 +7249,7 @@
           "src/main/resources/assets/hospitals/models/item/syringe_blood_o_negative.json"
         ]
       },
-      "path": "~/Hospitals/Blood/Syringes"
+      "path": "~/Hospitals/Lab/Blood/Syringes"
     },
     {
       "name": "SyringeBloodOPositive",
@@ -7263,7 +7263,7 @@
           "src/main/resources/assets/hospitals/models/item/syringe_blood_o_positive.json"
         ]
       },
-      "path": "~/Hospitals/Blood/Syringes"
+      "path": "~/Hospitals/Lab/Blood/Syringes"
     },
     {
       "name": "SyringeBloodBNegative",
@@ -7277,7 +7277,7 @@
           "src/main/resources/assets/hospitals/models/item/syringe_blood_b_negative.json"
         ]
       },
-      "path": "~/Hospitals/Blood/Syringes"
+      "path": "~/Hospitals/Lab/Blood/Syringes"
     },
     {
       "name": "SyringeBloodBPositive",
@@ -7291,7 +7291,7 @@
           "src/main/java/net/derpymeow/hospitals/item/SyringeBloodBPositiveItem.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Syringes"
+      "path": "~/Hospitals/Lab/Blood/Syringes"
     },
     {
       "name": "SyringeBloodANegative",
@@ -7305,7 +7305,7 @@
           "src/main/java/net/derpymeow/hospitals/item/SyringeBloodANegativeItem.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Syringes"
+      "path": "~/Hospitals/Lab/Blood/Syringes"
     },
     {
       "name": "SyringeBloodAPositive",
@@ -7319,7 +7319,7 @@
           "src/main/java/net/derpymeow/hospitals/item/SyringeBloodAPositiveItem.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Syringes"
+      "path": "~/Hospitals/Lab/Blood/Syringes"
     },
     {
       "name": "SyringeBloodABNegative",
@@ -7333,7 +7333,7 @@
           "src/main/java/net/derpymeow/hospitals/item/SyringeBloodABNegativeItem.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Syringes"
+      "path": "~/Hospitals/Lab/Blood/Syringes"
     },
     {
       "name": "SyringeBloodABPositive",
@@ -7347,7 +7347,7 @@
           "src/main/resources/assets/hospitals/models/item/syringe_blood_ab_positive.json"
         ]
       },
-      "path": "~/Hospitals/Blood/Syringes"
+      "path": "~/Hospitals/Lab/Blood/Syringes"
     },
     {
       "name": "SyringeBloodMixed",
@@ -7361,7 +7361,7 @@
           "src/main/java/net/derpymeow/hospitals/item/SyringeBloodMixedItem.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Syringes"
+      "path": "~/Hospitals/Lab/Blood/Syringes"
     },
     {
       "name": "MixedBlood",
@@ -7380,7 +7380,7 @@
           "src/main/resources/assets/hospitals/models/item/mixed_blood_bucket.json"
         ]
       },
-      "path": "~/Hospitals/Blood"
+      "path": "~/Hospitals/Lab/Blood"
     },
     {
       "name": "Hwikiprocedure",
@@ -7744,7 +7744,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/BgettypeProcedure.java"
         ]
       },
-      "path": "~/Hospitals/Blood"
+      "path": "~/Hospitals/Lab/Blood"
     },
     {
       "name": "Btypeset",
@@ -7767,7 +7767,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/BtypesetProcedure.java"
         ]
       },
-      "path": "~/Hospitals/Blood"
+      "path": "~/Hospitals/Lab/Blood"
     },
     {
       "name": "Blood",
@@ -7780,7 +7780,7 @@
           "src/main/java/net/derpymeow/hospitals/command/BloodCommand.java"
         ]
       },
-      "path": "~/Hospitals/Blood"
+      "path": "~/Hospitals/Lab/Blood"
     },
     {
       "name": "Warningblockrecipe",
@@ -7839,7 +7839,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/BloodTypeTesterRightclickedProcedure.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Blood Type Tester"
+      "path": "~/Hospitals/Lab/Blood/Blood Type Tester"
     },
     {
       "name": "BloodTypeTesterPunched",
@@ -7870,7 +7870,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/BloodTypeTesterPunchedProcedure.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Blood Type Tester"
+      "path": "~/Hospitals/Lab/Blood/Blood Type Tester"
     },
     {
       "name": "BloodTypeTester",
@@ -7884,7 +7884,7 @@
           "src/main/resources/assets/hospitals/models/item/blood_type_tester.json"
         ]
       },
-      "path": "~/Hospitals/Blood/Blood Type Tester"
+      "path": "~/Hospitals/Lab/Blood/Blood Type Tester"
     },
     {
       "name": "Syringerecipe",
@@ -7950,7 +7950,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/EmptySyringeLivingEntityIsHitWithItemProcedure.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Syringes"
+      "path": "~/Hospitals/Lab/Blood/Syringes"
     },
     {
       "name": "EmptySyringeSelfsHitWithItem",
@@ -7973,7 +7973,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/EmptySyringeSelfsHitWithItemProcedure.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Syringes"
+      "path": "~/Hospitals/Lab/Blood/Syringes"
     },
     {
       "name": "Stringtoitemblood",
@@ -7993,7 +7993,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/StringtoitembloodProcedure.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Syringes"
+      "path": "~/Hospitals/Lab/Blood/Syringes"
     },
     {
       "name": "Purifier",
@@ -8010,7 +8010,7 @@
           "src/main/resources/assets/hospitals/models/block/purifier.json"
         ]
       },
-      "path": "~/Hospitals/Blood/Purifier"
+      "path": "~/Hospitals/Lab/Blood/Purifier"
     },
     {
       "name": "PurifierGui",
@@ -8025,7 +8025,7 @@
           "src/main/java/net/derpymeow/hospitals/network/PurifierGuiButtonMessage.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Purifier"
+      "path": "~/Hospitals/Lab/Blood/Purifier"
     },
     {
       "name": "PurifierLogic",
@@ -8044,7 +8044,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/PurifierLogicProcedure.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Purifier"
+      "path": "~/Hospitals/Lab/Blood/Purifier"
     },
     {
       "name": "BloodStringValidChecker",
@@ -8064,7 +8064,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/BloodStringValidCheckerProcedure.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Blood Bags"
+      "path": "~/Hospitals/Lab/Blood/Blood Bags"
     },
     {
       "name": "Bloodbagused",
@@ -8078,7 +8078,7 @@
           "src/main/java/net/derpymeow/hospitals/item/BloodbagusedItem.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Blood Bags"
+      "path": "~/Hospitals/Lab/Blood/Blood Bags"
     },
     {
       "name": "IVKitRightclicked",
@@ -8105,7 +8105,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/IVKitRightclickedProcedure.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Blood Bags/iv_kit"
+      "path": "~/Hospitals/Lab/Blood/Blood Bags/iv_kit"
     },
     {
       "name": "IVKit",
@@ -8119,7 +8119,7 @@
           "src/main/java/net/derpymeow/hospitals/item/IVKitItem.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Blood Bags/iv_kit"
+      "path": "~/Hospitals/Lab/Blood/Blood Bags/iv_kit"
     },
     {
       "name": "Testtt",
@@ -8138,7 +8138,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/TestttProcedure.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Blood Bags"
+      "path": "~/Hospitals/Lab/Blood/Blood Bags"
     },
     {
       "name": "Centrifuge",
@@ -8155,7 +8155,7 @@
           "src/main/resources/assets/hospitals/models/item/centrifuge.json"
         ]
       },
-      "path": "~/Hospitals/Blood/Centrifuge"
+      "path": "~/Hospitals/Lab/Blood/Centrifuge"
     },
     {
       "name": "CentrifugeGUI",
@@ -8170,7 +8170,7 @@
           "src/main/java/net/derpymeow/hospitals/network/CentrifugeGUIButtonMessage.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Centrifuge"
+      "path": "~/Hospitals/Lab/Blood/Centrifuge"
     },
     {
       "name": "SyringeItemToBloodBagItem",
@@ -8190,7 +8190,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/SyringeItemToBloodBagItemProcedure.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Centrifuge"
+      "path": "~/Hospitals/Lab/Blood/Centrifuge"
     },
     {
       "name": "BloodBagItemToSyringeItem",
@@ -8210,7 +8210,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/BloodBagItemToSyringeItemProcedure.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Centrifuge"
+      "path": "~/Hospitals/Lab/Blood/Centrifuge"
     },
     {
       "name": "CentrifugeLogic",
@@ -8229,7 +8229,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/CentrifugeLogicProcedure.java"
         ]
       },
-      "path": "~/Hospitals/Blood/Centrifuge"
+      "path": "~/Hospitals/Lab/Blood/Centrifuge"
     },
     {
       "name": "SurgicalMaskRecipe",
@@ -9742,6 +9742,329 @@
         ]
       },
       "path": "~/Crafting Recipes"
+    },
+    {
+      "name": "Curtainrailsegment",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curtain_rail_segment",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/CurtainrailsegmentBlock.java",
+          "src/main/resources/assets/hospitals/models/block/curtain_rail_segment.json",
+          "src/main/resources/assets/hospitals/models/item/curtain_rail_segment.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/curtain_rail_segment.json",
+          "src/main/resources/assets/hospitals/blockstates/curtain_rail_segment.json"
+        ]
+      },
+      "path": "~/Curtains/Straight"
+    },
+    {
+      "name": "Curtainmainsegment",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curtain_main_segment",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/CurtainmainsegmentBlock.java",
+          "src/main/resources/assets/hospitals/models/item/curtain_main_segment.json",
+          "src/main/resources/assets/hospitals/models/block/curtain_main_segment.json",
+          "src/main/resources/assets/hospitals/blockstates/curtain_main_segment.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/curtain_main_segment.json"
+        ]
+      },
+      "path": "~/Curtains/Straight"
+    },
+    {
+      "name": "CurtainrailsegmentBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curtainrailsegment_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/CurtainrailsegmentBlockDestroyedByPlayerProcedure.java"
+        ]
+      },
+      "path": "~/Curtains"
+    },
+    {
+      "name": "CurtainrailsegmentBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curtainrailsegment_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/CurtainrailsegmentBlockAddedProcedure.java"
+        ]
+      },
+      "path": "~/Curtains/Straight"
+    },
+    {
+      "name": "CurtainmainsegmentBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curtainmainsegment_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/CurtainmainsegmentBlockDestroyedByPlayerProcedure.java"
+        ]
+      },
+      "path": "~/Curtains/Straight"
+    },
+    {
+      "name": "Curtainrailsegmentempty",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curtain_rails_segment_empty",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/curtain_rails_segment_empty.json",
+          "src/main/java/net/derpymeow/hospitals/block/CurtainrailsegmentemptyBlock.java",
+          "src/main/resources/assets/hospitals/models/block/curtain_rails_segment_empty.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/curtain_rails_segment_empty.json",
+          "src/main/resources/assets/hospitals/blockstates/curtain_rails_segment_empty.json"
+        ]
+      },
+      "path": "~/Curtains/Straight"
+    },
+    {
+      "name": "DownToGoneCurtainConverter",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "down_to_gone_curtain_converter",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/DownToGoneCurtainConverterProcedure.java"
+        ]
+      },
+      "path": "~/Curtains"
+    },
+    {
+      "name": "GoneToDownCurtainConverter",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gone_to_down_curtain_converter",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/GoneToDownCurtainConverterProcedure.java"
+        ]
+      },
+      "path": "~/Curtains"
+    },
+    {
+      "name": "Curtainrailsegmentcorner",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curtainrailsegmentcorner",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/CurtainrailsegmentcornerBlock.java",
+          "src/main/resources/assets/hospitals/models/block/curtainrailsegmentcorner.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/curtainrailsegmentcorner.json",
+          "src/main/resources/assets/hospitals/blockstates/curtainrailsegmentcorner.json",
+          "src/main/resources/assets/hospitals/models/item/curtainrailsegmentcorner.json"
+        ]
+      },
+      "path": "~/Curtains/Corner"
+    },
+    {
+      "name": "Curtainmainsegmentcorner",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curtainmainsegmentcorner",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/block/curtainmainsegmentcorner.json",
+          "src/main/resources/assets/hospitals/blockstates/curtainmainsegmentcorner.json",
+          "src/main/java/net/derpymeow/hospitals/block/CurtainmainsegmentcornerBlock.java",
+          "src/main/resources/assets/hospitals/models/item/curtainmainsegmentcorner.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/curtainmainsegmentcorner.json"
+        ]
+      },
+      "path": "~/Curtains/Corner"
+    },
+    {
+      "name": "CurtainrailssegmentemptyCorner",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curtainrailssegmentempty_corner",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/curtainrailssegmentempty_corner.json",
+          "src/main/resources/assets/hospitals/blockstates/curtainrailssegmentempty_corner.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/curtainrailssegmentempty_corner.json",
+          "src/main/java/net/derpymeow/hospitals/block/CurtainrailssegmentemptyCornerBlock.java",
+          "src/main/resources/assets/hospitals/models/block/curtainrailssegmentempty_corner.json"
+        ]
+      },
+      "path": "~/Curtains/Corner"
+    },
+    {
+      "name": "CornerCurtainrailsegmentBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corner_curtainrailsegment_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/CornerCurtainrailsegmentBlockAddedProcedure.java"
+        ]
+      },
+      "path": "~/Curtains/Corner"
+    },
+    {
+      "name": "CornerCurtainmainsegmentBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corner_curtainmainsegment_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/CornerCurtainmainsegmentBlockDestroyedByPlayerProcedure.java"
+        ]
+      },
+      "path": "~/Curtains/Corner"
     }
   ],
   "variable_elements": [
@@ -10081,7 +10404,13 @@
       "Idcardvarient2",
       "Idcardvarient3",
       "Patientwristband",
-      "IDCardScanner"
+      "IDCardScanner",
+      "Curtainmainsegment",
+      "Curtainrailsegment",
+      "Curtainrailsegmentcorner",
+      "Curtainmainsegmentcorner",
+      "Curtainrailsegmentempty",
+      "CurtainrailssegmentemptyCorner"
     ],
     "CUSTOM:Hospitalspills": [
       "CreativePill",
@@ -10883,7 +11212,13 @@
       "itemGroup.hospitals.ward_thm": "Ward - THM",
       "itemGroup.hospitals.facilities_thm": "Facilities - THM",
       "itemGroup.hospitals.hospitals": "Hospitals",
-      "itemGroup.hospitals.hospitalspills": "Hospitals - Pills"
+      "itemGroup.hospitals.hospitalspills": "Hospitals - Pills",
+      "block.hospitals.curtain_main_segment": "Curtain Main Segment",
+      "block.hospitals.curtain_rail_segment": "Curtain Rail Segment",
+      "block.hospitals.curtainrailsegmentcorner": "Curtainrailsegmentcorner",
+      "block.hospitals.curtainmainsegmentcorner": "Curtainmainsegmentcorner",
+      "block.hospitals.curtain_rails_segment_empty": "Curtain Rail Segment Empty",
+      "block.hospitals.curtainrailssegmentempty_corner": "Curtainrailssegmentempty Corner"
     }
   },
   "metadata": {
@@ -10944,59 +11279,6 @@
             ]
           },
           {
-            "name": "Blood",
-            "children": [
-              {
-                "name": "Syringes",
-                "children": []
-              },
-              {
-                "name": "Blood Bags",
-                "children": [
-                  {
-                    "name": "iv_kit",
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "name": "Centrifuge",
-                "children": []
-              },
-              {
-                "name": "Purifier",
-                "children": []
-              },
-              {
-                "name": "Blood Type Tester",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "Pharmacy",
-            "children": [
-              {
-                "name": "Pills",
-                "children": [
-                  {
-                    "name": "Pills",
-                    "children": [
-                      {
-                        "name": "Ate Procedures",
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Pill Bottles",
-                    "children": []
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "name": "RP-ITEMS",
             "children": []
           },
@@ -11023,6 +11305,64 @@
           {
             "name": "BaseCraftingItems",
             "children": []
+          },
+          {
+            "name": "Lab",
+            "children": [
+              {
+                "name": "Pharmacy",
+                "children": [
+                  {
+                    "name": "Pills",
+                    "children": [
+                      {
+                        "name": "Pills",
+                        "children": [
+                          {
+                            "name": "Ate Procedures",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Pill Bottles",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Blood",
+                "children": [
+                  {
+                    "name": "Syringes",
+                    "children": []
+                  },
+                  {
+                    "name": "Blood Bags",
+                    "children": [
+                      {
+                        "name": "iv_kit",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Centrifuge",
+                    "children": []
+                  },
+                  {
+                    "name": "Purifier",
+                    "children": []
+                  },
+                  {
+                    "name": "Blood Type Tester",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -11060,6 +11400,19 @@
         "children": [
           {
             "name": "expdevcmds",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Curtains",
+        "children": [
+          {
+            "name": "Corner",
+            "children": []
+          },
+          {
+            "name": "Straight",
             "children": []
           }
         ]

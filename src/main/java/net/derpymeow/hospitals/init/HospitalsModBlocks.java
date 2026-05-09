@@ -146,6 +146,12 @@ import net.derpymeow.hospitals.block.DonotentersignBlock;
 import net.derpymeow.hospitals.block.DecorativeDivideBlock;
 import net.derpymeow.hospitals.block.Darklabtiles2Block;
 import net.derpymeow.hospitals.block.Darklabtiles1Block;
+import net.derpymeow.hospitals.block.CurtainrailssegmentemptyCornerBlock;
+import net.derpymeow.hospitals.block.CurtainrailsegmentemptyBlock;
+import net.derpymeow.hospitals.block.CurtainrailsegmentcornerBlock;
+import net.derpymeow.hospitals.block.CurtainrailsegmentBlock;
+import net.derpymeow.hospitals.block.CurtainmainsegmentcornerBlock;
+import net.derpymeow.hospitals.block.CurtainmainsegmentBlock;
 import net.derpymeow.hospitals.block.ComputerXRayViewerBlock;
 import net.derpymeow.hospitals.block.ComputerScreen2XRAYViewerBlock;
 import net.derpymeow.hospitals.block.ComputerScreen2CTScanViewerBlock;
@@ -335,6 +341,12 @@ public class HospitalsModBlocks {
 	public static final RegistryObject<Block> CHAIR = REGISTRY.register("chair", () -> new ChairBlock());
 	public static final RegistryObject<Block> DOORSIGN = REGISTRY.register("doorsign", () -> new DoorsignBlock());
 	public static final RegistryObject<Block> ID_CARD_SCANNER = REGISTRY.register("id_card_scanner", () -> new IDCardScannerBlock());
+	public static final RegistryObject<Block> CURTAIN_RAIL_SEGMENT = REGISTRY.register("curtain_rail_segment", () -> new CurtainrailsegmentBlock());
+	public static final RegistryObject<Block> CURTAIN_MAIN_SEGMENT = REGISTRY.register("curtain_main_segment", () -> new CurtainmainsegmentBlock());
+	public static final RegistryObject<Block> CURTAIN_RAILS_SEGMENT_EMPTY = REGISTRY.register("curtain_rails_segment_empty", () -> new CurtainrailsegmentemptyBlock());
+	public static final RegistryObject<Block> CURTAINRAILSEGMENTCORNER = REGISTRY.register("curtainrailsegmentcorner", () -> new CurtainrailsegmentcornerBlock());
+	public static final RegistryObject<Block> CURTAINMAINSEGMENTCORNER = REGISTRY.register("curtainmainsegmentcorner", () -> new CurtainmainsegmentcornerBlock());
+	public static final RegistryObject<Block> CURTAINRAILSSEGMENTEMPTY_CORNER = REGISTRY.register("curtainrailssegmentempty_corner", () -> new CurtainrailssegmentemptyCornerBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

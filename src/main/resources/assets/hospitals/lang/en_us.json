@@ -704,5 +704,11 @@
   "itemGroup.hospitals.ward_thm": "Ward - THM",
   "itemGroup.hospitals.facilities_thm": "Facilities - THM",
   "itemGroup.hospitals.hospitals": "Hospitals",
-  "itemGroup.hospitals.hospitalspills": "Hospitals - Pills"
+  "itemGroup.hospitals.hospitalspills": "Hospitals - Pills",
+  "block.hospitals.curtain_main_segment": "Curtain Main Segment",
+  "block.hospitals.curtain_rail_segment": "Curtain Rail Segment",
+  "block.hospitals.curtainrailsegmentcorner": "Curtainrailsegmentcorner",
+  "block.hospitals.curtainmainsegmentcorner": "Curtainmainsegmentcorner",
+  "block.hospitals.curtain_rails_segment_empty": "Curtain Rail Segment Empty",
+  "block.hospitals.curtainrailssegmentempty_corner": "Curtainrailssegmentempty Corner"
 }

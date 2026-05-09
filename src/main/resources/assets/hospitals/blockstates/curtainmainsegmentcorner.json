@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hospitals:block/curtainmainsegmentcorner"
+    },
+    "facing=east": {
+      "model": "hospitals:block/curtainmainsegmentcorner",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hospitals:block/curtainmainsegmentcorner",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hospitals:block/curtainmainsegmentcorner",
+      "y": 270
+    }
+  }
+}

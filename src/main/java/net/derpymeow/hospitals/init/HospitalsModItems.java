@@ -477,6 +477,12 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> TEXTBOOKSTEEL_101 = REGISTRY.register("textbooksteel_101", () -> new Textbooksteel101Item());
 	public static final RegistryObject<Item> TEXTBOOKPILL_101 = REGISTRY.register("textbookpill_101", () -> new Textbookpill101Item());
 	public static final RegistryObject<Item> TEXTBOOKBASIC_101 = REGISTRY.register("textbookbasic_101", () -> new Textbookbasic101Item());
+	public static final RegistryObject<Item> CURTAIN_RAIL_SEGMENT = block(HospitalsModBlocks.CURTAIN_RAIL_SEGMENT);
+	public static final RegistryObject<Item> CURTAIN_MAIN_SEGMENT = block(HospitalsModBlocks.CURTAIN_MAIN_SEGMENT);
+	public static final RegistryObject<Item> CURTAIN_RAILS_SEGMENT_EMPTY = block(HospitalsModBlocks.CURTAIN_RAILS_SEGMENT_EMPTY);
+	public static final RegistryObject<Item> CURTAINRAILSEGMENTCORNER = block(HospitalsModBlocks.CURTAINRAILSEGMENTCORNER);
+	public static final RegistryObject<Item> CURTAINMAINSEGMENTCORNER = block(HospitalsModBlocks.CURTAINMAINSEGMENTCORNER);
+	public static final RegistryObject<Item> CURTAINRAILSSEGMENTEMPTY_CORNER = block(HospitalsModBlocks.CURTAINRAILSSEGMENTEMPTY_CORNER);
 
 	// Start of user code block custom items
 	// End of user code block custom items

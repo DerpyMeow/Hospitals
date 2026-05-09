@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/curtains",
+  "textures": {
+    "all": "hospitals:block/curtain_texture",
+    "particle": "hospitals:block/curtain_texture",
+    "0": "hospitals:block/curtain_texture"
+  },
+  "render_type": "solid"
+}
