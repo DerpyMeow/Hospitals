@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/tan_curtains_corner",
+  "textures": {
+    "all": "hospitals:block/tan_curtain_corner_tx",
+    "particle": "hospitals:block/tan_curtain_corner_tx",
+    "0": "hospitals:block/tan_curtain_corner_tx"
+  },
+  "render_type": "cutout_mipped"
+}

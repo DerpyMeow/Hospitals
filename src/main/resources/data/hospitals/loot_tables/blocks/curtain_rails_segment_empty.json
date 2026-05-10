@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "hospitals:curtain_rails_segment_empty"
+          "name": "hospitals:curtain_rail_segment"
         }
       ]
     }

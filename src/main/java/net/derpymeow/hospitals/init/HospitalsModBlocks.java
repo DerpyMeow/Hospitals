@@ -57,6 +57,12 @@ import net.derpymeow.hospitals.block.VinylFloorAquaType1Block;
 import net.derpymeow.hospitals.block.VentilationBlock;
 import net.derpymeow.hospitals.block.UltrasoundBlock;
 import net.derpymeow.hospitals.block.THBlockBlock;
+import net.derpymeow.hospitals.block.TCurtainrailssegmentemptyCornerBlock;
+import net.derpymeow.hospitals.block.TCurtainrailsegmentemptyBlock;
+import net.derpymeow.hospitals.block.TCurtainrailsegmentcornerBlock;
+import net.derpymeow.hospitals.block.TCurtainrailsegmentBlock;
+import net.derpymeow.hospitals.block.TCurtainmainsegmentcornerBlock;
+import net.derpymeow.hospitals.block.TCurtainmainsegmentBlock;
 import net.derpymeow.hospitals.block.SuspendedCeilingBlock;
 import net.derpymeow.hospitals.block.SurgicalWorktopTableBlock;
 import net.derpymeow.hospitals.block.SurgicalWorkstationBlock;
@@ -347,6 +353,12 @@ public class HospitalsModBlocks {
 	public static final RegistryObject<Block> CURTAINRAILSEGMENTCORNER = REGISTRY.register("curtainrailsegmentcorner", () -> new CurtainrailsegmentcornerBlock());
 	public static final RegistryObject<Block> CURTAINMAINSEGMENTCORNER = REGISTRY.register("curtainmainsegmentcorner", () -> new CurtainmainsegmentcornerBlock());
 	public static final RegistryObject<Block> CURTAINRAILSSEGMENTEMPTY_CORNER = REGISTRY.register("curtainrailssegmentempty_corner", () -> new CurtainrailssegmentemptyCornerBlock());
+	public static final RegistryObject<Block> T_CURTAINRAILSEGMENT = REGISTRY.register("t_curtainrailsegment", () -> new TCurtainrailsegmentBlock());
+	public static final RegistryObject<Block> T_CURTAINMAINSEGMENT = REGISTRY.register("t_curtainmainsegment", () -> new TCurtainmainsegmentBlock());
+	public static final RegistryObject<Block> T_CURTAINRAILSEGMENTEMPTY = REGISTRY.register("t_curtainrailsegmentempty", () -> new TCurtainrailsegmentemptyBlock());
+	public static final RegistryObject<Block> T_CURTAINRAILSEGMENTCORNER = REGISTRY.register("t_curtainrailsegmentcorner", () -> new TCurtainrailsegmentcornerBlock());
+	public static final RegistryObject<Block> T_CURTAINMAINSEGMENTCORNER = REGISTRY.register("t_curtainmainsegmentcorner", () -> new TCurtainmainsegmentcornerBlock());
+	public static final RegistryObject<Block> T_CURTAINRAILSSEGMENTEMPTY_CORNER = REGISTRY.register("t_curtainrailssegmentempty_corner", () -> new TCurtainrailssegmentemptyCornerBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -483,6 +483,12 @@ public class HospitalsModItems {
 	public static final RegistryObject<Item> CURTAINRAILSEGMENTCORNER = block(HospitalsModBlocks.CURTAINRAILSEGMENTCORNER);
 	public static final RegistryObject<Item> CURTAINMAINSEGMENTCORNER = block(HospitalsModBlocks.CURTAINMAINSEGMENTCORNER);
 	public static final RegistryObject<Item> CURTAINRAILSSEGMENTEMPTY_CORNER = block(HospitalsModBlocks.CURTAINRAILSSEGMENTEMPTY_CORNER);
+	public static final RegistryObject<Item> T_CURTAINRAILSEGMENT = block(HospitalsModBlocks.T_CURTAINRAILSEGMENT);
+	public static final RegistryObject<Item> T_CURTAINMAINSEGMENT = block(HospitalsModBlocks.T_CURTAINMAINSEGMENT);
+	public static final RegistryObject<Item> T_CURTAINRAILSEGMENTEMPTY = block(HospitalsModBlocks.T_CURTAINRAILSEGMENTEMPTY);
+	public static final RegistryObject<Item> T_CURTAINRAILSEGMENTCORNER = block(HospitalsModBlocks.T_CURTAINRAILSEGMENTCORNER);
+	public static final RegistryObject<Item> T_CURTAINMAINSEGMENTCORNER = block(HospitalsModBlocks.T_CURTAINMAINSEGMENTCORNER);
+	public static final RegistryObject<Item> T_CURTAINRAILSSEGMENTEMPTY_CORNER = block(HospitalsModBlocks.T_CURTAINRAILSSEGMENTEMPTY_CORNER);
 
 	// Start of user code block custom items
 	// End of user code block custom items

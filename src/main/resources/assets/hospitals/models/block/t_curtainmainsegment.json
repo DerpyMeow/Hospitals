@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/tan_curtains",
+  "textures": {
+    "all": "hospitals:block/tan_curtain_texture",
+    "particle": "hospitals:block/tan_curtain_texture",
+    "0": "hospitals:block/tan_curtain_texture"
+  },
+  "render_type": "solid"
+}

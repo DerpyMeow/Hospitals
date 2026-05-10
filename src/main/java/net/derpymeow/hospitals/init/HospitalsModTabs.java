@@ -250,12 +250,10 @@ public class HospitalsModTabs {
 				tabData.accept(HospitalsModItems.IDCARDVARIENT_3.get());
 				tabData.accept(HospitalsModItems.PATIENTWRISTBAND.get());
 				tabData.accept(HospitalsModBlocks.ID_CARD_SCANNER.get().asItem());
-				tabData.accept(HospitalsModBlocks.CURTAIN_MAIN_SEGMENT.get().asItem());
 				tabData.accept(HospitalsModBlocks.CURTAIN_RAIL_SEGMENT.get().asItem());
 				tabData.accept(HospitalsModBlocks.CURTAINRAILSEGMENTCORNER.get().asItem());
-				tabData.accept(HospitalsModBlocks.CURTAINMAINSEGMENTCORNER.get().asItem());
-				tabData.accept(HospitalsModBlocks.CURTAIN_RAILS_SEGMENT_EMPTY.get().asItem());
-				tabData.accept(HospitalsModBlocks.CURTAINRAILSSEGMENTEMPTY_CORNER.get().asItem());
+				tabData.accept(HospitalsModBlocks.T_CURTAINRAILSEGMENT.get().asItem());
+				tabData.accept(HospitalsModBlocks.T_CURTAINRAILSEGMENTCORNER.get().asItem());
 			}).withSearchBar().withTabsBefore(FACILITIES_THM.getId()).build());
 	public static final RegistryObject<CreativeModeTab> HOSPITALSPILLS = REGISTRY.register("hospitalspills",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.hospitals.hospitalspills")).icon(() -> new ItemStack(HospitalsModItems.PILL.get())).displayItems((parameters, tabData) -> {

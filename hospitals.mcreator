@@ -9758,7 +9758,7 @@
           "src/main/resources/assets/hospitals/blockstates/curtain_rail_segment.json"
         ]
       },
-      "path": "~/Curtains/Straight"
+      "path": "~/Curtains/Blue/Straight"
     },
     {
       "name": "Curtainmainsegment",
@@ -9775,7 +9775,7 @@
           "src/main/resources/data/hospitals/loot_tables/blocks/curtain_main_segment.json"
         ]
       },
-      "path": "~/Curtains/Straight"
+      "path": "~/Curtains/Blue/Straight"
     },
     {
       "name": "CurtainrailsegmentBlockDestroyedByPlayer",
@@ -9806,7 +9806,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/CurtainrailsegmentBlockDestroyedByPlayerProcedure.java"
         ]
       },
-      "path": "~/Curtains"
+      "path": "~/Curtains/Blue"
     },
     {
       "name": "CurtainrailsegmentBlockAdded",
@@ -9837,7 +9837,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/CurtainrailsegmentBlockAddedProcedure.java"
         ]
       },
-      "path": "~/Curtains/Straight"
+      "path": "~/Curtains/Blue/Straight"
     },
     {
       "name": "CurtainmainsegmentBlockDestroyedByPlayer",
@@ -9868,7 +9868,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/CurtainmainsegmentBlockDestroyedByPlayerProcedure.java"
         ]
       },
-      "path": "~/Curtains/Straight"
+      "path": "~/Curtains/Blue/Straight"
     },
     {
       "name": "Curtainrailsegmentempty",
@@ -9885,7 +9885,7 @@
           "src/main/resources/assets/hospitals/blockstates/curtain_rails_segment_empty.json"
         ]
       },
-      "path": "~/Curtains/Straight"
+      "path": "~/Curtains/Blue/Straight"
     },
     {
       "name": "DownToGoneCurtainConverter",
@@ -9916,7 +9916,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/DownToGoneCurtainConverterProcedure.java"
         ]
       },
-      "path": "~/Curtains"
+      "path": "~/Curtains/Blue"
     },
     {
       "name": "GoneToDownCurtainConverter",
@@ -9951,7 +9951,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/GoneToDownCurtainConverterProcedure.java"
         ]
       },
-      "path": "~/Curtains"
+      "path": "~/Curtains/Blue"
     },
     {
       "name": "Curtainrailsegmentcorner",
@@ -9968,7 +9968,7 @@
           "src/main/resources/assets/hospitals/models/item/curtainrailsegmentcorner.json"
         ]
       },
-      "path": "~/Curtains/Corner"
+      "path": "~/Curtains/Blue/Corner"
     },
     {
       "name": "Curtainmainsegmentcorner",
@@ -9985,7 +9985,7 @@
           "src/main/resources/data/hospitals/loot_tables/blocks/curtainmainsegmentcorner.json"
         ]
       },
-      "path": "~/Curtains/Corner"
+      "path": "~/Curtains/Blue/Corner"
     },
     {
       "name": "CurtainrailssegmentemptyCorner",
@@ -10002,7 +10002,7 @@
           "src/main/resources/assets/hospitals/models/block/curtainrailssegmentempty_corner.json"
         ]
       },
-      "path": "~/Curtains/Corner"
+      "path": "~/Curtains/Blue/Corner"
     },
     {
       "name": "CornerCurtainrailsegmentBlockAdded",
@@ -10033,7 +10033,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/CornerCurtainrailsegmentBlockAddedProcedure.java"
         ]
       },
-      "path": "~/Curtains/Corner"
+      "path": "~/Curtains/Blue/Corner"
     },
     {
       "name": "CornerCurtainmainsegmentBlockDestroyedByPlayer",
@@ -10064,7 +10064,330 @@
           "src/main/java/net/derpymeow/hospitals/procedures/CornerCurtainmainsegmentBlockDestroyedByPlayerProcedure.java"
         ]
       },
-      "path": "~/Curtains/Corner"
+      "path": "~/Curtains/Blue/Corner"
+    },
+    {
+      "name": "TCurtainrailsegmentBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_curtainrailsegment_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/TCurtainrailsegmentBlockDestroyedByPlayerProcedure.java"
+        ]
+      },
+      "path": "~/Curtains/Tan"
+    },
+    {
+      "name": "TDownToGoneCurtainConverter",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_down_to_gone_curtain_converter",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/TDownToGoneCurtainConverterProcedure.java"
+        ]
+      },
+      "path": "~/Curtains/Tan"
+    },
+    {
+      "name": "TGoneToDownCurtainConverter",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_gone_to_down_curtain_converter",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/TGoneToDownCurtainConverterProcedure.java"
+        ]
+      },
+      "path": "~/Curtains/Tan"
+    },
+    {
+      "name": "TCurtainrailsegment",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_curtainrailsegment",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hospitals/loot_tables/blocks/t_curtainrailsegment.json",
+          "src/main/resources/assets/hospitals/blockstates/t_curtainrailsegment.json",
+          "src/main/resources/assets/hospitals/models/block/t_curtainrailsegment.json",
+          "src/main/java/net/derpymeow/hospitals/block/TCurtainrailsegmentBlock.java",
+          "src/main/resources/assets/hospitals/models/item/t_curtainrailsegment.json"
+        ]
+      },
+      "path": "~/Curtains/Tan/Straight"
+    },
+    {
+      "name": "TCurtainmainsegment",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_curtainmainsegment",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/TCurtainmainsegmentBlock.java",
+          "src/main/resources/assets/hospitals/models/block/t_curtainmainsegment.json",
+          "src/main/resources/assets/hospitals/models/item/t_curtainmainsegment.json",
+          "src/main/resources/assets/hospitals/blockstates/t_curtainmainsegment.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/t_curtainmainsegment.json"
+        ]
+      },
+      "path": "~/Curtains/Tan/Straight"
+    },
+    {
+      "name": "TCurtainrailsegmentBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_curtainrailsegment_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/TCurtainrailsegmentBlockAddedProcedure.java"
+        ]
+      },
+      "path": "~/Curtains/Tan/Straight"
+    },
+    {
+      "name": "TCurtainmainsegmentBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_curtainmainsegment_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/TCurtainmainsegmentBlockDestroyedByPlayerProcedure.java"
+        ]
+      },
+      "path": "~/Curtains/Tan/Straight"
+    },
+    {
+      "name": "TCurtainrailsegmentempty",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_curtainrailsegmentempty",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/models/item/t_curtainrailsegmentempty.json",
+          "src/main/resources/assets/hospitals/blockstates/t_curtainrailsegmentempty.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/t_curtainrailsegmentempty.json",
+          "src/main/java/net/derpymeow/hospitals/block/TCurtainrailsegmentemptyBlock.java",
+          "src/main/resources/assets/hospitals/models/block/t_curtainrailsegmentempty.json"
+        ]
+      },
+      "path": "~/Curtains/Tan/Straight"
+    },
+    {
+      "name": "TCurtainrailsegmentcorner",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_curtainrailsegmentcorner",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/TCurtainrailsegmentcornerBlock.java",
+          "src/main/resources/assets/hospitals/blockstates/t_curtainrailsegmentcorner.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/t_curtainrailsegmentcorner.json",
+          "src/main/resources/assets/hospitals/models/item/t_curtainrailsegmentcorner.json",
+          "src/main/resources/assets/hospitals/models/block/t_curtainrailsegmentcorner.json"
+        ]
+      },
+      "path": "~/Curtains/Tan/Corner"
+    },
+    {
+      "name": "TCurtainmainsegmentcorner",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_curtainmainsegmentcorner",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hospitals/blockstates/t_curtainmainsegmentcorner.json",
+          "src/main/resources/assets/hospitals/models/item/t_curtainmainsegmentcorner.json",
+          "src/main/java/net/derpymeow/hospitals/block/TCurtainmainsegmentcornerBlock.java",
+          "src/main/resources/data/hospitals/loot_tables/blocks/t_curtainmainsegmentcorner.json",
+          "src/main/resources/assets/hospitals/models/block/t_curtainmainsegmentcorner.json"
+        ]
+      },
+      "path": "~/Curtains/Tan/Corner"
+    },
+    {
+      "name": "TCurtainrailssegmentemptyCorner",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_curtainrailssegmentempty_corner",
+      "metadata": {
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/block/TCurtainrailssegmentemptyCornerBlock.java",
+          "src/main/resources/assets/hospitals/models/item/t_curtainrailssegmentempty_corner.json",
+          "src/main/resources/assets/hospitals/blockstates/t_curtainrailssegmentempty_corner.json",
+          "src/main/resources/data/hospitals/loot_tables/blocks/t_curtainrailssegmentempty_corner.json",
+          "src/main/resources/assets/hospitals/models/block/t_curtainrailssegmentempty_corner.json"
+        ]
+      },
+      "path": "~/Curtains/Tan/Corner"
+    },
+    {
+      "name": "TCornerCurtainrailsegmentBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_corner_curtainrailsegment_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/TCornerCurtainrailsegmentBlockAddedProcedure.java"
+        ]
+      },
+      "path": "~/Curtains/Tan/Corner"
+    },
+    {
+      "name": "TCornerCurtainmainsegmentBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_corner_curtainmainsegment_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/derpymeow/hospitals/procedures/TCornerCurtainmainsegmentBlockDestroyedByPlayerProcedure.java"
+        ]
+      },
+      "path": "~/Curtains/Tan/Corner"
     }
   ],
   "variable_elements": [
@@ -10405,12 +10728,10 @@
       "Idcardvarient3",
       "Patientwristband",
       "IDCardScanner",
-      "Curtainmainsegment",
       "Curtainrailsegment",
       "Curtainrailsegmentcorner",
-      "Curtainmainsegmentcorner",
-      "Curtainrailsegmentempty",
-      "CurtainrailssegmentemptyCorner"
+      "TCurtainrailsegment",
+      "TCurtainrailsegmentcorner"
     ],
     "CUSTOM:Hospitalspills": [
       "CreativePill",
@@ -11214,11 +11535,33 @@
       "itemGroup.hospitals.hospitals": "Hospitals",
       "itemGroup.hospitals.hospitalspills": "Hospitals - Pills",
       "block.hospitals.curtain_main_segment": "Curtain Main Segment",
-      "block.hospitals.curtain_rail_segment": "Curtain Rail Segment",
-      "block.hospitals.curtainrailsegmentcorner": "Curtainrailsegmentcorner",
+      "block.hospitals.curtain_rail_segment": "Blue Curtains (Straight Segment)",
+      "block.hospitals.curtainrailsegmentcorner": "Blue Curtains (Corner Segment)",
       "block.hospitals.curtainmainsegmentcorner": "Curtainmainsegmentcorner",
       "block.hospitals.curtain_rails_segment_empty": "Curtain Rail Segment Empty",
-      "block.hospitals.curtainrailssegmentempty_corner": "Curtainrailssegmentempty Corner"
+      "block.hospitals.curtainrailssegmentempty_corner": "Curtainrailssegmentempty Corner",
+      "block.hospitals.curtainrailsegmentcorner.description_3": "- Click To Switch Between Closed And Open",
+      "block.hospitals.curtainrailsegmentcorner.description_2": "- Connect To Other BLUE Straight Or Corner Curtain Segments",
+      "block.hospitals.curtainrailsegmentcorner.description_1": "- Requires Two Blocks Of Space Under",
+      "block.hospitals.curtainrailsegmentcorner.description_0": "",
+      "block.hospitals.curtain_rail_segment.description_2": "- Connect To Other BLUE Straight Or Corner Curtain Segments",
+      "block.hospitals.curtain_rail_segment.description_3": "- Click To Switch Between Closed And Open",
+      "block.hospitals.curtain_rail_segment.description_0": "",
+      "block.hospitals.curtain_rail_segment.description_1": "- Requires Two Blocks Of Space Under",
+      "block.hospitals.t_curtainrailsegment": "Tan Curtains (Straight Segment)",
+      "block.hospitals.t_curtainrailsegment.description_2": "- Connect To Other TAN Straight Or Corner Curtain Segments",
+      "block.hospitals.t_curtainrailsegment.description_1": "- Requires Two Blocks Of Space Under",
+      "block.hospitals.t_curtainrailsegment.description_3": "- Click To Switch Between Closed And Open",
+      "block.hospitals.t_curtainrailsegment.description_0": "",
+      "block.hospitals.t_curtainmainsegment": "Curtain Main Segment",
+      "block.hospitals.t_curtainrailsegmentempty": "Curtain Rail Segment Empty",
+      "block.hospitals.t_curtainrailsegmentcorner.description_0": "",
+      "block.hospitals.t_curtainrailsegmentcorner.description_1": "- Requires Two Blocks Of Space Under",
+      "block.hospitals.t_curtainrailsegmentcorner.description_2": "- Connect To Other TAN Straight Or Corner Curtain Segments",
+      "block.hospitals.t_curtainrailsegmentcorner.description_3": "- Click To Switch Between Closed And Open",
+      "block.hospitals.t_curtainrailsegmentcorner": "Tan Curtains (Corner Segment)",
+      "block.hospitals.t_curtainmainsegmentcorner": "Curtainmainsegmentcorner",
+      "block.hospitals.t_curtainrailssegmentempty_corner": "Curtainrailssegmentempty Corner"
     }
   },
   "metadata": {
@@ -11408,12 +11751,30 @@
         "name": "Curtains",
         "children": [
           {
-            "name": "Corner",
-            "children": []
+            "name": "Blue",
+            "children": [
+              {
+                "name": "Corner",
+                "children": []
+              },
+              {
+                "name": "Straight",
+                "children": []
+              }
+            ]
           },
           {
-            "name": "Straight",
-            "children": []
+            "name": "Tan",
+            "children": [
+              {
+                "name": "Straight",
+                "children": []
+              },
+              {
+                "name": "Corner",
+                "children": []
+              }
+            ]
           }
         ]
       }

@@ -1,0 +1,9 @@
+{
+  "parent": "hospitals:custom/curtain_rail_empty",
+  "textures": {
+    "all": "hospitals:block/rail_tx",
+    "particle": "hospitals:block/rail_tx",
+    "0": "hospitals:block/rail_tx"
+  },
+  "render_type": "solid"
+}

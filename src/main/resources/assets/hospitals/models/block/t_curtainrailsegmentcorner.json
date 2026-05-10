@@ -1,0 +1,10 @@
+{
+  "parent": "hospitals:custom/curtain_rail_corner",
+  "textures": {
+    "all": "hospitals:block/rail_tx",
+    "particle": "hospitals:block/rail_tx",
+    "0": "hospitals:block/rail_tx",
+    "1": "hospitals:block/net_tx_working"
+  },
+  "render_type": "cutout_mipped"
+}

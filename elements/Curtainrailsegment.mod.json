@@ -15,7 +15,7 @@
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "animations": [],
-    "itemTexture": "",
+    "itemTexture": "curtain_item_tx_straight",
     "particleTexture": "",
     "blockSetType": "OAK",
     "tintType": "No tint",
@@ -36,9 +36,14 @@
       }
     ],
     "customProperties": [],
-    "name": "Curtain Rail Segment",
+    "name": "Blue Curtains (Straight Segment)",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "",
+        "- Requires Two Blocks Of Space Under",
+        "- Connect To Other BLUE Straight Or Corner Curtain Segments",
+        "- Click To Switch Between Closed And Open"
+      ]
     },
     "hardness": 1.0,
     "resistance": 10.0,

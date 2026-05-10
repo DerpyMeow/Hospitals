@@ -48,14 +48,10 @@
     "maxStackSize": 64,
     "rarity": "COMMON",
     "immuneToFire": false,
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:Hospitals"
-      }
-    ],
+    "creativeTabs": [],
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Curtainrailsegment"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -74,7 +70,7 @@
     "colorOnMap": "DEFAULT",
     "noteBlockInstrument": "harp",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:Curtainrailsegment"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
