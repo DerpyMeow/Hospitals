@@ -9758,7 +9758,7 @@
           "src/main/resources/assets/hospitals/blockstates/curtain_rail_segment.json"
         ]
       },
-      "path": "~/Curtains/Blue/Straight"
+      "path": "~/Hospitals/Curtains/Blue/Straight"
     },
     {
       "name": "Curtainmainsegment",
@@ -9775,7 +9775,7 @@
           "src/main/resources/data/hospitals/loot_tables/blocks/curtain_main_segment.json"
         ]
       },
-      "path": "~/Curtains/Blue/Straight"
+      "path": "~/Hospitals/Curtains/Blue/Straight"
     },
     {
       "name": "CurtainrailsegmentBlockDestroyedByPlayer",
@@ -9806,7 +9806,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/CurtainrailsegmentBlockDestroyedByPlayerProcedure.java"
         ]
       },
-      "path": "~/Curtains/Blue"
+      "path": "~/Hospitals/Curtains/Blue"
     },
     {
       "name": "CurtainrailsegmentBlockAdded",
@@ -9837,7 +9837,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/CurtainrailsegmentBlockAddedProcedure.java"
         ]
       },
-      "path": "~/Curtains/Blue/Straight"
+      "path": "~/Hospitals/Curtains/Blue/Straight"
     },
     {
       "name": "CurtainmainsegmentBlockDestroyedByPlayer",
@@ -9868,7 +9868,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/CurtainmainsegmentBlockDestroyedByPlayerProcedure.java"
         ]
       },
-      "path": "~/Curtains/Blue/Straight"
+      "path": "~/Hospitals/Curtains/Blue/Straight"
     },
     {
       "name": "Curtainrailsegmentempty",
@@ -9885,7 +9885,7 @@
           "src/main/resources/assets/hospitals/blockstates/curtain_rails_segment_empty.json"
         ]
       },
-      "path": "~/Curtains/Blue/Straight"
+      "path": "~/Hospitals/Curtains/Blue/Straight"
     },
     {
       "name": "DownToGoneCurtainConverter",
@@ -9916,7 +9916,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/DownToGoneCurtainConverterProcedure.java"
         ]
       },
-      "path": "~/Curtains/Blue"
+      "path": "~/Hospitals/Curtains/Blue"
     },
     {
       "name": "GoneToDownCurtainConverter",
@@ -9951,7 +9951,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/GoneToDownCurtainConverterProcedure.java"
         ]
       },
-      "path": "~/Curtains/Blue"
+      "path": "~/Hospitals/Curtains/Blue"
     },
     {
       "name": "Curtainrailsegmentcorner",
@@ -9968,7 +9968,7 @@
           "src/main/resources/assets/hospitals/models/item/curtainrailsegmentcorner.json"
         ]
       },
-      "path": "~/Curtains/Blue/Corner"
+      "path": "~/Hospitals/Curtains/Blue/Corner"
     },
     {
       "name": "Curtainmainsegmentcorner",
@@ -9985,7 +9985,7 @@
           "src/main/resources/data/hospitals/loot_tables/blocks/curtainmainsegmentcorner.json"
         ]
       },
-      "path": "~/Curtains/Blue/Corner"
+      "path": "~/Hospitals/Curtains/Blue/Corner"
     },
     {
       "name": "CurtainrailssegmentemptyCorner",
@@ -10002,7 +10002,7 @@
           "src/main/resources/assets/hospitals/models/block/curtainrailssegmentempty_corner.json"
         ]
       },
-      "path": "~/Curtains/Blue/Corner"
+      "path": "~/Hospitals/Curtains/Blue/Corner"
     },
     {
       "name": "CornerCurtainrailsegmentBlockAdded",
@@ -10033,7 +10033,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/CornerCurtainrailsegmentBlockAddedProcedure.java"
         ]
       },
-      "path": "~/Curtains/Blue/Corner"
+      "path": "~/Hospitals/Curtains/Blue/Corner"
     },
     {
       "name": "CornerCurtainmainsegmentBlockDestroyedByPlayer",
@@ -10064,7 +10064,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/CornerCurtainmainsegmentBlockDestroyedByPlayerProcedure.java"
         ]
       },
-      "path": "~/Curtains/Blue/Corner"
+      "path": "~/Hospitals/Curtains/Blue/Corner"
     },
     {
       "name": "TCurtainrailsegmentBlockDestroyedByPlayer",
@@ -10095,7 +10095,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/TCurtainrailsegmentBlockDestroyedByPlayerProcedure.java"
         ]
       },
-      "path": "~/Curtains/Tan"
+      "path": "~/Hospitals/Curtains/Tan"
     },
     {
       "name": "TDownToGoneCurtainConverter",
@@ -10126,7 +10126,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/TDownToGoneCurtainConverterProcedure.java"
         ]
       },
-      "path": "~/Curtains/Tan"
+      "path": "~/Hospitals/Curtains/Tan"
     },
     {
       "name": "TGoneToDownCurtainConverter",
@@ -10161,7 +10161,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/TGoneToDownCurtainConverterProcedure.java"
         ]
       },
-      "path": "~/Curtains/Tan"
+      "path": "~/Hospitals/Curtains/Tan"
     },
     {
       "name": "TCurtainrailsegment",
@@ -10178,7 +10178,7 @@
           "src/main/resources/assets/hospitals/models/item/t_curtainrailsegment.json"
         ]
       },
-      "path": "~/Curtains/Tan/Straight"
+      "path": "~/Hospitals/Curtains/Tan/Straight"
     },
     {
       "name": "TCurtainmainsegment",
@@ -10195,7 +10195,7 @@
           "src/main/resources/data/hospitals/loot_tables/blocks/t_curtainmainsegment.json"
         ]
       },
-      "path": "~/Curtains/Tan/Straight"
+      "path": "~/Hospitals/Curtains/Tan/Straight"
     },
     {
       "name": "TCurtainrailsegmentBlockAdded",
@@ -10226,7 +10226,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/TCurtainrailsegmentBlockAddedProcedure.java"
         ]
       },
-      "path": "~/Curtains/Tan/Straight"
+      "path": "~/Hospitals/Curtains/Tan/Straight"
     },
     {
       "name": "TCurtainmainsegmentBlockDestroyedByPlayer",
@@ -10257,7 +10257,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/TCurtainmainsegmentBlockDestroyedByPlayerProcedure.java"
         ]
       },
-      "path": "~/Curtains/Tan/Straight"
+      "path": "~/Hospitals/Curtains/Tan/Straight"
     },
     {
       "name": "TCurtainrailsegmentempty",
@@ -10274,7 +10274,7 @@
           "src/main/resources/assets/hospitals/models/block/t_curtainrailsegmentempty.json"
         ]
       },
-      "path": "~/Curtains/Tan/Straight"
+      "path": "~/Hospitals/Curtains/Tan/Straight"
     },
     {
       "name": "TCurtainrailsegmentcorner",
@@ -10291,7 +10291,7 @@
           "src/main/resources/assets/hospitals/models/block/t_curtainrailsegmentcorner.json"
         ]
       },
-      "path": "~/Curtains/Tan/Corner"
+      "path": "~/Hospitals/Curtains/Tan/Corner"
     },
     {
       "name": "TCurtainmainsegmentcorner",
@@ -10308,7 +10308,7 @@
           "src/main/resources/assets/hospitals/models/block/t_curtainmainsegmentcorner.json"
         ]
       },
-      "path": "~/Curtains/Tan/Corner"
+      "path": "~/Hospitals/Curtains/Tan/Corner"
     },
     {
       "name": "TCurtainrailssegmentemptyCorner",
@@ -10325,7 +10325,7 @@
           "src/main/resources/assets/hospitals/models/block/t_curtainrailssegmentempty_corner.json"
         ]
       },
-      "path": "~/Curtains/Tan/Corner"
+      "path": "~/Hospitals/Curtains/Tan/Corner"
     },
     {
       "name": "TCornerCurtainrailsegmentBlockAdded",
@@ -10356,7 +10356,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/TCornerCurtainrailsegmentBlockAddedProcedure.java"
         ]
       },
-      "path": "~/Curtains/Tan/Corner"
+      "path": "~/Hospitals/Curtains/Tan/Corner"
     },
     {
       "name": "TCornerCurtainmainsegmentBlockDestroyedByPlayer",
@@ -10387,7 +10387,7 @@
           "src/main/java/net/derpymeow/hospitals/procedures/TCornerCurtainmainsegmentBlockDestroyedByPlayerProcedure.java"
         ]
       },
-      "path": "~/Curtains/Tan/Corner"
+      "path": "~/Hospitals/Curtains/Tan/Corner"
     }
   ],
   "variable_elements": [
@@ -11706,6 +11706,37 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Curtains",
+            "children": [
+              {
+                "name": "Blue",
+                "children": [
+                  {
+                    "name": "Corner",
+                    "children": []
+                  },
+                  {
+                    "name": "Straight",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Tan",
+                "children": [
+                  {
+                    "name": "Straight",
+                    "children": []
+                  },
+                  {
+                    "name": "Corner",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -11744,37 +11775,6 @@
           {
             "name": "expdevcmds",
             "children": []
-          }
-        ]
-      },
-      {
-        "name": "Curtains",
-        "children": [
-          {
-            "name": "Blue",
-            "children": [
-              {
-                "name": "Corner",
-                "children": []
-              },
-              {
-                "name": "Straight",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "Tan",
-            "children": [
-              {
-                "name": "Straight",
-                "children": []
-              },
-              {
-                "name": "Corner",
-                "children": []
-              }
-            ]
           }
         ]
       }
