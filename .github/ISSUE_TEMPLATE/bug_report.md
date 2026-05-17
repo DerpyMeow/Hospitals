@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: Report Bugs
-title: Issue Title - User Bug Report
+title: User Bug Report
 labels: bug
 assignees: DerpyMeow
 
